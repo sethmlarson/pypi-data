@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "decorator",
+    "future",
+    "google-auth",
+    "google-auth-oauthlib",
+    "gspread (>=3.0.0)",
+    "pandas (>=0.20.0)",
+    "pathlib2 ; python_version == '2.7'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "zope.proxy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

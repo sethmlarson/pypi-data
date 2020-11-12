@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "isodate",
+    "pyparsing",
+    "six"
+  ],
+  "requires_extras": {
+    "html": [
+      "html5lib ; extra == 'html'"
+    ],
+    "sparql": [
+      "requests ; extra == 'sparql'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

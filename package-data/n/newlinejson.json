@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "six"
+  ],
+  "requires_extras": {
+    "cli": [
+      "click (>=3.0); extra == 'cli'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

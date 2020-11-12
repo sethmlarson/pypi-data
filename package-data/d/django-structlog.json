@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "django (>=1.11)",
+    "django-ipware",
+    "structlog"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

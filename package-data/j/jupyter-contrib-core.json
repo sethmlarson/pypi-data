@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "jupyter-core",
+    "notebook (>=4.0)",
+    "setuptools",
+    "tornado",
+    "traitlets"
+  ],
+  "requires_extras": {
+    "testing_utils": [
+      "mock; python_version == '2.7' and extra == 'testing_utils'",
+      "nose; extra == 'testing_utils'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

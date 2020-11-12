@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "django (>=2.2)",
+    "jinja2 (>=2.10)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

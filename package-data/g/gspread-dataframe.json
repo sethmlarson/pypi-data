@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "gspread (>=3.0.0)",
+    "pandas (>=0.14.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

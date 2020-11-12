@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "dicttoxml (==1.7.4)",
+    "requests (>=2.20.0)",
+    "xmltodict (==0.11.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

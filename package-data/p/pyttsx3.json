@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "comtypes ; platform_system == 'Windows'",
+    "pyobjc (>=2.4) ; platform_system == 'Darwin'",
+    "pypiwin32 ; platform_system == 'Windows'",
+    "pywin32 ; platform_system == 'Windows'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

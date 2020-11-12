@@ -1,0 +1,24 @@
+{
+  "requires_dist": [
+    "appdirs (==1.4.3)",
+    "Click (>=6.0)",
+    "deprecation (>=2.0.6)",
+    "dill (==0.2.8.2)",
+    "dill (>=0.2.8.2)",
+    "google-api-python-client (==1.7.11)",
+    "google-auth (==1.5.1)",
+    "google-cloud (==0.34.0)",
+    "google-cloud-container (==0.3.0)",
+    "grpcio (==1.26.0)",
+    "kubernetes (>=9.0.0)",
+    "oauth2client (==4.1.2)",
+    "pyhelm (==2.14.4)",
+    "sklearn (==0.0)",
+    "spacy (==2.2.3)",
+    "tabulate (>=0.8.5)",
+    "torchtext (==0.5.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

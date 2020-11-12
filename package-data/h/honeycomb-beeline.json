@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "libhoney (>=1.7.0)",
+    "wrapt (>=1.12.1,<2.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7",
+  "yanked": []
+}

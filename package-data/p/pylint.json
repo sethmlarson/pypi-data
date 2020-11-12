@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "astroid (<=2.5,>=2.4.0)",
+    "colorama ; sys_platform=='win32'",
+    "isort (<6,>=4.2.5)",
+    "mccabe (<0.7,>=0.6)",
+    "toml (>=0.7.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5.*",
+  "yanked": []
+}

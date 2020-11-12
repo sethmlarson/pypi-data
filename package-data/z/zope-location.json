@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "zope.interface (>=4.0.2)",
+    "zope.proxy (>=4.0.1)",
+    "zope.schema (>=4.2.2)"
+  ],
+  "requires_extras": {
+    "component": [
+      "zope.component (>=4.0.1); extra == 'component'"
+    ],
+    "zcml": [
+      "zope.configuration; extra == 'zcml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

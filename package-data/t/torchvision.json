@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "numpy",
+    "pillow (>=4.1.1)",
+    "torch (==1.7.0)"
+  ],
+  "requires_extras": {
+    "scipy": [
+      "scipy ; extra == 'scipy'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "cfl-common",
+    "django (<=1.11.24,>=1.10.8)",
+    "django-autoconfig (<1.0.0,>=0.3.6)",
+    "django-js-reverse",
+    "djangorestframework (<3.9.0,>=3.8.2)",
+    "eventlet",
+    "hypothesis",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

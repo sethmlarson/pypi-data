@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "astor",
+    "colorama",
+    "numpy",
+    "pybind11 (>=2.5.0)",
+    "sourceinspect (>=0.0.4)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

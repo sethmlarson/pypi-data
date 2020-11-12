@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "dunamai",
+    "future (>=0,<1)",
+    "jinja2 (>=2,<3)",
+    "lxml (>=4.3,<5.0)",
+    "mako (>=1,<2)",
+    "munch (>=2,<3)",
+    "reuse",
+    "solnlib (>=3,<4)",
+    "splunktaucclib (>=4,<5)",
+    "wheel"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.7,<4.0",
+  "yanked": []
+}

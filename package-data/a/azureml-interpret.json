@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "interpret-community (==0.15.*)"
+  ],
+  "requires_extras": {
+    "deep": [
+      "interpret-community[deep]; extra == 'deep'"
+    ],
+    "mimic": [
+      "interpret-community[mimic]; extra == 'mimic'"
+    ],
+    "sample": [
+      "interpret-community[sample]; extra == 'sample'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

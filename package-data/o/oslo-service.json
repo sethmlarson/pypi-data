@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "debtcollector (>=1.2.0)",
+    "eventlet (>=0.25.2)",
+    "fixtures (>=3.0.0)",
+    "greenlet (>=0.4.15)",
+    "oslo.concurrency (>=3.25.0)",
+    "oslo.config (>=5.1.0)",
+    "oslo.i18n (>=3.15.3)",
+    "oslo.log (>=3.36.0)",
+    "oslo.utils (>=3.40.2)",
+    "Paste (>=2.0.2)",
+    "PasteDeploy (>=1.5.0)",
+    "Routes (>=2.3.1)",
+    "WebOb (>=1.7.1)",
+    "Yappi (>=1.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

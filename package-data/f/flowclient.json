@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "httpx",
+    "ipywidgets",
+    "merge-args",
+    "pandas",
+    "pyjwt",
+    "tqdm",
+    "ujson"
+  ],
+  "requires_extras": {
+    "http2": [
+      "httpx[http2] ; extra == 'http2'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

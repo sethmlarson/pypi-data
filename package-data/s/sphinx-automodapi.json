@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "sphinx (>=1.7)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

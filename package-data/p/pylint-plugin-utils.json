@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "pylint (>=1.7)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

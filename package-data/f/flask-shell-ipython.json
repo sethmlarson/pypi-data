@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "click",
+    "flask (>=1.0)",
+    "IPython (>=5.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

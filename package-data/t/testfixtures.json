@@ -1,0 +1,12 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "build": [
+      "setuptools-git ; extra == 'build'",
+      "twine ; extra == 'build'",
+      "wheel ; extra == 'build'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "dripy",
+    "Jinja2",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy",
+    "thornpy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

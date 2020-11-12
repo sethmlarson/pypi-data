@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "netaddr",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

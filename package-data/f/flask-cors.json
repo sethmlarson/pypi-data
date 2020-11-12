@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Flask (>=0.9)",
+    "Six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "apache-beam (<3.0.0,>=2.8.0)",
+    "kafka-python (>=2.0.1)",
+    "pg8000 (<2.0.0,>=1.12.4)",
+    "PyMySQL (<2.0.0,>=0.9.3)",
+    "SQLAlchemy (<2.0.0,>=1.2.14)",
+    "sqlalchemy-utils (<0.34,>=0.33.11)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

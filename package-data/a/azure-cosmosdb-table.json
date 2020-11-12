@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "azure-common (>=1.1.5)",
+    "azure-cosmosdb-nspkg (>=2.0.0)",
+    "cryptography",
+    "futures; python_version <= '2.7'",
+    "python-dateutil",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

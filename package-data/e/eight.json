@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "future (<0.19,>=0.16)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

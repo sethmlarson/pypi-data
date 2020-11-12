@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "pytz",
+    "screen",
+    "xlwt"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

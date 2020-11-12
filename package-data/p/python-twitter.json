@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "future",
+    "requests",
+    "requests-oauthlib"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

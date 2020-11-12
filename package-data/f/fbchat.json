@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "attrs>=19.1",
+    "beautifulsoup4~=4.0",
+    "paho-mqtt~=1.5",
+    "requests~=2.19"
+  ],
+  "requires_extras": {
+    "lint": [
+      "black ; extra == 'lint'"
+    ]
+  },
+  "requires_python": ">=3.5, <4.0",
+  "yanked": []
+}

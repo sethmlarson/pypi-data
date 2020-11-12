@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "brotlipy",
+    "decorator",
+    "Flask",
+    "itsdangerous",
+    "MarkupSafe",
+    "raven[flask]",
+    "six",
+    "werkzeug (>=0.14.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

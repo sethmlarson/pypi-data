@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "coloredlogs (>=10,<15)",
+    "requests (>=2.23,<3.0)",
+    "sanic (>=19.12.2,<21.0.0)",
+    "sanic-cors (>=0.10.0,<0.11.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6,<3.9",
+  "yanked": []
+}

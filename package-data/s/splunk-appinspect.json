@@ -1,0 +1,26 @@
+{
+  "requires_dist": [
+    "beautifulsoup4 (==4.8.1)",
+    "chardet (==3.0.4)",
+    "click (==7.0)",
+    "enum34 (==1.1.6) ; python_version < '3.4'",
+    "future (==0.17.1)",
+    "futures-then (==0.1.1)",
+    "ipaddress (==1.0.22)",
+    "jinja2 (==2.11.1)",
+    "jsoncomment (==0.3.3)",
+    "langdetect (==1.0.7)",
+    "lxml (==4.5.1)",
+    "mako (==1.0.12)",
+    "Markdown (==3.1.1)",
+    "painter (==0.3.1)",
+    "pillow (==7.1.2)",
+    "python-magic (==0.4.18)",
+    "PyYAML (==5.3)",
+    "regex (==2019.6.8)",
+    "six (==1.12.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

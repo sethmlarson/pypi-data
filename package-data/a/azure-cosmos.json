@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "azure-core (<2.0.0,>=1.0.0)",
+    "azure-nspkg ; python_version<'3.0'",
+    "enum34 (>=1.0.4) ; python_version<'3.4'",
+    "six (>=1.6)",
+    "typing ; python_version<'3.5'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

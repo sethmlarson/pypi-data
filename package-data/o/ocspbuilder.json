@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "asn1crypto (>=0.18.1)",
+    "oscrypto (>=0.16.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,27 @@
+{
+  "requires_dist": [
+    "apispec-oneofschema",
+    "cachetools",
+    "finist",
+    "get-secret-or-env-var",
+    "marshmallow (>=3.0.0)",
+    "marshmallow-oneofschema (>=2.0.0)",
+    "networkx",
+    "numpy",
+    "pandas",
+    "pglast",
+    "psycopg2-binary",
+    "python-dateutil",
+    "python-louvain",
+    "python-rapidjson",
+    "pytz",
+    "pyzmq",
+    "redis",
+    "shapely",
+    "SQLAlchemy",
+    "structlog"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "entrypoints",
+    "jinja2",
+    "jsonschema",
+    "numpy",
+    "pandas (>=0.18)",
+    "toolz"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

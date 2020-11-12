@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "openpyxl (>=2.6.1)",
+    "pyexcel-io (>=0.6.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

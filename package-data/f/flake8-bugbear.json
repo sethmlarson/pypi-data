@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "attrs (>=19.2.0)",
+    "flake8 (>=3.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

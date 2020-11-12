@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "six"
+  ],
+  "requires_extras": {
+    "cache": [
+      "django-cache-url ; extra == 'cache'"
+    ],
+    "database": [
+      "dj-database-url ; extra == 'database'"
+    ],
+    "email": [
+      "dj-email-url ; extra == 'email'"
+    ],
+    "search": [
+      "dj-search-url ; extra == 'search'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

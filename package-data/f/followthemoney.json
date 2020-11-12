@@ -1,0 +1,27 @@
+{
+  "requires_dist": [
+    "babel",
+    "banal (<1.1.0,>=1.0.1)",
+    "click (>=7.0)",
+    "countrynames (>=1.7.0)",
+    "languagecodes (>=1.0.7)",
+    "networkx (<2.6,>=2.5)",
+    "normality (>=2.1.1)",
+    "openpyxl (>=3.0.5)",
+    "pantomime (>=0.4.0)",
+    "phonenumbers (>=8.9.11)",
+    "pymisp (>=2.4.126)",
+    "python-levenshtein (>=0.12.0)",
+    "python-stdnum (>=1.10)",
+    "pytz (>=2020.1)",
+    "pyyaml",
+    "rdflib (<5.1.0,>=5.0.0)",
+    "requests (>=2.21.0)",
+    "sqlalchemy (>=1.2.0)",
+    "stringcase (>=1.2.0)",
+    "urlnormalizer (>=1.2.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

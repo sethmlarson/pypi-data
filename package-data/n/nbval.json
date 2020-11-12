@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "coverage",
+    "ipykernel",
+    "jupyter-client",
+    "nbformat",
+    "pytest (>=2.8)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

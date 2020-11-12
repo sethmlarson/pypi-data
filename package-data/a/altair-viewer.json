@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "altair",
+    "altair-data-server (>=0.4.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

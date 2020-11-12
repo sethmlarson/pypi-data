@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": [
+    "0.1.8"
+  ]
+}

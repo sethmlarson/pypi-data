@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "django (>=2.2)"
+  ],
+  "requires_extras": {
+    "qrcode": [
+      "qrcode ; extra == 'qrcode'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

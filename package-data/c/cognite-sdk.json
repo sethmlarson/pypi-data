@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "pandas",
+    "requests (<3.0.0,>=2.21.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

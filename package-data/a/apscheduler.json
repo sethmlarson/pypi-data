@@ -1,0 +1,41 @@
+{
+  "requires_dist": [
+    "funcsigs ; python_version == '2.7'",
+    "futures ; python_version == '2.7'",
+    "pytz",
+    "setuptools (>=0.7)",
+    "six (>=1.4.0)",
+    "tzlocal (>=1.2)"
+  ],
+  "requires_extras": {
+    "asyncio": [
+      "trollius ; (python_version == '2.7') and extra == 'asyncio'"
+    ],
+    "gevent": [
+      "gevent ; extra == 'gevent'"
+    ],
+    "mongodb": [
+      "pymongo (>=2.8) ; extra == 'mongodb'"
+    ],
+    "redis": [
+      "redis (>=3.0) ; extra == 'redis'"
+    ],
+    "rethinkdb": [
+      "rethinkdb (>=2.4.0) ; extra == 'rethinkdb'"
+    ],
+    "sqlalchemy": [
+      "sqlalchemy (>=0.8) ; extra == 'sqlalchemy'"
+    ],
+    "tornado": [
+      "tornado (>=4.3) ; extra == 'tornado'"
+    ],
+    "twisted": [
+      "twisted ; extra == 'twisted'"
+    ],
+    "zookeeper": [
+      "kazoo ; extra == 'zookeeper'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

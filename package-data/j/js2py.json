@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "pyjsparser (>=2.5.1)",
+    "six (>=1.10)",
+    "tzlocal (>=1.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

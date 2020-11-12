@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "msal (<2.0.0,>=0.4.1)",
+    "pathlib2 ; python_version < '3.0'",
+    "portalocker (~=1.0) ; platform_system != 'Windows'",
+    "portalocker (~=1.6) ; platform_system == 'Windows'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

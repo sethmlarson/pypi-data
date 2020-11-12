@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "anyconfig",
+    "jinja2"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "culebratester-client (>=2.0.6)",
+    "matplotlib",
+    "numpy",
+    "requests",
+    "setuptools"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

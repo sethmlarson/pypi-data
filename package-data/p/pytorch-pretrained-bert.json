@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "boto3",
+    "numpy",
+    "regex",
+    "requests",
+    "torch (>=0.4.1)",
+    "tqdm"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

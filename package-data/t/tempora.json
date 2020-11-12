@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "jaraco.functools (>=1.20)",
+    "pytz"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

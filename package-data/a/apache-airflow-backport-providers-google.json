@@ -1,0 +1,72 @@
+{
+  "requires_dist": [
+    "apache-airflow (~=1.10)",
+    "google-ads (>=4.0.0)",
+    "google-api-python-client (<2.0.0,>=1.6.0)",
+    "google-auth (<2.0.0,>=1.0.0)",
+    "google-auth-httplib2 (>=0.0.1)",
+    "google-cloud-automl (<2.0.0,>=0.4.0)",
+    "google-cloud-bigquery-datatransfer (<2.0.0,>=0.4.0)",
+    "google-cloud-bigtable (<2.0.0,>=1.0.0)",
+    "google-cloud-container (<2.0.0,>=0.1.1)",
+    "google-cloud-datacatalog (<0.8,>=0.5.0)",
+    "google-cloud-dataproc (<2.0.0,>=1.0.1)",
+    "google-cloud-dlp (<2.0.0,>=0.11.0)",
+    "google-cloud-kms (<2.0.0,>=1.2.1)",
+    "google-cloud-language (<2.0.0,>=1.1.1)",
+    "google-cloud-logging (<2.0.0,>=1.14.0)",
+    "google-cloud-memcache (>=0.2.0)",
+    "google-cloud-monitoring (<2.0.0,>=0.34.0)",
+    "google-cloud-pubsub (<2.0.0,>=1.0.0)",
+    "google-cloud-redis (<2.0.0,>=0.3.0)",
+    "google-cloud-secret-manager (<2.0.0,>=0.2.0)",
+    "google-cloud-spanner (<2.0.0,>=1.10.0)",
+    "google-cloud-speech (<2.0.0,>=0.36.3)",
+    "google-cloud-storage (<2.0.0,>=1.16)",
+    "google-cloud-tasks (<2.0.0,>=1.2.1)",
+    "google-cloud-texttospeech (<2.0.0,>=0.4.0)",
+    "google-cloud-translate (<2.0.0,>=1.5.0)",
+    "google-cloud-videointelligence (<2.0.0,>=1.7.0)",
+    "google-cloud-vision (<2.0.0,>=0.35.2)",
+    "grpcio-gcp (>=0.2.2)",
+    "pandas-gbq",
+    "PyOpenSSL"
+  ],
+  "requires_extras": {
+    "amazon": [
+      "apache-airflow-backport-providers-amazon ; extra == 'amazon'"
+    ],
+    "apache.cassandra": [
+      "apache-airflow-backport-providers-apache-cassandra ; extra == 'apache.cassandra'"
+    ],
+    "cncf.kubernetes": [
+      "apache-airflow-backport-providers-cncf-kubernetes ; extra == 'cncf.kubernetes'"
+    ],
+    "facebook": [
+      "apache-airflow-backport-providers-facebook ; extra == 'facebook'"
+    ],
+    "microsoft.azure": [
+      "apache-airflow-backport-providers-microsoft-azure ; extra == 'microsoft.azure'"
+    ],
+    "microsoft.mssql": [
+      "apache-airflow-backport-providers-microsoft-mssql ; extra == 'microsoft.mssql'"
+    ],
+    "mysql": [
+      "apache-airflow-backport-providers-mysql ; extra == 'mysql'"
+    ],
+    "postgres": [
+      "apache-airflow-backport-providers-postgres ; extra == 'postgres'"
+    ],
+    "presto": [
+      "apache-airflow-backport-providers-presto ; extra == 'presto'"
+    ],
+    "salesforce": [
+      "apache-airflow-backport-providers-salesforce ; extra == 'salesforce'"
+    ],
+    "sftp": [
+      "apache-airflow-backport-providers-sftp ; extra == 'sftp'"
+    ]
+  },
+  "requires_python": "~=3.6",
+  "yanked": []
+}

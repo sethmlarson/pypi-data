@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "dataclasses (>=0.6) ; python_version < '3.7'"
+  ],
+  "requires_extras": {
+    "dotenv": [
+      "python-dotenv (>=0.10.4) ; extra == 'dotenv'"
+    ],
+    "email": [
+      "email-validator (>=1.0.3) ; extra == 'email'"
+    ],
+    "typing_extensions": [
+      "typing-extensions (>=3.7.2) ; extra == 'typing_extensions'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "lxml",
+    "pandas (>=0.23)",
+    "requests (>=2.19.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

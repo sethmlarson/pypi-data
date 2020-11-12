@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "pandas",
+    "usaddress"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "aiohttp (>=3.6.2,<4.0.0)",
+    "async_generator (>=1.10,<2.0)",
+    "pytest (>=5.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6,<4.0",
+  "yanked": []
+}

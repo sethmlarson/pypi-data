@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "google-api-core[grpc] (<2.0.0dev,>=1.21.2)",
+    "grpc-google-iam-v1 (<0.13dev,>=0.12.3)",
+    "libcst (>=0.2.5)",
+    "proto-plus (>=1.4.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

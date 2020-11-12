@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "boto3 (>=1.4.0)",
+    "simplejson (>=3.10.0)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

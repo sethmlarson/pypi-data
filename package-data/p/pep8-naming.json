@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "flake8-polyfill (<2,>=1.0.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

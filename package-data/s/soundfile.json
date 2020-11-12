@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "cffi (>=1.0)"
+  ],
+  "requires_extras": {
+    "numpy": [
+      "numpy ; extra == 'numpy'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "cryptography",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

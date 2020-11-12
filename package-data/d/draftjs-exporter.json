@@ -1,0 +1,14 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "html5lib": [
+      "beautifulsoup4 (<5,>=4.4.1) ; extra == 'html5lib'",
+      "html5lib (<2,>=0.999) ; extra == 'html5lib'"
+    ],
+    "lxml": [
+      "lxml (<5,>=4.2.0) ; extra == 'lxml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

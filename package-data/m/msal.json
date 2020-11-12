@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "cryptography (<4,>=0.6)",
+    "PyJWT[crypto] (<2,>=1.0.0)",
+    "requests (<3,>=2.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

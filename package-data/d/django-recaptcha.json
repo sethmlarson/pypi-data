@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "django (<4.0,>1.11)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

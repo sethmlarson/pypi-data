@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "certifi",
+    "protobuf (<=4.0.0,>=3.7.1)",
+    "six (>=1.11)",
+    "websocket-client (>=0.56.0)"
+  ],
+  "requires_extras": {
+    "ssl_backport": [
+      "backports.ssl ; extra == 'ssl_backport'",
+      "backports.ssl-match-hostname ; extra == 'ssl_backport'",
+      "PyOpenSSL ; extra == 'ssl_backport'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

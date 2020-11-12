@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "argparse (==1.4.0)",
+    "cssutils (==1.0.2)",
+    "defusedxml (==0.5.0)",
+    "fastchardet (==0.2.0)",
+    "mock (==2.0.0)",
+    "natsort (==5.3.3)",
+    "pytest (==3.7.1)",
+    "rdflib (==3.4.0)",
+    "requests (==2.19.1)",
+    "simplejson (==3.16.0)",
+    "spidermonkey (==58.0a1.post2)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

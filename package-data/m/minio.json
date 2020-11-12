@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "certifi",
+    "configparser",
+    "future ; python_version < '3.0'",
+    "python-dateutil",
+    "pytz",
+    "urllib3"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

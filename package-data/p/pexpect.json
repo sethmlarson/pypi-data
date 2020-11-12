@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "ptyprocess (>=0.5)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

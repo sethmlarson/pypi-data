@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "send2trash"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

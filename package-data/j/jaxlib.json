@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "absl-py",
+    "flatbuffers",
+    "numpy (>=1.12)",
+    "scipy"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

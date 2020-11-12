@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "cachepath",
+    "colorama",
+    "funcsigs",
+    "pathlib2"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

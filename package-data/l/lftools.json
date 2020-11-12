@@ -1,0 +1,62 @@
+{
+  "requires_dist": [
+    "appdirs (==1.4.3)",
+    "aspy.yaml (==1.3.0)",
+    "attrs (==19.3.0)",
+    "beautifulsoup4 (==4.8.2)",
+    "boto3 (==1.11.6)",
+    "botocore (==1.14.6)",
+    "bs4 (==0.0.1)",
+    "certifi (==2019.11.28)",
+    "cfgv (==2.0.1)",
+    "chardet (==3.0.4)",
+    "click (==7.1)",
+    "defusedxml (==0.6.0)",
+    "Deprecated (==1.2.7)",
+    "dnspython (==1.16.0)",
+    "docker (==4.2.0)",
+    "email-validator (==1.0.5)",
+    "filelock (==3.0.12)",
+    "httplib2 (==0.17.0)",
+    "identify (==1.4.11)",
+    "idna (==2.9)",
+    "jsonschema (==3.2.0)",
+    "lxml (==4.5.0)",
+    "multi-key-dict (==2.0.3)",
+    "nodeenv (==1.3.5)",
+    "oauth2client (==4.1.3)",
+    "pbr (==5.4.4)",
+    "pyasn1 (==0.4.8)",
+    "pyasn1-modules (==0.2.8)",
+    "pygerrit2 (==2.0.10)",
+    "PyGithub (==1.46)",
+    "PyJWT (==1.7.1)",
+    "pyrsistent (==0.15.7)",
+    "python-jenkins (==1.7.0)",
+    "PyYAML (==5.3)",
+    "requests (==2.23.0)",
+    "rsa (==4.0)",
+    "ruamel.yaml (==0.16.10)",
+    "ruamel.yaml.clib (==0.2.0)",
+    "six (==1.14.0)",
+    "soupsieve (==2.0)",
+    "tabulate (==0.8.6)",
+    "toml (==0.10.0)",
+    "tqdm (==4.43.0)",
+    "urllib3 (==1.25.8)",
+    "websocket-client (==0.57.0)",
+    "wrapt (==1.12.1)",
+    "xdg (==3.0.2)"
+  ],
+  "requires_extras": {
+    "ldap": [
+      "python-ldap (~=3.1.0) ; extra == 'ldap'"
+    ],
+    "openstack": [
+      "osc-lib (~=2.2.0) ; extra == 'openstack'",
+      "shade (~=1.27.1) ; extra == 'openstack'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

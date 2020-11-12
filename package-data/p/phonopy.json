@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "h5py",
+    "matplotlib",
+    "numpy",
+    "PyYAML",
+    "spglib"
+  ],
+  "requires_extras": {
+    "cp2k": [
+      "cp2k-input-tools ; extra == 'cp2k'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "lxml",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

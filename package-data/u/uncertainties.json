@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "future"
+  ],
+  "requires_extras": {
+    "optional": [
+      "numpy ; extra == 'optional'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

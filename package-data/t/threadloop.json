@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "tornado"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

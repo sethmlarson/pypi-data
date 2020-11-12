@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "azureml-core (~=1.18.0)",
+    "jsonpickle",
+    "mlflow (>=1.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

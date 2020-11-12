@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "asgiref (<4,>=3.2.10)",
+    "daphne (<4,>=3.0)",
+    "Django (>=2.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

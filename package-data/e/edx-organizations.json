@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "django",
+    "django-model-utils",
+    "django-simple-history",
+    "djangorestframework",
+    "edx-drf-extensions",
+    "edx-opaque-keys (>=0.1.2)",
+    "Pillow"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

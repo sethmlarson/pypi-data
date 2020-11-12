@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "portalocker",
+    "typing ; python_version < '3.5'"
+  ],
+  "requires_extras": {
+    "ja": [
+      "ipadic (<2.0,>=1.0) ; extra == 'ja'",
+      "mecab-python3 (<2.0,>=1.0) ; extra == 'ja'"
+    ]
+  },
+  "requires_python": ">=3",
+  "yanked": []
+}

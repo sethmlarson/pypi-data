@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "ordered-set (>=4.0.1)"
+  ],
+  "requires_extras": {
+    "murmur": [
+      "mmh3 ; extra == 'murmur'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "blessed (==1.17.6)",
+    "python-editor (==1.0.4)",
+    "readchar (==2.0.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "gevent",
+    "gevent-websocket (>=0.10.1)",
+    "graphene (>=2.1.3)",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

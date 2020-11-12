@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "argparse ; python_version < '2.7'",
+    "python-dateutil",
+    "pytz"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "dataclasses (==0.6)",
+    "dataclasses-json (==0.3.7)",
+    "elasticsearch (==7.1.0)",
+    "scipy (==1.4.1)",
+    "tqdm (==4.45.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

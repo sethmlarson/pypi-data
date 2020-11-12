@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Flask",
+    "futures (>=3.1.1) ; python_version == '2.7'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "zope.i18nmessageid",
+    "zope.interface"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

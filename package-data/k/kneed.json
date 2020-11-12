@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "matplotlib",
+    "numpy (>=1.14.2)",
+    "scipy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "construct (==2.9.33)",
+    "numpy (~=1.18)",
+    "pybase64",
+    "pyftdi (==0.13.*)",
+    "pylibftdi",
+    "pyserial",
+    "python-rapidjson (==0.9.1)",
+    "requests (==2.20.*)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "aiohttp (<4.0.0,>=3.7.2)",
+    "Babel (>=2.8.0)",
+    "certifi (>=2020.6.20)"
+  ],
+  "requires_extras": {
+    "fast": [
+      "ujson (>=1.35) ; extra == 'fast'",
+      "uvloop (<0.15.0,>=0.14.0) ; extra == 'fast'"
+    ],
+    "proxy": [
+      "aiohttp-socks (<0.6.0,>=0.5.3) ; extra == 'proxy'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

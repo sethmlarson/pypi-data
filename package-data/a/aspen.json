@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "dependency-injection (>=1.1.0)",
+    "filesystem-tree (>=1.0.1)",
+    "python-mimeparse (>=0.1.4)",
+    "scandir ; python_version < '3.5'",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

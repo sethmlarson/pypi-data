@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "numpy",
+    "scipy"
+  ],
+  "requires_extras": {
+    "display": [
+      "matplotlib ; extra == 'display'"
+    ]
+  },
+  "requires_python": ">=3",
+  "yanked": []
+}

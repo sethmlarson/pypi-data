@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "six",
+    "transaction",
+    "zope.component",
+    "zope.i18n",
+    "zope.i18nmessageid",
+    "zope.interface (>=4.0.4)",
+    "zope.location (>=3.7.0)",
+    "zope.proxy",
+    "zope.publisher",
+    "zope.security"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+  "yanked": []
+}

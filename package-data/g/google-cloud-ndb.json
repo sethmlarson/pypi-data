@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "google-cloud-datastore (<2.0.0dev,>=1.7.0)",
+    "pymemcache",
+    "redis"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

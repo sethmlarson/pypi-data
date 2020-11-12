@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "imgaug (>=0.4.0)",
+    "numpy (>=1.11.1)",
+    "opencv-python-headless (>=4.1.1)",
+    "PyYAML",
+    "scikit-image (>=0.16.1)",
+    "scipy"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

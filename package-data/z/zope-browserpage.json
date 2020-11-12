@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "zope.component (>=3.7)",
+    "zope.configuration",
+    "zope.interface",
+    "zope.pagetemplate",
+    "zope.publisher (>=3.8)",
+    "zope.schema",
+    "zope.security",
+    "zope.tal (>=4.2.0)",
+    "zope.traversing"
+  ],
+  "requires_extras": {
+    "menu": [
+      "zope.browsermenu; extra == 'menu'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

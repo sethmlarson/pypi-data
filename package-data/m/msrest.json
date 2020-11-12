@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "certifi (>=2017.4.17)",
+    "enum34 (>=1.0.4) ; python_version<'3.4'",
+    "isodate (>=0.6.0)",
+    "requests (~=2.16)",
+    "requests-oauthlib (>=0.5.0)",
+    "typing ; python_version<'3.5'"
+  ],
+  "requires_extras": {
+    "async": [
+      "aiodns ; (python_version>='3.5') and extra == 'async'",
+      "aiohttp (>=3.0) ; (python_version>='3.5') and extra == 'async'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

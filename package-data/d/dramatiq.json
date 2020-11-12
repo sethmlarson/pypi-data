@@ -1,0 +1,22 @@
+{
+  "requires_dist": [
+    "prometheus-client (>=0.2)"
+  ],
+  "requires_extras": {
+    "memcached": [
+      "pylibmc (<2.0,>=1.5) ; extra == 'memcached'"
+    ],
+    "rabbitmq": [
+      "pika (<2.0,>=1.0) ; extra == 'rabbitmq'"
+    ],
+    "redis": [
+      "redis (<4.0,>=2.0) ; extra == 'redis'"
+    ],
+    "watch": [
+      "watchdog (<0.9,>=0.8) ; extra == 'watch'",
+      "watchdog-gevent (==0.1) ; extra == 'watch'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "enum-compat",
+    "unicodecsv"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

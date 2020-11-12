@@ -1,0 +1,25 @@
+{
+  "requires_dist": [
+    "boto3 (<2.0,>=1.14)",
+    "dataclasses ; python_version < '3.7'",
+    "filelock (<3.1,>=3.0)",
+    "h5py",
+    "jsonnet (>=0.10.0) ; sys_platform != 'win32'",
+    "jsonpickle",
+    "nltk",
+    "numpy",
+    "overrides (==3.1.0)",
+    "pytest",
+    "requests (>=2.18)",
+    "scikit-learn",
+    "scipy",
+    "spacy (<2.4,>=2.1.0)",
+    "tensorboardX (>=1.2)",
+    "torch (<1.8.0,>=1.6.0)",
+    "tqdm (>=4.19)",
+    "transformers (<3.5,>=3.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6.1",
+  "yanked": []
+}

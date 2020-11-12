@@ -1,0 +1,13 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "ini": [
+      "configobj ; extra == 'ini'"
+    ],
+    "yaml": [
+      "PyYAML ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

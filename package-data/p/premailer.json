@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "cachetools",
+    "cssselect",
+    "cssutils",
+    "lxml",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

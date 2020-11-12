@@ -1,0 +1,28 @@
+{
+  "requires_dist": [
+    "argparse; python_version < '2.7'",
+    "enum34; python_version < '3.4'",
+    "importlib; python_version < '2.7'",
+    "ordereddict; python_version < '2.7'",
+    "parse (>=1.8.2)",
+    "parse-type (>=0.4.2)",
+    "six (>=1.11)",
+    "traceback2; python_version < '3.0'"
+  ],
+  "requires_extras": {
+    "develop": [
+      "coverage; extra == 'develop'",
+      "invoke (>=0.21.0); extra == 'develop'",
+      "modernize (>=0.5); extra == 'develop'",
+      "path.py (>=8.1.2); extra == 'develop'",
+      "pathlib; extra == 'develop'",
+      "pycmd; extra == 'develop'",
+      "pylint; extra == 'develop'",
+      "pytest (>=3.0); extra == 'develop'",
+      "pytest-cov; extra == 'develop'",
+      "tox; extra == 'develop'"
+    ]
+  },
+  "requires_python": ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*",
+  "yanked": []
+}

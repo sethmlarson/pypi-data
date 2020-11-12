@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "functools32 ; python_version < '3.2'"
+  ],
+  "requires_extras": {
+    "develop": [
+      "sphinx ; extra == 'develop'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

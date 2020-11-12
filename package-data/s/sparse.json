@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "numba (>=0.49)",
+    "numpy",
+    "scipy (>=0.19)"
+  ],
+  "requires_extras": {
+    "tox": [
+      "dask[array] ; extra == 'tox'",
+      "pytest (>=3.5) ; extra == 'tox'",
+      "pytest-black ; extra == 'tox'",
+      "pytest-cov ; extra == 'tox'",
+      "tox ; extra == 'tox'"
+    ]
+  },
+  "requires_python": ">=3.6, <4",
+  "yanked": []
+}

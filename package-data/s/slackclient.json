@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "aiohttp (<4.0.0,>3.5.2)"
+  ],
+  "requires_extras": {
+    "optional": [
+      "aiodns (>1.0) ; extra == 'optional'"
+    ]
+  },
+  "requires_python": ">=3.6.0",
+  "yanked": []
+}

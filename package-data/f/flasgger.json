@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "Flask (>=0.10)",
+    "jsonschema (>=3.0.1)",
+    "mistune",
+    "PyYAML (>=3.0)",
+    "six (>=1.10.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

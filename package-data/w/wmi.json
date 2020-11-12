@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "pywin32"
+  ],
+  "requires_extras": {
+    "package": [
+      "twine ; extra == 'package'",
+      "wheel ; extra == 'package'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

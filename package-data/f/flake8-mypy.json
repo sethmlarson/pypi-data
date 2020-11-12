@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "attrs",
+    "flake8 (>=3.0.0)",
+    "mypy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

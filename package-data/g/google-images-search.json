@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "click (~=7.0)",
+    "colorama (~=0.4)",
+    "google-api-python-client (~=1.7)",
+    "Pillow (~=7.1.0)",
+    "pyfiglet (~=0.8)",
+    "python-resize-image (~=1.1)",
+    "requests (~=2.21)",
+    "six (~=1.12)",
+    "termcolor (~=1.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "msgpack (>=0.5.2)",
+    "oslo.utils (>=3.33.0)",
+    "pbr (!=2.1.0,>=2.0.0)",
+    "pytz (>=2013.6)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "ConfigSpace (<=0.4.11)",
+    "cython",
+    "dask (>=2.6.0)",
+    "distributed (>=2.6.0)",
+    "matplotlib",
+    "nose",
+    "numpy",
+    "paramiko (~=2.4)",
+    "requests",
+    "torch (>=1.0.0)",
+    "tornado (>=5.0.1)",
+    "tqdm (>=4.38.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

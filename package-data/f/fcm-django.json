@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Django",
+    "pyfcm (==1.4.7)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,25 @@
+{
+  "requires_dist": [
+    "beautifulsoup4 (>=4.9.1)",
+    "decorator (>=4.4.2)",
+    "demjson (>=2.2.4)",
+    "html5lib (>=1.0.1)",
+    "jsonpath (>=0.82)",
+    "lxml (>=4.2.1)",
+    "matplotlib (>=3.1.1)",
+    "numpy (>=1.15.4)",
+    "openpyxl (>=3.0.3)",
+    "pandas (>=0.25)",
+    "pillow (>=6.2.0)",
+    "py-mini-racer (>=0.4.0)",
+    "pypinyin (>=0.35.0)",
+    "requests (>=2.22.0)",
+    "tabulate (>=0.8.6)",
+    "tqdm (>=4.43.0)",
+    "websocket-client (>=0.56.0)",
+    "xlrd (>=1.2.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.7",
+  "yanked": []
+}

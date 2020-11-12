@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "aiohttp (<4.0.0,>=3.6.2)",
+    "maxminddb (<3.0.0,>=2.0.0)",
+    "requests (<3.0.0,>=2.24.0)",
+    "urllib3 (<2.0.0,>=1.25.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

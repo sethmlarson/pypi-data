@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "jsonpath-rw (>=1.2.0)",
+    "pbr (>=1.8)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

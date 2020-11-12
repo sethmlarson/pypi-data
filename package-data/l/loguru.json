@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "aiocontextvars (>=0.2.0) ; python_version < '3.7'",
+    "colorama (>=0.3.4) ; sys_platform == 'win32'",
+    "win32-setctime (>=1.0.0) ; sys_platform == 'win32'"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

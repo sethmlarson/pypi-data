@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "async-timeout",
+    "hiredis"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "aiohttp (>=3.3.1)",
+    "aioitertools (>=0.5.1)",
+    "botocore (<1.17.45,>=1.17.44)",
+    "wrapt (>=1.10.10)"
+  ],
+  "requires_extras": {
+    "awscli": [
+      "awscli (==1.18.121) ; extra == 'awscli'"
+    ],
+    "boto3": [
+      "boto3 (==1.14.44) ; extra == 'boto3'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

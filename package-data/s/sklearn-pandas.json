@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "numpy (>=1.18.1)",
+    "pandas (>=1.0.5)",
+    "scikit-learn (>=0.23.0)",
+    "scipy (>=1.4.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

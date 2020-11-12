@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "colorama (==0.4.1) ; python_version <= '3.4'",
+    "colorama (>=0.4.1) ; python_version > '3.4'",
+    "future",
+    "mando (<0.7,>=0.6)"
+  ],
+  "requires_extras": {
+    "flake8": [
+      "flake8-polyfill ; extra == 'flake8'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

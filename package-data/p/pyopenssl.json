@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "cryptography (>=2.8)",
+    "six (>=1.5.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

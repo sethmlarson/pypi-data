@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "aiobotocore (>=1.0.1)",
+    "fsspec (>=0.8.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">= 3.6",
+  "yanked": []
+}

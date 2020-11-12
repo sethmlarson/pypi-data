@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "certifi",
+    "python-dateutil",
+    "six (>=1.10)",
+    "urllib3 (>=1.15)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

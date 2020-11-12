@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "twitter.common.collections (==0.3.11)",
+    "twitter.common.lang (==0.3.11)",
+    "twitter.common.log (==0.3.11)",
+    "twitter.common.options (==0.3.11)",
+    "twitter.common.process (==0.3.11)",
+    "twitter.common.util (==0.3.11)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

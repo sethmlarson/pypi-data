@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "smmap (>=3.0.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

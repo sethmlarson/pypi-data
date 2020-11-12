@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "sqlalchemy",
+    "typing (>=3.6) ; python_version < '3.7'"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5.0",
+  "yanked": []
+}

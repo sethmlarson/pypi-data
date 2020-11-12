@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "zope.component",
+    "zope.interface",
+    "zope.location",
+    "zope.proxy"
+  ],
+  "requires_extras": {
+    "btrees": [
+      "BTrees; extra == 'btrees'",
+      "persistent; extra == 'btrees'"
+    ],
+    "zcml": [
+      "zope.component[zcml]; extra == 'zcml'",
+      "zope.configuration; extra == 'zcml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "Django (>=1.11)",
+    "graphene-django (>=2.1.5)",
+    "graphql-core (<3,>=2.1)",
+    "PyJWT (>=1.5.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

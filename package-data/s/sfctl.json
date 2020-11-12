@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "adal",
+    "applicationinsights",
+    "azure-servicefabric (==7.1.0.45)",
+    "future",
+    "knack (==0.6.3)",
+    "msrest (>=0.5.0)",
+    "msrestazure",
+    "portalocker",
+    "psutil",
+    "requests",
+    "sfmergeutility (==0.1.6)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7,!=3.4,!=3.3,!=3.2,!=3.1,!=3.0,<4",
+  "yanked": []
+}

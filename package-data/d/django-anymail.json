@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "django (>=2.0)",
+    "requests (>=2.4.3)"
+  ],
+  "requires_extras": {
+    "amazon_ses": [
+      "boto3 ; extra == 'amazon_ses'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

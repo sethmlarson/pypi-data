@@ -1,0 +1,29 @@
+{
+  "requires_dist": [
+    "numpy",
+    "setuptools"
+  ],
+  "requires_extras": {
+    "easy": [
+      "chardet ; extra == 'easy'",
+      "colorlog ; extra == 'easy'",
+      "jsonschema ; extra == 'easy'",
+      "lxml ; extra == 'easy'",
+      "msgpack ; extra == 'easy'",
+      "networkx ; extra == 'easy'",
+      "pillow ; extra == 'easy'",
+      "pycollada ; extra == 'easy'",
+      "pyglet ; extra == 'easy'",
+      "requests ; extra == 'easy'",
+      "rtree ; extra == 'easy'",
+      "scipy ; extra == 'easy'",
+      "setuptools ; extra == 'easy'",
+      "shapely ; extra == 'easy'",
+      "svg.path ; extra == 'easy'",
+      "sympy ; extra == 'easy'",
+      "xxhash ; extra == 'easy'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "geojson (==2.5.0)",
+    "requests (==2.22.0)",
+    "Shapely (==1.6.2.post1)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">3.6",
+  "yanked": []
+}

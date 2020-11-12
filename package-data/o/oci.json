@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "certifi",
+    "configparser (==4.0.2)",
+    "cryptography (==2.8)",
+    "pyOpenSSL (<=19.1.0,>=17.5.0)",
+    "python-dateutil (<3.0.0,>=2.5.3)",
+    "pytz (>=2016.10)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

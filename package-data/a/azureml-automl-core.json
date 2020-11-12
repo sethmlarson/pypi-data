@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "azureml-dataset-runtime (~=1.18.0)",
+    "azureml-telemetry (~=1.18.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5,<4",
+  "yanked": []
+}

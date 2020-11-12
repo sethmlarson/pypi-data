@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "kafka-python (>=2.0.0)"
+  ],
+  "requires_extras": {
+    "snappy": [
+      "python-snappy (>=0.5) ; extra == 'snappy'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

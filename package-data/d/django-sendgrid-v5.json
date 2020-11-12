@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "django (>=1.8)",
+    "future",
+    "python-http-client (>=3.0.0)",
+    "sendgrid (>=5.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

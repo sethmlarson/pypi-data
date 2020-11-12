@@ -1,0 +1,23 @@
+{
+  "requires_dist": [
+    "ecdsa (<0.15)",
+    "pyasn1",
+    "rsa",
+    "six (<2.0)"
+  ],
+  "requires_extras": {
+    "cryptography": [
+      "cryptography ; extra == 'cryptography'"
+    ],
+    "pycrypto": [
+      "pyasn1 ; extra == 'pycrypto'",
+      "pycrypto (<2.7.0,>=2.6.0) ; extra == 'pycrypto'"
+    ],
+    "pycryptodome": [
+      "pyasn1 ; extra == 'pycryptodome'",
+      "pycryptodome (<4.0.0,>=3.3.1) ; extra == 'pycryptodome'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

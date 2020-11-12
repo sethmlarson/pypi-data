@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "comtypes",
+    "pywin32",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

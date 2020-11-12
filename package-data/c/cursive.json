@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "castellan (>=0.4.0)",
+    "cryptography (!=1.3.0,>=1.0)",
+    "oslo.i18n (>=2.1.0)",
+    "oslo.log (>=1.14.0)",
+    "oslo.serialization (>=1.10.0)",
+    "oslo.utils (>=3.16.0)",
+    "pbr (>=1.6)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

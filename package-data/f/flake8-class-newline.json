@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "flake8"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "IPython",
+    "ipywidgets (>=7.0.0)",
+    "nbconvert (>=5.5)",
+    "nbformat",
+    "Sphinx (>=2)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">= 3.6",
+  "yanked": []
+}

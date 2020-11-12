@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "six",
+    "social-auth-core (>=3.3.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

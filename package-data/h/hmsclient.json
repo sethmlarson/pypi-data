@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "click",
+    "thrift"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "Cython",
+    "joblib",
+    "numba",
+    "numpy",
+    "scikit-learn",
+    "scipy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

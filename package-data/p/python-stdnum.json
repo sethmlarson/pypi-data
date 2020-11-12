@@ -1,0 +1,16 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "soap": [
+      "zeep ; extra == 'soap'"
+    ],
+    "soap-alt": [
+      "suds ; extra == 'soap-alt'"
+    ],
+    "soap-fallback": [
+      "PySimpleSOAP ; extra == 'soap-fallback'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

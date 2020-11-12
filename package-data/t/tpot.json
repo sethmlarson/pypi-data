@@ -1,0 +1,34 @@
+{
+  "requires_dist": [
+    "deap (>=1.2)",
+    "joblib (>=0.13.2)",
+    "numpy (>=1.16.3)",
+    "pandas (>=0.24.2)",
+    "scikit-learn (>=0.22.0)",
+    "scipy (>=1.3.1)",
+    "stopit (>=1.1.1)",
+    "tqdm (>=4.36.1)",
+    "update-checker (>=0.16)"
+  ],
+  "requires_extras": {
+    "dask": [
+      "dask (>=0.18.2) ; extra == 'dask'",
+      "dask-ml (>=1.0.0) ; extra == 'dask'",
+      "distributed (>=1.22.1) ; extra == 'dask'"
+    ],
+    "mdr": [
+      "scikit-mdr (>=0.4.4) ; extra == 'mdr'"
+    ],
+    "skrebate": [
+      "skrebate (>=0.3.4) ; extra == 'skrebate'"
+    ],
+    "torch": [
+      "torch (==1.3.1) ; extra == 'torch'"
+    ],
+    "xgboost": [
+      "xgboost (==0.90) ; extra == 'xgboost'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

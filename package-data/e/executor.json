@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "coloredlogs (>=3.5)",
+    "fasteners (>=0.14.1)",
+    "humanfriendly (>=8.0)",
+    "property-manager (>=3.0)",
+    "six (>=1.9.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+  "yanked": []
+}

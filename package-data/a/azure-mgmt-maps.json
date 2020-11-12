@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "azure-common (~=1.1)",
+    "azure-mgmt-nspkg (>=2.0.0)",
+    "msrestazure (<2.0.0,>=0.4.27)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "scrapy (>=1.0.0)",
+    "six",
+    "w3lib"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

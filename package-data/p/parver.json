@@ -1,0 +1,20 @@
+{
+  "requires_dist": [
+    "arpeggio (~=1.7)",
+    "attrs (>=19.2)",
+    "six (~=1.13)"
+  ],
+  "requires_extras": {
+    "docstest": [
+      "doc8 ; extra == 'docstest'",
+      "sphinx ; extra == 'docstest'",
+      "sphinx-rtd-theme ; extra == 'docstest'"
+    ],
+    "pep8test": [
+      "flake8 ; extra == 'pep8test'",
+      "pep8-naming ; extra == 'pep8test'"
+    ]
+  },
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+  "yanked": []
+}

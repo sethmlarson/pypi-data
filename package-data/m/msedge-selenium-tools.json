@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "selenium (==3.141)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": [
+    "3.141.0"
+  ]
+}

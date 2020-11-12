@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "aiohttp (<4.0.0,>=2.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

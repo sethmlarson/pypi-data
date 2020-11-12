@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "jmespath (<1)",
+    "paho-mqtt (<=1.5.1,>=1.3.1)",
+    "pyjwt (<2,>=1.7.1)",
+    "pykwalify (<2,>=1.7.0)",
+    "pytest (<7,>=5.4.3)",
+    "python-box (<6,>4)",
+    "PyYAML (<6,>=5.3.1)",
+    "requests (<3,>=2.22.0)",
+    "stevedore"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": [
+    "1.2.3"
+  ]
+}

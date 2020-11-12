@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "helpdev (>=0.6.10)",
+    "qtpy (>=1.9)"
+  ],
+  "requires_extras": {
+    "develop": [
+      "qtsass ; extra == 'develop'",
+      "watchdog ; extra == 'develop'"
+    ],
+    "example": [
+      "pyqt5 ; extra == 'example'",
+      "pyside2 ; extra == 'example'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

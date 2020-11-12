@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "aenum (<3.0.0,>=1.4.5)",
+    "isodate (<1.0.0,>=0.6.0)",
+    "six (<2.0.0,>=1.10.0)",
+    "tornado (<6.0,>=4.4.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

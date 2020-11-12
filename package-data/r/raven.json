@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "contextlib2; python_version<'3.2'"
+  ],
+  "requires_extras": {
+    "flask": [
+      "blinker (>=1.1); extra == 'flask'",
+      "Flask (>=0.8); extra == 'flask'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "marshmallow (<3.0.0,>=2.0.0)"
+  ],
+  "requires_extras": {
+    "attrs": [
+      "attrs ; extra == 'attrs'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "enum34 (>=1.0.4) ; python_version < '3.4'",
+    "futures (>=2.2.0) ; python_version < '3.2'",
+    "six (>=1.5.2)"
+  ],
+  "requires_extras": {
+    "protobuf": [
+      "grpcio-tools (>=1.33.2) ; extra == 'protobuf'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

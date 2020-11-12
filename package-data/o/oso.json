@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "cffi (==1.14.0)",
+    "dataclasses ; python_version < '3.7'"
+  ],
+  "requires_extras": {
+    "flask": [
+      "authlib ; extra == 'flask'",
+      "flask ; extra == 'flask'"
+    ],
+    "jwt": [
+      "authlib ; extra == 'jwt'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

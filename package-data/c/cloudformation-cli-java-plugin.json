@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "cloudformation-cli (<0.2,>=0.1.4)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

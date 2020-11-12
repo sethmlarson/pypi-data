@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "dill (>=0.3.0)",
+    "grpcio (!=1.30.0,>=1.9.1)",
+    "protobuf (>=3.6.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

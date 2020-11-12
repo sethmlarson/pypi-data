@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "attrs (>=20.1.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "~=3.7",
+  "yanked": [
+    "1.1.0"
+  ]
+}

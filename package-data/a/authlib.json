@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "cryptography"
+  ],
+  "requires_extras": {
+    "client": [
+      "requests ; extra == 'client'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

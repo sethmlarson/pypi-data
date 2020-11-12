@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "prompt_toolkit (>=2.0,<4.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6,<3.10",
+  "yanked": []
+}

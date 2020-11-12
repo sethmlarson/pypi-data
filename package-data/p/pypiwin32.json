@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "pywin32 (>=223)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

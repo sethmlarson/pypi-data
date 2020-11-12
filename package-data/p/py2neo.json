@@ -1,0 +1,24 @@
+{
+  "requires_dist": [
+    "certifi",
+    "colorama",
+    "docker",
+    "monotonic",
+    "neotime (~=1.7.4)",
+    "packaging",
+    "pansi (>=2020.7.3)",
+    "prompt-toolkit (~=2.0.7)",
+    "pygments (~=2.5.2)",
+    "pyopenssl",
+    "pytz",
+    "six (>=1.15.0)",
+    "urllib3"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": [
+    "2020.7b6",
+    "2020.7b7",
+    "2020.7b8"
+  ]
+}

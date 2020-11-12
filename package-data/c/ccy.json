@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "python-dateutil",
+    "pytz"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

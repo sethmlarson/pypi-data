@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "paramiko (>=1.15.2)"
+  ],
+  "requires_extras": {
+    "build_sphinx": [
+      "sphinx ; extra == 'build_sphinx'",
+      "sphinxcontrib-napoleon ; extra == 'build_sphinx'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

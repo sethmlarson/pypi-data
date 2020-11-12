@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "Click"
+  ],
+  "requires_extras": {
+    "airflow": [
+      "apache-airflow[crypto,postgres] ; extra == 'airflow'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

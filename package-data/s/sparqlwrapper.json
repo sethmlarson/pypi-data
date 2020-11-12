@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "rdflib (>=4.0)"
+  ],
+  "requires_extras": {
+    "keepalive": [
+      "keepalive (>=0.5); extra == 'keepalive'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

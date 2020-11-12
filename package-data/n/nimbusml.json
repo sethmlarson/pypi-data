@@ -1,0 +1,20 @@
+{
+  "requires_dist": [
+    "dotnetcore2 (>=2.1.2)",
+    "numpy (>=1.14.0)",
+    "pandas (>=0.22)",
+    "scikit-learn (>0.19.0)",
+    "scipy (>=0.18)"
+  ],
+  "requires_extras": {
+    "dprep": [
+      "azureml-dataprep (>=1.1.33); extra == 'dprep'"
+    ],
+    "utils": [
+      "graphviz; extra == 'utils'",
+      "imageio; extra == 'utils'"
+    ]
+  },
+  "requires_python": ">3.5.*, <3.9.*",
+  "yanked": []
+}

@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "mozlog (>=6.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

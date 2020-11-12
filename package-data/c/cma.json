@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "numpy"
+  ],
+  "requires_extras": {
+    "plotting": [
+      "matplotlib; extra == 'plotting'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

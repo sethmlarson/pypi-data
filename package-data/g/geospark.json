@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "attrs",
+    "findspark",
+    "pyspark",
+    "shapely"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

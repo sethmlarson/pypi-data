@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "autosemver (~=0.5)",
+    "blinker (>=1.3)",
+    "configobj (>4.7.0)",
+    "enum34 (>=1.0.4)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

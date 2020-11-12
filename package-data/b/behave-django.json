@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "beautifulsoup4",
+    "behave"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

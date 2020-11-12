@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "requests (>=2.3.0)"
+  ],
+  "requires_extras": {
+    "lint": [
+      "black ; extra == 'lint'",
+      "flake8 ; extra == 'lint'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

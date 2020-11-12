@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "requests (<3.0,>=2.6.0)"
+  ],
+  "requires_extras": {
+    "ci": [
+      "coveralls ; extra == 'ci'"
+    ],
+    "lint": [
+      "black ; extra == 'lint'",
+      "flake8 ; extra == 'lint'",
+      "pre-commit ; extra == 'lint'",
+      "pydocstyle ; extra == 'lint'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "pytest (>=3.6.0)",
+    "vcrpy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "attrs (>16.0.0)",
+    "graphviz",
+    "jinja2",
+    "numpy (>=1.9.0)",
+    "scikit-learn (>=0.18)",
+    "scipy",
+    "singledispatch (>=3.4.0.3); python_version<'3.5.6'",
+    "six",
+    "tabulate (>=0.7.7)",
+    "typing; python_version<'3.5'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "azure-core (<2.0.0,>=1.2.2)",
+    "azure-eventhub (<6.0.0,>=5.0.0)",
+    "cryptography (>=2.1.4)",
+    "enum34 (>=1.0.4) ; python_version<'3.4'",
+    "futures ; python_version<'3.0'",
+    "msrest (>=0.6.10)",
+    "typing ; python_version<'3.5'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

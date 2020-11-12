@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "importlib-metadata ; python_version < '3.8'"
+  ],
+  "requires_extras": {
+    "memory_info": [
+      "psutil (>=5.6) ; extra == 'memory_info'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

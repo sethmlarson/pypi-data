@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "accumulation-tree",
+    "pyudorandom"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

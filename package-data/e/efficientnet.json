@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "keras-applications (<=1.0.8,>=1.0.7)",
+    "scikit-image"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.0.0",
+  "yanked": []
+}

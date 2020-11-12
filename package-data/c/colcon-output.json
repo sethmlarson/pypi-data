@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "colcon-core (>=0.3.8)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

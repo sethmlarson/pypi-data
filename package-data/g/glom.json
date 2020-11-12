@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "attrs",
+    "boltons (>=19.3.0)",
+    "face (>=20.1.0)"
+  ],
+  "requires_extras": {
+    "yaml": [
+      "PyYAML ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

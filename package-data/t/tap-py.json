@@ -1,0 +1,11 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "yaml": [
+      "more-itertools ; extra == 'yaml'",
+      "PyYAML (>=5.1) ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

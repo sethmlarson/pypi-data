@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Jinja2 (>=2.9)",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

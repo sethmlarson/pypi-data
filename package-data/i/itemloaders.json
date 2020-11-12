@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "itemadapter (>=0.1.0)",
+    "jmespath (>=0.9.5)",
+    "parsel (>=1.5.0)",
+    "w3lib (>=1.17.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

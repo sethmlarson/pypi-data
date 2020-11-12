@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "future",
+    "psutil (>=5.2.2)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

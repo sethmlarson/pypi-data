@@ -1,0 +1,28 @@
+{
+  "requires_dist": [
+    "numpy",
+    "scipy"
+  ],
+  "requires_extras": {
+    "dask": [
+      "dask ; extra == 'dask'",
+      "distributed ; extra == 'dask'",
+      "pandas ; extra == 'dask'"
+    ],
+    "datatable": [
+      "datatable ; extra == 'datatable'"
+    ],
+    "pandas": [
+      "pandas ; extra == 'pandas'"
+    ],
+    "plotting": [
+      "graphviz ; extra == 'plotting'",
+      "matplotlib ; extra == 'plotting'"
+    ],
+    "scikit-learn": [
+      "scikit-learn ; extra == 'scikit-learn'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

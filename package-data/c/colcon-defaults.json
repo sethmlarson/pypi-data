@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "colcon-core (>=0.5.5)",
+    "PyYAML"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "pillow",
+    "PythonDebugTools",
+    "tk-html-widgets"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

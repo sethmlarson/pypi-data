@@ -1,0 +1,33 @@
+{
+  "requires_dist": [
+    "attrs (>=18.1.0)",
+    "bitstruct",
+    "click",
+    "future",
+    "pathlib2",
+    "typing ; python_version < '3.5'"
+  ],
+  "requires_extras": {
+    "arxml": [
+      "lxml ; extra == 'arxml'"
+    ],
+    "fibex": [
+      "lxml ; extra == 'fibex'"
+    ],
+    "kcd": [
+      "lxml ; extra == 'kcd'"
+    ],
+    "xls": [
+      "xlrd ; extra == 'xls'",
+      "xlwt ; extra == 'xls'"
+    ],
+    "xlsx": [
+      "xlsxwriter ; extra == 'xlsx'"
+    ],
+    "yaml": [
+      "pyyaml ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

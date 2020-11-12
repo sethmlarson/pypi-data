@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "gitpython",
+    "lizard",
+    "pytz"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

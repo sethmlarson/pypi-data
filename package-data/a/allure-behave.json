@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "allure-python-commons (==2.8.19)",
+    "behave (>=1.2.5)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

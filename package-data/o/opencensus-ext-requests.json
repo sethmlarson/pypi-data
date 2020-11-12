@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "opencensus (<1.0.0,>=0.7.3)",
+    "wrapt (<2.0.0,>=1.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

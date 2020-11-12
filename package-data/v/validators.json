@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "decorator (>=3.4.0)",
+    "six (>=1.4.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.4",
+  "yanked": [
+    "0.14.3",
+    "0.15.0",
+    "0.16.0",
+    "0.17.0"
+  ]
+}

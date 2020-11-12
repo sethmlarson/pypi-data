@@ -1,0 +1,39 @@
+{
+  "requires_dist": [
+    "decorator (>=4.3.0)"
+  ],
+  "requires_extras": {
+    "gdal": [
+      "gdal ; extra == 'gdal'"
+    ],
+    "lxml": [
+      "lxml ; extra == 'lxml'"
+    ],
+    "matplotlib": [
+      "matplotlib ; extra == 'matplotlib'"
+    ],
+    "numpy": [
+      "numpy ; extra == 'numpy'"
+    ],
+    "pandas": [
+      "pandas ; extra == 'pandas'"
+    ],
+    "pydot": [
+      "pydot ; extra == 'pydot'"
+    ],
+    "pygraphviz": [
+      "pygraphviz ; extra == 'pygraphviz'"
+    ],
+    "pytest": [
+      "pytest ; extra == 'pytest'"
+    ],
+    "pyyaml": [
+      "pyyaml ; extra == 'pyyaml'"
+    ],
+    "scipy": [
+      "scipy ; extra == 'scipy'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

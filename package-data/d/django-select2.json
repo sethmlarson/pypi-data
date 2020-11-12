@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "django (>=2.2)",
+    "django-appconf (>=0.6.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

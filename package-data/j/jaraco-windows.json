@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "jaraco.collections",
+    "jaraco.structures (>=1.1.1)",
+    "jaraco.text",
+    "jaraco.ui",
+    "more-itertools",
+    "path.py (>=6.2)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

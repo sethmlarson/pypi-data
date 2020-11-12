@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "numpy (>=1.15.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.7",
+  "yanked": []
+}

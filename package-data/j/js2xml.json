@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "calmjs.parse",
+    "lxml",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

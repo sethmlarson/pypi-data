@@ -1,0 +1,113 @@
+{
+  "requires_dist": [
+    "billiard (<4.0,>=3.6.3.0)",
+    "click (>=7.0)",
+    "click-didyoumean (>=0.0.3)",
+    "click-repl (>=0.1.6)",
+    "kombu (<6.0,>=5.0.0)",
+    "pytz (>dev)",
+    "vine (<6.0,>=5.0.0)"
+  ],
+  "requires_extras": {
+    "arangodb": [
+      "pyArango (>=1.3.2) ; extra == 'arangodb'"
+    ],
+    "auth": [
+      "cryptography ; extra == 'auth'"
+    ],
+    "azureblockblob": [
+      "azure-common (==1.1.5) ; extra == 'azureblockblob'",
+      "azure-storage (==0.36.0) ; extra == 'azureblockblob'",
+      "azure-storage-common (==1.1.0) ; extra == 'azureblockblob'"
+    ],
+    "brotli": [
+      "brotli (>=1.0.0) ; (platform_python_implementation == 'CPython') and extra == 'brotli'",
+      "brotlipy (>=0.7.0) ; (platform_python_implementation == 'PyPy') and extra == 'brotli'"
+    ],
+    "cassandra": [
+      "cassandra-driver (<3.21.0) ; extra == 'cassandra'"
+    ],
+    "consul": [
+      "python-consul ; extra == 'consul'"
+    ],
+    "cosmosdbsql": [
+      "pydocumentdb (==2.3.2) ; extra == 'cosmosdbsql'"
+    ],
+    "couchbase": [
+      "couchbase (>=3.0.0) ; extra == 'couchbase'"
+    ],
+    "couchdb": [
+      "pycouchdb ; extra == 'couchdb'"
+    ],
+    "django": [
+      "Django (>=1.11) ; extra == 'django'"
+    ],
+    "dynamodb": [
+      "boto3 (>=1.9.178) ; extra == 'dynamodb'"
+    ],
+    "elasticsearch": [
+      "elasticsearch ; extra == 'elasticsearch'"
+    ],
+    "eventlet": [
+      "eventlet (>=0.26.1) ; extra == 'eventlet'"
+    ],
+    "gevent": [
+      "gevent (>=1.0.0) ; extra == 'gevent'"
+    ],
+    "librabbitmq": [
+      "librabbitmq (>=1.5.0) ; extra == 'librabbitmq'"
+    ],
+    "lzma": [
+      "backports.lzma ; (python_version < '3.3') and extra == 'lzma'"
+    ],
+    "memcache": [
+      "pylibmc ; (platform_system != 'Windows') and extra == 'memcache'"
+    ],
+    "mongodb": [
+      "pymongo[srv] (>=3.3.0) ; extra == 'mongodb'"
+    ],
+    "msgpack": [
+      "msgpack ; extra == 'msgpack'"
+    ],
+    "pymemcache": [
+      "python-memcached ; extra == 'pymemcache'"
+    ],
+    "pyro": [
+      "pyro4 ; extra == 'pyro'"
+    ],
+    "redis": [
+      "redis (>=3.2.0) ; extra == 'redis'"
+    ],
+    "s3": [
+      "boto3 (>=1.9.125) ; extra == 's3'"
+    ],
+    "slmq": [
+      "softlayer-messaging (>=1.0.3) ; extra == 'slmq'"
+    ],
+    "solar": [
+      "ephem ; extra == 'solar'"
+    ],
+    "sqlalchemy": [
+      "sqlalchemy ; extra == 'sqlalchemy'"
+    ],
+    "sqs": [
+      "boto3 (>=1.9.125) ; extra == 'sqs'",
+      "pycurl (==7.43.0.5) ; extra == 'sqs'"
+    ],
+    "tblib": [
+      "tblib (>=1.3.0) ; (python_version < '3.8.0') and extra == 'tblib'",
+      "tblib (>=1.5.0) ; (python_version >= '3.8.0') and extra == 'tblib'"
+    ],
+    "yaml": [
+      "PyYAML (>=3.10) ; extra == 'yaml'"
+    ],
+    "zookeeper": [
+      "kazoo (>=1.3.1) ; extra == 'zookeeper'"
+    ],
+    "zstd": [
+      "zstandard ; extra == 'zstd'"
+    ]
+  },
+  "requires_python": ">=3.6,",
+  "yanked": []
+}

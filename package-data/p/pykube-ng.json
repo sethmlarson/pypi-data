@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "pyyaml",
+    "requests (>=2.12)"
+  ],
+  "requires_extras": {
+    "gcp": [
+      "google-auth; extra == 'gcp'",
+      "jsonpath-ng; extra == 'gcp'"
+    ],
+    "oidc": [
+      "requests-oauthlib (>=1.3.0,<2.0.0); extra == 'oidc'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

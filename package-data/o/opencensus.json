@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "google-api-core (<2.0.0,>=1.0.0)",
+    "opencensus-context (==0.1.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "sphinxcontrib-serializinghtml"
+  ],
+  "requires_extras": {
+    "lint": [
+      "flake8 ; extra == 'lint'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

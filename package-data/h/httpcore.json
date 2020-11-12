@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "h11 (==0.*)",
+    "sniffio (==1.*)"
+  ],
+  "requires_extras": {
+    "http2": [
+      "h2 (<5,>=3) ; extra == 'http2'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

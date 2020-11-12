@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "matplotlib (>=2.2)",
+    "numpy (>=1.15)",
+    "pandas (>=0.23)",
+    "scipy (>=1.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

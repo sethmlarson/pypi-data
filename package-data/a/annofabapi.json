@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "backoff",
+    "dataclasses; python_version < '3.7'",
+    "dataclasses-json",
+    "more-itertools",
+    "python-dateutil",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6,<4.0",
+  "yanked": []
+}

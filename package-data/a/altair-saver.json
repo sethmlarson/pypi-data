@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "altair",
+    "altair-data-server (>=0.4.0)",
+    "altair-viewer",
+    "selenium"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

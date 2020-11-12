@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "toml"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

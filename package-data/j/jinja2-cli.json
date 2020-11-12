@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "jinja2"
+  ],
+  "requires_extras": {
+    "toml": [
+      "jinja2 ; extra == 'toml'",
+      "toml ; extra == 'toml'"
+    ],
+    "xml": [
+      "jinja2 ; extra == 'xml'",
+      "xmltodict ; extra == 'xml'"
+    ],
+    "yaml": [
+      "jinja2 ; extra == 'yaml'",
+      "pyyaml ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

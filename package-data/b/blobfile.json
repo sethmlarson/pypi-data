@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "filelock (~=3.0)",
+    "pycryptodomex (~=3.8)",
+    "urllib3 (~=1.25)",
+    "xmltodict (~=0.12.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.7.0",
+  "yanked": []
+}

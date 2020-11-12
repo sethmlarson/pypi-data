@@ -1,0 +1,20 @@
+{
+  "requires_dist": [
+    "dataclasses ; python_version == '3.6'",
+    "marshmallow (<4.0,>=3.0.0)",
+    "typing-inspect"
+  ],
+  "requires_extras": {
+    "enum": [
+      "marshmallow-enum ; extra == 'enum'"
+    ],
+    "lint": [
+      "pre-commit (~=1.18) ; extra == 'lint'"
+    ],
+    "union": [
+      "typeguard ; extra == 'union'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

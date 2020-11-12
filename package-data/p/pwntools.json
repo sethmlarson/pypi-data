@@ -1,0 +1,26 @@
+{
+  "requires_dist": [
+    "capstone (>=3.0.5rc2)",
+    "intervaltree (>=3.0)",
+    "mako (>=1.0.0)",
+    "packaging",
+    "paramiko (>=1.15.2)",
+    "pip (>=6.0.8)",
+    "psutil (>=3.3.0)",
+    "pyelftools (>=0.2.4)",
+    "pygments (>=2.0)",
+    "pyserial (>=2.7)",
+    "pysocks",
+    "python-dateutil",
+    "requests (>=2.0)",
+    "ropgadget (>=5.3)",
+    "six (>=1.12.0)",
+    "sortedcontainers",
+    "unicorn (<1.0.2rc4,>=1.0.2rc1)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7",
+  "yanked": [
+    "4.1.6"
+  ]
+}

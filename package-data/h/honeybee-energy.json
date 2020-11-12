@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "honeybee-core (==1.40.7)",
+    "honeybee-standards (==2.0.0)"
+  ],
+  "requires_extras": {
+    "cli": [
+      "click (==7.1.2) ; extra == 'cli'",
+      "honeybee-core[cli] (==1.40.4) ; extra == 'cli'",
+      "honeybee-energy-standards (==2.0.3) ; extra == 'cli'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

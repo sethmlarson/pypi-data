@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "SQLAlchemy (>=0.9.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "cmakelang (>=0.6.13)"
+  ],
+  "requires_extras": {
+    "yaml": [
+      "pyyaml (>=5.3) ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

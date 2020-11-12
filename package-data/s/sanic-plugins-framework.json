@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "sanic (>=18.12.0)",
+    "setuptools (>=40.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

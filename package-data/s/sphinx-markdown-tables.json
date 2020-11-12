@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "markdown (>=3.0.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": [
+    "0.0.13"
+  ]
+}

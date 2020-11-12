@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "binaryornot",
+    "boolean.py",
+    "Jinja2",
+    "license-expression",
+    "python-debian",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

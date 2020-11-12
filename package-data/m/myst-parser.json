@@ -1,0 +1,24 @@
+{
+  "requires_dist": [
+    "docutils (>=0.15)",
+    "markdown-it-py (~=0.5.4)",
+    "pyyaml",
+    "sphinx (<4,>=2)"
+  ],
+  "requires_extras": {
+    "code_style": [
+      "black ; extra == 'code_style'",
+      "flake8 (<3.8.0,>=3.7.0) ; extra == 'code_style'",
+      "pre-commit (==1.17.0) ; extra == 'code_style'"
+    ],
+    "rtd": [
+      "ipython ; extra == 'rtd'",
+      "sphinx-book-theme (>=0.0.36) ; extra == 'rtd'",
+      "sphinx-panels (~=0.4.1) ; extra == 'rtd'",
+      "sphinx-tabs ; extra == 'rtd'",
+      "sphinxcontrib-bibtex ; extra == 'rtd'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

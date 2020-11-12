@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "future",
+    "pyzmq"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

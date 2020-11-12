@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "cloudformation-cli (<0.2,>=0.1.2)",
+    "semver (>=2.9.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

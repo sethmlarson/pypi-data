@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "cairocffi",
+    "cssselect2",
+    "defusedxml",
+    "pillow",
+    "tinycss2"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

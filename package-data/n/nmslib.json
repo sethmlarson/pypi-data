@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "numpy (<1.17,>=1.10.0)",
+    "psutil",
+    "pybind11 (>=2.2.3)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "matplotlib",
+    "numpy",
+    "scipy",
+    "seaborn"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

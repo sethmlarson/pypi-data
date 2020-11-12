@@ -1,0 +1,18 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "lint": [
+      "flake8 (==3.8.3) ; extra == 'lint'",
+      "flake8-bugbear (==20.1.4) ; extra == 'lint'",
+      "pre-commit (~=2.4) ; extra == 'lint'"
+    ],
+    "validation": [
+      "prance[osv] (>=0.11) ; extra == 'validation'"
+    ],
+    "yaml": [
+      "PyYAML (>=3.10) ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

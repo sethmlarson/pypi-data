@@ -1,0 +1,44 @@
+{
+  "requires_dist": [
+    "azureml-core (~=1.18.0)",
+    "azureml-dataset-runtime[fuse] (~=1.18.0)",
+    "azureml-pipeline (~=1.18.0)",
+    "azureml-train (~=1.18.0)",
+    "azureml-train-automl-client (~=1.18.0)"
+  ],
+  "requires_extras": {
+    "accel-models": [
+      "azureml-accel-models (~=1.18.0); extra == 'accel-models'"
+    ],
+    "automl": [
+      "azureml-train-automl (~=1.18.0); extra == 'automl'"
+    ],
+    "automl_databricks": [
+      "azureml-train-automl (~=1.18.0); extra == 'automl_databricks'"
+    ],
+    "contrib": [
+      "azureml-contrib-notebook (~=1.18.0); extra == 'contrib'",
+      "azureml-contrib-pipeline-steps (~=1.18.0); extra == 'contrib'",
+      "azureml-contrib-server (~=1.18.0); extra == 'contrib'",
+      "azureml-contrib-services (~=1.18.0); extra == 'contrib'"
+    ],
+    "explain": [
+      "azureml-explain-model (~=1.18.0); extra == 'explain'"
+    ],
+    "interpret": [
+      "azureml-interpret (~=1.18.0); extra == 'interpret'"
+    ],
+    "notebooks": [
+      "azureml-contrib-notebook (~=1.18.0); extra == 'notebooks'",
+      "azureml-widgets (~=1.18.0); extra == 'notebooks'"
+    ],
+    "services": [
+      "azureml-contrib-services (~=1.18.0); extra == 'services'"
+    ],
+    "tensorboard": [
+      "azureml-tensorboard (~=1.18.0); extra == 'tensorboard'"
+    ]
+  },
+  "requires_python": ">=3.5,<4",
+  "yanked": []
+}

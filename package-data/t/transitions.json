@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "six"
+  ],
+  "requires_extras": {
+    "diagrams": [
+      "pygraphviz ; extra == 'diagrams'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

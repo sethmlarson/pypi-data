@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "redis (<3.6.0)",
+    "six (>=1.12)",
+    "sortedcontainers"
+  ],
+  "requires_extras": {
+    "aioredis": [
+      "aioredis ; extra == 'aioredis'"
+    ],
+    "lua": [
+      "lupa ; extra == 'lua'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

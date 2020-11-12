@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "colorlog (>=4.0.0,<4.1.0)",
+    "pyfony-bundles (>=0.2.0,<0.3.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.7.3,<3.8.0",
+  "yanked": []
+}

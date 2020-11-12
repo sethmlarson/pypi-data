@@ -1,0 +1,20 @@
+{
+  "requires_dist": [
+    "click (==7.*)",
+    "h11 (>=0.8)",
+    "typing-extensions ; python_version < '3.8'"
+  ],
+  "requires_extras": {
+    "standard": [
+      "colorama (>=0.4.*) ; (sys_platform == 'win32') and extra == 'standard'",
+      "httptools (==0.1.*) ; (sys_platform != 'win32' and sys_platform != 'cygwin' and platform_python_implementation != 'PyPy') and extra == 'standard'",
+      "python-dotenv (>=0.13.*) ; extra == 'standard'",
+      "PyYAML (>=5.1) ; extra == 'standard'",
+      "uvloop (>=0.14.0) ; (sys_platform != 'win32' and sys_platform != 'cygwin' and platform_python_implementation != 'PyPy') and extra == 'standard'",
+      "watchgod (<0.7,>=0.6) ; extra == 'standard'",
+      "websockets (==8.*) ; extra == 'standard'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

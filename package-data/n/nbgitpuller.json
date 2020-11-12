@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "notebook (>=5.5.0)",
+    "tornado"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

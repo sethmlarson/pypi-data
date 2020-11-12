@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "mozrunner (>=7.4.0)",
+    "mozversion (>=2.1.0)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

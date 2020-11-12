@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "multi-key-dict",
+    "pbr (>=0.8.2)",
+    "requests",
+    "six (>=1.3.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

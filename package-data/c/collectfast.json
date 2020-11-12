@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "Django (>=2.2)",
+    "django-storages (>=1.6)",
+    "typing-extensions"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "transaction",
+    "zope.component",
+    "zope.interface",
+    "zope.processlifetime"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

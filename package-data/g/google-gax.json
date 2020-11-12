@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "dill (<0.3dev,>=0.2.5)",
+    "future (<0.17dev,>=0.16.0)",
+    "google-auth (<2.0dev,>=1.0.0)",
+    "googleapis-common-protos (<2.0dev,>=1.5.2)",
+    "grpcio (<2.0dev,>=1.0.2)",
+    "ply (==3.8)",
+    "protobuf (<4.0dev,>=3.0.0)",
+    "requests (<3.0dev,>=2.13.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

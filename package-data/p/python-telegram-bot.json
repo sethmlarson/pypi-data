@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "APScheduler (==3.6.3)",
+    "certifi",
+    "cryptography",
+    "decorator (>=4.4.0)",
+    "tornado (>=5.1)"
+  ],
+  "requires_extras": {
+    "json": [
+      "ujson ; extra == 'json'"
+    ],
+    "socks": [
+      "PySocks ; extra == 'socks'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

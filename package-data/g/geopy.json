@@ -1,0 +1,35 @@
+{
+  "requires_dist": [
+    "geographiclib (<2,>=1.49)"
+  ],
+  "requires_extras": {
+    "aiohttp": [
+      "aiohttp ; extra == 'aiohttp'"
+    ],
+    "dev-docs": [
+      "readme-renderer ; extra == 'dev-docs'",
+      "sphinx ; extra == 'dev-docs'",
+      "sphinx-rtd-theme (>=0.4.0) ; extra == 'dev-docs'"
+    ],
+    "dev-lint": [
+      "async-generator ; extra == 'dev-lint'",
+      "flake8 (<3.7.0,>=3.6.0) ; extra == 'dev-lint'",
+      "isort (<4.4.0,>=4.3.4) ; extra == 'dev-lint'"
+    ],
+    "dev-test": [
+      "async-generator ; extra == 'dev-test'",
+      "coverage ; extra == 'dev-test'",
+      "pytest (>=3.10) ; extra == 'dev-test'",
+      "pytest-aiohttp ; extra == 'dev-test'"
+    ],
+    "requests": [
+      "requests (>=2.16.2) ; extra == 'requests'",
+      "urllib3 (>=1.24.2) ; extra == 'requests'"
+    ],
+    "timezone": [
+      "pytz ; extra == 'timezone'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "docopt (>=0.6.1)",
+    "template-remover"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "azure-core (<2.0.0,>=1.7.0)",
+    "azure-nspkg ; python_version<'3.0'",
+    "msrest (>=0.6.19)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "pypandoc"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

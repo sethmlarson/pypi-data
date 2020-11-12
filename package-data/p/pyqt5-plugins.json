@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "click",
+    "pyqt5 (==5.15.1)",
+    "qt5-applications (~=5.15.1.1.0.dev0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

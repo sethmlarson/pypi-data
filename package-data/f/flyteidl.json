@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "protobuf (<4.0.0,>=3.5.0)",
+    "typing (>=3.6) ; python_version=='2.7'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": [
+    "0.17.36"
+  ]
+}

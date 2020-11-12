@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "gym (>=0.9.6)",
+    "numpy (>=1.15.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

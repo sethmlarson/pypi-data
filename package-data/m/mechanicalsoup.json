@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "beautifulsoup4 (>=4.4)",
+    "lxml",
+    "requests (>=2.0)",
+    "six (>=1.4)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

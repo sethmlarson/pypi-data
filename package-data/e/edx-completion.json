@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "Django",
+    "django-model-utils",
+    "djangorestframework",
+    "edx-drf-extensions (>=1.11.0)",
+    "edx-opaque-keys[django]",
+    "edx-toggles",
+    "pytz",
+    "XBlock (>=1.2.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

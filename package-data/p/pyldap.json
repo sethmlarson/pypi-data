@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "python-ldap (>=3.0.0b1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

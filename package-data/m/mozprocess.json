@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "mozinfo"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

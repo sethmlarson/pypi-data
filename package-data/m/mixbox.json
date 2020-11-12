@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "lxml",
+    "ordered-set",
+    "python-dateutil",
+    "weakrefmethod (>=1.0.3)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "docopt",
+    "yarg"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

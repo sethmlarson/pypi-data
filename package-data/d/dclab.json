@@ -1,0 +1,28 @@
+{
+  "requires_dist": [
+    "h5py (>=2.10.0)",
+    "numpy (>=1.17.0)",
+    "scipy (>=0.14.0)"
+  ],
+  "requires_extras": {
+    "dcor": [
+      "requests ; extra == 'dcor'"
+    ],
+    "export": [
+      "fcswrite (>=0.5.0) ; extra == 'export'",
+      "imageio[ffmpeg] ; extra == 'export'"
+    ],
+    "lme4": [
+      "rpy2 (>=2.9.4) ; extra == 'lme4'"
+    ],
+    "ml": [
+      "tensorflow (>=2.0) ; extra == 'ml'"
+    ],
+    "tdms": [
+      "imageio[ffmpeg] ; extra == 'tdms'",
+      "nptdms (>=0.23.0) ; extra == 'tdms'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

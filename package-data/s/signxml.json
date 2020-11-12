@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "certifi (>=2018.1.18)",
+    "cryptography (<4,>=2.1.4)",
+    "eight (<2,>=0.4.2)",
+    "enum34 (<2,>=1.1.6) ; python_version == '2.7'",
+    "ipaddress (<2,>=1.0.17) ; python_version == '2.7'",
+    "lxml (<5,>=4.2.1)",
+    "pyOpenSSL (<20,>=17.5.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

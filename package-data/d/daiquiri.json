@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "python-json-logger"
+  ],
+  "requires_extras": {
+    "systemd": [
+      "systemd-python (>=234) ; extra == 'systemd'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

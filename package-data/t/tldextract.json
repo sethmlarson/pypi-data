@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "filelock (>=3.0.8)",
+    "idna",
+    "requests (>=2.1.0)",
+    "requests-file (>=1.4)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

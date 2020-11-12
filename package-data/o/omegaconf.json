@@ -1,0 +1,29 @@
+{
+  "requires_dist": [
+    "dataclasses ; python_version == '3.6'",
+    "PyYAML (>=5.1.*)",
+    "typing-extensions"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0rc1",
+    "2.0.0rc2",
+    "2.0.0rc22",
+    "2.0.0rc23",
+    "2.0.0rc24",
+    "2.0.0rc25",
+    "2.0.0rc26",
+    "2.0.0rc27",
+    "2.0.0rc28",
+    "2.0.0rc29",
+    "2.0.1rc1",
+    "2.0.1rc2",
+    "2.0.1rc3",
+    "2.0.1rc4",
+    "2.0.1rc5"
+  ]
+}

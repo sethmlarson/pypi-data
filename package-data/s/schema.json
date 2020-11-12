@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "contextlib2 (>=0.5.5)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": [
+    "0.7.3"
+  ]
+}

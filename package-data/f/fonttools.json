@@ -1,0 +1,40 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "graphite": [
+      "lz4 (>=1.7.4.2) ; extra == 'graphite'"
+    ],
+    "interpolatable": [
+      "munkres ; (platform_python_implementation == 'PyPy') and extra == 'interpolatable'",
+      "scipy ; (platform_python_implementation != 'PyPy') and extra == 'interpolatable'"
+    ],
+    "lxml": [
+      "lxml (<5,>=4.0) ; extra == 'lxml'"
+    ],
+    "pathops": [
+      "skia-pathops (>=0.5.0) ; extra == 'pathops'"
+    ],
+    "plot": [
+      "matplotlib ; extra == 'plot'"
+    ],
+    "symfont": [
+      "sympy ; extra == 'symfont'"
+    ],
+    "type1": [
+      "xattr ; (sys_platform == 'darwin') and extra == 'type1'"
+    ],
+    "ufo": [
+      "fs (<3,>=2.2.0) ; extra == 'ufo'"
+    ],
+    "unicode": [
+      "unicodedata2 (>=13.0.0) ; (python_version < '3.9' and platform_python_implementation != 'PyPy') and extra == 'unicode'"
+    ],
+    "woff": [
+      "brotli (>=1.0.1) ; (platform_python_implementation != 'PyPy') and extra == 'woff'",
+      "brotlipy (>=0.7.0) ; (platform_python_implementation == 'PyPy') and extra == 'woff'",
+      "zopfli (>=0.1.4) ; extra == 'woff'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

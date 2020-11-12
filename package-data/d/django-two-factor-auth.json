@@ -1,0 +1,28 @@
+{
+  "requires_dist": [
+    "Django (>=2.2)",
+    "django-formtools",
+    "django-otp (>=0.8.0)",
+    "django-phonenumber-field (<3.99,>=1.1.0)",
+    "qrcode (<6.99,>=4.0.0)"
+  ],
+  "requires_extras": {
+    "call": [
+      "twilio (>=6.0) ; extra == 'call'"
+    ],
+    "phonenumbers": [
+      "phonenumbers (<8.99,>=7.0.9) ; extra == 'phonenumbers'"
+    ],
+    "phonenumberslite": [
+      "phonenumberslite (<8.99,>=7.0.9) ; extra == 'phonenumberslite'"
+    ],
+    "sms": [
+      "twilio (>=6.0) ; extra == 'sms'"
+    ],
+    "yubikey": [
+      "django-otp-yubikey ; extra == 'yubikey'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

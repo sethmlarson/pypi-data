@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "enum34",
+    "lxml (>=3.2.0)",
+    "namedlist",
+    "pytest (>=2.7.3)",
+    "six (>=1.9.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

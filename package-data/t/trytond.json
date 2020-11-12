@@ -1,0 +1,38 @@
+{
+  "requires_dist": [
+    "Genshi",
+    "lxml (>=2.0)",
+    "passlib (>=1.7.0)",
+    "polib",
+    "python-dateutil",
+    "python-sql (>=0.5)",
+    "relatorio[fodt] (>=0.7.0)",
+    "werkzeug",
+    "wrapt"
+  ],
+  "requires_extras": {
+    "bcrypt": [
+      "passlib[bcrypt] ; extra == 'bcrypt'"
+    ],
+    "coroutine": [
+      "gevent (>=1.1) ; extra == 'coroutine'"
+    ],
+    "graphviz": [
+      "pydot ; extra == 'graphviz'"
+    ],
+    "html2text": [
+      "html2text ; extra == 'html2text'"
+    ],
+    "levenshtein": [
+      "python-Levenshtein ; extra == 'levenshtein'"
+    ],
+    "postgresql": [
+      "psycopg2 (>=2.5.4) ; extra == 'postgresql'"
+    ],
+    "weasyprint": [
+      "weasyprint ; extra == 'weasyprint'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

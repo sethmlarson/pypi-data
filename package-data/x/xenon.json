@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "PyYAML (<6.0,>=4.2b1)",
+    "radon[flake8] (<5,>=4)",
+    "requests (<3.0,>=2.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "ansitable",
+    "matplotlib",
+    "numpy",
+    "scipy",
+    "spatialmath-python (>=0.8.3)",
+    "swift-sim"
+  ],
+  "requires_extras": {
+    "collision": [
+      "pybullet ; extra == 'collision'"
+    ],
+    "vpython": [
+      "numpy-stl ; extra == 'vpython'",
+      "vpython ; extra == 'vpython'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

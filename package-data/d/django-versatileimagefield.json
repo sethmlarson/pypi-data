@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Pillow (>=2.4.0)",
+    "python-magic (<1.0.0,>=0.4.15)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "numpy (<2.0.0,>=1.9.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

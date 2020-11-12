@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "boto3",
+    "certifi",
+    "ibm-cos-sdk",
+    "lomond",
+    "pandas",
+    "requests",
+    "tabulate",
+    "tqdm",
+    "urllib3"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

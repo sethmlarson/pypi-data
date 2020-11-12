@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "coloredlogs ; sys_platform == 'win32'",
+    "distlib",
+    "EmPy",
+    "pytest",
+    "pytest-cov",
+    "pytest-repeat",
+    "pytest-rerunfailures",
+    "setuptools (>=30.3.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "dnspython (>=1.15.0)",
+    "idna (>=2.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

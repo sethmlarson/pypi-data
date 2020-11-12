@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Django (>=1.11)",
+    "python-ldap (>=3.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

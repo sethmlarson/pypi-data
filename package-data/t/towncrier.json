@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "click",
+    "click-default-group",
+    "incremental",
+    "jinja2",
+    "toml"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

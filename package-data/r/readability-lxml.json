@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "chardet",
+    "cssselect",
+    "lxml"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

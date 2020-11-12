@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "decorator (>=3.4.2)",
+    "py (<2.0.0,>=1.4.26)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

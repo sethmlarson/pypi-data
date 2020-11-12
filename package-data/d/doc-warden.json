@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "beautifulsoup4",
+    "docutils",
+    "jinja2",
+    "markdown2",
+    "pathlib2",
+    "pygments",
+    "pyyaml",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

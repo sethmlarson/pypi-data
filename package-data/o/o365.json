@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "beautifulsoup4 (>=4.0.0)",
+    "python-dateutil (>=2.7)",
+    "pytz (>=2018.5)",
+    "requests (>=2.18.0)",
+    "requests-oauthlib (>=1.2.0)",
+    "stringcase (>=1.2.0)",
+    "tzlocal (>=1.5.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.4",
+  "yanked": []
+}

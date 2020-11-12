@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "jsonschema",
+    "python-json-logger",
+    "ruamel.yaml",
+    "traitlets"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

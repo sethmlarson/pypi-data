@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "trio",
+    "trio-websocket",
+    "urllib3[secure]"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": [
+    "4.0.0a6"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "blockdiag (>=1.5.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

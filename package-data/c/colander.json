@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "enum34 ; python_version in '2.7'",
+    "iso8601",
+    "setuptools (>=11.3)",
+    "translationstring"
+  ],
+  "requires_extras": {},
+  "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7",
+  "yanked": []
+}

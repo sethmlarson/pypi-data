@@ -1,0 +1,23 @@
+{
+  "requires_dist": [
+    "jinja2",
+    "prettytable",
+    "simplejson"
+  ],
+  "requires_extras": {
+    "images": [
+      "PIL ; extra == 'images'"
+    ],
+    "phantomjs": [
+      "snapshot-phantomjs ; extra == 'phantomjs'"
+    ],
+    "pyppeteer": [
+      "snapshot-pyppeteer ; extra == 'pyppeteer'"
+    ],
+    "selenium": [
+      "snapshot-selenium ; extra == 'selenium'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

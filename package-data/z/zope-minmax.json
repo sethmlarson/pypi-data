@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "persistent",
+    "setuptools",
+    "zope.interface"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

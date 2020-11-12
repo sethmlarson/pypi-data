@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "numpy (>=1.11)",
+    "pandas (>=0.20.0)",
+    "patsy (>=0.5)",
+    "plotly (>=4.1.0)",
+    "scipy (>=0.18)",
+    "statsmodels (>=0.9.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

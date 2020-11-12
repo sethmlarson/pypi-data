@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "flask (>=0.10)",
+    "mimerender (>=0.5.2)",
+    "python-dateutil (>2.2)",
+    "sqlalchemy (>=0.8)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

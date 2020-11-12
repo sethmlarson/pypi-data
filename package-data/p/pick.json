@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "windows-curses ; platform_system == 'Windows'"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

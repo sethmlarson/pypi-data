@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "configobj (>=5.0.5)",
+    "tabulate[widechars] (>=0.8.2)",
+    "terminaltables (>=3.0.0)"
+  ],
+  "requires_extras": {
+    "styles": [
+      "Pygments (>=1.6) ; extra == 'styles'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

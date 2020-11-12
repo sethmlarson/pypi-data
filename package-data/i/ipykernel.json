@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "appnope ; platform_system == 'Darwin'",
+    "ipython (>=5.0.0)",
+    "jupyter-client",
+    "tornado (>=4.2)",
+    "traitlets (>=4.1.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

@@ -1,0 +1,23 @@
+{
+  "requires_dist": [
+    "azureml-dataprep (<2.5.0a,>=2.4.0a)",
+    "pyarrow (<2.0.0,>=0.17.0)"
+  ],
+  "requires_extras": {
+    "fuse": [
+      "fusepy (<4.0.0,>=3.0.1); extra == 'fuse'"
+    ],
+    "pandas": [
+      "numpy (<2.0.0,>=1.14.0); extra == 'pandas'",
+      "pandas (<2.0.0,>=0.23.4); extra == 'pandas'"
+    ],
+    "pyspark": [
+      "pyspark (==2.3.0); extra == 'pyspark'"
+    ],
+    "scipy": [
+      "scipy (<2.0.0,>=1.1.0); extra == 'scipy'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

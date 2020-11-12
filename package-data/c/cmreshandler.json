@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "elasticsearch",
+    "enum",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

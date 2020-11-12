@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "pyexcel-io (>=0.6.2)",
+    "xlrd",
+    "xlwt"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

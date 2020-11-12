@@ -1,0 +1,27 @@
+{
+  "requires_dist": [
+    "numpy"
+  ],
+  "requires_extras": {
+    "benchmark": [
+      "cma ; extra == 'benchmark'",
+      "kurobako ; extra == 'benchmark'",
+      "optuna ; extra == 'benchmark'"
+    ],
+    "lint": [
+      "black ; extra == 'lint'",
+      "flake8 ; extra == 'lint'",
+      "mypy ; extra == 'lint'"
+    ],
+    "release": [
+      "twine ; extra == 'release'",
+      "wheel ; extra == 'release'"
+    ],
+    "visualization": [
+      "matplotlib ; extra == 'visualization'",
+      "scipy ; extra == 'visualization'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

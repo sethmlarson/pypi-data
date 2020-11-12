@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "pywin32 (>=1.0) ; sys_platform == 'win32'",
+    "traitlets"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

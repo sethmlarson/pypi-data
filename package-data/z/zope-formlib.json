@@ -1,0 +1,23 @@
+{
+  "requires_dist": [
+    "pytz",
+    "setuptools",
+    "zope.browser (>=1.1)",
+    "zope.browserpage (>=3.11.0)",
+    "zope.browserresource",
+    "zope.component",
+    "zope.datetime",
+    "zope.event",
+    "zope.i18n",
+    "zope.i18nmessageid",
+    "zope.interface",
+    "zope.lifecycleevent",
+    "zope.publisher",
+    "zope.schema (>=3.5.1)",
+    "zope.security",
+    "zope.traversing"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+  "yanked": []
+}

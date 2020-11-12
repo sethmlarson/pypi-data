@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "ephem (>=3.7.5.3)",
+    "python-dateutil (>=2.6.1)",
+    "pytz"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7, <4",
+  "yanked": []
+}

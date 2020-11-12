@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "asgiref (<4,>=3.2.10)",
+    "pytz",
+    "sqlparse (>=0.2.2)"
+  ],
+  "requires_extras": {
+    "argon2": [
+      "argon2-cffi (>=16.1.0) ; extra == 'argon2'"
+    ],
+    "bcrypt": [
+      "bcrypt ; extra == 'bcrypt'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

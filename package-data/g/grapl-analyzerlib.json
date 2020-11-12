@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "boto3",
+    "grapl-common",
+    "grapl-graph-descriptions (==1.0.*)",
+    "pydgraph",
+    "typing-extensions"
+  ],
+  "requires_extras": {
+    "linters": [
+      "black ; extra == 'linters'",
+      "mypy ; extra == 'linters'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

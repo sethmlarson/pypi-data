@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "numpy (>=1.15)",
+    "pandas (>=0.25)",
+    "setuptools (>=38.4)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

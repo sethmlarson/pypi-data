@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "decorator",
+    "pbr (>=1.8)",
+    "six (>=1.7.0)",
+    "SQLAlchemy (>=0.9.6)",
+    "sqlparse",
+    "Tempita (>=0.4)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

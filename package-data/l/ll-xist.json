@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "cssutils (==1.0.2)"
+  ],
+  "requires_extras": {
+    "html": [
+      "lxml (>=4.3.4) ; extra == 'html'"
+    ],
+    "oracle": [
+      "cx-Oracle (>=8.0) ; extra == 'oracle'"
+    ],
+    "proctitle": [
+      "setproctitle (>=1.1.8) ; extra == 'proctitle'"
+    ],
+    "requests": [
+      "requests (>=2.22.0) ; extra == 'requests'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

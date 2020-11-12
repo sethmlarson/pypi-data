@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "webencodings >=0.4"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

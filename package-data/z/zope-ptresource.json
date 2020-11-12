@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "zope.browserresource",
+    "zope.interface",
+    "zope.pagetemplate",
+    "zope.publisher",
+    "zope.security"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

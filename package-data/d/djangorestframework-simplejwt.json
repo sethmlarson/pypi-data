@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "django",
+    "djangorestframework",
+    "pyjwt"
+  ],
+  "requires_extras": {
+    "lint": [
+      "flake8 ; extra == 'lint'",
+      "isort ; extra == 'lint'",
+      "pep8 ; extra == 'lint'"
+    ],
+    "python-jose": [
+      "python-jose (==3.0.0) ; extra == 'python-jose'"
+    ]
+  },
+  "requires_python": ">=3.7",
+  "yanked": []
+}

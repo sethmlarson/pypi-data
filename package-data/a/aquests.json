@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "h2 (>=4.0.0)",
+    "rs4 (>=0.2.6)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

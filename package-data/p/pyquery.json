@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "cssselect (>0.7.9)",
+    "lxml (>=2.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

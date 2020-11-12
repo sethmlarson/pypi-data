@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "flake8 (<3.7,>=3)",
+    "pathmatch"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,46 @@
+{
+  "requires_dist": [
+    "absl-py",
+    "bz2file",
+    "dopamine-rl",
+    "flask",
+    "future",
+    "gevent",
+    "gin-config",
+    "google-api-python-client",
+    "gunicorn",
+    "gym",
+    "h5py",
+    "kfac",
+    "mesh-tensorflow",
+    "numpy",
+    "oauth2client",
+    "opencv-python",
+    "Pillow",
+    "pypng",
+    "requests",
+    "scipy",
+    "six (>=1.12.0)",
+    "sympy",
+    "tensorflow-addons",
+    "tensorflow-datasets",
+    "tensorflow-gan",
+    "tensorflow-probability (==0.7.0)",
+    "tf-slim",
+    "tqdm"
+  ],
+  "requires_extras": {
+    "allen": [
+      "pandas (==0.23.0) ; extra == 'allen'",
+      "Pillow (==5.1.0) ; extra == 'allen'"
+    ],
+    "tensorflow": [
+      "tensorflow (>=1.15.0) ; extra == 'tensorflow'"
+    ],
+    "tensorflow-hub": [
+      "tensorflow-hub (>=0.1.1) ; extra == 'tensorflow-hub'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "dataclasses ; python_version < '3.7'",
+    "h11 (>=0.8.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6.1",
+  "yanked": []
+}

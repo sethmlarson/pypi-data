@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "django (>=2.0)",
+    "redis (>=3)",
+    "rq (>=1.2)"
+  ],
+  "requires_extras": {
+    "sentry": [
+      "raven (>=6.1.0) ; extra == 'sentry'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

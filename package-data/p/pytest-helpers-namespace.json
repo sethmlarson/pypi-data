@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "pytest (>=2.9.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

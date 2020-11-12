@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "jsonrpclib-pelix",
+    "pyyaml",
+    "pyzmq",
+    "scapy",
+    "simpy",
+    "texttable"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

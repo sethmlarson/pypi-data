@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "easyprocess",
+    "entrypoint2"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

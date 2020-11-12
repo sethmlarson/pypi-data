@@ -1,0 +1,22 @@
+{
+  "requires_dist": [
+    "persistent",
+    "setuptools",
+    "zope.annotation",
+    "zope.authentication",
+    "zope.component",
+    "zope.configuration",
+    "zope.i18nmessageid",
+    "zope.interface",
+    "zope.location",
+    "zope.schema",
+    "zope.security"
+  ],
+  "requires_extras": {
+    "dublincore": [
+      "zope.dublincore (>=3.7); extra == 'dublincore'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

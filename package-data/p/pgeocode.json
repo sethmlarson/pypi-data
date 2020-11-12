@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "numpy",
+    "pandas",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

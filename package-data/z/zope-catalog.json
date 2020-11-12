@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "BTrees",
+    "persistent",
+    "setuptools",
+    "zope.annotation",
+    "zope.component",
+    "zope.container",
+    "zope.index (>=3.5.0)",
+    "zope.interface",
+    "zope.intid",
+    "zope.lifecycleevent",
+    "zope.location",
+    "zope.schema"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

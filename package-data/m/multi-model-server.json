@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "future",
+    "model-archiver",
+    "Pillow",
+    "psutil"
+  ],
+  "requires_extras": {
+    "mxnet": [
+      "mxnet; extra == 'mxnet'"
+    ],
+    "mxnet-cu90mkl": [
+      "mxnet-cu90mkl; extra == 'mxnet-cu90mkl'"
+    ],
+    "mxnet-mkl": [
+      "mxnet-mkl; extra == 'mxnet-mkl'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

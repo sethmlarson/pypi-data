@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "joblib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

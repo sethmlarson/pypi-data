@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "enum34 (==1.1.6) ; python_version < '3.4'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

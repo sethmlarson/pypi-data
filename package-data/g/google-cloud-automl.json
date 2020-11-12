@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "google-api-core[grpc] (<2.0.0dev,>=1.22.0)",
+    "libcst (>=0.2.5)",
+    "proto-plus (>=1.10.0)"
+  ],
+  "requires_extras": {
+    "pandas": [
+      "pandas (>=0.17.1) ; extra == 'pandas'"
+    ],
+    "storage": [
+      "google-cloud-storage (<2.0.0dev,>=1.18.0) ; extra == 'storage'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

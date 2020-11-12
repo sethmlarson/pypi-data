@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "catkin-pkg",
+    "PyYAML",
+    "rospkg",
+    "setuptools"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

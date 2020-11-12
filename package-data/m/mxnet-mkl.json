@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "graphviz (>=0.8.1,<0.9.0)",
+    "numpy (>1.16.0,<2.0.0)",
+    "requests (>=2.20.0,<3)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "intel-openmp"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

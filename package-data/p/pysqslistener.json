@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "boto3"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

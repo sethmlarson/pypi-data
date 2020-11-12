@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "pillow"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": [
+    "1.13.0"
+  ]
+}

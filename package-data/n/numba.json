@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "llvmlite (<0.36,>=0.35.0.dev0)",
+    "numpy (>=1.15)",
+    "setuptools"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

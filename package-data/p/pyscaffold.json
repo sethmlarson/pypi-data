@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "appdirs (<2,>=1.4.4)",
+    "configupdater (<2,>=1.1.2)",
+    "importlib-metadata ; python_version < '3.8'",
+    "packaging (>=20.4)",
+    "setuptools (>=38.3)",
+    "setuptools-scm (<5,>=4.1.2)",
+    "tomlkit (<2,>=0.7.0)"
+  ],
+  "requires_extras": {
+    "ds": [
+      "pyscaffoldext-dsproject ; extra == 'ds'"
+    ],
+    "md": [
+      "pyscaffoldext-markdown ; extra == 'md'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

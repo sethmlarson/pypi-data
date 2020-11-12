@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "azure-nspkg (>=2.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

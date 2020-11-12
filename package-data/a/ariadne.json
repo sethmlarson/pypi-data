@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "graphql-core (<3.1.0,>=3.0.0)",
+    "starlette (<0.14)",
+    "typing-extensions (>=3.6.0)"
+  ],
+  "requires_extras": {
+    "asgi-file-uploads": [
+      "python-multipart (>=0.0.5) ; extra == 'asgi-file-uploads'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

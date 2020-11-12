@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "requests",
+    "simplejson",
+    "sphinx",
+    "sphinx-rtd-theme"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

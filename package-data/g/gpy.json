@@ -1,0 +1,26 @@
+{
+  "requires_dist": [
+    "numpy (>=1.7)",
+    "paramz (>=0.9.0)",
+    "scipy (>=0.16)",
+    "six"
+  ],
+  "requires_extras": {
+    "notebook": [
+      "ipykernel (>=4.1.0) ; extra == 'notebook'",
+      "ipywidgets (>=4.0.3) ; extra == 'notebook'",
+      "jupyter-client (>=4.0.6) ; extra == 'notebook'",
+      "notebook (>=4.0.5) ; extra == 'notebook'"
+    ],
+    "optional": [
+      "ipython (>=4.0.0) ; extra == 'optional'",
+      "mpi4py ; extra == 'optional'"
+    ],
+    "plotting": [
+      "matplotlib (>=3.0) ; extra == 'plotting'",
+      "plotly (>=1.8.6) ; extra == 'plotting'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

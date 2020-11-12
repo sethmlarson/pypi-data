@@ -1,0 +1,24 @@
+{
+  "requires_dist": [
+    "setuptools"
+  ],
+  "requires_extras": {
+    "query": [
+      "jmespath ; extra == 'query'"
+    ],
+    "schema": [
+      "jsonschema ; extra == 'schema'"
+    ],
+    "template": [
+      "Jinja2 ; extra == 'template'"
+    ],
+    "toml": [
+      "toml ; extra == 'toml'"
+    ],
+    "yaml": [
+      "pyyaml ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

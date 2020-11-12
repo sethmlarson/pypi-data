@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "joblib",
+    "matplotlib (>=2.1.2)",
+    "numpy",
+    "pandas",
+    "psutil",
+    "scikit-learn",
+    "scipy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

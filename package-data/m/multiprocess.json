@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "dill (>=0.3.3)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

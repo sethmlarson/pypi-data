@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "adal (>=1.0.0)",
+    "azure.identity (>=1.3.1)",
+    "python-dateutil (>=2.8.0)",
+    "requests (>=2.13.0)"
+  ],
+  "requires_extras": {
+    "pandas": [
+      "pandas ; extra == 'pandas'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

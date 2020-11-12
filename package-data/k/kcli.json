@@ -1,0 +1,45 @@
+{
+  "requires_dist": [
+    "argcomplete",
+    "flask",
+    "jinja2",
+    "libvirt-python (>=2.0.0)",
+    "netaddr",
+    "prettytable",
+    "PyYAML",
+    "requests"
+  ],
+  "requires_extras": {
+    "aws": [
+      "boto3 ; extra == 'aws'"
+    ],
+    "gcp": [
+      "google-api-python-client ; extra == 'gcp'",
+      "google-auth-httplib2 ; extra == 'gcp'",
+      "google-cloud-dns ; extra == 'gcp'"
+    ],
+    "grpc": [
+      "grpcio ; extra == 'grpc'",
+      "grpcio-reflection ; extra == 'grpc'"
+    ],
+    "kubevirt": [
+      "kubernetes ; extra == 'kubevirt'"
+    ],
+    "openstack": [
+      "python-cinderclient ; extra == 'openstack'",
+      "python-glanceclient ; extra == 'openstack'",
+      "python-keystoneclient ; extra == 'openstack'",
+      "python-neutronclient ; extra == 'openstack'",
+      "python-novaclient ; extra == 'openstack'"
+    ],
+    "ovirt": [
+      "ovirt-engine-sdk-python ; extra == 'ovirt'"
+    ],
+    "vsphere": [
+      "pyvmomi ; extra == 'vsphere'",
+      "requests ; extra == 'vsphere'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

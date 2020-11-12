@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "aurcore (>=1.1.33,<2.0.0)",
+    "discord.py",
+    "loguru (>=0.5.2,<0.6.0)",
+    "pyyaml",
+    "tabulate (>=0.8.7,<0.9.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.9,<4.0",
+  "yanked": []
+}

@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "cython (>=0.29.15)",
+    "numpy (>=1.16.6)",
+    "scipy (>=1.2.3)",
+    "setuptools (>=18.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

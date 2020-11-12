@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "django-cms (>=3.7)",
+    "django-filer (>=1.7)",
+    "djangocms-attributes-field (>=1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

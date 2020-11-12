@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "pyasn1 (>=0.1.3)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5, <4",
+  "yanked": [
+    "4.1.1",
+    "4.4"
+  ]
+}

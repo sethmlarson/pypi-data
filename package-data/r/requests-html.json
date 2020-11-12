@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "bs4",
+    "fake-useragent",
+    "parse",
+    "pyppeteer (>=0.0.14)",
+    "pyquery",
+    "requests",
+    "w3lib"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6.0",
+  "yanked": []
+}

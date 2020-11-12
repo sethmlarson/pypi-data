@@ -1,0 +1,23 @@
+{
+  "requires_dist": [
+    "chardet (>=3.0.4)",
+    "click (>=6.7)",
+    "numpy (>=1.13.3)",
+    "openpyxl (>=2.5.8)",
+    "pandas (>=0.23.4)",
+    "pdfminer.six (>=20200726)",
+    "PyPDF2 (>=1.26.0)"
+  ],
+  "requires_extras": {
+    "cv": [
+      "opencv-python (>=3.4.2.17) ; extra == 'cv'"
+    ],
+    "plot": [
+      "matplotlib (>=2.2.3) ; extra == 'plot'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": [
+    "0.8.1"
+  ]
+}

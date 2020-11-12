@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "future",
+    "PyJWT",
+    "requests (>=2.4.2)",
+    "requests-toolbelt"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

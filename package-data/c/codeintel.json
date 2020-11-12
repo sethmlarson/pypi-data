@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "3to2",
+    "applib",
+    "chardet",
+    "clang",
+    "cmdln",
+    "esprima",
+    "inflector",
+    "six",
+    "zope.cachedescriptors"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

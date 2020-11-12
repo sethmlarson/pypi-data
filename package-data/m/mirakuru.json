@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "psutil (>=4.0.0) ; sys_platform != 'cygwin'"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

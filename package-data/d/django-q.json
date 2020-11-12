@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "arrow",
+    "blessed",
+    "django (>=2.2)",
+    "django-picklefield"
+  ],
+  "requires_extras": {
+    "rollbar": [
+      "django-q-rollbar (>=0.1) ; extra == 'rollbar'"
+    ],
+    "sentry": [
+      "django-q-sentry (>=0.1) ; extra == 'sentry'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

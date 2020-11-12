@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "addict (==2.2.1)",
+    "appdirs",
+    "click",
+    "deepdiff",
+    "jinja2",
+    "msgpack (==1.0.0)",
+    "ply",
+    "pyyaml",
+    "requests (==2.24.0)",
+    "rich",
+    "simpleeval",
+    "urllib3 (==1.25.9)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

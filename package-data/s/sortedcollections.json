@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "sortedcontainers"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

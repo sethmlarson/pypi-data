@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "gevent",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

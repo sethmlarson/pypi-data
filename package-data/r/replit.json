@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "aiohttp (>=3.6.2,<4.0.0)",
+    "flask (>=1.1.2,<2.0.0)",
+    "typing_extensions (>=3.7.4,<4.0.0)",
+    "werkzeug (>=1.0.1,<2.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.8,<4.0",
+  "yanked": []
+}

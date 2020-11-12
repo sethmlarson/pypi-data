@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "six"
+  ],
+  "requires_extras": {
+    "sasl": [
+      "pure-sasl (==0.5.1) ; extra == 'sasl'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

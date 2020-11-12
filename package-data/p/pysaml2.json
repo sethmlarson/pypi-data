@@ -1,0 +1,20 @@
+{
+  "requires_dist": [
+    "cryptography (>=1.4)",
+    "defusedxml",
+    "pyOpenSSL",
+    "python-dateutil",
+    "pytz",
+    "requests (>=1.0.0)",
+    "six"
+  ],
+  "requires_extras": {
+    "s2repoze": [
+      "paste ; extra == 's2repoze'",
+      "repoze.who ; extra == 's2repoze'",
+      "zope.interface ; extra == 's2repoze'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

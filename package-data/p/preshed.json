@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "cymem (<2.1.0,>=2.0.2)",
+    "murmurhash (<1.1.0,>=0.28.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

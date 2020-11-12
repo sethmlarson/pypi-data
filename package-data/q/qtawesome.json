@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "qtpy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

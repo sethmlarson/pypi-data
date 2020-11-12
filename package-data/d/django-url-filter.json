@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "cached-property",
+    "Django (>=1.8)",
+    "enum-compat",
+    "setuptools",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

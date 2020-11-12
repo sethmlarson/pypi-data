@@ -1,0 +1,30 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "transaction",
+    "ZConfig",
+    "zope.app.appsetup (>=4.0)",
+    "zope.app.publication (>=4.0)",
+    "zope.component",
+    "zope.configuration",
+    "zope.container (>=4.0.0a1)",
+    "zope.error",
+    "zope.event",
+    "zope.interface",
+    "zope.lifecycleevent",
+    "zope.processlifetime",
+    "zope.publisher (>=4.0.0a3)",
+    "zope.security (>4.0.0a2)",
+    "zope.session (>=4.0.0a1)",
+    "zope.site (>=4.0.0a1)",
+    "zope.testing",
+    "zope.traversing (>=4.0.0a1)"
+  ],
+  "requires_extras": {
+    "testlayer": [
+      "WebTest ; extra == 'testlayer'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

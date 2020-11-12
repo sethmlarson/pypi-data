@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "html5lib (>=0.999999999)"
+  ],
+  "requires_extras": {
+    "fast": [
+      "html5-parser (>=0.4.4) ; extra == 'fast'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

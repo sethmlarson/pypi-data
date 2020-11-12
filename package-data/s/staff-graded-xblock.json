@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "edx-bulk-grades",
+    "markdown",
+    "path.py",
+    "web-fragments",
+    "XBlock",
+    "xblock-utils"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

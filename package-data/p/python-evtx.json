@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "hexdump",
+    "pytest",
+    "pytest-cov",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

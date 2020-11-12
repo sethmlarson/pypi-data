@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "ipykernel (>=4.7)",
+    "ipywidgets (>=7.5.0)",
+    "matplotlib (>=2.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

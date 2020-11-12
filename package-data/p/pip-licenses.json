@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "PTable"
+  ],
+  "requires_extras": {},
+  "requires_python": "~=3.6",
+  "yanked": []
+}

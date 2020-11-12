@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "numpy (>=1.8.2)",
+    "pandas (>=0.18.1)",
+    "scikit-learn (>=0.18.dev0)",
+    "scipy (>=0.13.0b1)",
+    "six (>=1.10.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

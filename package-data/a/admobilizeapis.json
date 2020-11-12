@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "google-api-core (<2.0.0dev,>=1.6.0)",
+    "protobuf (<4.0,>=3.6.0)"
+  ],
+  "requires_extras": {
+    "grpc": [
+      "grpcio (>=1.2.0) ; extra == 'grpc'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

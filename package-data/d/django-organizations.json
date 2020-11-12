@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "Django (>=2.2.0)",
+    "six",
+    "typing ; python_version < '3.6'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

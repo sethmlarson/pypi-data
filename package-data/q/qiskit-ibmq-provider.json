@@ -1,0 +1,26 @@
+{
+  "requires_dist": [
+    "nest-asyncio (!=1.1.0,>=1.0.0)",
+    "numpy (>=1.13)",
+    "python-dateutil (>=2.8.0)",
+    "qiskit-terra (>=0.15)",
+    "requests (>=2.19)",
+    "requests-ntlm (>=1.1.0)",
+    "urllib3 (>=1.21.1)",
+    "websockets (>=8)"
+  ],
+  "requires_extras": {
+    "visualization": [
+      "ipython (>=5.0.0) ; extra == 'visualization'",
+      "ipyvuetify (>=1.1) ; extra == 'visualization'",
+      "ipywidgets (>=7.3.0) ; extra == 'visualization'",
+      "matplotlib (>=2.1) ; extra == 'visualization'",
+      "plotly (>=4.4) ; extra == 'visualization'",
+      "pyperclip (>=1.7) ; extra == 'visualization'",
+      "seaborn (>=0.9.0) ; extra == 'visualization'",
+      "traitlets (!=5.0.5) ; extra == 'visualization'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

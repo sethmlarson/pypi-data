@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "numpy (>=1.12.0)",
+    "protobuf (>=3.8.0)"
+  ],
+  "requires_extras": {
+    "make_image_classifier": [
+      "keras-preprocessing[image] ; extra == 'make_image_classifier'"
+    ],
+    "make_nearest_neighbour_index": [
+      "annoy ; extra == 'make_nearest_neighbour_index'",
+      "apache-beam ; extra == 'make_nearest_neighbour_index'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

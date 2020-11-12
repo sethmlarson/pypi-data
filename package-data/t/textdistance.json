@@ -1,0 +1,89 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "DamerauLevenshtein": [
+      "abydos; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "jellyfish; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "numpy; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "python-levenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "pyxdameraulevenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'"
+    ],
+    "Hamming": [
+      "abydos; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "jellyfish; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "numpy; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "python-levenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "pyxdameraulevenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "distance; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'",
+      "py-stringmatching; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'",
+      "pylev; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'",
+      "tabulate; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'"
+    ],
+    "Jaro": [
+      "abydos; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "jellyfish; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "numpy; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "python-levenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "pyxdameraulevenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'"
+    ],
+    "JaroWinkler": [
+      "abydos; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "jellyfish; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "numpy; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "python-levenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "pyxdameraulevenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'"
+    ],
+    "Levenshtein": [
+      "abydos; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "jellyfish; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "numpy; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "python-levenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "pyxdameraulevenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'"
+    ],
+    "benchmark": [
+      "abydos; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "jellyfish; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "numpy; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "python-levenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "pyxdameraulevenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "distance; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'",
+      "py-stringmatching; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'",
+      "pylev; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'",
+      "tabulate; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'"
+    ],
+    "benchmarks": [
+      "abydos; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "jellyfish; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "numpy; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "python-levenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "pyxdameraulevenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "distance; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'",
+      "py-stringmatching; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'",
+      "pylev; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'",
+      "tabulate; extra == 'benchmark' or extra == 'benchmarks' or extra == 'Hamming' or extra == 'all'"
+    ],
+    "common": [
+      "abydos; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "jellyfish; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "numpy; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "python-levenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "pyxdameraulevenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'"
+    ],
+    "extra": [
+      "abydos; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "jellyfish; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "numpy; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "python-levenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "pyxdameraulevenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'"
+    ],
+    "extras": [
+      "abydos; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "jellyfish; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "numpy; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "python-levenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'",
+      "pyxdameraulevenshtein; extra == 'JaroWinkler' or extra == 'benchmark' or extra == 'DamerauLevenshtein' or extra == 'Jaro' or extra == 'benchmarks' or extra == 'Levenshtein' or extra == 'all' or extra == 'extra' or extra == 'common' or extra == 'extras' or extra == 'Hamming'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

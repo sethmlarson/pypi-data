@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "texttable (>=1.6.2)"
+  ],
+  "requires_extras": {
+    "plotting": [
+      "pycairo (>=1.18.0) ; extra == 'plotting'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

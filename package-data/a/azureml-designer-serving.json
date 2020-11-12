@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "azureml-contrib-services",
+    "azureml-defaults",
+    "azureml-designer-core[image,model] (>=0.0.32)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

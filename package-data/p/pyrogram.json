@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "async-lru (==1.0.2)",
+    "pyaes (==1.6.1)",
+    "pysocks (==1.7.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "~=3.6",
+  "yanked": []
+}

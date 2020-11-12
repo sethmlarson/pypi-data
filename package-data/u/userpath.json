@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "click",
+    "distro ; platform_system == 'Linux'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

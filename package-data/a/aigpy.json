@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "colorama",
+    "configparser",
+    "mutagen",
+    "pycryptodome",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "setuptools"
+  ],
+  "requires_extras": {
+    "paste": [
+      "Paste ; extra == 'paste'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

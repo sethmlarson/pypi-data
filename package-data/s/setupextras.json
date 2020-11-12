@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "codecov (>=2.0.15)",
+    "colour-runner (>=0.0.5)",
+    "coverage (>=4.5.2)",
+    "deepdiff (>=3.3.0)",
+    "inspecta (>=0.1.0)",
+    "rootpath (>=0.1.1)",
+    "setuptools (>=40.8.0)",
+    "six (>=1.11.0)",
+    "tox (>=3.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

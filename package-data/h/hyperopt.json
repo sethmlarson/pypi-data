@@ -1,0 +1,25 @@
+{
+  "requires_dist": [
+    "cloudpickle",
+    "future",
+    "networkx (>=2.2)",
+    "numpy",
+    "scipy",
+    "six",
+    "tqdm"
+  ],
+  "requires_extras": {
+    "atpe": [
+      "lightgbm ; extra == 'atpe'",
+      "scikit-learn ; extra == 'atpe'"
+    ],
+    "mongotrials": [
+      "pymongo ; extra == 'mongotrials'"
+    ],
+    "sparktrials": [
+      "pyspark ; extra == 'sparktrials'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

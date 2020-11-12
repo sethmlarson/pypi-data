@@ -1,0 +1,64 @@
+{
+  "requires_dist": [
+    "certifi (>=2019.9.11)",
+    "click (<8.0)",
+    "click-completion (<0.6)",
+    "Jinja2 (>=2.10.3)",
+    "kubernetes (>=10.0.1)",
+    "marshmallow (<3.9.1,>=3.4.0)",
+    "nvidia-ml-py3",
+    "polyaxon-sdk (==1.3.2)",
+    "psutil",
+    "python-dateutil (>=2.7.3)",
+    "pytz (>=2019.2)",
+    "PyYAML (>=5.1)",
+    "requests (>=2.20.1)",
+    "requests-toolbelt (>=0.8.0)",
+    "sentry-sdk (>=0.12.3)",
+    "tabulate (<=0.8.7)",
+    "ujson (>=1.35)"
+  ],
+  "requires_extras": {
+    "azure": [
+      "azure-storage-blob (>=12.3.1) ; extra == 'azure'"
+    ],
+    "docker": [
+      "docker ; extra == 'docker'"
+    ],
+    "gcs": [
+      "google-cloud-storage ; extra == 'gcs'"
+    ],
+    "git": [
+      "gitpython ; extra == 'git'"
+    ],
+    "numpy": [
+      "numpy ; extra == 'numpy'"
+    ],
+    "polyboard": [
+      "altair ; extra == 'polyboard'",
+      "bokeh ; extra == 'polyboard'",
+      "matplotlib ; extra == 'polyboard'",
+      "moviepy ; extra == 'polyboard'",
+      "pandas ; extra == 'polyboard'",
+      "Pillow ; extra == 'polyboard'",
+      "plotly ; extra == 'polyboard'"
+    ],
+    "polytune": [
+      "hyperopt (==0.2.4) ; extra == 'polytune'",
+      "scikit-learn (==0.23.2) ; extra == 'polytune'"
+    ],
+    "s3": [
+      "boto3 ; extra == 's3'",
+      "botocore ; extra == 's3'"
+    ],
+    "streams": [
+      "aiofiles (==0.5.0) ; extra == 'streams'",
+      "kubernetes-asyncio (==11.3.0) ; extra == 'streams'",
+      "pandas ; extra == 'streams'",
+      "starlette (==0.13.8) ; extra == 'streams'",
+      "uvicorn (==0.11.8) ; extra == 'streams'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

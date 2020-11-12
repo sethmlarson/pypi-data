@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "enum34; python_version < '3.4'",
+    "graphviz",
+    "matplotlib",
+    "numpy >=1.16.0",
+    "pandas >=0.24.0",
+    "plotly",
+    "scipy",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

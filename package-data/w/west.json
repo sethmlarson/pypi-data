@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "colorama",
+    "configobj",
+    "packaging",
+    "pykwalify",
+    "PyYAML (>=5.1)",
+    "setuptools"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

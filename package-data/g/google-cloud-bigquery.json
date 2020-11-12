@@ -1,0 +1,31 @@
+{
+  "requires_dist": [
+    "google-api-core[grpc] (<2.0.0dev,>=1.23.0)",
+    "google-cloud-core (<2.0dev,>=1.4.1)",
+    "google-resumable-media (<2.0dev,>=0.6.0)",
+    "proto-plus (>=1.10.0)",
+    "protobuf (>=3.12.0)",
+    "six (<2.0.0dev,>=1.13.0)"
+  ],
+  "requires_extras": {
+    "bqstorage": [
+      "google-cloud-bigquery-storage (<3.0.0dev,>=2.0.0) ; extra == 'bqstorage'",
+      "grpcio (<2.0dev,>=1.32.0) ; extra == 'bqstorage'",
+      "pyarrow (<2.0dev,>=1.0.0) ; extra == 'bqstorage'"
+    ],
+    "opentelemetry": [
+      "opentelemetry-api (==0.9b0) ; extra == 'opentelemetry'",
+      "opentelemetry-instrumentation (==0.9b0) ; extra == 'opentelemetry'",
+      "opentelemetry-sdk (==0.9b0) ; extra == 'opentelemetry'"
+    ],
+    "pandas": [
+      "pandas (>=0.23.0) ; extra == 'pandas'",
+      "pyarrow (<2.0dev,>=1.0.0) ; extra == 'pandas'"
+    ],
+    "tqdm": [
+      "tqdm (<5.0.0dev,>=4.7.4) ; extra == 'tqdm'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

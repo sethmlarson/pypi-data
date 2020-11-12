@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "nose",
+    "pytest-allure-adaptor"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

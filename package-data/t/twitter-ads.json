@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "python-dateutil",
+    "pyyaml",
+    "requests-oauthlib"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

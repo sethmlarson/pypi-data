@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "azure-core (<2.0.0,>=1.9.0)",
+    "azure-mgmt-nspkg ; python_version<'3.0'",
+    "typing ; python_version<'3.5'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

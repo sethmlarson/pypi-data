@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "distro (>=1.2.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": [
+    "2.1.15"
+  ]
+}

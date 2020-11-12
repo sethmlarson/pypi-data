@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "argon2-cffi",
+    "ipykernel",
+    "ipython-genutils",
+    "jinja2",
+    "jupyter-client (>=5.3.4)",
+    "jupyter-core (>=4.6.1)",
+    "nbconvert",
+    "nbformat",
+    "prometheus-client",
+    "pyzmq (>=17)",
+    "Send2Trash",
+    "terminado (>=0.8.3)",
+    "tornado (>=5.0)",
+    "traitlets (>=4.2.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

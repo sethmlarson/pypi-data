@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "networkx (<2.5,>=2.0)",
+    "numpy",
+    "openpyxl (>=2.6.2)",
+    "python-dateutil",
+    "ruamel.yaml"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

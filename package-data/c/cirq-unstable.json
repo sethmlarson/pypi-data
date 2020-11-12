@@ -1,0 +1,57 @@
+{
+  "requires_dist": [
+    "dataclasses ; python_version < '3.7'",
+    "google-api-core[grpc] (<2.0.0dev,>=1.14.0)",
+    "matplotlib (~=3.0)",
+    "networkx (~=2.4)",
+    "numpy (~=1.16)",
+    "pandas",
+    "protobuf (~=3.12.0)",
+    "requests (~=2.18)",
+    "scipy",
+    "sortedcontainers (~=2.0)",
+    "sympy",
+    "typing-extensions"
+  ],
+  "requires_extras": {
+    "contrib": [
+      "autoray ; extra == 'contrib'",
+      "opt-einsum ; extra == 'contrib'",
+      "ply (>=3.4) ; extra == 'contrib'",
+      "pylatex (~=1.3.0) ; extra == 'contrib'",
+      "pyquil (~=2.21.0) ; extra == 'contrib'",
+      "quimb ; extra == 'contrib'"
+    ],
+    "dev_env": [
+      "autoray ; extra == 'dev_env'",
+      "freezegun (~=0.3.15) ; extra == 'dev_env'",
+      "grpcio-tools (~=1.26) ; extra == 'dev_env'",
+      "ipykernel ; extra == 'dev_env'",
+      "ipython ; extra == 'dev_env'",
+      "mypy (~=0.782.0) ; extra == 'dev_env'",
+      "mypy-protobuf (==1.10) ; extra == 'dev_env'",
+      "myst-parser ; extra == 'dev_env'",
+      "nbsphinx ; extra == 'dev_env'",
+      "opt-einsum ; extra == 'dev_env'",
+      "ply (>=3.4) ; extra == 'dev_env'",
+      "pylatex (~=1.3.0) ; extra == 'dev_env'",
+      "pylint (~=2.6.0) ; extra == 'dev_env'",
+      "pypandoc ; extra == 'dev_env'",
+      "pyquil (~=2.21.0) ; extra == 'dev_env'",
+      "pytest (~=5.4.1) ; extra == 'dev_env'",
+      "pytest-asyncio (~=0.12.0) ; extra == 'dev_env'",
+      "pytest-benchmark (~=3.2.0) ; extra == 'dev_env'",
+      "pytest-cov (~=2.5.0) ; extra == 'dev_env'",
+      "qiskit (~=0.20.0) ; extra == 'dev_env'",
+      "quimb ; extra == 'dev_env'",
+      "rstcheck (~=3.3.1) ; extra == 'dev_env'",
+      "Sphinx (~=3.2.0) ; extra == 'dev_env'",
+      "sphinx-markdown-tables ; extra == 'dev_env'",
+      "sphinx-rtd-theme ; extra == 'dev_env'",
+      "twine ; extra == 'dev_env'",
+      "yapf (~=0.27.0) ; extra == 'dev_env'"
+    ]
+  },
+  "requires_python": ">=3.6.0",
+  "yanked": []
+}

@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "matplotlib"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

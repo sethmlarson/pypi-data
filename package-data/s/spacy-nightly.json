@@ -1,0 +1,74 @@
+{
+  "requires_dist": [
+    "blis (<0.8.0,>=0.4.0)",
+    "catalogue (<2.1.0,>=2.0.1)",
+    "cymem (<2.1.0,>=2.0.2)",
+    "importlib-metadata (>=0.20) ; python_version < '3.8'",
+    "jinja2",
+    "murmurhash (<1.1.0,>=0.28.0)",
+    "numpy (>=1.15.0)",
+    "packaging (>=20.0)",
+    "pathy",
+    "preshed (<3.1.0,>=3.0.2)",
+    "pydantic (<1.7.0,>=1.5.0)",
+    "pytokenizations",
+    "requests (<3.0.0,>=2.13.0)",
+    "setuptools",
+    "srsly (<3.0.0,>=2.3.0)",
+    "thinc (<8.1.0,>=8.0.0rc0)",
+    "tqdm (<5.0.0,>=4.38.0)",
+    "typer (<0.4.0,>=0.3.0)",
+    "typing-extensions (>=3.7.4) ; python_version < '3.8'",
+    "wasabi (<1.1.0,>=0.8.0)"
+  ],
+  "requires_extras": {
+    "cuda": [
+      "cupy (<9.0.0,>=5.0.0b4) ; extra == 'cuda'"
+    ],
+    "cuda100": [
+      "cupy-cuda100 (<9.0.0,>=5.0.0b4) ; extra == 'cuda100'"
+    ],
+    "cuda101": [
+      "cupy-cuda101 (<9.0.0,>=5.0.0b4) ; extra == 'cuda101'"
+    ],
+    "cuda102": [
+      "cupy-cuda102 (<9.0.0,>=5.0.0b4) ; extra == 'cuda102'"
+    ],
+    "cuda80": [
+      "cupy-cuda80 (<9.0.0,>=5.0.0b4) ; extra == 'cuda80'"
+    ],
+    "cuda90": [
+      "cupy-cuda90 (<9.0.0,>=5.0.0b4) ; extra == 'cuda90'"
+    ],
+    "cuda91": [
+      "cupy-cuda91 (<9.0.0,>=5.0.0b4) ; extra == 'cuda91'"
+    ],
+    "cuda92": [
+      "cupy-cuda92 (<9.0.0,>=5.0.0b4) ; extra == 'cuda92'"
+    ],
+    "ja": [
+      "sudachidict-core (>=20200330) ; extra == 'ja'",
+      "sudachipy (>=0.4.9) ; extra == 'ja'"
+    ],
+    "ko": [
+      "natto-py (==0.9.0) ; extra == 'ko'"
+    ],
+    "lookups": [
+      "spacy-lookups-data (<1.1.0,>=1.0.0rc0) ; extra == 'lookups'"
+    ],
+    "ray": [
+      "spacy-ray (<1.0.0,>=0.1.0) ; extra == 'ray'"
+    ],
+    "th": [
+      "pythainlp (>=2.0) ; extra == 'th'"
+    ],
+    "transformers": [
+      "spacy-transformers (<1.1.0,>=1.0.0rc0) ; extra == 'transformers'"
+    ],
+    "zh": [
+      "spacy-pkuseg (==0.0.26) ; extra == 'zh'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

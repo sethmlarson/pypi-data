@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "azure-core (<2.0.0,>=1.9.0)",
+    "azure-storage-blob (<13.0.0,>=12.6.0)",
+    "azure-storage-nspkg (<4.0.0,>=3.0.0) ; python_version<'3.0'",
+    "enum34 (>=1.0.4) ; python_version<'3.4'",
+    "futures ; python_version<'3.0'",
+    "msrest (>=0.6.10)",
+    "typing ; python_version<'3.5'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

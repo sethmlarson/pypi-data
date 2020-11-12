@@ -1,0 +1,35 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "consul": [
+      "consulate (==0.6.0) ; extra == 'consul'",
+      "jsonpickle (==1.4.1) ; extra == 'consul'"
+    ],
+    "database": [
+      "jsonpickle (==1.4.1) ; extra == 'database'",
+      "SQLAlchemy (==1.3.19) ; extra == 'database'"
+    ],
+    "memcached": [
+      "jsonpickle (==1.4.1) ; extra == 'memcached'",
+      "pymemcache (==3.4.0) ; extra == 'memcached'",
+      "six (==1.15.0) ; extra == 'memcached'"
+    ],
+    "redis": [
+      "jsonpickle (==1.4.1) ; extra == 'redis'",
+      "redis (==3.5.3) ; extra == 'redis'",
+      "six (==1.15.0) ; extra == 'redis'"
+    ],
+    "s3": [
+      "boto3 (==1.15.6) ; extra == 's3'",
+      "jsonpickle (==1.4.1) ; extra == 's3'"
+    ],
+    "toml": [
+      "toml (==0.10.1) ; extra == 'toml'"
+    ],
+    "yaml": [
+      "PyYAML (==5.3.1) ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

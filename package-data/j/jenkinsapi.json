@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "pytz (>=2014.4)",
+    "requests (>=2.3.0)",
+    "six (>=1.10.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

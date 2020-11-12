@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "epicscorelibs (<7.0.3.99.5,>=7.0.3.99.4.0)",
+    "nose (>=1.1.2)",
+    "numpy (>=1.11.3)",
+    "ply"
+  ],
+  "requires_extras": {
+    "qt": [
+      "qtpy ; extra == 'qt'"
+    ]
+  },
+  "requires_python": ">=2.7",
+  "yanked": []
+}

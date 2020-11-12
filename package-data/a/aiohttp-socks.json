@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "aiohttp (>=2.3.2)",
+    "attrs (>=19.2.0)",
+    "python-socks[asyncio] (>=1.0.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

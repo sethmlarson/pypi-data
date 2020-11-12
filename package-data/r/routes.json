@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "repoze.lru (>=0.3)",
+    "six"
+  ],
+  "requires_extras": {
+    "middleware": [
+      "webob ; extra == 'middleware'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

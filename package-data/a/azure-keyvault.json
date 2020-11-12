@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "azure-keyvault-certificates (~=4.1)",
+    "azure-keyvault-keys (~=4.1)",
+    "azure-keyvault-secrets (~=4.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

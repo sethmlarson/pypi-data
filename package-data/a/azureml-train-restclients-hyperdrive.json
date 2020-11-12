@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "msrest (>=0.5.1)",
+    "msrestazure (>=0.4.33)",
+    "requests (>=2.19.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5,<4",
+  "yanked": []
+}

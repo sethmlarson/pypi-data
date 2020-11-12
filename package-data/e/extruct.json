@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "html-text (>=0.5.1)",
+    "jstyleson",
+    "lxml",
+    "mf2py",
+    "rdflib (<5.0.0)",
+    "rdflib-jsonld",
+    "six",
+    "w3lib"
+  ],
+  "requires_extras": {
+    "cli": [
+      "requests ; extra == 'cli'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "dataclasses",
+    "future",
+    "numpy",
+    "typing-extensions"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6.1",
+  "yanked": []
+}

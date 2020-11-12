@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "click",
+    "click-aliases",
+    "click-option-group",
+    "colorama",
+    "gitpython",
+    "pyjwt",
+    "pyotp",
+    "python-gnupg (>=0.3.5)",
+    "requests",
+    "requests (>=2.22)",
+    "tabulate",
+    "tqdm"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

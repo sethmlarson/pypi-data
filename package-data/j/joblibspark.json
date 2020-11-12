@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "joblib (>=0.14)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

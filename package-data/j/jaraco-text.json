@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "importlib-resources ; python_version < '3.7'",
+    "jaraco.functools",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7",
+  "yanked": []
+}

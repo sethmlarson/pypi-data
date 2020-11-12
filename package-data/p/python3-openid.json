@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "defusedxml"
+  ],
+  "requires_extras": {
+    "mysql": [
+      "mysql-connector-python ; extra == 'mysql'"
+    ],
+    "postgresql": [
+      "psycopg2 ; extra == 'postgresql'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

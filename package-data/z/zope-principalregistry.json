@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "zope.authentication",
+    "zope.component",
+    "zope.interface",
+    "zope.password",
+    "zope.security"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "ipykernel (>=4.1)",
+    "ipython-genutils",
+    "jupyter-client (>=4.1)",
+    "jupyter-core",
+    "pygments",
+    "pyzmq (>=17.1)",
+    "qtpy",
+    "traitlets"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

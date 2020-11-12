@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "django-otp (>=1.0.0)",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

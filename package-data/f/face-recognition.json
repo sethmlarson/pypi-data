@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "Click (>=6.0)",
+    "dlib (>=19.7)",
+    "face-recognition-models (>=0.3.0)",
+    "numpy",
+    "Pillow"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

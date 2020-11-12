@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "azureml-interpret (~=1.18.0)"
+  ],
+  "requires_extras": {
+    "deep": [
+      "azureml-interpret[deep]; extra == 'deep'"
+    ],
+    "mimic": [
+      "azureml-interpret[mimic]; extra == 'mimic'"
+    ],
+    "sample": [
+      "azureml-interpret[sample]; extra == 'sample'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

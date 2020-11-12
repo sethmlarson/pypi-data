@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "braintreehttp (>=0.5.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "autogluon.core (==0.0.15b20201112)",
+    "autogluon.extra (==0.0.15b20201112)",
+    "autogluon.mxnet (==0.0.15b20201112)",
+    "autogluon.tabular (==0.0.15b20201112)",
+    "autogluon.text (==0.0.15b20201112)",
+    "autogluon.vision (==0.0.15b20201112)",
+    "pytest"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6.*",
+  "yanked": [
+    "0.0.7"
+  ]
+}

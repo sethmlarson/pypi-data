@@ -1,0 +1,22 @@
+{
+  "requires_dist": [
+    "autocfg",
+    "autogluon.core",
+    "decord",
+    "matplotlib",
+    "numpy",
+    "opencv-python",
+    "pandas",
+    "Pillow",
+    "portalocker",
+    "pyyaml",
+    "requests",
+    "scipy",
+    "tensorboardx",
+    "tqdm",
+    "yacs"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

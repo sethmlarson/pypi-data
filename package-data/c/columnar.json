@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "toolz",
+    "wcwidth"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

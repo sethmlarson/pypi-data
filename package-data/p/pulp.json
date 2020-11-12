@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "amply (>=0.1.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

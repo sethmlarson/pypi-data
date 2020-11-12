@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "casttube (>=0.2.0)",
+    "protobuf (>=3.0.0)",
+    "requests (>=2.0)",
+    "zeroconf (>=0.25.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

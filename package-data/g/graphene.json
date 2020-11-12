@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "aniso8601 (<9,>=8)",
+    "graphql-core (<4,>=3.1.2)",
+    "graphql-relay (<4,>=3.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

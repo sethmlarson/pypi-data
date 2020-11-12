@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "execnet (>=1.1)",
+    "pytest (>=6.0.0)",
+    "pytest-forked"
+  ],
+  "requires_extras": {
+    "psutil": [
+      "psutil (>=3.0) ; extra == 'psutil'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

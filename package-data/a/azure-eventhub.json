@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "azure-core (<2.0.0,>=1.5.0)",
+    "azure-nspkg ; python_version<'3.0'",
+    "typing ; python_version<'3.5'",
+    "uamqp (<2.0,>=1.2.7)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

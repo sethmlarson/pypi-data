@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "lxml (>=4.0)",
+    "Pillow (>=6)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

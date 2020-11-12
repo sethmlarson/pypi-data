@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "h5py",
+    "numpy (>=1.9.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

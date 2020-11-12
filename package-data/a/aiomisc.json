@@ -1,0 +1,50 @@
+{
+  "requires_dist": [
+    "async-generator ; python_version < '3.7'",
+    "colorlog"
+  ],
+  "requires_extras": {
+    "aiohttp": [
+      "aiohttp ; extra == 'aiohttp'"
+    ],
+    "asgi": [
+      "aiohttp-asgi ; extra == 'asgi'"
+    ],
+    "carbon": [
+      "aiocarbon (~=0.15) ; extra == 'carbon'"
+    ],
+    "contextvars": [
+      "contextvars (~=2.4) ; extra == 'contextvars'"
+    ],
+    "cron": [
+      "croniter (~=0.3.34) ; extra == 'cron'"
+    ],
+    "develop": [
+      "aiohttp (<4) ; extra == 'develop'",
+      "aiohttp-asgi ; extra == 'develop'",
+      "async-generator ; extra == 'develop'",
+      "async-timeout ; extra == 'develop'",
+      "coverage (==4.5.1) ; extra == 'develop'",
+      "coveralls ; extra == 'develop'",
+      "croniter (~=0.3.34) ; extra == 'develop'",
+      "fastapi ; extra == 'develop'",
+      "mypy (~=0.782) ; extra == 'develop'",
+      "pylava ; extra == 'develop'",
+      "pytest ; extra == 'develop'",
+      "pytest-cov (~=2.5.1) ; extra == 'develop'",
+      "sphinx ; extra == 'develop'",
+      "sphinx-autobuild ; extra == 'develop'",
+      "sphinx-intl ; extra == 'develop'",
+      "timeout-decorator ; extra == 'develop'",
+      "tox (>=2.4) ; extra == 'develop'"
+    ],
+    "raven": [
+      "raven-aiohttp ; extra == 'raven'"
+    ],
+    "uvloop": [
+      "uvloop (<1,>=0.14) ; extra == 'uvloop'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

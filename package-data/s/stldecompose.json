@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy",
+    "statsmodels"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

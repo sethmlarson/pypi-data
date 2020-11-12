@@ -1,0 +1,31 @@
+{
+  "requires_dist": [
+    "adal (~=1.2.3)",
+    "argcomplete (~=1.8)",
+    "azure-cli-telemetry (==1.0.6)",
+    "azure-mgmt-core (==1.2.0)",
+    "azure-mgmt-resource (==10.2.0)",
+    "colorama (~=0.4.1)",
+    "enum34 ; python_version<'3.4'",
+    "futures ; python_version<'3.0'",
+    "humanfriendly (<9.0,>=4.7)",
+    "jmespath",
+    "knack (==0.7.2)",
+    "msal (~=1.0.0)",
+    "msal-extensions (~=0.1.3)",
+    "msrest (>=0.4.4)",
+    "msrestazure (>=0.6.3)",
+    "ndg-httpsclient ; python_version<'2.7.9'",
+    "paramiko (<3.0.0,>=2.0.8)",
+    "pkginfo (>=1.5.0.1)",
+    "pyasn1 ; python_version<'2.7.9'",
+    "PyJWT",
+    "pyopenssl (>=17.1.0)",
+    "pyopenssl ; python_version<'2.7.9'",
+    "requests (~=2.22)",
+    "six (~=1.12)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

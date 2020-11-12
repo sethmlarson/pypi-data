@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "keystoneauth1 (>=3.3.0)",
+    "osc-lib (>=1.2.0)",
+    "oslo.utils (>=3.37.0)",
+    "pbr (>=2.0.0)",
+    "simplejson (>=3.16.0)",
+    "six (>=1.10.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

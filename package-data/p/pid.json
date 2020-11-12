@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "psutil (>=5.4.8) ; sys_platform == 'win32'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "ipython-genutils",
+    "jsonschema (!=2.5.0,>=2.4)",
+    "jupyter-core",
+    "traitlets (>=4.1)"
+  ],
+  "requires_extras": {
+    "fast": [
+      "fastjsonschema ; extra == 'fast'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

@@ -1,0 +1,22 @@
+{
+  "requires_dist": [
+    "certifi",
+    "urllib3 (>=1.24.1)"
+  ],
+  "requires_extras": {
+    "fastimport": [
+      "fastimport ; extra == 'fastimport'"
+    ],
+    "https": [
+      "urllib3[secure] (>=1.24.1) ; extra == 'https'"
+    ],
+    "pgp": [
+      "gpg ; extra == 'pgp'"
+    ],
+    "watch": [
+      "pyinotify ; extra == 'watch'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

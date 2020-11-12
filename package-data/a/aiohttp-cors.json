@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "aiohttp (>=1.1)",
+    "typing; python_version < '3.5'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

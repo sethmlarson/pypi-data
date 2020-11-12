@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "argparse-addons",
+    "bitstruct (>=6.0.0)",
+    "diskcache",
+    "python-can (>=2.2.0)",
+    "textparser (>=0.21.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "quantile-python (>=1.1)"
+  ],
+  "requires_extras": {
+    "aiohttp": [
+      "aiohttp (>=3.3.2) ; extra == 'aiohttp'"
+    ],
+    "binary": [
+      "prometheus-metrics-proto (>=18.1.1) ; extra == 'binary'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

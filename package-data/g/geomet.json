@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "click",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": ">2.6, !=3.3.*, <4",
+  "yanked": []
+}

@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "argparse",
+    "backports.functools-lru-cache",
+    "distlib",
+    "futures ; python_version == '2.7'",
+    "packaging",
+    "requests",
+    "setuptools"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

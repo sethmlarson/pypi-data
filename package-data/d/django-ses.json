@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "boto3 (>=1.0.0)",
+    "django (>1.10)",
+    "future (>=0.16.0)",
+    "pytz (>=2016.10)"
+  ],
+  "requires_extras": {
+    "bounce": [
+      "M2Crypto ; extra == 'bounce'",
+      "requests (<3) ; extra == 'bounce'"
+    ]
+  },
+  "requires_python": ">=2.7",
+  "yanked": []
+}

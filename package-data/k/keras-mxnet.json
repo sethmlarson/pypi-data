@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "h5py",
+    "keras-applications (>=1.0.6)",
+    "keras-preprocessing (>=1.0.5)",
+    "numpy (>=1.9.1)",
+    "pyyaml",
+    "scipy (>=0.14)",
+    "six (>=1.9.0)"
+  ],
+  "requires_extras": {
+    "visualize": [
+      "pydot (>=1.2.4) ; extra == 'visualize'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "cryptography",
+    "Django (>=1.11)",
+    "josepy",
+    "requests",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

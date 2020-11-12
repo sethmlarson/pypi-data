@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "ndg-httpsclient",
+    "pyasn1",
+    "pynacl",
+    "pyopenssl",
+    "requests (>=2.3.0)",
+    "six",
+    "urllib3"
+  ],
+  "requires_extras": {
+    "aiohttp": [
+      "aiohttp (>=0.20.0) ; extra == 'aiohttp'"
+    ],
+    "tornado": [
+      "tornado (>=5.0.0) ; extra == 'tornado'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

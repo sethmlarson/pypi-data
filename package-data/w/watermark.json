@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "ipython"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

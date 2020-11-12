@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "six (>=1.10.0)",
+    "sqlalchemy (>=1.0.16)"
+  ],
+  "requires_extras": {
+    "mysql": [
+      "mysql-connector-python-rf (==2.2.2) ; extra == 'mysql'"
+    ],
+    "postgresql": [
+      "psycopg2 (==2.8.4) ; extra == 'postgresql'"
+    ],
+    "python2": [
+      "funcsigs (>=1.0.2) ; extra == 'python2'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

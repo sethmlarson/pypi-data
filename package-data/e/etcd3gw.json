@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "futurist (!=0.15.0,>=0.11.0)",
+    "pbr (>=2.0)",
+    "requests (>=2.20.0)",
+    "six (>=1.9.0)",
+    "urllib3 (>=1.15.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "apispec (>=4.0.0)",
+    "flask (>=1.1.0)",
+    "marshmallow (>=3.0.0)",
+    "webargs (>=6.0.0)",
+    "werkzeug (>=0.15)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

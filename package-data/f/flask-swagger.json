@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Flask (>=0.10)",
+    "PyYAML (>=5.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

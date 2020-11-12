@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "cloudpickle (>=1.3)",
+    "decorator",
+    "dm-tree",
+    "gast (>=0.3.2)",
+    "numpy (>=1.13.3)",
+    "six (>=1.10.0)"
+  ],
+  "requires_extras": {
+    "jax": [
+      "jax ; extra == 'jax'",
+      "jaxlib ; extra == 'jax'"
+    ],
+    "tfds": [
+      "tfds-nightly ; extra == 'tfds'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

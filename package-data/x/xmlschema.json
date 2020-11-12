@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "elementpath (<3.0.0,>=2.0.4)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "attrs (>=18.2.0) ; python_version < '3.7'",
+    "attrs (>=20.1.0) ; python_version >= '3.7'",
+    "cattrs (<1.1.0) ; python_version < '3.7'",
+    "cattrs (>=1.1.0) ; python_version >= '3.7'",
+    "python-dateutil ; python_version < '3.7'",
+    "requests (>=2.22)",
+    "typing-extensions ; python_version < '3.8'"
+  ],
+  "requires_extras": {},
+  "requires_python": "~=3.6",
+  "yanked": [
+    "0.1.3b11"
+  ]
+}

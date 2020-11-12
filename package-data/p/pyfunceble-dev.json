@@ -1,0 +1,20 @@
+{
+  "requires_dist": [
+    "alembic",
+    "colorama",
+    "cryptography",
+    "dnspython (>=2.0.0)",
+    "domain2idna",
+    "inflection",
+    "PyMySQL",
+    "python-box[all] (>=5.0.0)",
+    "python-dotenv",
+    "PyYAML",
+    "requests (<3)",
+    "setuptools",
+    "sqlalchemy"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6, <4",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "pyobjc-core (>=6.2.2)",
+    "pyobjc-framework-Cocoa (>=6.2.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

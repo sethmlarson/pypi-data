@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "future",
+    "google-cloud-bigquery (>=1.6.0)",
+    "sqlalchemy (>=1.1.9)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

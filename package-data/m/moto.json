@@ -1,0 +1,84 @@
+{
+  "requires_dist": [
+    "aws-xray-sdk (!=0.96,>=0.93)",
+    "backports.tempfile ; python_version<'3.3'",
+    "boto (>=2.36.0)",
+    "boto3 (>=1.9.201)",
+    "botocore (>=1.12.201)",
+    "cfn-lint (>=0.4.0)",
+    "cryptography (>=2.3.0)",
+    "docker (>=2.5.1)",
+    "ecdsa (<0.15)",
+    "idna (<3,>=2.5)",
+    "Jinja2 (>=2.10.1)",
+    "jsondiff (>=1.1.2)",
+    "MarkupSafe (<2.0)",
+    "mock",
+    "more-itertools",
+    "python-dateutil (<3.0.0,>=2.1)",
+    "python-jose[cryptography] (<4.0.0,>=3.1.0)",
+    "pytz",
+    "PyYAML (>=5.1)",
+    "requests (>=2.5)",
+    "responses (>=0.9.0)",
+    "setuptools",
+    "six (>1.9)",
+    "sshpubkeys (<4.0,>=3.1.0) ; python_version < '3'",
+    "sshpubkeys (>=3.1.0) ; python_version > '3'",
+    "werkzeug",
+    "xmltodict",
+    "zipp"
+  ],
+  "requires_extras": {
+    "acm": [
+      "cryptography (>=2.3.0) ; extra == 'acm'"
+    ],
+    "awslambda": [
+      "docker (>=2.5.1) ; extra == 'awslambda'"
+    ],
+    "batch": [
+      "docker (>=2.5.1) ; extra == 'batch'"
+    ],
+    "cloudformation": [
+      "cfn-lint (>=0.4.0) ; extra == 'cloudformation'",
+      "PyYAML (>=5.1) ; extra == 'cloudformation'"
+    ],
+    "cognitoidp": [
+      "ecdsa (<0.15) ; extra == 'cognitoidp'",
+      "python-jose[cryptography] (<4.0.0,>=3.1.0) ; extra == 'cognitoidp'"
+    ],
+    "ec2": [
+      "cryptography (>=2.3.0) ; extra == 'ec2'",
+      "sshpubkeys (<4.0,>=3.1.0) ; (python_version < '3') and extra == 'ec2'",
+      "sshpubkeys (>=3.1.0) ; (python_version > '3') and extra == 'ec2'"
+    ],
+    "iam": [
+      "cryptography (>=2.3.0) ; extra == 'iam'"
+    ],
+    "iotdata": [
+      "jsondiff (>=1.1.2) ; extra == 'iotdata'"
+    ],
+    "s3": [
+      "cryptography (>=2.3.0) ; extra == 's3'"
+    ],
+    "server": [
+      "aws-xray-sdk (!=0.96,>=0.93) ; extra == 'server'",
+      "cfn-lint (>=0.4.0) ; extra == 'server'",
+      "cryptography (>=2.3.0) ; extra == 'server'",
+      "docker (>=2.5.1) ; extra == 'server'",
+      "ecdsa (<0.15) ; extra == 'server'",
+      "flask ; extra == 'server'",
+      "idna (<3,>=2.5) ; extra == 'server'",
+      "jsondiff (>=1.1.2) ; extra == 'server'",
+      "python-jose[cryptography] (<4.0.0,>=3.1.0) ; extra == 'server'",
+      "PyYAML (>=5.1) ; extra == 'server'",
+      "sshpubkeys (<4.0,>=3.1.0) ; (python_version < '3') and extra == 'server'",
+      "sshpubkeys (>=3.1.0) ; (python_version > '3') and extra == 'server'"
+    ],
+    "xray": [
+      "aws-xray-sdk (!=0.96,>=0.93) ; extra == 'xray'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

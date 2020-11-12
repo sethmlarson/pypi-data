@@ -1,0 +1,27 @@
+{
+  "requires_dist": [
+    "astor (>=0.8,<0.9)",
+    "attrs",
+    "darglint (>=1.2,<2.0)",
+    "flake8 (>=3.7,<4.0)",
+    "flake8-bandit (>=2.1,<3.0)",
+    "flake8-broken-line (>=0.2,<0.3)",
+    "flake8-bugbear (>=19.3,<20.0)",
+    "flake8-commas (>=2.0,<3.0)",
+    "flake8-comprehensions (>=3.1.0,<4.0.0)",
+    "flake8-debugger (>=3.1,<4.0)",
+    "flake8-docstrings (>=1.3.1,<2.0.0)",
+    "flake8-eradicate (>=0.3,<0.4)",
+    "flake8-isort (>=3.0.1,<4)",
+    "flake8-quotes (>=2.0.1,<3.0.0)",
+    "flake8-rst-docstrings (>=0.0.12,<0.0.13)",
+    "flake8-string-format (>=0.2,<0.3)",
+    "importlib-metadata; python_version < '3.8'",
+    "pep8-naming (>=0.9.1,<0.10.0)",
+    "pygments (>=2.4,<3.0)",
+    "typing_extensions (>=3.6,<4.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6,<4.0",
+  "yanked": []
+}

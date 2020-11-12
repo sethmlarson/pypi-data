@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "jinja2 (>=2.7.1)",
+    "lxml (>=3.2.4)",
+    "ncclient (>=0.6.3)",
+    "netaddr",
+    "paramiko (>=1.15.2)",
+    "pyparsing",
+    "pyserial",
+    "PyYAML (>=5.1)",
+    "scp (>=0.7.0)",
+    "six",
+    "transitions",
+    "yamlordereddictloader"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+  "yanked": []
+}

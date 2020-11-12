@@ -1,0 +1,12 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "lint": [
+      "docutils-stubs ; extra == 'lint'",
+      "flake8 ; extra == 'lint'",
+      "mypy ; extra == 'lint'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

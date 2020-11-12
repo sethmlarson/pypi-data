@@ -1,0 +1,23 @@
+{
+  "requires_dist": [
+    "argparse ; python_version < '2.7'",
+    "attrs (>=17)",
+    "click (<8,>=4.0)",
+    "click-plugins (>=1.0)",
+    "cligj (>=0.5)",
+    "enum34 ; python_version < '3.4'",
+    "munch",
+    "ordereddict ; python_version < '2.7'",
+    "six (>=1.7)"
+  ],
+  "requires_extras": {
+    "calc": [
+      "shapely ; extra == 'calc'"
+    ],
+    "s3": [
+      "boto3 (>=1.2.4) ; extra == 's3'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

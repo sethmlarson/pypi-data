@@ -1,0 +1,47 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "db": [
+      "mmh3 (==2.5.1) ; extra == 'db'"
+    ],
+    "deps": [
+      "aws-requests-auth (==0.4.2) ; extra == 'deps'",
+      "binary (==1.0.0) ; extra == 'deps'",
+      "botocore (==1.13.42) ; extra == 'deps'",
+      "contextlib2 (==0.6.0) ; (python_version < '3.0') and extra == 'deps'",
+      "ddtrace (==0.32.2) ; extra == 'deps'",
+      "enum34 (==1.1.6) ; (python_version < '3.0') and extra == 'deps'",
+      "ipaddress (==1.0.22) ; (python_version < '3.0') and extra == 'deps'",
+      "prometheus-client (==0.7.1) ; extra == 'deps'",
+      "protobuf (==3.7.0) ; extra == 'deps'",
+      "python-dateutil (==2.8.0) ; extra == 'deps'",
+      "pytz (==2019.3) ; extra == 'deps'",
+      "pywin32 (==228) ; (sys_platform == 'win32') and extra == 'deps'",
+      "pyyaml (==5.3.1) ; extra == 'deps'",
+      "requests (==2.22.0) ; extra == 'deps'",
+      "requests-toolbelt (==0.9.1) ; extra == 'deps'",
+      "requests-unixsocket (==0.2.0) ; extra == 'deps'",
+      "simplejson (==3.6.5) ; extra == 'deps'",
+      "six (==1.14.0) ; extra == 'deps'",
+      "typing (==3.7.4.1) ; (python_version < '3.0') and extra == 'deps'",
+      "uptime (==3.0.1) ; extra == 'deps'"
+    ],
+    "http": [
+      "cryptography (==3.2.1) ; extra == 'http'",
+      "pyjwt (==1.7.1) ; extra == 'http'",
+      "pysocks (==1.7.0) ; extra == 'http'",
+      "requests-kerberos (==0.12.0) ; extra == 'http'",
+      "requests-ntlm (==1.1.0) ; extra == 'http'",
+      "requests-unixsocket (==0.2.0) ; extra == 'http'",
+      "win-inet-pton (==1.1.0) ; (sys_platform == 'win32' and python_version < '3.0') and extra == 'http'"
+    ],
+    "json": [
+      "orjson (==2.6.1) ; (python_version > '3.0') and extra == 'json'"
+    ],
+    "kube": [
+      "kubernetes (==8.0.1) ; extra == 'kube'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "annofabapi (>=0.39.0)",
+    "bokeh (>=2.2.3,<3.0.0)",
+    "dictdiffer",
+    "holoviews (>=1.13.5,<2.0.0)",
+    "isodate",
+    "jmespath",
+    "more-itertools",
+    "pandas (>=1.1,<2.0)",
+    "pillow",
+    "pyquery",
+    "pyyaml",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6.1,<4.0.0",
+  "yanked": []
+}

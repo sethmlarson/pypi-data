@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "numpy (==1.16.6) ; python_version < '3.5'",
+    "numpy (>=1.16.6) ; python_version >= '3.5'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

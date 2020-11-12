@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "MarkupSafe (>=1.1)"
+  ],
+  "requires_extras": {
+    "i18n": [
+      "Babel (>=2.1) ; extra == 'i18n'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

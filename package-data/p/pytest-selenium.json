@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "pytest (>=5.0.0)",
+    "pytest-base-url",
+    "pytest-html (>=1.14.0)",
+    "pytest-variables (>=1.5.0)",
+    "requests",
+    "selenium (>=3.0.0)",
+    "tenacity (<7,>=6)"
+  ],
+  "requires_extras": {
+    "appium": [
+      "appium-python-client (>=0.44) ; extra == 'appium'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

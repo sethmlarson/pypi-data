@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "infinity",
+    "python-dateutil",
+    "sortedcontainers"
+  ],
+  "requires_extras": {
+    "pandas": [
+      "pandas ; extra == 'pandas'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

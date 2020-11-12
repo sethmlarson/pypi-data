@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "jwcrypto (>=0.5.0)",
+    "python-dateutil (>=2.6.0)",
+    "requests (>=2.18)",
+    "uritemplate (>=3.0.0)"
+  ],
+  "requires_extras": {
+    "sni": [
+      "ndg-httpsclient ; extra == 'sni'",
+      "pyasn1 ; extra == 'sni'",
+      "pyOpenSSL ; extra == 'sni'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

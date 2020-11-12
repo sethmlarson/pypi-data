@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "python-geohash",
+    "shapely"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

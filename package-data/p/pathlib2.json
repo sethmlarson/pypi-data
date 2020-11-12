@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "scandir; python_version<'3.5'",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

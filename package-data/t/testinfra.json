@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "pytest-testinfra"
+  ],
+  "requires_extras": {
+    "ansible": [
+      "pytest-testinfra[ansible] ; extra == 'ansible'"
+    ],
+    "paramiko": [
+      "pytest-testinfra[paramiko] ; extra == 'paramiko'"
+    ],
+    "salt": [
+      "pytest-testinfra[salt] ; extra == 'salt'"
+    ],
+    "winrm": [
+      "pytest-testinfra[pywinrm] ; extra == 'winrm'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

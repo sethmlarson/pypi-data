@@ -1,0 +1,26 @@
+{
+  "requires_dist": [
+    "snowflake-connector-python (<3.0.0)",
+    "sqlalchemy (<2.0.0)"
+  ],
+  "requires_extras": {
+    "development": [
+      "coverage ; extra == 'development'",
+      "Cython ; extra == 'development'",
+      "mock ; extra == 'development'",
+      "more-itertools ; extra == 'development'",
+      "numpy ; extra == 'development'",
+      "pandas (<1.1.0,>=1.0.0) ; (python_version > '3.5') and extra == 'development'",
+      "pandas (==0.24.2) ; (python_version == '3.5') and extra == 'development'",
+      "pexpect ; extra == 'development'",
+      "pytest (<6.1.0) ; extra == 'development'",
+      "pytest-cov ; extra == 'development'",
+      "pytest-rerunfailures ; extra == 'development'",
+      "pytest-timeout ; extra == 'development'",
+      "pytz ; extra == 'development'",
+      "pytzdata ; extra == 'development'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

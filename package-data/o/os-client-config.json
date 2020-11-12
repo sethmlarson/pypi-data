@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "openstacksdk (>=0.13.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

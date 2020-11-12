@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "keras2onnx",
+    "numpy",
+    "onnx",
+    "onnxconverter-common (<1.8.0,>=1.7.0)",
+    "protobuf",
+    "skl2onnx"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

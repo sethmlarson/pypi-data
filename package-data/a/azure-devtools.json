@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "ConfigArgParse (>=0.12.0)",
+    "six (>=1.10.0)",
+    "vcrpy (>=1.11.0)"
+  ],
+  "requires_extras": {
+    "ci_tools": [
+      "GitPython ; extra == 'ci_tools'",
+      "PyGithub (>=1.40) ; extra == 'ci_tools'",
+      "requests (>=2.0) ; extra == 'ci_tools'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

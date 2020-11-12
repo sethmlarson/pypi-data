@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "Click (>=6.0)",
+    "dparse (>=0.5.1)",
+    "packaging",
+    "requests",
+    "setuptools"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

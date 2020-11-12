@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "importlib-metadata"
+  ],
+  "requires_extras": {
+    "testing.libs": [
+      "demjson ; extra == 'testing.libs'",
+      "simplejson ; extra == 'testing.libs'",
+      "ujson ; extra == 'testing.libs'",
+      "yajl ; extra == 'testing.libs'"
+    ]
+  },
+  "requires_python": ">=2.7",
+  "yanked": []
+}

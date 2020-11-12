@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "certifi",
+    "cryptography (>=2.5)",
+    "dataclasses ; python_version < '3.7'",
+    "pylsqpack (<0.4.0,>=0.3.3)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

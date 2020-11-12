@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "fastdiff (<1,>=0.1.4)",
+    "termcolor"
+  ],
+  "requires_extras": {
+    "nose": [
+      "nose ; extra == 'nose'"
+    ],
+    "pytest": [
+      "pytest ; extra == 'pytest'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "lxml (>=3.1.0)",
+    "setuptools",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

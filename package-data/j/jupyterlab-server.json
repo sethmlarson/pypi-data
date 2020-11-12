@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "babel",
+    "jinja2 (>=2.10)",
+    "json5",
+    "jsonschema (>=3.0.1)",
+    "jupyter-server (~=1.0.1)",
+    "packaging",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

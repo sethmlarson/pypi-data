@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "six"
+  ],
+  "requires_extras": {
+    "yaml": [
+      "PyYAML (>=5.1.0) ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "zope.authentication",
+    "zope.component",
+    "zope.interface",
+    "zope.publisher (>=4.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

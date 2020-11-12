@@ -1,0 +1,25 @@
+{
+  "requires_dist": [
+    "aiofiles",
+    "apollo-client",
+    "fastapi",
+    "gensim",
+    "jieba",
+    "jovian",
+    "meutils",
+    "pandas",
+    "py2neo",
+    "pyforest",
+    "pymilvus",
+    "pymongo",
+    "pymysql",
+    "redis-py-cluster",
+    "shap",
+    "sklearn",
+    "uvicorn",
+    "wandb"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "Flask",
+    "pytest (>=5.2)",
+    "Werkzeug (>=0.7)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

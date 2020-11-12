@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Eel (==0.12.4)",
+    "pyinstaller (>=3.4)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7",
+  "yanked": []
+}

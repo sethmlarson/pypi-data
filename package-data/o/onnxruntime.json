@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "numpy (>=1.16.6)",
+    "protobuf"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

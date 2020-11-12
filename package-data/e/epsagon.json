@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "autowrapt (==1.0)",
+    "future",
+    "six",
+    "urllib3",
+    "wrapt (>=1.11.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

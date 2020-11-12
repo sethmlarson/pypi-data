@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Django (>=1.8)",
+    "netaddr (>=0.7.19)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

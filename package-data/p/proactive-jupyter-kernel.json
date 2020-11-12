@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "configparser",
+    "ipykernel",
+    "IPython",
+    "jupyter-client",
+    "matplotlib",
+    "networkx",
+    "notebook",
+    "pexpect (>=4.0)",
+    "proactive",
+    "pygraphviz",
+    "tornado (==5.1.1)",
+    "traitlets"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

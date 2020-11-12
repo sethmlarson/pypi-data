@@ -1,0 +1,30 @@
+{
+  "requires_dist": [
+    "bcrypt",
+    "blinker",
+    "cryptography",
+    "Flask (>=0.10.1)",
+    "Flask-Compress (>=1.4.0)",
+    "Flask-Cors (>=3.0.2)",
+    "mohawk",
+    "PyJWT",
+    "pymongo (>=3.6)",
+    "pyparsing",
+    "python-dateutil",
+    "pytz",
+    "PyYAML",
+    "requests",
+    "requests-hawk",
+    "sentry-sdk[flask] (>=0.10.2)"
+  ],
+  "requires_extras": {
+    "mongodb": [
+      "pymongo (>=3.0) ; extra == 'mongodb'"
+    ],
+    "postgres": [
+      "psycopg2 ; extra == 'postgres'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

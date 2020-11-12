@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "distro",
+    "numpy",
+    "pandas (>=0.25.3)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

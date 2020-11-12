@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "dask",
+    "joblib",
+    "mtscomp",
+    "numpy",
+    "requests",
+    "scipy",
+    "toolz",
+    "tqdm"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

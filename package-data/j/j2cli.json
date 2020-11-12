@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "jinja2 (>=2.7.2)"
+  ],
+  "requires_extras": {
+    "yaml": [
+      "pyyaml (>=3.10) ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "twitter.common.contextutil (==0.3.11)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

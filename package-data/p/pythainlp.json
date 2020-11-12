@@ -1,0 +1,57 @@
+{
+  "requires_dist": [
+    "python-crfsuite (>=0.9.6)",
+    "requests (>=2.22.0)",
+    "tinydb (>=3.0)"
+  ],
+  "requires_extras": {
+    "attacut": [
+      "attacut (>=1.0.6) ; extra == 'attacut'"
+    ],
+    "benchmarks": [
+      "numpy (>=1.16.1) ; extra == 'benchmarks'",
+      "pandas (>=0.24) ; extra == 'benchmarks'",
+      "PyYAML (>=5.3.1) ; extra == 'benchmarks'"
+    ],
+    "full": [
+      "attacut (>=1.0.4) ; extra == 'full'",
+      "emoji (>=0.5.1) ; extra == 'full'",
+      "epitran (>=1.1) ; extra == 'full'",
+      "gensim (>=3.2.0) ; extra == 'full'",
+      "nltk (>=3.3.*) ; extra == 'full'",
+      "numpy (>=1.16.1) ; extra == 'full'",
+      "pandas (>=0.24) ; extra == 'full'",
+      "pyicu (>=2.3) ; extra == 'full'",
+      "PyYAML (>=5.3.1) ; extra == 'full'",
+      "ssg (>=0.0.6) ; extra == 'full'",
+      "torch (>=1.0.0) ; extra == 'full'"
+    ],
+    "icu": [
+      "pyicu (>=2.3) ; extra == 'icu'"
+    ],
+    "ipa": [
+      "epitran (>=1.1) ; extra == 'ipa'"
+    ],
+    "ml": [
+      "numpy (>=1.16) ; extra == 'ml'",
+      "torch (>=1.0.0) ; extra == 'ml'"
+    ],
+    "ssg": [
+      "ssg (>=0.0.6) ; extra == 'ssg'"
+    ],
+    "thai2fit": [
+      "emoji (>=0.5.1) ; extra == 'thai2fit'",
+      "gensim (>=3.2.0) ; extra == 'thai2fit'",
+      "numpy (>=1.16.1) ; extra == 'thai2fit'"
+    ],
+    "thai2rom": [
+      "numpy (>=1.16.1) ; extra == 'thai2rom'",
+      "torch (>=1.0.0) ; extra == 'thai2rom'"
+    ],
+    "wordnet": [
+      "nltk (>=3.3.*) ; extra == 'wordnet'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "jinja2",
+    "lxml",
+    "python-docx",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "pytest (>=3.0.0)",
+    "tblib"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

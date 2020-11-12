@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "docutils",
+    "flex",
+    "GenSON",
+    "jsonpath-ng",
+    "jsonschema",
+    "pygments",
+    "pytz",
+    "requests",
+    "rfc3987",
+    "robotframework (>=3.1.0)",
+    "strict-rfc3339",
+    "tzlocal"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

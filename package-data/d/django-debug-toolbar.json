@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Django (>=2.2)",
+    "sqlparse (>=0.2.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

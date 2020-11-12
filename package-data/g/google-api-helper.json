@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "google-api-python-client",
+    "google-auth",
+    "google-auth-oauthlib"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

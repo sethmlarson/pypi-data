@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "aiohttp (==3.6.2)",
+    "requests (==2.22.0)",
+    "websockets (==8.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

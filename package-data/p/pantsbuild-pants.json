@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "ansicolors (==1.1.8)",
+    "dataclasses (==0.6)",
+    "fasteners (==0.15.0)",
+    "packaging (==20.4)",
+    "pex (==2.1.21)",
+    "psutil (==5.7.0)",
+    "PyYAML (<5.4,>=5.3.1)",
+    "setproctitle (==1.1.10)",
+    "setuptools (<50.4,>=50.3.0)",
+    "toml (==0.10.2)",
+    "typed-ast (<1.5,>=1.4.1)",
+    "typing-extensions (==3.7.4.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

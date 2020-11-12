@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Twisted (>=16.0)",
+    "wrapt"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

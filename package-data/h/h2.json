@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "hpack (<5,>=4.0)",
+    "hyperframe (<7,>=6.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6.1",
+  "yanked": []
+}

@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "ansible",
+    "bump2version",
+    "distro",
+    "docker",
+    "mackup",
+    "pip",
+    "setuptools",
+    "twine",
+    "typer",
+    "wheel"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

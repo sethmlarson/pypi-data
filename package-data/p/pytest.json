@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "atomicwrites (>=1.0) ; sys_platform == 'win32'",
+    "attrs (>=17.4.0)",
+    "colorama ; sys_platform == 'win32'",
+    "importlib-metadata (>=0.12) ; python_version < '3.8'",
+    "iniconfig",
+    "packaging",
+    "pathlib2 (>=2.2.0) ; python_version < '3.6'",
+    "pluggy (<1.0,>=0.12)",
+    "py (>=1.8.2)",
+    "toml"
+  ],
+  "requires_extras": {
+    "checkqa_mypy": [
+      "mypy (==0.780) ; extra == 'checkqa_mypy'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

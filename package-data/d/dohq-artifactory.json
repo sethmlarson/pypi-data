@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "pathlib ; python_version < '3.4'",
+    "PyJWT",
+    "python-dateutil",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

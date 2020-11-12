@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "boto3",
+    "pandas",
+    "psycopg2-binary"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3",
+  "yanked": []
+}

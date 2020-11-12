@@ -1,0 +1,84 @@
+{
+  "requires_dist": [
+    "FormEncode (!=1.3.0,>=1.1.1) ; python_version == '2.7'",
+    "FormEncode (>=1.3.1) ; python_version >= '3.4'",
+    "PyDispatcher (>=2.0.4)"
+  ],
+  "requires_extras": {
+    "adodbapi": [
+      "adodbapi ; extra == 'adodbapi'"
+    ],
+    "fdb": [
+      "fdb ; extra == 'fdb'"
+    ],
+    "firebirdsql": [
+      "firebirdsql ; extra == 'firebirdsql'"
+    ],
+    "kinterbasdb": [
+      "kinterbasdb ; extra == 'kinterbasdb'"
+    ],
+    "mysql": [
+      "MySQL-python ; (python_version=='2.7') and extra == 'mysql'",
+      "mysqlclient ; (python_version>='3.4') and extra == 'mysql'"
+    ],
+    "mysql-connector": [
+      "mysql-connector ; extra == 'mysql-connector'"
+    ],
+    "odbc": [
+      "pyodbc ; extra == 'odbc'"
+    ],
+    "oursql": [
+      "oursql ; extra == 'oursql'"
+    ],
+    "pg8000": [
+      "pg8000 ; extra == 'pg8000'"
+    ],
+    "postgres": [
+      "psycopg2 ; extra == 'postgres'"
+    ],
+    "postgresql": [
+      "psycopg2 ; extra == 'postgresql'"
+    ],
+    "psycopg": [
+      "psycopg2 ; extra == 'psycopg'"
+    ],
+    "psycopg2": [
+      "psycopg2 ; extra == 'psycopg2'"
+    ],
+    "py-postgresql": [
+      "py-postgresql ; extra == 'py-postgresql'"
+    ],
+    "pygresql": [
+      "pygresql ; extra == 'pygresql'"
+    ],
+    "pymssql": [
+      "pymssql ; extra == 'pymssql'"
+    ],
+    "pymysql": [
+      "pymysql ; extra == 'pymysql'"
+    ],
+    "pyodbc": [
+      "pyodbc ; extra == 'pyodbc'"
+    ],
+    "pypostgresql": [
+      "py-postgresql ; extra == 'pypostgresql'"
+    ],
+    "pypyodbc": [
+      "pypyodbc ; extra == 'pypyodbc'"
+    ],
+    "sapdb": [
+      "sapdb ; extra == 'sapdb'"
+    ],
+    "sqlite": [
+      "pysqlite ; extra == 'sqlite'"
+    ],
+    "supersqlite": [
+      "supersqlite ; extra == 'supersqlite'"
+    ],
+    "sybase": [
+      "Sybase ; extra == 'sybase'"
+    ]
+  },
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+  "yanked": []
+}

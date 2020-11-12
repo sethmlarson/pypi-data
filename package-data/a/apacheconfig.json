@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "ply (>=3.4)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

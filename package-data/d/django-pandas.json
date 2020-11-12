@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "pandas (>=0.14.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "boto3 (>=1.9)",
+    "dagster",
+    "packaging",
+    "psycopg2-binary",
+    "requests"
+  ],
+  "requires_extras": {
+    "pyspark": [
+      "dagster-pyspark ; extra == 'pyspark'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

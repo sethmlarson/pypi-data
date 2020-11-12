@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "Django",
+    "django-crum",
+    "django-model-utils",
+    "edx-drf-extensions",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

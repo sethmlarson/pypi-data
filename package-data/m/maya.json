@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "dateparser (>=0.7.0)",
+    "humanize",
+    "pendulum (>=2.0.2)",
+    "pytz",
+    "snaptime",
+    "tzlocal"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

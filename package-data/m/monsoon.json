@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "libusb1",
+    "numpy",
+    "pyusb",
+    "scipy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

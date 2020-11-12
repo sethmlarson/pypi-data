@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "zope.interface"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

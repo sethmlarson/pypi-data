@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "aiofiles",
+    "blinker",
+    "click",
+    "hypercorn (>=0.7.0)",
+    "itsdangerous",
+    "jinja2",
+    "toml",
+    "werkzeug (>=1.0.0)"
+  ],
+  "requires_extras": {
+    "dotenv": [
+      "python-dotenv ; extra == 'dotenv'"
+    ]
+  },
+  "requires_python": ">=3.7.0",
+  "yanked": []
+}

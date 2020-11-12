@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "six (>=1.11.0)",
+    "subprocess32 ; python_version < '3'"
+  ],
+  "requires_extras": {
+    "colors": [
+      "colorama (>=0.3.9) ; extra == 'colors'"
+    ],
+    "crypto": [
+      "cryptography (>=2.6) ; extra == 'crypto'"
+    ],
+    "pynacl": [
+      "pynacl (>1.2.0) ; extra == 'pynacl'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

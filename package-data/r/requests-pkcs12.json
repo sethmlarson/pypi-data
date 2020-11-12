@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "pyOpenSSL (>=0.14)",
+    "requests (>=2.18.4)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

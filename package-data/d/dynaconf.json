@@ -1,0 +1,27 @@
+{
+  "requires_dist": [
+    "typing ; python_version < '3.5'"
+  ],
+  "requires_extras": {
+    "configobj": [
+      "configobj ; extra == 'configobj'"
+    ],
+    "ini": [
+      "configobj ; extra == 'ini'"
+    ],
+    "redis": [
+      "redis ; extra == 'redis'"
+    ],
+    "toml": [
+      "toml ; extra == 'toml'"
+    ],
+    "vault": [
+      "hvac ; extra == 'vault'"
+    ],
+    "yaml": [
+      "ruamel.yaml ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

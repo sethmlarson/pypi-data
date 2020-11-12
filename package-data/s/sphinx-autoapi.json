@@ -1,0 +1,20 @@
+{
+  "requires_dist": [
+    "astroid (<2) ; python_version < '3'",
+    "astroid ; python_version >= '3'",
+    "Jinja2",
+    "PyYAML",
+    "sphinx (>=1.6)",
+    "unidecode"
+  ],
+  "requires_extras": {
+    "dotnet": [
+      "sphinxcontrib-dotnetdomain ; extra == 'dotnet'"
+    ],
+    "go": [
+      "sphinxcontrib-golangdomain ; extra == 'go'"
+    ]
+  },
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*",
+  "yanked": []
+}

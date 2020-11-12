@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "dbnd (==0.30.0)",
+    "dbnd-spark (==0.30.0)",
+    "qds-sdk (==1.13.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

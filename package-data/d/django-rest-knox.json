@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "cryptography",
+    "django",
+    "djangorestframework"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

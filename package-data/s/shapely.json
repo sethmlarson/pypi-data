@@ -1,0 +1,10 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "vectorized": [
+      "numpy; extra == 'vectorized'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "click (>=6.0)"
+  ],
+  "requires_extras": {
+    "readline": [
+      "gnureadline ; extra == 'readline'"
+    ],
+    "windows": [
+      "pyreadline ; extra == 'windows'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

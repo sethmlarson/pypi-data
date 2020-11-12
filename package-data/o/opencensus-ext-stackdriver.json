@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "google-cloud-monitoring (<1.0.0,>=0.30.0)",
+    "google-cloud-trace (<1.0.0,>=0.20.0)",
+    "opencensus (<1.0.0,>=0.7.11)",
+    "rsa (<=4.0) ; python_version <= '3.4'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

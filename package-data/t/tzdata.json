@@ -1,0 +1,11 @@
+{
+  "requires_dist": [],
+  "requires_extras": {},
+  "requires_python": ">=2",
+  "yanked": [
+    "1.2016.5a1",
+    "1.2016.6",
+    "1.2016.7",
+    "1.2016.8"
+  ]
+}

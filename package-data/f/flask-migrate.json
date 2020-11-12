@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "alembic (>=0.7)",
+    "Flask (>=0.9)",
+    "Flask-SQLAlchemy (>=1.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

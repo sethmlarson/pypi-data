@@ -1,0 +1,20 @@
+{
+  "requires_dist": [
+    "boto3",
+    "celery",
+    "django-celery-beat",
+    "django-celery-results",
+    "django-environ",
+    "django-redis",
+    "django-storages",
+    "django[argon] (==2.2.10)",
+    "edc (==0.1.7)",
+    "gunicorn",
+    "pyrabbit",
+    "python-memcached",
+    "sentry-sdk"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.7",
+  "yanked": []
+}

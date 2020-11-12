@@ -1,0 +1,27 @@
+{
+  "requires_dist": [
+    "attrs (>=19.3.0)",
+    "bottleneck",
+    "multimethod (==1.4)",
+    "networkx (>=2.4)",
+    "numpy",
+    "pandas (>=0.25.3)",
+    "tangled-up-in-unicode (>=0.0.4)"
+  ],
+  "requires_extras": {
+    "plotting": [
+      "matplotlib ; extra == 'plotting'",
+      "pydot ; extra == 'plotting'",
+      "pygraphviz ; extra == 'plotting'"
+    ],
+    "type_geometry": [
+      "shapely ; extra == 'type_geometry'"
+    ],
+    "type_image_path": [
+      "imagehash ; extra == 'type_image_path'",
+      "Pillow ; extra == 'type_image_path'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

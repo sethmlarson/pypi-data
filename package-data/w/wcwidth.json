@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "backports.functools-lru-cache (>=1.2.1) ; python_version < '3.2'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

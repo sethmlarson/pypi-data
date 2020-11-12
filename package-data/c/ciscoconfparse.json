@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "colorama",
+    "dnspython",
+    "ipaddr (>=2.1.11); python_version<'3'",
+    "passlib"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

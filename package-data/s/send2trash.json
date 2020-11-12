@@ -1,0 +1,10 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "win32": [
+      "pywin32 ; extra == 'win32'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

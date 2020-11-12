@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "beautifulsoup4",
+    "six",
+    "waitress (>=0.8.5)",
+    "WebOb (>=1.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

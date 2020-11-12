@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "certbot"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

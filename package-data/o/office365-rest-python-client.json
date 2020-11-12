@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "msal",
+    "requests"
+  ],
+  "requires_extras": {
+    "ntlmauthentication": [
+      "requests-ntlm ; extra == 'ntlmauthentication'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

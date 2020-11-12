@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "ZODB (>=4.2.0.b1)",
+    "zope.component",
+    "zope.i18nmessageid (>=4.0.3)",
+    "zope.interface",
+    "zope.location",
+    "zope.minmax",
+    "zope.publisher (>=4.1.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

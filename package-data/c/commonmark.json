@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "future (>=0.14.0) ; python_version < '3'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

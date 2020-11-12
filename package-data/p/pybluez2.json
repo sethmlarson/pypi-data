@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "pyobjc-core (>=6)",
+    "pyobjc-framework-Cocoa (>=6)"
+  ],
+  "requires_extras": {
+    "ble": [
+      "gattlib ; extra == 'ble'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

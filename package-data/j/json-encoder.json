@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "singledispatch (>=3.4.0.3)",
+    "six (>=1.10.0)"
+  ],
+  "requires_extras": {
+    "simplejson": [
+      "simplejson (>=3.8.2); extra == 'simplejson'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

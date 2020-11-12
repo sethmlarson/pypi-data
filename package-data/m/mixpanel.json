@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "six (>=1.9.0)",
+    "urllib3 (>=1.21.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

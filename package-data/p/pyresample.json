@@ -1,0 +1,39 @@
+{
+  "requires_dist": [
+    "configobj",
+    "numpy (>=1.10.0)",
+    "pykdtree (>=1.3.1)",
+    "pyproj (>=1.9.5.1)",
+    "pyyaml",
+    "setuptools (>=3.2)"
+  ],
+  "requires_extras": {
+    "cf": [
+      "xarray ; extra == 'cf'"
+    ],
+    "dask": [
+      "dask (>=0.16.1) ; extra == 'dask'"
+    ],
+    "gradient_search": [
+      "shapely ; extra == 'gradient_search'"
+    ],
+    "numexpr": [
+      "numexpr ; extra == 'numexpr'"
+    ],
+    "quicklook": [
+      "cartopy ; extra == 'quicklook'",
+      "matplotlib ; extra == 'quicklook'",
+      "pillow ; extra == 'quicklook'"
+    ],
+    "rasterio": [
+      "rasterio ; extra == 'rasterio'"
+    ],
+    "xarray_bilinear": [
+      "dask ; extra == 'xarray_bilinear'",
+      "xarray ; extra == 'xarray_bilinear'",
+      "zarr ; extra == 'xarray_bilinear'"
+    ]
+  },
+  "requires_python": ">=3.4",
+  "yanked": []
+}

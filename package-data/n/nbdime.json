@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "colorama",
+    "GitPython (!=2.1.4,!=2.1.5,!=2.1.6)",
+    "jinja2 (>=2.9)",
+    "nbformat",
+    "notebook",
+    "pygments",
+    "requests",
+    "six",
+    "tornado"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

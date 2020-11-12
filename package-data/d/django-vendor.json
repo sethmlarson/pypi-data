@@ -1,0 +1,24 @@
+{
+  "requires_dist": [
+    "Django (<3.2,>=3.1)",
+    "django-autoslug",
+    "django-extensions",
+    "iso4217"
+  ],
+  "requires_extras": {
+    "authorizenet": [
+      "authorizenet ; extra == 'authorizenet'"
+    ],
+    "build": [
+      "m2r ; extra == 'build'",
+      "setuptools ; extra == 'build'",
+      "twine ; extra == 'build'",
+      "wheel ; extra == 'build'"
+    ],
+    "stripe": [
+      "stripe (<3.0,>=2.48.0) ; extra == 'stripe'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

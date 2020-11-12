@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "astroid",
+    "pylint"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

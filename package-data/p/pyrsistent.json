@@ -1,0 +1,10 @@
+{
+  "requires_dist": [],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": [
+    "0.17.0",
+    "0.17.1",
+    "0.17.2"
+  ]
+}

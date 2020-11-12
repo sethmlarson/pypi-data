@@ -1,0 +1,10 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "watchdog": [
+      "watchdog ; extra == 'watchdog'"
+    ]
+  },
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+  "yanked": []
+}

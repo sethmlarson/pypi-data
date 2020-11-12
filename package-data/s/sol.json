@@ -1,0 +1,27 @@
+{
+  "requires_dist": [
+    "alembic",
+    "babel",
+    "metapensiero.extjs.desktop",
+    "metapensiero.sqlalchemy.proxy",
+    "pillow",
+    "pycountry",
+    "pygal",
+    "pygal-maps-world",
+    "pynacl",
+    "pyramid",
+    "pyramid-mako",
+    "pyramid-tm",
+    "python-rapidjson",
+    "reportlab",
+    "ruamel.yaml",
+    "setuptools",
+    "sqlalchemy",
+    "transaction",
+    "waitress",
+    "zope.sqlalchemy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

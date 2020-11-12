@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "gevent (>=1.1)",
+    "ssh-python (>=0.8.0)",
+    "ssh2-python (>=0.22.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

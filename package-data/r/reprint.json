@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "backports.shutil-get-terminal-size",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

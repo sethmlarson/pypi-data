@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "numpy (>=1.7)"
+  ],
+  "requires_extras": {
+    "msgpack": [
+      "msgpack ; extra == 'msgpack'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": [
+    "0.7.0rc1",
+    "0.7.0"
+  ]
+}

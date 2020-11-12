@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "Django (>=1.8)"
+  ],
+  "requires_extras": {
+    "jinja2": [
+      "jinja2 (>=2.9.6) ; extra == 'jinja2'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

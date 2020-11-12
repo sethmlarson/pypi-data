@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "elasticsearch-dsl (>=7.0.0<8.0.0)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

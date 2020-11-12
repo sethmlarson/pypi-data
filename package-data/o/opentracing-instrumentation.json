@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "contextlib2",
+    "future",
+    "opentracing (<3,>=2)",
+    "six",
+    "tornado (<6,>=4.1)",
+    "wrapt"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

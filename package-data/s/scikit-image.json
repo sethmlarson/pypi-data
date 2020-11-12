@@ -1,0 +1,25 @@
+{
+  "requires_dist": [
+    "imageio (>=2.3.0)",
+    "matplotlib (!=3.0.0,>=2.0.0)",
+    "networkx (>=2.0)",
+    "numpy (>=1.15.1)",
+    "pillow (!=7.1.0,!=7.1.1,>=4.3.0)",
+    "PyWavelets (>=1.1.1)",
+    "scipy (>=1.0.1)",
+    "tifffile (>=2019.7.26)"
+  ],
+  "requires_extras": {
+    "optional": [
+      "astropy (>=1.2.0) ; extra == 'optional'",
+      "cloudpickle (>=0.2.1) ; extra == 'optional'",
+      "dask[array] (>=0.15.0) ; extra == 'optional'",
+      "pooch (>=0.5.2) ; extra == 'optional'",
+      "pyamg ; extra == 'optional'",
+      "qtpy ; extra == 'optional'",
+      "SimpleITK ; extra == 'optional'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

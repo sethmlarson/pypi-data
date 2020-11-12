@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "numpy",
+    "protobuf",
+    "requests",
+    "torch (>=1.3.0)",
+    "tqdm"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

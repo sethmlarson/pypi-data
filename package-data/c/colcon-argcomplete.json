@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "argcomplete",
+    "colcon-core"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

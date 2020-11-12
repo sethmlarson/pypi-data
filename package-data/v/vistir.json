@@ -1,0 +1,28 @@
+{
+  "requires_dist": [
+    "backports.functools-lru-cache ; python_version == '2.7'",
+    "backports.shutil-get-terminal-size ; python_version == '2.7'",
+    "backports.weakref ; python_version == '2.7'",
+    "colorama (!=0.4.2,>=0.3.4)",
+    "pathlib2 ; python_version < '3.6'",
+    "six"
+  ],
+  "requires_extras": {
+    "requests": [
+      "requests ; extra == 'requests'"
+    ],
+    "spinner": [
+      "yaspin ; extra == 'spinner'"
+    ],
+    "typing": [
+      "mypy ; (python_version >= '3.4') and extra == 'typing'",
+      "mypy-extensions ; (python_version >= '3.4') and extra == 'typing'",
+      "mypytools ; (python_version >= '3.4') and extra == 'typing'",
+      "pytype ; (python_version >= '3.4') and extra == 'typing'",
+      "typed-ast ; (python_version >= '3.4') and extra == 'typing'",
+      "typing ; (python_version <= '3.4') and extra == 'typing'"
+    ]
+  },
+  "requires_python": "!=3.0,!=3.1,!=3.2,!=3.3,>=2.7",
+  "yanked": []
+}

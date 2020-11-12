@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "confusable-homoglyphs (~=3.0)",
+    "Django (>=2.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

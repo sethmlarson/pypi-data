@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "dataclasses",
+    "twine"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

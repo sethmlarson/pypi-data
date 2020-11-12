@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "bashlex (!=0.13)",
+    "certifi",
+    "toml"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": [
+    "1.5.3",
+    "1.5.4"
+  ]
+}

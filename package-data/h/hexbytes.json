@@ -1,0 +1,13 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "lint": [
+      "flake8 (==3.7.9) ; extra == 'lint'",
+      "isort (<5,>=4.2.15) ; extra == 'lint'",
+      "mypy (==0.770) ; extra == 'lint'",
+      "pydocstyle (<4,>=3.0.0) ; extra == 'lint'"
+    ]
+  },
+  "requires_python": ">=3.6, <4",
+  "yanked": []
+}

@@ -1,0 +1,16 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "full": [
+      "aiofiles ; extra == 'full'",
+      "graphene ; extra == 'full'",
+      "itsdangerous ; extra == 'full'",
+      "jinja2 ; extra == 'full'",
+      "python-multipart ; extra == 'full'",
+      "pyyaml ; extra == 'full'",
+      "requests ; extra == 'full'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "ftfy (==4.4.3) ; python_version < '3.4'",
+    "ftfy ; python_version > '2.7'",
+    "mailchecker",
+    "phonenumbers",
+    "python-dateutil",
+    "python-slugify",
+    "pyyaml",
+    "requests",
+    "six",
+    "toml",
+    "xmltodict"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

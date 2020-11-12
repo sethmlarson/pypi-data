@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "tempora (>=1.8)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7",
+  "yanked": []
+}

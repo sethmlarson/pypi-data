@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Mako (>=1.1.0)",
+    "pyramid"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

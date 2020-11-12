@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "azureml-core (~=1.18.0)",
+    "azureml-pipeline-core (~=1.18.0)",
+    "azureml-train-core (~=1.18.0); python_version >= '3.5'"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5,<4",
+  "yanked": []
+}

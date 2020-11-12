@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "pyahocorasick",
+    "Unidecode"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

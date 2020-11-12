@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "flask (<2,>=1)",
+    "itsdangerous (<2)",
+    "Jinja2 (<3)",
+    "MarkupSafe (<2)",
+    "pyee (<8,>=7)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

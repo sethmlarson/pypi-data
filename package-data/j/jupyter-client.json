@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "jupyter-core (>=4.6.0)",
+    "python-dateutil (>=2.1)",
+    "pyzmq (>=13)",
+    "tornado (>=4.1)",
+    "traitlets"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

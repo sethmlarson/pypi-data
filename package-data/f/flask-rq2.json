@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "Flask (>=0.10)",
+    "redis (>=3.0.0)",
+    "rq (>=0.13.0)",
+    "rq-scheduler (>=0.9.0)"
+  ],
+  "requires_extras": {
+    "cli": [
+      "Flask-CLI (>=0.4.0) ; extra == 'cli'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

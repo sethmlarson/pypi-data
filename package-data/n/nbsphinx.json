@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "docutils",
+    "jinja2",
+    "nbconvert (!=5.4)",
+    "nbformat",
+    "sphinx (>=1.8)",
+    "traitlets"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

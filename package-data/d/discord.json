@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "discord.py (>=1.0.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

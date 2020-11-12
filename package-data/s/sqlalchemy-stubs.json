@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "mypy (>=0.720)",
+    "typing-extensions (>=3.7.4)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

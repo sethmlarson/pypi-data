@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "configparser",
+    "numpy (>=1.8.1)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "boto3 (>=1.1.1)",
+    "cryptography (>=2.1)"
+  ],
+  "requires_extras": {
+    "yaml": [
+      "PyYAML (>=3.10) ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "aioredis",
+    "attrs (>=17.4.0)"
+  ],
+  "requires_extras": {
+    "cicd": [
+      "codecov ; extra == 'cicd'"
+    ],
+    "examples": [
+      "aiodocker ; extra == 'examples'"
+    ],
+    "package": [
+      "bump2version ; extra == 'package'",
+      "twine ; extra == 'package'",
+      "wheel ; extra == 'package'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

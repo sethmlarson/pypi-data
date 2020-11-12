@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "backoff (==1.6.0)",
+    "monotonic (>=1.5)",
+    "python-dateutil (>2.1)",
+    "requests (<3.0,>=2.7)",
+    "six (>=1.5)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

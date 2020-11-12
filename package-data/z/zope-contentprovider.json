@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "zope.component",
+    "zope.event",
+    "zope.interface (>=3.8)",
+    "zope.location",
+    "zope.publisher",
+    "zope.schema",
+    "zope.tales"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

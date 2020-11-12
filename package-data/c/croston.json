@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "numpy",
+    "pandas",
+    "scipy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

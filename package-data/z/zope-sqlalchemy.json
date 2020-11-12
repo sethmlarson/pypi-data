@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "SQLAlchemy (>=0.7)",
+    "transaction (>=1.6.0)",
+    "zope.interface (>=3.6.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

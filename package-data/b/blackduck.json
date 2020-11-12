@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6.0",
+  "yanked": []
+}

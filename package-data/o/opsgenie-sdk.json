@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "certifi",
+    "numpy (>=1.16.3)",
+    "python-dateutil",
+    "setuptools (>=21.0.0)",
+    "six (>=1.10)",
+    "tenacity (>=5.0.4)",
+    "urllib3 (>=1.15)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

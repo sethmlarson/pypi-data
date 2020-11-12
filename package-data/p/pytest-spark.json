@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "findspark",
+    "pytest"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

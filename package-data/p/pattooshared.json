@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "distro",
+    "PyYaml",
+    "virtualenv (==20.0.30)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

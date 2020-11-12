@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "lxml (==3.3.5)",
+    "pyxb (==1.2.4)",
+    "requests (==2.13.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

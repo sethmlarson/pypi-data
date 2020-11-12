@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "attrs (>=16.0.0)",
+    "enum34 ; python_version < '3.4'",
+    "pluggy (>=0.4.0)",
+    "six (>=1.9.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

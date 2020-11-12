@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "djangorestframework (>=3.9.3)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,78 @@
+{
+  "requires_dist": [
+    "aiohttp (<4.0,>=3.5.2)",
+    "aiohttp-cors (<2.0,>=0.7)",
+    "click (<8.0,>=6.7)",
+    "colorclass (<3.0,>=2.2)",
+    "croniter (>=0.3.16)",
+    "mode (<4.4,>=4.3.2)",
+    "mypy-extensions",
+    "opentracing (<2.0.0,>=1.3.0)",
+    "robinhood-aiokafka (<1.2,>=1.1.6)",
+    "terminaltables (<4.0,>=3.1)",
+    "venusian (<2.0,>=1.1)",
+    "yarl (<2.0,>=1.0)"
+  ],
+  "requires_extras": {
+    "aiodns": [
+      "aiodns (>=1.1); extra == 'aiodns'"
+    ],
+    "aiomonitor": [
+      "aiomonitor (>=0.4.4); extra == 'aiomonitor'"
+    ],
+    "cchardet": [
+      "cchardet (>=2.1); extra == 'cchardet'"
+    ],
+    "ciso8601": [
+      "ciso8601; extra == 'ciso8601'"
+    ],
+    "ckafka": [
+      "confluent-kafka (~=1.2.0); extra == 'ckafka'"
+    ],
+    "cython": [
+      "cython; extra == 'cython'"
+    ],
+    "datadog": [
+      "datadog; extra == 'datadog'"
+    ],
+    "debug": [
+      "aiomonitor (>=0.4.4); extra == 'debug'",
+      "setproctitle (>=1.1); extra == 'debug'"
+    ],
+    "eventlet": [
+      "aioeventlet (~=0.5.1); extra == 'eventlet'",
+      "dnspython; extra == 'eventlet'"
+    ],
+    "fast": [
+      "aiodns (>=1.1); extra == 'fast'",
+      "cchardet (>=2.1); extra == 'fast'",
+      "ciso8601; extra == 'fast'",
+      "cython; extra == 'fast'",
+      "orjson (<3.0,>=2.0); extra == 'fast'",
+      "setproctitle (>=1.1); extra == 'fast'"
+    ],
+    "orjson": [
+      "orjson (<3.0,>=2.0); extra == 'orjson'"
+    ],
+    "redis": [
+      "aredis (<2.0,>=1.1.3); extra == 'redis'"
+    ],
+    "rocksdb": [
+      "python-rocksdb (>=0.6.7); extra == 'rocksdb'"
+    ],
+    "setproctitle": [
+      "setproctitle (>=1.1); extra == 'setproctitle'"
+    ],
+    "statsd": [
+      "statsd (~=3.3.0); extra == 'statsd'"
+    ],
+    "uvloop": [
+      "uvloop (>=0.8.1); extra == 'uvloop'"
+    ],
+    "yaml": [
+      "pyyaml (>=5.1); extra == 'yaml'"
+    ]
+  },
+  "requires_python": ">=3.6.0",
+  "yanked": []
+}

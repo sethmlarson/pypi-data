@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "lml (>=0.0.4)"
+  ],
+  "requires_extras": {
+    "ods": [
+      "pyexcel-ods3 (>=0.6.0) ; extra == 'ods'"
+    ],
+    "xls": [
+      "pyexcel-xls (>=0.6.0) ; extra == 'xls'"
+    ],
+    "xlsx": [
+      "pyexcel-xlsx (>=0.6.0) ; extra == 'xlsx'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

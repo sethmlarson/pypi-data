@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "catkin-pkg (>=0.4.14)",
+    "colcon-cmake (>=0.2.6)",
+    "colcon-core (>=0.5.3)",
+    "colcon-pkg-config",
+    "colcon-python-setup-py (>=0.2.4)",
+    "colcon-recursive-crawl"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

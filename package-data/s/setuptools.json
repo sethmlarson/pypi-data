@@ -1,0 +1,13 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "certs": [
+      "certifi (==2016.9.26) ; extra == 'certs'"
+    ],
+    "ssl": [
+      "wincertstore (==0.2) ; (sys_platform == 'win32') and extra == 'ssl'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

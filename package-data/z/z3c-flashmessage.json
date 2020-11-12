@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "ZODB",
+    "zope.interface",
+    "zope.schema",
+    "zope.session"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

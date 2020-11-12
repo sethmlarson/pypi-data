@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "azure-kusto-data (==1.0.3)",
+    "azure-storage-blob (<13,>=12)",
+    "azure-storage-queue (<13,>=12)"
+  ],
+  "requires_extras": {
+    "pandas": [
+      "pandas ; extra == 'pandas'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

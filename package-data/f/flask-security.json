@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "Flask (>=0.11)",
+    "Flask-BabelEx (>=0.9.3)",
+    "Flask-Login (>=0.3.0)",
+    "Flask-Mail (>=0.7.3)",
+    "Flask-Principal (>=0.3.3)",
+    "Flask-WTF (>=0.13.1)",
+    "itsdangerous (>=0.21)",
+    "passlib (>=1.7)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

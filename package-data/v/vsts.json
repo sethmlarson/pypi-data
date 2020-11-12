@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "msrest (<0.7.0,>=0.6.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

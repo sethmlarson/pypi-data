@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "croniter (>=0.3.9)",
+    "rq (>=0.13)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

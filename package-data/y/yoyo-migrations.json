@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "sqlparse",
+    "tabulate"
+  ],
+  "requires_extras": {
+    "mysql": [
+      "PyMySQL; extra == 'mysql'"
+    ],
+    "postgres": [
+      "psycopg2; extra == 'postgres'"
+    ],
+    "pyodbc": [
+      "pyodbc; extra == 'pyodbc'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

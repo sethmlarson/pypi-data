@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "gpytorch (>=1.2)",
+    "scipy",
+    "torch (>=1.6)"
+  ],
+  "requires_extras": {
+    "tutorials": [
+      "cma ; extra == 'tutorials'",
+      "jupyter ; extra == 'tutorials'",
+      "matplotlib ; extra == 'tutorials'",
+      "torchvision ; extra == 'tutorials'"
+    ]
+  },
+  "requires_python": ">=3.7",
+  "yanked": []
+}

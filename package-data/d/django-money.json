@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "Django (>=1.11)",
+    "py-moneyed (>=0.8)",
+    "setuptools"
+  ],
+  "requires_extras": {
+    "exchange": [
+      "certifi ; extra == 'exchange'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "mbstrdecoder (<2,>=1.0.0)",
+    "setuptools (>=38.3.0)",
+    "typepy[datetime] (<2,>=1.1.1)"
+  ],
+  "requires_extras": {
+    "logging": [
+      "loguru (<1,>=0.4.1) ; extra == 'logging'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

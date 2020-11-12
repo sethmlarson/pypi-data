@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "joblib (>=0.11)",
+    "numpy (>=1.13.3)",
+    "scipy (>=0.19.1)",
+    "threadpoolctl (>=2.0.0)"
+  ],
+  "requires_extras": {
+    "alldeps": [
+      "numpy (>=1.13.3) ; extra == 'alldeps'",
+      "scipy (>=0.19.1) ; extra == 'alldeps'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

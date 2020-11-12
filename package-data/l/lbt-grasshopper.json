@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "dragonfly-grasshopper (==1.16.2)",
+    "honeybee-grasshopper-core (==1.19.1)",
+    "honeybee-grasshopper-energy (==1.21.1)",
+    "honeybee-grasshopper-radiance (==1.5.0)",
+    "ladybug-grasshopper (==1.26.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

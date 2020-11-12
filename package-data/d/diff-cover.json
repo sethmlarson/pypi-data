@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "Jinja2 (>=2.7.1)",
+    "jinja2-pluralize",
+    "pluggy",
+    "pygments"
+  ],
+  "requires_extras": {},
+  "requires_python": ">= 3.5",
+  "yanked": [
+    "4.0.0"
+  ]
+}

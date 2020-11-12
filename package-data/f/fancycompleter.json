@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "pyreadline ; platform_system == 'Windows'",
+    "pyrepl (>=0.8.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

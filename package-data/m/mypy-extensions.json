@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "typing (>=3.5.3) ; python_version < '3.5'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

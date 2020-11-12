@@ -1,0 +1,33 @@
+{
+  "requires_dist": [
+    "importlib-metadata ; python_version < '3.8'",
+    "pycryptodome",
+    "texttable"
+  ],
+  "requires_extras": {
+    "check": [
+      "check-manifest ; extra == 'check'",
+      "flake8 ; extra == 'check'",
+      "isort (>=5.0.3) ; extra == 'check'",
+      "mypy (>=0.701) ; extra == 'check'",
+      "mypy-extensions (>=0.4.1) ; extra == 'check'",
+      "pygments ; extra == 'check'",
+      "readme-renderer ; extra == 'check'",
+      "twine ; extra == 'check'"
+    ],
+    "multivolume": [
+      "multivolumefile (<0.2.0,>=0.1.1) ; extra == 'multivolume'"
+    ],
+    "ppmd": [
+      "ppmd-cffi (<0.4.0,>=0.3.1) ; extra == 'ppmd'"
+    ],
+    "test_compat": [
+      "libarchive-c ; extra == 'test_compat'"
+    ],
+    "zstd": [
+      "zstandard ; extra == 'zstd'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

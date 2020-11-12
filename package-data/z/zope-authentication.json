@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "zope.browser",
+    "zope.component (>=3.6.0)",
+    "zope.i18nmessageid",
+    "zope.interface",
+    "zope.schema",
+    "zope.security"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

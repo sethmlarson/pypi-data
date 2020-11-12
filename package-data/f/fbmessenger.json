@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "requests (>=2.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

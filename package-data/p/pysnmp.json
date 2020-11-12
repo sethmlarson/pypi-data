@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "pyasn1 (>=0.2.3)",
+    "pycryptodomex",
+    "pysmi"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

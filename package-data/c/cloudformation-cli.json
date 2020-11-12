@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "boto3 (>=1.10.20)",
+    "colorama (>=0.4.1)",
+    "docker (>=4.3.1)",
+    "hypothesis (>=4.32)",
+    "Jinja2 (>=2.10)",
+    "jsonschema (>=3.0.1)",
+    "pytest (>=4.5.0)",
+    "pytest-localserver (>=0.5.0)",
+    "pytest-random-order (>=1.0.4)",
+    "PyYAML (>=5.1)",
+    "requests (>=2.22)",
+    "Werkzeug (>=0.15)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

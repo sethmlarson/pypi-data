@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "enum34",
+    "google-api-python-client (>=1.5.5)",
+    "google-auth-oauthlib"
+  ],
+  "requires_extras": {
+    "pandas": [
+      "pandas (>=0.14.0); extra == 'pandas'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

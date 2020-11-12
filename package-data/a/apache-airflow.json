@@ -1,0 +1,842 @@
+{
+  "requires_dist": [
+    "alembic (<2.0,>=1.2)",
+    "argcomplete (~=1.10)",
+    "attrs (<21.0,>=20.0)",
+    "cached-property (~=1.5)",
+    "cattrs (<1.1.0,>=1.0) ; python_version <= '3.6'",
+    "cattrs (<2.0,>=1.0) ; python_version > '3.6'",
+    "colorlog (==4.0.2)",
+    "connexion[flask,swagger-ui] (<3,>=2.6.0)",
+    "croniter (<0.4,>=0.3.17)",
+    "cryptography (>=0.9.3)",
+    "dill (<0.4,>=0.2.2)",
+    "flask (<2.0,>=1.1.0)",
+    "flask-appbuilder (~=3.1.1)",
+    "flask-caching (<2.0.0,>=1.5.0)",
+    "flask-login (<0.5,>=0.3)",
+    "flask-swagger (==0.2.13)",
+    "flask-wtf (<0.15,>=0.14.3)",
+    "funcsigs (<2.0.0,>=1.0.0)",
+    "graphviz (>=0.12)",
+    "gunicorn (<20.0,>=19.5.0)",
+    "iso8601 (>=0.1.12)",
+    "jinja2 (<2.12.0,>=2.10.1)",
+    "json-merge-patch (==0.2)",
+    "jsonschema (~=3.0)",
+    "lazy-object-proxy (~=1.3)",
+    "lockfile (>=0.12.2)",
+    "markdown (<4.0,>=2.5.2)",
+    "markupsafe (<2.0,>=1.1.1)",
+    "marshmallow-oneofschema (>=2.0.1)",
+    "pandas (<2.0,>=0.17.1)",
+    "pendulum (~=2.0)",
+    "pep562 (~=1.0) ; python_version < '3.7'",
+    "psutil (<6.0.0,>=4.2.0)",
+    "pygments (<3.0,>=2.0.1)",
+    "python-daemon (>=2.1.1)",
+    "python-dateutil (<3,>=2.3)",
+    "python-nvd3 (~=0.15.0)",
+    "python-slugify (<5.0,>=3.0.0)",
+    "requests (<3,>=2.20.0)",
+    "rich (==9.2.0)",
+    "setproctitle (<2,>=1.1.8)",
+    "sqlalchemy (<2,>=1.3.18)",
+    "sqlalchemy-jsonfield (~=0.9)",
+    "tabulate (<0.9,>=0.7.5)",
+    "tenacity (~=6.2.0)",
+    "termcolor (>=1.1.0)",
+    "thrift (>=0.9.2)",
+    "typing ; python_version < '3.6'",
+    "typing-extensions (>=3.7.4) ; python_version < '3.8'",
+    "tzlocal (<2.0.0,>=1.4)",
+    "unicodecsv (>=0.14.1)",
+    "werkzeug (>=1.0.1,~=1.0)"
+  ],
+  "requires_extras": {
+    "all_dbs": [
+      "apache-airflow-providers-apache-cassandra ; extra == 'all_dbs'",
+      "apache-airflow-providers-apache-druid ; extra == 'all_dbs'",
+      "apache-airflow-providers-apache-hdfs ; extra == 'all_dbs'",
+      "apache-airflow-providers-apache-hive ; extra == 'all_dbs'",
+      "apache-airflow-providers-apache-pinot ; extra == 'all_dbs'",
+      "apache-airflow-providers-cloudant ; extra == 'all_dbs'",
+      "apache-airflow-providers-exasol ; extra == 'all_dbs'",
+      "apache-airflow-providers-microsoft-mssql ; extra == 'all_dbs'",
+      "apache-airflow-providers-mongo ; extra == 'all_dbs'",
+      "apache-airflow-providers-mysql ; extra == 'all_dbs'",
+      "apache-airflow-providers-postgres ; extra == 'all_dbs'",
+      "apache-airflow-providers-presto ; extra == 'all_dbs'",
+      "apache-airflow-providers-vertica ; extra == 'all_dbs'",
+      "cassandra-driver (<3.21.0,>=3.13.0) ; extra == 'all_dbs'",
+      "cloudant (>=2.0) ; extra == 'all_dbs'",
+      "dnspython (<2.0.0,>=1.13.0) ; extra == 'all_dbs'",
+      "hmsclient (>=0.1.0) ; extra == 'all_dbs'",
+      "mysql-connector-python (<=8.0.18,>=8.0.11) ; extra == 'all_dbs'",
+      "mysqlclient (<1.4,>=1.3.6) ; extra == 'all_dbs'",
+      "pinotdb (==0.1.1) ; extra == 'all_dbs'",
+      "presto-python-client (<0.8,>=0.7.0) ; extra == 'all_dbs'",
+      "psycopg2-binary (>=2.7.4) ; extra == 'all_dbs'",
+      "pydruid (>=0.4.1) ; extra == 'all_dbs'",
+      "pyexasol (<1.0.0,>=0.5.1) ; extra == 'all_dbs'",
+      "pyhive[hive] (>=0.6.0) ; extra == 'all_dbs'",
+      "pymongo (>=3.6.0) ; extra == 'all_dbs'",
+      "pymssql (>=2.1.5,~=2.1) ; extra == 'all_dbs'",
+      "snakebite-py3 ; extra == 'all_dbs'",
+      "vertica-python (>=0.5.1) ; extra == 'all_dbs'"
+    ],
+    "amazon": [
+      "apache-airflow-providers-amazon ; extra == 'amazon'",
+      "boto3 (<2.0.0,>=1.12.0) ; extra == 'amazon'",
+      "watchtower (~=0.7.3) ; extra == 'amazon'"
+    ],
+    "apache.atlas": [
+      "atlasclient (>=0.1.2) ; extra == 'apache.atlas'"
+    ],
+    "apache.beam": [
+      "apache-beam[gcp] ; extra == 'apache.beam'"
+    ],
+    "apache.cassandra": [
+      "apache-airflow-providers-apache-cassandra ; extra == 'apache.cassandra'",
+      "cassandra-driver (<3.21.0,>=3.13.0) ; extra == 'apache.cassandra'"
+    ],
+    "apache.druid": [
+      "apache-airflow-providers-apache-druid ; extra == 'apache.druid'",
+      "pydruid (>=0.4.1) ; extra == 'apache.druid'"
+    ],
+    "apache.hdfs": [
+      "apache-airflow-providers-apache-hdfs ; extra == 'apache.hdfs'",
+      "snakebite-py3 ; extra == 'apache.hdfs'"
+    ],
+    "apache.hive": [
+      "apache-airflow-providers-apache-hive ; extra == 'apache.hive'",
+      "hmsclient (>=0.1.0) ; extra == 'apache.hive'",
+      "pyhive[hive] (>=0.6.0) ; extra == 'apache.hive'"
+    ],
+    "apache.kylin": [
+      "apache-airflow-providers-apache-kylin ; extra == 'apache.kylin'",
+      "kylinpy (>=2.6) ; extra == 'apache.kylin'"
+    ],
+    "apache.pinot": [
+      "apache-airflow-providers-apache-pinot ; extra == 'apache.pinot'",
+      "pinotdb (==0.1.1) ; extra == 'apache.pinot'"
+    ],
+    "apache.presto": [
+      "apache-airflow-providers-apache-presto ; extra == 'apache.presto'",
+      "apache-airflow-providers-presto ; extra == 'apache.presto'",
+      "presto-python-client (<0.8,>=0.7.0) ; extra == 'apache.presto'"
+    ],
+    "apache.spark": [
+      "apache-airflow-providers-apache-spark ; extra == 'apache.spark'",
+      "apache-airflow-providers-spark ; extra == 'apache.spark'",
+      "pyspark ; extra == 'apache.spark'"
+    ],
+    "apache.webhdfs": [
+      "apache-airflow-providers-apache-hdfs ; extra == 'apache.webhdfs'",
+      "hdfs[avro,dataframe,kerberos] (>=2.0.4) ; extra == 'apache.webhdfs'"
+    ],
+    "async": [
+      "eventlet (>=0.9.7) ; extra == 'async'",
+      "gevent (>=0.13) ; extra == 'async'",
+      "greenlet (>=0.4.9) ; extra == 'async'"
+    ],
+    "atlas": [
+      "atlasclient (>=0.1.2) ; extra == 'atlas'"
+    ],
+    "aws": [
+      "apache-airflow-providers-amazon ; extra == 'aws'",
+      "boto3 (<2.0.0,>=1.12.0) ; extra == 'aws'",
+      "watchtower (~=0.7.3) ; extra == 'aws'"
+    ],
+    "azure": [
+      "apache-airflow-providers-microsoft-azure ; extra == 'azure'",
+      "azure-batch (>=8.0.0) ; extra == 'azure'",
+      "azure-cosmos (<4,>=3.0.1) ; extra == 'azure'",
+      "azure-datalake-store (>=0.0.45) ; extra == 'azure'",
+      "azure-identity (>=1.3.1) ; extra == 'azure'",
+      "azure-keyvault (>=4.1.0) ; extra == 'azure'",
+      "azure-kusto-data (<0.1,>=0.0.43) ; extra == 'azure'",
+      "azure-mgmt-containerinstance (<2.0,>=1.5.0) ; extra == 'azure'",
+      "azure-mgmt-datalake-store (>=0.5.0) ; extra == 'azure'",
+      "azure-mgmt-resource (>=2.2.0) ; extra == 'azure'",
+      "azure-storage (<0.37.0,>=0.34.0) ; extra == 'azure'",
+      "azure-storage-blob (<12.0) ; extra == 'azure'"
+    ],
+    "cassandra": [
+      "apache-airflow-providers-apache-cassandra ; extra == 'cassandra'",
+      "cassandra-driver (<3.21.0,>=3.13.0) ; extra == 'cassandra'"
+    ],
+    "celery": [
+      "apache-airflow-providers-celery ; extra == 'celery'",
+      "celery (~=4.4.2) ; extra == 'celery'",
+      "flower (<1.0,>=0.7.3) ; extra == 'celery'",
+      "vine (~=1.3) ; extra == 'celery'"
+    ],
+    "cgroups": [
+      "cgroupspy (>=0.1.4) ; extra == 'cgroups'"
+    ],
+    "cloudant": [
+      "apache-airflow-providers-cloudant ; extra == 'cloudant'",
+      "cloudant (>=2.0) ; extra == 'cloudant'"
+    ],
+    "cncf.kubernetes": [
+      "apache-airflow-providers-cncf-kubernetes ; extra == 'cncf.kubernetes'",
+      "cryptography (>=2.0.0) ; extra == 'cncf.kubernetes'",
+      "kubernetes (<12.0.0,>=3.0.0) ; extra == 'cncf.kubernetes'"
+    ],
+    "dask": [
+      "apache-airflow-providers-dask ; extra == 'dask'",
+      "cloudpickle (<1.5.0,>=1.4.1) ; extra == 'dask'",
+      "distributed (<2.20,>=2.11.1) ; extra == 'dask'"
+    ],
+    "databricks": [
+      "apache-airflow-providers-databricks ; extra == 'databricks'",
+      "requests (<3,>=2.20.0) ; extra == 'databricks'"
+    ],
+    "datadog": [
+      "apache-airflow-providers-datadog ; extra == 'datadog'",
+      "datadog (>=0.14.0) ; extra == 'datadog'"
+    ],
+    "devel_ci": [
+      "amqp ; extra == 'devel_ci'",
+      "analytics-python (>=1.2.9) ; extra == 'devel_ci'",
+      "apache-airflow-providers-amazon ; extra == 'devel_ci'",
+      "apache-airflow-providers-apache-cassandra ; extra == 'devel_ci'",
+      "apache-airflow-providers-apache-druid ; extra == 'devel_ci'",
+      "apache-airflow-providers-apache-hdfs ; extra == 'devel_ci'",
+      "apache-airflow-providers-apache-hive ; extra == 'devel_ci'",
+      "apache-airflow-providers-apache-kylin ; extra == 'devel_ci'",
+      "apache-airflow-providers-apache-livy ; extra == 'devel_ci'",
+      "apache-airflow-providers-apache-pig ; extra == 'devel_ci'",
+      "apache-airflow-providers-apache-pinot ; extra == 'devel_ci'",
+      "apache-airflow-providers-apache-spark ; extra == 'devel_ci'",
+      "apache-airflow-providers-apache-sqoop ; extra == 'devel_ci'",
+      "apache-airflow-providers-celery ; extra == 'devel_ci'",
+      "apache-airflow-providers-cloudant ; extra == 'devel_ci'",
+      "apache-airflow-providers-cncf-kubernetes ; extra == 'devel_ci'",
+      "apache-airflow-providers-databricks ; extra == 'devel_ci'",
+      "apache-airflow-providers-datadog ; extra == 'devel_ci'",
+      "apache-airflow-providers-dingding ; extra == 'devel_ci'",
+      "apache-airflow-providers-discord ; extra == 'devel_ci'",
+      "apache-airflow-providers-docker ; extra == 'devel_ci'",
+      "apache-airflow-providers-elasticsearch ; extra == 'devel_ci'",
+      "apache-airflow-providers-exasol ; extra == 'devel_ci'",
+      "apache-airflow-providers-facebook ; extra == 'devel_ci'",
+      "apache-airflow-providers-ftp ; extra == 'devel_ci'",
+      "apache-airflow-providers-google ; extra == 'devel_ci'",
+      "apache-airflow-providers-grpc ; extra == 'devel_ci'",
+      "apache-airflow-providers-hashicorp ; extra == 'devel_ci'",
+      "apache-airflow-providers-http ; extra == 'devel_ci'",
+      "apache-airflow-providers-imap ; extra == 'devel_ci'",
+      "apache-airflow-providers-jdbc ; extra == 'devel_ci'",
+      "apache-airflow-providers-jenkins ; extra == 'devel_ci'",
+      "apache-airflow-providers-jira ; extra == 'devel_ci'",
+      "apache-airflow-providers-microsoft-azure ; extra == 'devel_ci'",
+      "apache-airflow-providers-microsoft-mssql ; extra == 'devel_ci'",
+      "apache-airflow-providers-microsoft-winrm ; extra == 'devel_ci'",
+      "apache-airflow-providers-mongo ; extra == 'devel_ci'",
+      "apache-airflow-providers-mysql ; extra == 'devel_ci'",
+      "apache-airflow-providers-odbc ; extra == 'devel_ci'",
+      "apache-airflow-providers-openfaas ; extra == 'devel_ci'",
+      "apache-airflow-providers-opsgenie ; extra == 'devel_ci'",
+      "apache-airflow-providers-oracle ; extra == 'devel_ci'",
+      "apache-airflow-providers-pagerduty ; extra == 'devel_ci'",
+      "apache-airflow-providers-papermill ; extra == 'devel_ci'",
+      "apache-airflow-providers-plexus ; extra == 'devel_ci'",
+      "apache-airflow-providers-postgres ; extra == 'devel_ci'",
+      "apache-airflow-providers-presto ; extra == 'devel_ci'",
+      "apache-airflow-providers-qubole ; extra == 'devel_ci'",
+      "apache-airflow-providers-redis ; extra == 'devel_ci'",
+      "apache-airflow-providers-salesforce ; extra == 'devel_ci'",
+      "apache-airflow-providers-samba ; extra == 'devel_ci'",
+      "apache-airflow-providers-segment ; extra == 'devel_ci'",
+      "apache-airflow-providers-sendgrid ; extra == 'devel_ci'",
+      "apache-airflow-providers-sftp ; extra == 'devel_ci'",
+      "apache-airflow-providers-singularity ; extra == 'devel_ci'",
+      "apache-airflow-providers-slack ; extra == 'devel_ci'",
+      "apache-airflow-providers-snowflake ; extra == 'devel_ci'",
+      "apache-airflow-providers-sqlite ; extra == 'devel_ci'",
+      "apache-airflow-providers-ssh ; extra == 'devel_ci'",
+      "apache-airflow-providers-vertica ; extra == 'devel_ci'",
+      "apache-airflow-providers-yandex ; extra == 'devel_ci'",
+      "apache-airflow-providers-zendesk ; extra == 'devel_ci'",
+      "arrow (>=0.16.0) ; extra == 'devel_ci'",
+      "atlasclient (>=0.1.2) ; extra == 'devel_ci'",
+      "azure-batch (>=8.0.0) ; extra == 'devel_ci'",
+      "azure-cosmos (<4,>=3.0.1) ; extra == 'devel_ci'",
+      "azure-datalake-store (>=0.0.45) ; extra == 'devel_ci'",
+      "azure-identity (>=1.3.1) ; extra == 'devel_ci'",
+      "azure-keyvault (>=4.1.0) ; extra == 'devel_ci'",
+      "azure-kusto-data (<0.1,>=0.0.43) ; extra == 'devel_ci'",
+      "azure-mgmt-containerinstance (<2.0,>=1.5.0) ; extra == 'devel_ci'",
+      "azure-mgmt-datalake-store (>=0.5.0) ; extra == 'devel_ci'",
+      "azure-mgmt-resource (>=2.2.0) ; extra == 'devel_ci'",
+      "azure-storage (<0.37.0,>=0.34.0) ; extra == 'devel_ci'",
+      "azure-storage-blob (<12.0) ; extra == 'devel_ci'",
+      "bcrypt (>=2.0.0) ; extra == 'devel_ci'",
+      "beautifulsoup4 (~=4.7.1) ; extra == 'devel_ci'",
+      "black ; extra == 'devel_ci'",
+      "blinker (>=1.1) ; extra == 'devel_ci'",
+      "blinker ; extra == 'devel_ci'",
+      "boto3 (<2.0.0,>=1.12.0) ; extra == 'devel_ci'",
+      "bowler ; extra == 'devel_ci'",
+      "cassandra-driver (<3.21.0,>=3.13.0) ; extra == 'devel_ci'",
+      "celery (~=4.4.2) ; extra == 'devel_ci'",
+      "cgroupspy (>=0.1.4) ; extra == 'devel_ci'",
+      "click (~=7.1) ; extra == 'devel_ci'",
+      "cloudant (>=2.0) ; extra == 'devel_ci'",
+      "cloudpickle (<1.5.0,>=1.4.1) ; extra == 'devel_ci'",
+      "contextdecorator ; (python_version < '3.4') and extra == 'devel_ci'",
+      "coverage ; extra == 'devel_ci'",
+      "cryptography (>=2.0.0) ; extra == 'devel_ci'",
+      "cx-Oracle (>=5.1.2) ; extra == 'devel_ci'",
+      "datadog (>=0.14.0) ; extra == 'devel_ci'",
+      "distributed (<2.20,>=2.11.1) ; extra == 'devel_ci'",
+      "dnspython (<2.0.0,>=1.13.0) ; extra == 'devel_ci'",
+      "docker (~=3.0) ; extra == 'devel_ci'",
+      "docutils ; extra == 'devel_ci'",
+      "elasticsearch (<7.6.0,>7) ; extra == 'devel_ci'",
+      "elasticsearch-dbapi (==0.1.0) ; extra == 'devel_ci'",
+      "elasticsearch-dsl (>=5.0.0) ; extra == 'devel_ci'",
+      "eventlet (>=0.9.7) ; extra == 'devel_ci'",
+      "facebook-business (>=6.0.2) ; extra == 'devel_ci'",
+      "flake8 (>=3.6.0) ; extra == 'devel_ci'",
+      "flake8-colors ; extra == 'devel_ci'",
+      "flaky ; extra == 'devel_ci'",
+      "flask-bcrypt (>=0.7.1) ; extra == 'devel_ci'",
+      "Flask-OAuthlib (<0.9.6,>=0.9.1) ; extra == 'devel_ci'",
+      "flower (<1.0,>=0.7.3) ; extra == 'devel_ci'",
+      "freezegun ; extra == 'devel_ci'",
+      "gevent (>=0.13) ; extra == 'devel_ci'",
+      "github3.py ; extra == 'devel_ci'",
+      "gitpython ; extra == 'devel_ci'",
+      "google-ads (>=4.0.0) ; extra == 'devel_ci'",
+      "google-api-python-client (<2.0.0,>=1.6.0) ; extra == 'devel_ci'",
+      "google-auth (<2.0.0,>=1.0.0) ; extra == 'devel_ci'",
+      "google-auth (<2.0.0dev,>=1.0.0) ; extra == 'devel_ci'",
+      "google-auth-httplib2 (>=0.0.1) ; extra == 'devel_ci'",
+      "google-cloud-automl (<2.0.0,>=0.4.0) ; extra == 'devel_ci'",
+      "google-cloud-bigquery-datatransfer (<2.0.0,>=0.4.0) ; extra == 'devel_ci'",
+      "google-cloud-bigtable (<2.0.0,>=1.0.0) ; extra == 'devel_ci'",
+      "google-cloud-container (<2.0.0,>=0.1.1) ; extra == 'devel_ci'",
+      "google-cloud-datacatalog (<0.8,>=0.5.0) ; extra == 'devel_ci'",
+      "google-cloud-dataproc (<2.0.0,>=1.0.1) ; extra == 'devel_ci'",
+      "google-cloud-dlp (<2.0.0,>=0.11.0) ; extra == 'devel_ci'",
+      "google-cloud-kms (<2.0.0,>=1.2.1) ; extra == 'devel_ci'",
+      "google-cloud-language (<2.0.0,>=1.1.1) ; extra == 'devel_ci'",
+      "google-cloud-logging (<2.0.0,>=1.14.0) ; extra == 'devel_ci'",
+      "google-cloud-memcache (>=0.2.0) ; extra == 'devel_ci'",
+      "google-cloud-monitoring (<2.0.0,>=0.34.0) ; extra == 'devel_ci'",
+      "google-cloud-os-login (<2.0.0,>=1.0.0) ; extra == 'devel_ci'",
+      "google-cloud-pubsub (<2.0.0,>=1.0.0) ; extra == 'devel_ci'",
+      "google-cloud-redis (<2.0.0,>=0.3.0) ; extra == 'devel_ci'",
+      "google-cloud-secret-manager (<2.0.0,>=0.2.0) ; extra == 'devel_ci'",
+      "google-cloud-spanner (<2.0.0,>=1.10.0) ; extra == 'devel_ci'",
+      "google-cloud-speech (<2.0.0,>=0.36.3) ; extra == 'devel_ci'",
+      "google-cloud-storage (<2.0.0,>=1.16) ; extra == 'devel_ci'",
+      "google-cloud-tasks (<2.0.0,>=1.2.1) ; extra == 'devel_ci'",
+      "google-cloud-texttospeech (<2.0.0,>=0.4.0) ; extra == 'devel_ci'",
+      "google-cloud-translate (<2.0.0,>=1.5.0) ; extra == 'devel_ci'",
+      "google-cloud-videointelligence (<2.0.0,>=1.7.0) ; extra == 'devel_ci'",
+      "google-cloud-vision (<2.0.0,>=0.35.2) ; extra == 'devel_ci'",
+      "greenlet (>=0.4.9) ; extra == 'devel_ci'",
+      "grpcio (>=1.15.0) ; extra == 'devel_ci'",
+      "grpcio-gcp (>=0.2.2) ; extra == 'devel_ci'",
+      "hdfs[avro,dataframe,kerberos] (>=2.0.4) ; extra == 'devel_ci'",
+      "hmsclient (>=0.1.0) ; extra == 'devel_ci'",
+      "hvac (~=0.10) ; extra == 'devel_ci'",
+      "ipdb ; extra == 'devel_ci'",
+      "jaydebeapi (>=1.1.1) ; extra == 'devel_ci'",
+      "JIRA (>1.0.7) ; extra == 'devel_ci'",
+      "jira ; extra == 'devel_ci'",
+      "kubernetes (<12.0.0,>=3.0.0) ; extra == 'devel_ci'",
+      "kylinpy (>=2.6) ; extra == 'devel_ci'",
+      "ldap3 (>=2.5.1) ; extra == 'devel_ci'",
+      "mongomock ; extra == 'devel_ci'",
+      "moto (==1.3.14) ; extra == 'devel_ci'",
+      "mypy (==0.770) ; extra == 'devel_ci'",
+      "mysql-connector-python (<=8.0.18,>=8.0.11) ; extra == 'devel_ci'",
+      "mysqlclient (<1.4,>=1.3.6) ; extra == 'devel_ci'",
+      "nteract-scrapbook[all] (>=0.3.1) ; extra == 'devel_ci'",
+      "oauthlib (!=2.0.3,!=2.0.4,!=2.0.5,<3.0.0,>=1.1.2) ; extra == 'devel_ci'",
+      "pandas-gbq ; extra == 'devel_ci'",
+      "papermill[all] (>=1.2.1) ; extra == 'devel_ci'",
+      "parameterized ; extra == 'devel_ci'",
+      "paramiko (>=2.6.0) ; extra == 'devel_ci'",
+      "paramiko ; extra == 'devel_ci'",
+      "pdpyras (<5,>=4.1.2) ; extra == 'devel_ci'",
+      "pinotdb (==0.1.1) ; extra == 'devel_ci'",
+      "pipdeptree ; extra == 'devel_ci'",
+      "pre-commit ; extra == 'devel_ci'",
+      "presto-python-client (<0.8,>=0.7.0) ; extra == 'devel_ci'",
+      "psycopg2-binary (>=2.7.4) ; extra == 'devel_ci'",
+      "pydruid (>=0.4.1) ; extra == 'devel_ci'",
+      "pyexasol (<1.0.0,>=0.5.1) ; extra == 'devel_ci'",
+      "pyhive[hive] (>=0.6.0) ; extra == 'devel_ci'",
+      "pykerberos (>=1.1.13) ; extra == 'devel_ci'",
+      "pylint (==2.5.3) ; extra == 'devel_ci'",
+      "pymongo (>=3.6.0) ; extra == 'devel_ci'",
+      "pymssql (>=2.1.5,~=2.1) ; extra == 'devel_ci'",
+      "pyodbc ; extra == 'devel_ci'",
+      "PyOpenSSL ; extra == 'devel_ci'",
+      "pysftp (>=0.2.9) ; extra == 'devel_ci'",
+      "pysftp ; extra == 'devel_ci'",
+      "pysmbclient (>=0.1.3) ; extra == 'devel_ci'",
+      "pyspark ; extra == 'devel_ci'",
+      "pytest ; extra == 'devel_ci'",
+      "pytest-cov ; extra == 'devel_ci'",
+      "pytest-instafail ; extra == 'devel_ci'",
+      "pytest-rerunfailures ; extra == 'devel_ci'",
+      "pytest-timeouts ; extra == 'devel_ci'",
+      "pytest-xdist ; extra == 'devel_ci'",
+      "python-jenkins (>=1.0.0) ; extra == 'devel_ci'",
+      "pywinrm (~=0.4) ; extra == 'devel_ci'",
+      "pywinrm ; extra == 'devel_ci'",
+      "qds-sdk (>=1.10.4) ; extra == 'devel_ci'",
+      "qds-sdk (>=1.9.6) ; extra == 'devel_ci'",
+      "redis (~=3.2) ; extra == 'devel_ci'",
+      "requests (<3,>=2.20.0) ; extra == 'devel_ci'",
+      "requests-kerberos (>=0.10.0) ; extra == 'devel_ci'",
+      "requests-mock ; extra == 'devel_ci'",
+      "requests-oauthlib (==1.1.0) ; extra == 'devel_ci'",
+      "sendgrid (<7,>=6.0.0) ; extra == 'devel_ci'",
+      "sentry-sdk (>=0.8.0) ; extra == 'devel_ci'",
+      "setuptools ; extra == 'devel_ci'",
+      "simple-salesforce (>=1.0.0) ; extra == 'devel_ci'",
+      "slackclient (<3.0.0,>=2.0.0) ; extra == 'devel_ci'",
+      "snowflake-connector-python (>=1.5.2) ; extra == 'devel_ci'",
+      "snowflake-sqlalchemy (>=1.1.0) ; extra == 'devel_ci'",
+      "sphinx (>=2.1.2) ; extra == 'devel_ci'",
+      "sphinx-argparse (>=0.1.13) ; extra == 'devel_ci'",
+      "sphinx-autoapi (==1.0.0) ; extra == 'devel_ci'",
+      "sphinx-copybutton ; extra == 'devel_ci'",
+      "sphinx-jinja (~=1.1) ; extra == 'devel_ci'",
+      "sphinx-rtd-theme (>=0.1.6) ; extra == 'devel_ci'",
+      "sphinxcontrib-httpdomain (>=1.7.0) ; extra == 'devel_ci'",
+      "sphinxcontrib-redoc (>=1.6.0) ; extra == 'devel_ci'",
+      "sphinxcontrib-spelling (==5.2.1) ; extra == 'devel_ci'",
+      "spython (>=0.0.56) ; extra == 'devel_ci'",
+      "sshtunnel (<0.2,>=0.1.4) ; extra == 'devel_ci'",
+      "statsd (<4.0,>=3.3.0) ; extra == 'devel_ci'",
+      "tableauserverclient (~=0.12) ; extra == 'devel_ci'",
+      "testfixtures ; extra == 'devel_ci'",
+      "thrift-sasl (>=0.2.0) ; extra == 'devel_ci'",
+      "vertica-python (>=0.5.1) ; extra == 'devel_ci'",
+      "vine (~=1.3) ; extra == 'devel_ci'",
+      "virtualenv ; extra == 'devel_ci'",
+      "watchtower (~=0.7.3) ; extra == 'devel_ci'",
+      "wheel ; extra == 'devel_ci'",
+      "yamllint ; extra == 'devel_ci'",
+      "yandexcloud (>=0.22.0) ; extra == 'devel_ci'",
+      "zdesk ; extra == 'devel_ci'"
+    ],
+    "devel_hadoop": [
+      "apache-airflow-providers-apache-hdfs ; extra == 'devel_hadoop'",
+      "apache-airflow-providers-apache-hive ; extra == 'devel_hadoop'",
+      "apache-airflow-providers-presto ; extra == 'devel_hadoop'",
+      "bcrypt (>=2.0.0) ; extra == 'devel_hadoop'",
+      "beautifulsoup4 (~=4.7.1) ; extra == 'devel_hadoop'",
+      "black ; extra == 'devel_hadoop'",
+      "blinker ; extra == 'devel_hadoop'",
+      "bowler ; extra == 'devel_hadoop'",
+      "cgroupspy (>=0.1.4) ; extra == 'devel_hadoop'",
+      "click (~=7.1) ; extra == 'devel_hadoop'",
+      "contextdecorator ; (python_version < '3.4') and extra == 'devel_hadoop'",
+      "coverage ; extra == 'devel_hadoop'",
+      "cryptography (>=2.0.0) ; extra == 'devel_hadoop'",
+      "docutils ; extra == 'devel_hadoop'",
+      "flake8 (>=3.6.0) ; extra == 'devel_hadoop'",
+      "flake8-colors ; extra == 'devel_hadoop'",
+      "flaky ; extra == 'devel_hadoop'",
+      "flask-bcrypt (>=0.7.1) ; extra == 'devel_hadoop'",
+      "freezegun ; extra == 'devel_hadoop'",
+      "github3.py ; extra == 'devel_hadoop'",
+      "gitpython ; extra == 'devel_hadoop'",
+      "hdfs[avro,dataframe,kerberos] (>=2.0.4) ; extra == 'devel_hadoop'",
+      "hmsclient (>=0.1.0) ; extra == 'devel_hadoop'",
+      "ipdb ; extra == 'devel_hadoop'",
+      "jira ; extra == 'devel_hadoop'",
+      "kubernetes (<12.0.0,>=3.0.0) ; extra == 'devel_hadoop'",
+      "mongomock ; extra == 'devel_hadoop'",
+      "moto (==1.3.14) ; extra == 'devel_hadoop'",
+      "mypy (==0.770) ; extra == 'devel_hadoop'",
+      "mysql-connector-python (<=8.0.18,>=8.0.11) ; extra == 'devel_hadoop'",
+      "mysqlclient (<1.4,>=1.3.6) ; extra == 'devel_hadoop'",
+      "parameterized ; extra == 'devel_hadoop'",
+      "paramiko ; extra == 'devel_hadoop'",
+      "pipdeptree ; extra == 'devel_hadoop'",
+      "pre-commit ; extra == 'devel_hadoop'",
+      "presto-python-client (<0.8,>=0.7.0) ; extra == 'devel_hadoop'",
+      "pyhive[hive] (>=0.6.0) ; extra == 'devel_hadoop'",
+      "pykerberos (>=1.1.13) ; extra == 'devel_hadoop'",
+      "pylint (==2.5.3) ; extra == 'devel_hadoop'",
+      "pysftp ; extra == 'devel_hadoop'",
+      "pytest ; extra == 'devel_hadoop'",
+      "pytest-cov ; extra == 'devel_hadoop'",
+      "pytest-instafail ; extra == 'devel_hadoop'",
+      "pytest-rerunfailures ; extra == 'devel_hadoop'",
+      "pytest-timeouts ; extra == 'devel_hadoop'",
+      "pytest-xdist ; extra == 'devel_hadoop'",
+      "pywinrm ; extra == 'devel_hadoop'",
+      "qds-sdk (>=1.9.6) ; extra == 'devel_hadoop'",
+      "requests-kerberos (>=0.10.0) ; extra == 'devel_hadoop'",
+      "requests-mock ; extra == 'devel_hadoop'",
+      "setuptools ; extra == 'devel_hadoop'",
+      "snakebite-py3 ; extra == 'devel_hadoop'",
+      "sphinx (>=2.1.2) ; extra == 'devel_hadoop'",
+      "sphinx-argparse (>=0.1.13) ; extra == 'devel_hadoop'",
+      "sphinx-autoapi (==1.0.0) ; extra == 'devel_hadoop'",
+      "sphinx-copybutton ; extra == 'devel_hadoop'",
+      "sphinx-jinja (~=1.1) ; extra == 'devel_hadoop'",
+      "sphinx-rtd-theme (>=0.1.6) ; extra == 'devel_hadoop'",
+      "sphinxcontrib-httpdomain (>=1.7.0) ; extra == 'devel_hadoop'",
+      "sphinxcontrib-redoc (>=1.6.0) ; extra == 'devel_hadoop'",
+      "sphinxcontrib-spelling (==5.2.1) ; extra == 'devel_hadoop'",
+      "testfixtures ; extra == 'devel_hadoop'",
+      "thrift-sasl (>=0.2.0) ; extra == 'devel_hadoop'",
+      "wheel ; extra == 'devel_hadoop'",
+      "yamllint ; extra == 'devel_hadoop'"
+    ],
+    "docker": [
+      "apache-airflow-providers-docker ; extra == 'docker'",
+      "docker (~=3.0) ; extra == 'docker'"
+    ],
+    "druid": [
+      "apache-airflow-providers-apache-druid ; extra == 'druid'",
+      "pydruid (>=0.4.1) ; extra == 'druid'"
+    ],
+    "elasticsearch": [
+      "apache-airflow-providers-elasticsearch ; extra == 'elasticsearch'",
+      "elasticsearch (<7.6.0,>7) ; extra == 'elasticsearch'",
+      "elasticsearch-dbapi (==0.1.0) ; extra == 'elasticsearch'",
+      "elasticsearch-dsl (>=5.0.0) ; extra == 'elasticsearch'"
+    ],
+    "exasol": [
+      "apache-airflow-providers-exasol ; extra == 'exasol'",
+      "pyexasol (<1.0.0,>=0.5.1) ; extra == 'exasol'"
+    ],
+    "facebook": [
+      "apache-airflow-providers-facebook ; extra == 'facebook'",
+      "facebook-business (>=6.0.2) ; extra == 'facebook'"
+    ],
+    "gcp": [
+      "apache-airflow-providers-google ; extra == 'gcp'",
+      "google-ads (>=4.0.0) ; extra == 'gcp'",
+      "google-api-python-client (<2.0.0,>=1.6.0) ; extra == 'gcp'",
+      "google-auth (<2.0.0,>=1.0.0) ; extra == 'gcp'",
+      "google-auth-httplib2 (>=0.0.1) ; extra == 'gcp'",
+      "google-cloud-automl (<2.0.0,>=0.4.0) ; extra == 'gcp'",
+      "google-cloud-bigquery-datatransfer (<2.0.0,>=0.4.0) ; extra == 'gcp'",
+      "google-cloud-bigtable (<2.0.0,>=1.0.0) ; extra == 'gcp'",
+      "google-cloud-container (<2.0.0,>=0.1.1) ; extra == 'gcp'",
+      "google-cloud-datacatalog (<0.8,>=0.5.0) ; extra == 'gcp'",
+      "google-cloud-dataproc (<2.0.0,>=1.0.1) ; extra == 'gcp'",
+      "google-cloud-dlp (<2.0.0,>=0.11.0) ; extra == 'gcp'",
+      "google-cloud-kms (<2.0.0,>=1.2.1) ; extra == 'gcp'",
+      "google-cloud-language (<2.0.0,>=1.1.1) ; extra == 'gcp'",
+      "google-cloud-logging (<2.0.0,>=1.14.0) ; extra == 'gcp'",
+      "google-cloud-memcache (>=0.2.0) ; extra == 'gcp'",
+      "google-cloud-monitoring (<2.0.0,>=0.34.0) ; extra == 'gcp'",
+      "google-cloud-os-login (<2.0.0,>=1.0.0) ; extra == 'gcp'",
+      "google-cloud-pubsub (<2.0.0,>=1.0.0) ; extra == 'gcp'",
+      "google-cloud-redis (<2.0.0,>=0.3.0) ; extra == 'gcp'",
+      "google-cloud-secret-manager (<2.0.0,>=0.2.0) ; extra == 'gcp'",
+      "google-cloud-spanner (<2.0.0,>=1.10.0) ; extra == 'gcp'",
+      "google-cloud-speech (<2.0.0,>=0.36.3) ; extra == 'gcp'",
+      "google-cloud-storage (<2.0.0,>=1.16) ; extra == 'gcp'",
+      "google-cloud-tasks (<2.0.0,>=1.2.1) ; extra == 'gcp'",
+      "google-cloud-texttospeech (<2.0.0,>=0.4.0) ; extra == 'gcp'",
+      "google-cloud-translate (<2.0.0,>=1.5.0) ; extra == 'gcp'",
+      "google-cloud-videointelligence (<2.0.0,>=1.7.0) ; extra == 'gcp'",
+      "google-cloud-vision (<2.0.0,>=0.35.2) ; extra == 'gcp'",
+      "grpcio-gcp (>=0.2.2) ; extra == 'gcp'",
+      "pandas-gbq ; extra == 'gcp'",
+      "PyOpenSSL ; extra == 'gcp'"
+    ],
+    "gcp_api": [
+      "apache-airflow-providers-google ; extra == 'gcp_api'",
+      "google-ads (>=4.0.0) ; extra == 'gcp_api'",
+      "google-api-python-client (<2.0.0,>=1.6.0) ; extra == 'gcp_api'",
+      "google-auth (<2.0.0,>=1.0.0) ; extra == 'gcp_api'",
+      "google-auth-httplib2 (>=0.0.1) ; extra == 'gcp_api'",
+      "google-cloud-automl (<2.0.0,>=0.4.0) ; extra == 'gcp_api'",
+      "google-cloud-bigquery-datatransfer (<2.0.0,>=0.4.0) ; extra == 'gcp_api'",
+      "google-cloud-bigtable (<2.0.0,>=1.0.0) ; extra == 'gcp_api'",
+      "google-cloud-container (<2.0.0,>=0.1.1) ; extra == 'gcp_api'",
+      "google-cloud-datacatalog (<0.8,>=0.5.0) ; extra == 'gcp_api'",
+      "google-cloud-dataproc (<2.0.0,>=1.0.1) ; extra == 'gcp_api'",
+      "google-cloud-dlp (<2.0.0,>=0.11.0) ; extra == 'gcp_api'",
+      "google-cloud-kms (<2.0.0,>=1.2.1) ; extra == 'gcp_api'",
+      "google-cloud-language (<2.0.0,>=1.1.1) ; extra == 'gcp_api'",
+      "google-cloud-logging (<2.0.0,>=1.14.0) ; extra == 'gcp_api'",
+      "google-cloud-memcache (>=0.2.0) ; extra == 'gcp_api'",
+      "google-cloud-monitoring (<2.0.0,>=0.34.0) ; extra == 'gcp_api'",
+      "google-cloud-os-login (<2.0.0,>=1.0.0) ; extra == 'gcp_api'",
+      "google-cloud-pubsub (<2.0.0,>=1.0.0) ; extra == 'gcp_api'",
+      "google-cloud-redis (<2.0.0,>=0.3.0) ; extra == 'gcp_api'",
+      "google-cloud-secret-manager (<2.0.0,>=0.2.0) ; extra == 'gcp_api'",
+      "google-cloud-spanner (<2.0.0,>=1.10.0) ; extra == 'gcp_api'",
+      "google-cloud-speech (<2.0.0,>=0.36.3) ; extra == 'gcp_api'",
+      "google-cloud-storage (<2.0.0,>=1.16) ; extra == 'gcp_api'",
+      "google-cloud-tasks (<2.0.0,>=1.2.1) ; extra == 'gcp_api'",
+      "google-cloud-texttospeech (<2.0.0,>=0.4.0) ; extra == 'gcp_api'",
+      "google-cloud-translate (<2.0.0,>=1.5.0) ; extra == 'gcp_api'",
+      "google-cloud-videointelligence (<2.0.0,>=1.7.0) ; extra == 'gcp_api'",
+      "google-cloud-vision (<2.0.0,>=0.35.2) ; extra == 'gcp_api'",
+      "grpcio-gcp (>=0.2.2) ; extra == 'gcp_api'",
+      "pandas-gbq ; extra == 'gcp_api'",
+      "PyOpenSSL ; extra == 'gcp_api'"
+    ],
+    "github_enterprise": [
+      "Flask-OAuthlib (<0.9.6,>=0.9.1) ; extra == 'github_enterprise'",
+      "oauthlib (!=2.0.3,!=2.0.4,!=2.0.5,<3.0.0,>=1.1.2) ; extra == 'github_enterprise'",
+      "requests-oauthlib (==1.1.0) ; extra == 'github_enterprise'"
+    ],
+    "google": [
+      "apache-airflow-providers-google ; extra == 'google'",
+      "google-ads (>=4.0.0) ; extra == 'google'",
+      "google-api-python-client (<2.0.0,>=1.6.0) ; extra == 'google'",
+      "google-auth (<2.0.0,>=1.0.0) ; extra == 'google'",
+      "google-auth-httplib2 (>=0.0.1) ; extra == 'google'",
+      "google-cloud-automl (<2.0.0,>=0.4.0) ; extra == 'google'",
+      "google-cloud-bigquery-datatransfer (<2.0.0,>=0.4.0) ; extra == 'google'",
+      "google-cloud-bigtable (<2.0.0,>=1.0.0) ; extra == 'google'",
+      "google-cloud-container (<2.0.0,>=0.1.1) ; extra == 'google'",
+      "google-cloud-datacatalog (<0.8,>=0.5.0) ; extra == 'google'",
+      "google-cloud-dataproc (<2.0.0,>=1.0.1) ; extra == 'google'",
+      "google-cloud-dlp (<2.0.0,>=0.11.0) ; extra == 'google'",
+      "google-cloud-kms (<2.0.0,>=1.2.1) ; extra == 'google'",
+      "google-cloud-language (<2.0.0,>=1.1.1) ; extra == 'google'",
+      "google-cloud-logging (<2.0.0,>=1.14.0) ; extra == 'google'",
+      "google-cloud-memcache (>=0.2.0) ; extra == 'google'",
+      "google-cloud-monitoring (<2.0.0,>=0.34.0) ; extra == 'google'",
+      "google-cloud-os-login (<2.0.0,>=1.0.0) ; extra == 'google'",
+      "google-cloud-pubsub (<2.0.0,>=1.0.0) ; extra == 'google'",
+      "google-cloud-redis (<2.0.0,>=0.3.0) ; extra == 'google'",
+      "google-cloud-secret-manager (<2.0.0,>=0.2.0) ; extra == 'google'",
+      "google-cloud-spanner (<2.0.0,>=1.10.0) ; extra == 'google'",
+      "google-cloud-speech (<2.0.0,>=0.36.3) ; extra == 'google'",
+      "google-cloud-storage (<2.0.0,>=1.16) ; extra == 'google'",
+      "google-cloud-tasks (<2.0.0,>=1.2.1) ; extra == 'google'",
+      "google-cloud-texttospeech (<2.0.0,>=0.4.0) ; extra == 'google'",
+      "google-cloud-translate (<2.0.0,>=1.5.0) ; extra == 'google'",
+      "google-cloud-videointelligence (<2.0.0,>=1.7.0) ; extra == 'google'",
+      "google-cloud-vision (<2.0.0,>=0.35.2) ; extra == 'google'",
+      "grpcio-gcp (>=0.2.2) ; extra == 'google'",
+      "pandas-gbq ; extra == 'google'",
+      "PyOpenSSL ; extra == 'google'"
+    ],
+    "google_auth": [
+      "Flask-OAuthlib (<0.9.6,>=0.9.1) ; extra == 'google_auth'",
+      "oauthlib (!=2.0.3,!=2.0.4,!=2.0.5,<3.0.0,>=1.1.2) ; extra == 'google_auth'",
+      "requests-oauthlib (==1.1.0) ; extra == 'google_auth'"
+    ],
+    "grpc": [
+      "apache-airflow-providers-grpc ; extra == 'grpc'",
+      "google-auth (<2.0.0dev,>=1.0.0) ; extra == 'grpc'",
+      "google-auth-httplib2 (>=0.0.1) ; extra == 'grpc'",
+      "grpcio (>=1.15.0) ; extra == 'grpc'"
+    ],
+    "hashicorp": [
+      "apache-airflow-providers-hashicorp ; extra == 'hashicorp'",
+      "hvac (~=0.10) ; extra == 'hashicorp'"
+    ],
+    "hdfs": [
+      "apache-airflow-providers-apache-hdfs ; extra == 'hdfs'",
+      "snakebite-py3 ; extra == 'hdfs'"
+    ],
+    "hive": [
+      "apache-airflow-providers-apache-hive ; extra == 'hive'",
+      "hmsclient (>=0.1.0) ; extra == 'hive'",
+      "pyhive[hive] (>=0.6.0) ; extra == 'hive'"
+    ],
+    "jdbc": [
+      "apache-airflow-providers-jdbc ; extra == 'jdbc'",
+      "jaydebeapi (>=1.1.1) ; extra == 'jdbc'"
+    ],
+    "jira": [
+      "apache-airflow-providers-jira ; extra == 'jira'",
+      "JIRA (>1.0.7) ; extra == 'jira'"
+    ],
+    "kerberos": [
+      "pykerberos (>=1.1.13) ; extra == 'kerberos'",
+      "requests-kerberos (>=0.10.0) ; extra == 'kerberos'",
+      "thrift-sasl (>=0.2.0) ; extra == 'kerberos'"
+    ],
+    "kubernetes": [
+      "apache-airflow-providers-cncf-kubernetes ; extra == 'kubernetes'",
+      "cryptography (>=2.0.0) ; extra == 'kubernetes'",
+      "kubernetes (<12.0.0,>=3.0.0) ; extra == 'kubernetes'"
+    ],
+    "ldap": [
+      "ldap3 (>=2.5.1) ; extra == 'ldap'"
+    ],
+    "microsoft.azure": [
+      "apache-airflow-providers-microsoft-azure ; extra == 'microsoft.azure'",
+      "azure-batch (>=8.0.0) ; extra == 'microsoft.azure'",
+      "azure-cosmos (<4,>=3.0.1) ; extra == 'microsoft.azure'",
+      "azure-datalake-store (>=0.0.45) ; extra == 'microsoft.azure'",
+      "azure-identity (>=1.3.1) ; extra == 'microsoft.azure'",
+      "azure-keyvault (>=4.1.0) ; extra == 'microsoft.azure'",
+      "azure-kusto-data (<0.1,>=0.0.43) ; extra == 'microsoft.azure'",
+      "azure-mgmt-containerinstance (<2.0,>=1.5.0) ; extra == 'microsoft.azure'",
+      "azure-mgmt-datalake-store (>=0.5.0) ; extra == 'microsoft.azure'",
+      "azure-mgmt-resource (>=2.2.0) ; extra == 'microsoft.azure'",
+      "azure-storage (<0.37.0,>=0.34.0) ; extra == 'microsoft.azure'",
+      "azure-storage-blob (<12.0) ; extra == 'microsoft.azure'"
+    ],
+    "microsoft.mssql": [
+      "apache-airflow-providers-microsoft-mssql ; extra == 'microsoft.mssql'",
+      "pymssql (>=2.1.5,~=2.1) ; extra == 'microsoft.mssql'"
+    ],
+    "microsoft.winrm": [
+      "apache-airflow-providers-microsoft-winrm ; extra == 'microsoft.winrm'",
+      "pywinrm (~=0.4) ; extra == 'microsoft.winrm'"
+    ],
+    "mongo": [
+      "apache-airflow-providers-mongo ; extra == 'mongo'",
+      "dnspython (<2.0.0,>=1.13.0) ; extra == 'mongo'",
+      "pymongo (>=3.6.0) ; extra == 'mongo'"
+    ],
+    "mssql": [
+      "apache-airflow-providers-microsoft-mssql ; extra == 'mssql'",
+      "pymssql (>=2.1.5,~=2.1) ; extra == 'mssql'"
+    ],
+    "mysql": [
+      "apache-airflow-providers-microsoft-mssql ; extra == 'mysql'",
+      "mysql-connector-python (<=8.0.18,>=8.0.11) ; extra == 'mysql'",
+      "mysqlclient (<1.4,>=1.3.6) ; extra == 'mysql'"
+    ],
+    "odbc": [
+      "apache-airflow-providers-odbc ; extra == 'odbc'",
+      "pyodbc ; extra == 'odbc'"
+    ],
+    "oracle": [
+      "apache-airflow-providers-oracle ; extra == 'oracle'",
+      "cx-Oracle (>=5.1.2) ; extra == 'oracle'"
+    ],
+    "pagerduty": [
+      "apache-airflow-providers-pagerduty ; extra == 'pagerduty'",
+      "pdpyras (<5,>=4.1.2) ; extra == 'pagerduty'"
+    ],
+    "papermill": [
+      "apache-airflow-providers-papermill ; extra == 'papermill'",
+      "nteract-scrapbook[all] (>=0.3.1) ; extra == 'papermill'",
+      "papermill[all] (>=1.2.1) ; extra == 'papermill'"
+    ],
+    "password": [
+      "bcrypt (>=2.0.0) ; extra == 'password'",
+      "flask-bcrypt (>=0.7.1) ; extra == 'password'"
+    ],
+    "pinot": [
+      "apache-airflow-providers-apache-pinot ; extra == 'pinot'",
+      "pinotdb (==0.1.1) ; extra == 'pinot'"
+    ],
+    "plexus": [
+      "apache-airflow-providers-plexus ; extra == 'plexus'",
+      "arrow (>=0.16.0) ; extra == 'plexus'"
+    ],
+    "postgres": [
+      "apache-airflow-providers-postgres ; extra == 'postgres'",
+      "psycopg2-binary (>=2.7.4) ; extra == 'postgres'"
+    ],
+    "presto": [
+      "apache-airflow-providers-apache-presto ; extra == 'presto'",
+      "apache-airflow-providers-presto ; extra == 'presto'",
+      "presto-python-client (<0.8,>=0.7.0) ; extra == 'presto'"
+    ],
+    "qds": [
+      "apache-airflow-providers-qubole ; extra == 'qds'",
+      "qds-sdk (>=1.10.4) ; extra == 'qds'"
+    ],
+    "qubole": [
+      "apache-airflow-providers-qubole ; extra == 'qubole'",
+      "qds-sdk (>=1.10.4) ; extra == 'qubole'"
+    ],
+    "rabbitmq": [
+      "amqp ; extra == 'rabbitmq'",
+      "apache-airflow-providers-rabbitmq ; extra == 'rabbitmq'"
+    ],
+    "redis": [
+      "apache-airflow-providers-redis ; extra == 'redis'",
+      "redis (~=3.2) ; extra == 'redis'"
+    ],
+    "salesforce": [
+      "apache-airflow-providers-salesforce ; extra == 'salesforce'",
+      "simple-salesforce (>=1.0.0) ; extra == 'salesforce'"
+    ],
+    "samba": [
+      "apache-airflow-providers-samba ; extra == 'samba'",
+      "pysmbclient (>=0.1.3) ; extra == 'samba'"
+    ],
+    "segment": [
+      "analytics-python (>=1.2.9) ; extra == 'segment'",
+      "apache-airflow-providers-segment ; extra == 'segment'"
+    ],
+    "sendgrid": [
+      "apache-airflow-providers-sendgrid ; extra == 'sendgrid'",
+      "sendgrid (<7,>=6.0.0) ; extra == 'sendgrid'"
+    ],
+    "sentry": [
+      "apache-airflow-providers-sentry ; extra == 'sentry'",
+      "blinker (>=1.1) ; extra == 'sentry'",
+      "sentry-sdk (>=0.8.0) ; extra == 'sentry'"
+    ],
+    "singularity": [
+      "apache-airflow-providers-singularity ; extra == 'singularity'",
+      "spython (>=0.0.56) ; extra == 'singularity'"
+    ],
+    "slack": [
+      "apache-airflow-providers-slack ; extra == 'slack'",
+      "slackclient (<3.0.0,>=2.0.0) ; extra == 'slack'"
+    ],
+    "snowflake": [
+      "apache-airflow-providers-snowflake ; extra == 'snowflake'",
+      "snowflake-connector-python (>=1.5.2) ; extra == 'snowflake'",
+      "snowflake-sqlalchemy (>=1.1.0) ; extra == 'snowflake'"
+    ],
+    "spark": [
+      "apache-airflow-providers-apache-spark ; extra == 'spark'",
+      "apache-airflow-providers-spark ; extra == 'spark'",
+      "pyspark ; extra == 'spark'"
+    ],
+    "ssh": [
+      "apache-airflow-providers-ssh ; extra == 'ssh'",
+      "paramiko (>=2.6.0) ; extra == 'ssh'",
+      "pysftp (>=0.2.9) ; extra == 'ssh'",
+      "sshtunnel (<0.2,>=0.1.4) ; extra == 'ssh'"
+    ],
+    "statsd": [
+      "apache-airflow-providers-statsd ; extra == 'statsd'",
+      "statsd (<4.0,>=3.3.0) ; extra == 'statsd'"
+    ],
+    "tableau": [
+      "apache-airflow-providers-tableau ; extra == 'tableau'",
+      "tableauserverclient (~=0.12) ; extra == 'tableau'"
+    ],
+    "vertica": [
+      "apache-airflow-providers-vertica ; extra == 'vertica'",
+      "vertica-python (>=0.5.1) ; extra == 'vertica'"
+    ],
+    "virtualenv": [
+      "apache-airflow-providers-virtualenv ; extra == 'virtualenv'",
+      "virtualenv ; extra == 'virtualenv'"
+    ],
+    "webhdfs": [
+      "apache-airflow-providers-apache-hdfs ; extra == 'webhdfs'",
+      "hdfs[avro,dataframe,kerberos] (>=2.0.4) ; extra == 'webhdfs'"
+    ],
+    "winrm": [
+      "apache-airflow-providers-microsoft-winrm ; extra == 'winrm'",
+      "pywinrm (~=0.4) ; extra == 'winrm'"
+    ],
+    "yandexcloud": [
+      "apache-airflow-providers-yandexcloud ; extra == 'yandexcloud'",
+      "yandexcloud (>=0.22.0) ; extra == 'yandexcloud'"
+    ]
+  },
+  "requires_python": "~=3.6",
+  "yanked": [
+    "1.10.11"
+  ]
+}

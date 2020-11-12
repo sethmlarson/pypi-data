@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "six (>=1.4.0)"
+  ],
+  "requires_extras": {
+    "flup": [
+      "flup ; extra == 'flup'"
+    ],
+    "openid": [
+      "python-openid ; extra == 'openid'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

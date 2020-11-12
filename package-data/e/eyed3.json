@@ -1,0 +1,22 @@
+{
+  "requires_dist": [
+    "dataclasses ; python_version < '3.7'",
+    "deprecation",
+    "filetype"
+  ],
+  "requires_extras": {
+    "art-plugin": [
+      "pillow ; extra == 'art-plugin'",
+      "pylast ; extra == 'art-plugin'",
+      "requests ; extra == 'art-plugin'"
+    ],
+    "display-plugin": [
+      "grako ; extra == 'display-plugin'"
+    ],
+    "yaml-plugin": [
+      "ruamel.yaml ; extra == 'yaml-plugin'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

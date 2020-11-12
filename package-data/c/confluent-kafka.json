@@ -1,0 +1,27 @@
+{
+  "requires_dist": [
+    "enum34 ; python_version < '3.4'",
+    "futures ; python_version < '3.2'"
+  ],
+  "requires_extras": {
+    "avro": [
+      "avro (==1.10.0) ; (python_version < '3.0') and extra == 'avro'",
+      "avro-python3 (==1.10.0) ; (python_version > '3.0') and extra == 'avro'",
+      "fastavro (>=0.23.0) ; extra == 'avro'",
+      "requests ; extra == 'avro'"
+    ],
+    "json": [
+      "jsonschema ; extra == 'json'",
+      "requests ; extra == 'json'"
+    ],
+    "protobuf": [
+      "protobuf ; extra == 'protobuf'",
+      "requests ; extra == 'protobuf'"
+    ],
+    "schema-registry": [
+      "requests ; extra == 'schema-registry'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

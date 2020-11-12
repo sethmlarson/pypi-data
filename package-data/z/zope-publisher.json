@@ -1,0 +1,20 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "six",
+    "zope.browser",
+    "zope.component",
+    "zope.configuration",
+    "zope.contenttype (>=4.0.0)",
+    "zope.event",
+    "zope.exceptions",
+    "zope.i18n (>=4.0.0)",
+    "zope.interface (>=4.0.1)",
+    "zope.location",
+    "zope.proxy",
+    "zope.security (>=4.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+  "yanked": []
+}

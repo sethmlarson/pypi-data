@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "dnspython",
+    "future",
+    "ldap3 (!=2.5.0,!=2.5.2,!=2.6,>=2.5)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

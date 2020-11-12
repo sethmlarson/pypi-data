@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "jaraco.classes",
+    "jaraco.text",
+    "six (>=1.7.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "pycairo",
+    "PyGObject",
+    "python-dateutil"
+  ],
+  "requires_extras": {
+    "calendar": [
+      "GooCalendar (>=0.7) ; extra == 'calendar'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

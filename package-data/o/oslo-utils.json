@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "debtcollector (>=1.2.0)",
+    "iso8601 (>=0.1.11)",
+    "netaddr (>=0.7.18)",
+    "netifaces (>=0.10.4)",
+    "oslo.i18n (>=3.15.3)",
+    "packaging (>=20.4)",
+    "pbr (!=2.1.0,>=2.0.0)",
+    "pyparsing (>=2.1.0)",
+    "pytz (>=2013.6)",
+    "six (>=1.10.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

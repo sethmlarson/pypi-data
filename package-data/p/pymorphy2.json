@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "dawg-python (>=0.7.1)",
+    "docopt (>=0.6)",
+    "pymorphy2-dicts-ru (<3.0,>=2.4)"
+  ],
+  "requires_extras": {
+    "fast": [
+      "DAWG (>=0.8) ; extra == 'fast'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,16 @@
+{
+  "requires_dist": [
+    "imageio",
+    "matplotlib",
+    "numpy (>=1.15)",
+    "opencv-python",
+    "Pillow",
+    "scikit-image (>=0.14.2)",
+    "scipy",
+    "Shapely",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

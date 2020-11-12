@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "redis (>=2.10.0)"
+  ],
+  "requires_extras": {
+    "django": [
+      "django-redis (>=3.8.0) ; extra == 'django'"
+    ]
+  },
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+  "yanked": []
+}

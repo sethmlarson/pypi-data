@@ -1,0 +1,13 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "optional": [
+      "aiodns (>1.0) ; extra == 'optional'",
+      "aiohttp (<4,>=3) ; extra == 'optional'",
+      "boto3 (<=2) ; extra == 'optional'",
+      "SQLAlchemy (<2,>=1) ; extra == 'optional'"
+    ]
+  },
+  "requires_python": ">=3.6.0",
+  "yanked": []
+}

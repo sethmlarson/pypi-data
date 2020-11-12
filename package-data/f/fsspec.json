@@ -1,0 +1,53 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "abfs": [
+      "adlfs ; extra == 'abfs'"
+    ],
+    "adl": [
+      "adlfs ; extra == 'adl'"
+    ],
+    "dask": [
+      "dask ; extra == 'dask'",
+      "distributed ; extra == 'dask'"
+    ],
+    "dropbox": [
+      "dropbox ; extra == 'dropbox'",
+      "dropboxdrivefs ; extra == 'dropbox'",
+      "requests ; extra == 'dropbox'"
+    ],
+    "gcs": [
+      "gcsfs ; extra == 'gcs'"
+    ],
+    "git": [
+      "pygit2 ; extra == 'git'"
+    ],
+    "github": [
+      "requests ; extra == 'github'"
+    ],
+    "gs": [
+      "gcsfs ; extra == 'gs'"
+    ],
+    "hdfs": [
+      "pyarrow ; extra == 'hdfs'"
+    ],
+    "http": [
+      "aiohttp ; extra == 'http'",
+      "requests ; extra == 'http'"
+    ],
+    "s3": [
+      "s3fs ; extra == 's3'"
+    ],
+    "sftp": [
+      "paramiko ; extra == 'sftp'"
+    ],
+    "smb": [
+      "smbprotocol ; extra == 'smb'"
+    ],
+    "ssh": [
+      "paramiko ; extra == 'ssh'"
+    ]
+  },
+  "requires_python": ">3.6",
+  "yanked": []
+}

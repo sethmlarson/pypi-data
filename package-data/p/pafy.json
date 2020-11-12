@@ -1,0 +1,10 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "youtube-dl-backend": [
+      "youtube-dl ; extra == 'youtube-dl-backend'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

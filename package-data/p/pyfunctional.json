@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "dill (>=0.3.2,<0.4.0)",
+    "tabulate (<=1.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6.1,<4.0",
+  "yanked": []
+}

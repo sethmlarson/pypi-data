@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Django (<2.2,>=2.1.0)",
+    "pyodbc (>=3.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

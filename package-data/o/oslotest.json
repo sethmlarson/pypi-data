@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "fixtures (>=3.0.0)",
+    "python-subunit (>=1.0.0)",
+    "six (>=1.10.0)",
+    "testtools (>=2.2.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

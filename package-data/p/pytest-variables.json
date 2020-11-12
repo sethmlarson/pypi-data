@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "pytest (>=2.4.2)"
+  ],
+  "requires_extras": {
+    "hjson": [
+      "hjson ; extra == 'hjson'"
+    ],
+    "toml": [
+      "toml ; extra == 'toml'"
+    ],
+    "yaml": [
+      "PyYAML ; extra == 'yaml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

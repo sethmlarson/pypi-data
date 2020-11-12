@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "h5py",
+    "importlib-metadata (>=0.7) ; python_version < '3.8'",
+    "natsort",
+    "numpy (>=1.15)",
+    "packaging",
+    "pandas (!=1.1,>=1.0)",
+    "scipy (~=1.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

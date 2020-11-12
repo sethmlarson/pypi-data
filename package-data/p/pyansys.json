@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "ansys-corba",
+    "appdirs (>=1.4.0)",
+    "numpy (>=1.14.0)",
+    "pexpect (>=4.8.0)",
+    "psutil (>=5.0.0)",
+    "pyiges (>=0.1.2)",
+    "pyvista (>=0.25.0)",
+    "tqdm (>=4.45.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6.*",
+  "yanked": [
+    "0.41.0"
+  ]
+}

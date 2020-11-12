@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "retrying (>=1.3.3)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

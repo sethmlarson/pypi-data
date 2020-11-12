@@ -1,0 +1,35 @@
+{
+  "requires_dist": [
+    "dill (>=0.2.1)",
+    "diskcache (>=3.0.0)",
+    "future (>=0.10.2)",
+    "numpy (>=1.13.3)",
+    "packaging (>=15.0)",
+    "pandas (>=0.19.0)",
+    "psutil (>=4.0.0)",
+    "pyarrow (>=0.17.1)",
+    "pyspark (>=2.1.0)",
+    "pyzmq (>=14.0.0)",
+    "six (>=1.5.0)"
+  ],
+  "requires_extras": {
+    "opencv": [
+      "opencv-python (>=3.2.0.6) ; extra == 'opencv'"
+    ],
+    "s3fs": [
+      "s3fs (>=0.5.0) ; extra == 's3fs'"
+    ],
+    "tf": [
+      "tensorflow (>=1.14.0) ; extra == 'tf'"
+    ],
+    "tf_gpu": [
+      "tensorflow-gpu (>=1.14.0) ; extra == 'tf_gpu'"
+    ],
+    "torch": [
+      "torch (>=1.5.0) ; extra == 'torch'",
+      "torchvision (>=0.2.1) ; extra == 'torch'"
+    ]
+  },
+  "requires_python": ">=3",
+  "yanked": []
+}

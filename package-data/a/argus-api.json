@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "importlib_metadata (>=2.0.0,<3.0.0)",
+    "requests (>=2.22.0,<3.0.0)",
+    "swagger-spec-validator (>=2.7.3,<3.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6,<4.0",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "importlib-metadata ; python_version < '3.8'",
+    "pytest"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

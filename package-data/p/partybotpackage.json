@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "aiohttp",
+    "BenBotAsync",
+    "crayons",
+    "FortniteAPIAsync",
+    "fortnitepy",
+    "sanic",
+    "uvloop"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

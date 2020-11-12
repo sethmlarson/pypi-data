@@ -1,0 +1,10 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "pygments": [
+      "Pygments (>=2.2.0) ; extra == 'pygments'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

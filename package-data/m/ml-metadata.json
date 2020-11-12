@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "absl-py (<0.11,>=0.9)",
+    "grpcio (<2,>=1.8.6)",
+    "protobuf (<4,>=3.7)",
+    "six (<2,>=1.10)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6,<4",
+  "yanked": []
+}

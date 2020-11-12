@@ -1,0 +1,23 @@
+{
+  "requires_dist": [
+    "cytoolz (<1.0.0,>=0.8.2)",
+    "eth-hash (<1.0.0,>=0.1.0)",
+    "eth-typing (<3.0.0,>=2.0.0)",
+    "toolz (<1,>0.8.2)"
+  ],
+  "requires_extras": {
+    "deploy": [
+      "bumpversion (<1.0.0,>=0.5.3); extra == 'deploy'",
+      "tox (<3.0.0,>=2.9.1); extra == 'deploy'",
+      "wheel (<1.0.0,>=0.30.0); extra == 'deploy'"
+    ],
+    "lint": [
+      "black (<19,>=18.6b4); extra == 'lint'",
+      "flake8 (<4.0.0,>=3.5.0); extra == 'lint'",
+      "mypy (<0.600); extra == 'lint'",
+      "pytest (<4.0.0,>=3.4.1); extra == 'lint'"
+    ]
+  },
+  "requires_python": ">=3.5,!=3.5.2,<4",
+  "yanked": []
+}

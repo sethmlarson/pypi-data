@@ -1,0 +1,16 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "asyncio": [
+      "async-timeout (>=3.0.1) ; extra == 'asyncio'"
+    ],
+    "curio": [
+      "curio (>=1.4) ; extra == 'curio'"
+    ],
+    "trio": [
+      "trio (>=0.16.0) ; extra == 'trio'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

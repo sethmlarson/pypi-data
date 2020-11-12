@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "celery (<5.0,>=4.4)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

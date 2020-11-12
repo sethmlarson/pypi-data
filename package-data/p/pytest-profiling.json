@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "gprof2dot",
+    "pytest",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

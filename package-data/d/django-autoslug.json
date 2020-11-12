@@ -1,0 +1,13 @@
+{
+  "requires_dist": [],
+  "requires_extras": {
+    "cyrillic": [
+      "pytils (>=0.2) ; extra == 'cyrillic'"
+    ],
+    "translitcodec": [
+      "translitcodec (>=0.3) ; extra == 'translitcodec'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

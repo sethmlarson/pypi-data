@@ -1,0 +1,22 @@
+{
+  "requires_dist": [
+    "attrs",
+    "cached-property",
+    "cracklib",
+    "dnspython",
+    "jinja2",
+    "ldap3",
+    "pexpect",
+    "pycryptodome",
+    "pygithub",
+    "pymysql (<0.10.0)",
+    "pysnmp",
+    "pyyaml",
+    "redis",
+    "requests",
+    "sqlalchemy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

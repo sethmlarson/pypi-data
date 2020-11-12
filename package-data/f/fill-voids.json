@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "fastremap",
+    "numpy"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

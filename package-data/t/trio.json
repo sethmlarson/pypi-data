@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "async-generator (>=1.9)",
+    "attrs (>=19.2.0)",
+    "cffi (>=1.14) ; os_name == 'nt' and implementation_name != 'pypy'",
+    "contextvars (>=2.1) ; python_version < '3.7'",
+    "idna",
+    "outcome",
+    "sniffio",
+    "sortedcontainers"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

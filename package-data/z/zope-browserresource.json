@@ -1,0 +1,22 @@
+{
+  "requires_dist": [
+    "setuptools",
+    "zope.component (>=3.8.0)",
+    "zope.configuration",
+    "zope.contenttype (>=4.0.1)",
+    "zope.i18n",
+    "zope.interface",
+    "zope.location",
+    "zope.publisher (>=3.8)",
+    "zope.schema",
+    "zope.traversing (>3.7)"
+  ],
+  "requires_extras": {
+    "zcml": [
+      "zope.component[zcml] ; extra == 'zcml'",
+      "zope.security[zcml] (>=3.8) ; extra == 'zcml'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

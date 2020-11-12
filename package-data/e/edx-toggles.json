@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "code-annotations",
+    "Django (>=2.2)",
+    "django-crum",
+    "django-waffle",
+    "edx-django-utils"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

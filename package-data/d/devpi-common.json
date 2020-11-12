@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "lazy",
+    "py (>=1.4.20)",
+    "requests (>=2.3.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

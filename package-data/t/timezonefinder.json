@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "numpy (>=1.16)"
+  ],
+  "requires_extras": {
+    "numba": [
+      "numba (>=0.48) ; extra == 'numba'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

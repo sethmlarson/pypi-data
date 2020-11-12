@@ -1,0 +1,32 @@
+{
+  "requires_dist": [
+    "beaker",
+    "cryptography",
+    "defusedxml",
+    "mako",
+    "pycryptodomex",
+    "pyjwkest (>=1.3.6)",
+    "requests",
+    "typing-extensions"
+  ],
+  "requires_extras": {
+    "develop": [
+      "cherrypy (==3.2.4) ; extra == 'develop'",
+      "pyOpenSSL ; extra == 'develop'"
+    ],
+    "ldap_authn": [
+      "pyldap ; extra == 'ldap_authn'"
+    ],
+    "quality": [
+      "bandit ; extra == 'quality'",
+      "black ; extra == 'quality'",
+      "eradicate ; extra == 'quality'",
+      "isort ; extra == 'quality'",
+      "mypy ; extra == 'quality'",
+      "pylama ; extra == 'quality'",
+      "readme-renderer[md] ; extra == 'quality'"
+    ]
+  },
+  "requires_python": "~=3.5",
+  "yanked": []
+}

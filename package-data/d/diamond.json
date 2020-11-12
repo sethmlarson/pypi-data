@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "configobj",
+    "psutil"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

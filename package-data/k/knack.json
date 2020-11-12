@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "argcomplete",
+    "colorama",
+    "jmespath",
+    "pygments",
+    "pyyaml",
+    "six",
+    "tabulate"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

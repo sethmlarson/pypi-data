@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "jinja2",
+    "msrest",
+    "vsts"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

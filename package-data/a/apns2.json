@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "cryptography (>=1.7.2)",
+    "hyper (>=0.7)",
+    "PyJWT (>=1.4.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

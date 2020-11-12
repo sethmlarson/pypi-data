@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "attrdict",
+    "cachetools",
+    "pika",
+    "prompt-toolkit",
+    "protobuf",
+    "pygments",
+    "python-dateutil",
+    "pyyaml",
+    "requests",
+    "solrq",
+    "validators"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

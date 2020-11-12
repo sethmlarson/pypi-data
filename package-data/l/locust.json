@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "ConfigArgParse (>=1.0)",
+    "flask (>=1.1.2)",
+    "Flask-BasicAuth (>=0.2.0)",
+    "gevent (>=20.9.0)",
+    "geventhttpclient (>=1.4.4)",
+    "msgpack (>=0.6.2)",
+    "psutil (>=5.6.7)",
+    "pyzmq (>=16.0.2)",
+    "requests (>=2.9.1)",
+    "Werkzeug (>=1.0.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

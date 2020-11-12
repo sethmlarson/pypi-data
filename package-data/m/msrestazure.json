@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "adal (<2.0.0,>=0.6.0)",
+    "msrest (<2.0.0,>=0.6.0)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

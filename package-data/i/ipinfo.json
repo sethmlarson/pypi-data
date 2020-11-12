@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "aiohttp (<=4)",
+    "cachetools",
+    "requests"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

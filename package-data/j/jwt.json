@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "cryptography (<=3.2.1,>2.9.2)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">= 3.6",
+  "yanked": []
+}

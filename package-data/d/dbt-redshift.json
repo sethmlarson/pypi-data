@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "boto3 (<1.12,>=1.4.4)",
+    "botocore (<1.15,>=1.5.0)",
+    "dbt-core (==0.19.0b1)",
+    "dbt-postgres (==0.19.0b1)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6.2",
+  "yanked": []
+}

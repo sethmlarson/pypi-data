@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Django (>=1.11)",
+    "hashids (>=1.2.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

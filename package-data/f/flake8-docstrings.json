@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "flake8 (>=3)",
+    "pydocstyle (>=2.1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

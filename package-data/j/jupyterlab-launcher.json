@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "jsonschema (>=2.6.0)",
+    "notebook (>=4.2.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

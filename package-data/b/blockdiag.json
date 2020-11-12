@@ -1,0 +1,18 @@
+{
+  "requires_dist": [
+    "funcparserlib",
+    "Pillow (>3.0)",
+    "setuptools",
+    "webcolors"
+  ],
+  "requires_extras": {
+    "pdf": [
+      "reportlab ; extra == 'pdf'"
+    ],
+    "rst": [
+      "docutils ; extra == 'rst'"
+    ]
+  },
+  "requires_python": ">=3.5",
+  "yanked": []
+}

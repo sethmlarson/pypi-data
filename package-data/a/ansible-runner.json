@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "pexpect (>=4.5)",
+    "psutil",
+    "python-daemon",
+    "PyYAML",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

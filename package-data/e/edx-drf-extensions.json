@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "Django (>=2.2)",
+    "django-waffle",
+    "djangorestframework (>=3.2.0)",
+    "drf-jwt",
+    "edx-django-utils (>=3.8.0)",
+    "edx-opaque-keys",
+    "pyjwkest",
+    "python-dateutil (>=2.0)",
+    "requests (>=2.7.0)",
+    "rest-condition (>=1.0.3)",
+    "semantic-version",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

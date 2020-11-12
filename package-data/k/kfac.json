@@ -1,0 +1,17 @@
+{
+  "requires_dist": [
+    "numpy",
+    "six",
+    "tensorflow-probability (==0.8)"
+  ],
+  "requires_extras": {
+    "tensorflow": [
+      "tensorflow (>=1.14) ; extra == 'tensorflow'"
+    ],
+    "tensorflow_gpu": [
+      "tensorflow-gpu (>=1.14) ; extra == 'tensorflow_gpu'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

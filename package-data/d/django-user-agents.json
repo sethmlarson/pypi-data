@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "django",
+    "user-agents"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

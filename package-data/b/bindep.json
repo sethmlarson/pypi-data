@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "distro",
+    "Parsley",
+    "pbr (>=2.0.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

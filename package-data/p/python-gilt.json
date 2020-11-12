@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "click",
+    "colorama",
+    "fasteners",
+    "PyYAML",
+    "sh"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6",
+  "yanked": []
+}

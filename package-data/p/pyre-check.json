@@ -1,0 +1,31 @@
+{
+  "requires_dist": [
+    "click",
+    "dataclasses",
+    "libcst (>=0.3.6)",
+    "psutil",
+    "pyre-extensions",
+    "pywatchman"
+  ],
+  "requires_extras": {
+    "sapp": [
+      "click ; extra == 'sapp'",
+      "click-log ; extra == 'sapp'",
+      "flask ; extra == 'sapp'",
+      "flask-graphql ; extra == 'sapp'",
+      "graphene ; extra == 'sapp'",
+      "graphene-sqlalchemy ; extra == 'sapp'",
+      "ipython ; extra == 'sapp'",
+      "munch ; extra == 'sapp'",
+      "prompt-toolkit ; extra == 'sapp'",
+      "pygments ; extra == 'sapp'",
+      "pyre-extensions ; extra == 'sapp'",
+      "SQLAlchemy ; extra == 'sapp'",
+      "typing-extensions ; extra == 'sapp'",
+      "ujson ; extra == 'sapp'",
+      "xxhash ; extra == 'sapp'"
+    ]
+  },
+  "requires_python": ">=3.6",
+  "yanked": []
+}

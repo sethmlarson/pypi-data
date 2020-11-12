@@ -1,0 +1,15 @@
+{
+  "requires_dist": [
+    "h5py",
+    "numpy (>=1.9.1)",
+    "pyyaml",
+    "scipy (>=0.14)"
+  ],
+  "requires_extras": {
+    "visualize": [
+      "pydot (>=1.2.4) ; extra == 'visualize'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

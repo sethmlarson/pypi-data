@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "requests",
+    "robotframework"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

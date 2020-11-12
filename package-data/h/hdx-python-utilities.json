@@ -1,0 +1,21 @@
+{
+  "requires_dist": [
+    "basicauth",
+    "beautifulsoup4",
+    "colorlog",
+    "email-validator",
+    "html5lib",
+    "psycopg2-binary",
+    "pyaml",
+    "python-dateutil (==2.8.1)",
+    "ratelimit",
+    "six (>=1.15.0)",
+    "sshtunnel",
+    "tabulator[cchardet] (>=1.52.5)",
+    "typing ; python_version < '3.5'",
+    "yamlloader"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [],
+  "requires_extras": {},
+  "requires_python": ">3.4",
+  "yanked": [
+    "0.8.0",
+    "0.8.1"
+  ]
+}

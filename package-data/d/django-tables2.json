@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "Django (>=1.11)"
+  ],
+  "requires_extras": {
+    "tablib": [
+      "tablib ; extra == 'tablib'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

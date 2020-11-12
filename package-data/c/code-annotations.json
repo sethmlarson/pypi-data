@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "click (<8.0,>=7.0)",
+    "Django",
+    "Jinja2",
+    "python-slugify",
+    "pyyaml",
+    "stevedore"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

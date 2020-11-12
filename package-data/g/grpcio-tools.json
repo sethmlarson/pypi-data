@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "grpcio (>=1.33.2)",
+    "protobuf (<4.0dev,>=3.5.0.post1)"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

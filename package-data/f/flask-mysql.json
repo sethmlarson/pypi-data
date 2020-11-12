@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "Flask",
+    "PyMySQL"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

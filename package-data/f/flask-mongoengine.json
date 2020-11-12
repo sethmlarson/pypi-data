@@ -1,0 +1,11 @@
+{
+  "requires_dist": [
+    "Flask (>=0.8)",
+    "Flask-WTF (>=0.13)",
+    "mongoengine (>=0.8.0)",
+    "six"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

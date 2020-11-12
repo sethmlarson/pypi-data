@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "click (>=5.0.0)",
+    "redis (>=3.5.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

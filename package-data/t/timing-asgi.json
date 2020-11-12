@@ -1,0 +1,8 @@
+{
+  "requires_dist": [
+    "alog (>=0.9.13,<0.10.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.6,<4.0",
+  "yanked": []
+}

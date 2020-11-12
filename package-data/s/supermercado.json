@@ -1,0 +1,14 @@
+{
+  "requires_dist": [
+    "affine",
+    "click",
+    "click-plugins",
+    "cligj",
+    "mercantile",
+    "numpy",
+    "rasterio"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,9 @@
+{
+  "requires_dist": [
+    "apache-airflow (>=1.8.0)",
+    "pytest (>=4.4.0)"
+  ],
+  "requires_extras": {},
+  "requires_python": ">=3.5",
+  "yanked": []
+}

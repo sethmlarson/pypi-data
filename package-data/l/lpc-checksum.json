@@ -1,0 +1,13 @@
+{
+  "requires_dist": [
+    "intelhex"
+  ],
+  "requires_extras": {
+    "development": [
+      "flake8 ; extra == 'development'",
+      "nose ; extra == 'development'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

@@ -1,0 +1,12 @@
+{
+  "requires_dist": [
+    "python-can (>=3.0.0)"
+  ],
+  "requires_extras": {
+    "db_export": [
+      "canmatrix ; extra == 'db_export'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

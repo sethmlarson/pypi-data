@@ -1,0 +1,19 @@
+{
+  "requires_dist": [
+    "importlib-resources ; python_version < '3.7'",
+    "ligo-segments",
+    "lscsoft-glue",
+    "matplotlib",
+    "numpy (>=1.7)",
+    "python-dateutil",
+    "scipy"
+  ],
+  "requires_extras": {
+    "lalinference": [
+      "gwdatafind ; extra == 'lalinference'",
+      "gwpy ; extra == 'lalinference'"
+    ]
+  },
+  "requires_python": "",
+  "yanked": []
+}

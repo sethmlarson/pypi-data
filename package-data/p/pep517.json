@@ -1,0 +1,10 @@
+{
+  "requires_dist": [
+    "importlib_metadata;python_version<'3.8'",
+    "toml",
+    "zipp;python_version<'3.8'"
+  ],
+  "requires_extras": {},
+  "requires_python": "",
+  "yanked": []
+}
