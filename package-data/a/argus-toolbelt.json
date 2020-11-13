@@ -2,13 +2,13 @@
   "requires_dist": [
     "argus-api (>=1.5.0,<2.0.0)",
     "colorama (>=0.4.3,<0.5.0)",
-    "colorlog (>=4.1,<5.0)",
+    "colorlog (>=4.6,<5.0)",
     "dateparser (>=0.7.2,<0.8.0)",
     "importlib_metadata (>=2.0.0,<3.0.0); python_version < '3.8'",
     "jinja2 (>=2.10,<3.0)",
     "pyyaml (>=5.3.1,<6.0.0)",
     "pyyaml-include (>=1.2,<2.0)",
-    "requests (>=2.22,<3.0)",
+    "requests (>=2.25,<3.0)",
     "terminaltables (>=3.1,<4.0)",
     "tqdm (>=4.51.0,<5.0.0)"
   ],
