@@ -5,7 +5,8 @@
     "crayons",
     "FortniteAPIAsync",
     "fortnitepy (==3.3.1)",
-    "sanic",
+    "requests",
+    "sanic (==20.9.0)",
     "uvloop"
   ],
   "requires_extras": {},

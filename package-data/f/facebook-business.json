@@ -2,8 +2,6 @@
   "requires_dist": [
     "aiohttp; python_version>='3.5.3'",
     "curlify (>=2.1.0)",
-    "enum34; python_version<'3.4'",
-    "mock (>=1.0.1)",
     "pycountry (>=19.8.18)",
     "requests (>=2.3.0)",
     "six (>=1.7.3)"
