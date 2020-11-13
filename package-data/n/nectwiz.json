@@ -3,7 +3,7 @@
     "cachetools (>=3.1)",
     "flask (>=1.1)",
     "flask-cors",
-    "k8kat (>=0.0.222)",
+    "k8kat (>=0.0.225)",
     "pymongo",
     "redis (>=3)",
     "requests",
