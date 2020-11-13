@@ -15,20 +15,20 @@
   ],
   "requires_extras": {
     "cinder": [
-      "os-brick (>=2.6.0); extra == 'cinder'",
-      "oslo.privsep (>=1.23.0); extra == 'cinder'",
-      "oslo.rootwrap (>=5.8.0); extra == 'cinder'",
-      "python-cinderclient (>=4.1.0); extra == 'cinder'"
+      "os-brick (>=2.6.0); extra=='cinder'",
+      "oslo.privsep (>=1.23.0); extra=='cinder'",
+      "oslo.rootwrap (>=5.8.0); extra=='cinder'",
+      "python-cinderclient (>=4.1.0); extra=='cinder'"
     ],
     "s3": [
-      "boto3 (>=1.9.199); extra == 's3'"
+      "boto3 (>=1.9.199); extra=='s3'"
     ],
     "swift": [
-      "httplib2 (>=0.9.1); extra == 'swift'",
-      "python-swiftclient (>=3.2.0); extra == 'swift'"
+      "httplib2 (>=0.9.1); extra=='swift'",
+      "python-swiftclient (>=3.2.0); extra=='swift'"
     ],
     "vmware": [
-      "oslo.vmware (>=2.17.0); extra == 'vmware'"
+      "oslo.vmware (>=2.17.0); extra=='vmware'"
     ]
   },
   "requires_python": ">=3.6",

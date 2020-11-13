@@ -67,7 +67,7 @@
   ],
   "requires_extras": {
     "sentry": [
-      "raven[flask] (>=6.1.0) ; extra == 'sentry'"
+      "raven[flask] (>=6.1.0); extra=='sentry'"
     ]
   },
   "requires_python": ">=3.7",

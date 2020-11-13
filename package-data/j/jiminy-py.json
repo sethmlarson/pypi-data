@@ -15,7 +15,7 @@
   ],
   "requires_extras": {
     "gepetto": [
-      "opencv-python-headless (<=4.3.0.36) ; extra == 'gepetto'"
+      "opencv-python-headless (<=4.3.0.36); extra=='gepetto'"
     ]
   },
   "requires_python": ">=3.6",

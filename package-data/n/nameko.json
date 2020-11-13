@@ -2,9 +2,9 @@
   "requires_dist": [
     "click (>=7.0)",
     "dnspython (<2)",
-    "eventlet (>=0.20.1) ; python_version < '3.6'",
-    "eventlet (>=0.21.0) ; python_version >= '3.6' and python_version < '3.7'",
-    "eventlet (>=0.26.0) ; python_version >= '3.7'",
+    "eventlet (>=0.20.1); python_version<'3.6'",
+    "eventlet (>=0.21.0); python_version>='3.6' and python_version<'3.7'",
+    "eventlet (>=0.26.0); python_version>='3.7'",
     "kombu (<5,>=4.2.0)",
     "mock (>=1.2)",
     "path.py (>=6.2)",
@@ -16,11 +16,11 @@
   ],
   "requires_extras": {
     "examples": [
-      "bcrypt (==3.1.3) ; extra == 'examples'",
-      "moto (==1.3.6) ; extra == 'examples'",
-      "nameko-sqlalchemy (==0.0.1) ; extra == 'examples'",
-      "PyJWT (==1.5.2) ; extra == 'examples'",
-      "regex (==2018.2.21) ; extra == 'examples'"
+      "bcrypt (==3.1.3); extra=='examples'",
+      "moto (==1.3.6); extra=='examples'",
+      "nameko-sqlalchemy (==0.0.1); extra=='examples'",
+      "PyJWT (==1.5.2); extra=='examples'",
+      "regex (==2018.2.21); extra=='examples'"
     ]
   },
   "requires_python": "",

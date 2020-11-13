@@ -4,8 +4,8 @@
   ],
   "requires_extras": {
     "build_sphinx": [
-      "sphinx ; extra == 'build_sphinx'",
-      "sphinxcontrib-napoleon ; extra == 'build_sphinx'"
+      "sphinx; extra=='build_sphinx'",
+      "sphinxcontrib-napoleon; extra=='build_sphinx'"
     ]
   },
   "requires_python": "",

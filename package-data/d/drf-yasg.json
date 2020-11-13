@@ -11,7 +11,7 @@
   ],
   "requires_extras": {
     "validation": [
-      "swagger-spec-validator (>=2.1.0) ; extra == 'validation'"
+      "swagger-spec-validator (>=2.1.0); extra=='validation'"
     ]
   },
   "requires_python": ">=3.6",

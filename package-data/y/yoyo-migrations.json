@@ -5,13 +5,13 @@
   ],
   "requires_extras": {
     "mysql": [
-      "PyMySQL; extra == 'mysql'"
+      "PyMySQL; extra=='mysql'"
     ],
     "postgres": [
-      "psycopg2; extra == 'postgres'"
+      "psycopg2; extra=='postgres'"
     ],
     "pyodbc": [
-      "pyodbc; extra == 'pyodbc'"
+      "pyodbc; extra=='pyodbc'"
     ]
   },
   "requires_python": "",

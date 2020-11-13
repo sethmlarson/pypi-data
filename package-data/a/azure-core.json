@@ -1,10 +1,10 @@
 {
   "requires_dist": [
-    "azure-nspkg ; python_version<'3.0'",
-    "enum34 (>=1.0.4) ; python_version<'3.4'",
+    "azure-nspkg; python_version<'3.0'",
+    "enum34 (>=1.0.4); python_version<'3.4'",
     "requests (>=2.18.4)",
     "six (>=1.6)",
-    "typing ; python_version<'3.5'"
+    "typing; python_version<'3.5'"
   ],
   "requires_extras": {},
   "requires_python": "",

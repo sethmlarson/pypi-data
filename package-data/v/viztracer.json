@@ -2,8 +2,8 @@
   "requires_dist": [],
   "requires_extras": {
     "full": [
-      "orjson ; extra == 'full'",
-      "rich ; extra == 'full'"
+      "orjson; extra=='full'",
+      "rich; extra=='full'"
     ]
   },
   "requires_python": ">=3.6",

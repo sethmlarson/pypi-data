@@ -10,7 +10,7 @@
   ],
   "requires_extras": {
     "logging": [
-      "loguru (<1,>=0.4.1) ; extra == 'logging'"
+      "loguru (<1,>=0.4.1); extra=='logging'"
     ]
   },
   "requires_python": ">=3.5",

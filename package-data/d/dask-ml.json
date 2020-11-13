@@ -13,12 +13,12 @@
   ],
   "requires_extras": {
     "complete": [
-      "dask-xgboost ; extra == 'complete'",
-      "xgboost ; extra == 'complete'"
+      "dask-xgboost; extra=='complete'",
+      "xgboost; extra=='complete'"
     ],
     "xgboost": [
-      "dask-xgboost ; extra == 'xgboost'",
-      "xgboost ; extra == 'xgboost'"
+      "dask-xgboost; extra=='xgboost'",
+      "xgboost; extra=='xgboost'"
     ]
   },
   "requires_python": ">=3.6",

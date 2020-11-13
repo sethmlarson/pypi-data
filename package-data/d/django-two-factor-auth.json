@@ -8,19 +8,19 @@
   ],
   "requires_extras": {
     "call": [
-      "twilio (>=6.0) ; extra == 'call'"
+      "twilio (>=6.0); extra=='call'"
     ],
     "phonenumbers": [
-      "phonenumbers (<8.99,>=7.0.9) ; extra == 'phonenumbers'"
+      "phonenumbers (<8.99,>=7.0.9); extra=='phonenumbers'"
     ],
     "phonenumberslite": [
-      "phonenumberslite (<8.99,>=7.0.9) ; extra == 'phonenumberslite'"
+      "phonenumberslite (<8.99,>=7.0.9); extra=='phonenumberslite'"
     ],
     "sms": [
-      "twilio (>=6.0) ; extra == 'sms'"
+      "twilio (>=6.0); extra=='sms'"
     ],
     "yubikey": [
-      "django-otp-yubikey ; extra == 'yubikey'"
+      "django-otp-yubikey; extra=='yubikey'"
     ]
   },
   "requires_python": "",

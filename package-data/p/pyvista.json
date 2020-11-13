@@ -10,9 +10,9 @@
   ],
   "requires_extras": {
     "colormaps": [
-      "cmocean ; extra == 'colormaps'",
-      "colorcet ; extra == 'colormaps'",
-      "matplotlib ; extra == 'colormaps'"
+      "cmocean; extra=='colormaps'",
+      "colorcet; extra=='colormaps'",
+      "matplotlib; extra=='colormaps'"
     ]
   },
   "requires_python": ">=3.6.*",

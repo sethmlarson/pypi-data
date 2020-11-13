@@ -50,11 +50,11 @@
   ],
   "requires_extras": {
     "ldap": [
-      "python-ldap (~=3.1.0) ; extra == 'ldap'"
+      "python-ldap (~=3.1.0); extra=='ldap'"
     ],
     "openstack": [
-      "osc-lib (~=2.2.0) ; extra == 'openstack'",
-      "shade (~=1.27.1) ; extra == 'openstack'"
+      "osc-lib (~=2.2.0); extra=='openstack'",
+      "shade (~=1.27.1); extra=='openstack'"
     ]
   },
   "requires_python": "",

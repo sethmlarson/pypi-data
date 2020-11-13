@@ -4,8 +4,8 @@
   ],
   "requires_extras": {
     "lint": [
-      "black ; extra == 'lint'",
-      "flake8 ; extra == 'lint'"
+      "black; extra=='lint'",
+      "flake8; extra=='lint'"
     ]
   },
   "requires_python": "",

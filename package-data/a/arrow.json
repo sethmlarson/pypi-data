@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "backports.functools-lru-cache (>=1.2.1) ; python_version == '2.7'",
+    "backports.functools-lru-cache (>=1.2.1); python_version=='2.7'",
     "python-dateutil (>=2.7.0)"
   ],
   "requires_extras": {},

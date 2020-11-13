@@ -6,13 +6,13 @@
   ],
   "requires_extras": {
     "ods": [
-      "pyexcel-ods3 (>=0.5.0) ; extra == 'ods'"
+      "pyexcel-ods3 (>=0.5.0); extra=='ods'"
     ],
     "xls": [
-      "pyexcel-xls (>=0.5.0) ; extra == 'xls'"
+      "pyexcel-xls (>=0.5.0); extra=='xls'"
     ],
     "xlsx": [
-      "pyexcel-xlsx (>=0.5.0) ; extra == 'xlsx'"
+      "pyexcel-xlsx (>=0.5.0); extra=='xlsx'"
     ]
   },
   "requires_python": ">=3.6",

@@ -1,12 +1,12 @@
 {
   "requires_dist": [
-    "argparse ; python_version <= '2.6'",
-    "funcsigs ; python_version <= '3.2'",
+    "argparse; python_version<='2.6'",
+    "funcsigs; python_version<='3.2'",
     "six"
   ],
   "requires_extras": {
     "restructuredtext": [
-      "rst2ansi ; extra == 'restructuredtext'"
+      "rst2ansi; extra=='restructuredtext'"
     ]
   },
   "requires_python": "",

@@ -10,14 +10,14 @@
   ],
   "requires_extras": {
     "aiohttp": [
-      "aiohttp (>=2.3.10) ; extra == 'aiohttp'",
-      "aiohttp-jinja2 (>=0.14.0) ; extra == 'aiohttp'"
+      "aiohttp (>=2.3.10); extra=='aiohttp'",
+      "aiohttp-jinja2 (>=0.14.0); extra=='aiohttp'"
     ],
     "flask": [
-      "flask (>=1.0.4) ; extra == 'flask'"
+      "flask (>=1.0.4); extra=='flask'"
     ],
     "swagger-ui": [
-      "swagger-ui-bundle (>=0.0.2) ; extra == 'swagger-ui'"
+      "swagger-ui-bundle (>=0.0.2); extra=='swagger-ui'"
     ]
   },
   "requires_python": ">=3.6",

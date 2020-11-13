@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "idna2008": [
-      "idna ; extra == 'idna2008'"
+      "idna; extra=='idna2008'"
     ]
   },
   "requires_python": "",

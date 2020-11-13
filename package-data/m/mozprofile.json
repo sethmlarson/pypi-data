@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "manifest": [
-      "manifestparser (>=0.6); extra == 'manifest'"
+      "manifestparser (>=0.6); extra=='manifest'"
     ]
   },
   "requires_python": "",

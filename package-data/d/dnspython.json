@@ -2,22 +2,22 @@
   "requires_dist": [],
   "requires_extras": {
     "curio": [
-      "curio (>=1.2) ; extra == 'curio'",
-      "sniffio (>=1.1) ; extra == 'curio'"
+      "curio (>=1.2); extra=='curio'",
+      "sniffio (>=1.1); extra=='curio'"
     ],
     "dnssec": [
-      "cryptography (>=2.6) ; extra == 'dnssec'"
+      "cryptography (>=2.6); extra=='dnssec'"
     ],
     "doh": [
-      "requests ; extra == 'doh'",
-      "requests-toolbelt ; extra == 'doh'"
+      "requests; extra=='doh'",
+      "requests-toolbelt; extra=='doh'"
     ],
     "idna": [
-      "idna (>=2.1) ; extra == 'idna'"
+      "idna (>=2.1); extra=='idna'"
     ],
     "trio": [
-      "sniffio (>=1.1) ; extra == 'trio'",
-      "trio (>=0.14.0) ; extra == 'trio'"
+      "sniffio (>=1.1); extra=='trio'",
+      "trio (>=0.14.0); extra=='trio'"
     ]
   },
   "requires_python": ">=3.6",

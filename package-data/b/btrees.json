@@ -5,7 +5,7 @@
   ],
   "requires_extras": {
     "zodb": [
-      "ZODB ; extra == 'zodb'"
+      "ZODB; extra=='zodb'"
     ]
   },
   "requires_python": "",

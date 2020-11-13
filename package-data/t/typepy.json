@@ -5,8 +5,8 @@
   ],
   "requires_extras": {
     "datetime": [
-      "python-dateutil (<3.0.0,>=2.8.0) ; extra == 'datetime'",
-      "pytz (>=2018.9) ; extra == 'datetime'"
+      "python-dateutil (<3.0.0,>=2.8.0); extra=='datetime'",
+      "pytz (>=2018.9); extra=='datetime'"
     ]
   },
   "requires_python": ">=3.5",

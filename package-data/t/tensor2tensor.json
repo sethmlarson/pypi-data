@@ -31,14 +31,14 @@
   ],
   "requires_extras": {
     "allen": [
-      "pandas (==0.23.0) ; extra == 'allen'",
-      "Pillow (==5.1.0) ; extra == 'allen'"
+      "pandas (==0.23.0); extra=='allen'",
+      "Pillow (==5.1.0); extra=='allen'"
     ],
     "tensorflow": [
-      "tensorflow (>=1.15.0) ; extra == 'tensorflow'"
+      "tensorflow (>=1.15.0); extra=='tensorflow'"
     ],
     "tensorflow-hub": [
-      "tensorflow-hub (>=0.1.1) ; extra == 'tensorflow-hub'"
+      "tensorflow-hub (>=0.1.1); extra=='tensorflow-hub'"
     ]
   },
   "requires_python": "",

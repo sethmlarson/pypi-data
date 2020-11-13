@@ -10,10 +10,10 @@
   ],
   "requires_extras": {
     "cv": [
-      "opencv-python (>=3.4.2.17) ; extra == 'cv'"
+      "opencv-python (>=3.4.2.17); extra=='cv'"
     ],
     "plot": [
-      "matplotlib (>=2.2.3) ; extra == 'plot'"
+      "matplotlib (>=2.2.3); extra=='plot'"
     ]
   },
   "requires_python": "",

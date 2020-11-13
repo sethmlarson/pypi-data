@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "cssselect (>=0.9)",
-    "functools32 ; python_version<'3.0'",
+    "functools32; python_version<'3.0'",
     "lxml",
     "six (>=1.6.0)",
     "w3lib (>=1.19.0)"

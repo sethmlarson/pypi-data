@@ -33,15 +33,15 @@
   ],
   "requires_extras": {
     "nlp": [
-      "elasticsearch (==7.9.1) ; extra == 'nlp'",
-      "gensim (==3.8.3) ; extra == 'nlp'",
-      "nltk (==3.5) ; extra == 'nlp'",
-      "pyemd (==0.5.1) ; extra == 'nlp'",
-      "spacy (==2.3.2) ; extra == 'nlp'",
-      "wmd (==1.3.2) ; extra == 'nlp'"
+      "elasticsearch (==7.9.1); extra=='nlp'",
+      "gensim (==3.8.3); extra=='nlp'",
+      "nltk (==3.5); extra=='nlp'",
+      "pyemd (==0.5.1); extra=='nlp'",
+      "spacy (==2.3.2); extra=='nlp'",
+      "wmd (==1.3.2); extra=='nlp'"
     ],
     "nn": [
-      "tensorflow (==2.3.1) ; extra == 'nn'"
+      "tensorflow (==2.3.1); extra=='nn'"
     ]
   },
   "requires_python": "",

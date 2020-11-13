@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "yaml": [
-      "pyyaml (>=5.3) ; extra == 'yaml'"
+      "pyyaml (>=5.3); extra=='yaml'"
     ]
   },
   "requires_python": "",

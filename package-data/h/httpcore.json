@@ -5,7 +5,7 @@
   ],
   "requires_extras": {
     "http2": [
-      "h2 (<5,>=3) ; extra == 'http2'"
+      "h2 (<5,>=3); extra=='http2'"
     ]
   },
   "requires_python": ">=3.6",

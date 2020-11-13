@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "fast": [
-      "DAWG (>=0.8) ; extra == 'fast'"
+      "DAWG (>=0.8); extra=='fast'"
     ]
   },
   "requires_python": "",

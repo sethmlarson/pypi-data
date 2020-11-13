@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "enum34 ; python_version < '3'"
+    "enum34; python_version<'3'"
   ],
   "requires_extras": {},
   "requires_python": "",

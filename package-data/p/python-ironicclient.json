@@ -15,7 +15,7 @@
   ],
   "requires_extras": {
     "cli": [
-      "python-openstackclient (>=3.12.0); extra == 'cli'"
+      "python-openstackclient (>=3.12.0); extra=='cli'"
     ]
   },
   "requires_python": ">=3.6",

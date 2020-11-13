@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "styles": [
-      "Pygments (>=1.6) ; extra == 'styles'"
+      "Pygments (>=1.6); extra=='styles'"
     ]
   },
   "requires_python": "",

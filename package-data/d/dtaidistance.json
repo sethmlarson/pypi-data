@@ -4,11 +4,11 @@
   ],
   "requires_extras": {
     "numpy": [
-      "numpy ; extra == 'numpy'",
-      "scipy ; extra == 'numpy'"
+      "numpy; extra=='numpy'",
+      "scipy; extra=='numpy'"
     ],
     "vis": [
-      "matplotlib ; extra == 'vis'"
+      "matplotlib; extra=='vis'"
     ]
   },
   "requires_python": ">=3.5",

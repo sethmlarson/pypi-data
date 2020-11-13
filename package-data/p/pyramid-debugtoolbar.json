@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "ipaddress ; python_version < '3.3'",
+    "ipaddress; python_version<'3.3'",
     "Pygments",
     "pyramid (>=1.4)",
     "pyramid-mako (>=0.3.1)",

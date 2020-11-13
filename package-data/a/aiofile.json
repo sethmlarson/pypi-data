@@ -4,10 +4,10 @@
   ],
   "requires_extras": {
     "develop": [
-      "aiomisc ; extra == 'develop'",
-      "asynctest ; extra == 'develop'",
-      "pytest ; extra == 'develop'",
-      "pytest-cov ; extra == 'develop'"
+      "aiomisc; extra=='develop'",
+      "asynctest; extra=='develop'",
+      "pytest; extra=='develop'",
+      "pytest-cov; extra=='develop'"
     ]
   },
   "requires_python": ">3.4.*, <4",

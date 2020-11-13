@@ -14,10 +14,10 @@
   ],
   "requires_extras": {
     "mysql": [
-      "PyMySQL (>=0.7.6); extra == 'mysql'"
+      "PyMySQL (>=0.7.6); extra=='mysql'"
     ],
     "postgresql": [
-      "psycopg2 (>=2.8.0); extra == 'postgresql'"
+      "psycopg2 (>=2.8.0); extra=='postgresql'"
     ]
   },
   "requires_python": ">=3.6",

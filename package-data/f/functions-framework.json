@@ -3,7 +3,7 @@
     "click (<8.0,>=7.0)",
     "cloudevents (<1.0)",
     "flask (<2.0,>=1.0)",
-    "gunicorn (<21.0,>=19.2.0) ; platform_system != 'Windows'",
+    "gunicorn (<21.0,>=19.2.0); platform_system !='Windows'",
     "watchdog (>=0.10.0)"
   ],
   "requires_extras": {},

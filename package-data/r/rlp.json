@@ -4,10 +4,10 @@
   ],
   "requires_extras": {
     "lint": [
-      "flake8 (==3.4.1) ; extra == 'lint'"
+      "flake8 (==3.4.1); extra=='lint'"
     ],
     "rust-backend": [
-      "rusty-rlp (<0.2,>=0.1.15) ; extra == 'rust-backend'"
+      "rusty-rlp (<0.2,>=0.1.15); extra=='rust-backend'"
     ]
   },
   "requires_python": "",

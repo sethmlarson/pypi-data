@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "importlib-resources ; python_version < '3.7'",
+    "importlib-resources; python_version<'3.7'",
     "ntc-templates",
     "paramiko (>=2.6.0)",
     "pyserial",

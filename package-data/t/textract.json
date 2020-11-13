@@ -14,7 +14,7 @@
   ],
   "requires_extras": {
     "pocketsphinx": [
-      "pocketsphinx (==0.1.15); extra == 'pocketsphinx'"
+      "pocketsphinx (==0.1.15); extra=='pocketsphinx'"
     ]
   },
   "requires_python": "",

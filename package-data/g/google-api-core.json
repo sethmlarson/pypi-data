@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "futures (>=3.2.0) ; python_version < '3.2'",
+    "futures (>=3.2.0); python_version<'3.2'",
     "google-auth (<2.0dev,>=1.21.1)",
     "googleapis-common-protos (<2.0dev,>=1.6.0)",
     "protobuf (>=3.12.0)",
@@ -11,13 +11,13 @@
   ],
   "requires_extras": {
     "grpc": [
-      "grpcio (<2.0dev,>=1.29.0) ; extra == 'grpc'"
+      "grpcio (<2.0dev,>=1.29.0); extra=='grpc'"
     ],
     "grpcgcp": [
-      "grpcio-gcp (>=0.2.2) ; extra == 'grpcgcp'"
+      "grpcio-gcp (>=0.2.2); extra=='grpcgcp'"
     ],
     "grpcio-gcp": [
-      "grpcio-gcp (>=0.2.2) ; extra == 'grpcio-gcp'"
+      "grpcio-gcp (>=0.2.2); extra=='grpcio-gcp'"
     ]
   },
   "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*",

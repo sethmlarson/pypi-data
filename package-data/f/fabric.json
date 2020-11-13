@@ -5,8 +5,8 @@
   ],
   "requires_extras": {
     "pytest": [
-      "mock (>=2.0.0,<3.0); extra == 'pytest'",
-      "pytest (>=3.2.5,<4.0); extra == 'pytest'"
+      "mock (>=2.0.0,<3.0); extra=='pytest'",
+      "pytest (>=3.2.5,<4.0); extra=='pytest'"
     ]
   },
   "requires_python": "",

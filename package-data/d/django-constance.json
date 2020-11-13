@@ -2,10 +2,10 @@
   "requires_dist": [],
   "requires_extras": {
     "database": [
-      "django-picklefield ; extra == 'database'"
+      "django-picklefield; extra=='database'"
     ],
     "redis": [
-      "redis ; extra == 'redis'"
+      "redis; extra=='redis'"
     ]
   },
   "requires_python": "",

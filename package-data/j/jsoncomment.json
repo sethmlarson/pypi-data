@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "ujson": [
-      "ujson (>=1.30) ; extra == 'ujson'"
+      "ujson (>=1.30); extra=='ujson'"
     ]
   },
   "requires_python": ">=3.3",

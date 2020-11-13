@@ -4,12 +4,12 @@
   ],
   "requires_extras": {
     "build": [
-      "param (>=1.7.0) ; extra == 'build'",
-      "setuptools ; extra == 'build'"
+      "param (>=1.7.0); extra=='build'",
+      "setuptools; extra=='build'"
     ],
     "cmd": [
-      "pyyaml ; extra == 'cmd'",
-      "requests ; extra == 'cmd'"
+      "pyyaml; extra=='cmd'",
+      "requests; extra=='cmd'"
     ]
   },
   "requires_python": ">=2.7",

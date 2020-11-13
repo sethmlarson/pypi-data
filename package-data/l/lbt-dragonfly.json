@@ -5,8 +5,8 @@
   ],
   "requires_extras": {
     "cli": [
-      "click (==7.1.2) ; extra == 'cli'",
-      "dragonfly-schema (==1.6.16) ; (python_version >= '3.6') and extra == 'cli'"
+      "click (==7.1.2); extra=='cli'",
+      "dragonfly-schema (==1.6.16); (python_version>='3.6') and extra=='cli'"
     ]
   },
   "requires_python": "",

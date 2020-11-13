@@ -19,19 +19,19 @@
   ],
   "requires_extras": {
     "cplex": [
-      "cplex ; (python_version >= '3.6' and python_version < '3.8') and extra == 'cplex'"
+      "cplex; (python_version>='3.6' and python_version<'3.8') and extra=='cplex'"
     ],
     "cvx": [
-      "cvxpy (!=1.1.0,!=1.1.1,!=1.1.2,>1.0.0) ; extra == 'cvx'"
+      "cvxpy (!=1.1.0,!=1.1.1,!=1.1.2,>1.0.0); extra=='cvx'"
     ],
     "pyscf": [
-      "pyscf ; (sys_platform != 'win32') and extra == 'pyscf'"
+      "pyscf; (sys_platform !='win32') and extra=='pyscf'"
     ],
     "skquant": [
-      "scikit-quant ; extra == 'skquant'"
+      "scikit-quant; extra=='skquant'"
     ],
     "torch": [
-      "torch ; (sys_platform == 'linux' or (python_version < '3.8' and sys_platform != 'win32')) and extra == 'torch'"
+      "torch; (sys_platform=='linux' or (python_version<'3.8' and sys_platform !='win32')) and extra=='torch'"
     ]
   },
   "requires_python": ">=3.6",

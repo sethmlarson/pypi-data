@@ -2,14 +2,14 @@
   "requires_dist": [],
   "requires_extras": {
     "memcached": [
-      "aiomcache (>=0.5.2) ; extra == 'memcached'"
+      "aiomcache (>=0.5.2); extra=='memcached'"
     ],
     "msgpack": [
-      "msgpack (>=0.5.5) ; extra == 'msgpack'"
+      "msgpack (>=0.5.5); extra=='msgpack'"
     ],
     "redis": [
-      "aioredis (>=0.3.3) ; (python_version<'3.7') and extra == 'redis'",
-      "aioredis (>=1.0.0) ; (python_version>='3.7') and extra == 'redis'"
+      "aioredis (>=0.3.3); (python_version<'3.7') and extra=='redis'",
+      "aioredis (>=1.0.0); (python_version>='3.7') and extra=='redis'"
     ]
   },
   "requires_python": "",

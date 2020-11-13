@@ -7,7 +7,7 @@
   ],
   "requires_extras": {
     "dot": [
-      "pydot (>=1.2.0) ; extra == 'dot'"
+      "pydot (>=1.2.0); extra=='dot'"
     ]
   },
   "requires_python": ">=3.6, <4",

@@ -7,8 +7,8 @@
   ],
   "requires_extras": {
     "bounce": [
-      "M2Crypto ; extra == 'bounce'",
-      "requests (<3) ; extra == 'bounce'"
+      "M2Crypto; extra=='bounce'",
+      "requests (<3); extra=='bounce'"
     ]
   },
   "requires_python": ">=2.7",

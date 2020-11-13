@@ -4,34 +4,34 @@
   ],
   "requires_extras": {
     "gdal": [
-      "gdal ; extra == 'gdal'"
+      "gdal; extra=='gdal'"
     ],
     "lxml": [
-      "lxml ; extra == 'lxml'"
+      "lxml; extra=='lxml'"
     ],
     "matplotlib": [
-      "matplotlib ; extra == 'matplotlib'"
+      "matplotlib; extra=='matplotlib'"
     ],
     "numpy": [
-      "numpy ; extra == 'numpy'"
+      "numpy; extra=='numpy'"
     ],
     "pandas": [
-      "pandas ; extra == 'pandas'"
+      "pandas; extra=='pandas'"
     ],
     "pydot": [
-      "pydot ; extra == 'pydot'"
+      "pydot; extra=='pydot'"
     ],
     "pygraphviz": [
-      "pygraphviz ; extra == 'pygraphviz'"
+      "pygraphviz; extra=='pygraphviz'"
     ],
     "pytest": [
-      "pytest ; extra == 'pytest'"
+      "pytest; extra=='pytest'"
     ],
     "pyyaml": [
-      "pyyaml ; extra == 'pyyaml'"
+      "pyyaml; extra=='pyyaml'"
     ],
     "scipy": [
-      "scipy ; extra == 'scipy'"
+      "scipy; extra=='scipy'"
     ]
   },
   "requires_python": ">=3.6",

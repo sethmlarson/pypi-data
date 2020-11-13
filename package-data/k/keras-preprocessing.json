@@ -5,11 +5,11 @@
   ],
   "requires_extras": {
     "image": [
-      "Pillow (>=5.2.0) ; extra == 'image'",
-      "scipy (>=0.14) ; extra == 'image'"
+      "Pillow (>=5.2.0); extra=='image'",
+      "scipy (>=0.14); extra=='image'"
     ],
     "pep8": [
-      "flake8 ; extra == 'pep8'"
+      "flake8; extra=='pep8'"
     ]
   },
   "requires_python": "",

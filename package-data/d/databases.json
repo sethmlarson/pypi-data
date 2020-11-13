@@ -1,22 +1,22 @@
 {
   "requires_dist": [
-    "aiocontextvars ; python_version < '3.7'",
+    "aiocontextvars; python_version<'3.7'",
     "sqlalchemy"
   ],
   "requires_extras": {
     "mysql": [
-      "aiomysql ; extra == 'mysql'",
-      "pymysql ; extra == 'mysql'"
+      "aiomysql; extra=='mysql'",
+      "pymysql; extra=='mysql'"
     ],
     "postgresql": [
-      "asyncpg ; extra == 'postgresql'",
-      "psycopg2 ; extra == 'postgresql'"
+      "asyncpg; extra=='postgresql'",
+      "psycopg2; extra=='postgresql'"
     ],
     "postgresql_aiopg": [
-      "aiopg ; extra == 'postgresql_aiopg'"
+      "aiopg; extra=='postgresql_aiopg'"
     ],
     "sqlite": [
-      "aiosqlite ; extra == 'sqlite'"
+      "aiosqlite; extra=='sqlite'"
     ]
   },
   "requires_python": ">=3.6",

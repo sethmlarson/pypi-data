@@ -1,14 +1,14 @@
 {
   "requires_dist": [
     "cryptography",
-    "enum34 ; python_version<'3.5'"
+    "enum34; python_version<'3.5'"
   ],
   "requires_extras": {
     "kerberos": [
-      "gssapi (>=1.5.0) ; (sys_platform!='win32') and extra == 'kerberos'"
+      "gssapi (>=1.5.0); (sys_platform!='win32') and extra=='kerberos'"
     ],
     "yaml": [
-      "ruamel.yaml ; extra == 'yaml'"
+      "ruamel.yaml; extra=='yaml'"
     ]
   },
   "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*",

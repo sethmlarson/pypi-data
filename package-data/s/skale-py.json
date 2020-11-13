@@ -7,11 +7,11 @@
   ],
   "requires_extras": {
     "hw-wallet": [
-      "ledgerblue (==0.1.31) ; extra == 'hw-wallet'"
+      "ledgerblue (==0.1.31); extra=='hw-wallet'"
     ],
     "linter": [
-      "flake8 (==3.8.3) ; extra == 'linter'",
-      "isort (<5.4.3,>=4.2.15) ; extra == 'linter'"
+      "flake8 (==3.8.3); extra=='linter'",
+      "isort (<5.4.3,>=4.2.15); extra=='linter'"
     ]
   },
   "requires_python": ">=3.7,<4",

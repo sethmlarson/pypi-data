@@ -16,137 +16,137 @@
   ],
   "requires_extras": {
     "api": [
-      "requests (~=2.20); extra == 'api'"
+      "requests (~=2.20); extra=='api'"
     ],
     "api.apidataset": [
-      "requests (~=2.20); extra == 'api.apidataset'"
+      "requests (~=2.20); extra=='api.apidataset'"
     ],
     "biosequence": [
-      "biopython (~=1.73); extra == 'biosequence'"
+      "biopython (~=1.73); extra=='biosequence'"
     ],
     "biosequence.biosequencedataset": [
-      "biopython (~=1.73); extra == 'biosequence.biosequencedataset'"
+      "biopython (~=1.73); extra=='biosequence.biosequencedataset'"
     ],
     "dask": [
-      "dask[complete] (~=2.6); extra == 'dask'"
+      "dask[complete] (~=2.6); extra=='dask'"
     ],
     "dask.parquetdataset": [
-      "dask[complete] (~=2.6); extra == 'dask.parquetdataset'"
+      "dask[complete] (~=2.6); extra=='dask.parquetdataset'"
     ],
     "geopandas": [
-      "geopandas (<1.0,>=0.6.0); extra == 'geopandas'"
+      "geopandas (<1.0,>=0.6.0); extra=='geopandas'"
     ],
     "geopandas.geojsondataset": [
-      "geopandas (<1.0,>=0.6.0); extra == 'geopandas.geojsondataset'"
+      "geopandas (<1.0,>=0.6.0); extra=='geopandas.geojsondataset'"
     ],
     "holoviews": [
-      "holoviews (~=1.13.0); extra == 'holoviews'"
+      "holoviews (~=1.13.0); extra=='holoviews'"
     ],
     "holoviews.holoviewswriter": [
-      "holoviews (~=1.13.0); extra == 'holoviews.holoviewswriter'"
+      "holoviews (~=1.13.0); extra=='holoviews.holoviewswriter'"
     ],
     "matplotlib": [
-      "matplotlib (<4.0,>=3.0.3); extra == 'matplotlib'"
+      "matplotlib (<4.0,>=3.0.3); extra=='matplotlib'"
     ],
     "matplotlib.matplotlibwriter": [
-      "matplotlib (<4.0,>=3.0.3); extra == 'matplotlib.matplotlibwriter'"
+      "matplotlib (<4.0,>=3.0.3); extra=='matplotlib.matplotlibwriter'"
     ],
     "networkx": [
-      "networkx (~=2.4); extra == 'networkx'"
+      "networkx (~=2.4); extra=='networkx'"
     ],
     "networkx.networkxdataset": [
-      "networkx (~=2.4); extra == 'networkx.networkxdataset'"
+      "networkx (~=2.4); extra=='networkx.networkxdataset'"
     ],
     "notebook_templates": [
-      "nbconvert (<6.0,>=5.3.1); extra == 'notebook_templates'",
-      "nbformat (~=4.4); extra == 'notebook_templates'"
+      "nbconvert (<6.0,>=5.3.1); extra=='notebook_templates'",
+      "nbformat (~=4.4); extra=='notebook_templates'"
     ],
     "pandas": [
-      "openpyxl (<4.0,>=3.0.3); extra == 'pandas'",
-      "pandas (>=0.24); extra == 'pandas'",
-      "pandas-gbq (<1.0,>=0.12.0); extra == 'pandas'",
-      "pyarrow (<1.0.0,>=0.12.0); extra == 'pandas'",
-      "SQLAlchemy (~=1.2); extra == 'pandas'",
-      "tables (~=3.6); extra == 'pandas'",
-      "xlrd (~=1.0); extra == 'pandas'",
-      "xlsxwriter (~=1.0); extra == 'pandas'"
+      "openpyxl (<4.0,>=3.0.3); extra=='pandas'",
+      "pandas (>=0.24); extra=='pandas'",
+      "pandas-gbq (<1.0,>=0.12.0); extra=='pandas'",
+      "pyarrow (<1.0.0,>=0.12.0); extra=='pandas'",
+      "SQLAlchemy (~=1.2); extra=='pandas'",
+      "tables (~=3.6); extra=='pandas'",
+      "xlrd (~=1.0); extra=='pandas'",
+      "xlsxwriter (~=1.0); extra=='pandas'"
     ],
     "pandas.appendableexceldataset": [
-      "openpyxl (<4.0,>=3.0.3); extra == 'pandas.appendableexceldataset'",
-      "pandas (>=0.24); extra == 'pandas.appendableexceldataset'"
+      "openpyxl (<4.0,>=3.0.3); extra=='pandas.appendableexceldataset'",
+      "pandas (>=0.24); extra=='pandas.appendableexceldataset'"
     ],
     "pandas.csvdataset": [
-      "pandas (>=0.24); extra == 'pandas.csvdataset'"
+      "pandas (>=0.24); extra=='pandas.csvdataset'"
     ],
     "pandas.exceldataset": [
-      "pandas (>=0.24); extra == 'pandas.exceldataset'",
-      "xlrd (~=1.0); extra == 'pandas.exceldataset'",
-      "xlsxwriter (~=1.0); extra == 'pandas.exceldataset'"
+      "pandas (>=0.24); extra=='pandas.exceldataset'",
+      "xlrd (~=1.0); extra=='pandas.exceldataset'",
+      "xlsxwriter (~=1.0); extra=='pandas.exceldataset'"
     ],
     "pandas.featherdataset": [
-      "pandas (>=0.24); extra == 'pandas.featherdataset'"
+      "pandas (>=0.24); extra=='pandas.featherdataset'"
     ],
     "pandas.gbqtabledataset": [
-      "pandas (>=0.24); extra == 'pandas.gbqtabledataset'",
-      "pandas-gbq (<1.0,>=0.12.0); extra == 'pandas.gbqtabledataset'"
+      "pandas (>=0.24); extra=='pandas.gbqtabledataset'",
+      "pandas-gbq (<1.0,>=0.12.0); extra=='pandas.gbqtabledataset'"
     ],
     "pandas.hdfdataset": [
-      "pandas (>=0.24); extra == 'pandas.hdfdataset'",
-      "tables (~=3.6); extra == 'pandas.hdfdataset'"
+      "pandas (>=0.24); extra=='pandas.hdfdataset'",
+      "tables (~=3.6); extra=='pandas.hdfdataset'"
     ],
     "pandas.jsondataset": [
-      "pandas (>=0.24); extra == 'pandas.jsondataset'"
+      "pandas (>=0.24); extra=='pandas.jsondataset'"
     ],
     "pandas.parquetdataset": [
-      "pandas (>=0.24); extra == 'pandas.parquetdataset'",
-      "pyarrow (<1.0.0,>=0.12.0); extra == 'pandas.parquetdataset'"
+      "pandas (>=0.24); extra=='pandas.parquetdataset'",
+      "pyarrow (<1.0.0,>=0.12.0); extra=='pandas.parquetdataset'"
     ],
     "pandas.sqltabledataset": [
-      "pandas (>=0.24); extra == 'pandas.sqltabledataset'",
-      "SQLAlchemy (~=1.2); extra == 'pandas.sqltabledataset'"
+      "pandas (>=0.24); extra=='pandas.sqltabledataset'",
+      "SQLAlchemy (~=1.2); extra=='pandas.sqltabledataset'"
     ],
     "pillow": [
-      "Pillow (~=7.1.2); extra == 'pillow'"
+      "Pillow (~=7.1.2); extra=='pillow'"
     ],
     "pillow.imagedataset": [
-      "Pillow (~=7.1.2); extra == 'pillow.imagedataset'"
+      "Pillow (~=7.1.2); extra=='pillow.imagedataset'"
     ],
     "profilers": [
-      "memory-profiler (<1.0,>=0.50.0); extra == 'profilers'"
+      "memory-profiler (<1.0,>=0.50.0); extra=='profilers'"
     ],
     "spark": [
-      "hdfs (<3.0,>=2.5.8); extra == 'spark'",
-      "pyspark (~=2.2); extra == 'spark'",
-      "s3fs (<0.4.1,>=0.3.0); extra == 'spark'"
+      "hdfs (<3.0,>=2.5.8); extra=='spark'",
+      "pyspark (~=2.2); extra=='spark'",
+      "s3fs (<0.4.1,>=0.3.0); extra=='spark'"
     ],
     "spark.sparkdataset": [
-      "hdfs (<3.0,>=2.5.8); extra == 'spark.sparkdataset'",
-      "pyspark (~=2.2); extra == 'spark.sparkdataset'",
-      "s3fs (<0.4.1,>=0.3.0); extra == 'spark.sparkdataset'"
+      "hdfs (<3.0,>=2.5.8); extra=='spark.sparkdataset'",
+      "pyspark (~=2.2); extra=='spark.sparkdataset'",
+      "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkdataset'"
     ],
     "spark.sparkhivedataset": [
-      "hdfs (<3.0,>=2.5.8); extra == 'spark.sparkhivedataset'",
-      "pyspark (~=2.2); extra == 'spark.sparkhivedataset'",
-      "s3fs (<0.4.1,>=0.3.0); extra == 'spark.sparkhivedataset'"
+      "hdfs (<3.0,>=2.5.8); extra=='spark.sparkhivedataset'",
+      "pyspark (~=2.2); extra=='spark.sparkhivedataset'",
+      "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkhivedataset'"
     ],
     "spark.sparkjdbcdataset": [
-      "hdfs (<3.0,>=2.5.8); extra == 'spark.sparkjdbcdataset'",
-      "pyspark (~=2.2); extra == 'spark.sparkjdbcdataset'",
-      "s3fs (<0.4.1,>=0.3.0); extra == 'spark.sparkjdbcdataset'"
+      "hdfs (<3.0,>=2.5.8); extra=='spark.sparkjdbcdataset'",
+      "pyspark (~=2.2); extra=='spark.sparkjdbcdataset'",
+      "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkjdbcdataset'"
     ],
     "tensorflow": [
-      "tensorflow (~=2.0); extra == 'tensorflow'"
+      "tensorflow (~=2.0); extra=='tensorflow'"
     ],
     "tensorflow.tensorflowmodeldataset": [
-      "tensorflow (~=2.0); extra == 'tensorflow.tensorflowmodeldataset'"
+      "tensorflow (~=2.0); extra=='tensorflow.tensorflowmodeldataset'"
     ],
     "yaml": [
-      "pandas (>=0.24); extra == 'yaml'",
-      "PyYAML (<6.0,>=4.2); extra == 'yaml'"
+      "pandas (>=0.24); extra=='yaml'",
+      "PyYAML (<6.0,>=4.2); extra=='yaml'"
     ],
     "yaml.yamldataset": [
-      "pandas (>=0.24); extra == 'yaml.yamldataset'",
-      "PyYAML (<6.0,>=4.2); extra == 'yaml.yamldataset'"
+      "pandas (>=0.24); extra=='yaml.yamldataset'",
+      "PyYAML (<6.0,>=4.2); extra=='yaml.yamldataset'"
     ]
   },
   "requires_python": ">=3.6, <3.9",

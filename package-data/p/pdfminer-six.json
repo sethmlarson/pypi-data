@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "chardet ; python_version > '3.0'",
+    "chardet; python_version>'3.0'",
     "cryptography",
     "sortedcontainers"
   ],

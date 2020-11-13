@@ -7,9 +7,9 @@
   ],
   "requires_extras": {
     "sni": [
-      "ndg-httpsclient ; extra == 'sni'",
-      "pyasn1 ; extra == 'sni'",
-      "pyOpenSSL ; extra == 'sni'"
+      "ndg-httpsclient; extra=='sni'",
+      "pyasn1; extra=='sni'",
+      "pyOpenSSL; extra=='sni'"
     ]
   },
   "requires_python": "",

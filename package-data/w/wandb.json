@@ -3,7 +3,7 @@
     "Click (>=7.0)",
     "configparser (>=3.8.1)",
     "docker-pycreds (>=0.4.0)",
-    "enum34 ; python_version < '3.4'",
+    "enum34; python_version<'3.4'",
     "GitPython (>=1.0.0)",
     "promise (<3,>=2.0)",
     "protobuf (>=3.12.0)",
@@ -15,24 +15,24 @@
     "shortuuid (>=0.5.0)",
     "six (>=1.13.0)",
     "subprocess32 (>=3.5.3)",
-    "typing ; python_version < '3.5'",
+    "typing; python_version<'3.5'",
     "watchdog (>=0.8.3)"
   ],
   "requires_extras": {
     "aws": [
-      "boto3 ; extra == 'aws'"
+      "boto3; extra=='aws'"
     ],
     "gcp": [
-      "google-cloud-storage ; extra == 'gcp'"
+      "google-cloud-storage; extra=='gcp'"
     ],
     "grpc": [
-      "grpcio (==1.27.2) ; extra == 'grpc'"
+      "grpcio (==1.27.2); extra=='grpc'"
     ],
     "kubeflow": [
-      "google-cloud-storage ; extra == 'kubeflow'",
-      "kubernetes ; extra == 'kubeflow'",
-      "minio ; extra == 'kubeflow'",
-      "sh ; extra == 'kubeflow'"
+      "google-cloud-storage; extra=='kubeflow'",
+      "kubernetes; extra=='kubeflow'",
+      "minio; extra=='kubeflow'",
+      "sh; extra=='kubeflow'"
     ]
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",

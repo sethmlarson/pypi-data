@@ -10,9 +10,9 @@
   ],
   "requires_extras": {
     "browser": [
-      "zope.authentication; extra == 'browser'",
-      "zope.browser; extra == 'browser'",
-      "zope.browserpage; extra == 'browser'"
+      "zope.authentication; extra=='browser'",
+      "zope.browser; extra=='browser'",
+      "zope.browserpage; extra=='browser'"
     ]
   },
   "requires_python": "",

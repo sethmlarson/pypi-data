@@ -15,24 +15,24 @@
   ],
   "requires_extras": {
     "cchardet": [
-      "cchardet (>=2.0) ; extra == 'cchardet'"
+      "cchardet (>=2.0); extra=='cchardet'"
     ],
     "datapackage": [
-      "datapackage (>=1.12) ; extra == 'datapackage'"
+      "datapackage (>=1.12); extra=='datapackage'"
     ],
     "develop": [
-      "mock ; extra == 'develop'",
-      "moto[server] ; extra == 'develop'",
-      "pylama ; extra == 'develop'",
-      "pytest ; extra == 'develop'",
-      "pytest-cov ; extra == 'develop'"
+      "mock; extra=='develop'",
+      "moto[server]; extra=='develop'",
+      "pylama; extra=='develop'",
+      "pytest; extra=='develop'",
+      "pytest-cov; extra=='develop'"
     ],
     "html": [
-      "pyquery (<2) ; extra == 'html'"
+      "pyquery (<2); extra=='html'"
     ],
     "ods": [
-      "ezodf (>=0.3) ; extra == 'ods'",
-      "lxml (>=3.0) ; extra == 'ods'"
+      "ezodf (>=0.3); extra=='ods'",
+      "lxml (>=3.0); extra=='ods'"
     ]
   },
   "requires_python": "",

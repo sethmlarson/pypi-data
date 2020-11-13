@@ -34,37 +34,37 @@
   ],
   "requires_extras": {
     "amazon": [
-      "apache-airflow-backport-providers-amazon ; extra == 'amazon'"
+      "apache-airflow-backport-providers-amazon; extra=='amazon'"
     ],
     "apache.cassandra": [
-      "apache-airflow-backport-providers-apache-cassandra ; extra == 'apache.cassandra'"
+      "apache-airflow-backport-providers-apache-cassandra; extra=='apache.cassandra'"
     ],
     "cncf.kubernetes": [
-      "apache-airflow-backport-providers-cncf-kubernetes ; extra == 'cncf.kubernetes'"
+      "apache-airflow-backport-providers-cncf-kubernetes; extra=='cncf.kubernetes'"
     ],
     "facebook": [
-      "apache-airflow-backport-providers-facebook ; extra == 'facebook'"
+      "apache-airflow-backport-providers-facebook; extra=='facebook'"
     ],
     "microsoft.azure": [
-      "apache-airflow-backport-providers-microsoft-azure ; extra == 'microsoft.azure'"
+      "apache-airflow-backport-providers-microsoft-azure; extra=='microsoft.azure'"
     ],
     "microsoft.mssql": [
-      "apache-airflow-backport-providers-microsoft-mssql ; extra == 'microsoft.mssql'"
+      "apache-airflow-backport-providers-microsoft-mssql; extra=='microsoft.mssql'"
     ],
     "mysql": [
-      "apache-airflow-backport-providers-mysql ; extra == 'mysql'"
+      "apache-airflow-backport-providers-mysql; extra=='mysql'"
     ],
     "postgres": [
-      "apache-airflow-backport-providers-postgres ; extra == 'postgres'"
+      "apache-airflow-backport-providers-postgres; extra=='postgres'"
     ],
     "presto": [
-      "apache-airflow-backport-providers-presto ; extra == 'presto'"
+      "apache-airflow-backport-providers-presto; extra=='presto'"
     ],
     "salesforce": [
-      "apache-airflow-backport-providers-salesforce ; extra == 'salesforce'"
+      "apache-airflow-backport-providers-salesforce; extra=='salesforce'"
     ],
     "sftp": [
-      "apache-airflow-backport-providers-sftp ; extra == 'sftp'"
+      "apache-airflow-backport-providers-sftp; extra=='sftp'"
     ]
   },
   "requires_python": "~=3.6",

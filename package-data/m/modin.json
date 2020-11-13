@@ -5,17 +5,17 @@
   ],
   "requires_extras": {
     "dask": [
-      "dask (<=2.19.0,>=2.12.0) ; extra == 'dask'",
-      "distributed (<=2.19.0,>=2.12.0) ; extra == 'dask'"
+      "dask (<=2.19.0,>=2.12.0); extra=='dask'",
+      "distributed (<=2.19.0,>=2.12.0); extra=='dask'"
     ],
     "ray": [
-      "pyarrow (==1.0) ; extra == 'ray'",
-      "ray (>=1.0.0) ; extra == 'ray'"
+      "pyarrow (==1.0); extra=='ray'",
+      "ray (>=1.0.0); extra=='ray'"
     ],
     "remote": [
-      "boto3 (==1.4.8) ; extra == 'remote'",
-      "cloudpickle (==1.4.1) ; extra == 'remote'",
-      "rpyc (==4.1.5) ; extra == 'remote'"
+      "boto3 (==1.4.8); extra=='remote'",
+      "cloudpickle (==1.4.1); extra=='remote'",
+      "rpyc (==4.1.5); extra=='remote'"
     ]
   },
   "requires_python": ">=3.6.1",

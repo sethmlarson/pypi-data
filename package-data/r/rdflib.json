@@ -6,10 +6,10 @@
   ],
   "requires_extras": {
     "html": [
-      "html5lib ; extra == 'html'"
+      "html5lib; extra=='html'"
     ],
     "sparql": [
-      "requests ; extra == 'sparql'"
+      "requests; extra=='sparql'"
     ]
   },
   "requires_python": "",

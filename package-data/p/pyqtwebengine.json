@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "PyQt5 (>=5.15)",
-    "PyQt5-sip (>=12.8, <13)"
+    "PyQt5-sip (>=12.8,<13)"
   ],
   "requires_extras": {},
   "requires_python": ">=3.5",

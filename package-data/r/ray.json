@@ -23,30 +23,30 @@
   ],
   "requires_extras": {
     "rllib": [
-      "atari-py ; extra == 'rllib'",
-      "dataclasses ; (python_version < '3.7') and extra == 'rllib'",
-      "dm-tree ; extra == 'rllib'",
-      "gym[atari] ; extra == 'rllib'",
-      "lz4 ; extra == 'rllib'",
-      "opencv-python-headless (<=4.3.0.36) ; extra == 'rllib'",
-      "pandas ; extra == 'rllib'",
-      "pyyaml ; extra == 'rllib'",
-      "scipy ; extra == 'rllib'",
-      "tabulate ; extra == 'rllib'",
-      "tensorboardX ; extra == 'rllib'"
+      "atari-py; extra=='rllib'",
+      "dataclasses; (python_version<'3.7') and extra=='rllib'",
+      "dm-tree; extra=='rllib'",
+      "gym[atari]; extra=='rllib'",
+      "lz4; extra=='rllib'",
+      "opencv-python-headless (<=4.3.0.36); extra=='rllib'",
+      "pandas; extra=='rllib'",
+      "pyyaml; extra=='rllib'",
+      "scipy; extra=='rllib'",
+      "tabulate; extra=='rllib'",
+      "tensorboardX; extra=='rllib'"
     ],
     "serve": [
-      "dataclasses ; (python_version < '3.7') and extra == 'serve'",
-      "flask ; extra == 'serve'",
-      "pydantic (<1.7) ; extra == 'serve'",
-      "requests ; extra == 'serve'",
-      "uvicorn ; extra == 'serve'"
+      "dataclasses; (python_version<'3.7') and extra=='serve'",
+      "flask; extra=='serve'",
+      "pydantic (<1.7); extra=='serve'",
+      "requests; extra=='serve'",
+      "uvicorn; extra=='serve'"
     ],
     "tune": [
-      "dataclasses ; (python_version < '3.7') and extra == 'tune'",
-      "pandas ; extra == 'tune'",
-      "tabulate ; extra == 'tune'",
-      "tensorboardX ; extra == 'tune'"
+      "dataclasses; (python_version<'3.7') and extra=='tune'",
+      "pandas; extra=='tune'",
+      "tabulate; extra=='tune'",
+      "tensorboardX; extra=='tune'"
     ]
   },
   "requires_python": "",

@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "azure-common (>=1.1.5)",
-    "azure-storage-nspkg ; python_version<'3.0'",
+    "azure-storage-nspkg; python_version<'3.0'",
     "cryptography",
     "python-dateutil",
     "requests"

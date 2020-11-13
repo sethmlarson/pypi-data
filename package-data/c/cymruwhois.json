@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "CACHE": [
-      "python-memcached; extra == 'CACHE'"
+      "python-memcached; extra=='CACHE'"
     ]
   },
   "requires_python": "",

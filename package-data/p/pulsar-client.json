@@ -2,7 +2,7 @@
   "requires_dist": [
     "apache-bookkeeper-client (>=4.9.2)",
     "certifi",
-    "enum34 (>=1.1.9); python_version < '3.4'",
+    "enum34 (>=1.1.9); python_version<'3.4'",
     "fastavro",
     "grpcio",
     "prometheus-client",

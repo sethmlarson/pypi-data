@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "enum34 ; python_version < '3.4'",
+    "enum34; python_version<'3.4'",
     "ply",
     "PyUtilib (>=6.0)",
     "six (>=1.4)"

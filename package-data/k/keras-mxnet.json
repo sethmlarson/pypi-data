@@ -10,7 +10,7 @@
   ],
   "requires_extras": {
     "visualize": [
-      "pydot (>=1.2.4) ; extra == 'visualize'"
+      "pydot (>=1.2.4); extra=='visualize'"
     ]
   },
   "requires_python": "",

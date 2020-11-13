@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "enum34 ; python_version in '2.7'",
+    "enum34; python_version in '2.7'",
     "iso8601",
     "setuptools (>=11.3)",
     "translationstring"

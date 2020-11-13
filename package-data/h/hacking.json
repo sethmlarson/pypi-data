@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "pep257": [
-      "flake8-docstrings (==0.2.1.post1) ; extra == 'pep257'"
+      "flake8-docstrings (==0.2.1.post1); extra=='pep257'"
     ]
   },
   "requires_python": ">=3.5",

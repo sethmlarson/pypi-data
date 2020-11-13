@@ -4,22 +4,22 @@
   ],
   "requires_extras": {
     "code_style": [
-      "pre-commit (==2.6) ; extra == 'code_style'"
+      "pre-commit (==2.6); extra=='code_style'"
     ],
     "compare": [
-      "commonmark (~=0.9.1) ; extra == 'compare'",
-      "markdown (~=3.2.2) ; extra == 'compare'",
-      "mistletoe-ebp (~=0.10.0) ; extra == 'compare'",
-      "mistune (~=0.8.4) ; extra == 'compare'",
-      "panflute (~=1.12) ; extra == 'compare'"
+      "commonmark (~=0.9.1); extra=='compare'",
+      "markdown (~=3.2.2); extra=='compare'",
+      "mistletoe-ebp (~=0.10.0); extra=='compare'",
+      "mistune (~=0.8.4); extra=='compare'",
+      "panflute (~=1.12); extra=='compare'"
     ],
     "rtd": [
-      "myst-nb (~=0.10.0) ; extra == 'rtd'",
-      "pyyaml ; extra == 'rtd'",
-      "sphinx (<4,>=2) ; extra == 'rtd'",
-      "sphinx-book-theme ; extra == 'rtd'",
-      "sphinx-copybutton ; extra == 'rtd'",
-      "sphinx-panels (~=0.4.0) ; extra == 'rtd'"
+      "myst-nb (~=0.10.0); extra=='rtd'",
+      "pyyaml; extra=='rtd'",
+      "sphinx (<4,>=2); extra=='rtd'",
+      "sphinx-book-theme; extra=='rtd'",
+      "sphinx-copybutton; extra=='rtd'",
+      "sphinx-panels (~=0.4.0); extra=='rtd'"
     ]
   },
   "requires_python": "~=3.6",

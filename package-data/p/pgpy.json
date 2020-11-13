@@ -1,9 +1,9 @@
 {
   "requires_dist": [
     "cryptography (>=2.6)",
-    "enum34 ; python_version < '3.4'",
+    "enum34; python_version<'3.4'",
     "pyasn1",
-    "singledispatch ; python_version < '3.4'",
+    "singledispatch; python_version<'3.4'",
     "six (>=1.9.0)"
   ],
   "requires_extras": {},

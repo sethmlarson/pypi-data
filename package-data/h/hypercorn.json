@@ -4,18 +4,18 @@
     "h2 (>=3.1.0)",
     "priority",
     "toml",
-    "typing-extensions ; python_version < '3.8'",
+    "typing-extensions; python_version<'3.8'",
     "wsproto (>=0.14.0)"
   ],
   "requires_extras": {
     "h3": [
-      "aioquic (<1.0,>=0.9.0) ; extra == 'h3'"
+      "aioquic (<1.0,>=0.9.0); extra=='h3'"
     ],
     "trio": [
-      "trio (>=0.11.0) ; extra == 'trio'"
+      "trio (>=0.11.0); extra=='trio'"
     ],
     "uvloop": [
-      "uvloop ; extra == 'uvloop'"
+      "uvloop; extra=='uvloop'"
     ]
   },
   "requires_python": ">=3.7",

@@ -11,10 +11,10 @@
   ],
   "requires_extras": {
     "cuda": [
-      "cupy-cuda101 (==6.2.0) ; extra == 'cuda'"
+      "cupy-cuda101 (==6.2.0); extra=='cuda'"
     ],
     "mkl": [
-      "mkl (==2019.0) ; extra == 'mkl'"
+      "mkl (==2019.0); extra=='mkl'"
     ]
   },
   "requires_python": "",

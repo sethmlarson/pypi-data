@@ -7,10 +7,10 @@
   ],
   "requires_extras": {
     "component": [
-      "zope.component (>=4.0.1); extra == 'component'"
+      "zope.component (>=4.0.1); extra=='component'"
     ],
     "zcml": [
-      "zope.configuration; extra == 'zcml'"
+      "zope.configuration; extra=='zcml'"
     ]
   },
   "requires_python": "",

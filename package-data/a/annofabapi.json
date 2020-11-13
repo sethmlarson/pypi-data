@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "backoff",
-    "dataclasses; python_version < '3.7'",
+    "dataclasses; python_version<'3.7'",
     "dataclasses-json",
     "more-itertools",
     "python-dateutil",

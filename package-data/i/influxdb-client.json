@@ -10,11 +10,11 @@
   ],
   "requires_extras": {
     "ciso": [
-      "ciso8601 (>=2.1.1) ; extra == 'ciso'"
+      "ciso8601 (>=2.1.1); extra=='ciso'"
     ],
     "extra": [
-      "numpy ; extra == 'extra'",
-      "pandas (>=0.25.3) ; extra == 'extra'"
+      "numpy; extra=='extra'",
+      "pandas (>=0.25.3); extra=='extra'"
     ]
   },
   "requires_python": ">=3.6",

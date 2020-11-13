@@ -12,7 +12,7 @@
   ],
   "requires_extras": {
     "oslo_config": [
-      "oslo.config (>=5.2.0); extra == 'oslo_config'"
+      "oslo.config (>=5.2.0); extra=='oslo_config'"
     ]
   },
   "requires_python": ">=3.6",

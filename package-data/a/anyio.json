@@ -1,17 +1,17 @@
 {
   "requires_dist": [
-    "async-generator ; python_version < '3.7'",
-    "dataclasses ; python_version < '3.7'",
+    "async-generator; python_version<'3.7'",
+    "dataclasses; python_version<'3.7'",
     "idna (>=2.8)",
     "sniffio (>=1.1)",
-    "typing-extensions ; python_version < '3.8'"
+    "typing-extensions; python_version<'3.8'"
   ],
   "requires_extras": {
     "curio": [
-      "curio (>=1.4) ; extra == 'curio'"
+      "curio (>=1.4); extra=='curio'"
     ],
     "trio": [
-      "trio (>=0.16) ; extra == 'trio'"
+      "trio (>=0.16); extra=='trio'"
     ]
   },
   "requires_python": ">=3.6.2",

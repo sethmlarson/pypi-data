@@ -6,10 +6,10 @@
   ],
   "requires_extras": {
     "argon2": [
-      "argon2-cffi (>=16.1.0) ; extra == 'argon2'"
+      "argon2-cffi (>=16.1.0); extra=='argon2'"
     ],
     "bcrypt": [
-      "bcrypt ; extra == 'bcrypt'"
+      "bcrypt; extra=='bcrypt'"
     ]
   },
   "requires_python": ">=3.6",

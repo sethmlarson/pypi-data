@@ -4,13 +4,13 @@
   ],
   "requires_extras": {
     "deep": [
-      "azureml-interpret[deep]; extra == 'deep'"
+      "azureml-interpret[deep]; extra=='deep'"
     ],
     "mimic": [
-      "azureml-interpret[mimic]; extra == 'mimic'"
+      "azureml-interpret[mimic]; extra=='mimic'"
     ],
     "sample": [
-      "azureml-interpret[sample]; extra == 'sample'"
+      "azureml-interpret[sample]; extra=='sample'"
     ]
   },
   "requires_python": "",

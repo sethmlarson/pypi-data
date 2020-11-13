@@ -1,10 +1,10 @@
 {
   "requires_dist": [
-    "enum34; python_version < '3.4'",
+    "enum34; python_version<'3.4'",
     "graphviz",
     "matplotlib",
-    "numpy >=1.16.0",
-    "pandas >=0.24.0",
+    "numpy>=1.16.0",
+    "pandas>=0.24.0",
     "plotly",
     "scipy",
     "six"

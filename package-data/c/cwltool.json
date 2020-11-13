@@ -17,7 +17,7 @@
   ],
   "requires_extras": {
     "deps": [
-      "galaxy-tool-util ; extra == 'deps'"
+      "galaxy-tool-util; extra=='deps'"
     ]
   },
   "requires_python": ">=3.6, <4",

@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "snappy": [
-      "python-snappy (>=0.5) ; extra == 'snappy'"
+      "python-snappy (>=0.5); extra=='snappy'"
     ]
   },
   "requires_python": "",

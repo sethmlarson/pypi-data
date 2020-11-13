@@ -2,8 +2,8 @@
   "requires_dist": [
     "distro",
     "packaging",
-    "setuptools (<45,>=28.0.0) ; python_version < '3'",
-    "setuptools (>=28.0.0) ; python_version >= '3'",
+    "setuptools (<45,>=28.0.0); python_version<'3'",
+    "setuptools (>=28.0.0); python_version>='3'",
     "wheel (>=0.29.0)"
   ],
   "requires_extras": {},

@@ -2,7 +2,7 @@
   "requires_dist": [
     "cryptography (>=1.2.3)",
     "josepy (>=1.1.0)",
-    "mock ; python_version < '3.3'",
+    "mock; python_version<'3.3'",
     "PyOpenSSL (>=0.15.1)",
     "pyrfc3339",
     "pytz",

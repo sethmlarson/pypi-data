@@ -1,10 +1,10 @@
 {
   "requires_dist": [
     "aircv (==1.4.6)",
-    "apkutils (>=0.2.6) ; (python_version >= '3.4')",
+    "apkutils (>=0.2.6); (python_version>='3.4')",
     "colorama",
     "facebook-wda (>=0.2.1)",
-    "futures (>=3.0.5) ; (python_version <= '2.7')",
+    "futures (>=3.0.5); (python_version<='2.7')",
     "imageio (>=1.5)",
     "maproxy",
     "numpy",
@@ -12,7 +12,7 @@
     "PyYAML",
     "requests",
     "six",
-    "subprocess32 (>=3.2.7) ; (python_version <= '2.7')",
+    "subprocess32 (>=3.2.7); (python_version<='2.7')",
     "tornado (>=4.4)",
     "tqdm (>=4.5.0)",
     "uiautomator2"

@@ -5,10 +5,10 @@
   ],
   "requires_extras": {
     "filecache": [
-      "lockfile (>=0.9); extra == 'filecache'"
+      "lockfile (>=0.9); extra=='filecache'"
     ],
     "redis": [
-      "redis (>=2.10.5); extra == 'redis'"
+      "redis (>=2.10.5); extra=='redis'"
     ]
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",

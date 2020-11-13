@@ -4,12 +4,12 @@
   ],
   "requires_extras": {
     "django": [
-      "graphene-django (>=2.0.0); extra == 'django'"
+      "graphene-django (>=2.0.0); extra=='django'"
     ],
     "flask": [
-      "Flask (>=1.0.2); extra == 'flask'",
-      "Flask-Graphql (>=2.0.0); extra == 'flask'",
-      "graphene (>=2.1.2); extra == 'flask'"
+      "Flask (>=1.0.2); extra=='flask'",
+      "Flask-Graphql (>=2.0.0); extra=='flask'",
+      "graphene (>=2.1.2); extra=='flask'"
     ]
   },
   "requires_python": "",

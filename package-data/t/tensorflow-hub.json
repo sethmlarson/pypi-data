@@ -5,11 +5,11 @@
   ],
   "requires_extras": {
     "make_image_classifier": [
-      "keras-preprocessing[image] ; extra == 'make_image_classifier'"
+      "keras-preprocessing[image]; extra=='make_image_classifier'"
     ],
     "make_nearest_neighbour_index": [
-      "annoy ; extra == 'make_nearest_neighbour_index'",
-      "apache-beam ; extra == 'make_nearest_neighbour_index'"
+      "annoy; extra=='make_nearest_neighbour_index'",
+      "apache-beam; extra=='make_nearest_neighbour_index'"
     ]
   },
   "requires_python": "",

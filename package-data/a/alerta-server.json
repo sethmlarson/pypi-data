@@ -19,10 +19,10 @@
   ],
   "requires_extras": {
     "mongodb": [
-      "pymongo (>=3.0) ; extra == 'mongodb'"
+      "pymongo (>=3.0); extra=='mongodb'"
     ],
     "postgres": [
-      "psycopg2 ; extra == 'postgres'"
+      "psycopg2; extra=='postgres'"
     ]
   },
   "requires_python": ">=3.6",

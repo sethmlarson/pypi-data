@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "aniso8601 (>=0.82)",
-    "enum34 ; python_version < '3.4'",
+    "enum34; python_version<'3.4'",
     "Flask (>=0.8)",
     "jsonschema",
     "pytz",

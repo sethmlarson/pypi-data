@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "lint": [
-      "flake8 ; extra == 'lint'"
+      "flake8; extra=='lint'"
     ]
   },
   "requires_python": ">=3.5",

@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "dataclasses ; python_version < '3.7'"
+    "dataclasses; python_version<'3.7'"
   ],
   "requires_extras": {},
   "requires_python": ">=3.6",

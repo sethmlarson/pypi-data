@@ -4,13 +4,13 @@
   ],
   "requires_extras": {
     "deep": [
-      "interpret-community[deep]; extra == 'deep'"
+      "interpret-community[deep]; extra=='deep'"
     ],
     "mimic": [
-      "interpret-community[mimic]; extra == 'mimic'"
+      "interpret-community[mimic]; extra=='mimic'"
     ],
     "sample": [
-      "interpret-community[sample]; extra == 'sample'"
+      "interpret-community[sample]; extra=='sample'"
     ]
   },
   "requires_python": "",

@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "plotting": [
-      "pycairo (>=1.18.0) ; extra == 'plotting'"
+      "pycairo (>=1.18.0); extra=='plotting'"
     ]
   },
   "requires_python": "",

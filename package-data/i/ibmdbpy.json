@@ -9,8 +9,8 @@
   ],
   "requires_extras": {
     "jdbc": [
-      "JayDeBeApi (==1.*) ; extra == 'jdbc'",
-      "Jpype1 (==0.6.3) ; extra == 'jdbc'"
+      "JayDeBeApi (==1.*); extra=='jdbc'",
+      "Jpype1 (==0.6.3); extra=='jdbc'"
     ]
   },
   "requires_python": "",

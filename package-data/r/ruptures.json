@@ -5,7 +5,7 @@
   ],
   "requires_extras": {
     "display": [
-      "matplotlib ; extra == 'display'"
+      "matplotlib; extra=='display'"
     ]
   },
   "requires_python": ">=3",

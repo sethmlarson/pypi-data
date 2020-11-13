@@ -1,17 +1,17 @@
 {
   "requires_dist": [
-    "backports.functools-lru-cache ; python_version < '2.9'",
-    "mock ; python_version < '3.0'",
+    "backports.functools-lru-cache; python_version<'2.9'",
+    "mock; python_version<'3.0'",
     "numpy (>=1.13)",
     "python-dateutil"
   ],
   "requires_extras": {
     "documentation": [
-      "sphinx ; extra == 'documentation'"
+      "sphinx; extra=='documentation'"
     ],
     "gui": [
-      "matplotlib ; extra == 'gui'",
-      "qtpy ; extra == 'gui'"
+      "matplotlib; extra=='gui'",
+      "qtpy; extra=='gui'"
     ]
   },
   "requires_python": "",

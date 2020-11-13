@@ -2,13 +2,13 @@
   "requires_dist": [
     "attrs (>=16.0.0)",
     "cryptography",
-    "ipaddress ; python_version < '3.3'",
+    "ipaddress; python_version<'3.3'",
     "pyasn1",
     "pyasn1-modules"
   ],
   "requires_extras": {
     "idna": [
-      "idna ; extra == 'idna'"
+      "idna; extra=='idna'"
     ]
   },
   "requires_python": "",

@@ -25,37 +25,37 @@
   ],
   "requires_extras": {
     "all-spark2.4": [
-      "hmsclient (<1.0.0,>=0.0.1) ; extra == 'all-spark2.4'",
-      "k8s-proto (<1.0.0,>=0.0.3) ; extra == 'all-spark2.4'",
-      "numpy (<2.0.0,>=1.14.0) ; extra == 'all-spark2.4'",
-      "pandas (<2.0.0,>=0.22.0) ; extra == 'all-spark2.4'",
-      "pyarrow (<1.0.0,>=0.11.0) ; extra == 'all-spark2.4'",
-      "pyspark (<3.0.0,>=2.4.0) ; extra == 'all-spark2.4'"
+      "hmsclient (<1.0.0,>=0.0.1); extra=='all-spark2.4'",
+      "k8s-proto (<1.0.0,>=0.0.3); extra=='all-spark2.4'",
+      "numpy (<2.0.0,>=1.14.0); extra=='all-spark2.4'",
+      "pandas (<2.0.0,>=0.22.0); extra=='all-spark2.4'",
+      "pyarrow (<1.0.0,>=0.11.0); extra=='all-spark2.4'",
+      "pyspark (<3.0.0,>=2.4.0); extra=='all-spark2.4'"
     ],
     "all-spark3": [
-      "hmsclient (<1.0.0,>=0.0.1) ; extra == 'all-spark3'",
-      "k8s-proto (<1.0.0,>=0.0.3) ; extra == 'all-spark3'",
-      "numpy (<2.0.0,>=1.14.0) ; extra == 'all-spark3'",
-      "pandas (<2.0.0,>=0.22.0) ; extra == 'all-spark3'",
-      "pyarrow (<1.0.0,>=0.11.0) ; extra == 'all-spark3'",
-      "pyspark (>=3.0.0) ; extra == 'all-spark3'"
+      "hmsclient (<1.0.0,>=0.0.1); extra=='all-spark3'",
+      "k8s-proto (<1.0.0,>=0.0.3); extra=='all-spark3'",
+      "numpy (<2.0.0,>=1.14.0); extra=='all-spark3'",
+      "pandas (<2.0.0,>=0.22.0); extra=='all-spark3'",
+      "pyarrow (<1.0.0,>=0.11.0); extra=='all-spark3'",
+      "pyspark (>=3.0.0); extra=='all-spark3'"
     ],
     "hive_sensor": [
-      "hmsclient (<1.0.0,>=0.0.1) ; extra == 'hive_sensor'"
+      "hmsclient (<1.0.0,>=0.0.1); extra=='hive_sensor'"
     ],
     "schema": [
-      "numpy (<2.0.0,>=1.14.0) ; extra == 'schema'",
-      "pandas (<2.0.0,>=0.22.0) ; extra == 'schema'",
-      "pyarrow (<1.0.0,>=0.11.0) ; extra == 'schema'"
+      "numpy (<2.0.0,>=1.14.0); extra=='schema'",
+      "pandas (<2.0.0,>=0.22.0); extra=='schema'",
+      "pyarrow (<1.0.0,>=0.11.0); extra=='schema'"
     ],
     "sidecar": [
-      "k8s-proto (<1.0.0,>=0.0.3) ; extra == 'sidecar'"
+      "k8s-proto (<1.0.0,>=0.0.3); extra=='sidecar'"
     ],
     "spark": [
-      "pyspark (<3.0.0,>=2.4.0) ; extra == 'spark'"
+      "pyspark (<3.0.0,>=2.4.0); extra=='spark'"
     ],
     "spark3": [
-      "pyspark (>=3.0.0) ; extra == 'spark3'"
+      "pyspark (>=3.0.0); extra=='spark3'"
     ]
   },
   "requires_python": ">=3.6",

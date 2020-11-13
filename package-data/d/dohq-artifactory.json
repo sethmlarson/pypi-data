@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "pathlib ; python_version < '3.4'",
+    "pathlib; python_version<'3.4'",
     "PyJWT",
     "python-dateutil",
     "requests"

@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "selectors2 ; python_version < '3.4'"
+    "selectors2; python_version<'3.4'"
   ],
   "requires_extras": {},
   "requires_python": ">=2.7",

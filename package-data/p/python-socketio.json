@@ -5,12 +5,12 @@
   ],
   "requires_extras": {
     "asyncio_client": [
-      "aiohttp (>=3.4) ; extra == 'asyncio_client'",
-      "websockets (>=7.0) ; extra == 'asyncio_client'"
+      "aiohttp (>=3.4); extra=='asyncio_client'",
+      "websockets (>=7.0); extra=='asyncio_client'"
     ],
     "client": [
-      "requests (>=2.21.0) ; extra == 'client'",
-      "websocket-client (>=0.54.0) ; extra == 'client'"
+      "requests (>=2.21.0); extra=='client'",
+      "websocket-client (>=0.54.0); extra=='client'"
     ]
   },
   "requires_python": "",

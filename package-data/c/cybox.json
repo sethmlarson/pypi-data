@@ -1,7 +1,7 @@
 {
   "requires_dist": [
-    "lxml (<4.4.0,>=2.2.3) ; python_version > '2.7' and python_version < '3.5'",
-    "lxml (>=2.2.3) ; python_version == '2.7' or python_version >= '3.5'",
+    "lxml (<4.4.0,>=2.2.3); python_version>'2.7' and python_version<'3.5'",
+    "lxml (>=2.2.3); python_version=='2.7' or python_version>='3.5'",
     "mixbox (>=1.0.2)",
     "python-dateutil"
   ],

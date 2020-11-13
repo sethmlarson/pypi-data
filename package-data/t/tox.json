@@ -1,8 +1,8 @@
 {
   "requires_dist": [
-    "colorama (>=0.4.1) ; platform_system == 'Windows'",
+    "colorama (>=0.4.1); platform_system=='Windows'",
     "filelock (>=3.0.0)",
-    "importlib-metadata (<3,>=0.12) ; python_version < '3.8'",
+    "importlib-metadata (<3,>=0.12); python_version<'3.8'",
     "packaging (>=14)",
     "pluggy (>=0.12.0)",
     "py (>=1.4.17)",

@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "colorama (>=0.2.4) ; sys_platform == 'win32'",
+    "colorama (>=0.2.4); sys_platform=='win32'",
     "Pygments (>=2.5.2)",
     "requests-toolbelt (>=0.9.1)",
     "requests[socks] (>=2.22.0)"

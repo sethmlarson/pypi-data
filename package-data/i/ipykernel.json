@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "appnope ; platform_system == 'Darwin'",
+    "appnope; platform_system=='Darwin'",
     "ipython (>=5.0.0)",
     "jupyter-client",
     "tornado (>=4.2)",

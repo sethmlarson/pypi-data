@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "argparse ; python_version=='2.6'",
+    "argparse; python_version=='2.6'",
     "setuptools",
     "six",
     "zc.buildout"

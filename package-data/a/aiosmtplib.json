@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "uvloop": [
-      "uvloop (>=0.13,<0.15); extra == 'uvloop'"
+      "uvloop (>=0.13,<0.15); extra=='uvloop'"
     ]
   },
   "requires_python": ">=3.5.2,<4.0.0",

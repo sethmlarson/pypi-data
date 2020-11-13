@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "scipy": [
-      "scipy ; extra == 'scipy'"
+      "scipy; extra=='scipy'"
     ]
   },
   "requires_python": "",

@@ -3,12 +3,12 @@
     "numpy",
     "protobuf",
     "six",
-    "typing (>=3.6.4) ; python_version < '3.5'",
+    "typing (>=3.6.4); python_version<'3.5'",
     "typing-extensions (>=3.6.2.1)"
   ],
   "requires_extras": {
     "mypy": [
-      "mypy (==0.600) ; extra == 'mypy'"
+      "mypy (==0.600); extra=='mypy'"
     ]
   },
   "requires_python": "",

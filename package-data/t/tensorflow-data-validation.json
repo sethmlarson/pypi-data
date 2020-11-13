@@ -15,10 +15,10 @@
   ],
   "requires_extras": {
     "mutual-information": [
-      "scikit-learn (<0.24,>=0.18) ; extra == 'mutual-information'"
+      "scikit-learn (<0.24,>=0.18); extra=='mutual-information'"
     ],
     "visualization": [
-      "ipython (<8,>=7) ; extra == 'visualization'"
+      "ipython (<8,>=7); extra=='visualization'"
     ]
   },
   "requires_python": ">=3.6,<4",

@@ -12,10 +12,10 @@
   ],
   "requires_extras": {
     "fixtures": [
-      "fixtures (>=3.0.0); extra == 'fixtures'"
+      "fixtures (>=3.0.0); extra=='fixtures'"
     ],
     "systemd": [
-      "systemd-python (>=234); extra == 'systemd'"
+      "systemd-python (>=234); extra=='systemd'"
     ]
   },
   "requires_python": ">=3.6",

@@ -4,10 +4,10 @@
   ],
   "requires_extras": {
     "mysql": [
-      "mysql-connector-python ; extra == 'mysql'"
+      "mysql-connector-python; extra=='mysql'"
     ],
     "postgresql": [
-      "psycopg2 ; extra == 'postgresql'"
+      "psycopg2; extra=='postgresql'"
     ]
   },
   "requires_python": "",

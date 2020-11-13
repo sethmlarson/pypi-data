@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "murmur": [
-      "mmh3 ; extra == 'murmur'"
+      "mmh3; extra=='murmur'"
     ]
   },
   "requires_python": ">=3.5",

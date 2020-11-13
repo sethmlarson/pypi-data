@@ -8,12 +8,12 @@
   ],
   "requires_extras": {
     "btrees": [
-      "BTrees; extra == 'btrees'",
-      "persistent; extra == 'btrees'"
+      "BTrees; extra=='btrees'",
+      "persistent; extra=='btrees'"
     ],
     "zcml": [
-      "zope.component[zcml]; extra == 'zcml'",
-      "zope.configuration; extra == 'zcml'"
+      "zope.component[zcml]; extra=='zcml'",
+      "zope.configuration; extra=='zcml'"
     ]
   },
   "requires_python": "",

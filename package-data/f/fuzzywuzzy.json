@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "speedup": [
-      "python-levenshtein (>=0.12) ; extra == 'speedup'"
+      "python-levenshtein (>=0.12); extra=='speedup'"
     ]
   },
   "requires_python": "",

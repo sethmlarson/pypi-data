@@ -3,16 +3,16 @@
     "async-timeout (<4.0,>=3.0)",
     "attrs (>=17.3.0)",
     "chardet (<4.0,>=2.0)",
-    "idna-ssl (>=1.0) ; python_version < '3.7'",
+    "idna-ssl (>=1.0); python_version<'3.7'",
     "multidict (<5.0,>=4.5)",
     "typing-extensions (>=3.6.5)",
     "yarl (<2.0,>=1.0)"
   ],
   "requires_extras": {
     "speedups": [
-      "aiodns (>=1.1) ; extra == 'speedups'",
-      "Brotli ; extra == 'speedups'",
-      "cchardet ; extra == 'speedups'"
+      "aiodns (>=1.1); extra=='speedups'",
+      "Brotli; extra=='speedups'",
+      "cchardet; extra=='speedups'"
     ]
   },
   "requires_python": ">=3.6",

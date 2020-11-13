@@ -6,13 +6,13 @@
   ],
   "requires_extras": {
     "fastavro": [
-      "fastavro (>=0.21.2) ; extra == 'fastavro'"
+      "fastavro (>=0.21.2); extra=='fastavro'"
     ],
     "pandas": [
-      "pandas (>=0.17.1) ; extra == 'pandas'"
+      "pandas (>=0.17.1); extra=='pandas'"
     ],
     "pyarrow": [
-      "pyarrow (>=0.15.0) ; extra == 'pyarrow'"
+      "pyarrow (>=0.15.0); extra=='pyarrow'"
     ]
   },
   "requires_python": ">=3.6",

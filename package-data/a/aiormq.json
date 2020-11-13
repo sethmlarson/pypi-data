@@ -5,14 +5,14 @@
   ],
   "requires_extras": {
     "develop": [
-      "aiomisc (~=11.0) ; extra == 'develop'",
-      "async-generator ; extra == 'develop'",
-      "coverage (!=4.3) ; extra == 'develop'",
-      "coveralls ; extra == 'develop'",
-      "pylava ; extra == 'develop'",
-      "pytest ; extra == 'develop'",
-      "pytest-cov ; extra == 'develop'",
-      "tox (>=2.4) ; extra == 'develop'"
+      "aiomisc (~=11.0); extra=='develop'",
+      "async-generator; extra=='develop'",
+      "coverage (!=4.3); extra=='develop'",
+      "coveralls; extra=='develop'",
+      "pylava; extra=='develop'",
+      "pytest; extra=='develop'",
+      "pytest-cov; extra=='develop'",
+      "tox (>=2.4); extra=='develop'"
     ]
   },
   "requires_python": ">3.5.*",

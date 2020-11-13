@@ -9,22 +9,22 @@
   ],
   "requires_extras": {
     "brotli": [
-      "brotli ; extra == 'brotli'"
+      "brotli; extra=='brotli'"
     ],
     "lz4": [
-      "lz4 (>=0.19.1) ; extra == 'lz4'"
+      "lz4 (>=0.19.1); extra=='lz4'"
     ],
     "lzo": [
-      "python-lzo ; extra == 'lzo'"
+      "python-lzo; extra=='lzo'"
     ],
     "snappy": [
-      "python-snappy ; extra == 'snappy'"
+      "python-snappy; extra=='snappy'"
     ],
     "zstandard": [
-      "zstandard ; extra == 'zstandard'"
+      "zstandard; extra=='zstandard'"
     ],
     "zstd": [
-      "zstd ; extra == 'zstd'"
+      "zstd; extra=='zstd'"
     ]
   },
   "requires_python": ">=3.6,",

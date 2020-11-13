@@ -22,29 +22,29 @@
   ],
   "requires_extras": {
     "airflow": [
-      "apache-airflow[s3] (>=1.9.0) ; extra == 'airflow'",
-      "boto3 (>=1.7.3) ; extra == 'airflow'"
+      "apache-airflow[s3] (>=1.9.0); extra=='airflow'",
+      "boto3 (>=1.7.3); extra=='airflow'"
     ],
     "gcp": [
-      "google-cloud (>=0.34.0) ; extra == 'gcp'",
-      "google-cloud-secret-manager (>=1.0.0) ; extra == 'gcp'",
-      "google-cloud-storage (>=1.28.0) ; extra == 'gcp'",
-      "pybigquery (==0.4.15) ; extra == 'gcp'"
+      "google-cloud (>=0.34.0); extra=='gcp'",
+      "google-cloud-secret-manager (>=1.0.0); extra=='gcp'",
+      "google-cloud-storage (>=1.28.0); extra=='gcp'",
+      "pybigquery (==0.4.15); extra=='gcp'"
     ],
     "redshift": [
-      "psycopg2 (>=2.8) ; extra == 'redshift'"
+      "psycopg2 (>=2.8); extra=='redshift'"
     ],
     "s3": [
-      "boto3 (>=1.14) ; extra == 's3'"
+      "boto3 (>=1.14); extra=='s3'"
     ],
     "snowflake": [
-      "snowflake-sqlalchemy (>=1.2) ; extra == 'snowflake'"
+      "snowflake-sqlalchemy (>=1.2); extra=='snowflake'"
     ],
     "spark": [
-      "pyspark (>=2.3.2) ; extra == 'spark'"
+      "pyspark (>=2.3.2); extra=='spark'"
     ],
     "sqlalchemy": [
-      "sqlalchemy (>=1.2) ; extra == 'sqlalchemy'"
+      "sqlalchemy (>=1.2); extra=='sqlalchemy'"
     ]
   },
   "requires_python": "",

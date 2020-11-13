@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "keystone": [
-      "python-keystoneclient (>=0.7.0); extra == 'keystone'"
+      "python-keystoneclient (>=0.7.0); extra=='keystone'"
     ]
   },
   "requires_python": "",

@@ -9,29 +9,29 @@
   ],
   "requires_extras": {
     "cf": [
-      "xarray ; extra == 'cf'"
+      "xarray; extra=='cf'"
     ],
     "dask": [
-      "dask (>=0.16.1) ; extra == 'dask'"
+      "dask (>=0.16.1); extra=='dask'"
     ],
     "gradient_search": [
-      "shapely ; extra == 'gradient_search'"
+      "shapely; extra=='gradient_search'"
     ],
     "numexpr": [
-      "numexpr ; extra == 'numexpr'"
+      "numexpr; extra=='numexpr'"
     ],
     "quicklook": [
-      "cartopy ; extra == 'quicklook'",
-      "matplotlib ; extra == 'quicklook'",
-      "pillow ; extra == 'quicklook'"
+      "cartopy; extra=='quicklook'",
+      "matplotlib; extra=='quicklook'",
+      "pillow; extra=='quicklook'"
     ],
     "rasterio": [
-      "rasterio ; extra == 'rasterio'"
+      "rasterio; extra=='rasterio'"
     ],
     "xarray_bilinear": [
-      "dask ; extra == 'xarray_bilinear'",
-      "xarray ; extra == 'xarray_bilinear'",
-      "zarr ; extra == 'xarray_bilinear'"
+      "dask; extra=='xarray_bilinear'",
+      "xarray; extra=='xarray_bilinear'",
+      "zarr; extra=='xarray_bilinear'"
     ]
   },
   "requires_python": ">=3.4",

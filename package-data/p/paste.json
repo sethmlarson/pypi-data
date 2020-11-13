@@ -5,10 +5,10 @@
   ],
   "requires_extras": {
     "flup": [
-      "flup ; extra == 'flup'"
+      "flup; extra=='flup'"
     ],
     "openid": [
-      "python-openid ; extra == 'openid'"
+      "python-openid; extra=='openid'"
     ]
   },
   "requires_python": "",

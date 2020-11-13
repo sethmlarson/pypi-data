@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "taggit": [
-      "django-taggit (>=0.20); extra == 'taggit'"
+      "django-taggit (>=0.20); extra=='taggit'"
     ]
   },
   "requires_python": ">=3.5",

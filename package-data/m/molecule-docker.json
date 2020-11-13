@@ -2,12 +2,12 @@
   "requires_dist": [
     "docker (>=4.3.1)",
     "molecule (>=3.2.0a0)",
-    "selinux ; sys_platform == 'linux'",
-    "selinux ; sys_platform == 'linux2'"
+    "selinux; sys_platform=='linux'",
+    "selinux; sys_platform=='linux2'"
   ],
   "requires_extras": {
     "lint": [
-      "pre-commit (>=1.21.0) ; extra == 'lint'"
+      "pre-commit (>=1.21.0); extra=='lint'"
     ]
   },
   "requires_python": ">=3.6",

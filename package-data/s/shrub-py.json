@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "dataclasses (>=0.7,<0.8); python_version >= '3.6.0' and python_version < '3.7.0'",
+    "dataclasses (>=0.7,<0.8); python_version>='3.6.0' and python_version<'3.7.0'",
     "PyYaml (>=5.1,<6.0)"
   ],
   "requires_extras": {},

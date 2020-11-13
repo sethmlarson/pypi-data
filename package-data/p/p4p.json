@@ -7,7 +7,7 @@
   ],
   "requires_extras": {
     "qt": [
-      "qtpy ; extra == 'qt'"
+      "qtpy; extra=='qt'"
     ]
   },
   "requires_python": ">=2.7",

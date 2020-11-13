@@ -11,7 +11,7 @@
   ],
   "requires_extras": {
     "cli": [
-      "requests ; extra == 'cli'"
+      "requests; extra=='cli'"
     ]
   },
   "requires_python": "",

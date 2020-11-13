@@ -10,16 +10,16 @@
   ],
   "requires_extras": {
     "plotting": [
-      "matplotlib ; extra == 'plotting'",
-      "pydot ; extra == 'plotting'",
-      "pygraphviz ; extra == 'plotting'"
+      "matplotlib; extra=='plotting'",
+      "pydot; extra=='plotting'",
+      "pygraphviz; extra=='plotting'"
     ],
     "type_geometry": [
-      "shapely ; extra == 'type_geometry'"
+      "shapely; extra=='type_geometry'"
     ],
     "type_image_path": [
-      "imagehash ; extra == 'type_image_path'",
-      "Pillow ; extra == 'type_image_path'"
+      "imagehash; extra=='type_image_path'",
+      "Pillow; extra=='type_image_path'"
     ]
   },
   "requires_python": ">=3.6",

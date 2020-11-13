@@ -6,9 +6,9 @@
   ],
   "requires_extras": {
     "zcml": [
-      "zope.component[zcml]; extra == 'zcml'",
-      "zope.configuration; extra == 'zcml'",
-      "zope.security[zcml]; extra == 'zcml'"
+      "zope.component[zcml]; extra=='zcml'",
+      "zope.configuration; extra=='zcml'",
+      "zope.security[zcml]; extra=='zcml'"
     ]
   },
   "requires_python": "",

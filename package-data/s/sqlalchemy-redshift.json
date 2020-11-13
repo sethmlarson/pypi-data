@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "enum34 (<2.0.0,>=1.1.6) ; python_version < '3.4'",
+    "enum34 (<2.0.0,>=1.1.6); python_version<'3.4'",
     "packaging",
     "SQLAlchemy (<2.0.0,>=0.9.2)"
   ],

@@ -2,20 +2,20 @@
   "requires_dist": [
     "docopt",
     "openpyxl (<2.5.0)",
-    "SQLAlchemy (<1.1) ; python_version < '3.0'",
-    "SQLAlchemy ; python_version >= '3.0'",
+    "SQLAlchemy (<1.1); python_version<'3.0'",
+    "SQLAlchemy; python_version>='3.0'",
     "tablib (>=0.11.4)"
   ],
   "requires_extras": {
     "pandas": [
-      "tablib[pandas] ; extra == 'pandas'"
+      "tablib[pandas]; extra=='pandas'"
     ],
     "pg": [
-      "psycopg2 ; extra == 'pg'"
+      "psycopg2; extra=='pg'"
     ],
     "redshift": [
-      "psycopg2 ; extra == 'redshift'",
-      "sqlalchemy-redshift ; extra == 'redshift'"
+      "psycopg2; extra=='redshift'",
+      "sqlalchemy-redshift; extra=='redshift'"
     ]
   },
   "requires_python": "",

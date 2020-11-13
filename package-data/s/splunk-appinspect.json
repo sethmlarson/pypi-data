@@ -3,7 +3,7 @@
     "beautifulsoup4 (==4.8.1)",
     "chardet (==3.0.4)",
     "click (==7.0)",
-    "enum34 (==1.1.6) ; python_version < '3.4'",
+    "enum34 (==1.1.6); python_version<'3.4'",
     "future (==0.17.1)",
     "futures-then (==0.1.1)",
     "ipaddress (==1.0.22)",

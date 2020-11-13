@@ -7,8 +7,8 @@
   ],
   "requires_extras": {
     "pydantic": [
-      "pydantic (>=1.6.0,<2.0.0); extra == 'pydantic'",
-      "typing_extensions (>=3.7.4.2,<4.0.0.0); extra == 'pydantic'"
+      "pydantic (>=1.6.0,<2.0.0); extra=='pydantic'",
+      "typing_extensions (>=3.7.4.2,<4.0.0.0); extra=='pydantic'"
     ]
   },
   "requires_python": ">=3.6,<4.0",

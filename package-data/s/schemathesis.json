@@ -6,7 +6,7 @@
     "hypothesis (>=5.15,<6.0)",
     "hypothesis_graphql (>=0.3)",
     "hypothesis_jsonschema (>=0.17.0,<1.0)",
-    "importlib_metadata (>=1.1,<2.0); python_version < '3.8'",
+    "importlib_metadata (>=1.1,<2.0); python_version<'3.8'",
     "jsonschema (>=3.0.0,<4.0.0)",
     "junit-xml (>=1.9,<2.0)",
     "pytest (>4.6.4)",

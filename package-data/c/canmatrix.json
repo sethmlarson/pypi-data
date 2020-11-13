@@ -5,27 +5,27 @@
     "click",
     "future",
     "pathlib2",
-    "typing ; python_version < '3.5'"
+    "typing; python_version<'3.5'"
   ],
   "requires_extras": {
     "arxml": [
-      "lxml ; extra == 'arxml'"
+      "lxml; extra=='arxml'"
     ],
     "fibex": [
-      "lxml ; extra == 'fibex'"
+      "lxml; extra=='fibex'"
     ],
     "kcd": [
-      "lxml ; extra == 'kcd'"
+      "lxml; extra=='kcd'"
     ],
     "xls": [
-      "xlrd ; extra == 'xls'",
-      "xlwt ; extra == 'xls'"
+      "xlrd; extra=='xls'",
+      "xlwt; extra=='xls'"
     ],
     "xlsx": [
-      "xlsxwriter ; extra == 'xlsx'"
+      "xlsxwriter; extra=='xlsx'"
     ],
     "yaml": [
-      "pyyaml ; extra == 'yaml'"
+      "pyyaml; extra=='yaml'"
     ]
   },
   "requires_python": "",

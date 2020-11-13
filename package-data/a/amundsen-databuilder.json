@@ -9,45 +9,45 @@
     "requests (<3.0,>=2.23.0)",
     "retrying (>=1.3.3)",
     "statsd (>=3.2.1)",
-    "typing (>=3.6) ; python_version=='2.7'",
+    "typing (>=3.6); python_version=='2.7'",
     "unidecode"
   ],
   "requires_extras": {
     "athena": [
-      "PyAthena[sqlalchemy] (>=1.0.0) ; extra == 'athena'"
+      "PyAthena[sqlalchemy] (>=1.0.0); extra=='athena'"
     ],
     "bigquery": [
-      "google-api-python-client (<2.0.0dev,>=1.6.0) ; extra == 'bigquery'",
-      "google-auth-httplib2 (<2.0.0dev,>=0.0.1google-auth>=1.0.0) ; extra == 'bigquery'"
+      "google-api-python-client (<2.0.0dev,>=1.6.0); extra=='bigquery'",
+      "google-auth-httplib2 (<2.0.0dev,>=0.0.1google-auth>=1.0.0); extra=='bigquery'"
     ],
     "cassandra": [
-      "cassandra-driver (==3.20.1) ; extra == 'cassandra'"
+      "cassandra-driver (==3.20.1); extra=='cassandra'"
     ],
     "db2": [
-      "ibm-db (==3.0.1) ; extra == 'db2'",
-      "ibm-db-sa-py3 (==0.3.1-1) ; extra == 'db2'"
+      "ibm-db (==3.0.1); extra=='db2'",
+      "ibm-db-sa-py3 (==0.3.1-1); extra=='db2'"
     ],
     "delta-lake": [
-      "pyspark (==3.0.1) ; extra == 'delta-lake'"
+      "pyspark (==3.0.1); extra=='delta-lake'"
     ],
     "dremio": [
-      "pyodbc (==4.0.30) ; extra == 'dremio'"
+      "pyodbc (==4.0.30); extra=='dremio'"
     ],
     "druid": [
-      "pydruid ; extra == 'druid'"
+      "pydruid; extra=='druid'"
     ],
     "glue": [
-      "boto3 (==1.10.1) ; extra == 'glue'"
+      "boto3 (==1.10.1); extra=='glue'"
     ],
     "jsonpath": [
-      "jsonpath-rw (==1.4.0) ; extra == 'jsonpath'"
+      "jsonpath-rw (==1.4.0); extra=='jsonpath'"
     ],
     "kafka": [
-      "confluent-kafka (==1.0.0) ; extra == 'kafka'"
+      "confluent-kafka (==1.0.0); extra=='kafka'"
     ],
     "snowflake": [
-      "snowflake-connector-python ; extra == 'snowflake'",
-      "snowflake-sqlalchemy ; extra == 'snowflake'"
+      "snowflake-connector-python; extra=='snowflake'",
+      "snowflake-sqlalchemy; extra=='snowflake'"
     ]
   },
   "requires_python": ">=3.6,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*",

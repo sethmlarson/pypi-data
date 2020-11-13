@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "sa": [
-      "sqlalchemy[postgresql_psycopg2binary] (>=1.1) ; extra == 'sa'"
+      "sqlalchemy[postgresql_psycopg2binary] (>=1.1); extra=='sa'"
     ]
   },
   "requires_python": ">=3.5.3",

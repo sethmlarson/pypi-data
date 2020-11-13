@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "asgi-file-uploads": [
-      "python-multipart (>=0.0.5) ; extra == 'asgi-file-uploads'"
+      "python-multipart (>=0.0.5); extra=='asgi-file-uploads'"
     ]
   },
   "requires_python": "",

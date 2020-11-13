@@ -13,33 +13,33 @@
     "pluggy (<1.0,>=0.7.1)",
     "PyYAML (<6,>=5.1)",
     "rich (>=6.0)",
-    "selinux ; sys_platform == 'linux'",
-    "selinux ; sys_platform == 'linux2'",
+    "selinux; sys_platform=='linux'",
+    "selinux; sys_platform=='linux2'",
     "setuptools (>=42)",
     "subprocess-tee (>=0.1.2)",
     "yamllint (<2,>=1.15.0)"
   ],
   "requires_extras": {
     "ansible": [
-      "ansible (>=2.10) ; extra == 'ansible'"
+      "ansible (>=2.10); extra=='ansible'"
     ],
     "ansible_base": [
-      "ansible-base (>=2.10) ; extra == 'ansible_base'"
+      "ansible-base (>=2.10); extra=='ansible_base'"
     ],
     "docker": [
-      "molecule-docker ; extra == 'docker'"
+      "molecule-docker; extra=='docker'"
     ],
     "lint": [
-      "ansible-lint (<5,>=4.2.0) ; extra == 'lint'",
-      "flake8 (>=3.6.0) ; extra == 'lint'",
-      "pre-commit (>=1.21.0) ; extra == 'lint'",
-      "yamllint (>=1.15.0) ; extra == 'lint'"
+      "ansible-lint (<5,>=4.2.0); extra=='lint'",
+      "flake8 (>=3.6.0); extra=='lint'",
+      "pre-commit (>=1.21.0); extra=='lint'",
+      "yamllint (>=1.15.0); extra=='lint'"
     ],
     "podman": [
-      "molecule-podman ; extra == 'podman'"
+      "molecule-podman; extra=='podman'"
     ],
     "windows": [
-      "pywinrm ; extra == 'windows'"
+      "pywinrm; extra=='windows'"
     ]
   },
   "requires_python": ">=3.6",

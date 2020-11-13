@@ -12,11 +12,11 @@
   ],
   "requires_extras": {
     "gui": [
-      "pyperclip ; extra == 'gui'",
-      "PyQt5 ; extra == 'gui'"
+      "pyperclip; extra=='gui'",
+      "PyQt5; extra=='gui'"
     ],
     "magic": [
-      "python-magic-bin (>=0.4.14) ; extra == 'magic'"
+      "python-magic-bin (>=0.4.14); extra=='magic'"
     ]
   },
   "requires_python": ">=3.5",

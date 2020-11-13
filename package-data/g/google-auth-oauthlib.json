@@ -5,7 +5,7 @@
   ],
   "requires_extras": {
     "tool": [
-      "click ; extra == 'tool'"
+      "click; extra=='tool'"
     ]
   },
   "requires_python": ">=3.6",

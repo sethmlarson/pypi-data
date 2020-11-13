@@ -2,7 +2,7 @@
   "requires_dist": [
     "lazy-object-proxy (==1.4.*)",
     "six (~=1.12)",
-    "typed-ast (<1.5,>=1.4.0) ; implementation_name == 'cpython' and python_version < '3.8'",
+    "typed-ast (<1.5,>=1.4.0); implementation_name=='cpython' and python_version<'3.8'",
     "wrapt (~=1.11)"
   ],
   "requires_extras": {},

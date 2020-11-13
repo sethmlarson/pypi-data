@@ -4,16 +4,16 @@
   ],
   "requires_extras": {
     "cache": [
-      "django-cache-url ; extra == 'cache'"
+      "django-cache-url; extra=='cache'"
     ],
     "database": [
-      "dj-database-url ; extra == 'database'"
+      "dj-database-url; extra=='database'"
     ],
     "email": [
-      "dj-email-url ; extra == 'email'"
+      "dj-email-url; extra=='email'"
     ],
     "search": [
-      "dj-search-url ; extra == 'search'"
+      "dj-search-url; extra=='search'"
     ]
   },
   "requires_python": "",

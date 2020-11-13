@@ -8,10 +8,10 @@
   ],
   "requires_extras": {
     "json": [
-      "ujson ; extra == 'json'"
+      "ujson; extra=='json'"
     ],
     "socks": [
-      "PySocks ; extra == 'socks'"
+      "PySocks; extra=='socks'"
     ]
   },
   "requires_python": "",

@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "dataclasses (>=0.6) ; python_version < '3.7'",
+    "dataclasses (>=0.6); python_version<'3.7'",
     "matplotlib (>=1.5)",
     "monty (>=3.0.2)",
     "networkx (>=2.2)",
@@ -18,16 +18,16 @@
   ],
   "requires_extras": {
     "abinit": [
-      "netcdf4 ; extra == 'abinit'"
+      "netcdf4; extra=='abinit'"
     ],
     "ase": [
-      "ase (>=3.3) ; extra == 'ase'"
+      "ase (>=3.3); extra=='ase'"
     ],
     "provenance": [
-      "pybtex ; extra == 'provenance'"
+      "pybtex; extra=='provenance'"
     ],
     "vis": [
-      "vtk (>=6.0.0) ; extra == 'vis'"
+      "vtk (>=6.0.0); extra=='vis'"
     ]
   },
   "requires_python": ">=3.6",

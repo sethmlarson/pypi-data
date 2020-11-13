@@ -5,7 +5,7 @@
   ],
   "requires_extras": {
     "aio": [
-      "aiohttp (<4,>=3.4.4) ; (python_full_version >= '3.5.3') and extra == 'aio'"
+      "aiohttp (<4,>=3.4.4); (python_full_version>='3.5.3') and extra=='aio'"
     ]
   },
   "requires_python": "",

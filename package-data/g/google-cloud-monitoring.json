@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "pandas": [
-      "pandas (>=0.17.1) ; extra == 'pandas'"
+      "pandas (>=0.17.1); extra=='pandas'"
     ]
   },
   "requires_python": ">=3.6",

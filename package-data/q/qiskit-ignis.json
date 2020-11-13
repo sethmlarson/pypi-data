@@ -8,13 +8,13 @@
   ],
   "requires_extras": {
     "cvx": [
-      "cvxpy (>=1.0.15) ; extra == 'cvx'"
+      "cvxpy (>=1.0.15); extra=='cvx'"
     ],
     "jit": [
-      "numba ; extra == 'jit'"
+      "numba; extra=='jit'"
     ],
     "visualization": [
-      "matplotlib (>=2.1) ; extra == 'visualization'"
+      "matplotlib (>=2.1); extra=='visualization'"
     ]
   },
   "requires_python": ">=3.6",

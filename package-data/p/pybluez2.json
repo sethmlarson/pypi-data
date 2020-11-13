@@ -5,7 +5,7 @@
   ],
   "requires_extras": {
     "ble": [
-      "gattlib ; extra == 'ble'"
+      "gattlib; extra=='ble'"
     ]
   },
   "requires_python": ">=3.6",

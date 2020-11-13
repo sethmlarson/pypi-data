@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "pathlib (~=1.0.1) ; python_version < '3.4'",
+    "pathlib (~=1.0.1); python_version<'3.4'",
     "setuptools",
     "six (~=1.11)",
     "wheel"

@@ -4,76 +4,76 @@
   ],
   "requires_extras": {
     "airflow": [
-      "dbnd-airflow[airflow] (==0.30.0) ; extra == 'airflow'"
+      "dbnd-airflow[airflow] (==0.30.0); extra=='airflow'"
     ],
     "airflow-auto-tracking": [
-      "dbnd-airflow-auto-tracking (==0.30.0) ; extra == 'airflow-auto-tracking'"
+      "dbnd-airflow-auto-tracking (==0.30.0); extra=='airflow-auto-tracking'"
     ],
     "airflow-export": [
-      "dbnd-airflow-export (==0.30.0) ; extra == 'airflow-export'"
+      "dbnd-airflow-export (==0.30.0); extra=='airflow-export'"
     ],
     "airflow-operator": [
-      "dbnd-airflow-operator (==0.30.0) ; extra == 'airflow-operator'"
+      "dbnd-airflow-operator (==0.30.0); extra=='airflow-operator'"
     ],
     "airflow-versioned-dag": [
-      "dbnd-airflow-versioned-dag (==0.30.0) ; extra == 'airflow-versioned-dag'"
+      "dbnd-airflow-versioned-dag (==0.30.0); extra=='airflow-versioned-dag'"
     ],
     "airflow_1_10_10": [
-      "dbnd-airflow[airflow_1_10_10] (==0.30.0) ; extra == 'airflow_1_10_10'"
+      "dbnd-airflow[airflow_1_10_10] (==0.30.0); extra=='airflow_1_10_10'"
     ],
     "airflow_1_10_7": [
-      "dbnd-airflow[airflow_1_10_7] (==0.30.0) ; extra == 'airflow_1_10_7'"
+      "dbnd-airflow[airflow_1_10_7] (==0.30.0); extra=='airflow_1_10_7'"
     ],
     "airflow_1_10_8": [
-      "dbnd-airflow[airflow_1_10_8] (==0.30.0) ; extra == 'airflow_1_10_8'"
+      "dbnd-airflow[airflow_1_10_8] (==0.30.0); extra=='airflow_1_10_8'"
     ],
     "airflow_1_10_9": [
-      "dbnd-airflow[airflow_1_10_9] (==0.30.0) ; extra == 'airflow_1_10_9'"
+      "dbnd-airflow[airflow_1_10_9] (==0.30.0); extra=='airflow_1_10_9'"
     ],
     "aws": [
-      "dbnd-aws (==0.30.0) ; extra == 'aws'"
+      "dbnd-aws (==0.30.0); extra=='aws'"
     ],
     "azure": [
-      "dbnd-azure (==0.30.0) ; extra == 'azure'"
+      "dbnd-azure (==0.30.0); extra=='azure'"
     ],
     "databricks": [
-      "dbnd-databricks (==0.30.0) ; extra == 'databricks'"
+      "dbnd-databricks (==0.30.0); extra=='databricks'"
     ],
     "docker": [
-      "dbnd-docker (==0.30.0) ; extra == 'docker'"
+      "dbnd-docker (==0.30.0); extra=='docker'"
     ],
     "gcp": [
-      "dbnd-gcp (==0.30.0) ; extra == 'gcp'"
+      "dbnd-gcp (==0.30.0); extra=='gcp'"
     ],
     "hdfs": [
-      "dbnd-hdfs (==0.30.0) ; extra == 'hdfs'"
+      "dbnd-hdfs (==0.30.0); extra=='hdfs'"
     ],
     "k8s": [
-      "dbnd-docker (==0.30.0) ; extra == 'k8s'"
+      "dbnd-docker (==0.30.0); extra=='k8s'"
     ],
     "luigi": [
-      "dbnd-luigi (==0.30.0) ; extra == 'luigi'"
+      "dbnd-luigi (==0.30.0); extra=='luigi'"
     ],
     "mlflow": [
-      "dbnd-mlflow (==0.30.0) ; extra == 'mlflow'"
+      "dbnd-mlflow (==0.30.0); extra=='mlflow'"
     ],
     "postgres": [
-      "dbnd-postgres (==0.30.0) ; extra == 'postgres'"
+      "dbnd-postgres (==0.30.0); extra=='postgres'"
     ],
     "qubole": [
-      "dbnd-qubole (==0.30.0) ; extra == 'qubole'"
+      "dbnd-qubole (==0.30.0); extra=='qubole'"
     ],
     "redshift": [
-      "dbnd-redshift (==0.30.0) ; extra == 'redshift'"
+      "dbnd-redshift (==0.30.0); extra=='redshift'"
     ],
     "snowflake": [
-      "dbnd-snowflake (==0.30.0) ; extra == 'snowflake'"
+      "dbnd-snowflake (==0.30.0); extra=='snowflake'"
     ],
     "spark": [
-      "dbnd-spark (==0.30.0) ; extra == 'spark'"
+      "dbnd-spark (==0.30.0); extra=='spark'"
     ],
     "tensorflow": [
-      "dbnd-tensorflow (==0.30.0) ; extra == 'tensorflow'"
+      "dbnd-tensorflow (==0.30.0); extra=='tensorflow'"
     ]
   },
   "requires_python": "",

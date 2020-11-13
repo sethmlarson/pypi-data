@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "paste": [
-      "Paste ; extra == 'paste'"
+      "Paste; extra=='paste'"
     ]
   },
   "requires_python": "",

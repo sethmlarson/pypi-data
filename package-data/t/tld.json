@@ -1,8 +1,8 @@
 {
   "requires_dist": [
-    "backports.functools-lru-cache ; python_version < '3.5'",
-    "six ; python_version <= '3.5'",
-    "typing ; python_version < '3.5'"
+    "backports.functools-lru-cache; python_version<'3.5'",
+    "six; python_version<='3.5'",
+    "typing; python_version<'3.5'"
   ],
   "requires_extras": {},
   "requires_python": ">=2.7, <4",

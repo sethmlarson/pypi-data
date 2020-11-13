@@ -20,43 +20,43 @@
   ],
   "requires_extras": {
     "azure": [
-      "azure-storage-blob (>=12.3.1) ; extra == 'azure'"
+      "azure-storage-blob (>=12.3.1); extra=='azure'"
     ],
     "docker": [
-      "docker ; extra == 'docker'"
+      "docker; extra=='docker'"
     ],
     "gcs": [
-      "google-cloud-storage ; extra == 'gcs'"
+      "google-cloud-storage; extra=='gcs'"
     ],
     "git": [
-      "gitpython ; extra == 'git'"
+      "gitpython; extra=='git'"
     ],
     "numpy": [
-      "numpy ; extra == 'numpy'"
+      "numpy; extra=='numpy'"
     ],
     "polyboard": [
-      "altair ; extra == 'polyboard'",
-      "bokeh ; extra == 'polyboard'",
-      "matplotlib ; extra == 'polyboard'",
-      "moviepy ; extra == 'polyboard'",
-      "pandas ; extra == 'polyboard'",
-      "Pillow ; extra == 'polyboard'",
-      "plotly ; extra == 'polyboard'"
+      "altair; extra=='polyboard'",
+      "bokeh; extra=='polyboard'",
+      "matplotlib; extra=='polyboard'",
+      "moviepy; extra=='polyboard'",
+      "pandas; extra=='polyboard'",
+      "Pillow; extra=='polyboard'",
+      "plotly; extra=='polyboard'"
     ],
     "polytune": [
-      "hyperopt (==0.2.4) ; extra == 'polytune'",
-      "scikit-learn (==0.23.2) ; extra == 'polytune'"
+      "hyperopt (==0.2.4); extra=='polytune'",
+      "scikit-learn (==0.23.2); extra=='polytune'"
     ],
     "s3": [
-      "boto3 ; extra == 's3'",
-      "botocore ; extra == 's3'"
+      "boto3; extra=='s3'",
+      "botocore; extra=='s3'"
     ],
     "streams": [
-      "aiofiles (==0.5.0) ; extra == 'streams'",
-      "kubernetes-asyncio (==11.3.0) ; extra == 'streams'",
-      "pandas ; extra == 'streams'",
-      "starlette (==0.13.8) ; extra == 'streams'",
-      "uvicorn (==0.11.8) ; extra == 'streams'"
+      "aiofiles (==0.5.0); extra=='streams'",
+      "kubernetes-asyncio (==11.3.0); extra=='streams'",
+      "pandas; extra=='streams'",
+      "starlette (==0.13.8); extra=='streams'",
+      "uvicorn (==0.11.8); extra=='streams'"
     ]
   },
   "requires_python": ">=3.5",

@@ -2,9 +2,9 @@
   "requires_dist": [
     "azure-common",
     "azure-core",
-    "azure-nspkg ; python_version<'3.0'",
+    "azure-nspkg; python_version<'3.0'",
     "cryptography",
-    "futures ; python_version=='2.7'",
+    "futures; python_version=='2.7'",
     "python-dateutil",
     "requests"
   ],

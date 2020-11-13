@@ -2,8 +2,8 @@
   "requires_dist": [
     "asn1crypto (<2.0.0,>0.24.0)",
     "azure-common (<2.0.0)",
-    "azure-storage-blob (<12.0.0) ; python_version <= '3.5.1'",
-    "azure-storage-blob (<13.0.0,>=12.0.0) ; python_version >= '3.5.2'",
+    "azure-storage-blob (<12.0.0); python_version<='3.5.1'",
+    "azure-storage-blob (<13.0.0,>=12.0.0); python_version>='3.5.2'",
     "boto3 (<1.16,>=1.4.4)",
     "certifi (<2021.0.0)",
     "cffi (<1.15,>=1.9)",
@@ -19,27 +19,27 @@
   ],
   "requires_extras": {
     "development": [
-      "coverage ; extra == 'development'",
-      "Cython ; extra == 'development'",
-      "mock ; extra == 'development'",
-      "more-itertools ; extra == 'development'",
-      "numpy ; extra == 'development'",
-      "pendulum (!=2.1.1) ; extra == 'development'",
-      "pexpect ; extra == 'development'",
-      "pytest (<6.1.0) ; extra == 'development'",
-      "pytest-cov ; extra == 'development'",
-      "pytest-rerunfailures ; extra == 'development'",
-      "pytest-timeout ; extra == 'development'",
-      "pytz ; extra == 'development'",
-      "pytzdata ; extra == 'development'"
+      "coverage; extra=='development'",
+      "Cython; extra=='development'",
+      "mock; extra=='development'",
+      "more-itertools; extra=='development'",
+      "numpy; extra=='development'",
+      "pendulum (!=2.1.1); extra=='development'",
+      "pexpect; extra=='development'",
+      "pytest (<6.1.0); extra=='development'",
+      "pytest-cov; extra=='development'",
+      "pytest-rerunfailures; extra=='development'",
+      "pytest-timeout; extra=='development'",
+      "pytz; extra=='development'",
+      "pytzdata; extra=='development'"
     ],
     "pandas": [
-      "pandas (<1.1.0,>=1.0.0) ; (python_version > '3.5') and extra == 'pandas'",
-      "pandas (==0.24.2) ; (python_version == '3.5') and extra == 'pandas'",
-      "pyarrow (<0.18.0,>=0.17.0) ; extra == 'pandas'"
+      "pandas (<1.1.0,>=1.0.0); (python_version>'3.5') and extra=='pandas'",
+      "pandas (==0.24.2); (python_version=='3.5') and extra=='pandas'",
+      "pyarrow (<0.18.0,>=0.17.0); extra=='pandas'"
     ],
     "secure-local-storage": [
-      "keyring (!=16.1.0,<22.0.0) ; extra == 'secure-local-storage'"
+      "keyring (!=16.1.0,<22.0.0); extra=='secure-local-storage'"
     ]
   },
   "requires_python": ">=3.5",

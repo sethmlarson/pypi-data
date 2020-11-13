@@ -8,16 +8,16 @@
   ],
   "requires_extras": {
     "optional": [
-      "cftime (>=1.1.1) ; extra == 'optional'",
-      "cython ; extra == 'optional'",
-      "ephem ; extra == 'optional'",
-      "netcdf4 ; extra == 'optional'",
-      "nrel-pysam ; extra == 'optional'",
-      "numba ; extra == 'optional'",
-      "pvfactors ; extra == 'optional'",
-      "siphon ; extra == 'optional'",
-      "statsmodels ; extra == 'optional'",
-      "tables ; extra == 'optional'"
+      "cftime (>=1.1.1); extra=='optional'",
+      "cython; extra=='optional'",
+      "ephem; extra=='optional'",
+      "netcdf4; extra=='optional'",
+      "nrel-pysam; extra=='optional'",
+      "numba; extra=='optional'",
+      "pvfactors; extra=='optional'",
+      "siphon; extra=='optional'",
+      "statsmodels; extra=='optional'",
+      "tables; extra=='optional'"
     ]
   },
   "requires_python": ">=3.6",

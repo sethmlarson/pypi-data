@@ -9,7 +9,7 @@
     "entrypoints",
     "Flask",
     "gitpython (>=2.1.0)",
-    "gunicorn ; platform_system != 'Windows'",
+    "gunicorn; platform_system !='Windows'",
     "numpy",
     "pandas",
     "prometheus-flask-exporter",
@@ -21,24 +21,24 @@
     "six (>=1.10.0)",
     "sqlalchemy",
     "sqlparse (>=0.3.1)",
-    "waitress ; platform_system == 'Windows'"
+    "waitress; platform_system=='Windows'"
   ],
   "requires_extras": {
     "aliyun_oss": [
-      "aliyunstoreplugin ; extra == 'aliyun_oss'"
+      "aliyunstoreplugin; extra=='aliyun_oss'"
     ],
     "extras": [
-      "azureml-core (>=1.2.0) ; extra == 'extras'",
-      "boto3 ; extra == 'extras'",
-      "google-cloud-storage ; extra == 'extras'",
-      "kubernetes ; extra == 'extras'",
-      "mleap ; extra == 'extras'",
-      "pyarrow ; extra == 'extras'",
-      "pysftp ; extra == 'extras'",
-      "scikit-learn ; extra == 'extras'"
+      "azureml-core (>=1.2.0); extra=='extras'",
+      "boto3; extra=='extras'",
+      "google-cloud-storage; extra=='extras'",
+      "kubernetes; extra=='extras'",
+      "mleap; extra=='extras'",
+      "pyarrow; extra=='extras'",
+      "pysftp; extra=='extras'",
+      "scikit-learn; extra=='extras'"
     ],
     "sqlserver": [
-      "mlflow-dbstore ; extra == 'sqlserver'"
+      "mlflow-dbstore; extra=='sqlserver'"
     ]
   },
   "requires_python": ">=3.5",

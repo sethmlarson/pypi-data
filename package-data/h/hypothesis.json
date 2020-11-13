@@ -5,39 +5,39 @@
   ],
   "requires_extras": {
     "cli": [
-      "black (>=19.10b0) ; extra == 'cli'",
-      "click (>=7.0) ; extra == 'cli'"
+      "black (>=19.10b0); extra=='cli'",
+      "click (>=7.0); extra=='cli'"
     ],
     "dateutil": [
-      "python-dateutil (>=1.4) ; extra == 'dateutil'"
+      "python-dateutil (>=1.4); extra=='dateutil'"
     ],
     "django": [
-      "django (>=2.2) ; extra == 'django'",
-      "pytz (>=2014.1) ; extra == 'django'"
+      "django (>=2.2); extra=='django'",
+      "pytz (>=2014.1); extra=='django'"
     ],
     "dpcontracts": [
-      "dpcontracts (>=0.4) ; extra == 'dpcontracts'"
+      "dpcontracts (>=0.4); extra=='dpcontracts'"
     ],
     "ghostwriter": [
-      "black (>=19.10b0) ; extra == 'ghostwriter'"
+      "black (>=19.10b0); extra=='ghostwriter'"
     ],
     "lark": [
-      "lark-parser (>=0.6.5) ; extra == 'lark'"
+      "lark-parser (>=0.6.5); extra=='lark'"
     ],
     "numpy": [
-      "numpy (>=1.9.0) ; extra == 'numpy'"
+      "numpy (>=1.9.0); extra=='numpy'"
     ],
     "pandas": [
-      "pandas (>=0.19) ; extra == 'pandas'"
+      "pandas (>=0.19); extra=='pandas'"
     ],
     "pytest": [
-      "pytest (>=4.3) ; extra == 'pytest'"
+      "pytest (>=4.3); extra=='pytest'"
     ],
     "pytz": [
-      "pytz (>=2014.1) ; extra == 'pytz'"
+      "pytz (>=2014.1); extra=='pytz'"
     ],
     "redis": [
-      "redis (>=3.0.0) ; extra == 'redis'"
+      "redis (>=3.0.0); extra=='redis'"
     ]
   },
   "requires_python": ">=3.6",

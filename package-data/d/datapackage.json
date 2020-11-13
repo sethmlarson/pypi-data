@@ -12,16 +12,16 @@
   ],
   "requires_extras": {
     "cchardet": [
-      "cchardet (>=2.0) ; extra == 'cchardet'"
+      "cchardet (>=2.0); extra=='cchardet'"
     ],
     "develop": [
-      "httpretty ; extra == 'develop'",
-      "mock ; extra == 'develop'",
-      "pylama ; extra == 'develop'",
-      "pytest ; extra == 'develop'",
-      "pytest-cov ; extra == 'develop'",
-      "tableschema-sql ; extra == 'develop'",
-      "tox ; extra == 'develop'"
+      "httpretty; extra=='develop'",
+      "mock; extra=='develop'",
+      "pylama; extra=='develop'",
+      "pytest; extra=='develop'",
+      "pytest-cov; extra=='develop'",
+      "tableschema-sql; extra=='develop'",
+      "tox; extra=='develop'"
     ]
   },
   "requires_python": "",

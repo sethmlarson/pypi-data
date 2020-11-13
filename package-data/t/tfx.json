@@ -26,17 +26,17 @@
   ],
   "requires_extras": {
     "docker-image": [
-      "mmh (<3,>=2.2) ; extra == 'docker-image'",
-      "python-snappy (<0.6,>=0.5) ; extra == 'docker-image'"
+      "mmh (<3,>=2.2); extra=='docker-image'",
+      "python-snappy (<0.6,>=0.5); extra=='docker-image'"
     ],
     "examples": [
-      "presto-python-client (<0.8,>=0.7) ; extra == 'examples'",
-      "slackclient (<3,>=2.8.2) ; extra == 'examples'",
-      "tensorflow-text (<3,>=1.15.1) ; extra == 'examples'",
-      "websocket-client (<1,>=0.57) ; extra == 'examples'"
+      "presto-python-client (<0.8,>=0.7); extra=='examples'",
+      "slackclient (<3,>=2.8.2); extra=='examples'",
+      "tensorflow-text (<3,>=1.15.1); extra=='examples'",
+      "websocket-client (<1,>=0.57); extra=='examples'"
     ],
     "tfjs": [
-      "tensorflowjs (<3,>=2.0.1.post1) ; extra == 'tfjs'"
+      "tensorflowjs (<3,>=2.0.1.post1); extra=='tfjs'"
     ]
   },
   "requires_python": ">=3.6,<3.9",

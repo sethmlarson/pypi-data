@@ -13,18 +13,18 @@
   ],
   "requires_extras": {
     "azure": [
-      "azure-datalake-store (>=0.0.30) ; extra == 'azure'",
-      "azure-storage-blob (>=12.1.0) ; extra == 'azure'",
-      "requests (>=2.21.0) ; extra == 'azure'"
+      "azure-datalake-store (>=0.0.30); extra=='azure'",
+      "azure-storage-blob (>=12.1.0); extra=='azure'",
+      "requests (>=2.21.0); extra=='azure'"
     ],
     "gcs": [
-      "gcsfs (>=0.2.0) ; extra == 'gcs'"
+      "gcsfs (>=0.2.0); extra=='gcs'"
     ],
     "hdfs": [
-      "pyarrow ; extra == 'hdfs'"
+      "pyarrow; extra=='hdfs'"
     ],
     "s3": [
-      "boto3 ; extra == 's3'"
+      "boto3; extra=='s3'"
     ]
   },
   "requires_python": ">=3.6",

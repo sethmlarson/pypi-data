@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "fast": [
-      "html5-parser (>=0.4.4) ; extra == 'fast'"
+      "html5-parser (>=0.4.4); extra=='fast'"
     ]
   },
   "requires_python": "",

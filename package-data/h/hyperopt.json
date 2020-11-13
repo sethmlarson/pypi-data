@@ -10,14 +10,14 @@
   ],
   "requires_extras": {
     "atpe": [
-      "lightgbm ; extra == 'atpe'",
-      "scikit-learn ; extra == 'atpe'"
+      "lightgbm; extra=='atpe'",
+      "scikit-learn; extra=='atpe'"
     ],
     "mongotrials": [
-      "pymongo ; extra == 'mongotrials'"
+      "pymongo; extra=='mongotrials'"
     ],
     "sparktrials": [
-      "pyspark ; extra == 'sparktrials'"
+      "pyspark; extra=='sparktrials'"
     ]
   },
   "requires_python": "",

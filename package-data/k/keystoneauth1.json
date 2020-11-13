@@ -9,18 +9,18 @@
   ],
   "requires_extras": {
     "betamax": [
-      "betamax (>=0.7.0); extra == 'betamax'",
-      "fixtures (>=3.0.0); extra == 'betamax'",
-      "mock (>=2.0.0); extra == 'betamax'"
+      "betamax (>=0.7.0); extra=='betamax'",
+      "fixtures (>=3.0.0); extra=='betamax'",
+      "mock (>=2.0.0); extra=='betamax'"
     ],
     "kerberos": [
-      "requests-kerberos (>=0.8.0); extra == 'kerberos'"
+      "requests-kerberos (>=0.8.0); extra=='kerberos'"
     ],
     "oauth1": [
-      "oauthlib (>=0.6.2); extra == 'oauth1'"
+      "oauthlib (>=0.6.2); extra=='oauth1'"
     ],
     "saml2": [
-      "lxml (>=4.2.0); extra == 'saml2'"
+      "lxml (>=4.2.0); extra=='saml2'"
     ]
   },
   "requires_python": ">=3.6",

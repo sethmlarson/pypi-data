@@ -3,7 +3,7 @@
     "appdirs (>=1.4)",
     "Click (>=7)",
     "diskcache (>=4)",
-    "iso8601 (>=0.1.10) ; python_version <= '3.6'",
+    "iso8601 (>=0.1.10); python_version<='3.6'",
     "Jinja2 (>=2.10.1)",
     "jsonschema (>=3.0.2)",
     "PyYAML (>=3.13)",

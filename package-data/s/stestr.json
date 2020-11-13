@@ -11,7 +11,7 @@
   ],
   "requires_extras": {
     "sql": [
-      "subunit2sql (>=1.8.0) ; extra == 'sql'"
+      "subunit2sql (>=1.8.0); extra=='sql'"
     ]
   },
   "requires_python": ">=3.5",

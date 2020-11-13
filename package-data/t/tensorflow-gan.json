@@ -5,10 +5,10 @@
   ],
   "requires_extras": {
     "tensorflow-datasets": [
-      "tensorflow-datasets (>=0.5.0) ; extra == 'tensorflow-datasets'"
+      "tensorflow-datasets (>=0.5.0); extra=='tensorflow-datasets'"
     ],
     "tf": [
-      "tensorflow (>=1.12) ; extra == 'tf'"
+      "tensorflow (>=1.12); extra=='tf'"
     ]
   },
   "requires_python": "",

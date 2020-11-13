@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "dataclasses ; python_version < '3.7'",
+    "dataclasses; python_version<'3.7'",
     "dill",
     "filelock",
     "numpy",
@@ -12,21 +12,21 @@
   ],
   "requires_extras": {
     "apache-beam": [
-      "apache-beam ; extra == 'apache-beam'"
+      "apache-beam; extra=='apache-beam'"
     ],
     "quality": [
-      "black ; extra == 'quality'",
-      "flake8 (==3.7.9) ; extra == 'quality'",
-      "isort ; extra == 'quality'"
+      "black; extra=='quality'",
+      "flake8 (==3.7.9); extra=='quality'",
+      "isort; extra=='quality'"
     ],
     "tensorflow": [
-      "tensorflow (>=2.2.0) ; extra == 'tensorflow'"
+      "tensorflow (>=2.2.0); extra=='tensorflow'"
     ],
     "tensorflow_gpu": [
-      "tensorflow-gpu (>=2.2.0) ; extra == 'tensorflow_gpu'"
+      "tensorflow-gpu (>=2.2.0); extra=='tensorflow_gpu'"
     ],
     "torch": [
-      "torch ; extra == 'torch'"
+      "torch; extra=='torch'"
     ]
   },
   "requires_python": "",

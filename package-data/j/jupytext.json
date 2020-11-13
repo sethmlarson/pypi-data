@@ -1,17 +1,17 @@
 {
   "requires_dist": [
-    "markdown-it-py (~=0.5.2) ; python_version >= '3.6'",
-    "mock ; python_version < '3'",
+    "markdown-it-py (~=0.5.2); python_version>='3.6'",
+    "mock; python_version<'3'",
     "nbformat (>=4.0.0)",
     "pyyaml",
     "toml"
   ],
   "requires_extras": {
     "rst2md": [
-      "sphinx-gallery (~=0.7.0) ; extra == 'rst2md'"
+      "sphinx-gallery (~=0.7.0); extra=='rst2md'"
     ],
     "toml": [
-      "toml ; extra == 'toml'"
+      "toml; extra=='toml'"
     ]
   },
   "requires_python": "",

@@ -6,20 +6,20 @@
   ],
   "requires_extras": {
     "cheetah": [
-      "Cheetah ; extra == 'cheetah'"
+      "Cheetah; extra=='cheetah'"
     ],
     "config": [
-      "PasteDeploy ; extra == 'config'"
+      "PasteDeploy; extra=='config'"
     ],
     "flup": [
-      "Flup ; extra == 'flup'"
+      "Flup; extra=='flup'"
     ],
     "paste": [
-      "Cheetah ; extra == 'paste'",
-      "PasteDeploy ; extra == 'paste'"
+      "Cheetah; extra=='paste'",
+      "PasteDeploy; extra=='paste'"
     ],
     "wsgiutils": [
-      "WSGIserver ; extra == 'wsgiutils'"
+      "WSGIserver; extra=='wsgiutils'"
     ]
   },
   "requires_python": "",

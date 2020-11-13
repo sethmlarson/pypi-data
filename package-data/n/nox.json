@@ -2,14 +2,14 @@
   "requires_dist": [
     "argcomplete (<2.0,>=1.9.4)",
     "colorlog (<5.0.0,>=2.6.1)",
-    "importlib-metadata ; python_version < '3.8'",
+    "importlib-metadata; python_version<'3.8'",
     "py (<2.0.0,>=1.4.0)",
     "virtualenv (>=14.0.0)"
   ],
   "requires_extras": {
     "tox_to_nox": [
-      "jinja2 ; extra == 'tox_to_nox'",
-      "tox ; extra == 'tox_to_nox'"
+      "jinja2; extra=='tox_to_nox'",
+      "tox; extra=='tox_to_nox'"
     ]
   },
   "requires_python": ">=3.5",

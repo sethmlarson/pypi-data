@@ -11,20 +11,20 @@
   ],
   "requires_extras": {
     "develop": [
-      "cherrypy (==3.2.4) ; extra == 'develop'",
-      "pyOpenSSL ; extra == 'develop'"
+      "cherrypy (==3.2.4); extra=='develop'",
+      "pyOpenSSL; extra=='develop'"
     ],
     "ldap_authn": [
-      "pyldap ; extra == 'ldap_authn'"
+      "pyldap; extra=='ldap_authn'"
     ],
     "quality": [
-      "bandit ; extra == 'quality'",
-      "black ; extra == 'quality'",
-      "eradicate ; extra == 'quality'",
-      "isort ; extra == 'quality'",
-      "mypy ; extra == 'quality'",
-      "pylama ; extra == 'quality'",
-      "readme-renderer[md] ; extra == 'quality'"
+      "bandit; extra=='quality'",
+      "black; extra=='quality'",
+      "eradicate; extra=='quality'",
+      "isort; extra=='quality'",
+      "mypy; extra=='quality'",
+      "pylama; extra=='quality'",
+      "readme-renderer[md]; extra=='quality'"
     ]
   },
   "requires_python": "~=3.5",

@@ -2,7 +2,7 @@
   "requires_dist": [
     "idna (>=2.0)",
     "multidict (>=4.0)",
-    "typing-extensions (>=3.7.4) ; python_version < '3.8'"
+    "typing-extensions (>=3.7.4); python_version<'3.8'"
   ],
   "requires_extras": {},
   "requires_python": ">=3.6",

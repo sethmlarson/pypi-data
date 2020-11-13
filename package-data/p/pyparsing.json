@@ -2,8 +2,8 @@
   "requires_dist": [],
   "requires_extras": {
     "diagrams": [
-      "jinja2 ; extra == 'diagrams'",
-      "railroad-diagrams ; extra == 'diagrams'"
+      "jinja2; extra=='diagrams'",
+      "railroad-diagrams; extra=='diagrams'"
     ]
   },
   "requires_python": ">=3.5",

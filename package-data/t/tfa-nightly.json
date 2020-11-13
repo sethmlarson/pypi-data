@@ -4,13 +4,13 @@
   ],
   "requires_extras": {
     "tensorflow": [
-      "tensorflow (<2.4.0,>=2.2.0); extra == 'tensorflow'"
+      "tensorflow (<2.4.0,>=2.2.0); extra=='tensorflow'"
     ],
     "tensorflow-cpu": [
-      "tensorflow-cpu (<2.4.0,>=2.2.0); extra == 'tensorflow-cpu'"
+      "tensorflow-cpu (<2.4.0,>=2.2.0); extra=='tensorflow-cpu'"
     ],
     "tensorflow-gpu": [
-      "tensorflow-gpu (<2.4.0,>=2.2.0); extra == 'tensorflow-gpu'"
+      "tensorflow-gpu (<2.4.0,>=2.2.0); extra=='tensorflow-gpu'"
     ]
   },
   "requires_python": "",

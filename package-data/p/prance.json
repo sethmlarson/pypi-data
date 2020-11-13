@@ -8,19 +8,19 @@
   ],
   "requires_extras": {
     "cli": [
-      "click (~=7.0) ; extra == 'cli'"
+      "click (~=7.0); extra=='cli'"
     ],
     "flex": [
-      "flex (~=6.13) ; extra == 'flex'"
+      "flex (~=6.13); extra=='flex'"
     ],
     "icu": [
-      "PyICU (~=2.4) ; extra == 'icu'"
+      "PyICU (~=2.4); extra=='icu'"
     ],
     "osv": [
-      "openapi-spec-validator (>0.2,>=0.2.1) ; extra == 'osv'"
+      "openapi-spec-validator (>0.2,>=0.2.1); extra=='osv'"
     ],
     "ssv": [
-      "swagger-spec-validator (~=2.4) ; extra == 'ssv'"
+      "swagger-spec-validator (~=2.4); extra=='ssv'"
     ]
   },
   "requires_python": "",

@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "colorama ; platform_system == 'Windows'"
+    "colorama; platform_system=='Windows'"
   ],
   "requires_extras": {},
   "requires_python": "",

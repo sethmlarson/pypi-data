@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "configparser (>=3.5); python_version == '2.7'"
+    "configparser (>=3.5); python_version=='2.7'"
   ],
   "requires_extras": {},
   "requires_python": ">=2.7",

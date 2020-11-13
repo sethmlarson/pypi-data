@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "Django (<3.2,>=1.11.17) ; python_version >= '2.7'"
+    "Django (<3.2,>=1.11.17); python_version>='2.7'"
   ],
   "requires_extras": {},
   "requires_python": "",

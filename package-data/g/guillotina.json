@@ -20,19 +20,19 @@
   ],
   "requires_extras": {
     "mailer": [
-      "aiosmtplib (>=1.0.6) ; extra == 'mailer'",
-      "html2text (>=2018.1.9) ; extra == 'mailer'"
+      "aiosmtplib (>=1.0.6); extra=='mailer'",
+      "html2text (>=2018.1.9); extra=='mailer'"
     ],
     "recaptcha": [
-      "aiohttp (<4) ; extra == 'recaptcha'"
+      "aiohttp (<4); extra=='recaptcha'"
     ],
     "redis": [
-      "aioredis (>=1.2.0) ; (python_version < '3.8') and extra == 'redis'",
-      "aioredis (>=1.3.0) ; (python_version >= '3.8') and extra == 'redis'"
+      "aioredis (>=1.2.0); (python_version<'3.8') and extra=='redis'",
+      "aioredis (>=1.3.0); (python_version>='3.8') and extra=='redis'"
     ],
     "testdata": [
-      "aiohttp (<3.6.0,>=3.0.0) ; (python_version < '3.8') and extra == 'testdata'",
-      "aiohttp (<4.0.0,>=3.6.0) ; (python_version >= '3.8') and extra == 'testdata'"
+      "aiohttp (<3.6.0,>=3.0.0); (python_version<'3.8') and extra=='testdata'",
+      "aiohttp (<4.0.0,>=3.6.0); (python_version>='3.8') and extra=='testdata'"
     ]
   },
   "requires_python": ">=3.7.0",

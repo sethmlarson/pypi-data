@@ -9,22 +9,22 @@
   ],
   "requires_extras": {
     "mintests": [
-      "zope.configuration ; extra == 'mintests'",
-      "zope.i18nmessageid ; extra == 'mintests'",
-      "zope.testing ; extra == 'mintests'",
-      "zope.testrunner ; extra == 'mintests'"
+      "zope.configuration; extra=='mintests'",
+      "zope.i18nmessageid; extra=='mintests'",
+      "zope.testing; extra=='mintests'",
+      "zope.testrunner; extra=='mintests'"
     ],
     "persistentregistry": [
-      "persistent ; extra == 'persistentregistry'"
+      "persistent; extra=='persistentregistry'"
     ],
     "security": [
-      "zope.location ; extra == 'security'",
-      "zope.proxy ; extra == 'security'",
-      "zope.security ; extra == 'security'"
+      "zope.location; extra=='security'",
+      "zope.proxy; extra=='security'",
+      "zope.security; extra=='security'"
     ],
     "zcml": [
-      "zope.configuration ; extra == 'zcml'",
-      "zope.i18nmessageid ; extra == 'zcml'"
+      "zope.configuration; extra=='zcml'",
+      "zope.i18nmessageid; extra=='zcml'"
     ]
   },
   "requires_python": "",

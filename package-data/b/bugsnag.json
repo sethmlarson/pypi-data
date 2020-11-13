@@ -4,8 +4,8 @@
   ],
   "requires_extras": {
     "flask": [
-      "blinker ; extra == 'flask'",
-      "flask ; extra == 'flask'"
+      "blinker; extra=='flask'",
+      "flask; extra=='flask'"
     ]
   },
   "requires_python": ">=3.5.*, <4",

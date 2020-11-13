@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "graph": [
-      "objgraph (>=1.7.2); extra == 'graph'"
+      "objgraph (>=1.7.2); extra=='graph'"
     ]
   },
   "requires_python": ">=2.6, !=3.0.*",

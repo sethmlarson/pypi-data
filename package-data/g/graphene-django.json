@@ -8,7 +8,7 @@
   ],
   "requires_extras": {
     "rest_framework": [
-      "djangorestframework (>=3.6.3) ; extra == 'rest_framework'"
+      "djangorestframework (>=3.6.3); extra=='rest_framework'"
     ]
   },
   "requires_python": "",

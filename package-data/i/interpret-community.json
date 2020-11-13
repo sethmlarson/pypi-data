@@ -10,25 +10,25 @@
   ],
   "requires_extras": {
     "deep": [
-      "keras ; extra == 'deep'",
-      "pyyaml ; extra == 'deep'",
-      "tensorflow ; extra == 'deep'"
+      "keras; extra=='deep'",
+      "pyyaml; extra=='deep'",
+      "tensorflow; extra=='deep'"
     ],
     "lime": [
-      "lime (>=0.2.0.0) ; extra == 'lime'"
+      "lime (>=0.2.0.0); extra=='lime'"
     ],
     "mimic": [
-      "lightgbm ; extra == 'mimic'"
+      "lightgbm; extra=='mimic'"
     ],
     "sample": [
-      "hdbscan ; extra == 'sample'"
+      "hdbscan; extra=='sample'"
     ],
     "visualization": [
-      "flask ; extra == 'visualization'",
-      "flask-cors ; extra == 'visualization'",
-      "gevent (>=1.3.6) ; extra == 'visualization'",
-      "ipython ; extra == 'visualization'",
-      "jinja2 ; extra == 'visualization'"
+      "flask; extra=='visualization'",
+      "flask-cors; extra=='visualization'",
+      "gevent (>=1.3.6); extra=='visualization'",
+      "ipython; extra=='visualization'",
+      "jinja2; extra=='visualization'"
     ]
   },
   "requires_python": "",

@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "psutil": [
-      "psutil (>=3.0) ; extra == 'psutil'"
+      "psutil (>=3.0); extra=='psutil'"
     ]
   },
   "requires_python": ">=3.5",

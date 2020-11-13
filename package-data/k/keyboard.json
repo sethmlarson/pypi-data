@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "pyobjc ; sys_platform == 'darwin'"
+    "pyobjc; sys_platform=='darwin'"
   ],
   "requires_extras": {},
   "requires_python": "",

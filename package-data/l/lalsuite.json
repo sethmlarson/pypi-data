@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "importlib-resources ; python_version < '3.7'",
+    "importlib-resources; python_version<'3.7'",
     "ligo-segments",
     "lscsoft-glue",
     "matplotlib",
@@ -10,8 +10,8 @@
   ],
   "requires_extras": {
     "lalinference": [
-      "gwdatafind ; extra == 'lalinference'",
-      "gwpy ; extra == 'lalinference'"
+      "gwdatafind; extra=='lalinference'",
+      "gwpy; extra=='lalinference'"
     ]
   },
   "requires_python": "",

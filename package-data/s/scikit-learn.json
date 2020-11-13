@@ -7,8 +7,8 @@
   ],
   "requires_extras": {
     "alldeps": [
-      "numpy (>=1.13.3) ; extra == 'alldeps'",
-      "scipy (>=0.19.1) ; extra == 'alldeps'"
+      "numpy (>=1.13.3); extra=='alldeps'",
+      "scipy (>=0.19.1); extra=='alldeps'"
     ]
   },
   "requires_python": ">=3.6",

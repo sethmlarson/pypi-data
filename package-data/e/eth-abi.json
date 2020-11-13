@@ -6,13 +6,13 @@
   ],
   "requires_extras": {
     "lint": [
-      "flake8 (==3.4.1) ; extra == 'lint'",
-      "isort (<5,>=4.2.15) ; extra == 'lint'",
-      "mypy (==0.701) ; extra == 'lint'",
-      "pydocstyle (<4,>=3.0.0) ; extra == 'lint'"
+      "flake8 (==3.4.1); extra=='lint'",
+      "isort (<5,>=4.2.15); extra=='lint'",
+      "mypy (==0.701); extra=='lint'",
+      "pydocstyle (<4,>=3.0.0); extra=='lint'"
     ],
     "tools": [
-      "hypothesis (<4,>=3.6.1) ; extra == 'tools'"
+      "hypothesis (<4,>=3.6.1); extra=='tools'"
     ]
   },
   "requires_python": ">=3.6, <4",

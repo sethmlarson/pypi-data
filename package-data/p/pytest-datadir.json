@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "pathlib2 ; python_version<'3.4'",
+    "pathlib2; python_version<'3.4'",
     "pytest (>=2.7.0)"
   ],
   "requires_extras": {},

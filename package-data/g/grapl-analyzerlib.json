@@ -8,8 +8,8 @@
   ],
   "requires_extras": {
     "linters": [
-      "black ; extra == 'linters'",
-      "mypy ; extra == 'linters'"
+      "black; extra=='linters'",
+      "mypy; extra=='linters'"
     ]
   },
   "requires_python": "",

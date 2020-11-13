@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "images": [
-      "pillow ; extra == 'images'"
+      "pillow; extra=='images'"
     ]
   },
   "requires_python": "",

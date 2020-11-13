@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "PyYAML (>=3.13)",
-    "typing (>=3.6.1) ; python_version < '3.5'"
+    "typing (>=3.6.1); python_version<'3.5'"
   ],
   "requires_extras": {},
   "requires_python": "",

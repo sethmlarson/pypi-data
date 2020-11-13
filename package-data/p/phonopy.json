@@ -8,7 +8,7 @@
   ],
   "requires_extras": {
     "cp2k": [
-      "cp2k-input-tools ; extra == 'cp2k'"
+      "cp2k-input-tools; extra=='cp2k'"
     ]
   },
   "requires_python": "",

@@ -7,13 +7,13 @@
   ],
   "requires_extras": {
     "distances": [
-      "distances (>=1.0) ; extra == 'distances'",
-      "munkres (>=1.0.12) ; extra == 'distances'",
-      "zss (>=1.2) ; extra == 'distances'"
+      "distances (>=1.0); extra=='distances'",
+      "munkres (>=1.0.12); extra=='distances'",
+      "zss (>=1.2); extra=='distances'"
     ],
     "visualize": [
-      "matplotlib (==3.2.2) ; extra == 'visualize'",
-      "networkx (>=2.0) ; extra == 'visualize'"
+      "matplotlib (==3.2.2); extra=='visualize'",
+      "networkx (>=2.0); extra=='visualize'"
     ]
   },
   "requires_python": "",

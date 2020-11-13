@@ -31,16 +31,16 @@
   ],
   "requires_extras": {
     "full": [
-      "awscli ; extra == 'full'",
-      "azure-storage-blob ; extra == 'full'",
-      "google-cloud-storage ; extra == 'full'",
-      "hyperopt ; extra == 'full'",
-      "optuna ; extra == 'full'",
-      "psutil ; extra == 'full'",
-      "ray[tune] (>=1.0.0) ; extra == 'full'",
-      "scikit-optimize (>=0.8.1) ; extra == 'full'",
-      "shap ; extra == 'full'",
-      "tune-sklearn (>=0.1.0) ; extra == 'full'"
+      "awscli; extra=='full'",
+      "azure-storage-blob; extra=='full'",
+      "google-cloud-storage; extra=='full'",
+      "hyperopt; extra=='full'",
+      "optuna; extra=='full'",
+      "psutil; extra=='full'",
+      "ray[tune] (>=1.0.0); extra=='full'",
+      "scikit-optimize (>=0.8.1); extra=='full'",
+      "shap; extra=='full'",
+      "tune-sklearn (>=0.1.0); extra=='full'"
     ]
   },
   "requires_python": "",

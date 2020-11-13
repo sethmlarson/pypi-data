@@ -13,10 +13,10 @@
   ],
   "requires_extras": {
     "develop": [
-      "mock ; extra == 'develop'",
-      "pylama ; extra == 'develop'",
-      "pytest ; extra == 'develop'",
-      "pytest-cov ; extra == 'develop'"
+      "mock; extra=='develop'",
+      "pylama; extra=='develop'",
+      "pytest; extra=='develop'",
+      "pytest-cov; extra=='develop'"
     ]
   },
   "requires_python": "",

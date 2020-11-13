@@ -2,8 +2,8 @@
   "requires_dist": [],
   "requires_extras": {
     "twisted": [
-      "twisted (>=20.3.0) ; extra == 'twisted'",
-      "zope.interface (>=3.6) ; extra == 'twisted'"
+      "twisted (>=20.3.0); extra=='twisted'",
+      "zope.interface (>=3.6); extra=='twisted'"
     ]
   },
   "requires_python": ">=3.5",

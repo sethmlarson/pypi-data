@@ -4,10 +4,10 @@
   ],
   "requires_extras": {
     "autocompletion": [
-      "argcomplete (<2,>=1.10.0) ; extra == 'autocompletion'"
+      "argcomplete (<2,>=1.10.0); extra=='autocompletion'"
     ],
     "yaml": [
-      "PyYaml (>=5.2) ; extra == 'yaml'"
+      "PyYaml (>=5.2); extra=='yaml'"
     ]
   },
   "requires_python": ">=3.6.0",

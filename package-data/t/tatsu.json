@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "future-regex": [
-      "regex ; extra == 'future-regex'"
+      "regex; extra=='future-regex'"
     ]
   },
   "requires_python": ">=3.8",

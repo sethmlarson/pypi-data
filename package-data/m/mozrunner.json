@@ -10,7 +10,7 @@
   ],
   "requires_extras": {
     "crash": [
-      "mozcrash (>=2.0) ; extra == 'crash'"
+      "mozcrash (>=2.0); extra=='crash'"
     ]
   },
   "requires_python": "",

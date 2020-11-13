@@ -1,17 +1,17 @@
 {
   "requires_dist": [
-    "enum34 ; python_version<'3'",
+    "enum34; python_version<'3'",
     "six (>=1.10.0)"
   ],
   "requires_extras": {
     "tensorflow": [
-      "tensorflow (>=1.13.0) ; extra == 'tensorflow'"
+      "tensorflow (>=1.13.0); extra=='tensorflow'"
     ],
     "tensorflow-gpu": [
-      "tensorflow-gpu (>=1.13.0) ; extra == 'tensorflow-gpu'"
+      "tensorflow-gpu (>=1.13.0); extra=='tensorflow-gpu'"
     ],
     "tf-nightly": [
-      "tf-nightly ; extra == 'tf-nightly'"
+      "tf-nightly; extra=='tf-nightly'"
     ]
   },
   "requires_python": "",

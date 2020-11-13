@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "importlib-metadata (>=0.20) ; python_version < '3.8'"
+    "importlib-metadata (>=0.20); python_version<'3.8'"
   ],
   "requires_extras": {},
   "requires_python": ">=3.6",

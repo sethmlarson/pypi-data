@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "grpc": [
-      "grpcio (<2.0dev,>=1.8.2) ; extra == 'grpc'"
+      "grpcio (<2.0dev,>=1.8.2); extra=='grpc'"
     ]
   },
   "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*",

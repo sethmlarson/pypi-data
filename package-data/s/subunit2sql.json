@@ -12,8 +12,8 @@
   ],
   "requires_extras": {
     "graph": [
-      "matplotlib (>=2.0.2); extra == 'graph'",
-      "pandas (>=0.20.1); extra == 'graph'"
+      "matplotlib (>=2.0.2); extra=='graph'",
+      "pandas (>=0.20.1); extra=='graph'"
     ]
   },
   "requires_python": "",

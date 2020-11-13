@@ -4,10 +4,10 @@
   ],
   "requires_extras": {
     "i18n": [
-      "Babel (>=0.8) ; extra == 'i18n'"
+      "Babel (>=0.8); extra=='i18n'"
     ],
     "plugin": [
-      "setuptools (>=0.6a2) ; extra == 'plugin'"
+      "setuptools (>=0.6a2); extra=='plugin'"
     ]
   },
   "requires_python": "",

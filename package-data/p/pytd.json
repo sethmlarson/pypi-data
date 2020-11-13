@@ -8,9 +8,9 @@
   ],
   "requires_extras": {
     "spark": [
-      "pyarrow (>=0.11.0); extra == 'spark'",
-      "pyspark (>=2.4.0); extra == 'spark'",
-      "td-pyspark (>=19.9.0); extra == 'spark'"
+      "pyarrow (>=0.11.0); extra=='spark'",
+      "pyspark (>=2.4.0); extra=='spark'",
+      "td-pyspark (>=19.9.0); extra=='spark'"
     ]
   },
   "requires_python": "",

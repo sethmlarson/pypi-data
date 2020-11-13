@@ -4,19 +4,19 @@
   ],
   "requires_extras": {
     "query": [
-      "jmespath ; extra == 'query'"
+      "jmespath; extra=='query'"
     ],
     "schema": [
-      "jsonschema ; extra == 'schema'"
+      "jsonschema; extra=='schema'"
     ],
     "template": [
-      "Jinja2 ; extra == 'template'"
+      "Jinja2; extra=='template'"
     ],
     "toml": [
-      "toml ; extra == 'toml'"
+      "toml; extra=='toml'"
     ],
     "yaml": [
-      "pyyaml ; extra == 'yaml'"
+      "pyyaml; extra=='yaml'"
     ]
   },
   "requires_python": "",

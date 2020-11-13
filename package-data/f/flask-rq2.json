@@ -7,7 +7,7 @@
   ],
   "requires_extras": {
     "cli": [
-      "Flask-CLI (>=0.4.0) ; extra == 'cli'"
+      "Flask-CLI (>=0.4.0); extra=='cli'"
     ]
   },
   "requires_python": "",

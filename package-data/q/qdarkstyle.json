@@ -5,12 +5,12 @@
   ],
   "requires_extras": {
     "develop": [
-      "qtsass ; extra == 'develop'",
-      "watchdog ; extra == 'develop'"
+      "qtsass; extra=='develop'",
+      "watchdog; extra=='develop'"
     ],
     "example": [
-      "pyqt5 ; extra == 'example'",
-      "pyside2 ; extra == 'example'"
+      "pyqt5; extra=='example'",
+      "pyside2; extra=='example'"
     ]
   },
   "requires_python": "",

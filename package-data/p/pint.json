@@ -1,15 +1,15 @@
 {
   "requires_dist": [
-    "importlib-metadata ; python_version < '3.8'",
-    "importlib-resources ; python_version < '3.7'",
+    "importlib-metadata; python_version<'3.8'",
+    "importlib-resources; python_version<'3.7'",
     "packaging"
   ],
   "requires_extras": {
     "numpy": [
-      "numpy (>=1.14) ; extra == 'numpy'"
+      "numpy (>=1.14); extra=='numpy'"
     ],
     "uncertainties": [
-      "uncertainties (>=3.0) ; extra == 'uncertainties'"
+      "uncertainties (>=3.0); extra=='uncertainties'"
     ]
   },
   "requires_python": ">=3.6",

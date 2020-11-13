@@ -4,8 +4,8 @@
     "httptools (>=0.0.10)",
     "httpx (==0.15.4)",
     "multidict (==5.0.0)",
-    "ujson (>=1.35) ; sys_platform != 'win32' and implementation_name == 'cpython'",
-    "uvloop (>=0.5.3) ; sys_platform != 'win32' and implementation_name == 'cpython'",
+    "ujson (>=1.35); sys_platform !='win32' and implementation_name=='cpython'",
+    "uvloop (>=0.5.3); sys_platform !='win32' and implementation_name=='cpython'",
     "websockets (<9.0,>=8.1)"
   ],
   "requires_extras": {},

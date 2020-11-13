@@ -7,10 +7,10 @@
   ],
   "requires_extras": {
     "brotli": [
-      "brotlipy (==0.7.*) ; extra == 'brotli'"
+      "brotlipy (==0.7.*); extra=='brotli'"
     ],
     "http2": [
-      "h2 (==3.*) ; extra == 'http2'"
+      "h2 (==3.*); extra=='http2'"
     ]
   },
   "requires_python": ">=3.6",

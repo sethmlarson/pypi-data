@@ -7,11 +7,11 @@
   ],
   "requires_extras": {
     "procinfo": [
-      "psutil ; extra == 'procinfo'"
+      "psutil; extra=='procinfo'"
     ],
     "voice": [
-      "PyNaCl (>=1.3.0) ; extra == 'voice'",
-      "youtube-dl ; extra == 'voice'"
+      "PyNaCl (>=1.3.0); extra=='voice'",
+      "youtube-dl; extra=='voice'"
     ]
   },
   "requires_python": ">=3.6.0",

@@ -5,7 +5,7 @@
   ],
   "requires_extras": {
     "tensorflow_gpu": [
-      "tensorflow-gpu (<2.2,>=2.1.0) ; extra == 'tensorflow_gpu'"
+      "tensorflow-gpu (<2.2,>=2.1.0); extra=='tensorflow_gpu'"
     ]
   },
   "requires_python": "",

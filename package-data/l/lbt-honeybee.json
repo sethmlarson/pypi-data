@@ -7,8 +7,8 @@
   ],
   "requires_extras": {
     "cli": [
-      "click (==7.1.2) ; extra == 'cli'",
-      "honeybee-schema (==1.39.8) ; (python_version >= '3.6') and extra == 'cli'"
+      "click (==7.1.2); extra=='cli'",
+      "honeybee-schema (==1.39.8); (python_version>='3.6') and extra=='cli'"
     ]
   },
   "requires_python": "",

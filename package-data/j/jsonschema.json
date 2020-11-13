@@ -1,26 +1,26 @@
 {
   "requires_dist": [
     "attrs (>=17.4.0)",
-    "functools32 ; python_version < '3'",
-    "importlib-metadata ; python_version < '3.8'",
+    "functools32; python_version<'3'",
+    "importlib-metadata; python_version<'3.8'",
     "pyrsistent (>=0.14.0)",
     "setuptools",
     "six (>=1.11.0)"
   ],
   "requires_extras": {
     "format": [
-      "idna ; extra == 'format'",
-      "jsonpointer (>1.13) ; extra == 'format'",
-      "rfc3987 ; extra == 'format'",
-      "strict-rfc3339 ; extra == 'format'",
-      "webcolors ; extra == 'format'"
+      "idna; extra=='format'",
+      "jsonpointer (>1.13); extra=='format'",
+      "rfc3987; extra=='format'",
+      "strict-rfc3339; extra=='format'",
+      "webcolors; extra=='format'"
     ],
     "format_nongpl": [
-      "idna ; extra == 'format_nongpl'",
-      "jsonpointer (>1.13) ; extra == 'format_nongpl'",
-      "rfc3339-validator ; extra == 'format_nongpl'",
-      "rfc3986-validator (>0.1.0) ; extra == 'format_nongpl'",
-      "webcolors ; extra == 'format_nongpl'"
+      "idna; extra=='format_nongpl'",
+      "jsonpointer (>1.13); extra=='format_nongpl'",
+      "rfc3339-validator; extra=='format_nongpl'",
+      "rfc3986-validator (>0.1.0); extra=='format_nongpl'",
+      "webcolors; extra=='format_nongpl'"
     ]
   },
   "requires_python": "",

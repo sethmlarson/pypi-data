@@ -2,10 +2,10 @@
   "requires_dist": [],
   "requires_extras": {
     "db1": [
-      "databricks-pypi1; extra == 'db1'"
+      "databricks-pypi1; extra=='db1'"
     ],
     "db2": [
-      "databricks-pypi2; extra == 'db2'"
+      "databricks-pypi2; extra=='db2'"
     ]
   },
   "requires_python": "",

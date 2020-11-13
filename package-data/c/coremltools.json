@@ -2,7 +2,7 @@
   "requires_dist": [
     "attr",
     "attrs",
-    "enum34 ; python_version < '3.4'",
+    "enum34; python_version<'3.4'",
     "numpy (>=1.14.5)",
     "packaging",
     "protobuf (>=3.1.0)",
@@ -10,7 +10,7 @@
     "six (>=1.10.0)",
     "sympy",
     "tqdm",
-    "typing ; python_version < '3.5'"
+    "typing; python_version<'3.5'"
   ],
   "requires_extras": {},
   "requires_python": "",

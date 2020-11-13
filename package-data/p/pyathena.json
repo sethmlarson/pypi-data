@@ -6,11 +6,11 @@
   ],
   "requires_extras": {
     "Pandas": [
-      "pandas (>=1.0.0); extra == 'Pandas'",
-      "pyarrow (>=1.0.0); extra == 'Pandas'"
+      "pandas (>=1.0.0); extra=='Pandas'",
+      "pyarrow (>=1.0.0); extra=='Pandas'"
     ],
     "SQLAlchemy": [
-      "sqlalchemy (>=1.0.0,<2.0.0); extra == 'SQLAlchemy'"
+      "sqlalchemy (>=1.0.0,<2.0.0); extra=='SQLAlchemy'"
     ]
   },
   "requires_python": ">=3.6.1,<4.0.0",

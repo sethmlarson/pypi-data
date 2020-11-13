@@ -5,27 +5,27 @@
   ],
   "requires_extras": {
     "documents": [
-      "humanfriendly ; extra == 'documents'",
-      "sphinx (>=1.1.3) ; extra == 'documents'",
-      "sphinx-rtd-theme ; extra == 'documents'"
+      "humanfriendly; extra=='documents'",
+      "sphinx (>=1.1.3); extra=='documents'",
+      "sphinx-rtd-theme; extra=='documents'"
     ],
     "quality": [
-      "coverage (>=3.5.3) ; extra == 'quality'",
-      "mock (>=1.0.0) ; extra == 'quality'",
-      "nose (>=1.2.1) ; extra == 'quality'",
-      "pep8 (>=1.3.3) ; extra == 'quality'"
+      "coverage (>=3.5.3); extra=='quality'",
+      "mock (>=1.0.0); extra=='quality'",
+      "nose (>=1.2.1); extra=='quality'",
+      "pep8 (>=1.3.3); extra=='quality'"
     ],
     "repl": [
-      "click (>=7.0) ; extra == 'repl'",
-      "prompt-toolkit (==2.0.4) ; extra == 'repl'",
-      "pygments (==2.2.0) ; extra == 'repl'"
+      "click (>=7.0); extra=='repl'",
+      "prompt-toolkit (==2.0.4); extra=='repl'",
+      "pygments (==2.2.0); extra=='repl'"
     ],
     "tornado": [
-      "tornado (==4.5.3) ; extra == 'tornado'"
+      "tornado (==4.5.3); extra=='tornado'"
     ],
     "twisted": [
-      "pyasn1 (>=0.1.4) ; extra == 'twisted'",
-      "twisted (>=20.3.0) ; extra == 'twisted'"
+      "pyasn1 (>=0.1.4); extra=='twisted'",
+      "twisted (>=20.3.0); extra=='twisted'"
     ]
   },
   "requires_python": "",

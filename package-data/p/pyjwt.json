@@ -2,10 +2,10 @@
   "requires_dist": [],
   "requires_extras": {
     "crypto": [
-      "cryptography (<4.0.0,>=2.6) ; extra == 'crypto'"
+      "cryptography (<4.0.0,>=2.6); extra=='crypto'"
     ],
     "jwks_client": [
-      "requests ; extra == 'jwks_client'"
+      "requests; extra=='jwks_client'"
     ]
   },
   "requires_python": ">=3.5",

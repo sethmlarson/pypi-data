@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "optional": [
-      "aiodns (>1.0) ; extra == 'optional'"
+      "aiodns (>1.0); extra=='optional'"
     ]
   },
   "requires_python": ">=3.6.0",

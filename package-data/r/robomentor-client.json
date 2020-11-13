@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "python_3.6.x_needs": [
-      "dataclasses ; extra == 'python_3.6.x_needs'"
+      "dataclasses; extra=='python_3.6.x_needs'"
     ]
   },
   "requires_python": ">=3.6.0",

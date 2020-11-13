@@ -2,7 +2,7 @@
   "requires_dist": [
     "acme (>=0.29.0)",
     "certbot (>=1.6.0)",
-    "mock ; python_version < '3.3'",
+    "mock; python_version<'3.3'",
     "python-augeas",
     "setuptools",
     "zope.component",

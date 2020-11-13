@@ -4,14 +4,14 @@
   ],
   "requires_extras": {
     "azure-pipelines": [
-      "coverage[toml] ; extra == 'azure-pipelines'",
-      "freezegun (>=0.2.8) ; extra == 'azure-pipelines'",
-      "pretend ; extra == 'azure-pipelines'",
-      "pytest (>=3.3.0) ; extra == 'azure-pipelines'",
-      "pytest-asyncio ; (python_version >= '3.7') and extra == 'azure-pipelines'",
-      "pytest-azurepipelines ; extra == 'azure-pipelines'",
-      "python-rapidjson ; (python_version >= '3.6') and extra == 'azure-pipelines'",
-      "simplejson ; extra == 'azure-pipelines'"
+      "coverage[toml]; extra=='azure-pipelines'",
+      "freezegun (>=0.2.8); extra=='azure-pipelines'",
+      "pretend; extra=='azure-pipelines'",
+      "pytest (>=3.3.0); extra=='azure-pipelines'",
+      "pytest-asyncio; (python_version>='3.7') and extra=='azure-pipelines'",
+      "pytest-azurepipelines; extra=='azure-pipelines'",
+      "python-rapidjson; (python_version>='3.6') and extra=='azure-pipelines'",
+      "simplejson; extra=='azure-pipelines'"
     ]
   },
   "requires_python": "",

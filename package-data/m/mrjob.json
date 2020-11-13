@@ -4,22 +4,22 @@
   ],
   "requires_extras": {
     "aws": [
-      "boto3 (>=1.10.0) ; extra == 'aws'",
-      "botocore (>=1.13.26) ; extra == 'aws'"
+      "boto3 (>=1.10.0); extra=='aws'",
+      "botocore (>=1.13.26); extra=='aws'"
     ],
     "google": [
-      "google-cloud-dataproc (<=1.1.0,>=0.3.0) ; extra == 'google'",
-      "google-cloud-logging (>=1.9.0) ; extra == 'google'",
-      "google-cloud-storage (>=1.13.1) ; extra == 'google'"
+      "google-cloud-dataproc (<=1.1.0,>=0.3.0); extra=='google'",
+      "google-cloud-logging (>=1.9.0); extra=='google'",
+      "google-cloud-storage (>=1.13.1); extra=='google'"
     ],
     "rapidjson": [
-      "python-rapidjson ; extra == 'rapidjson'"
+      "python-rapidjson; extra=='rapidjson'"
     ],
     "simplejson": [
-      "simplejson ; extra == 'simplejson'"
+      "simplejson; extra=='simplejson'"
     ],
     "ujson": [
-      "ujson ; extra == 'ujson'"
+      "ujson; extra=='ujson'"
     ]
   },
   "requires_python": "",

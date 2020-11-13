@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "importlib-metadata ; python_version < '3.8'",
+    "importlib-metadata; python_version<'3.8'",
     "pytest"
   ],
   "requires_extras": {},

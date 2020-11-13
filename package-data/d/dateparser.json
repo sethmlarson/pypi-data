@@ -7,9 +7,9 @@
   ],
   "requires_extras": {
     "calendars": [
-      "convertdate ; (python_version<'3.6') and extra == 'calendars'",
-      "convertdate ; (python_version>='3.6') and extra == 'calendars'",
-      "hijri-converter ; (python_version>='3.6') and extra == 'calendars'"
+      "convertdate; (python_version<'3.6') and extra=='calendars'",
+      "convertdate; (python_version>='3.6') and extra=='calendars'",
+      "hijri-converter; (python_version>='3.6') and extra=='calendars'"
     ]
   },
   "requires_python": ">=3.5",

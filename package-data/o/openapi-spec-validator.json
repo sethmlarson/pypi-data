@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "jsonschema",
-    "pathlib2 ; python_version == '2.7'",
+    "pathlib2; python_version=='2.7'",
     "PyYAML (>=5.1)",
     "six"
   ],

@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "futures ; python_version == '2.7'",
+    "futures; python_version=='2.7'",
     "packaging",
     "pip-api"
   ],

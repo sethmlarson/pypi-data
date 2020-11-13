@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "azure-nspkg ; python_version<'3.0'"
+    "azure-nspkg; python_version<'3.0'"
   ],
   "requires_extras": {},
   "requires_python": "",

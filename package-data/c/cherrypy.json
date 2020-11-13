@@ -4,24 +4,24 @@
     "jaraco.collections",
     "more-itertools",
     "portend (>=2.1.1)",
-    "pywin32 ; sys_platform == 'win32'",
+    "pywin32; sys_platform=='win32'",
     "zc.lockfile"
   ],
   "requires_extras": {
     "json": [
-      "simplejson ; extra == 'json'"
+      "simplejson; extra=='json'"
     ],
     "memcached_session": [
-      "python-memcached (>=1.58) ; extra == 'memcached_session'"
+      "python-memcached (>=1.58); extra=='memcached_session'"
     ],
     "routes_dispatcher": [
-      "routes (>=2.3.1) ; extra == 'routes_dispatcher'"
+      "routes (>=2.3.1); extra=='routes_dispatcher'"
     ],
     "ssl": [
-      "pyOpenSSL ; extra == 'ssl'"
+      "pyOpenSSL; extra=='ssl'"
     ],
     "xcgi": [
-      "flup ; extra == 'xcgi'"
+      "flup; extra=='xcgi'"
     ]
   },
   "requires_python": ">=3.5",

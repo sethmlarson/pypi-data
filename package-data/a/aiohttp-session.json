@@ -4,19 +4,19 @@
   ],
   "requires_extras": {
     "aiomcache": [
-      "aiomcache (>=0.5.2) ; extra == 'aiomcache'"
+      "aiomcache (>=0.5.2); extra=='aiomcache'"
     ],
     "aioredis": [
-      "aioredis (>=1.0.0) ; extra == 'aioredis'"
+      "aioredis (>=1.0.0); extra=='aioredis'"
     ],
     "pycrypto": [
-      "cryptography ; extra == 'pycrypto'"
+      "cryptography; extra=='pycrypto'"
     ],
     "pynacl": [
-      "pynacl ; extra == 'pynacl'"
+      "pynacl; extra=='pynacl'"
     ],
     "secure": [
-      "cryptography ; extra == 'secure'"
+      "cryptography; extra=='secure'"
     ]
   },
   "requires_python": ">=3.5",

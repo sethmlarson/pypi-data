@@ -6,10 +6,10 @@
   ],
   "requires_extras": {
     "aioredis": [
-      "aioredis ; extra == 'aioredis'"
+      "aioredis; extra=='aioredis'"
     ],
     "lua": [
-      "lupa ; extra == 'lua'"
+      "lupa; extra=='lua'"
     ]
   },
   "requires_python": ">=3.5",

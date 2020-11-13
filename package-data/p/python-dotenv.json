@@ -1,10 +1,10 @@
 {
   "requires_dist": [
-    "typing ; python_version < '3.5'"
+    "typing; python_version<'3.5'"
   ],
   "requires_extras": {
     "cli": [
-      "click (>=5.0) ; extra == 'cli'"
+      "click (>=5.0); extra=='cli'"
     ]
   },
   "requires_python": "",

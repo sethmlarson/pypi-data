@@ -9,11 +9,11 @@
   ],
   "requires_extras": {
     "jax": [
-      "jax ; extra == 'jax'",
-      "jaxlib ; extra == 'jax'"
+      "jax; extra=='jax'",
+      "jaxlib; extra=='jax'"
     ],
     "tfds": [
-      "tensorflow-datasets (>=2.2.0) ; extra == 'tfds'"
+      "tensorflow-datasets (>=2.2.0); extra=='tfds'"
     ]
   },
   "requires_python": "",

@@ -2,9 +2,9 @@
   "requires_dist": [],
   "requires_extras": {
     "maintainer": [
-      "django ; extra == 'maintainer'",
-      "transifex-client ; extra == 'maintainer'",
-      "zest.releaser[recommended] ; extra == 'maintainer'"
+      "django; extra=='maintainer'",
+      "transifex-client; extra=='maintainer'",
+      "zest.releaser[recommended]; extra=='maintainer'"
     ]
   },
   "requires_python": "",

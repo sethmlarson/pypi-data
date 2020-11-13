@@ -6,10 +6,10 @@
   ],
   "requires_extras": {
     "pandas": [
-      "pandas (>=0.17.1) ; extra == 'pandas'"
+      "pandas (>=0.17.1); extra=='pandas'"
     ],
     "storage": [
-      "google-cloud-storage (<2.0.0dev,>=1.18.0) ; extra == 'storage'"
+      "google-cloud-storage (<2.0.0dev,>=1.18.0); extra=='storage'"
     ]
   },
   "requires_python": ">=3.6",

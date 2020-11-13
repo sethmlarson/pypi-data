@@ -5,13 +5,13 @@
   ],
   "requires_extras": {
     "chardet": [
-      "chardet (>=2.2) ; extra == 'chardet'"
+      "chardet (>=2.2); extra=='chardet'"
     ],
     "genshi": [
-      "genshi ; extra == 'genshi'"
+      "genshi; extra=='genshi'"
     ],
     "lxml": [
-      "lxml ; (platform_python_implementation == 'CPython') and extra == 'lxml'"
+      "lxml; (platform_python_implementation=='CPython') and extra=='lxml'"
     ]
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",

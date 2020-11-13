@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "h5py",
-    "importlib-metadata (>=0.7) ; python_version < '3.8'",
+    "importlib-metadata (>=0.7); python_version<'3.8'",
     "natsort",
     "numpy (>=1.15)",
     "packaging",

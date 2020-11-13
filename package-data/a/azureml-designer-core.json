@@ -13,10 +13,10 @@
   ],
   "requires_extras": {
     "image": [
-      "Pillow (==7.1.0) ; extra == 'image'"
+      "Pillow (==7.1.0); extra=='image'"
     ],
     "model": [
-      "cloudpickle (==1.2.2) ; extra == 'model'"
+      "cloudpickle (==1.2.2); extra=='model'"
     ]
   },
   "requires_python": ">=3.6",

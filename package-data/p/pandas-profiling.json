@@ -20,11 +20,11 @@
   ],
   "requires_extras": {
     "app": [
-      "pyqt5 (>=5.14.1) ; extra == 'app'"
+      "pyqt5 (>=5.14.1); extra=='app'"
     ],
     "notebook": [
-      "jupyter-client (>=6.0.0) ; extra == 'notebook'",
-      "jupyter-core (>=4.6.3) ; extra == 'notebook'"
+      "jupyter-client (>=6.0.0); extra=='notebook'",
+      "jupyter-core (>=4.6.3); extra=='notebook'"
     ]
   },
   "requires_python": ">=3.6",

@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "bench": [
-      "pyutil (>=3.0.0) ; extra == 'bench'"
+      "pyutil (>=3.0.0); extra=='bench'"
     ]
   },
   "requires_python": "",

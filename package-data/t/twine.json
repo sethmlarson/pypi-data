@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "colorama (>=0.4.3)",
-    "importlib-metadata ; python_version < '3.8'",
+    "importlib-metadata; python_version<'3.8'",
     "keyring (>=15.1)",
     "pkginfo (>=1.4.2)",
     "readme-renderer (>=21.0)",

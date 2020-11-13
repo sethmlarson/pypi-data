@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "widechars": [
-      "wcwidth ; extra == 'widechars'"
+      "wcwidth; extra=='widechars'"
     ]
   },
   "requires_python": "",

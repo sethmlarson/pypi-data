@@ -6,23 +6,23 @@
     "cryptography (>=1.2.3)",
     "distro (>=1.0.1)",
     "josepy (>=1.1.0)",
-    "mock ; python_version < '3.3'",
+    "mock; python_version<'3.3'",
     "parsedatetime (>=1.3)",
     "pyrfc3339",
     "pytz",
-    "pywin32 (>=227) ; sys_platform == 'win32'",
+    "pywin32 (>=227); sys_platform=='win32'",
     "setuptools",
     "zope.component",
     "zope.interface"
   ],
   "requires_extras": {
     "dev3": [
-      "astroid ; extra == 'dev3'",
-      "azure-devops ; extra == 'dev3'",
-      "ipdb ; extra == 'dev3'",
-      "mypy ; extra == 'dev3'",
-      "PyGithub ; extra == 'dev3'",
-      "pylint ; extra == 'dev3'"
+      "astroid; extra=='dev3'",
+      "azure-devops; extra=='dev3'",
+      "ipdb; extra=='dev3'",
+      "mypy; extra=='dev3'",
+      "PyGithub; extra=='dev3'",
+      "pylint; extra=='dev3'"
     ]
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*",

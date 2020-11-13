@@ -5,13 +5,13 @@
   ],
   "requires_extras": {
     "interactive": [
-      "altair ; extra == 'interactive'",
-      "jupyterlab ; extra == 'interactive'",
-      "matplotlib ; extra == 'interactive'",
-      "pillow ; extra == 'interactive'"
+      "altair; extra=='interactive'",
+      "jupyterlab; extra=='interactive'",
+      "matplotlib; extra=='interactive'",
+      "pillow; extra=='interactive'"
     ],
     "setup": [
-      "pytest-runner ; extra == 'setup'"
+      "pytest-runner; extra=='setup'"
     ]
   },
   "requires_python": "",

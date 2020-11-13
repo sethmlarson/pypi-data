@@ -2,7 +2,7 @@
   "requires_dist": [
     "certifi (>=14.05.14)",
     "google-auth (>=1.0.1)",
-    "ipaddress (>=1.0.17) ; python_version=='2.7'",
+    "ipaddress (>=1.0.17); python_version=='2.7'",
     "python-dateutil (>=2.5.3)",
     "pyyaml (>=3.12)",
     "requests",
@@ -14,7 +14,7 @@
   ],
   "requires_extras": {
     "adal": [
-      "adal (>=1.0.2) ; extra == 'adal'"
+      "adal (>=1.0.2); extra=='adal'"
     ]
   },
   "requires_python": "",

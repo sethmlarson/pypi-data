@@ -1,20 +1,20 @@
 {
   "requires_dist": [
-    "aiocontextvars (>=0.2) ; python_version < '3.7'",
+    "aiocontextvars (>=0.2); python_version<'3.7'",
     "colorlog (>=2.9.0)",
     "mypy-extensions",
-    "typing-extensions ; python_version < '3.8'"
+    "typing-extensions; python_version<'3.8'"
   ],
   "requires_extras": {
     "eventlet": [
-      "aioeventlet (~=0.5.1) ; extra == 'eventlet'",
-      "dnspython ; extra == 'eventlet'"
+      "aioeventlet (~=0.5.1); extra=='eventlet'",
+      "dnspython; extra=='eventlet'"
     ],
     "gevent": [
-      "aiogevent (~=0.2) ; extra == 'gevent'"
+      "aiogevent (~=0.2); extra=='gevent'"
     ],
     "uvloop": [
-      "uvloop (>=0.8.1) ; extra == 'uvloop'"
+      "uvloop (>=0.8.1); extra=='uvloop'"
     ]
   },
   "requires_python": "~=3.6",

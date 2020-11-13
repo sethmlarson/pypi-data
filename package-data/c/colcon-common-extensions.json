@@ -1,8 +1,8 @@
 {
   "requires_dist": [
-    "colcon-argcomplete; sys_platform != 'win32'",
-    "colcon-bash; sys_platform != 'win32'",
-    "colcon-cd; sys_platform != 'win32'",
+    "colcon-argcomplete; sys_platform !='win32'",
+    "colcon-bash; sys_platform !='win32'",
+    "colcon-cd; sys_platform !='win32'",
     "colcon-cmake",
     "colcon-core",
     "colcon-defaults",
@@ -19,7 +19,7 @@
     "colcon-recursive-crawl",
     "colcon-ros",
     "colcon-test-result",
-    "colcon-zsh; sys_platform != 'win32'"
+    "colcon-zsh; sys_platform !='win32'"
   ],
   "requires_extras": {},
   "requires_python": "",

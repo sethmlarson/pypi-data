@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "enum34 ; python_version <= '2.7'",
+    "enum34; python_version<='2.7'",
     "pycodestyle",
     "setuptools"
   ],

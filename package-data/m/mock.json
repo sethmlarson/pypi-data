@@ -2,9 +2,9 @@
   "requires_dist": [],
   "requires_extras": {
     "build": [
-      "blurb ; extra == 'build'",
-      "twine ; extra == 'build'",
-      "wheel ; extra == 'build'"
+      "blurb; extra=='build'",
+      "twine; extra=='build'",
+      "wheel; extra=='build'"
     ]
   },
   "requires_python": ">=3.6",

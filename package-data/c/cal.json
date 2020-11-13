@@ -5,10 +5,10 @@
   ],
   "requires_extras": {
     "icalendar": [
-      "icalendar ; extra == 'icalendar'"
+      "icalendar; extra=='icalendar'"
     ],
     "pdf": [
-      "reportlab ; extra == 'pdf'"
+      "reportlab; extra=='pdf'"
     ]
   },
   "requires_python": ">=3.7",

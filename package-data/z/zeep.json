@@ -13,10 +13,10 @@
   ],
   "requires_extras": {
     "async": [
-      "httpx ; extra == 'async'"
+      "httpx; extra=='async'"
     ],
     "xmlsec": [
-      "xmlsec (>=0.6.1) ; extra == 'xmlsec'"
+      "xmlsec (>=0.6.1); extra=='xmlsec'"
     ]
   },
   "requires_python": ">=3.6",

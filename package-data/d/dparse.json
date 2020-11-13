@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "pipenv": [
-      "pipenv ; extra == 'pipenv'"
+      "pipenv; extra=='pipenv'"
     ]
   },
   "requires_python": ">=3.5",

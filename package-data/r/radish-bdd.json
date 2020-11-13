@@ -10,13 +10,13 @@
   ],
   "requires_extras": {
     "coverage": [
-      "coverage ; extra == 'coverage'"
+      "coverage; extra=='coverage'"
     ],
     "ipython-debugger": [
-      "ipython ; extra == 'ipython-debugger'"
+      "ipython; extra=='ipython-debugger'"
     ],
     "xml": [
-      "lxml ; extra == 'xml'"
+      "lxml; extra=='xml'"
     ]
   },
   "requires_python": ">=3.5.*",

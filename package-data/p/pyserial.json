@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "cp2110": [
-      "hidapi; extra == 'cp2110'"
+      "hidapi; extra=='cp2110'"
     ]
   },
   "requires_python": "",

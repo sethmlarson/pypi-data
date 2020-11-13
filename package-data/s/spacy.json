@@ -3,7 +3,7 @@
     "blis (<0.5.0,>=0.4.0)",
     "catalogue (<1.1.0,>=0.0.7)",
     "cymem (<2.1.0,>=2.0.2)",
-    "importlib-metadata (>=0.20) ; python_version < '3.8'",
+    "importlib-metadata (>=0.20); python_version<'3.8'",
     "murmurhash (<1.1.0,>=0.28.0)",
     "numpy (>=1.15.0)",
     "packaging",
@@ -19,41 +19,41 @@
   ],
   "requires_extras": {
     "cuda": [
-      "cupy (<9.0.0,>=5.0.0b4) ; extra == 'cuda'"
+      "cupy (<9.0.0,>=5.0.0b4); extra=='cuda'"
     ],
     "cuda100": [
-      "cupy-cuda100 (<9.0.0,>=5.0.0b4) ; extra == 'cuda100'"
+      "cupy-cuda100 (<9.0.0,>=5.0.0b4); extra=='cuda100'"
     ],
     "cuda101": [
-      "cupy-cuda101 (<9.0.0,>=5.0.0b4) ; extra == 'cuda101'"
+      "cupy-cuda101 (<9.0.0,>=5.0.0b4); extra=='cuda101'"
     ],
     "cuda102": [
-      "cupy-cuda102 (<9.0.0,>=5.0.0b4) ; extra == 'cuda102'"
+      "cupy-cuda102 (<9.0.0,>=5.0.0b4); extra=='cuda102'"
     ],
     "cuda80": [
-      "cupy-cuda80 (<9.0.0,>=5.0.0b4) ; extra == 'cuda80'"
+      "cupy-cuda80 (<9.0.0,>=5.0.0b4); extra=='cuda80'"
     ],
     "cuda90": [
-      "cupy-cuda90 (<9.0.0,>=5.0.0b4) ; extra == 'cuda90'"
+      "cupy-cuda90 (<9.0.0,>=5.0.0b4); extra=='cuda90'"
     ],
     "cuda91": [
-      "cupy-cuda91 (<9.0.0,>=5.0.0b4) ; extra == 'cuda91'"
+      "cupy-cuda91 (<9.0.0,>=5.0.0b4); extra=='cuda91'"
     ],
     "cuda92": [
-      "cupy-cuda92 (<9.0.0,>=5.0.0b4) ; extra == 'cuda92'"
+      "cupy-cuda92 (<9.0.0,>=5.0.0b4); extra=='cuda92'"
     ],
     "ja": [
-      "sudachidict-core (>=20200330) ; extra == 'ja'",
-      "sudachipy (>=0.4.5) ; extra == 'ja'"
+      "sudachidict-core (>=20200330); extra=='ja'",
+      "sudachipy (>=0.4.5); extra=='ja'"
     ],
     "ko": [
-      "natto-py (==0.9.0) ; extra == 'ko'"
+      "natto-py (==0.9.0); extra=='ko'"
     ],
     "lookups": [
-      "spacy-lookups-data (<0.4.0,>=0.3.2) ; extra == 'lookups'"
+      "spacy-lookups-data (<0.4.0,>=0.3.2); extra=='lookups'"
     ],
     "th": [
-      "pythainlp (>=2.0) ; extra == 'th'"
+      "pythainlp (>=2.0); extra=='th'"
     ]
   },
   "requires_python": ">=3.6",

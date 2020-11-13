@@ -7,10 +7,10 @@
   ],
   "requires_extras": {
     "pdf": [
-      "reportlab ; extra == 'pdf'"
+      "reportlab; extra=='pdf'"
     ],
     "rst": [
-      "docutils ; extra == 'rst'"
+      "docutils; extra=='rst'"
     ]
   },
   "requires_python": ">=3.5",

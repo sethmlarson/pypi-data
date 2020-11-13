@@ -4,10 +4,10 @@
   ],
   "requires_extras": {
     "phonenumbers": [
-      "phonenumbers (>=7.0.2) ; extra == 'phonenumbers'"
+      "phonenumbers (>=7.0.2); extra=='phonenumbers'"
     ],
     "phonenumberslite": [
-      "phonenumberslite (>=7.0.2) ; extra == 'phonenumberslite'"
+      "phonenumberslite (>=7.0.2); extra=='phonenumberslite'"
     ]
   },
   "requires_python": ">=3.5",

@@ -1,7 +1,7 @@
 {
   "requires_dist": [
-    "dataclasses ; python_version < '3.7'",
-    "importlib-metadata ; python_version < '3.8'",
+    "dataclasses; python_version<'3.7'",
+    "importlib-metadata; python_version<'3.8'",
     "typing-extensions"
   ],
   "requires_extras": {},

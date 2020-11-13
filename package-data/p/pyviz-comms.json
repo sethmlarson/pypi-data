@@ -4,8 +4,8 @@
   ],
   "requires_extras": {
     "build": [
-      "param (>=1.7.0) ; extra == 'build'",
-      "setuptools ; extra == 'build'"
+      "param (>=1.7.0); extra=='build'",
+      "setuptools; extra=='build'"
     ]
   },
   "requires_python": "",

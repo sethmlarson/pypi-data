@@ -4,13 +4,13 @@
   ],
   "requires_extras": {
     "hjson": [
-      "hjson ; extra == 'hjson'"
+      "hjson; extra=='hjson'"
     ],
     "toml": [
-      "toml ; extra == 'toml'"
+      "toml; extra=='toml'"
     ],
     "yaml": [
-      "PyYAML ; extra == 'yaml'"
+      "PyYAML; extra=='yaml'"
     ]
   },
   "requires_python": "",

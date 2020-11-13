@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "applaunchservices (>=0.1.7) ; platform_system == 'Darwin'",
+    "applaunchservices (>=0.1.7); platform_system=='Darwin'",
     "atomicwrites (>=1.2.0)",
     "chardet (>=2.0.0)",
     "cloudpickle (>=0.5.0)",
@@ -13,7 +13,7 @@
     "keyring (>=17.0.0)",
     "nbconvert (>=4.0)",
     "numpydoc (>=0.6.0)",
-    "paramiko (>=2.4.0) ; platform_system == 'Windows'",
+    "paramiko (>=2.4.0); platform_system=='Windows'",
     "parso (==0.7.0)",
     "pexpect (>=4.4.0)",
     "pickleshare (>=0.4)",
@@ -25,7 +25,7 @@
     "pyqt5 (<5.13)",
     "pyqtwebengine (<5.13)",
     "python-language-server[all] (<1.0.0,>=0.36.1)",
-    "pyxdg (>=0.26) ; platform_system == 'Linux'",
+    "pyxdg (>=0.26); platform_system=='Linux'",
     "pyzmq (>=17)",
     "qdarkstyle (>=2.8)",
     "qtawesome (>=0.5.7)",

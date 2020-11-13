@@ -1,10 +1,10 @@
 {
   "requires_dist": [
     "adal (>=0.4.2)",
-    "azure-nspkg ; python_version<'3.0'",
+    "azure-nspkg; python_version<'3.0'",
     "cffi",
-    "futures ; python_version<='2.7'",
-    "pathlib2 ; python_version<'3.4'",
+    "futures; python_version<='2.7'",
+    "pathlib2; python_version<'3.4'",
     "requests (>=2.20.0)"
   ],
   "requires_extras": {},

@@ -2,10 +2,10 @@
   "requires_dist": [],
   "requires_extras": {
     "tornado": [
-      "tornado ; extra == 'tornado'"
+      "tornado; extra=='tornado'"
     ],
     "twisted": [
-      "twisted ; extra == 'twisted'"
+      "twisted; extra=='twisted'"
     ]
   },
   "requires_python": "",

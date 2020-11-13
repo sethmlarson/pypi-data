@@ -11,13 +11,13 @@
   ],
   "requires_extras": {
     "optional": [
-      "astropy (>=1.2.0) ; extra == 'optional'",
-      "cloudpickle (>=0.2.1) ; extra == 'optional'",
-      "dask[array] (>=0.15.0) ; extra == 'optional'",
-      "pooch (>=0.5.2) ; extra == 'optional'",
-      "pyamg ; extra == 'optional'",
-      "qtpy ; extra == 'optional'",
-      "SimpleITK ; extra == 'optional'"
+      "astropy (>=1.2.0); extra=='optional'",
+      "cloudpickle (>=0.2.1); extra=='optional'",
+      "dask[array] (>=0.15.0); extra=='optional'",
+      "pooch (>=0.5.2); extra=='optional'",
+      "pyamg; extra=='optional'",
+      "qtpy; extra=='optional'",
+      "SimpleITK; extra=='optional'"
     ]
   },
   "requires_python": ">=3.6",

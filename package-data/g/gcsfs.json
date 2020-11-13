@@ -9,7 +9,7 @@
   ],
   "requires_extras": {
     "gcsfuse": [
-      "fusepy ; extra == 'gcsfuse'"
+      "fusepy; extra=='gcsfuse'"
     ]
   },
   "requires_python": ">=3.6",

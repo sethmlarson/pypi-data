@@ -5,14 +5,14 @@
   ],
   "requires_extras": {
     "asyncio": [
-      "aiohttp; extra == 'asyncio'"
+      "aiohttp; extra=='asyncio'"
     ],
     "tornado": [
-      "tornado; extra == 'tornado'"
+      "tornado; extra=='tornado'"
     ],
     "twisted": [
-      "treq; extra == 'twisted'",
-      "twisted; extra == 'twisted'"
+      "treq; extra=='twisted'",
+      "twisted; extra=='twisted'"
     ]
   },
   "requires_python": "",

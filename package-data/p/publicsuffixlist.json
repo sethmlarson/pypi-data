@@ -2,10 +2,10 @@
   "requires_dist": [],
   "requires_extras": {
     "readme": [
-      "pandoc ; extra == 'readme'"
+      "pandoc; extra=='readme'"
     ],
     "update": [
-      "requests ; extra == 'update'"
+      "requests; extra=='update'"
     ]
   },
   "requires_python": ">=2.6",

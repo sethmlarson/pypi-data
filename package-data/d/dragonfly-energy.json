@@ -5,8 +5,8 @@
   ],
   "requires_extras": {
     "cli": [
-      "click (==7.1.2) ; extra == 'cli'",
-      "dragonfly-core[cli] (==1.25.47) ; extra == 'cli'"
+      "click (==7.1.2); extra=='cli'",
+      "dragonfly-core[cli] (==1.25.47); extra=='cli'"
     ]
   },
   "requires_python": "",

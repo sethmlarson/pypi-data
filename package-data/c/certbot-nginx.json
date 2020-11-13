@@ -2,7 +2,7 @@
   "requires_dist": [
     "acme (>=1.4.0)",
     "certbot (>=1.6.0)",
-    "mock ; python_version < '3.3'",
+    "mock; python_version<'3.3'",
     "PyOpenSSL",
     "pyparsing (>=1.5.5)",
     "setuptools",

@@ -1,9 +1,9 @@
 {
   "requires_dist": [
     "attrs (~=20.1)",
-    "cattrs (~=1.0.0) ; python_version < '3.7'",
-    "cattrs (~=1.1.0) ; python_version >= '3.7'",
-    "importlib-resources ; python_version < '3.7'",
+    "cattrs (~=1.0.0); python_version<'3.7'",
+    "cattrs (~=1.1.0); python_version>='3.7'",
+    "importlib-resources; python_version<'3.7'",
     "python-dateutil",
     "typing-extensions (~=3.7)"
   ],

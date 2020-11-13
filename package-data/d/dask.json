@@ -4,41 +4,41 @@
   ],
   "requires_extras": {
     "array": [
-      "numpy (>=1.13.0) ; extra == 'array'",
-      "toolz (>=0.8.2) ; extra == 'array'"
+      "numpy (>=1.13.0); extra=='array'",
+      "toolz (>=0.8.2); extra=='array'"
     ],
     "bag": [
-      "cloudpickle (>=0.2.2) ; extra == 'bag'",
-      "fsspec (>=0.6.0) ; extra == 'bag'",
-      "partd (>=0.3.10) ; extra == 'bag'",
-      "toolz (>=0.8.2) ; extra == 'bag'"
+      "cloudpickle (>=0.2.2); extra=='bag'",
+      "fsspec (>=0.6.0); extra=='bag'",
+      "partd (>=0.3.10); extra=='bag'",
+      "toolz (>=0.8.2); extra=='bag'"
     ],
     "complete": [
-      "bokeh (!=2.0.0,>=1.0.0) ; extra == 'complete'",
-      "cloudpickle (>=0.2.2) ; extra == 'complete'",
-      "distributed (>=2.0) ; extra == 'complete'",
-      "fsspec (>=0.6.0) ; extra == 'complete'",
-      "numpy (>=1.13.0) ; extra == 'complete'",
-      "pandas (>=0.23.0) ; extra == 'complete'",
-      "partd (>=0.3.10) ; extra == 'complete'",
-      "toolz (>=0.8.2) ; extra == 'complete'"
+      "bokeh (!=2.0.0,>=1.0.0); extra=='complete'",
+      "cloudpickle (>=0.2.2); extra=='complete'",
+      "distributed (>=2.0); extra=='complete'",
+      "fsspec (>=0.6.0); extra=='complete'",
+      "numpy (>=1.13.0); extra=='complete'",
+      "pandas (>=0.23.0); extra=='complete'",
+      "partd (>=0.3.10); extra=='complete'",
+      "toolz (>=0.8.2); extra=='complete'"
     ],
     "dataframe": [
-      "fsspec (>=0.6.0) ; extra == 'dataframe'",
-      "numpy (>=1.13.0) ; extra == 'dataframe'",
-      "pandas (>=0.23.0) ; extra == 'dataframe'",
-      "partd (>=0.3.10) ; extra == 'dataframe'",
-      "toolz (>=0.8.2) ; extra == 'dataframe'"
+      "fsspec (>=0.6.0); extra=='dataframe'",
+      "numpy (>=1.13.0); extra=='dataframe'",
+      "pandas (>=0.23.0); extra=='dataframe'",
+      "partd (>=0.3.10); extra=='dataframe'",
+      "toolz (>=0.8.2); extra=='dataframe'"
     ],
     "delayed": [
-      "cloudpickle (>=0.2.2) ; extra == 'delayed'",
-      "toolz (>=0.8.2) ; extra == 'delayed'"
+      "cloudpickle (>=0.2.2); extra=='delayed'",
+      "toolz (>=0.8.2); extra=='delayed'"
     ],
     "diagnostics": [
-      "bokeh (!=2.0.0,>=1.0.0) ; extra == 'diagnostics'"
+      "bokeh (!=2.0.0,>=1.0.0); extra=='diagnostics'"
     ],
     "distributed": [
-      "distributed (>=2.0) ; extra == 'distributed'"
+      "distributed (>=2.0); extra=='distributed'"
     ]
   },
   "requires_python": ">=3.6",

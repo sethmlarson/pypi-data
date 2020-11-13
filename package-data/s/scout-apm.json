@@ -1,10 +1,10 @@
 {
   "requires_dist": [
-    "asgiref ; python_version >= '3.5'",
-    "importlib-metadata ; python_version < '3.8'",
+    "asgiref; python_version>='3.5'",
+    "importlib-metadata; python_version<'3.8'",
     "psutil (<6,>=5)",
-    "urllib3[secure] (<1.25) ; python_version < '3.5'",
-    "urllib3[secure] (<2) ; python_version >= '3.5'",
+    "urllib3[secure] (<1.25); python_version<'3.5'",
+    "urllib3[secure] (<2); python_version>='3.5'",
     "wrapt (<2.0,>=1.10)"
   ],
   "requires_extras": {},

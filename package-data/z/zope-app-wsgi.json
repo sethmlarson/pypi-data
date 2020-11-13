@@ -22,7 +22,7 @@
   ],
   "requires_extras": {
     "testlayer": [
-      "WebTest ; extra == 'testlayer'"
+      "WebTest; extra=='testlayer'"
     ]
   },
   "requires_python": "",

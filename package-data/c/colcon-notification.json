@@ -1,8 +1,8 @@
 {
   "requires_dist": [
     "colcon-core (>=0.3.7)",
-    "notify2 ; sys_platform == 'linux'",
-    "pywin32 ; sys_platform == 'win32'"
+    "notify2; sys_platform=='linux'",
+    "pywin32; sys_platform=='win32'"
   ],
   "requires_extras": {},
   "requires_python": "",

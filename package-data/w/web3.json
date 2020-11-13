@@ -10,20 +10,20 @@
     "jsonschema (<4.0.0,>=3.2.0)",
     "lru-dict (<2.0.0,>=1.1.6)",
     "protobuf (<4,>=3.10.0)",
-    "pypiwin32 (>=223) ; platform_system == 'Windows'",
+    "pypiwin32 (>=223); platform_system=='Windows'",
     "requests (<3.0.0,>=2.16.0)",
-    "typing-extensions (<4,>=3.7.4.1) ; python_version < '3.8'",
+    "typing-extensions (<4,>=3.7.4.1); python_version<'3.8'",
     "websockets (<9.0.0,>=8.1.0)"
   ],
   "requires_extras": {
     "linter": [
-      "flake8 (==3.8.3) ; extra == 'linter'",
-      "isort (<4.3.5,>=4.2.15) ; extra == 'linter'",
-      "mypy (==0.730) ; extra == 'linter'"
+      "flake8 (==3.8.3); extra=='linter'",
+      "isort (<4.3.5,>=4.2.15); extra=='linter'",
+      "mypy (==0.730); extra=='linter'"
     ],
     "tester": [
-      "eth-tester[py-evm] (==v0.5.0-beta.3) ; extra == 'tester'",
-      "py-geth (<3,>=2.4.0) ; extra == 'tester'"
+      "eth-tester[py-evm] (==v0.5.0-beta.3); extra=='tester'",
+      "py-geth (<3,>=2.4.0); extra=='tester'"
     ]
   },
   "requires_python": ">=3.6,<4",

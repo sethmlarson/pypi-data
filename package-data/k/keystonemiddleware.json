@@ -17,7 +17,7 @@
   ],
   "requires_extras": {
     "audit_notifications": [
-      "oslo.messaging (>=5.29.0); extra == 'audit_notifications'"
+      "oslo.messaging (>=5.29.0); extra=='audit_notifications'"
     ]
   },
   "requires_python": "",

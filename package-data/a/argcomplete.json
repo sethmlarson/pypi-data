@@ -1,9 +1,9 @@
 {
   "requires_dist": [
-    "importlib-metadata (<3,>=0.23) ; python_version == '2.7'",
-    "importlib-metadata (<3,>=0.23) ; python_version == '3.5'",
-    "importlib-metadata (<3,>=0.23) ; python_version == '3.6'",
-    "importlib-metadata (<3,>=0.23) ; python_version == '3.7'"
+    "importlib-metadata (<3,>=0.23); python_version=='2.7'",
+    "importlib-metadata (<3,>=0.23); python_version=='3.5'",
+    "importlib-metadata (<3,>=0.23); python_version=='3.6'",
+    "importlib-metadata (<3,>=0.23); python_version=='3.7'"
   ],
   "requires_extras": {},
   "requires_python": "",

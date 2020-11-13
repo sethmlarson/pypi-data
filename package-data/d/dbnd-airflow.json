@@ -5,46 +5,46 @@
   ],
   "requires_extras": {
     "airflow": [
-      "apache-airflow (==1.10.7) ; extra == 'airflow'",
-      "cattrs (==1.0.0) ; extra == 'airflow'",
-      "psycopg2 (<2.8,>=2.7.4) ; extra == 'airflow'",
-      "Werkzeug (<1.0.0,>=0.15.0) ; extra == 'airflow'",
-      "WTForms (<2.3.0) ; extra == 'airflow'"
+      "apache-airflow (==1.10.7); extra=='airflow'",
+      "cattrs (==1.0.0); extra=='airflow'",
+      "psycopg2 (<2.8,>=2.7.4); extra=='airflow'",
+      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow'",
+      "WTForms (<2.3.0); extra=='airflow'"
     ],
     "airflow_1_10_10": [
-      "apache-airflow (==1.10.10) ; extra == 'airflow_1_10_10'",
-      "cattrs (==1.0.0) ; extra == 'airflow_1_10_10'",
-      "psycopg2 (<2.8,>=2.7.4) ; extra == 'airflow_1_10_10'",
-      "Werkzeug (<1.0.0,>=0.15.0) ; extra == 'airflow_1_10_10'",
-      "WTForms (<2.3.0) ; extra == 'airflow_1_10_10'"
+      "apache-airflow (==1.10.10); extra=='airflow_1_10_10'",
+      "cattrs (==1.0.0); extra=='airflow_1_10_10'",
+      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_10'",
+      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_10'",
+      "WTForms (<2.3.0); extra=='airflow_1_10_10'"
     ],
     "airflow_1_10_12": [
-      "apache-airflow (==1.10.12) ; extra == 'airflow_1_10_12'",
-      "cattrs (==1.0.0) ; extra == 'airflow_1_10_12'",
-      "psycopg2 (<2.8,>=2.7.4) ; extra == 'airflow_1_10_12'",
-      "Werkzeug (<1.0.0,>=0.15.0) ; extra == 'airflow_1_10_12'",
-      "WTForms (<2.3.0) ; extra == 'airflow_1_10_12'"
+      "apache-airflow (==1.10.12); extra=='airflow_1_10_12'",
+      "cattrs (==1.0.0); extra=='airflow_1_10_12'",
+      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_12'",
+      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_12'",
+      "WTForms (<2.3.0); extra=='airflow_1_10_12'"
     ],
     "airflow_1_10_7": [
-      "apache-airflow (==1.10.7) ; extra == 'airflow_1_10_7'",
-      "cattrs (==1.0.0) ; extra == 'airflow_1_10_7'",
-      "psycopg2 (<2.8,>=2.7.4) ; extra == 'airflow_1_10_7'",
-      "Werkzeug (<1.0.0,>=0.15.0) ; extra == 'airflow_1_10_7'",
-      "WTForms (<2.3.0) ; extra == 'airflow_1_10_7'"
+      "apache-airflow (==1.10.7); extra=='airflow_1_10_7'",
+      "cattrs (==1.0.0); extra=='airflow_1_10_7'",
+      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_7'",
+      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_7'",
+      "WTForms (<2.3.0); extra=='airflow_1_10_7'"
     ],
     "airflow_1_10_8": [
-      "apache-airflow (==1.10.8) ; extra == 'airflow_1_10_8'",
-      "cattrs (==1.0.0) ; extra == 'airflow_1_10_8'",
-      "psycopg2 (<2.8,>=2.7.4) ; extra == 'airflow_1_10_8'",
-      "Werkzeug (<1.0.0,>=0.15.0) ; extra == 'airflow_1_10_8'",
-      "WTForms (<2.3.0) ; extra == 'airflow_1_10_8'"
+      "apache-airflow (==1.10.8); extra=='airflow_1_10_8'",
+      "cattrs (==1.0.0); extra=='airflow_1_10_8'",
+      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_8'",
+      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_8'",
+      "WTForms (<2.3.0); extra=='airflow_1_10_8'"
     ],
     "airflow_1_10_9": [
-      "apache-airflow (==1.10.9) ; extra == 'airflow_1_10_9'",
-      "cattrs (==1.0.0) ; extra == 'airflow_1_10_9'",
-      "psycopg2 (<2.8,>=2.7.4) ; extra == 'airflow_1_10_9'",
-      "Werkzeug (<1.0.0,>=0.15.0) ; extra == 'airflow_1_10_9'",
-      "WTForms (<2.3.0) ; extra == 'airflow_1_10_9'"
+      "apache-airflow (==1.10.9); extra=='airflow_1_10_9'",
+      "cattrs (==1.0.0); extra=='airflow_1_10_9'",
+      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_9'",
+      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_9'",
+      "WTForms (<2.3.0); extra=='airflow_1_10_9'"
     ]
   },
   "requires_python": "",

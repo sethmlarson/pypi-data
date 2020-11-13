@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "numpy": [
-      "numpy (>=1.11.0) ; extra == 'numpy'"
+      "numpy (>=1.11.0); extra=='numpy'"
     ]
   },
   "requires_python": "",

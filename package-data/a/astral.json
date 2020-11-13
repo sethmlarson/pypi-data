@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "dataclasses ; python_version == '3.6'",
+    "dataclasses; python_version=='3.6'",
     "pytz"
   ],
   "requires_extras": {},

@@ -10,7 +10,7 @@
   ],
   "requires_extras": {
     "appium": [
-      "appium-python-client (>=0.44) ; extra == 'appium'"
+      "appium-python-client (>=0.44); extra=='appium'"
     ]
   },
   "requires_python": ">=3.6",

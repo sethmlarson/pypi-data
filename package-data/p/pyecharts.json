@@ -6,16 +6,16 @@
   ],
   "requires_extras": {
     "images": [
-      "PIL ; extra == 'images'"
+      "PIL; extra=='images'"
     ],
     "phantomjs": [
-      "snapshot-phantomjs ; extra == 'phantomjs'"
+      "snapshot-phantomjs; extra=='phantomjs'"
     ],
     "pyppeteer": [
-      "snapshot-pyppeteer ; extra == 'pyppeteer'"
+      "snapshot-pyppeteer; extra=='pyppeteer'"
     ],
     "selenium": [
-      "snapshot-selenium ; extra == 'selenium'"
+      "snapshot-selenium; extra=='selenium'"
     ]
   },
   "requires_python": "",

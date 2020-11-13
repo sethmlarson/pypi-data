@@ -12,7 +12,7 @@
   ],
   "requires_extras": {
     "nbext": [
-      "notebook ; extra == 'nbext'"
+      "notebook; extra=='nbext'"
     ]
   },
   "requires_python": ">=3.5",

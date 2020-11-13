@@ -3,9 +3,9 @@
     "ansible (>=2.8)",
     "pyyaml",
     "rich",
-    "ruamel.yaml (<1,>=0.15.34) ; python_version < '3.7'",
-    "ruamel.yaml (<1,>=0.15.37) ; python_version >= '3.7'",
-    "typing-extensions ; python_version < '3.8'"
+    "ruamel.yaml (<1,>=0.15.34); python_version<'3.7'",
+    "ruamel.yaml (<1,>=0.15.37); python_version>='3.7'",
+    "typing-extensions; python_version<'3.8'"
   ],
   "requires_extras": {},
   "requires_python": ">=3.6",

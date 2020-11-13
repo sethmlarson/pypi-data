@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "amqp": [
-      "amqplib (==1.0.2) ; extra == 'amqp'"
+      "amqplib (==1.0.2); extra=='amqp'"
     ]
   },
   "requires_python": "",

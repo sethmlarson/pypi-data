@@ -12,7 +12,7 @@
   ],
   "requires_extras": {
     "untrusted": [
-      "zope.untrustedpython ; (python_version == '2.7') and extra == 'untrusted'"
+      "zope.untrustedpython; (python_version=='2.7') and extra=='untrusted'"
     ]
   },
   "requires_python": "",

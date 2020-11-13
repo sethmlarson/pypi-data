@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "pywin32 (>=1.0) ; sys_platform == 'win32'",
+    "pywin32 (>=1.0); sys_platform=='win32'",
     "traitlets"
   ],
   "requires_extras": {},

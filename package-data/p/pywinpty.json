@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "backports.shutil-which ; python_version < '3.0'"
+    "backports.shutil-which; python_version<'3.0'"
   ],
   "requires_extras": {},
   "requires_python": "",

@@ -16,10 +16,10 @@
   ],
   "requires_extras": {
     "serve": [
-      "tornado (>=4.0) ; extra == 'serve'"
+      "tornado (>=4.0); extra=='serve'"
     ],
     "webpdf": [
-      "pyppeteer (==0.2.2) ; extra == 'webpdf'"
+      "pyppeteer (==0.2.2); extra=='webpdf'"
     ]
   },
   "requires_python": ">=3.6",

@@ -7,10 +7,10 @@
   ],
   "requires_extras": {
     "pyinquirer": [
-      "PyInquirer (==1.0.3) ; extra == 'pyinquirer'"
+      "PyInquirer (==1.0.3); extra=='pyinquirer'"
     ],
     "wizard": [
-      "PyInquirer (==1.0.3) ; extra == 'wizard'"
+      "PyInquirer (==1.0.3); extra=='wizard'"
     ]
   },
   "requires_python": "",

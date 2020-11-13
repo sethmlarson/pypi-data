@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "importlib-resources ; python_version < '3.7'",
+    "importlib-resources; python_version<'3.7'",
     "jaraco.functools",
     "six"
   ],

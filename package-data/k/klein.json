@@ -1,13 +1,13 @@
 {
   "requires_dist": [
     "attrs",
-    "enum34 ; python_version < '3.4'",
+    "enum34; python_version<'3.4'",
     "hyperlink",
     "incremental",
     "six",
     "Tubes",
     "Twisted (>=15.5)",
-    "typing ; python_version < '3.5'",
+    "typing; python_version<'3.5'",
     "Werkzeug",
     "zope.interface"
   ],

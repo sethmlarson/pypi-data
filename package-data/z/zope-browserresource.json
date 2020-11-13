@@ -13,8 +13,8 @@
   ],
   "requires_extras": {
     "zcml": [
-      "zope.component[zcml] ; extra == 'zcml'",
-      "zope.security[zcml] (>=3.8) ; extra == 'zcml'"
+      "zope.component[zcml]; extra=='zcml'",
+      "zope.security[zcml] (>=3.8); extra=='zcml'"
     ]
   },
   "requires_python": "",

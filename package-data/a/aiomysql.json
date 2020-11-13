@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "sa": [
-      "sqlalchemy (>=1.0) ; extra == 'sa'"
+      "sqlalchemy (>=1.0); extra=='sa'"
     ]
   },
   "requires_python": "",

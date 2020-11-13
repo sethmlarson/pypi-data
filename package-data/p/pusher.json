@@ -10,10 +10,10 @@
   ],
   "requires_extras": {
     "aiohttp": [
-      "aiohttp (>=0.20.0) ; extra == 'aiohttp'"
+      "aiohttp (>=0.20.0); extra=='aiohttp'"
     ],
     "tornado": [
-      "tornado (>=5.0.0) ; extra == 'tornado'"
+      "tornado (>=5.0.0); extra=='tornado'"
     ]
   },
   "requires_python": "",

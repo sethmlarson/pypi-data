@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "typing-extensions ; python_version < '3.8'"
+    "typing-extensions; python_version<'3.8'"
   ],
   "requires_extras": {},
   "requires_python": ">=3.6",

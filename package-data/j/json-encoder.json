@@ -5,7 +5,7 @@
   ],
   "requires_extras": {
     "simplejson": [
-      "simplejson (>=3.8.2); extra == 'simplejson'"
+      "simplejson (>=3.8.2); extra=='simplejson'"
     ]
   },
   "requires_python": "",

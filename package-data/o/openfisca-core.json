@@ -10,13 +10,13 @@
   ],
   "requires_extras": {
     "tracker": [
-      "openfisca-tracker (==0.4.0) ; extra == 'tracker'"
+      "openfisca-tracker (==0.4.0); extra=='tracker'"
     ],
     "web-api": [
-      "flask (==1.1.2) ; extra == 'web-api'",
-      "flask-cors (==3.0.7) ; extra == 'web-api'",
-      "gunicorn (<21.0.0,>=20.0.0) ; extra == 'web-api'",
-      "werkzeug (<2.0.0,>=1.0.0) ; extra == 'web-api'"
+      "flask (==1.1.2); extra=='web-api'",
+      "flask-cors (==3.0.7); extra=='web-api'",
+      "gunicorn (<21.0.0,>=20.0.0); extra=='web-api'",
+      "werkzeug (<2.0.0,>=1.0.0); extra=='web-api'"
     ]
   },
   "requires_python": "",

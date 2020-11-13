@@ -2,10 +2,10 @@
   "requires_dist": [],
   "requires_extras": {
     "lxml": [
-      "lxml ; extra == 'lxml'"
+      "lxml; extra=='lxml'"
     ],
     "png": [
-      "cairosvg ; extra == 'png'"
+      "cairosvg; extra=='png'"
     ]
   },
   "requires_python": "",

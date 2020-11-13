@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "autopep8",
-    "scandir ; python_version < '3.5'",
+    "scandir; python_version<'3.5'",
     "six"
   ],
   "requires_extras": {},

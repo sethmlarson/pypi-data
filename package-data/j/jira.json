@@ -9,16 +9,16 @@
   ],
   "requires_extras": {
     "async": [
-      "requests-futures (>=0.9.7) ; extra == 'async'"
+      "requests-futures (>=0.9.7); extra=='async'"
     ],
     "cli": [
-      "ipython (>=4.0.0) ; extra == 'cli'"
+      "ipython (>=4.0.0); extra=='cli'"
     ],
     "opt": [
-      "filemagic (>=1.6) ; extra == 'opt'",
-      "PyJWT ; extra == 'opt'",
-      "requests-jwt ; extra == 'opt'",
-      "requests-kerberos ; extra == 'opt'"
+      "filemagic (>=1.6); extra=='opt'",
+      "PyJWT; extra=='opt'",
+      "requests-jwt; extra=='opt'",
+      "requests-kerberos; extra=='opt'"
     ]
   },
   "requires_python": ">=3.5",

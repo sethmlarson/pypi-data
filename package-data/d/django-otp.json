@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "qrcode": [
-      "qrcode ; extra == 'qrcode'"
+      "qrcode; extra=='qrcode'"
     ]
   },
   "requires_python": "",

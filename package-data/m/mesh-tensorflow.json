@@ -7,14 +7,14 @@
   ],
   "requires_extras": {
     "auto_mtf": [
-      "ortools ; extra == 'auto_mtf'"
+      "ortools; extra=='auto_mtf'"
     ],
     "tensorflow": [
-      "tensorflow (>=1.15.0) ; extra == 'tensorflow'"
+      "tensorflow (>=1.15.0); extra=='tensorflow'"
     ],
     "transformer": [
-      "scipy ; extra == 'transformer'",
-      "tensorflow-datasets ; extra == 'transformer'"
+      "scipy; extra=='transformer'",
+      "tensorflow-datasets; extra=='transformer'"
     ]
   },
   "requires_python": "",

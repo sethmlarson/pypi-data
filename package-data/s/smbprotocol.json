@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "kerberos": [
-      "gssapi (>=1.4.1) ; (sys_platform!='win32') and extra == 'kerberos'"
+      "gssapi (>=1.4.1); (sys_platform!='win32') and extra=='kerberos'"
     ]
   },
   "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*",

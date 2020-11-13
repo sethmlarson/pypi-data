@@ -1,11 +1,11 @@
 {
   "requires_dist": [
-    "enum34 (>=1.1.6) ; python_version=='2.7'",
-    "pathlib (>=1.0.1) ; python_version=='2.7'"
+    "enum34 (>=1.1.6); python_version=='2.7'",
+    "pathlib (>=1.0.1); python_version=='2.7'"
   ],
   "requires_extras": {
     "scripts": [
-      "Pillow (>=3.2.0) ; extra == 'scripts'"
+      "Pillow (>=3.2.0); extra=='scripts'"
     ]
   },
   "requires_python": "",

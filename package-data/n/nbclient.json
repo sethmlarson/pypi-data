@@ -8,11 +8,11 @@
   ],
   "requires_extras": {
     "sphinx": [
-      "mock ; extra == 'sphinx'",
-      "moto ; extra == 'sphinx'",
-      "myst-parser ; extra == 'sphinx'",
-      "Sphinx (>=1.7) ; extra == 'sphinx'",
-      "sphinx-book-theme ; extra == 'sphinx'"
+      "mock; extra=='sphinx'",
+      "moto; extra=='sphinx'",
+      "myst-parser; extra=='sphinx'",
+      "Sphinx (>=1.7); extra=='sphinx'",
+      "sphinx-book-theme; extra=='sphinx'"
     ]
   },
   "requires_python": ">=3.6",

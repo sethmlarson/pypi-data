@@ -3,7 +3,7 @@
     "hupper (>=1.5)",
     "plaster",
     "plaster-pastedeploy",
-    "repoze.lru (>=0.4) ; python_version<'3.2'",
+    "repoze.lru (>=0.4); python_version<'3.2'",
     "setuptools",
     "translationstring (>=0.4)",
     "venusian (>=1.0)",

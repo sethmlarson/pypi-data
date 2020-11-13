@@ -9,11 +9,11 @@
   ],
   "requires_extras": {
     "collision": [
-      "pybullet ; extra == 'collision'"
+      "pybullet; extra=='collision'"
     ],
     "vpython": [
-      "numpy-stl ; extra == 'vpython'",
-      "vpython ; extra == 'vpython'"
+      "numpy-stl; extra=='vpython'",
+      "vpython; extra=='vpython'"
     ]
   },
   "requires_python": ">=3.6",

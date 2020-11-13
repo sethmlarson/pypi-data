@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "calendar": [
-      "GooCalendar (>=0.7) ; extra == 'calendar'"
+      "GooCalendar (>=0.7); extra=='calendar'"
     ]
   },
   "requires_python": ">=3.6",

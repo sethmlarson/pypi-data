@@ -10,27 +10,27 @@
   ],
   "requires_extras": {
     "all_tested_drivers": [
-      "mysql-connector-python (>=8.0.16) ; (python_version == '3.7' or platform_python_implementation == 'PyPy') and extra == 'all_tested_drivers'",
-      "mysqlclient (!=2.0.0,>=1.4) ; (platform_python_implementation == 'CPython' and sys_platform != 'win32') and extra == 'all_tested_drivers'",
-      "pg8000 (>=1.11.0) ; (python_version == '2.7' or platform_python_implementation == 'PyPy') and extra == 'all_tested_drivers'",
-      "psycopg2 (>=2.8.3) ; (platform_python_implementation == 'CPython') and extra == 'all_tested_drivers'",
-      "psycopg2cffi (>=2.7.4) ; (python_version == '3.5' or platform_python_implementation == 'PyPy') and extra == 'all_tested_drivers'",
-      "PyMySQL (>=0.6.6) ; (python_version == '3.6' or platform_python_implementation == 'PyPy' or sys_platform == 'win32') and extra == 'all_tested_drivers'"
+      "mysql-connector-python (>=8.0.16); (python_version=='3.7' or platform_python_implementation=='PyPy') and extra=='all_tested_drivers'",
+      "mysqlclient (!=2.0.0,>=1.4); (platform_python_implementation=='CPython' and sys_platform !='win32') and extra=='all_tested_drivers'",
+      "pg8000 (>=1.11.0); (python_version=='2.7' or platform_python_implementation=='PyPy') and extra=='all_tested_drivers'",
+      "psycopg2 (>=2.8.3); (platform_python_implementation=='CPython') and extra=='all_tested_drivers'",
+      "psycopg2cffi (>=2.7.4); (python_version=='3.5' or platform_python_implementation=='PyPy') and extra=='all_tested_drivers'",
+      "PyMySQL (>=0.6.6); (python_version=='3.6' or platform_python_implementation=='PyPy' or sys_platform=='win32') and extra=='all_tested_drivers'"
     ],
     "memcache": [
-      "pylibmc ; (platform_python_implementation == 'CPython' and sys_platform != 'win32') and extra == 'memcache'",
-      "python-memcached ; (platform_python_implementation == 'PyPy' or sys_platform == 'win32') and extra == 'memcache'"
+      "pylibmc; (platform_python_implementation=='CPython' and sys_platform !='win32') and extra=='memcache'",
+      "python-memcached; (platform_python_implementation=='PyPy' or sys_platform=='win32') and extra=='memcache'"
     ],
     "mysql": [
-      "mysqlclient (!=2.0.0,>=1.4) ; (platform_python_implementation=='CPython' and (sys_platform != 'win32')) and extra == 'mysql'",
-      "PyMySQL (>=0.6.6) ; (platform_python_implementation=='PyPy' or (sys_platform == 'win32')) and extra == 'mysql'"
+      "mysqlclient (!=2.0.0,>=1.4); (platform_python_implementation=='CPython' and (sys_platform !='win32')) and extra=='mysql'",
+      "PyMySQL (>=0.6.6); (platform_python_implementation=='PyPy' or (sys_platform=='win32')) and extra=='mysql'"
     ],
     "oracle": [
-      "cx-Oracle (>=6.0) ; extra == 'oracle'"
+      "cx-Oracle (>=6.0); extra=='oracle'"
     ],
     "postgresql": [
-      "psycopg2 (>=2.8.3) ; ( platform_python_implementation == 'CPython') and extra == 'postgresql'",
-      "psycopg2cffi (>=2.8.1) ; ( platform_python_implementation == 'PyPy') and extra == 'postgresql'"
+      "psycopg2 (>=2.8.3); ( platform_python_implementation=='CPython') and extra=='postgresql'",
+      "psycopg2cffi (>=2.8.1); ( platform_python_implementation=='PyPy') and extra=='postgresql'"
     ]
   },
   "requires_python": "",

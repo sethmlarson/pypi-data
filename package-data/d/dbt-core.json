@@ -3,7 +3,7 @@
     "agate (<2,>=1.6)",
     "cffi (<1.15,>=1.9)",
     "colorama (<0.4.4,>=0.3.9)",
-    "dataclasses (==0.6) ; python_version < '3.7'",
+    "dataclasses (==0.6); python_version<'3.7'",
     "hologram (==0.0.10)",
     "idna (<2.10)",
     "isodate (<0.7,>=0.6)",

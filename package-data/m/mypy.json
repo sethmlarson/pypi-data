@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "dmypy": [
-      "psutil (>=4.0) ; extra == 'dmypy'"
+      "psutil (>=4.0); extra=='dmypy'"
     ]
   },
   "requires_python": ">=3.5",

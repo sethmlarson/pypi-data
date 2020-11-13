@@ -1,9 +1,9 @@
 {
   "requires_dist": [
-    "backports.functools-lru-cache ; python_version < '3.3'",
+    "backports.functools-lru-cache; python_version<'3.3'",
     "jaraco.functools",
     "more-itertools (>=2.6)",
-    "selectors2 ; python_version < '3.4'",
+    "selectors2; python_version<'3.4'",
     "six (>=1.11.0)"
   ],
   "requires_extras": {},

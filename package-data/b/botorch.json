@@ -6,10 +6,10 @@
   ],
   "requires_extras": {
     "tutorials": [
-      "cma ; extra == 'tutorials'",
-      "jupyter ; extra == 'tutorials'",
-      "matplotlib ; extra == 'tutorials'",
-      "torchvision ; extra == 'tutorials'"
+      "cma; extra=='tutorials'",
+      "jupyter; extra=='tutorials'",
+      "matplotlib; extra=='tutorials'",
+      "torchvision; extra=='tutorials'"
     ]
   },
   "requires_python": ">=3.7",

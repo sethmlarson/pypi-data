@@ -1,9 +1,9 @@
 {
   "requires_dist": [
-    "backports.tempfile ; python_version < '3.5'",
-    "contextlib2 ; python_version <= '2.7'",
-    "funcsigs ; python_version <= '2.7'",
-    "importlib ; python_version < '2.7'",
+    "backports.tempfile; python_version<'3.5'",
+    "contextlib2; python_version<='2.7'",
+    "funcsigs; python_version<='2.7'",
+    "importlib; python_version<'2.7'",
     "packaging",
     "pip",
     "setuptools",

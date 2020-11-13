@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "export": [
-      "jinja2 (>=2.7,<2.8); extra == 'export'"
+      "jinja2 (>=2.7,<2.8); extra=='export'"
     ]
   },
   "requires_python": "",

@@ -19,17 +19,17 @@
   ],
   "requires_extras": {
     "mitie": [
-      "mitie ; extra == 'mitie'"
+      "mitie; extra=='mitie'"
     ],
     "spacy": [
-      "scipy (~=1.2) ; extra == 'spacy'",
-      "sklearn-crfsuite (~=0.3.6) ; extra == 'spacy'",
-      "spacy (<=2.0.18,>2.0) ; extra == 'spacy'"
+      "scipy (~=1.2); extra=='spacy'",
+      "sklearn-crfsuite (~=0.3.6); extra=='spacy'",
+      "spacy (<=2.0.18,>2.0); extra=='spacy'"
     ],
     "tensorflow": [
-      "scipy (~=1.2) ; extra == 'tensorflow'",
-      "sklearn-crfsuite (~=0.3.6) ; extra == 'tensorflow'",
-      "tensorflow (~=1.13.0) ; extra == 'tensorflow'"
+      "scipy (~=1.2); extra=='tensorflow'",
+      "sklearn-crfsuite (~=0.3.6); extra=='tensorflow'",
+      "tensorflow (~=1.13.0); extra=='tensorflow'"
     ]
   },
   "requires_python": "",

@@ -5,7 +5,7 @@
   ],
   "requires_extras": {
     "extras": [
-      "tensorflow (==2.3.1) ; extra == 'extras'"
+      "tensorflow (==2.3.1); extra=='extras'"
     ]
   },
   "requires_python": "",

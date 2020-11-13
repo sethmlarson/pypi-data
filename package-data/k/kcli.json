@@ -11,33 +11,33 @@
   ],
   "requires_extras": {
     "aws": [
-      "boto3 ; extra == 'aws'"
+      "boto3; extra=='aws'"
     ],
     "gcp": [
-      "google-api-python-client ; extra == 'gcp'",
-      "google-auth-httplib2 ; extra == 'gcp'",
-      "google-cloud-dns ; extra == 'gcp'"
+      "google-api-python-client; extra=='gcp'",
+      "google-auth-httplib2; extra=='gcp'",
+      "google-cloud-dns; extra=='gcp'"
     ],
     "grpc": [
-      "grpcio ; extra == 'grpc'",
-      "grpcio-reflection ; extra == 'grpc'"
+      "grpcio; extra=='grpc'",
+      "grpcio-reflection; extra=='grpc'"
     ],
     "kubevirt": [
-      "kubernetes ; extra == 'kubevirt'"
+      "kubernetes; extra=='kubevirt'"
     ],
     "openstack": [
-      "python-cinderclient ; extra == 'openstack'",
-      "python-glanceclient ; extra == 'openstack'",
-      "python-keystoneclient ; extra == 'openstack'",
-      "python-neutronclient ; extra == 'openstack'",
-      "python-novaclient ; extra == 'openstack'"
+      "python-cinderclient; extra=='openstack'",
+      "python-glanceclient; extra=='openstack'",
+      "python-keystoneclient; extra=='openstack'",
+      "python-neutronclient; extra=='openstack'",
+      "python-novaclient; extra=='openstack'"
     ],
     "ovirt": [
-      "ovirt-engine-sdk-python ; extra == 'ovirt'"
+      "ovirt-engine-sdk-python; extra=='ovirt'"
     ],
     "vsphere": [
-      "pyvmomi ; extra == 'vsphere'",
-      "requests ; extra == 'vsphere'"
+      "pyvmomi; extra=='vsphere'",
+      "requests; extra=='vsphere'"
     ]
   },
   "requires_python": "",

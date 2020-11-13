@@ -2,26 +2,26 @@
   "requires_dist": [],
   "requires_extras": {
     "cli": [
-      "tabulate ; extra == 'cli'"
+      "tabulate; extra=='cli'"
     ],
     "html": [
-      "markuppy ; extra == 'html'"
+      "markuppy; extra=='html'"
     ],
     "ods": [
-      "odfpy ; extra == 'ods'"
+      "odfpy; extra=='ods'"
     ],
     "pandas": [
-      "pandas ; extra == 'pandas'"
+      "pandas; extra=='pandas'"
     ],
     "xls": [
-      "xlrd ; extra == 'xls'",
-      "xlwt ; extra == 'xls'"
+      "xlrd; extra=='xls'",
+      "xlwt; extra=='xls'"
     ],
     "xlsx": [
-      "openpyxl (>=2.6.0) ; extra == 'xlsx'"
+      "openpyxl (>=2.6.0); extra=='xlsx'"
     ],
     "yaml": [
-      "pyyaml ; extra == 'yaml'"
+      "pyyaml; extra=='yaml'"
     ]
   },
   "requires_python": ">=3.5",

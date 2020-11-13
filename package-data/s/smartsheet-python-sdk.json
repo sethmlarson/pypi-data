@@ -8,10 +8,10 @@
   ],
   "requires_extras": {
     "develop": [
-      "coverage; extra == 'develop'",
-      "coveralls[yaml]; extra == 'develop'",
-      "pytest; extra == 'develop'",
-      "pytest-instafail; extra == 'develop'"
+      "coverage; extra=='develop'",
+      "coveralls[yaml]; extra=='develop'",
+      "pytest; extra=='develop'",
+      "pytest-instafail; extra=='develop'"
     ]
   },
   "requires_python": "",

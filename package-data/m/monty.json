@@ -2,7 +2,7 @@
   "requires_dist": [],
   "requires_extras": {
     "yaml": [
-      "ruamel.yaml ; extra == 'yaml'"
+      "ruamel.yaml; extra=='yaml'"
     ]
   },
   "requires_python": ">=3.5",

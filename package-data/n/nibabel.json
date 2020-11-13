@@ -5,20 +5,20 @@
   ],
   "requires_extras": {
     "dicom": [
-      "pydicom (>=0.9.9) ; extra == 'dicom'"
+      "pydicom (>=0.9.9); extra=='dicom'"
     ],
     "dicomfs": [
-      "pillow ; extra == 'dicomfs'",
-      "pydicom (>=0.9.9) ; extra == 'dicomfs'"
+      "pillow; extra=='dicomfs'",
+      "pydicom (>=0.9.9); extra=='dicomfs'"
     ],
     "minc2": [
-      "h5py ; extra == 'minc2'"
+      "h5py; extra=='minc2'"
     ],
     "spm": [
-      "scipy ; extra == 'spm'"
+      "scipy; extra=='spm'"
     ],
     "style": [
-      "flake8 ; extra == 'style'"
+      "flake8; extra=='style'"
     ]
   },
   "requires_python": ">=3.6",

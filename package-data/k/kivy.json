@@ -1,35 +1,35 @@
 {
   "requires_dist": [
     "docutils",
-    "kivy-deps.angle (~=0.3.0) ; sys_platform == 'win32'",
-    "kivy-deps.glew (~=0.3.0) ; sys_platform == 'win32'",
-    "kivy-deps.sdl2 (~=0.3.1) ; sys_platform == 'win32'",
+    "kivy-deps.angle (~=0.3.0); sys_platform=='win32'",
+    "kivy-deps.glew (~=0.3.0); sys_platform=='win32'",
+    "kivy-deps.sdl2 (~=0.3.1); sys_platform=='win32'",
     "Kivy-Garden (>=0.1.4)",
     "pygments",
-    "pypiwin32 ; sys_platform == 'win32'"
+    "pypiwin32; sys_platform=='win32'"
   ],
   "requires_extras": {
     "base": [
-      "docutils ; extra == 'base'",
-      "kivy-deps.angle (~=0.3.0) ; (sys_platform == 'win32') and extra == 'base'",
-      "kivy-deps.glew (~=0.3.0) ; (sys_platform == 'win32') and extra == 'base'",
-      "kivy-deps.sdl2 (~=0.3.1) ; (sys_platform == 'win32') and extra == 'base'",
-      "pillow ; extra == 'base'",
-      "pygments ; extra == 'base'",
-      "pypiwin32 ; (sys_platform == 'win32') and extra == 'base'"
+      "docutils; extra=='base'",
+      "kivy-deps.angle (~=0.3.0); (sys_platform=='win32') and extra=='base'",
+      "kivy-deps.glew (~=0.3.0); (sys_platform=='win32') and extra=='base'",
+      "kivy-deps.sdl2 (~=0.3.1); (sys_platform=='win32') and extra=='base'",
+      "pillow; extra=='base'",
+      "pygments; extra=='base'",
+      "pypiwin32; (sys_platform=='win32') and extra=='base'"
     ],
     "full": [
-      "docutils ; extra == 'full'",
-      "kivy-deps.angle (~=0.3.0) ; (sys_platform == 'win32') and extra == 'full'",
-      "kivy-deps.glew (~=0.3.0) ; (sys_platform == 'win32') and extra == 'full'",
-      "kivy-deps.gstreamer (~=0.3.1) ; (sys_platform == 'win32') and extra == 'full'",
-      "kivy-deps.sdl2 (~=0.3.1) ; (sys_platform == 'win32') and extra == 'full'",
-      "pillow ; extra == 'full'",
-      "pygments ; extra == 'full'",
-      "pypiwin32 ; (sys_platform == 'win32') and extra == 'full'"
+      "docutils; extra=='full'",
+      "kivy-deps.angle (~=0.3.0); (sys_platform=='win32') and extra=='full'",
+      "kivy-deps.glew (~=0.3.0); (sys_platform=='win32') and extra=='full'",
+      "kivy-deps.gstreamer (~=0.3.1); (sys_platform=='win32') and extra=='full'",
+      "kivy-deps.sdl2 (~=0.3.1); (sys_platform=='win32') and extra=='full'",
+      "pillow; extra=='full'",
+      "pygments; extra=='full'",
+      "pypiwin32; (sys_platform=='win32') and extra=='full'"
     ],
     "tuio": [
-      "oscpy ; extra == 'tuio'"
+      "oscpy; extra=='tuio'"
     ]
   },
   "requires_python": "",

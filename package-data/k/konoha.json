@@ -4,46 +4,46 @@
   ],
   "requires_extras": {
     "all_with_integrations": [
-      "janome (>=0.3.10,<0.4.0); extra == 'janome' or extra == 'all' or extra == 'all_with_integrations'",
-      "kytea (>=0.1.4,<0.2.0); extra == 'kytea' or extra == 'all' or extra == 'all_with_integrations'",
-      "natto-py (>=0.9.0,<0.10.0); extra == 'mecab' or extra == 'all' or extra == 'all_with_integrations'",
-      "nagisa (>=0.2.7,<0.3.0); extra == 'nagisa' or extra == 'all' or extra == 'all_with_integrations'",
-      "boto3 (>=1.11.0,<2.0.0); extra == 'remote' or extra == 'all' or extra == 'all_with_integrations'",
-      "sentencepiece (>=0.1.85,<0.2.0); extra == 'sentencepiece' or extra == 'all' or extra == 'all_with_integrations'",
-      "fastapi (>=0.54.1,<0.55.0); extra == 'server' or extra == 'all' or extra == 'all_with_integrations'",
-      "uvicorn (>=0.11.5,<0.12.0); extra == 'server' or extra == 'all' or extra == 'all_with_integrations'",
-      "sudachidict-core (>=20200330,<20200331); extra == 'sudachi' or extra == 'all' or extra == 'all_with_integrations'",
-      "sudachipy (==0.4.9); extra == 'sudachi' or extra == 'all' or extra == 'all_with_integrations'",
-      "allennlp (>=1.0.0,<2.0.0); extra == 'allennlp' or extra == 'all_with_integrations'"
+      "janome (>=0.3.10,<0.4.0); extra=='janome' or extra=='all' or extra=='all_with_integrations'",
+      "kytea (>=0.1.4,<0.2.0); extra=='kytea' or extra=='all' or extra=='all_with_integrations'",
+      "natto-py (>=0.9.0,<0.10.0); extra=='mecab' or extra=='all' or extra=='all_with_integrations'",
+      "nagisa (>=0.2.7,<0.3.0); extra=='nagisa' or extra=='all' or extra=='all_with_integrations'",
+      "boto3 (>=1.11.0,<2.0.0); extra=='remote' or extra=='all' or extra=='all_with_integrations'",
+      "sentencepiece (>=0.1.85,<0.2.0); extra=='sentencepiece' or extra=='all' or extra=='all_with_integrations'",
+      "fastapi (>=0.54.1,<0.55.0); extra=='server' or extra=='all' or extra=='all_with_integrations'",
+      "uvicorn (>=0.11.5,<0.12.0); extra=='server' or extra=='all' or extra=='all_with_integrations'",
+      "sudachidict-core (>=20200330,<20200331); extra=='sudachi' or extra=='all' or extra=='all_with_integrations'",
+      "sudachipy (==0.4.9); extra=='sudachi' or extra=='all' or extra=='all_with_integrations'",
+      "allennlp (>=1.0.0,<2.0.0); extra=='allennlp' or extra=='all_with_integrations'"
     ],
     "allennlp": [
-      "allennlp (>=1.0.0,<2.0.0); extra == 'allennlp' or extra == 'all_with_integrations'"
+      "allennlp (>=1.0.0,<2.0.0); extra=='allennlp' or extra=='all_with_integrations'"
     ],
     "janome": [
-      "janome (>=0.3.10,<0.4.0); extra == 'janome' or extra == 'all' or extra == 'all_with_integrations'"
+      "janome (>=0.3.10,<0.4.0); extra=='janome' or extra=='all' or extra=='all_with_integrations'"
     ],
     "kytea": [
-      "kytea (>=0.1.4,<0.2.0); extra == 'kytea' or extra == 'all' or extra == 'all_with_integrations'"
+      "kytea (>=0.1.4,<0.2.0); extra=='kytea' or extra=='all' or extra=='all_with_integrations'"
     ],
     "mecab": [
-      "natto-py (>=0.9.0,<0.10.0); extra == 'mecab' or extra == 'all' or extra == 'all_with_integrations'"
+      "natto-py (>=0.9.0,<0.10.0); extra=='mecab' or extra=='all' or extra=='all_with_integrations'"
     ],
     "nagisa": [
-      "nagisa (>=0.2.7,<0.3.0); extra == 'nagisa' or extra == 'all' or extra == 'all_with_integrations'"
+      "nagisa (>=0.2.7,<0.3.0); extra=='nagisa' or extra=='all' or extra=='all_with_integrations'"
     ],
     "remote": [
-      "boto3 (>=1.11.0,<2.0.0); extra == 'remote' or extra == 'all' or extra == 'all_with_integrations'"
+      "boto3 (>=1.11.0,<2.0.0); extra=='remote' or extra=='all' or extra=='all_with_integrations'"
     ],
     "sentencepiece": [
-      "sentencepiece (>=0.1.85,<0.2.0); extra == 'sentencepiece' or extra == 'all' or extra == 'all_with_integrations'"
+      "sentencepiece (>=0.1.85,<0.2.0); extra=='sentencepiece' or extra=='all' or extra=='all_with_integrations'"
     ],
     "server": [
-      "fastapi (>=0.54.1,<0.55.0); extra == 'server' or extra == 'all' or extra == 'all_with_integrations'",
-      "uvicorn (>=0.11.5,<0.12.0); extra == 'server' or extra == 'all' or extra == 'all_with_integrations'"
+      "fastapi (>=0.54.1,<0.55.0); extra=='server' or extra=='all' or extra=='all_with_integrations'",
+      "uvicorn (>=0.11.5,<0.12.0); extra=='server' or extra=='all' or extra=='all_with_integrations'"
     ],
     "sudachi": [
-      "sudachidict-core (>=20200330,<20200331); extra == 'sudachi' or extra == 'all' or extra == 'all_with_integrations'",
-      "sudachipy (==0.4.9); extra == 'sudachi' or extra == 'all' or extra == 'all_with_integrations'"
+      "sudachidict-core (>=20200330,<20200331); extra=='sudachi' or extra=='all' or extra=='all_with_integrations'",
+      "sudachipy (==0.4.9); extra=='sudachi' or extra=='all' or extra=='all_with_integrations'"
     ]
   },
   "requires_python": ">=3.6.1,<4.0.0",

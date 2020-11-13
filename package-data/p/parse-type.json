@@ -1,16 +1,16 @@
 {
   "requires_dist": [
-    "enum34 ; python_version < '3.4'",
-    "ordereddict ; python_version < '2.7'",
+    "enum34; python_version<'3.4'",
+    "ordereddict; python_version<'2.7'",
     "parse (>=1.8.4)",
     "six (>=1.11)"
   ],
   "requires_extras": {
     "develop": [
-      "coverage (>=4.4) ; extra == 'develop'",
-      "pytest (>=3.2) ; extra == 'develop'",
-      "pytest-cov ; extra == 'develop'",
-      "tox (>=2.8) ; extra == 'develop'"
+      "coverage (>=4.4); extra=='develop'",
+      "pytest (>=3.2); extra=='develop'",
+      "pytest-cov; extra=='develop'",
+      "tox (>=2.8); extra=='develop'"
     ]
   },
   "requires_python": ">=2.6, !=3.0.*, !=3.1.*",

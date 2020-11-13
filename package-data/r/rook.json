@@ -7,9 +7,9 @@
   ],
   "requires_extras": {
     "ssl_backport": [
-      "backports.ssl ; extra == 'ssl_backport'",
-      "backports.ssl-match-hostname ; extra == 'ssl_backport'",
-      "PyOpenSSL ; extra == 'ssl_backport'"
+      "backports.ssl; extra=='ssl_backport'",
+      "backports.ssl-match-hostname; extra=='ssl_backport'",
+      "PyOpenSSL; extra=='ssl_backport'"
     ]
   },
   "requires_python": "",

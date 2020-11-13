@@ -14,7 +14,7 @@
   ],
   "requires_extras": {
     "dublincore": [
-      "zope.dublincore (>=3.7); extra == 'dublincore'"
+      "zope.dublincore (>=3.7); extra=='dublincore'"
     ]
   },
   "requires_python": "",

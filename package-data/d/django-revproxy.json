@@ -5,8 +5,8 @@
   ],
   "requires_extras": {
     "diazo": [
-      "diazo (>=1.0.5) ; extra == 'diazo'",
-      "lxml (>=3.4) ; extra == 'diazo'"
+      "diazo (>=1.0.5); extra=='diazo'",
+      "lxml (>=3.4); extra=='diazo'"
     ]
   },
   "requires_python": "",

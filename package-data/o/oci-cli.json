@@ -17,7 +17,7 @@
   ],
   "requires_extras": {
     "db": [
-      "cx-Oracle (==7.0) ; extra == 'db'"
+      "cx-Oracle (==7.0); extra=='db'"
     ]
   },
   "requires_python": "",

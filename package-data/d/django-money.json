@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "exchange": [
-      "certifi ; extra == 'exchange'"
+      "certifi; extra=='exchange'"
     ]
   },
   "requires_python": ">=3.5",

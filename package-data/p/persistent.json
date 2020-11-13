@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "cffi ; platform_python_implementation == 'CPython'",
+    "cffi; platform_python_implementation=='CPython'",
     "zope.interface"
   ],
   "requires_extras": {},

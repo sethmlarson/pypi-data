@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "CairoSVG": [
-      "cairosvg (>=1.0); extra == 'CairoSVG'"
+      "cairosvg (>=1.0); extra=='CairoSVG'"
     ]
   },
   "requires_python": "~=3.4",

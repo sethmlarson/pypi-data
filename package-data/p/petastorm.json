@@ -14,20 +14,20 @@
   ],
   "requires_extras": {
     "opencv": [
-      "opencv-python (>=3.2.0.6) ; extra == 'opencv'"
+      "opencv-python (>=3.2.0.6); extra=='opencv'"
     ],
     "s3fs": [
-      "s3fs (>=0.5.0) ; extra == 's3fs'"
+      "s3fs (>=0.5.0); extra=='s3fs'"
     ],
     "tf": [
-      "tensorflow (>=1.14.0) ; extra == 'tf'"
+      "tensorflow (>=1.14.0); extra=='tf'"
     ],
     "tf_gpu": [
-      "tensorflow-gpu (>=1.14.0) ; extra == 'tf_gpu'"
+      "tensorflow-gpu (>=1.14.0); extra=='tf_gpu'"
     ],
     "torch": [
-      "torch (>=1.5.0) ; extra == 'torch'",
-      "torchvision (>=0.2.1) ; extra == 'torch'"
+      "torch (>=1.5.0); extra=='torch'",
+      "torchvision (>=0.2.1); extra=='torch'"
     ]
   },
   "requires_python": ">=3",

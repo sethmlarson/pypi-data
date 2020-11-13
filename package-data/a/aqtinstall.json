@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "importlib-metadata ; python_version < '3.8'",
+    "importlib-metadata; python_version<'3.8'",
     "packaging",
     "py7zr (!=0.10.0,<0.11.0,>=0.9.9)",
     "requests",
@@ -9,15 +9,15 @@
   ],
   "requires_extras": {
     "check": [
-      "check-manifest ; extra == 'check'",
-      "docutils ; extra == 'check'",
-      "flake8 ; extra == 'check'",
-      "isort (>=5.0.0) ; extra == 'check'",
-      "packaging ; extra == 'check'",
-      "pep517 ; extra == 'check'",
-      "pygments ; extra == 'check'",
-      "readme-renderer ; extra == 'check'",
-      "twine ; extra == 'check'"
+      "check-manifest; extra=='check'",
+      "docutils; extra=='check'",
+      "flake8; extra=='check'",
+      "isort (>=5.0.0); extra=='check'",
+      "packaging; extra=='check'",
+      "pep517; extra=='check'",
+      "pygments; extra=='check'",
+      "readme-renderer; extra=='check'",
+      "twine; extra=='check'"
     ]
   },
   "requires_python": ">=3.6",

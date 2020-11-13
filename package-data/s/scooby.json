@@ -2,8 +2,8 @@
   "requires_dist": [],
   "requires_extras": {
     "cpu": [
-      "mkl ; extra == 'cpu'",
-      "psutil ; extra == 'cpu'"
+      "mkl; extra=='cpu'",
+      "psutil; extra=='cpu'"
     ]
   },
   "requires_python": "",

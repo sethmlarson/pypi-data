@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "typing ; python_version < '3.5'",
+    "typing; python_version<'3.5'",
     "werkzeug"
   ],
   "requires_extras": {},

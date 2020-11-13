@@ -13,7 +13,7 @@
   ],
   "requires_extras": {
     "menu": [
-      "zope.browsermenu; extra == 'menu'"
+      "zope.browsermenu; extra=='menu'"
     ]
   },
   "requires_python": "",

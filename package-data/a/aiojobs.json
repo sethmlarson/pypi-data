@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "aiohttp >= 2.3.0"
+    "aiohttp>=2.3.0"
   ],
   "requires_extras": {},
   "requires_python": ">=3.5",

@@ -4,10 +4,10 @@
   ],
   "requires_extras": {
     "readline": [
-      "gnureadline ; extra == 'readline'"
+      "gnureadline; extra=='readline'"
     ],
     "windows": [
-      "pyreadline ; extra == 'windows'"
+      "pyreadline; extra=='windows'"
     ]
   },
   "requires_python": "",

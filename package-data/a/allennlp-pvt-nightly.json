@@ -9,7 +9,7 @@
     "ftfy",
     "gevent (>=1.3.6)",
     "h5py",
-    "jsonnet (>=0.10.0) ; sys_platform != 'win32'",
+    "jsonnet (>=0.10.0); sys_platform !='win32'",
     "jsonpickle",
     "matplotlib (>=2.2.3)",
     "nltk",

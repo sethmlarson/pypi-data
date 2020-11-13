@@ -15,10 +15,10 @@
   ],
   "requires_extras": {
     "easy-thumbnails": [
-      "easy-thumbnails (<2.8,>=2.7) ; extra == 'easy-thumbnails'"
+      "easy-thumbnails (<2.8,>=2.7); extra=='easy-thumbnails'"
     ],
     "sorl-thumbnail": [
-      "sorl-thumbnail (<12.7,>=12.6) ; extra == 'sorl-thumbnail'"
+      "sorl-thumbnail (<12.7,>=12.6); extra=='sorl-thumbnail'"
     ]
   },
   "requires_python": "",

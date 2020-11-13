@@ -1,10 +1,10 @@
 {
   "requires_dist": [
     "certifi",
-    "enum34 ; python_version < '3'",
+    "enum34; python_version<'3'",
     "pip (>=18.0)",
     "setuptools (>=36.2.1)",
-    "typing ; python_version < '3.5'",
+    "typing; python_version<'3.5'",
     "virtualenv",
     "virtualenv-clone (>=0.2.5)"
   ],

@@ -16,24 +16,24 @@
   ],
   "requires_extras": {
     "database": [
-      "alembic (>=0.8.10); extra == 'database'",
-      "psycopg2 (>=2.8.0); extra == 'database'",
-      "PyMySQL (>=0.7.6); extra == 'database'",
-      "SQLAlchemy (!=1.1.5,!=1.1.6,!=1.1.7,!=1.1.8,>=1.0.10); extra == 'database'",
-      "SQLAlchemy-Utils (>=0.30.11); extra == 'database'"
+      "alembic (>=0.8.10); extra=='database'",
+      "psycopg2 (>=2.8.0); extra=='database'",
+      "PyMySQL (>=0.7.6); extra=='database'",
+      "SQLAlchemy (!=1.1.5,!=1.1.6,!=1.1.7,!=1.1.8,>=1.0.10); extra=='database'",
+      "SQLAlchemy-Utils (>=0.30.11); extra=='database'"
     ],
     "eventlet": [
-      "eventlet (!=0.18.3,!=0.20.1,!=0.21.0,>=0.18.2); extra == 'eventlet'"
+      "eventlet (!=0.18.3,!=0.20.1,!=0.21.0,>=0.18.2); extra=='eventlet'"
     ],
     "redis": [
-      "redis (>=2.10.0); extra == 'redis'"
+      "redis (>=2.10.0); extra=='redis'"
     ],
     "workers": [
-      "kombu (>=4.3.0); extra == 'workers'"
+      "kombu (>=4.3.0); extra=='workers'"
     ],
     "zookeeper": [
-      "kazoo (>=2.6.0); extra == 'zookeeper'",
-      "zake (>=0.1.6); extra == 'zookeeper'"
+      "kazoo (>=2.6.0); extra=='zookeeper'",
+      "zake (>=0.1.6); extra=='zookeeper'"
     ]
   },
   "requires_python": ">=3.6",

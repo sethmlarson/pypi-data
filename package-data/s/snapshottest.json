@@ -5,10 +5,10 @@
   ],
   "requires_extras": {
     "nose": [
-      "nose ; extra == 'nose'"
+      "nose; extra=='nose'"
     ],
     "pytest": [
-      "pytest ; extra == 'pytest'"
+      "pytest; extra=='pytest'"
     ]
   },
   "requires_python": "",

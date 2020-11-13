@@ -7,7 +7,7 @@
   ],
   "requires_extras": {
     "pandas": [
-      "pandas ; extra == 'pandas'"
+      "pandas; extra=='pandas'"
     ]
   },
   "requires_python": "",

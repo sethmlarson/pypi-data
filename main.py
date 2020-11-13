@@ -1,6 +1,7 @@
 import os
 import json
 import re
+from tqdm import tqdm
 import urllib3
 from packaging.version import Version, InvalidVersion
 
@@ -12,7 +13,11 @@ wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
 
 
 def get_extras(req):
-    return tuple(sorted(set(re.findall(r"extra == '([^']+)'", req))))
+    return tuple(sorted(set(re.findall(r"extra=='([^']+)'", req))))
+
+
+def normalize_requires_dist(req):
+    return re.sub(r"\s*,\s*", ",", re.sub(r"\s*([><=~]{1,2})\s*", r"\1", re.sub(r"\s*;\s*", r"; ", req.replace('"', "'"))))
 
 
 def requires_dist_sort_key(req):
@@ -51,7 +56,7 @@ def sorted_versions(items):
 with open("packages.txt") as f:
     packages = [x for x in f.read().split() if x.strip()]
 
-    for package in packages:
+    for package in tqdm(packages, unit="packages"):
         resp = http.request("GET", f"https://pypi.org/pypi/{package}/json")
         resp = json.loads(resp.data.decode("utf-8"))
         version = Version(resp["info"]["version"])
@@ -76,7 +81,7 @@ with open("packages.txt") as f:
             raise ValueError("???")
 
         urequires_dist = [
-            x.replace('"', "'") for x in resp["info"]["requires_dist"] or []
+            normalize_requires_dist(x) for x in resp["info"]["requires_dist"] or []
         ]
         urequires_dist = sorted(urequires_dist, key=requires_dist_sort_key)
 

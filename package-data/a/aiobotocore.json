@@ -7,10 +7,10 @@
   ],
   "requires_extras": {
     "awscli": [
-      "awscli (==1.18.121) ; extra == 'awscli'"
+      "awscli (==1.18.121); extra=='awscli'"
     ],
     "boto3": [
-      "boto3 (==1.14.44) ; extra == 'boto3'"
+      "boto3 (==1.14.44); extra=='boto3'"
     ]
   },
   "requires_python": ">=3.6",

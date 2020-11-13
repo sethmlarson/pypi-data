@@ -9,7 +9,7 @@
   ],
   "requires_extras": {
     "pynacl": [
-      "pynacl (>1.2.0) ; extra == 'pynacl'"
+      "pynacl (>1.2.0); extra=='pynacl'"
     ]
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4",

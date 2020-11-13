@@ -5,15 +5,15 @@
   ],
   "requires_extras": {
     "coincurve": [
-      "coincurve (<13.0.0,>=7.0.0) ; extra == 'coincurve'"
+      "coincurve (<13.0.0,>=7.0.0); extra=='coincurve'"
     ],
     "eth-keys": [
-      "eth-typing (<3.0.0,>=2.2.1) ; extra == 'eth-keys'",
-      "eth-utils (<2.0.0,>=1.3.0) ; extra == 'eth-keys'"
+      "eth-typing (<3.0.0,>=2.2.1); extra=='eth-keys'",
+      "eth-utils (<2.0.0,>=1.3.0); extra=='eth-keys'"
     ],
     "lint": [
-      "flake8 (==3.0.4) ; extra == 'lint'",
-      "mypy (==0.701) ; extra == 'lint'"
+      "flake8 (==3.0.4); extra=='lint'",
+      "mypy (==0.701); extra=='lint'"
     ]
   },
   "requires_python": "",

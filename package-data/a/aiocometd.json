@@ -4,7 +4,7 @@
   ],
   "requires_extras": {
     "examples": [
-      "aioconsole (<1.0.0,>=0.1.7) ; extra == 'examples'"
+      "aioconsole (<1.0.0,>=0.1.7); extra=='examples'"
     ]
   },
   "requires_python": ">=3.6.0",

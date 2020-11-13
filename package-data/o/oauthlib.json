@@ -2,14 +2,14 @@
   "requires_dist": [],
   "requires_extras": {
     "rsa": [
-      "cryptography ; extra == 'rsa'"
+      "cryptography; extra=='rsa'"
     ],
     "signals": [
-      "blinker ; extra == 'signals'"
+      "blinker; extra=='signals'"
     ],
     "signedtoken": [
-      "cryptography ; extra == 'signedtoken'",
-      "pyjwt (>=1.0.0) ; extra == 'signedtoken'"
+      "cryptography; extra=='signedtoken'",
+      "pyjwt (>=1.0.0); extra=='signedtoken'"
     ]
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",

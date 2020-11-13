@@ -2,10 +2,10 @@
   "requires_dist": [],
   "requires_extras": {
     "gcloud": [
-      "python-json-logger (<1.0.0,>=0.1.0); extra == 'gcloud'"
+      "python-json-logger (<1.0.0,>=0.1.0); extra=='gcloud'"
     ],
     "sentry": [
-      "raven (<7.0.0,>=5.0.0); extra == 'sentry'"
+      "raven (<7.0.0,>=5.0.0); extra=='sentry'"
     ]
   },
   "requires_python": "",

@@ -8,7 +8,7 @@
   ],
   "requires_extras": {
     "pyspark": [
-      "dagster-pyspark ; extra == 'pyspark'"
+      "dagster-pyspark; extra=='pyspark'"
     ]
   },
   "requires_python": "",

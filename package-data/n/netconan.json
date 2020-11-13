@@ -2,7 +2,7 @@
   "requires_dist": [
     "bidict (<1.0.0)",
     "configargparse (<1.0.0)",
-    "enum34 (<2.0.0) ; python_version < '3.4'",
+    "enum34 (<2.0.0); python_version<'3.4'",
     "ipaddress (<2.0.0)",
     "passlib (<2.0.0)",
     "six (<2.0.0)"

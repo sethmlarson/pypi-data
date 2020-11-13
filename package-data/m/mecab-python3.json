@@ -2,10 +2,10 @@
   "requires_dist": [],
   "requires_extras": {
     "unidic": [
-      "unidic ; extra == 'unidic'"
+      "unidic; extra=='unidic'"
     ],
     "unidic-lite": [
-      "unidic-lite ; extra == 'unidic-lite'"
+      "unidic-lite; extra=='unidic-lite'"
     ]
   },
   "requires_python": "",

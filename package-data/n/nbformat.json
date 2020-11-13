@@ -7,7 +7,7 @@
   ],
   "requires_extras": {
     "fast": [
-      "fastjsonschema ; extra == 'fast'"
+      "fastjsonschema; extra=='fast'"
     ]
   },
   "requires_python": ">=3.5",

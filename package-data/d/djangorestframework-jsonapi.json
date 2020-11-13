@@ -6,14 +6,14 @@
   ],
   "requires_extras": {
     "django-filter": [
-      "django-filter (>=2.0) ; extra == 'django-filter'"
+      "django-filter (>=2.0); extra=='django-filter'"
     ],
     "django-polymorphic": [
-      "django-polymorphic (>=2.0) ; extra == 'django-polymorphic'"
+      "django-polymorphic (>=2.0); extra=='django-polymorphic'"
     ],
     "openapi": [
-      "pyyaml (>=5.3) ; extra == 'openapi'",
-      "uritemplate (>=3.0.1) ; extra == 'openapi'"
+      "pyyaml (>=5.3); extra=='openapi'",
+      "uritemplate (>=3.0.1); extra=='openapi'"
     ]
   },
   "requires_python": ">=3.6",

@@ -1,14 +1,14 @@
 {
   "requires_dist": [
-    "colorama ; platform_system == 'Windows'",
+    "colorama; platform_system=='Windows'",
     "six"
   ],
   "requires_extras": {
     "maintainer": [
-      "zest.releaser[recommended] ; extra == 'maintainer'"
+      "zest.releaser[recommended]; extra=='maintainer'"
     ],
     "pil": [
-      "pillow ; extra == 'pil'"
+      "pillow; extra=='pil'"
     ]
   },
   "requires_python": "",

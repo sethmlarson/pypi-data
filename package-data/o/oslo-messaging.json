@@ -18,10 +18,10 @@
   ],
   "requires_extras": {
     "amqp1": [
-      "pyngus (>=2.2.0); extra == 'amqp1'"
+      "pyngus (>=2.2.0); extra=='amqp1'"
     ],
     "kafka": [
-      "confluent-kafka (>=1.3.0); extra == 'kafka'"
+      "confluent-kafka (>=1.3.0); extra=='kafka'"
     ]
   },
   "requires_python": ">=3.6",

@@ -19,10 +19,10 @@
   ],
   "requires_extras": {
     "genshi": [
-      "Genshi (>=0.6); extra == 'genshi'"
+      "Genshi (>=0.6); extra=='genshi'"
     ],
     "jinja2": [
-      "Jinja2; extra == 'jinja2'"
+      "Jinja2; extra=='jinja2'"
     ]
   },
   "requires_python": "",

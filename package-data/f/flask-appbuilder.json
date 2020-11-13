@@ -22,7 +22,7 @@
   ],
   "requires_extras": {
     "jmespath": [
-      "jmespath (>=0.9.5) ; extra == 'jmespath'"
+      "jmespath (>=0.9.5); extra=='jmespath'"
     ]
   },
   "requires_python": "~=3.6",

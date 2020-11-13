@@ -1,14 +1,14 @@
 {
   "requires_dist": [
-    "soupsieve (<2.0,>1.2) ; python_version < '3.0'",
-    "soupsieve (>1.2) ; python_version >= '3.0'"
+    "soupsieve (<2.0,>1.2); python_version<'3.0'",
+    "soupsieve (>1.2); python_version>='3.0'"
   ],
   "requires_extras": {
     "html5lib": [
-      "html5lib ; extra == 'html5lib'"
+      "html5lib; extra=='html5lib'"
     ],
     "lxml": [
-      "lxml ; extra == 'lxml'"
+      "lxml; extra=='lxml'"
     ]
   },
   "requires_python": "",

@@ -2,12 +2,12 @@
   "requires_dist": [],
   "requires_extras": {
     "azure-pipelines": [
-      "certifi ; extra == 'azure-pipelines'",
-      "coverage[toml] ; extra == 'azure-pipelines'",
-      "pretend ; extra == 'azure-pipelines'",
-      "pyopenssl ; extra == 'azure-pipelines'",
-      "pytest ; extra == 'azure-pipelines'",
-      "pytest-azurepipelines ; extra == 'azure-pipelines'"
+      "certifi; extra=='azure-pipelines'",
+      "coverage[toml]; extra=='azure-pipelines'",
+      "pretend; extra=='azure-pipelines'",
+      "pyopenssl; extra=='azure-pipelines'",
+      "pytest; extra=='azure-pipelines'",
+      "pytest-azurepipelines; extra=='azure-pipelines'"
     ]
   },
   "requires_python": "",

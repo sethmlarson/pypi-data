@@ -7,16 +7,16 @@
   ],
   "requires_extras": {
     "authorizenet": [
-      "authorizenet ; extra == 'authorizenet'"
+      "authorizenet; extra=='authorizenet'"
     ],
     "build": [
-      "m2r ; extra == 'build'",
-      "setuptools ; extra == 'build'",
-      "twine ; extra == 'build'",
-      "wheel ; extra == 'build'"
+      "m2r; extra=='build'",
+      "setuptools; extra=='build'",
+      "twine; extra=='build'",
+      "wheel; extra=='build'"
     ],
     "stripe": [
-      "stripe (<3.0,>=2.48.0) ; extra == 'stripe'"
+      "stripe (<3.0,>=2.48.0); extra=='stripe'"
     ]
   },
   "requires_python": ">=3.6",

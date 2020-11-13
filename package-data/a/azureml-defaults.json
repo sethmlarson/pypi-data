@@ -12,8 +12,8 @@
   ],
   "requires_extras": {
     "async": [
-      "hypercorn[uvloop] (==0.11.1); extra == 'async'",
-      "quart (<=0.13.1); extra == 'async'"
+      "hypercorn[uvloop] (==0.11.1); extra=='async'",
+      "quart (<=0.13.1); extra=='async'"
     ]
   },
   "requires_python": "",

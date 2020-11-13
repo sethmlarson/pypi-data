@@ -2,10 +2,10 @@
   "requires_dist": [],
   "requires_extras": {
     "fast": [
-      "fastnumbers (>=2.0.0) ; extra == 'fast'"
+      "fastnumbers (>=2.0.0); extra=='fast'"
     ],
     "icu": [
-      "PyICU (>=1.0.0) ; extra == 'icu'"
+      "PyICU (>=1.0.0); extra=='icu'"
     ]
   },
   "requires_python": ">=3.4",

@@ -2,10 +2,10 @@
   "requires_dist": [
     "absl-py",
     "attrs (>=18.1.0)",
-    "dataclasses ; python_version < '3.7'",
+    "dataclasses; python_version<'3.7'",
     "dill",
     "future",
-    "importlib-resources ; python_version < '3.9'",
+    "importlib-resources; python_version<'3.9'",
     "numpy",
     "promise",
     "protobuf (>=3.6.1)",
@@ -14,108 +14,108 @@
     "tensorflow-metadata",
     "termcolor",
     "tqdm",
-    "typing-extensions ; python_version < '3.8'"
+    "typing-extensions; python_version<'3.8'"
   ],
   "requires_extras": {
     "aflw2k3d": [
-      "scipy ; extra == 'aflw2k3d'"
+      "scipy; extra=='aflw2k3d'"
     ],
     "c4": [
-      "apache-beam ; extra == 'c4'",
-      "gcld3 ; extra == 'c4'",
-      "langdetect ; extra == 'c4'",
-      "nltk ; extra == 'c4'",
-      "tldextract ; extra == 'c4'"
+      "apache-beam; extra=='c4'",
+      "gcld3; extra=='c4'",
+      "langdetect; extra=='c4'",
+      "nltk; extra=='c4'",
+      "tldextract; extra=='c4'"
     ],
     "cats_vs_dogs": [
-      "matplotlib ; extra == 'cats_vs_dogs'"
+      "matplotlib; extra=='cats_vs_dogs'"
     ],
     "colorectal_histology": [
-      "Pillow ; extra == 'colorectal_histology'"
+      "Pillow; extra=='colorectal_histology'"
     ],
     "common_voice": [
-      "pydub ; extra == 'common_voice'"
+      "pydub; extra=='common_voice'"
     ],
     "duke_ultrasound": [
-      "scipy ; extra == 'duke_ultrasound'"
+      "scipy; extra=='duke_ultrasound'"
     ],
     "eurosat": [
-      "imagecodecs ; extra == 'eurosat'",
-      "scikit-image ; extra == 'eurosat'",
-      "tifffile ; extra == 'eurosat'"
+      "imagecodecs; extra=='eurosat'",
+      "scikit-image; extra=='eurosat'",
+      "tifffile; extra=='eurosat'"
     ],
     "groove": [
-      "pretty-midi ; extra == 'groove'",
-      "pydub ; extra == 'groove'"
+      "pretty-midi; extra=='groove'",
+      "pydub; extra=='groove'"
     ],
     "imagenet2012_corrupted": [
-      "opencv-python ; extra == 'imagenet2012_corrupted'",
-      "scikit-image ; extra == 'imagenet2012_corrupted'",
-      "scipy ; extra == 'imagenet2012_corrupted'"
+      "opencv-python; extra=='imagenet2012_corrupted'",
+      "scikit-image; extra=='imagenet2012_corrupted'",
+      "scipy; extra=='imagenet2012_corrupted'"
     ],
     "librispeech": [
-      "pydub ; extra == 'librispeech'"
+      "pydub; extra=='librispeech'"
     ],
     "lsun": [
-      "tensorflow-io ; extra == 'lsun'"
+      "tensorflow-io; extra=='lsun'"
     ],
     "matplotlib": [
-      "matplotlib ; extra == 'matplotlib'"
+      "matplotlib; extra=='matplotlib'"
     ],
     "nsynth": [
-      "crepe (>=0.0.11) ; extra == 'nsynth'",
-      "librosa ; extra == 'nsynth'",
-      "scikit-learn (==0.20.3) ; extra == 'nsynth'"
+      "crepe (>=0.0.11); extra=='nsynth'",
+      "librosa; extra=='nsynth'",
+      "scikit-learn (==0.20.3); extra=='nsynth'"
     ],
     "pet_finder": [
-      "pandas ; extra == 'pet_finder'"
+      "pandas; extra=='pet_finder'"
     ],
     "robonet": [
-      "h5py ; extra == 'robonet'"
+      "h5py; extra=='robonet'"
     ],
     "svhn": [
-      "scipy ; extra == 'svhn'"
+      "scipy; extra=='svhn'"
     ],
     "tensorflow": [
-      "tensorflow (>=2.1) ; extra == 'tensorflow'"
+      "tensorflow (>=2.1); extra=='tensorflow'"
     ],
     "tensorflow-data-validation": [
-      "tensorflow-data-validation ; extra == 'tensorflow-data-validation'"
+      "tensorflow-data-validation; extra=='tensorflow-data-validation'"
     ],
     "tests-all": [
-      "apache-beam ; extra == 'tests-all'",
-      "fastavro (==1.0.0) ; extra == 'tests-all'",
-      "gcld3 ; extra == 'tests-all'",
-      "h5py ; extra == 'tests-all'",
-      "imagecodecs ; extra == 'tests-all'",
-      "jupyter ; extra == 'tests-all'",
-      "langdetect ; extra == 'tests-all'",
-      "mako ; extra == 'tests-all'",
-      "matplotlib ; extra == 'tests-all'",
-      "mwparserfromhell ; extra == 'tests-all'",
-      "nltk ; extra == 'tests-all'",
-      "opencv-python ; extra == 'tests-all'",
-      "pandas ; extra == 'tests-all'",
-      "Pillow ; extra == 'tests-all'",
-      "pretty-midi ; extra == 'tests-all'",
-      "pydub ; extra == 'tests-all'",
-      "pytest ; extra == 'tests-all'",
-      "pytest-xdist ; extra == 'tests-all'",
-      "scikit-image ; extra == 'tests-all'",
-      "scipy ; extra == 'tests-all'",
-      "tensorflow-data-validation ; (python_version < '3.7') and extra == 'tests-all'",
-      "tifffile ; extra == 'tests-all'",
-      "tldextract ; extra == 'tests-all'"
+      "apache-beam; extra=='tests-all'",
+      "fastavro (==1.0.0); extra=='tests-all'",
+      "gcld3; extra=='tests-all'",
+      "h5py; extra=='tests-all'",
+      "imagecodecs; extra=='tests-all'",
+      "jupyter; extra=='tests-all'",
+      "langdetect; extra=='tests-all'",
+      "mako; extra=='tests-all'",
+      "matplotlib; extra=='tests-all'",
+      "mwparserfromhell; extra=='tests-all'",
+      "nltk; extra=='tests-all'",
+      "opencv-python; extra=='tests-all'",
+      "pandas; extra=='tests-all'",
+      "Pillow; extra=='tests-all'",
+      "pretty-midi; extra=='tests-all'",
+      "pydub; extra=='tests-all'",
+      "pytest; extra=='tests-all'",
+      "pytest-xdist; extra=='tests-all'",
+      "scikit-image; extra=='tests-all'",
+      "scipy; extra=='tests-all'",
+      "tensorflow-data-validation; (python_version<'3.7') and extra=='tests-all'",
+      "tifffile; extra=='tests-all'",
+      "tldextract; extra=='tests-all'"
     ],
     "the300w_lp": [
-      "scipy ; extra == 'the300w_lp'"
+      "scipy; extra=='the300w_lp'"
     ],
     "wider_face": [
-      "Pillow ; extra == 'wider_face'"
+      "Pillow; extra=='wider_face'"
     ],
     "wikipedia": [
-      "apache-beam ; extra == 'wikipedia'",
-      "mwparserfromhell ; extra == 'wikipedia'"
+      "apache-beam; extra=='wikipedia'",
+      "mwparserfromhell; extra=='wikipedia'"
     ]
   },
   "requires_python": ">=3.6",

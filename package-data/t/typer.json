@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "click >= 7.1.1, <7.2.0"
+    "click>=7.1.1,<7.2.0"
   ],
   "requires_extras": {},
   "requires_python": ">=3.6",
