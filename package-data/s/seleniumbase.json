@@ -73,7 +73,7 @@
     "tornado (==6.1); python_version>='3.5'",
     "traitlets (==4.3.3); python_version<'3.7'",
     "traitlets (==5.0.5); python_version>='3.7'",
-    "urllib3 (==1.26.1)",
+    "urllib3 (==1.26.2)",
     "virtualenv (>=20.1.0)",
     "wheel (>=0.35.1)",
     "zipp (==1.2.0); python_version<'3.6'",
