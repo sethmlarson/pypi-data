@@ -2,7 +2,6 @@
   "requires_dist": [
     "beautifulsoup4",
     "click",
-    "gtts-token (>=1.1.4)",
     "requests",
     "six"
   ],
