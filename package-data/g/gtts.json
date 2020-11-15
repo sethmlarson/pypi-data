@@ -1,6 +1,5 @@
 {
   "requires_dist": [
-    "beautifulsoup4",
     "click",
     "requests",
     "six"
