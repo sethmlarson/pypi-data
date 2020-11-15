@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "pytest (>=5.0)",
+    "pytest (!=6.0.0,>=5.0)",
     "pytest-metadata"
   ],
   "requires_extras": {},
