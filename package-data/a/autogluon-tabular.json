@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "autogluon.core (==0.0.15b20201114)",
+    "autogluon.core (==0.0.15b20201115)",
     "catboost (<0.25,>=0.23.0)",
     "gluoncv (<1.0,>=0.5.0)",
     "lightgbm (<4.0,>=3.0)",
