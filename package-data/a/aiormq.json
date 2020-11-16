@@ -1,12 +1,11 @@
 {
   "requires_dist": [
-    "pamqp (==2.3.0)",
+    "pamqp (==3.0.1)",
     "yarl"
   ],
   "requires_extras": {
     "develop": [
       "aiomisc (~=11.0); extra=='develop'",
-      "async-generator; extra=='develop'",
       "coverage (!=4.3); extra=='develop'",
       "coveralls; extra=='develop'",
       "pylava; extra=='develop'",
@@ -15,6 +14,6 @@
       "tox (>=2.4); extra=='develop'"
     ]
   },
-  "requires_python": ">3.5.*",
+  "requires_python": ">3.6.*",
   "yanked": []
 }
