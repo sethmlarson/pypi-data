@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "bc-python-hcl2 (>=0.3.10)",
-    "checkov (>=1.0.626)",
+    "checkov (>=1.0.627)",
     "jschema-to-python (>=1.2.3)",
     "sarif-om (>=1.0.4)"
   ],

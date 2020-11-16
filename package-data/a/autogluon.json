@@ -1,11 +1,11 @@
 {
   "requires_dist": [
-    "autogluon.core (==0.0.15b20201115)",
-    "autogluon.extra (==0.0.15b20201115)",
-    "autogluon.mxnet (==0.0.15b20201115)",
-    "autogluon.tabular (==0.0.15b20201115)",
-    "autogluon.text (==0.0.15b20201115)",
-    "autogluon.vision (==0.0.15b20201115)",
+    "autogluon.core (==0.0.15b20201116)",
+    "autogluon.extra (==0.0.15b20201116)",
+    "autogluon.mxnet (==0.0.15b20201116)",
+    "autogluon.tabular (==0.0.15b20201116)",
+    "autogluon.text (==0.0.15b20201116)",
+    "autogluon.vision (==0.0.15b20201116)",
     "pytest"
   ],
   "requires_extras": {},
