@@ -1,12 +1,12 @@
 {
   "requires_dist": [
-    "autoconf (==0.7.0)",
+    "autoconf (==0.7.2)",
     "corner (>=2.0.1)",
     "decorator (>=4.2.1)",
     "dill (>=0.3.1.1)",
     "dynesty (==1.0.1)",
-    "emcee (==3.0.2)",
-    "h5py (==2.10.0)",
+    "emcee (>=3.0.2)",
+    "h5py (>=2.10.0)",
     "numpydoc (>=1.0.0)",
     "pyprojroot (==0.2.0)",
     "pyswarms (==1.1.0)",

@@ -26,6 +26,7 @@
   ],
   "requires_extras": {
     "docker-image": [
+      "kfp-pipeline-spec (<0.2,>=0.1.2); extra=='docker-image'",
       "mmh (<3,>=2.2); extra=='docker-image'",
       "python-snappy (<0.6,>=0.5); extra=='docker-image'"
     ],
