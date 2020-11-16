@@ -1,11 +1,11 @@
 {
   "requires_dist": [
-    "tensorflow (<2.4,>=2.3.0)",
+    "tensorflow (<2.5,>=2.4.0rc0)",
     "tensorflow-hub (>=0.8.0)"
   ],
   "requires_extras": {
-    "tensorflow_gpu": [
-      "tensorflow-gpu (<2.2,>=2.1.0); extra=='tensorflow_gpu'"
+    "tensorflow_cpu": [
+      "tensorflow-cpu (<2.5,>=2.4.0rc0); extra=='tensorflow_cpu'"
     ]
   },
   "requires_python": "",
