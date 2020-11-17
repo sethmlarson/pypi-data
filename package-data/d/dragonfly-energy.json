@@ -1,12 +1,12 @@
 {
   "requires_dist": [
-    "dragonfly-core (==1.25.49)",
-    "honeybee-energy (==1.61.3)"
+    "dragonfly-core (==1.25.51)",
+    "honeybee-energy (==1.61.5)"
   ],
   "requires_extras": {
     "cli": [
       "click (==7.1.2); extra=='cli'",
-      "dragonfly-core[cli] (==1.25.47); extra=='cli'"
+      "dragonfly-core[cli] (==1.25.50); extra=='cli'"
     ]
   },
   "requires_python": "",

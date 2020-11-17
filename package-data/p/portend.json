@@ -3,6 +3,6 @@
     "tempora (>=1.8)"
   ],
   "requires_extras": {},
-  "requires_python": ">=2.7",
+  "requires_python": ">=3.6",
   "yanked": []
 }

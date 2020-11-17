@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "aws-cdk.cloud-assembly-schema (==1.73.0)",
+    "aws-cdk.cloud-assembly-schema (==1.74.0)",
     "jsii (<2.0.0,>=1.14.1)",
     "publication (>=0.0.3)"
   ],

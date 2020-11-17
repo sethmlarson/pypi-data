@@ -1,9 +1,13 @@
 {
   "requires_dist": [
-    "cryptography",
+    "getmac",
     "requests"
   ],
-  "requires_extras": {},
+  "requires_extras": {
+    "win32": [
+      "DataKund.exe; extra=='win32'"
+    ]
+  },
   "requires_python": "",
   "yanked": []
 }

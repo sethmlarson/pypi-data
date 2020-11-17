@@ -6,7 +6,7 @@
     "configparser (==4.0.2)",
     "cryptography (==2.8)",
     "jmespath (==0.10.0)",
-    "oci (==2.23.5)",
+    "oci (==2.24.0)",
     "pyOpenSSL (==18.0.0)",
     "python-dateutil (<3.0.0,>=2.5.3)",
     "pytz (>=2016.10)",

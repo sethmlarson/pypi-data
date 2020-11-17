@@ -1,13 +1,13 @@
 {
   "requires_dist": [
-    "aws-cdk.aws-events (==1.73.0)",
-    "aws-cdk.aws-iam (==1.73.0)",
-    "aws-cdk.aws-kms (==1.73.0)",
-    "aws-cdk.aws-lambda (==1.73.0)",
-    "aws-cdk.aws-logs (==1.73.0)",
-    "aws-cdk.aws-s3 (==1.73.0)",
-    "aws-cdk.aws-sns (==1.73.0)",
-    "aws-cdk.core (==1.73.0)",
+    "aws-cdk.aws-events (==1.74.0)",
+    "aws-cdk.aws-iam (==1.74.0)",
+    "aws-cdk.aws-kms (==1.74.0)",
+    "aws-cdk.aws-lambda (==1.74.0)",
+    "aws-cdk.aws-logs (==1.74.0)",
+    "aws-cdk.aws-s3 (==1.74.0)",
+    "aws-cdk.aws-sns (==1.74.0)",
+    "aws-cdk.core (==1.74.0)",
     "constructs (<4.0.0,>=3.2.0)",
     "jsii (<2.0.0,>=1.14.1)",
     "publication (>=0.0.3)"

@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "honeybee-core (==1.40.7)",
+    "honeybee-core (==1.41.0)",
     "honeybee-radiance-command (==1.1.8)",
     "honeybee-radiance-folder (==2.3.3)",
     "honeybee-standards (==2.0.0)"
@@ -9,7 +9,7 @@
     "cli": [
       "click (==7.1.2); extra=='cli'",
       "click-plugins (==1.1.1); extra=='cli'",
-      "honeybee-core[cli] (==1.40.7); extra=='cli'"
+      "honeybee-core[cli] (==1.40.8); extra=='cli'"
     ]
   },
   "requires_python": "",

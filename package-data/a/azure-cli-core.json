@@ -3,7 +3,7 @@
     "adal (~=1.2.3)",
     "argcomplete (~=1.8)",
     "azure-cli-telemetry (==1.0.6)",
-    "azure-mgmt-core (==1.2.0)",
+    "azure-mgmt-core (==1.2.1)",
     "azure-mgmt-resource (==10.2.0)",
     "colorama (~=0.4.1)",
     "enum34; python_version<'3.4'",

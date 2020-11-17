@@ -4,7 +4,7 @@
     "honeybee-grasshopper-core (==1.19.2)",
     "honeybee-grasshopper-energy (==1.21.1)",
     "honeybee-grasshopper-radiance (==1.5.0)",
-    "ladybug-grasshopper (==1.26.1)"
+    "ladybug-grasshopper (==1.27.0)"
   ],
   "requires_extras": {},
   "requires_python": "",

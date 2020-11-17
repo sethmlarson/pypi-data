@@ -7,12 +7,15 @@
     "importlib_metadata (>=2.0.0,<3.0.0); python_version<'3.8'",
     "jinja2 (>=2.10,<3.0)",
     "pyyaml (>=5.3.1,<6.0.0)",
-    "pyyaml-include (>=1.2,<2.0)",
     "requests (>=2.25,<3.0)",
     "terminaltables (>=3.1,<4.0)",
     "tqdm (>=4.51.0,<5.0.0)"
   ],
-  "requires_extras": {},
+  "requires_extras": {
+    "includes": [
+      "pyyaml-include (>=1.2,<2.0); extra=='includes'"
+    ]
+  },
   "requires_python": ">=3.6,<4.0",
   "yanked": []
 }
