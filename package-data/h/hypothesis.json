@@ -28,7 +28,7 @@
       "numpy (>=1.9.0); extra=='numpy'"
     ],
     "pandas": [
-      "pandas (>=0.19); extra=='pandas'"
+      "pandas (>=0.25); extra=='pandas'"
     ],
     "pytest": [
       "pytest (>=4.3); extra=='pytest'"

@@ -1,8 +1,9 @@
 {
   "requires_dist": [
     "azure-common (~=1.1)",
-    "azure-mgmt-nspkg (>=2.0.0)",
-    "msrestazure (<2.0.0,>=0.4.20)"
+    "azure-mgmt-core (<2.0.0,>=1.2.0)",
+    "azure-mgmt-nspkg; python_version<'3.0'",
+    "msrest (>=0.5.0)"
   ],
   "requires_extras": {},
   "requires_python": "",

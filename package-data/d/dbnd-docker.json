@@ -1,7 +1,7 @@
 {
   "requires_dist": [
     "cryptography (>=2.0.0)",
-    "dbnd (==0.30.2)",
+    "dbnd (==0.30.3)",
     "docker (~=3.0)",
     "kubernetes (==9.0.0)"
   ],

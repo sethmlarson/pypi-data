@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "dbnd (==0.30.2)"
+    "dbnd (==0.30.3)"
   ],
   "requires_extras": {},
   "requires_python": "",

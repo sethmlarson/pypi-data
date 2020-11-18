@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "gardener-cicd-libs (==1.894.0)"
+    "gardener-cicd-libs (==1.897.0)"
   ],
   "requires_extras": {},
   "requires_python": ">=3.8.*",

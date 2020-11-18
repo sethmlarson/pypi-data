@@ -1,10 +1,10 @@
 {
   "requires_dist": [
-    "boto3 (~=1.5)",
+    "boto3 (~=1.15.16)",
     "enum34 (~=1.1); python_version<'3.4'",
-    "jsonschema (~=3.0)",
+    "jsonschema (~=3.2)",
     "pyrsistent (~=0.16.0); python_version<'3'",
-    "six (~=1.11)"
+    "six (~=1.15)"
   ],
   "requires_extras": {},
   "requires_python": "",

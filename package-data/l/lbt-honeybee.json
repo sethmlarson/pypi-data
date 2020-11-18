@@ -1,8 +1,8 @@
 {
   "requires_dist": [
-    "honeybee-energy (==1.61.5)",
+    "honeybee-energy (==1.61.6)",
     "honeybee-energy-standards (==2.0.3)",
-    "honeybee-radiance (==1.27.47)",
+    "honeybee-radiance (==1.27.49)",
     "lbt-ladybug (==0.25.34)"
   ],
   "requires_extras": {

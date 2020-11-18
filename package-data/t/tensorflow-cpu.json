@@ -12,7 +12,7 @@
     "opt-einsum (~=3.3.0)",
     "protobuf (~=3.13.0)",
     "six (~=1.15.0)",
-    "tensorboard (~=2.3)",
+    "tensorboard (~=2.4)",
     "tensorflow-estimator (<2.5.0,>=2.4.0rc0)",
     "termcolor (~=1.1.0)",
     "typing-extensions (~=3.7.4)",

@@ -121,14 +121,8 @@
       "apache-airflow-providers-apache-pinot; extra=='apache.pinot'",
       "pinotdb (==0.1.1); extra=='apache.pinot'"
     ],
-    "apache.presto": [
-      "apache-airflow-providers-apache-presto; extra=='apache.presto'",
-      "apache-airflow-providers-presto; extra=='apache.presto'",
-      "presto-python-client (<0.8,>=0.7.0); extra=='apache.presto'"
-    ],
     "apache.spark": [
       "apache-airflow-providers-apache-spark; extra=='apache.spark'",
-      "apache-airflow-providers-spark; extra=='apache.spark'",
       "pyspark; extra=='apache.spark'"
     ],
     "apache.webhdfs": [
@@ -185,7 +179,6 @@
       "kubernetes (<12.0.0,>=3.0.0); extra=='cncf.kubernetes'"
     ],
     "dask": [
-      "apache-airflow-providers-dask; extra=='dask'",
       "cloudpickle (<1.5.0,>=1.4.1); extra=='dask'",
       "distributed (<2.20,>=2.11.1); extra=='dask'"
     ],
@@ -395,6 +388,7 @@
       "qds-sdk (>=1.10.4); extra=='devel_ci'",
       "qds-sdk (>=1.9.6); extra=='devel_ci'",
       "redis (~=3.2); extra=='devel_ci'",
+      "requests (<2.24.0); extra=='devel_ci'",
       "requests (<3,>=2.20.0); extra=='devel_ci'",
       "requests-kerberos (>=0.10.0); extra=='devel_ci'",
       "requests-mock; extra=='devel_ci'",
@@ -741,7 +735,6 @@
       "psycopg2-binary (>=2.7.4); extra=='postgres'"
     ],
     "presto": [
-      "apache-airflow-providers-apache-presto; extra=='presto'",
       "apache-airflow-providers-presto; extra=='presto'",
       "presto-python-client (<0.8,>=0.7.0); extra=='presto'"
     ],
@@ -754,8 +747,7 @@
       "qds-sdk (>=1.10.4); extra=='qubole'"
     ],
     "rabbitmq": [
-      "amqp; extra=='rabbitmq'",
-      "apache-airflow-providers-rabbitmq; extra=='rabbitmq'"
+      "amqp; extra=='rabbitmq'"
     ],
     "redis": [
       "apache-airflow-providers-redis; extra=='redis'",
@@ -778,7 +770,6 @@
       "sendgrid (<7,>=6.0.0); extra=='sendgrid'"
     ],
     "sentry": [
-      "apache-airflow-providers-sentry; extra=='sentry'",
       "blinker (>=1.1); extra=='sentry'",
       "sentry-sdk (>=0.8.0); extra=='sentry'"
     ],
@@ -792,12 +783,12 @@
     ],
     "snowflake": [
       "apache-airflow-providers-snowflake; extra=='snowflake'",
+      "requests (<2.24.0); extra=='snowflake'",
       "snowflake-connector-python (>=1.5.2); extra=='snowflake'",
       "snowflake-sqlalchemy (>=1.1.0); extra=='snowflake'"
     ],
     "spark": [
       "apache-airflow-providers-apache-spark; extra=='spark'",
-      "apache-airflow-providers-spark; extra=='spark'",
       "pyspark; extra=='spark'"
     ],
     "ssh": [
@@ -807,11 +798,9 @@
       "sshtunnel (<0.2,>=0.1.4); extra=='ssh'"
     ],
     "statsd": [
-      "apache-airflow-providers-statsd; extra=='statsd'",
       "statsd (<4.0,>=3.3.0); extra=='statsd'"
     ],
     "tableau": [
-      "apache-airflow-providers-tableau; extra=='tableau'",
       "tableauserverclient (~=0.12); extra=='tableau'"
     ],
     "vertica": [
@@ -819,7 +808,6 @@
       "vertica-python (>=0.5.1); extra=='vertica'"
     ],
     "virtualenv": [
-      "apache-airflow-providers-virtualenv; extra=='virtualenv'",
       "virtualenv; extra=='virtualenv'"
     ],
     "webhdfs": [
@@ -830,8 +818,12 @@
       "apache-airflow-providers-microsoft-winrm; extra=='winrm'",
       "pywinrm (~=0.4); extra=='winrm'"
     ],
+    "yandex": [
+      "apache-airflow-providers-yandex; extra=='yandex'",
+      "yandexcloud (>=0.22.0); extra=='yandex'"
+    ],
     "yandexcloud": [
-      "apache-airflow-providers-yandexcloud; extra=='yandexcloud'",
+      "apache-airflow-providers-yandex; extra=='yandexcloud'",
       "yandexcloud (>=0.22.0); extra=='yandexcloud'"
     ]
   },
