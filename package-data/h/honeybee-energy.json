@@ -1,12 +1,12 @@
 {
   "requires_dist": [
-    "honeybee-core (==1.41.1)",
+    "honeybee-core (==1.41.2)",
     "honeybee-standards (==2.0.0)"
   ],
   "requires_extras": {
     "cli": [
       "click (==7.1.2); extra=='cli'",
-      "honeybee-core[cli] (==1.40.8); extra=='cli'",
+      "honeybee-core[cli] (==1.41.1); extra=='cli'",
       "honeybee-energy-standards (==2.0.3); extra=='cli'"
     ]
   },

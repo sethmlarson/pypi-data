@@ -1,15 +1,6 @@
 {
-  "requires_dist": [
-    "six"
-  ],
-  "requires_extras": {
-    "aiger": [
-      "py-aiger-cnf (>=2.0.0); extra=='aiger'"
-    ],
-    "pblib": [
-      "pypblib (>=0.0.3); extra=='pblib'"
-    ]
-  },
+  "requires_dist": [],
+  "requires_extras": {},
   "requires_python": "",
   "yanked": []
 }

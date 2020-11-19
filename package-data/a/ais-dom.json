@@ -1,7 +1,7 @@
 {
   "requires_dist": [
-    "aiohttp (==3.6.2)",
-    "ais-dom-frontend (==20201022.3)",
+    "aiohttp (==3.7.1)",
+    "ais-dom-frontend (==20201111.4)",
     "astral (==1.10.1)",
     "async-timeout (==3.0.1)",
     "attrs (==19.3.0)",
@@ -16,7 +16,7 @@
     "python-slugify (==4.0.1)",
     "pytz (>=2020.1)",
     "pyyaml (==5.3.1)",
-    "requests (==2.24.0)",
+    "requests (==2.25.0)",
     "ruamel.yaml (==0.15.100)",
     "voluptuous (==0.12.0)",
     "voluptuous-serialize (==2.4.0)",

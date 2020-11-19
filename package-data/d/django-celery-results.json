@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "celery (<5.0,>=4.4)"
+    "celery (<6.0,>=4.4)"
   ],
   "requires_extras": {},
   "requires_python": "",

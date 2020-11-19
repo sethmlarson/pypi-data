@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "argus-api (>=1.5.0,<2.0.0)",
+    "argus-api (>=1.7.1,<2.0.0)",
     "colorama (>=0.4.3,<0.5.0)",
     "colorlog (>=4.6,<5.0)",
     "dateparser (>=0.7.2,<0.8.0)",
@@ -16,6 +16,6 @@
       "pyyaml-include (>=1.2,<2.0); extra=='includes'"
     ]
   },
-  "requires_python": ">=3.6,<4.0",
+  "requires_python": ">=3.6.1,<4.0.0",
   "yanked": []
 }

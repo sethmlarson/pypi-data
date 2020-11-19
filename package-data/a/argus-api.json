@@ -5,6 +5,6 @@
     "swagger-spec-validator (>=2.7.3,<3.0.0)"
   ],
   "requires_extras": {},
-  "requires_python": ">=3.6,<4.0",
+  "requires_python": ">=3.6.1,<4.0.0",
   "yanked": []
 }

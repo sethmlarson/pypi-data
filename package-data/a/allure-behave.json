@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "allure-python-commons (==2.8.19)",
+    "allure-python-commons (==2.8.20)",
     "behave (>=1.2.5)"
   ],
   "requires_extras": {},

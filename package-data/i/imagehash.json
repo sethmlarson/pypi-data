@@ -1,5 +1,11 @@
 {
-  "requires_dist": [],
+  "requires_dist": [
+    "numpy",
+    "pillow",
+    "PyWavelets",
+    "scipy",
+    "six"
+  ],
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

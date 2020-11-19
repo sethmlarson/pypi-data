@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "tensorflow (<2.5.0,>=2.4.0rc1)"
+    "tensorflow (<2.5.0,>=2.4.0rc2)"
   ],
   "requires_extras": {},
   "requires_python": ">=3.5, <3.9",

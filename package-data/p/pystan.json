@@ -2,8 +2,9 @@
   "requires_dist": [
     "aiohttp (>=3.6,<4.0)",
     "clikit (>=0.6.2,<0.7.0)",
-    "httpstan (>=2.3.0,<3.0.0)",
-    "numpy (>=1.7,<2.0)"
+    "httpstan (>=4.0,<5.0)",
+    "numpy (>=1.7,<2.0)",
+    "pysimdjson (>=3.1,<4.0)"
   ],
   "requires_extras": {},
   "requires_python": ">=3.7,<4.0",
