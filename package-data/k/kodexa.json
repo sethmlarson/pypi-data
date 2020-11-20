@@ -5,6 +5,7 @@
     "click",
     "deepdiff",
     "jinja2",
+    "jq",
     "msgpack (==1.0.0)",
     "ply",
     "pyyaml",

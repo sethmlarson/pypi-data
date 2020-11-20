@@ -3,6 +3,7 @@
   "requires_extras": {},
   "requires_python": "",
   "yanked": [
-    "1.2"
+    "1.2",
+    "2.4.0"
   ]
 }

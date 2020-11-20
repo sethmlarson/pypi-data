@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "honeybee-energy (==1.61.7)",
+    "honeybee-energy (==1.62.0)",
     "honeybee-energy-standards (==2.0.3)",
     "honeybee-radiance (==1.27.51)",
     "lbt-ladybug (==0.25.35)"

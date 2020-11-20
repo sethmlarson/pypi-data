@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "azureml-core (==1.15.0)",
+    "azureml-core (==1.18.0)",
     "distro (==1.4.0)",
     "jsonschema (==3.0.1)",
     "more-itertools (==6.0.0)",

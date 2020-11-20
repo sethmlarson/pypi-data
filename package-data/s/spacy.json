@@ -3,19 +3,17 @@
     "blis (<0.5.0,>=0.4.0)",
     "catalogue (<1.1.0,>=0.0.7)",
     "cymem (<2.1.0,>=2.0.2)",
-    "importlib-metadata (>=0.20); python_version<'3.8'",
     "murmurhash (<1.1.0,>=0.28.0)",
     "numpy (>=1.15.0)",
-    "packaging",
+    "pathlib (==1.0.1); python_version<'3.4'",
+    "plac (<1.2.0,>=0.9.6)",
     "preshed (<3.1.0,>=3.0.2)",
-    "pydantic (<2.0.0,>=1.3.0)",
     "requests (<3.0.0,>=2.13.0)",
     "setuptools",
-    "srsly (<3.0.0,>=2.1.0)",
-    "thinc (==8.0.0a11)",
+    "srsly (<1.1.0,>=1.0.2)",
+    "thinc (==7.4.1)",
     "tqdm (<5.0.0,>=4.38.0)",
-    "typer (<1.0.0,>=0.3.0)",
-    "wasabi (<1.1.0,>=0.7.0)"
+    "wasabi (<1.1.0,>=0.4.0)"
   ],
   "requires_extras": {
     "cuda": [
@@ -56,8 +54,6 @@
       "pythainlp (>=2.0); extra=='th'"
     ]
   },
-  "requires_python": ">=3.6",
-  "yanked": [
-    "3.0.0a0"
-  ]
+  "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7",
+  "yanked": []
 }

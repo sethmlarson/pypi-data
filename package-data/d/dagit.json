@@ -1,8 +1,8 @@
 {
   "requires_dist": [
     "click (>=7.0)",
-    "dagster (==0.9.20.pre0)",
-    "dagster-graphql (==0.9.20.pre0)",
+    "dagster (==0.9.20)",
+    "dagster-graphql (==0.9.20)",
     "enum34; python_version<'3.4'",
     "flask (>=0.12.4)",
     "flask-cors (>=3.0.6)",

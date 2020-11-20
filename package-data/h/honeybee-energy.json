@@ -6,7 +6,7 @@
   "requires_extras": {
     "cli": [
       "click (==7.1.2); extra=='cli'",
-      "honeybee-core[cli] (==1.41.1); extra=='cli'",
+      "honeybee-core[cli] (==1.41.2); extra=='cli'",
       "honeybee-energy-standards (==2.0.3); extra=='cli'"
     ]
   },

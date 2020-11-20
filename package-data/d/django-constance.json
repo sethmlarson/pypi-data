@@ -8,6 +8,6 @@
       "redis; extra=='redis'"
     ]
   },
-  "requires_python": "",
+  "requires_python": ">=3.6",
   "yanked": []
 }

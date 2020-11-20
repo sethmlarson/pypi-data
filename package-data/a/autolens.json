@@ -1,10 +1,10 @@
 {
   "requires_dist": [
     "astropy (>=3.0.0)",
-    "autoarray (==0.15.0)",
+    "autoarray (==0.15.2)",
     "autoconf (==0.7.2)",
-    "autofit (==0.70.0)",
-    "autogalaxy (==0.16.0)",
+    "autofit (==0.70.1)",
+    "autogalaxy (==0.16.2)",
     "matplotlib (>=3.0.3)",
     "numpy (>=1.17.2)",
     "numpydoc (>=1.0.0)",
