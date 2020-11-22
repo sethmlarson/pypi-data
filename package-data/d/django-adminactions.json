@@ -1,5 +1,9 @@
 {
-  "requires_dist": [],
+  "requires_dist": [
+    "pytz",
+    "xlrd (>=0.9.2)",
+    "xlwt"
+  ],
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

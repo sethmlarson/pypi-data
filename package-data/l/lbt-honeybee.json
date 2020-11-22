@@ -2,8 +2,8 @@
   "requires_dist": [
     "honeybee-energy (==1.62.0)",
     "honeybee-energy-standards (==2.0.3)",
-    "honeybee-radiance (==1.27.51)",
-    "lbt-ladybug (==0.25.35)"
+    "honeybee-radiance (==1.27.52)",
+    "lbt-ladybug (==0.25.36)"
   ],
   "requires_extras": {
     "cli": [

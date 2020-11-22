@@ -1,6 +1,7 @@
 {
   "requires_dist": [
     "certifi",
+    "funcsigs",
     "protobuf (<=4.0.0,>=3.7.1)",
     "six (>=1.11)",
     "websocket-client (>=0.56.0)"

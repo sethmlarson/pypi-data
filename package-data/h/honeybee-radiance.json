@@ -1,6 +1,6 @@
 {
   "requires_dist": [
-    "honeybee-core (==1.41.2)",
+    "honeybee-core (==1.41.3)",
     "honeybee-radiance-command (==1.1.8)",
     "honeybee-radiance-folder (==2.3.3)",
     "honeybee-standards (==2.0.0)"
