@@ -9,7 +9,7 @@
     "cli": [
       "click (==7.1.2); extra=='cli'",
       "click-plugins (==1.1.1); extra=='cli'",
-      "honeybee-core[cli] (==1.41.2); extra=='cli'"
+      "honeybee-core[cli] (==1.41.3); extra=='cli'"
     ]
   },
   "requires_python": "",

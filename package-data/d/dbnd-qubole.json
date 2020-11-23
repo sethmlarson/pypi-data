@@ -1,7 +1,7 @@
 {
   "requires_dist": [
-    "dbnd (==0.30.3)",
-    "dbnd-spark (==0.30.3)",
+    "dbnd (==0.30.4)",
+    "dbnd-spark (==0.30.4)",
     "qds-sdk (==1.13.2)"
   ],
   "requires_extras": {},

@@ -5,14 +5,8 @@
   "requires_extras": {
     "email": [
       "email-validator; extra=='email'"
-    ],
-    "ipaddress": [
-      "ipaddress; (python_version<'3.3') and extra=='ipaddress'"
-    ],
-    "locale": [
-      "Babel (>=1.3); extra=='locale'"
     ]
   },
-  "requires_python": "",
+  "requires_python": ">=3.6",
   "yanked": []
 }

@@ -6,7 +6,7 @@
   ],
   "requires_extras": {
     "protobuf": [
-      "grpcio-tools (>=1.33.2); extra=='protobuf'"
+      "grpcio-tools (>=1.34.0rc1); extra=='protobuf'"
     ]
   },
   "requires_python": "",

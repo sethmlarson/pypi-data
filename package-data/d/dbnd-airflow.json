@@ -1,11 +1,12 @@
 {
   "requires_dist": [
-    "dbnd (==0.30.3)",
-    "packaging"
+    "dbnd (==0.30.4)",
+    "packaging",
+    "psycopg2 (<2.8,>=2.7.4)"
   ],
   "requires_extras": {
     "airflow": [
-      "apache-airflow (==1.10.7); extra=='airflow'",
+      "apache-airflow (==1.10.9); extra=='airflow'",
       "cattrs (==1.0.0); extra=='airflow'",
       "psycopg2 (<2.8,>=2.7.4); extra=='airflow'",
       "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow'",
@@ -17,6 +18,13 @@
       "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_10'",
       "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_10'",
       "WTForms (<2.3.0); extra=='airflow_1_10_10'"
+    ],
+    "airflow_1_10_11": [
+      "apache-airflow (==1.10.11); extra=='airflow_1_10_11'",
+      "cattrs (==1.0.0); extra=='airflow_1_10_11'",
+      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_11'",
+      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_11'",
+      "WTForms (<2.3.0); extra=='airflow_1_10_11'"
     ],
     "airflow_1_10_12": [
       "apache-airflow (==1.10.12); extra=='airflow_1_10_12'",

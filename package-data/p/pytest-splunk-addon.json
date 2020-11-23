@@ -6,6 +6,7 @@
     "jsonschema (>=3.2,<4.0)",
     "junitparser",
     "pytest (>5.4.0,<6.1)",
+    "pytest-ordering",
     "pytest-xdist",
     "requests (>=2,<3)",
     "splunk-sdk (>=1.6,<2.0)",

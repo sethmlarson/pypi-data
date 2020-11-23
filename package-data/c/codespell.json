@@ -1,6 +1,10 @@
 {
   "requires_dist": [],
-  "requires_extras": {},
-  "requires_python": "",
+  "requires_extras": {
+    "hard-encoding-detection": [
+      "chardet; extra=='hard-encoding-detection'"
+    ]
+  },
+  "requires_python": ">=3.5",
   "yanked": []
 }

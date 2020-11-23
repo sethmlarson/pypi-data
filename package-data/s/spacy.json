@@ -1,6 +1,7 @@
 {
   "requires_dist": [
-    "blis (<0.5.0,>=0.4.0)",
+    "blis (<0.5.0,>=0.4.0); python_version<'3.6'",
+    "blis (<0.8.0,>=0.4.0); python_version>='3.6'",
     "catalogue (<1.1.0,>=0.0.7)",
     "cymem (<2.1.0,>=2.0.2)",
     "murmurhash (<1.1.0,>=0.28.0)",
@@ -11,34 +12,34 @@
     "requests (<3.0.0,>=2.13.0)",
     "setuptools",
     "srsly (<1.1.0,>=1.0.2)",
-    "thinc (==7.4.1)",
+    "thinc (<7.5.0,>=7.4.1)",
     "tqdm (<5.0.0,>=4.38.0)",
     "wasabi (<1.1.0,>=0.4.0)"
   ],
   "requires_extras": {
     "cuda": [
-      "cupy (<9.0.0,>=5.0.0b4); extra=='cuda'"
+      "cupy (<8.0.0,>=5.0.0b4); extra=='cuda'"
     ],
     "cuda100": [
-      "cupy-cuda100 (<9.0.0,>=5.0.0b4); extra=='cuda100'"
+      "cupy-cuda100 (<8.0.0,>=5.0.0b4); extra=='cuda100'"
     ],
     "cuda101": [
-      "cupy-cuda101 (<9.0.0,>=5.0.0b4); extra=='cuda101'"
+      "cupy-cuda101 (<8.0.0,>=5.0.0b4); extra=='cuda101'"
     ],
     "cuda102": [
-      "cupy-cuda102 (<9.0.0,>=5.0.0b4); extra=='cuda102'"
+      "cupy-cuda102 (<8.0.0,>=5.0.0b4); extra=='cuda102'"
     ],
     "cuda80": [
-      "cupy-cuda80 (<9.0.0,>=5.0.0b4); extra=='cuda80'"
+      "cupy-cuda80 (<8.0.0,>=5.0.0b4); extra=='cuda80'"
     ],
     "cuda90": [
-      "cupy-cuda90 (<9.0.0,>=5.0.0b4); extra=='cuda90'"
+      "cupy-cuda90 (<8.0.0,>=5.0.0b4); extra=='cuda90'"
     ],
     "cuda91": [
-      "cupy-cuda91 (<9.0.0,>=5.0.0b4); extra=='cuda91'"
+      "cupy-cuda91 (<8.0.0,>=5.0.0b4); extra=='cuda91'"
     ],
     "cuda92": [
-      "cupy-cuda92 (<9.0.0,>=5.0.0b4); extra=='cuda92'"
+      "cupy-cuda92 (<8.0.0,>=5.0.0b4); extra=='cuda92'"
     ],
     "ja": [
       "sudachidict-core (>=20200330); extra=='ja'",

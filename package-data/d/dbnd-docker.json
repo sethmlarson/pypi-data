@@ -1,7 +1,8 @@
 {
   "requires_dist": [
     "cryptography (>=2.0.0)",
-    "dbnd (==0.30.3)",
+    "dbnd (==0.30.4)",
+    "dbnd-airflow (==0.30.4)",
     "docker (~=3.0)",
     "kubernetes (==9.0.0)"
   ],
