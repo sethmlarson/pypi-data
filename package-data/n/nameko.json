@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "davidszotten",
+    "iky",
+    "kooba",
+    "mattbennett",
+    "onefinestay"
+  ],
   "requires_dist": {
     "dists": [
       "click",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "reevejd"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

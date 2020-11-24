@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bsrdjan",
+    "ChristophHeer",
+    "ralph.heinkel"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

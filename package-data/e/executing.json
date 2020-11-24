@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "alexmojaki"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

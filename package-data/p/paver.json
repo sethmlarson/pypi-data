@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Almad",
+    "tazzzzz"
+  ],
   "requires_dist": {
     "dists": [
       "six"

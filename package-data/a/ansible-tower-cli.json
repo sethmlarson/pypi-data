@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ansible",
+    "James.Laska",
+    "jimi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "syrusakbary"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

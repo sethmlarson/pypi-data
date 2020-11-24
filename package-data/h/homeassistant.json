@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "balloob",
+    "pvizeli",
+    "robbiet480"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

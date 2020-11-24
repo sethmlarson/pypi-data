@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "codeboten",
+    "LeightonC",
+    "opentelemetry"
+  ],
   "requires_dist": {
     "dists": [
       "opentelemetry-api"

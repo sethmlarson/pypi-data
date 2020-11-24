@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "gawel",
+    "ianb",
+    "iElectric"
+  ],
   "requires_dist": {
     "dists": [
       "beautifulsoup4",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ashishgandhi",
+    "bkyryliuk",
+    "gsilk",
+    "jingwang"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

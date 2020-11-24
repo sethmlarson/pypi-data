@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "alvaro.lqueiroz",
+    "brantyoung",
+    "nemesisdesign"
+  ],
   "requires_dist": {
     "dists": [
       "django",

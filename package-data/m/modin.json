@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "devin-petersohn"
+  ],
   "requires_dist": {
     "dists": [
       "packaging",

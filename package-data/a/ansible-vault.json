@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "10100"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

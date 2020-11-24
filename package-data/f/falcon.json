@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "CaselIT",
+    "john.vrbanac",
+    "kgriffs",
+    "vytas"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

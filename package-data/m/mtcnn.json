@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ipazc"
+  ],
   "requires_dist": {
     "dists": [
       "keras",

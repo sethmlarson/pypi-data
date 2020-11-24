@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "danrope",
+    "GrahamWills"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

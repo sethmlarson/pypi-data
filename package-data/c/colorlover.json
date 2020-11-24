@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "alexcjohnson",
+    "cldougl",
+    "cparmer",
+    "jackp",
+    "jmmease",
+    "scjody"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

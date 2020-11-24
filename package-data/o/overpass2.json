@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "shalla"
+  ],
   "requires_dist": {
     "dists": [
       "geojson",

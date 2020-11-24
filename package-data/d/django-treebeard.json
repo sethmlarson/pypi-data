@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "jrief",
+    "mattwestcott",
+    "mvt",
+    "tabo",
+    "yakky"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Gallaecio",
+    "scrapinghub"
+  ],
   "requires_dist": {
     "dists": [
       "calmjs.parse",

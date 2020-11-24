@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "benblack769",
+    "justinkterry",
+    "MarioJ"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "denik",
+    "jamadden"
+  ],
   "requires_dist": {
     "dists": [
       "cffi",

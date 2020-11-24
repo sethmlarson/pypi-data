@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "virtuald"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

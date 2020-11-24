@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "carljm",
+    "jazzband"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

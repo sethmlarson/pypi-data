@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "google_opensource",
+    "tensorflow-ranking"
+  ],
   "requires_dist": {
     "dists": [
       "absl-py",

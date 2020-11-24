@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Datadog"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

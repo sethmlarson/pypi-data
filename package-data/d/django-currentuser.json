@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "paessler_bis"
+  ],
   "requires_dist": {
     "dists": [
       "django"

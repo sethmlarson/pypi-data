@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "amlpypi"
+  ],
   "requires_dist": {
     "dists": [
       "azureml-dataprep",

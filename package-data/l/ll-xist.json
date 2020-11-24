@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "doerwalter",
+    "guell"
+  ],
   "requires_dist": {
     "dists": [
       "cssutils"

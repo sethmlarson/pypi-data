@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "angersson",
+    "annarev",
+    "av8ramit",
+    "mihaimaruseac",
+    "tf-nightly"
+  ],
   "requires_dist": {
     "dists": [
       "absl-py",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "devananda",
+    "jbjohnso",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography",

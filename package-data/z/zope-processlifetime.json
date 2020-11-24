@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "icemac",
+    "jamadden",
+    "kedder",
+    "mgedmin",
+    "srichter",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "alykhantejani",
+    "soumith",
+    "vfdev-5"
+  ],
   "requires_dist": {
     "dists": [
       "torch"

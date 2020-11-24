@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Timotheus.Kampik"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

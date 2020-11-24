@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "encukou",
+    "xelnor"
+  ],
   "requires_dist": {
     "dists": [
       "python-ldap"

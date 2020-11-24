@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "free.ekanayaka",
+    "jelmer",
+    "lifeless",
+    "mtreinish"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "xzkostyan"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

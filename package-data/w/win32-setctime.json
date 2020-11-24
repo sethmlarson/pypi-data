@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Delgan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

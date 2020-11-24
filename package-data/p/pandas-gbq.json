@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jreback",
+    "parthea",
+    "TimSwast"
+  ],
   "requires_dist": {
     "dists": [
       "google-auth",

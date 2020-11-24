@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "omry"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

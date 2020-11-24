@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dwtools",
+    "dwtools-ci"
+  ],
   "requires_dist": {
     "dists": [
       "dimod",

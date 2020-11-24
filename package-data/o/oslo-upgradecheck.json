@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bnemec",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "oslo.config",

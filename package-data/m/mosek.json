@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mosekadmin"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

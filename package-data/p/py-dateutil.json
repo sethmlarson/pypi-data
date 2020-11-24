@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cld"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

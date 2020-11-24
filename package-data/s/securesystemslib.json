@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "awwad",
+    "joshuagl",
+    "lukpueh",
+    "torresariass"
+  ],
   "requires_dist": {
     "dists": [
       "six",

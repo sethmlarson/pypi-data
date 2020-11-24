@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "miguelgrinberg"
+  ],
   "requires_dist": {
     "dists": [
       "python-engineio",

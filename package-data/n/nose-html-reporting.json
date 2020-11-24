@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lysenkoivan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

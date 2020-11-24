@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "cutlerb",
+    "dmitrievanthony",
+    "tensorflow-io-nightly",
+    "terrytangyuan",
+    "yongtang"
+  ],
   "requires_dist": {
     "dists": [
       "tensorflow"

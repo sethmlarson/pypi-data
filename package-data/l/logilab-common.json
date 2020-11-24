@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "logilab",
+    "psycojoker"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

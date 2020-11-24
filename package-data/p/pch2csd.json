@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ech"
+  ],
   "requires_dist": {
     "dists": [
       "bitarray",

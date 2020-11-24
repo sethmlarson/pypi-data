@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Gaspare.Iengo"
+  ],
   "requires_dist": {
     "dists": [
       "json-spec"

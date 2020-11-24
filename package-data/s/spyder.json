@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ccordoba12",
+    "d.althviz",
+    "raybaut"
+  ],
   "requires_dist": {
     "dists": [
       "applaunchservices",

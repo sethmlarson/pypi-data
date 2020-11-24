@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "TonySeek"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "edgedevtools",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [
       "selenium"

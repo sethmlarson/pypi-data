@@ -1,4 +1,19 @@
 {
+  "publishers": [
+    "andylu",
+    "asmith",
+    "bi1yeu",
+    "ccapurso",
+    "cmerrick",
+    "dmosora",
+    "iterati",
+    "kallan357",
+    "kesserich",
+    "mdelaurentis",
+    "nmccoy",
+    "singer_io",
+    "timvisher"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

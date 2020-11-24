@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Lukasz.Forynski"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

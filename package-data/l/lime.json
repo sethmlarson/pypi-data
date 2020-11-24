@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "marcotcr"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "teracy"
+  ],
   "requires_dist": {
     "dists": [
       "flask"

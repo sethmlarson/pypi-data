@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "granitas",
+    "Mattwmaster58",
+    "miyakogi"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

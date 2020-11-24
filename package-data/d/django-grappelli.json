@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sehmaschine"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

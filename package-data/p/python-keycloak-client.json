@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "peter-slump"
+  ],
   "requires_dist": {
     "dists": [
       "python-jose",

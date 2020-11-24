@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tinkerpop"
+  ],
   "requires_dist": {
     "dists": [
       "aenum",

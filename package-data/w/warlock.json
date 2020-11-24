@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bcwaldon",
+    "janw"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

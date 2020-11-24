@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "admire",
+    "dahlia",
+    "dev_spoqa"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

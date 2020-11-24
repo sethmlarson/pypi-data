@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tantale"
+  ],
   "requires_dist": {
     "dists": [
       "wrapt"

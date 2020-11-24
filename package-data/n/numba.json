@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "esc",
+    "seibert",
+    "Siu.Kwan.Lam",
+    "teoliphant"
+  ],
   "requires_dist": {
     "dists": [
       "llvmlite",

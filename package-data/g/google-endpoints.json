@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "inklesspen",
+    "tangiel",
+    "tomboc"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

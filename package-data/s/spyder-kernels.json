@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ccordoba12",
+    "d.althviz"
+  ],
   "requires_dist": {
     "dists": [
       "cloudpickle",

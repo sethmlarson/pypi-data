@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "microsoft",
+    "onnxruntime",
+    "vinitra",
+    "wenbingl",
+    "xadupre"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

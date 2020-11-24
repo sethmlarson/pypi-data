@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "anubhavp",
+    "Gallaecio",
+    "scrapy",
+    "whalebot_helmsman"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

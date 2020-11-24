@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "braintree"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

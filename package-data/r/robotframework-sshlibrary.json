@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mihaiparvu",
+    "robotframework",
+    "yanne"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

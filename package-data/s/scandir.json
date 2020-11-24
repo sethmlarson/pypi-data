@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "benhoyt",
+    "haypo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

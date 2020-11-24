@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "philipn",
+    "rpkilby"
+  ],
   "requires_dist": {
     "dists": [
       "django-filter",

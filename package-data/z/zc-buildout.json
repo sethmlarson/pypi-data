@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "aclark",
+    "gotcha",
+    "icemac",
+    "J1m",
+    "leorochael",
+    "reinout",
+    "tlotze",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "pip",

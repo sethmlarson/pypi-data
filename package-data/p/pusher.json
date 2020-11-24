@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pusher"
+  ],
   "requires_dist": {
     "dists": [
       "ndg-httpsclient",

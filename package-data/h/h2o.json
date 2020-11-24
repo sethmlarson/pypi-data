@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "abal5",
+    "h2o"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

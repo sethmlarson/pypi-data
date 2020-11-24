@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "agrothberg",
+    "maxim.kulkin",
+    "sloria"
+  ],
   "requires_dist": {
     "dists": [
       "marshmallow"

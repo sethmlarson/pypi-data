@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "terrycain"
+  ],
   "requires_dist": {
     "dists": [
       "aiobotocore"

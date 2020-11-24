@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "d3zd3z",
+    "utzig",
+    "zephyr-project"
+  ],
   "requires_dist": {
     "dists": [
       "cbor",

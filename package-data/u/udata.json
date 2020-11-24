@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "etalab",
+    "noirbizarre",
+    "opendatateam"
+  ],
   "requires_dist": {
     "dists": [
       "authlib",

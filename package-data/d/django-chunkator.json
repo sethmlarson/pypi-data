@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "brunobord",
+    "tbcvl",
+    "zebuline"
+  ],
   "requires_dist": {
     "dists": [
       "django"

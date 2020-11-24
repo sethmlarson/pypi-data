@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cnk",
+    "google_opensource",
+    "LeightonC",
+    "reyang"
+  ],
   "requires_dist": {
     "dists": [
       "opencensus",

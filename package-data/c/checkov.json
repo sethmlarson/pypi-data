@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "schosterbarak"
+  ],
   "requires_dist": {
     "dists": [
       "bc-python-hcl2",

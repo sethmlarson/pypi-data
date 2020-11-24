@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ikanobori",
+    "sebastinas",
+    "thomasballinger"
+  ],
   "requires_dist": {
     "dists": [
       "blessings",

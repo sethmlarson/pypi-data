@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "admobilize"
+  ],
   "requires_dist": {
     "dists": [
       "google-api-core",

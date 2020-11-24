@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "brew",
+    "callmealien",
+    "okfn",
+    "pwalsh"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

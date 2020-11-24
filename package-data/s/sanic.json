@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ashleysommer",
+    "brewmaster"
+  ],
   "requires_dist": {
     "dists": [
       "aiofiles",

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "carycheng",
+    "Jeff-Meadows",
+    "jmoldow",
+    "PJSimon",
+    "sgarlanka"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

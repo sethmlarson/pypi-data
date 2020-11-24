@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fmfnogueira"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "alexs-mparticle",
+    "pjenkins",
+    "samdozor"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

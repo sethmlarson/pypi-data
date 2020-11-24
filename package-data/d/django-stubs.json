@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mkurnikov",
+    "sobolevn"
+  ],
   "requires_dist": {
     "dists": [
       "django",

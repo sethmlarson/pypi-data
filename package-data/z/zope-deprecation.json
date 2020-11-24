@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "chrism",
+    "fdrake",
+    "J1m",
+    "jamadden",
+    "menesis",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools"

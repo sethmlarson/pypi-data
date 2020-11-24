@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "smartsheet-platform"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

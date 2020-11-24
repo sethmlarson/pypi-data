@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vi3k6i5"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

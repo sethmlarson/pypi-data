@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "browsertron"
+  ],
   "requires_dist": {
     "dists": [
       "pytest",

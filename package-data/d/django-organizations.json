@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bennylope"
+  ],
   "requires_dist": {
     "dists": [
       "django",

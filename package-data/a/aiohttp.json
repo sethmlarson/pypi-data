@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aio-libs-bot",
+    "Andrew.Svetlov",
+    "fafhrd"
+  ],
   "requires_dist": {
     "dists": [
       "async-timeout",

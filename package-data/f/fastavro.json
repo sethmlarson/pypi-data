@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "scottbelden",
+    "tebeka"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

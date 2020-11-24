@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "fschulze",
+    "maurits",
+    "stefanholek",
+    "tomster",
+    "witsch"
+  ],
   "requires_dist": {
     "dists": [
       "argparse",

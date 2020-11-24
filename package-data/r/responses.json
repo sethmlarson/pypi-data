@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dcramer",
+    "getsentry"
+  ],
   "requires_dist": {
     "dists": [
       "cookies",

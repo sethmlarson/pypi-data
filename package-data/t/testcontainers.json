@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "SergeyPirogov",
+    "tillahoffmann"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

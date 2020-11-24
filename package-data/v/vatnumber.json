@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bch",
+    "ced",
+    "nicoe"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

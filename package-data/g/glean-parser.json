@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "badboy",
+    "brizental",
+    "dexterp37",
+    "mdboom2",
+    "travis.long"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

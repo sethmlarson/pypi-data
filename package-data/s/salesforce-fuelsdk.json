@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mcsdkadmin"
+  ],
   "requires_dist": {
     "dists": [
       "pyjwt",

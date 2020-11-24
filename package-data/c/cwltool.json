@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "arvados",
+    "mcrusoe",
+    "tetron",
+    "Ward.Vandewege"
+  ],
   "requires_dist": {
     "dists": [
       "argcomplete",

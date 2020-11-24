@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "serhatbolsu",
+    "William.Zhang"
+  ],
   "requires_dist": {
     "dists": [
       "appium-python-client",

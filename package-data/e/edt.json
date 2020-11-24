@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "willsilversmith"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

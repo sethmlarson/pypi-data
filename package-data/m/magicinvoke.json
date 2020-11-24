@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "haydenflinner"
+  ],
   "requires_dist": {
     "dists": [
       "cachepath",

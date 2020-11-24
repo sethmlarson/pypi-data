@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jezdez"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

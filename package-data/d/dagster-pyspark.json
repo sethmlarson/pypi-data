@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "elementl"
+  ],
   "requires_dist": {
     "dists": [
       "dagster",

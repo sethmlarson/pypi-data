@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "fzzzy",
+    "jstasiak",
+    "Nat.Goodspeed",
+    "rdw",
+    "Sergey.Shepelev",
+    "whichlinden"
+  ],
   "requires_dist": {
     "dists": [
       "dnspython",

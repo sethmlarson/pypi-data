@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mosquito"
+  ],
   "requires_dist": {
     "dists": [
       "pamqp",

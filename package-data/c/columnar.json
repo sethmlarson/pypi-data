@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "maxtaggart"
+  ],
   "requires_dist": {
     "dists": [
       "toolz",

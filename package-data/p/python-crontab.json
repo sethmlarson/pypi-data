@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "doctormo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

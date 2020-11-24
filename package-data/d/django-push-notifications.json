@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Adys",
+    "jamaalscarlett",
+    "jazzband"
+  ],
   "requires_dist": {
     "dists": [
       "apns2",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ehs",
+    "jbaviat",
+    "ningirsu",
+    "sqreen"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "akharit-ms",
+    "microsoft",
+    "rahuld90"
+  ],
   "requires_dist": {
     "dists": [
       "adal",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "microsoft",
+    "onnxruntime"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

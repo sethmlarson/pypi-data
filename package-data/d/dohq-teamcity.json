@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "devopshq"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

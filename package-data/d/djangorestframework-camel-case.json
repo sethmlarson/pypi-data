@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vbabiy"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

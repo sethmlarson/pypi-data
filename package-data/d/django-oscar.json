@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "codeinthehole.com",
+    "Maik.Hoepfel",
+    "mvt",
+    "sasha0",
+    "solarissmoke"
+  ],
   "requires_dist": {
     "dists": [
       "babel",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "IntelAutomationEngineering",
+    "sat-bot"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

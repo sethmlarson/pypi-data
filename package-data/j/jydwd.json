@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jiangyd"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

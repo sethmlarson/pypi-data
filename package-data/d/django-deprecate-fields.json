@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "davidjovanovic",
+    "flixx",
+    "justinfocus",
+    "mes3yd"
+  ],
   "requires_dist": {
     "dists": [
       "django"

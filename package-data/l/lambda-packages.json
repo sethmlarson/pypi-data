@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "miserlou"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

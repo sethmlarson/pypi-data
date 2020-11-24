@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "alizain",
+    "ashleyabrooks",
+    "jdcumpson"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

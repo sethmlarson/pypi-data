@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "blnicho",
+    "jdsiiro",
+    "whart111"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

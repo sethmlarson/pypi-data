@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "flupke"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

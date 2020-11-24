@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "CamDavidsonPilon"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

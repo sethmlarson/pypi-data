@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Ofekmeister"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

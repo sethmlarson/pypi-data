@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fgimian"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

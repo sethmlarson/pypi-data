@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "greenbuildingregistry"
+  ],
   "requires_dist": {
     "dists": [
       "pyyaml",

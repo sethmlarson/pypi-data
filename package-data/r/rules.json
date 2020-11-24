@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dfunckt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

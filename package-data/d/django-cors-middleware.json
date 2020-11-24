@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "artragis",
+    "gustavi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "fdik",
+    "The_Compiler"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

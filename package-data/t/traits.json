@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "aayres",
+    "cwebster_enthought",
+    "dickinsm",
+    "enthought",
+    "rporuri"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

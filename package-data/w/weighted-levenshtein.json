@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "infoscout"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

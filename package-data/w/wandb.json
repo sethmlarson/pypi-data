@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vanpelt"
+  ],
   "requires_dist": {
     "dists": [
       "click",

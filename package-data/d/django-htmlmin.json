@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "andrewsmedina",
+    "flaviamissi",
+    "fss"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

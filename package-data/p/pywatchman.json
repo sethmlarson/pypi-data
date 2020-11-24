@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "fanzeyi",
+    "helsel",
+    "wez"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

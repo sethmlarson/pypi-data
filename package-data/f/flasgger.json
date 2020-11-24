@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "billrao",
+    "javabrett",
+    "nicobatty",
+    "rochacbruno"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

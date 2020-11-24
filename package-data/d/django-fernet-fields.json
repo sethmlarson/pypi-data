@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "carljm",
+    "orcasgit"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "dknupp",
+    "gregrahn",
+    "laserson",
+    "mister.wardrop",
+    "wesm"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

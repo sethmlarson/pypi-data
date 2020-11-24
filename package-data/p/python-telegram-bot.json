@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "Bibo-Joshi",
+    "Eldinnie",
+    "jh0ker",
+    "jsmnbom",
+    "leandrotoledo",
+    "tsnoam"
+  ],
   "requires_dist": {
     "dists": [
       "apscheduler",

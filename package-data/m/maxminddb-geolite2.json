@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rr2do2"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

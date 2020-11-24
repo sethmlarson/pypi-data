@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "danielrjiang",
+    "facebook",
+    "mbalandat",
+    "sdaulton"
+  ],
   "requires_dist": {
     "dists": [
       "gpytorch",

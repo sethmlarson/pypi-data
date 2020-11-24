@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "graffatcolmingov",
+    "IanLee1521"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

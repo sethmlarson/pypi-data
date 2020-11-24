@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "edgarriba"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

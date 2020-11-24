@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "ambroff",
+    "bob",
+    "denik",
+    "fzzzy",
+    "jamadden",
+    "JaredKuolt",
+    "schmir",
+    "snaury",
+    "whichlinden"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

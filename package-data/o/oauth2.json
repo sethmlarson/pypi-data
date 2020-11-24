@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "jaitaiwan",
+    "joestump",
+    "markunsworth",
+    "rickhanlonii"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

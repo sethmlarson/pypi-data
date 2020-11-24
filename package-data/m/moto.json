@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jackdanger",
+    "mikegrima",
+    "spulec"
+  ],
   "requires_dist": {
     "dists": [
       "aws-xray-sdk",

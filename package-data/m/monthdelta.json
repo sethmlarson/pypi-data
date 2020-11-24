@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jessaustin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

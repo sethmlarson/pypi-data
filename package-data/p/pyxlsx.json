@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lihailin"
+  ],
   "requires_dist": {
     "dists": [
       "openpyxl",

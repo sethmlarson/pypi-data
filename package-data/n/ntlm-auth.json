@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jborean93",
+    "nitzmahone"
+  ],
   "requires_dist": {
     "dists": [
       "ordereddict"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "michalc"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

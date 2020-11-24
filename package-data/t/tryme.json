@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bryanwb"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

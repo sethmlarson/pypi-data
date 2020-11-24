@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "azure-sdk",
+    "microsoft",
+    "xclientdev"
+  ],
   "requires_dist": {
     "dists": [
       "azure-common",

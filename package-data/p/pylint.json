@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "AWhetter",
+    "BryceGuinta",
+    "Claudiu.Popa",
+    "hippo91",
+    "logilab",
+    "Torsten.Marek"
+  ],
   "requires_dist": {
     "dists": [
       "astroid",

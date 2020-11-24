@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dom.dinicola",
+    "sax"
+  ],
   "requires_dist": {
     "dists": [
       "pytz",

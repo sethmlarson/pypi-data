@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "datasentics"
+  ],
   "requires_dist": {
     "dists": [
       "colorlog",

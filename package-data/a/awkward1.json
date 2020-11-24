@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pivarski"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

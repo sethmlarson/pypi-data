@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "google_opensource",
+    "googleapis-packages",
+    "lukesneeringer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

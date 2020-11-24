@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "administrator-quandl",
+    "couture-ql",
+    "eric.vautour",
+    "jjmar",
+    "junos",
+    "scott_quandl",
+    "shuof"
+  ],
   "requires_dist": {
     "dists": [
       "inflection",

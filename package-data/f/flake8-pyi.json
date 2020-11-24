@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ambv",
+    "JelleZijlstra"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

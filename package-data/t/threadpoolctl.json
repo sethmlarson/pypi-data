@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jeremiedbb",
+    "ogrisel",
+    "tommoral"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

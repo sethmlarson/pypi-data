@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "claudep",
+    "jacobian",
+    "jezdez"
+  ],
   "requires_dist": {
     "dists": [
       "django",

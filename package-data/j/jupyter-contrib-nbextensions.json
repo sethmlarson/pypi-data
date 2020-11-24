@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jcb91",
+    "jfbercher",
+    "juhasch"
+  ],
   "requires_dist": {
     "dists": [
       "ipython-genutils",

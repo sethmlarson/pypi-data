@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cchurch"
+  ],
   "requires_dist": {
     "dists": [
       "django"

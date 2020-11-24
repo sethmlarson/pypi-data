@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "BeyondEvil",
+    "bsilverberg",
+    "davehunt",
+    "justinpotts"
+  ],
   "requires_dist": {
     "dists": [
       "pytest",

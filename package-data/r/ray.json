@@ -1,4 +1,17 @@
 {
+  "publishers": [
+    "atumanov",
+    "barakmich",
+    "ekl",
+    "eoakes",
+    "pcmoritz",
+    "richardliaw",
+    "rkn",
+    "scho010",
+    "simon-mo",
+    "swang",
+    "wuisawesome"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

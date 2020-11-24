@@ -1,4 +1,17 @@
 {
+  "publishers": [
+    "bgranger",
+    "davidbrochart",
+    "fperez",
+    "kevin-bates",
+    "Kyle.Kelley",
+    "mbussonn",
+    "minrk",
+    "mpacer",
+    "MSeal",
+    "takowl",
+    "willingc"
+  ],
   "requires_dist": {
     "dists": [
       "pywin32",

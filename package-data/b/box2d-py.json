@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "christopherhesse",
+    "jonasschneider",
+    "peterz-openai",
+    "pzhokhov"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

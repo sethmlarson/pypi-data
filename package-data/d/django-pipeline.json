@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Buky",
+    "jazzband",
+    "tim"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

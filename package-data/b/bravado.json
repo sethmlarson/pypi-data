@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "lucagiovagnoli",
+    "macisamuele",
+    "prat0318",
+    "sjaensch",
+    "spatel",
+    "yelplabs"
+  ],
   "requires_dist": {
     "dists": [
       "bravado-core",

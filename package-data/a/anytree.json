@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "c0fec0de"
+  ],
   "requires_dist": {
     "dists": [
       "six"

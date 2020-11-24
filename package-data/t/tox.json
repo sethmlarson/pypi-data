@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "gaborbernat",
+    "hpk",
+    "oliver.bestwalter",
+    "toxdev"
+  ],
   "requires_dist": {
     "dists": [
       "colorama",

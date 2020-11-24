@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dstftw",
+    "Filippo.Valsorda",
+    "phihag"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

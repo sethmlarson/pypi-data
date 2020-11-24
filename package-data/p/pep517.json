@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jaraco",
+    "pf_moore",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "importlib_metadata",

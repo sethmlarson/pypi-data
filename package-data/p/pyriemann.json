@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "alexandre.barachant"
+  ],
   "requires_dist": {
     "dists": [
       "joblib",

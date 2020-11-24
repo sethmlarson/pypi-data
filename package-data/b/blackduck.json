@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gsnyder"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

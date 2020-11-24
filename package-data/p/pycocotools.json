@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "kammeyer",
+    "ppwwyyxx",
+    "rbg"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

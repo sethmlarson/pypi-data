@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "kchmck"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

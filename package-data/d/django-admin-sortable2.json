@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Arany",
+    "jrief",
+    "rfleschenberg"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "djmitche",
+    "escapewindow",
+    "imbstack",
+    "mshal",
+    "taskcluster-bot",
+    "worc0260"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

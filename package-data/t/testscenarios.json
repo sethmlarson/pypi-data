@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cjwatson",
+    "lifeless"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

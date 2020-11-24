@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Stavros",
+    "stochastic",
+    "vladimir"
+  ],
   "requires_dist": {
     "dists": [
       "contextlib2"

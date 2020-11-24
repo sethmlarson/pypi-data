@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "ewmassey",
+    "harph",
+    "Kyle.Kelley",
+    "mpacer",
+    "MSeal",
+    "willingc"
+  ],
   "requires_dist": {
     "dists": [
       "ansiwrap",

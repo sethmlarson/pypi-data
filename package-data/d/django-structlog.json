@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jrobichaud"
+  ],
   "requires_dist": {
     "dists": [
       "django",

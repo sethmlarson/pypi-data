@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "blag",
+    "digi604",
+    "jazzband",
+    "jimmykobe1171",
+    "manelclos",
+    "sika"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

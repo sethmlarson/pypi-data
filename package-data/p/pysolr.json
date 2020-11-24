@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "acdha",
+    "daniellindsley",
+    "jacobian",
+    "jkocherhans"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

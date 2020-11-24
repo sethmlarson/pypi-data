@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "LupusLeaks"
+  ],
   "requires_dist": {
     "dists": [
       "aiofiles",

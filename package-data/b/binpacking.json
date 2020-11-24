@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bfmaier"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

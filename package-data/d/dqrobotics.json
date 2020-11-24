@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "murilomarinho"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bchen",
+    "betamike",
+    "gmjosack"
+  ],
   "requires_dist": {
     "dists": [
       "six"

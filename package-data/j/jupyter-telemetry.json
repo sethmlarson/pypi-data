@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "blink1073",
+    "yuvipanda",
+    "zsailer"
+  ],
   "requires_dist": {
     "dists": [
       "jsonschema",

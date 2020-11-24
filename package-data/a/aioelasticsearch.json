@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aio-libs-bot",
+    "Andrew.Svetlov",
+    "froosty",
+    "hellysmile"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

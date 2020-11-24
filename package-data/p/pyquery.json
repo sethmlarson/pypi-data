@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gawel",
+    "olauzanne"
+  ],
   "requires_dist": {
     "dists": [
       "cssselect",

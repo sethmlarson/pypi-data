@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "alq666",
+    "cbranagan",
+    "clutchski",
+    "Datadog",
+    "yannmh"
+  ],
   "requires_dist": {
     "dists": [
       "configparser",

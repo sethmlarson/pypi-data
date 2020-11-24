@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "David.Burns"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

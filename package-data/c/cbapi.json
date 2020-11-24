@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "carbonblack",
+    "jgarman"
+  ],
   "requires_dist": {
     "dists": [
       "attrdict",

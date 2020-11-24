@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "gentooboontoo",
+    "liZe",
+    "SimonSapin"
+  ],
   "requires_dist": {
     "dists": [
       "cairocffi",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "IanMeyers"
+  ],
   "requires_dist": {
     "dists": [
       "protobuf"

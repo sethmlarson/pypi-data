@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bdcht"
+  ],
   "requires_dist": {
     "dists": [
       "pyparsing"

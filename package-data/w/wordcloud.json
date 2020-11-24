@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jcfr",
+    "muncca",
+    "t3kcit"
+  ],
   "requires_dist": {
     "dists": [
       "matplotlib",

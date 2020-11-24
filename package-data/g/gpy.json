@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "maxz",
+    "sheffieldml",
+    "walkingrandomly"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

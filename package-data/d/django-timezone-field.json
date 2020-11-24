@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mfogel"
+  ],
   "requires_dist": {
     "dists": [
       "django",

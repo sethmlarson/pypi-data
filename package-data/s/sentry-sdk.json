@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "getsentry",
+    "mitsuhiko",
+    "untitaker"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "andrew_d",
+    "tomchristie"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

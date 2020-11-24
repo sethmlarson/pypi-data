@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "dimon222",
+    "kevin-bates",
+    "lresende",
+    "toidi"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

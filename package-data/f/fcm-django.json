@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "xtrinch"
+  ],
   "requires_dist": {
     "dists": [
       "django",

@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "bgranger",
+    "fperez",
+    "ivanov",
+    "mbussonn",
+    "minrk",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "appnope",

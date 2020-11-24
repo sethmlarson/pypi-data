@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bryan_oakley"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

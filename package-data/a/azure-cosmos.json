@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "azure-sdk",
+    "DocumentDB",
+    "Laurent.Mazuel",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [
       "azure-core",

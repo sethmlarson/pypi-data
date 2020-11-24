@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "moezali",
+    "Yard1"
+  ],
   "requires_dist": {
     "dists": [
       "catboost",

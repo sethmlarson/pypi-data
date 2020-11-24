@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "billiejoex",
+    "giampaolo.rodola"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

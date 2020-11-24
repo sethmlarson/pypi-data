@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tlocke"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

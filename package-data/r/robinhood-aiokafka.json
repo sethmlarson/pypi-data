@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ask"
+  ],
   "requires_dist": {
     "dists": [
       "kafka-python"

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "azure-sdk",
+    "Laurent.Mazuel",
+    "microsoft",
+    "sschaab"
+  ],
   "requires_dist": {
     "dists": [
       "azure-common",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jaraco",
+    "jezdez",
+    "ronny"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools"

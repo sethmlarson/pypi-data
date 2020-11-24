@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "kennethreitz",
+    "spyoungtech",
+    "tuxtimo"
+  ],
   "requires_dist": {
     "dists": [
       "gevent",

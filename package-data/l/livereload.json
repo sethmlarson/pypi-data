@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bmcculley",
+    "lepture"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "reportlab"
+  ],
   "requires_dist": {
     "dists": [
       "pillow"

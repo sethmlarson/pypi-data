@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "aaren",
+    "fwasilew",
+    "grlee77",
+    "kwohlfahrt",
+    "matthew.brett",
+    "rgommers"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

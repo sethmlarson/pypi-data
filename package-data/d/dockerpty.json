@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aanand",
+    "bfirsh",
+    "d11wtq",
+    "dnephin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

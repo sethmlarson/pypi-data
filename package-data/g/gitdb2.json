@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ByronBates",
+    "Harmon758"
+  ],
   "requires_dist": {
     "dists": [
       "gitdb"

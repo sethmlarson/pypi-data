@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "latture"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

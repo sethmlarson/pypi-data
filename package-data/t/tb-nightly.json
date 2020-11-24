@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tensorboard"
+  ],
   "requires_dist": {
     "dists": [
       "absl-py",

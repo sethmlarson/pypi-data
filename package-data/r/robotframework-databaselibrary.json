@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "franz_see",
+    "jerry57"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

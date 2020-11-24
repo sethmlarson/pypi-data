@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ricequant"
+  ],
   "requires_dist": {
     "dists": [
       "brotli",

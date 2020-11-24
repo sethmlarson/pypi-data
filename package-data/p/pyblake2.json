@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dchest"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

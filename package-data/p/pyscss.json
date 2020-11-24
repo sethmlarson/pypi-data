@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "eevee",
+    "Ivan.Kolodyazhny",
+    "Kronuz"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

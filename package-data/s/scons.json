@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bdbaddog",
+    "garyo",
+    "knight"
+  ],
   "requires_dist": {
     "dists": [
       "pywin32",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Stranger6667",
+    "svtkachenko"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

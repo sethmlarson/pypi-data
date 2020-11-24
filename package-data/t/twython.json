@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mikehelmick",
+    "ryanmcgrath"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

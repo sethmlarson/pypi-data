@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "claudiub",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "babel",

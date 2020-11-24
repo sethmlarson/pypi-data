@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "respondcreate"
+  ],
   "requires_dist": {
     "dists": [
       "pillow",

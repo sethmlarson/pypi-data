@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Miroslav.Shubernetskiy"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

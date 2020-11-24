@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "karlk"
+  ],
   "requires_dist": {
     "dists": [
       "future"

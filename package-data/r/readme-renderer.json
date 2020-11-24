@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "di",
+    "dstufft",
+    "jezdez",
+    "theacodes"
+  ],
   "requires_dist": {
     "dists": [
       "bleach",

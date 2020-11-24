@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "puiterwijk",
+    "SteelPangolin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

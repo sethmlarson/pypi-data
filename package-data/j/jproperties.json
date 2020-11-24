@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Tblue"
+  ],
   "requires_dist": {
     "dists": [
       "six"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "aws-cdk",
+    "RomainMuller"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

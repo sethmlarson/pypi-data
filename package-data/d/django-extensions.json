@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "trbs"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

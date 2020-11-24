@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dbtsai",
+    "wojcikstefan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

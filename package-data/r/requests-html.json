@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "kennethreitz",
+    "tuxtimo"
+  ],
   "requires_dist": {
     "dists": [
       "bs4",

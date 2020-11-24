@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wildraid"
+  ],
   "requires_dist": {
     "dists": [
       "rsa",

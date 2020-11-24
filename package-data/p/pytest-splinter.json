@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "anatoly",
+    "andreaspelme",
+    "davidemoro",
+    "jsfehler",
+    "Oleg.Pidsadnyi",
+    "soul_rebel",
+    "The_Compiler",
+    "youtux"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

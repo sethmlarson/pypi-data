@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "facebook",
+    "omry"
+  ],
   "requires_dist": {
     "dists": [
       "antlr4-python3-runtime",

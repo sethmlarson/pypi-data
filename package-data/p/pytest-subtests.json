@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "asottile",
+    "nicoddemus",
+    "ronny"
+  ],
   "requires_dist": {
     "dists": [
       "pytest"

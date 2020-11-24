@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "adrin",
+    "fpedregosa",
+    "GaelVaroquaux",
+    "glemaitre",
+    "jeremiedbb",
+    "jnothman",
+    "ogrisel",
+    "t3kcit",
+    "vene"
+  ],
   "requires_dist": {
     "dists": [
       "joblib",

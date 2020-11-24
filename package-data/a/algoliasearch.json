@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "algolia",
+    "nunomaduro"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

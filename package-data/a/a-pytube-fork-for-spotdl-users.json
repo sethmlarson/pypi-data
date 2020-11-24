@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Mikhail_Zex"
+  ],
   "requires_dist": {
     "dists": [
       "typing-extensions"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "alvations",
+    "stevenbird"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

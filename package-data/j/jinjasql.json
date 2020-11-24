@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "devashish.sharma",
+    "sripathikrishnan"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2"

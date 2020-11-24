@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "opensource_prodigygame"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

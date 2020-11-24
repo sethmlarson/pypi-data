@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "hellosign"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

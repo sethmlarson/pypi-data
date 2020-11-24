@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "bgranger",
+    "blink1073",
+    "fcollonval",
+    "jaipreets",
+    "tel"
+  ],
   "requires_dist": {
     "dists": [
       "nbdime",

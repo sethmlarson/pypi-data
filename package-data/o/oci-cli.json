@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "Hamada.G.Ibrahim",
+    "harshkumar-dev",
+    "jodoglevy",
+    "kerlee",
+    "mross22",
+    "pelliu",
+    "viralmodi",
+    "vishwasbhat"
+  ],
   "requires_dist": {
     "dists": [
       "arrow",

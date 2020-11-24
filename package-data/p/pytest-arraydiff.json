@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bsipocz",
+    "robitaille"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dbaty"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

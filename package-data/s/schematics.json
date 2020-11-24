@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bintoro",
+    "j2d2",
+    "kracekumar",
+    "lkraider"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

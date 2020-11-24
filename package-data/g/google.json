@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mvilas"
+  ],
   "requires_dist": {
     "dists": [
       "beautifulsoup4"

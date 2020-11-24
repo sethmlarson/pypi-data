@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ckuehl",
+    "ocf",
+    "ocfdeploy"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

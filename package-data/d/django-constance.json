@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "aleszoulek",
+    "comoga",
+    "jazzband",
+    "jezdez",
+    "whiskybar"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

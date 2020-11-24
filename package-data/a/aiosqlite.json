@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jreese"
+  ],
   "requires_dist": {
     "dists": [
       "typing_extensions"

@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "besab",
+    "dbakshee",
+    "dmitko",
+    "donskov",
+    "exprmntr",
+    "kizill",
+    "rnefyodov"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jazzband",
+    "owaislone"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

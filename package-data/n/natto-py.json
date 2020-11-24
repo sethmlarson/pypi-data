@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "buruzaemon"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "bhagwat.vyas",
+    "briangustafson",
+    "jayin",
+    "jodoglevy",
+    "jotruon",
+    "mross22",
+    "pelliu",
+    "prakaur",
+    "viralmodi"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

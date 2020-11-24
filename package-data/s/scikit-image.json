@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "ahojnnes",
+    "Emmanuelle",
+    "hmaarrfk",
+    "jni",
+    "matthew.brett",
+    "NelleV",
+    "sjvdwalt",
+    "soupault"
+  ],
   "requires_dist": {
     "dists": [
       "imageio",

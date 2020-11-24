@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vemel"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "esc",
+    "seibert",
+    "Siu.Kwan.Lam"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "JohanMabille",
+    "melvinvermeeren",
+    "Michael.Jones",
+    "Sylvain.Corlay",
+    "vitaut"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

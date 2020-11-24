@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "PyYoshi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

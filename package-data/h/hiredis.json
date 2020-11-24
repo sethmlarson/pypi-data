@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "badboy",
+    "ifduyue",
+    "pietern"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "anthrotype",
+    "greginvm",
+    "mmmmmm",
+    "TypeMyType"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

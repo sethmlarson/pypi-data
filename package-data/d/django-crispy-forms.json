@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bbrancot",
+    "carltongibson",
+    "maraujop",
+    "smithdc1"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

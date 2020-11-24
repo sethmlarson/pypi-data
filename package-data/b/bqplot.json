@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "itayd",
+    "jasongrout",
+    "maartenbreddels",
+    "Sylvain.Corlay"
+  ],
   "requires_dist": {
     "dists": [
       "ipywidgets",

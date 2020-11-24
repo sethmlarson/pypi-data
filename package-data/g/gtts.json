@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pndurette"
+  ],
   "requires_dist": {
     "dists": [
       "click",

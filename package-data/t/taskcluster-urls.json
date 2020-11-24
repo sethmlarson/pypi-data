@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "djmitche",
+    "imbstack",
+    "jhford",
+    "jonasfj",
+    "worc0260"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

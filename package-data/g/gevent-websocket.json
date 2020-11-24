@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jgelens"
+  ],
   "requires_dist": {
     "dists": [
       "gevent"

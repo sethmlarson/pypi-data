@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "whiletruelearn"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

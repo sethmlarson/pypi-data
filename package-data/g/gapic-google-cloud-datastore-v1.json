@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "google_opensource",
+    "googleapis-packages"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

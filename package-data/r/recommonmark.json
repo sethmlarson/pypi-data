@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "agj",
+    "ericholscher"
+  ],
   "requires_dist": {
     "dists": [
       "commonmark",

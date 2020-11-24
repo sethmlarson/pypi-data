@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "winterfrosts",
+    "xpconanfan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

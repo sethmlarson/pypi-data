@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "balloob",
+    "pvizeli"
+  ],
   "requires_dist": {
     "dists": [
       "acme",

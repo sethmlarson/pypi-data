@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bcicen"
+  ],
   "requires_dist": {
     "dists": [
       "slacker"

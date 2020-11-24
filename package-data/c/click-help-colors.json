@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "r-m-n"
+  ],
   "requires_dist": {
     "dists": [
       "click"

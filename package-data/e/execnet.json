@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "hpk",
+    "nicoddemus",
+    "ronny"
+  ],
   "requires_dist": {
     "dists": [
       "apipkg"

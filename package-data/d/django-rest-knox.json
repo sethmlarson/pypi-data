@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "james.mcmahon"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography",

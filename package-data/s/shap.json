@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "shap_poster",
+    "slundberg"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

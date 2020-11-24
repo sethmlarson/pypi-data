@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "flox",
+    "graffatcolmingov",
+    "IanLee1521",
+    "jcrocholl",
+    "reinout"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

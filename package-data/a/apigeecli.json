@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mdelotavo"
+  ],
   "requires_dist": {
     "dists": [
       "click",

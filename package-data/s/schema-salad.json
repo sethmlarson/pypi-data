@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mcrusoe",
+    "tetron"
+  ],
   "requires_dist": {
     "dists": [
       "cachecontrol",

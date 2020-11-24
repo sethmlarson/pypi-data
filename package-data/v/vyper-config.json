@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Alexandre.Ferland"
+  ],
   "requires_dist": {
     "dists": [
       "distconfig3",

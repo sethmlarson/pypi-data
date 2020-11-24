@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jsalwan",
+    "SweetVishnya",
+    "zachriggle"
+  ],
   "requires_dist": {
     "dists": [
       "capstone"

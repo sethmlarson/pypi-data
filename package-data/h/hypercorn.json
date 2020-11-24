@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pgjones"
+  ],
   "requires_dist": {
     "dists": [
       "h11",

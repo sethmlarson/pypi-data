@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "brentp"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

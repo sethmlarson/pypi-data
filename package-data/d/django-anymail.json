@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "medmunds"
+  ],
   "requires_dist": {
     "dists": [
       "django",

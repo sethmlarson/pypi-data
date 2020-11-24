@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ProDy.Devel"
+  ],
   "requires_dist": {
     "dists": [
       "biopython",

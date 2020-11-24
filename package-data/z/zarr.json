@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "aliman",
+    "jakirkham",
+    "joshmoore",
+    "jrbourbeau",
+    "zarr_dev"
+  ],
   "requires_dist": {
     "dists": [
       "asciitree",

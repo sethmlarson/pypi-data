@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bjones",
+    "htgoebel",
+    "Legorooj",
+    "matysek"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

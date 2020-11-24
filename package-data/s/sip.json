@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "PhilThompson"
+  ],
   "requires_dist": {
     "dists": [
       "packaging",

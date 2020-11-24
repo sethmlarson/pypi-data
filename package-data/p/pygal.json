@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Florian.Mounier",
+    "gentooboontoo",
+    "liZe"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

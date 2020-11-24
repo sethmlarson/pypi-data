@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "flowminder-machine"
+  ],
   "requires_dist": {
     "dists": [
       "httpx",

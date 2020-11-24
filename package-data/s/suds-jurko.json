@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Jurko"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "keszybz"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

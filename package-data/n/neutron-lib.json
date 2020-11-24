@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dougw",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "keystoneauth1",

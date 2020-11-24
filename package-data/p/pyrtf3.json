@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ghost555"
+  ],
   "requires_dist": {
     "dists": [
       "pyparsing"

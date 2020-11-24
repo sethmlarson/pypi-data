@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "Antonin.AMAND",
+    "cyberwiz",
+    "heyman",
+    "northisup"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

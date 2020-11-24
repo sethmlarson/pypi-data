@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lifeless"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

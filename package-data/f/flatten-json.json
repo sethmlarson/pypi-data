@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "amirziai"
+  ],
   "requires_dist": {
     "dists": [
       "six"

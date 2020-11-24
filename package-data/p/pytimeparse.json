@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Will.Roberts"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

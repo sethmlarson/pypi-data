@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "devopshq",
+    "racktear"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

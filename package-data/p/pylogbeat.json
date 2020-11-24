@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "eht16"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "cx1000",
+    "gaborbernat",
+    "itsayellow"
+  ],
   "requires_dist": {
     "dists": [
       "argcomplete",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "e271828",
+    "ygesher"
+  ],
   "requires_dist": {
     "dists": [
       "boto3"

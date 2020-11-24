@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "jdufresne",
+    "jqb",
+    "stefanfoulis",
+    "the_drow"
+  ],
   "requires_dist": {
     "dists": [
       "django"

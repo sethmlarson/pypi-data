@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "ambv",
+    "autophagy",
+    "carljm",
+    "JelleZijlstra",
+    "willingc",
+    "zsolzsol"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

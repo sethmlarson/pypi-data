@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mxmzdlv",
+    "TimSwast"
+  ],
   "requires_dist": {
     "dists": [
       "future",

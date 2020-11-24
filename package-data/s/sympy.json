@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Aaron.Meurer",
+    "certik",
+    "oscarbenjamin"
+  ],
   "requires_dist": {
     "dists": [
       "mpmath"

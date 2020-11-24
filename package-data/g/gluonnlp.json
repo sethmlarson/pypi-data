@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "leezu",
+    "mxnet",
+    "mxnet-ci",
+    "szha"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

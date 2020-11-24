@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "filmor",
+    "lostmsu",
+    "vmuriart"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

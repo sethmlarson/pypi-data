@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "guido",
+    "nipunn1313"
+  ],
   "requires_dist": {
     "dists": [
       "protobuf"

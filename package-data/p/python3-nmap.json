@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "s8systems"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

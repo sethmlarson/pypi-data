@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "inveniosoftware",
+    "lnielsen",
+    "rchyla",
+    "tiborsimko"
+  ],
   "requires_dist": {
     "dists": [
       "autosemver",

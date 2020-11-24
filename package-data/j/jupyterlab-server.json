@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "blink1073",
+    "darian",
+    "datalayer",
+    "jasongrout",
+    "jtp",
+    "zsailer"
+  ],
   "requires_dist": {
     "dists": [
       "babel",

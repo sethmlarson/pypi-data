@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "agroszer",
+    "icemac",
+    "J1m",
+    "jamadden",
+    "mgedmin",
+    "srichter",
+    "tseaver",
+    "zope.wheelbuilder",
+    "zope.wineggbuilder"
+  ],
   "requires_dist": {
     "dists": [
       "cffi",

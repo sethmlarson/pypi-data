@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "BradRuderman"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

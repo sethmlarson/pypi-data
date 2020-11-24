@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "asecurityteam",
+    "dblack",
+    "mbertrand80"
+  ],
   "requires_dist": {
     "dists": [
       "backports.functools-lru-cache",

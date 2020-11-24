@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "adamboche",
+    "lovasoa"
+  ],
   "requires_dist": {
     "dists": [
       "marshmallow"

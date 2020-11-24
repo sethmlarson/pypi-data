@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lafrech"
+  ],
   "requires_dist": {
     "dists": [
       "apispec",

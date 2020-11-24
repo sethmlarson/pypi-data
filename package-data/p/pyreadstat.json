@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "matthew.brett",
+    "ofajardo"
+  ],
   "requires_dist": {
     "dists": [
       "pandas"

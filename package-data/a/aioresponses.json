@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pawel.nuckowski"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp"

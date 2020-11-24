@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gnaneshwar_g"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

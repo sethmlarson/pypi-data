@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mbaak",
+    "rosekoopman"
+  ],
   "requires_dist": {
     "dists": [
       "joblib",

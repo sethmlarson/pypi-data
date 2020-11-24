@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tk0miya"
+  ],
   "requires_dist": {
     "dists": [
       "blockdiag"

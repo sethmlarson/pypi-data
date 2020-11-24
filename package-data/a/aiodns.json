@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "saghul"
+  ],
   "requires_dist": {
     "dists": [
       "pycares",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jacobi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

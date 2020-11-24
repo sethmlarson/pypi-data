@@ -1,4 +1,34 @@
 {
+  "publishers": [
+    "agroszer",
+    "baijum",
+    "benji",
+    "ccomb",
+    "chrism",
+    "chrisw",
+    "ctheune",
+    "davisagli",
+    "faassen",
+    "fdrake",
+    "gary",
+    "hannosch",
+    "hathawsh",
+    "icemac",
+    "ignas",
+    "J1m",
+    "janjaapdriessen",
+    "menesis",
+    "mgedmin",
+    "nadako",
+    "pcardune",
+    "philikon",
+    "projekt01",
+    "roymath",
+    "srichter",
+    "thefunny42",
+    "tlotze",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools"

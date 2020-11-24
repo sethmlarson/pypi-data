@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "Adys",
+    "jazzband",
+    "masci",
+    "n2ygk",
+    "synasius"
+  ],
   "requires_dist": {
     "dists": [
       "django",

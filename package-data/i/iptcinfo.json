@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gthomas"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

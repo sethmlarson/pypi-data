@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "naftalic"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jrosebr1"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

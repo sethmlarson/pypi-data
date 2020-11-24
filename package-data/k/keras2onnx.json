@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "vinitra",
+    "wenbingl"
+  ],
   "requires_dist": {
     "dists": [
       "fire",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nalepae"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

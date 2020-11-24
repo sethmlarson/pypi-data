@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "PierreF",
+    "Roger.Light"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "qubvel"
+  ],
   "requires_dist": {
     "dists": [
       "keras-applications",

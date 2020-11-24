@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "betatim",
+    "choldgraf",
+    "consideRatio",
+    "minrk",
+    "willingc",
+    "yuvipanda"
+  ],
   "requires_dist": {
     "dists": [
       "alembic",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cboulay",
+    "chkothe"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

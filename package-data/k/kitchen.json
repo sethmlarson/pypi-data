@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "abompard",
+    "badger",
+    "kushaldas",
+    "lmacken",
+    "pingou",
+    "puiterwijk",
+    "ralphbean"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

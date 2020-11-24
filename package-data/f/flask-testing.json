@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ChristophHeer",
+    "jcomo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "frizzby",
+    "krasoffski",
+    "reportportal"
+  ],
   "requires_dist": {
     "dists": [
       "delayed-assert",

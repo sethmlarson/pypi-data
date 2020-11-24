@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bsipocz",
+    "embray",
+    "Erik.Tollerud",
+    "robitaille"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

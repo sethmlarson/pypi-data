@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tkem"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

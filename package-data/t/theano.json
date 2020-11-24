@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "abergeron",
+    "dwf",
+    "JamesBergstra",
+    "lamblin",
+    "notoraptor",
+    "nouiz",
+    "Thomas.Wiecki"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

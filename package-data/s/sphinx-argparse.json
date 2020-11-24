@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dpryan",
+    "ribozz"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

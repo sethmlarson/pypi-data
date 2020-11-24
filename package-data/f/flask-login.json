@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "doraemon"
+  ],
   "requires_dist": {
     "dists": [
       "flask"

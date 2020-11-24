@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mullerhai"
+  ],
   "requires_dist": {
     "dists": [
       "nose",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "guedou",
+    "p-l",
+    "phil"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

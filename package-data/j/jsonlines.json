@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wbolster"
+  ],
   "requires_dist": {
     "dists": [
       "six"

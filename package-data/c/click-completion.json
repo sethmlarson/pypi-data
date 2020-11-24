@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "glehmann",
+    "konubinix"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

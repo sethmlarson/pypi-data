@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gguthe-moz",
+    "willhelm"
+  ],
   "requires_dist": {
     "dists": [
       "packaging",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "codeshelter",
+    "reclosedev"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

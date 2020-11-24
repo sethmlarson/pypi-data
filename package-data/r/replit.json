@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "AllAwesome497",
+    "mat1",
+    "replit"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jrbarlow"
+  ],
   "requires_dist": {
     "dists": [
       "lxml",

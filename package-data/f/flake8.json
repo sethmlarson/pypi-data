@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "asottile",
+    "graffatcolmingov",
+    "jezdez",
+    "tarek"
+  ],
   "requires_dist": {
     "dists": [
       "configparser",

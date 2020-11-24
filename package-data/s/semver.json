@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "k_bx",
+    "scls",
+    "tomschr"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

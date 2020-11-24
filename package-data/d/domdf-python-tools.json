@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "DomDF"
+  ],
   "requires_dist": {
     "dists": [
       "colorama",

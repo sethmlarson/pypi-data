@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "TheKevJames"
+  ],
   "requires_dist": {
     "dists": [
       "coverage",

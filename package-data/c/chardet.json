@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ajung",
+    "Daniel.Blanchard",
+    "erikrose",
+    "graffatcolmingov",
+    "MarkPilgrim"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

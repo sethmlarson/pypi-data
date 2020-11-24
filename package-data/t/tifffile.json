@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cgohlke"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "anthraxx",
+    "danjac",
+    "jeffwidman",
+    "Ron.DuPlain",
+    "Sean.Lynch",
+    "smurfix"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

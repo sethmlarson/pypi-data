@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "byron70",
+    "cleardataeng"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "tomster",
+    "witsch"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

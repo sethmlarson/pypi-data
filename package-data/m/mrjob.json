@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "davidmarin",
+    "ecanz",
+    "manpreet1",
+    "nisan1101",
+    "yelplabs"
+  ],
   "requires_dist": {
     "dists": [
       "pyyaml"

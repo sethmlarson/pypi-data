@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gwrtheyrn"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

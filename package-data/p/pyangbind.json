@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jwilhelm",
+    "robjs"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

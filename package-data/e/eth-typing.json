@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "carver",
+    "cburgdorf",
+    "nick.ghita",
+    "pipermerriam"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

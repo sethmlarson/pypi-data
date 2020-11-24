@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "marcgibbons"
+  ],
   "requires_dist": {
     "dists": [
       "coreapi",

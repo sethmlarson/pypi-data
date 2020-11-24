@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "daniellindsley"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

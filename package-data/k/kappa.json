@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "garnaat",
+    "savant"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

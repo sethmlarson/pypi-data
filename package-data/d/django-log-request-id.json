@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dabapps",
+    "j4mie"
+  ],
   "requires_dist": {
     "dists": [
       "django"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bgreen-litl"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

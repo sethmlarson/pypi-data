@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "joyxiong",
+    "richardhsu",
+    "riteshm",
+    "SharadGandhi",
+    "taintedkernel",
+    "yaguo",
+    "zhenyun"
+  ],
   "requires_dist": {
     "dists": [
       "future",

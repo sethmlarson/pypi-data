@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dulwich-bot",
+    "jelmer"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

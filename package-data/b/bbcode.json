@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dcwatson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

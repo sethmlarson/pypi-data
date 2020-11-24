@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "benoit.pierre",
+    "mggrant",
+    "petli",
+    "vasily-v-ryabov"
+  ],
   "requires_dist": {
     "dists": [
       "six"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ssut"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

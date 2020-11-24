@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "Craig.Citro",
+    "gcloudpypi",
+    "google_opensource",
+    "Nathaniel.Manista",
+    "theacodes"
+  ],
   "requires_dist": {
     "dists": [
       "httplib2",

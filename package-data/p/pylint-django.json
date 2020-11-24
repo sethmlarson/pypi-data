@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "atodorov",
+    "carlio",
+    "colinhowe"
+  ],
   "requires_dist": {
     "dists": [
       "pylint",

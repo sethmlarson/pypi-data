@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "minrk"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

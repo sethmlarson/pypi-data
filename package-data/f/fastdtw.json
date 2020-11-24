@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "slaypni"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

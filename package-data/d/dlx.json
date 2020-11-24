@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vorpal"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

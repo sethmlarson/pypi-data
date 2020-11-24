@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jgoldsmith"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

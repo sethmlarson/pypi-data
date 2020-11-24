@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "facaiy",
+    "seanmorgan",
+    "tf-addons"
+  ],
   "requires_dist": {
     "dists": [
       "typeguard"

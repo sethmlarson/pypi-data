@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sfischer13"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

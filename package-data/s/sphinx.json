@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "gbrandl",
+    "shimizukawa",
+    "tk0miya"
+  ],
   "requires_dist": {
     "dists": [
       "alabaster",

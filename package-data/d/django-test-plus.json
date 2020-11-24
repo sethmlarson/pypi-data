@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "curella.org",
+    "fwiles"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

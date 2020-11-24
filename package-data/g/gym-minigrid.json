@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lcswillems",
+    "maximecb"
+  ],
   "requires_dist": {
     "dists": [
       "gym",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "azureartifacts",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [
       "dotnetcore2",

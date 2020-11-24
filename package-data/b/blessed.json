@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "avylove",
+    "jquast",
+    "tehmaze"
+  ],
   "requires_dist": {
     "dists": [
       "backports.functools-lru-cache",

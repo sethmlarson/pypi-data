@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "un33k"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

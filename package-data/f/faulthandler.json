@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "brian.curtin",
+    "haypo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

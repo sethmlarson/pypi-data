@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "l33tname",
+    "tuxtimo"
+  ],
   "requires_dist": {
     "dists": [
       "click",

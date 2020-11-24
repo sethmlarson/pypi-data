@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tkhyn"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

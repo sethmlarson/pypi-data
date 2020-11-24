@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "emlaver",
+    "mikerhodes",
+    "ricellis",
+    "smithsz"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

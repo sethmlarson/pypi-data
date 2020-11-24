@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "dwoz",
+    "heikki",
+    "martinpaljak",
+    "mcepl",
+    "ngps"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

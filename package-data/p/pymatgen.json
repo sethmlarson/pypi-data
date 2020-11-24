@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "computron",
+    "mkhorton",
+    "Shyue.Ping.Ong"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

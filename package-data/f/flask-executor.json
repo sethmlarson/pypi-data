@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dchevell"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

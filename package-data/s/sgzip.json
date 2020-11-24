@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tenzingsafegraph"
+  ],
   "requires_dist": {
     "dists": [
       "geopy",

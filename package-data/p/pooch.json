@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Leonardo.Uieda",
+    "santisoler"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

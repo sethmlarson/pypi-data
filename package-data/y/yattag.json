@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "leforestier"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

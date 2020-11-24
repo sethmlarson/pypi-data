@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "duckworthd"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Ayala.Shachar",
+    "vmalloc"
+  ],
   "requires_dist": {
     "dists": [
       "six"

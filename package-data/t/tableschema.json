@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "roll"
+  ],
   "requires_dist": {
     "dists": [
       "cached-property",

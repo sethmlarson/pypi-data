@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jcrist",
+    "mdurant",
+    "mrocklin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

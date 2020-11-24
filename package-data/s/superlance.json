@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "chrism",
+    "mnaberez",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "supervisor"

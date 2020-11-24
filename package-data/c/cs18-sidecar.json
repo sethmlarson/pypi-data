@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "quali-colony"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

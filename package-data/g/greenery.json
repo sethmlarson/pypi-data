@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ferno"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

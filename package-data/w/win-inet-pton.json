@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Hickeroar",
+    "SethMichaelLarson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

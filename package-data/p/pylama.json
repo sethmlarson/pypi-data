@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "klen"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

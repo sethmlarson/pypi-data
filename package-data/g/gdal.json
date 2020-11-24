@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Even.Rouault",
+    "hobu",
+    "warmerdam"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

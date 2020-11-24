@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "christophebedard",
+    "dthomas",
+    "jpsamper"
+  ],
   "requires_dist": {
     "dists": [
       "colcon-core"

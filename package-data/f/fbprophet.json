@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bletham",
+    "seanjtaylor"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

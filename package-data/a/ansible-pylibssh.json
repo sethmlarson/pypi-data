@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ansible-pylibssh-bot",
+    "ganeshrn",
+    "webknjaz"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

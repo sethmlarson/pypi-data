@@ -1,4 +1,22 @@
 {
+  "publishers": [
+    "agroszer",
+    "baijum",
+    "chrism",
+    "ctheune",
+    "davisagli",
+    "faassen",
+    "gary",
+    "hannosch",
+    "J1m",
+    "jamadden",
+    "menesis",
+    "mgedmin",
+    "roymath",
+    "srichter",
+    "tlotze",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "zope.interface"

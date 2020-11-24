@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Craig.Citro",
+    "google_opensource"
+  ],
   "requires_dist": {
     "dists": [
       "fasteners",

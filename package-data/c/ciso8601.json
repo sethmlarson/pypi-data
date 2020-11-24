@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "closeio",
+    "tomst"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

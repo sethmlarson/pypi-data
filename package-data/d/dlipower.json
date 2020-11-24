@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dlipowerci",
+    "dwighthubbard"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

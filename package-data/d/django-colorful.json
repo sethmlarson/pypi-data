@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "charettes"
+  ],
   "requires_dist": {
     "dists": [
       "django"

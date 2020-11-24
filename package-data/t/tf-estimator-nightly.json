@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "av8ramit",
+    "mihaimaruseac",
+    "tf-nightly"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "jbrockmendel",
+    "jorisvandenbossche",
+    "jreback",
+    "simonjayhawkins",
+    "tomaugspurger",
+    "wesm",
+    "willayd"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

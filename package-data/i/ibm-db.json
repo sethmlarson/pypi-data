@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "opendev"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

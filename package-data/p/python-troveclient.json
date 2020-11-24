@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "corvus",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "babel",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jeshan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

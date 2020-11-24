@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "mbussonn",
+    "minrk",
+    "takowl",
+    "vivainio"
+  ],
   "requires_dist": {
     "dists": [
       "pathlib2"

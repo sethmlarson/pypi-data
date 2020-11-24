@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ci_zmdd",
+    "paulmueller"
+  ],
   "requires_dist": {
     "dists": [
       "h5py",

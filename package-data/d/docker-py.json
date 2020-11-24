@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "docker",
+    "j0ffrey"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

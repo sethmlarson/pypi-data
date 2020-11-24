@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "felix-hilden",
+    "plamere",
+    "stephanebruckert"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

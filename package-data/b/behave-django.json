@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bittner",
+    "jenisys",
+    "mixxorz"
+  ],
   "requires_dist": {
     "dists": [
       "beautifulsoup4",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jeffwidman",
+    "mgood",
+    "mvt"
+  ],
   "requires_dist": {
     "dists": [
       "blinker",

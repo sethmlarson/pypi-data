@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "basepi",
+    "graphaelli",
+    "piquadrat",
+    "roncohen"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

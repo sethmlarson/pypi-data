@@ -1,4 +1,17 @@
 {
+  "publishers": [
+    "bgranger",
+    "davidbrochart",
+    "fperez",
+    "ivanov",
+    "Kyle.Kelley",
+    "mbussonn",
+    "minrk",
+    "mpacer",
+    "MSeal",
+    "Sylvain.Corlay",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "jupyter-core",

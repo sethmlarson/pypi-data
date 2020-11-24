@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "steinnes"
+  ],
   "requires_dist": {
     "dists": [
       "alog"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "linnap"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

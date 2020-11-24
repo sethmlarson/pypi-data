@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "carlosgoce",
+    "migonzalvar"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

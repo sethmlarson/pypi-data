@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "coderholic",
+    "jamestimmins",
+    "mslm"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

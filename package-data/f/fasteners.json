@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Joshua.Harlow"
+  ],
   "requires_dist": {
     "dists": [
       "monotonic",

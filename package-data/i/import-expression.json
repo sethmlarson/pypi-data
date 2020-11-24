@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bmintz"
+  ],
   "requires_dist": {
     "dists": [
       "astunparse"

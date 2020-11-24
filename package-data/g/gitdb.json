@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ByronBates",
+    "Harmon758",
+    "Sebastian.Thiel"
+  ],
   "requires_dist": {
     "dists": [
       "smmap"

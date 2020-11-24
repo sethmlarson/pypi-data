@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Matt.Bachmann",
+    "sarina",
+    "William.Daly"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2",

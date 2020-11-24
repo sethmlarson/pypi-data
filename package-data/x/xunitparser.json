@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "laurentb"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

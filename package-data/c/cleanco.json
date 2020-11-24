@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "petri"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

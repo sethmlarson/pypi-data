@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tomaugspurger"
+  ],
   "requires_dist": {
     "dists": [
       "cloudpickle",

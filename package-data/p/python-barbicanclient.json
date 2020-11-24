@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cloudkeep",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "cliff",

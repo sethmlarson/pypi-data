@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bogdanp"
+  ],
   "requires_dist": {
     "dists": [
       "prometheus-client"

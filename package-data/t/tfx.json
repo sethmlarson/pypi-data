@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "google_opensource",
+    "tfx_oss",
+    "zhitaoli.google"
+  ],
   "requires_dist": {
     "dists": [
       "absl-py",

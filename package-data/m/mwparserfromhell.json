@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "earwig",
+    "earwigbot",
+    "valhallasw"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

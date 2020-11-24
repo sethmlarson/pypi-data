@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rbg"
+  ],
   "requires_dist": {
     "dists": [
       "pyyaml"

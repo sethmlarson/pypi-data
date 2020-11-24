@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jm.carp"
+  ],
   "requires_dist": {
     "dists": [
       "blinker",

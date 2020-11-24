@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "codeforlife",
+    "LeaChim",
+    "ocadotechnology"
+  ],
   "requires_dist": {
     "dists": [
       "cfl-common",

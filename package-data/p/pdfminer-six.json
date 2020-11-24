@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Goulu",
+    "pietermarsman",
+    "tataganesh"
+  ],
   "requires_dist": {
     "dists": [
       "chardet",

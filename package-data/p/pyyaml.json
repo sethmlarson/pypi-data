@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ingy",
+    "nitzmahone",
+    "tinita"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

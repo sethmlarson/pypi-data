@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "berni",
+    "paulmelnikow",
+    "Tomasz.Najdek"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Dimitri.Merejkowsky",
+    "rfk"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

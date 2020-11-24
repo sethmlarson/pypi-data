@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "rozza",
+    "the_drow",
+    "wojcikstefan"
+  ],
   "requires_dist": {
     "dists": [
       "pymongo"

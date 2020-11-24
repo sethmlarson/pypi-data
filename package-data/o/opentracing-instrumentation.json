@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jaegerbot",
+    "shkuro",
+    "wjang"
+  ],
   "requires_dist": {
     "dists": [
       "contextlib2",

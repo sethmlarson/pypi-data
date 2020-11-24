@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bkonrath",
+    "jezdez",
+    "mxsasha",
+    "Tim.Graham"
+  ],
   "requires_dist": {
     "dists": [
       "django",

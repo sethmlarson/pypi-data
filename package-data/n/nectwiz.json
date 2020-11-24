@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "xnectar"
+  ],
   "requires_dist": {
     "dists": [
       "cachetools",

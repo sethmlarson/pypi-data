@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "hiaselhans"
+  ],
   "requires_dist": {
     "dists": [
       "pyobjc-core",

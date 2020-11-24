@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ErikCederstrand"
+  ],
   "requires_dist": {
     "dists": [
       "backports-datetime-fromisoformat",

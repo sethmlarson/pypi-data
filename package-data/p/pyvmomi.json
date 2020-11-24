@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ddraganov",
+    "hartsock",
+    "lstefanov",
+    "StefanHristov-VMware"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

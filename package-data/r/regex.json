@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mrabarnett"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

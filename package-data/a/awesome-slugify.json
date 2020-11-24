@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dimka.dimka"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

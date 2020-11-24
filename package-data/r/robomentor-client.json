@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "robomentor"
+  ],
   "requires_dist": {
     "dists": [
       "paho-mqtt",

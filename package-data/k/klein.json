@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "dreid",
+    "exarkun",
+    "glyph",
+    "hawkowl",
+    "hynek",
+    "markrwilliams",
+    "moshez",
+    "wsanchez"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

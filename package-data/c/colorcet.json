@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ioam",
+    "jbednar",
+    "pyviz"
+  ],
   "requires_dist": {
     "dists": [
       "param",

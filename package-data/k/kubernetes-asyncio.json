@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tomplus"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

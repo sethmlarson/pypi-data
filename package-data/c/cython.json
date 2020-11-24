@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "matthew.brett",
+    "robertwb",
+    "scoder"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

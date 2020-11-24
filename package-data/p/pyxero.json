@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "freakboy3742"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography",

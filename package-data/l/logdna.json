@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "logdna-user",
+    "Muaz"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

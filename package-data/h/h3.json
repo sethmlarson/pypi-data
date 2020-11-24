@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ajfriend",
+    "dubersaj",
+    "niel_hu",
+    "taikun"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

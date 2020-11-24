@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "brettcannon"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

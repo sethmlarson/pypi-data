@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "davidism",
+    "pgjones",
+    "ThiefMaster"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

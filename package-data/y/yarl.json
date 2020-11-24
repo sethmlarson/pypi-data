@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aio-libs-bot",
+    "Andrew.Svetlov",
+    "webknjaz"
+  ],
   "requires_dist": {
     "dists": [
       "idna",

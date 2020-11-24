@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Alir3z4"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

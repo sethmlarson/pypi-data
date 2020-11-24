@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ZhouYangLuo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

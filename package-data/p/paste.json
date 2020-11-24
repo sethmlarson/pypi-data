@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "cdent",
+    "ianb",
+    "msabramo"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

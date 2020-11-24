@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lixxu"
+  ],
   "requires_dist": {
     "dists": [
       "flask"

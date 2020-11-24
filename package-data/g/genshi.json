@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "cmlenz",
+    "edgewall-org",
+    "hodgestar",
+    "mgood",
+    "rjollos"
+  ],
   "requires_dist": {
     "dists": [
       "six"

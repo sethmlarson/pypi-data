@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "justiniso"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

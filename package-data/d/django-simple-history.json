@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "brianarmstrong",
+    "jazzband",
+    "kyledseever",
+    "macro1",
+    "rossmechanic",
+    "ThePumpingLemma",
+    "treyhunner"
+  ],
   "requires_dist": {
     "dists": [
       "six"

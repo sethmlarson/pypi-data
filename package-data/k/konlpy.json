@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "e9t",
+    "minhoryang"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

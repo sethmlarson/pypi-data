@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "hvac-bot",
+    "ianunruh",
+    "jeffwecan"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

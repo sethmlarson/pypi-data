@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "abogdal",
+    "patrys",
+    "Rafalp"
+  ],
   "requires_dist": {
     "dists": [
       "graphql-core",

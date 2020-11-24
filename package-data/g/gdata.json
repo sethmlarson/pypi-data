@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aafshar",
+    "jcgregorio",
+    "scudder",
+    "vicfryzel"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

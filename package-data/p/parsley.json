@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "eevee",
+    "habnabit",
+    "markrwilliams"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

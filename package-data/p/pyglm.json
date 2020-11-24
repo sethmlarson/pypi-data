@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Zuzu_Typ"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

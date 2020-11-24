@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "casbon"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

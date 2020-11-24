@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "thombashi"
+  ],
   "requires_dist": {
     "dists": [
       "chardet"

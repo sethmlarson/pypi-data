@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cmacmackin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

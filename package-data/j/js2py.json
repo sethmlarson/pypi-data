@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "PiotrDabkowski"
+  ],
   "requires_dist": {
     "dists": [
       "pyjsparser",

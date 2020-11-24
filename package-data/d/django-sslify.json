@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rdegges"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

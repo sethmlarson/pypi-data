@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "facebook",
+    "soumith"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

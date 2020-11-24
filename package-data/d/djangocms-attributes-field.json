@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aldryn",
+    "czpython",
+    "djangocms",
+    "jqb"
+  ],
   "requires_dist": {
     "dists": [
       "django-cms"

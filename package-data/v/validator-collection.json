@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "insightindustry"
+  ],
   "requires_dist": {
     "dists": [
       "jsonschema",

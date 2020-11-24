@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "yuja"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

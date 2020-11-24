@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "cmlenz",
+    "djc",
+    "emgee"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

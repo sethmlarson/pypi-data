@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mosquito",
+    "robot-mosquito"
+  ],
   "requires_dist": {
     "dists": [
       "async-generator",

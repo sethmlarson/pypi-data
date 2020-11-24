@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "civisanalytics"
+  ],
   "requires_dist": {
     "dists": [
       "click",

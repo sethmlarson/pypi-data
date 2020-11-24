@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "denisenkom"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

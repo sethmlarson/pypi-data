@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "icemac",
+    "J1m",
+    "srichter"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools"

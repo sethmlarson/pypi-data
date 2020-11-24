@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "EnTeQuAk",
+    "pmclanahan"
+  ],
   "requires_dist": {
     "dists": [
       "django"

@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "ahal",
+    "armenzg",
+    "ato",
+    "davehunt",
+    "David.Burns",
+    "jgriffin",
+    "maja_zf",
+    "whimboo"
+  ],
   "requires_dist": {
     "dists": [
       "mozrunner",

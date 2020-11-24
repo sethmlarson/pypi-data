@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lanpa"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

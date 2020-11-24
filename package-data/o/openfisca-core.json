@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "anna-livia",
+    "cbenz",
+    "florian.pagnoux",
+    "manou",
+    "maukoquiroga",
+    "Morendil",
+    "openfisca-bot",
+    "sacha"
+  ],
   "requires_dist": {
     "dists": [
       "dpath",

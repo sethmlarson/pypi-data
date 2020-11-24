@@ -1,4 +1,17 @@
 {
+  "publishers": [
+    "esteele",
+    "garbas",
+    "geier",
+    "maxm",
+    "plone",
+    "regebro",
+    "rnix",
+    "thet",
+    "timo",
+    "untitaker",
+    "wichert"
+  ],
   "requires_dist": {
     "dists": [
       "python-dateutil",

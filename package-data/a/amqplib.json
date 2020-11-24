@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "barryp"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

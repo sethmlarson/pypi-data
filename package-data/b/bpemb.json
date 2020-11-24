@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "noutenki"
+  ],
   "requires_dist": {
     "dists": [
       "gensim",

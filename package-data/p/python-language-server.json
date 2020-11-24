@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "palantir-pypi"
+  ],
   "requires_dist": {
     "dists": [
       "backports.functools-lru-cache",

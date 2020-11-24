@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bitprophet"
+  ],
   "requires_dist": {
     "dists": [
       "invoke",

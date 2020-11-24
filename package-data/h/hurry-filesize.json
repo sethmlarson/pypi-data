@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "faassen"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

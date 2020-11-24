@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Lonami"
+  ],
   "requires_dist": {
     "dists": [
       "pyaes",

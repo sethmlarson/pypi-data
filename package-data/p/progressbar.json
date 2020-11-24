@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nilton"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "eguven",
+    "roxee"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

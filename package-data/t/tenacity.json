@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jd"
+  ],
   "requires_dist": {
     "dists": [
       "futures",

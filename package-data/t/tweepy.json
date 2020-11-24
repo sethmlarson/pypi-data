@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jroesslein"
+  ],
   "requires_dist": {
     "dists": [
       "requests-oauthlib",

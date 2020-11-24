@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "flox",
+    "graffatcolmingov"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

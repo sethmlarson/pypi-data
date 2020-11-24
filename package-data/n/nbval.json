@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "fangohr",
+    "marijanbeg",
+    "owlas",
+    "takowl",
+    "vidartf"
+  ],
   "requires_dist": {
     "dists": [
       "coverage",

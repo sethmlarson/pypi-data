@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "itamarst"
+  ],
   "requires_dist": {
     "dists": [
       "twisted",

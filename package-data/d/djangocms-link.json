@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "aldryn",
+    "czpython",
+    "djangocms",
+    "mkoistinen",
+    "piquadrat",
+    "stefanfoulis",
+    "yakky"
+  ],
   "requires_dist": {
     "dists": [
       "django-cms",

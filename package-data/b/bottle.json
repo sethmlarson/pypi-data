@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "defnull"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

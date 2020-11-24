@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aadair",
+    "jmsalli",
+    "seang"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

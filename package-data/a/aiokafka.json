@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aio-libs-bot",
+    "Andrew.Svetlov",
+    "tvoinarovskyi"
+  ],
   "requires_dist": {
     "dists": [
       "kafka-python"

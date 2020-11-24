@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aerospike-py-build",
+    "aerospikerobert",
+    "rbotzer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

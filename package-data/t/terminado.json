@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "blink1073",
+    "darian",
+    "jasongrout",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "ptyprocess",

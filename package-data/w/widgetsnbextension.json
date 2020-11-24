@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jasongrout",
+    "Jonathan.Frederic",
+    "Sylvain.Corlay"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

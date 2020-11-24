@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "embray",
+    "jiffyclub"
+  ],
   "requires_dist": {
     "dists": [
       "tornado"

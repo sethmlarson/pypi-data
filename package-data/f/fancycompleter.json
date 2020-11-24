@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "antocuni",
+    "blueyed"
+  ],
   "requires_dist": {
     "dists": [
       "pyreadline",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mixpanel",
+    "seizethedave",
+    "zakj"
+  ],
   "requires_dist": {
     "dists": [
       "six",

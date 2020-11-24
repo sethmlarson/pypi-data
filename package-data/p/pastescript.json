@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cdent",
+    "ianb"
+  ],
   "requires_dist": {
     "dists": [
       "paste",

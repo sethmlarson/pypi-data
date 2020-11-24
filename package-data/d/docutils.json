@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "felixwiemann",
+    "goodger",
+    "grubert"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

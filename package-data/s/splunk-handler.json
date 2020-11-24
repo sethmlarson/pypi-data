@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "zach-taylor"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

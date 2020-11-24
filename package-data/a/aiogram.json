@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jrootjunior"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

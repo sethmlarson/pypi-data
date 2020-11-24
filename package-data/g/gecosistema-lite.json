@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "valluzzi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

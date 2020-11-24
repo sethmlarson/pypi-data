@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jerel",
+    "mblayman",
+    "sao"
+  ],
   "requires_dist": {
     "dists": [
       "django",

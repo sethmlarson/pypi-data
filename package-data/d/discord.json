@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gadgetoid",
+    "rapptz"
+  ],
   "requires_dist": {
     "dists": [
       "discord.py"

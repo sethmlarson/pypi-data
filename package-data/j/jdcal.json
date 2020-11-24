@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "phn"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

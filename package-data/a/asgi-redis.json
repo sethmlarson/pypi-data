@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "andrewgodwin",
+    "andrewgodwin_bot",
+    "carltongibson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

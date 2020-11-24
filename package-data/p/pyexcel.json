@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "chfw"
+  ],
   "requires_dist": {
     "dists": [
       "lml",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mk.fg"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

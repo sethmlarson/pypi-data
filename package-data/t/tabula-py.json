@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "chezou"
+  ],
   "requires_dist": {
     "dists": [
       "distro",

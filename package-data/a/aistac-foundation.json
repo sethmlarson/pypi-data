@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gigas64"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

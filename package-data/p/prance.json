@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jfinkhaeuser"
+  ],
   "requires_dist": {
     "dists": [
       "chardet",

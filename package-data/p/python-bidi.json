@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "MeirKriheli"
+  ],
   "requires_dist": {
     "dists": [
       "six"

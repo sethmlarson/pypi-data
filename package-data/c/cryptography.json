@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "alexgaynor",
+    "dreid",
+    "dstufft",
+    "reaperhulk"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

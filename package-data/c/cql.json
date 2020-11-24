@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "driftx",
+    "iamaleksey",
+    "thepaul"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

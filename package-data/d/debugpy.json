@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "int19h",
+    "kanadig",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

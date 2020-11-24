@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Commod0re",
+    "J-M0",
+    "SecurityInnovation"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "AbhimanyuHK"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

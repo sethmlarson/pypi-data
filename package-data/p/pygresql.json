@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cito"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

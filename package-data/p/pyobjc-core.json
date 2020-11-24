@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ronaldoussoren"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

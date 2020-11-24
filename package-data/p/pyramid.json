@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "bbangert",
+    "chrism",
+    "mmerickel",
+    "pylonsbot",
+    "tseaver",
+    "xistence"
+  ],
   "requires_dist": {
     "dists": [
       "hupper",

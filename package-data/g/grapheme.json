@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "alvinlindstam"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

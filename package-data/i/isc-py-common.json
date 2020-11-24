@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ivc-inform"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

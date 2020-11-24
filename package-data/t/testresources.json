@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "cjwatson",
+    "free.ekanayaka",
+    "jelmer",
+    "jml",
+    "lifeless"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

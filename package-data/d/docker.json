@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "aiordache",
+    "ccrone",
+    "dev-tooling-team",
+    "docker",
+    "j0ffrey",
+    "rumpl",
+    "ulyssessouza"
+  ],
   "requires_dist": {
     "dists": [
       "backports.ssl-match-hostname",

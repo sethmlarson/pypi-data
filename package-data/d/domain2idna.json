@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "funilrys"
+  ],
   "requires_dist": {
     "dists": [
       "colorama",

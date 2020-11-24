@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Jakar510"
+  ],
   "requires_dist": {
     "dists": [
       "pillow",

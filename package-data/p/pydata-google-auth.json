@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "TimSwast"
+  ],
   "requires_dist": {
     "dists": [
       "google-auth",

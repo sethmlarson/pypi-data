@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "benfred"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ansible-community",
+    "gundalow",
+    "ssbarnea"
+  ],
   "requires_dist": {
     "dists": [
       "docker",

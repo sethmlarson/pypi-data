@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "manoelmarques",
+    "qiskit"
+  ],
   "requires_dist": {
     "dists": [
       "dlx",

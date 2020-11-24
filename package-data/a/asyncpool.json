@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fitblip"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fitnr"
+  ],
   "requires_dist": {
     "dists": [
       "pymeeus",

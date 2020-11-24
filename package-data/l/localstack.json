@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "atl_ai",
+    "goodmanship",
+    "whummer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

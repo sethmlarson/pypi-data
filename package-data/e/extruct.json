@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "redapple",
+    "scrapinghub"
+  ],
   "requires_dist": {
     "dists": [
       "html-text",

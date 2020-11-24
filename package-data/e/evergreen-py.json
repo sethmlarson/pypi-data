@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dbradf",
+    "mongodb-dev-prod"
+  ],
   "requires_dist": {
     "dists": [
       "click",

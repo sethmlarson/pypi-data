@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "davidism",
+    "lepture"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

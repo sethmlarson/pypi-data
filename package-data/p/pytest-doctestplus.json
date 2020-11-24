@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bsipocz",
+    "pllim",
+    "robitaille"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

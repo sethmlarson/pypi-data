@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "alei",
+    "davidism",
+    "ThiefMaster"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

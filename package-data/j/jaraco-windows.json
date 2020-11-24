@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jaraco"
+  ],
   "requires_dist": {
     "dists": [
       "jaraco.collections",

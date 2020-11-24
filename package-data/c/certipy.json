@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tgmachina"
+  ],
   "requires_dist": {
     "dists": [
       "pyopenssl"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wandhydrant"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

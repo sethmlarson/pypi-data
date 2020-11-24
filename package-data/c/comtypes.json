@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "Chris.Farrow",
+    "jaraco",
+    "theller",
+    "vasily-v-ryabov"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

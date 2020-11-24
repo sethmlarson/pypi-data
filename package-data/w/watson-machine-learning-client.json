@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "LukaszCmielowski",
+    "Maksymilian.Erazmus",
+    "maria.oleszkiewicz",
+    "ShashankVagarali",
+    "umitmert"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

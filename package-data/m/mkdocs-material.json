@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "squidfunk"
+  ],
   "requires_dist": {
     "dists": [
       "markdown",

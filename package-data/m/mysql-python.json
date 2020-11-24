@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "adustman"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

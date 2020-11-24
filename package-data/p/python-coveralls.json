@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Andrea.De.Marco"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

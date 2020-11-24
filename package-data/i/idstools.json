@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Jason.Ish"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

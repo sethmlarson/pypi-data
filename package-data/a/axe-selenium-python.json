@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "kimberlythegeek"
+  ],
   "requires_dist": {
     "dists": [
       "pytest",

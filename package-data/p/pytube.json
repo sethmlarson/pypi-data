@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "nficano",
+    "ronncc",
+    "savant"
+  ],
   "requires_dist": {
     "dists": [
       "typing-extensions"

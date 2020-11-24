@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "janjaapdriessen",
+    "jw",
+    "thefunny42"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

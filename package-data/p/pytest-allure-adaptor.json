@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mavlyutov",
+    "pupssman"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

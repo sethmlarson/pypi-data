@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fabioz"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

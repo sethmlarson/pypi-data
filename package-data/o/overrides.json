@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mkorpela",
+    "robotframework"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

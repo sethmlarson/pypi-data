@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "dhatch387",
+    "leinamcdermott",
+    "oso",
+    "samjs",
+    "saolsen"
+  ],
   "requires_dist": {
     "dists": [
       "cffi",

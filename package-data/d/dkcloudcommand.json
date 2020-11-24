@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "datakitchen"
+  ],
   "requires_dist": {
     "dists": [
       "aniso8601",

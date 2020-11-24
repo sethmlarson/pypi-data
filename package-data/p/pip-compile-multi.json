@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "peterdemin"
+  ],
   "requires_dist": {
     "dists": [
       "click",

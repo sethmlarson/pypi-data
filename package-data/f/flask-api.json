@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jacebrowning",
+    "tomchristie"
+  ],
   "requires_dist": {
     "dists": [
       "flask"

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Ali.Ebrahim",
+    "henred",
+    "Nikolaus.Sonnenschein"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

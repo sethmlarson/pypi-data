@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "jakirkham",
+    "jcrist",
+    "jrbourbeau",
+    "mrocklin",
+    "tomaugspurger"
+  ],
   "requires_dist": {
     "dists": [
       "pyyaml"

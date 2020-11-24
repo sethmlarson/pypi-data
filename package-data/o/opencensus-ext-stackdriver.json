@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aabmass",
+    "cnk",
+    "google_opensource",
+    "reyang"
+  ],
   "requires_dist": {
     "dists": [
       "google-cloud-monitoring",

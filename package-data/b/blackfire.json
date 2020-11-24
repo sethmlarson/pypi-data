@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "blackfireio"
+  ],
   "requires_dist": {
     "dists": [
       "psutil"

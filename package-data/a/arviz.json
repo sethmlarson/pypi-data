@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ahartikainen",
+    "aloctavodia",
+    "canyon289",
+    "Colin.Carroll",
+    "OriolAbril"
+  ],
   "requires_dist": {
     "dists": [
       "matplotlib",

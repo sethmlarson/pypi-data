@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lafrech",
+    "sloria"
+  ],
   "requires_dist": {
     "dists": [
       "marshmallow"

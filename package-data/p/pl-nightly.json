@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "PerceptiLabs"
+  ],
   "requires_dist": {
     "dists": [
       "asgiref",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tc-integrations"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

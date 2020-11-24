@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Frozenball"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

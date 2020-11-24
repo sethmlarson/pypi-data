@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bouvard",
+    "jpmckinney"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

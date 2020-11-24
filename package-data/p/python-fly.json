@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sblock"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

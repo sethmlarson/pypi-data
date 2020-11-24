@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nicfit"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

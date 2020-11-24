@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "brchapman"
+  ],
   "requires_dist": {
     "dists": [
       "networkx",

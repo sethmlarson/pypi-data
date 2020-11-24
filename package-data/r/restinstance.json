@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "asyrjasalo"
+  ],
   "requires_dist": {
     "dists": [
       "docutils",

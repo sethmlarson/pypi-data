@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "claudep",
+    "gherman"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

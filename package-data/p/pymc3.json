@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "Colin.Carroll",
+    "fonnesbeck",
+    "id.mosthege.net",
+    "springcoil",
+    "Thomas.Wiecki"
+  ],
   "requires_dist": {
     "dists": [
       "arviz",

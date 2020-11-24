@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "openstackci",
+    "robcresswell",
+    "sheep"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

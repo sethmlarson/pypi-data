@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "movermeyer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

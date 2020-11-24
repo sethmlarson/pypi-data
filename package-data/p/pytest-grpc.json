@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Kataev"
+  ],
   "requires_dist": {
     "dists": [
       "pytest"

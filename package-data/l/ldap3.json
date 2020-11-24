@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gc"
+  ],
   "requires_dist": {
     "dists": [
       "pyasn1"

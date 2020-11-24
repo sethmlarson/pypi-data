@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "di"
+  ],
   "requires_dist": {
     "dists": [
       "pip"

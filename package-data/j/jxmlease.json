@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jnpr-community-netdev",
+    "jxmlease"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Deepwalker",
+    "Nim"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

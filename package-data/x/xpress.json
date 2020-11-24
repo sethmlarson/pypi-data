@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fico-xpress"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

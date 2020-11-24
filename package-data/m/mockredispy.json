@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "github-ll",
+    "jessemyers"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

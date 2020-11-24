@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "carver",
+    "kclowes",
+    "marcgarreau",
+    "nick.ghita",
+    "pipermerriam"
+  ],
   "requires_dist": {
     "dists": [
       "eth-abi",

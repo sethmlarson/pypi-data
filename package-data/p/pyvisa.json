@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bronger",
+    "Florian.Bauer",
+    "hgrecco",
+    "mdartiailh"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

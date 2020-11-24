@@ -1,4 +1,19 @@
 {
+  "publishers": [
+    "bgranger",
+    "blink1073",
+    "fperez",
+    "gnestor",
+    "ivanov",
+    "jhamrick",
+    "kevin-bates",
+    "Kyle.Kelley",
+    "lresende",
+    "mbussonn",
+    "minrk",
+    "mpacer",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "argon2-cffi",

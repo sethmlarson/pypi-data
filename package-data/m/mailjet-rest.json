@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "api.mailjet"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

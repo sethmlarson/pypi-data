@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "pyrtc",
+    "sharky"
+  ],
   "requires_dist": {
     "dists": [
       "cffi"

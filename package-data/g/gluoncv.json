@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "zhreshold"
+  ],
   "requires_dist": {
     "dists": [
       "autocfg",

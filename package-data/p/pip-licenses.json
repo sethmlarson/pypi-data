@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "raimon49"
+  ],
   "requires_dist": {
     "dists": [
       "ptable"

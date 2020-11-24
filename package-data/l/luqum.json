@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jurismarches"
+  ],
   "requires_dist": {
     "dists": [
       "ply"

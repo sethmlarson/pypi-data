@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cheffe",
+    "marscher",
+    "originell",
+    "stevemenard"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

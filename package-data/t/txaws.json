@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "exarkun",
+    "mithrandi",
+    "oubiwann"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

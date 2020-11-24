@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "aaugustin",
+    "CodenameTim",
+    "dcramer",
+    "jazzband",
+    "jezdez",
+    "matthiask",
+    "robhudson"
+  ],
   "requires_dist": {
     "dists": [
       "django",

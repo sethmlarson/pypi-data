@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Raphael2"
+  ],
   "requires_dist": {
     "dists": [
       "deprecated",

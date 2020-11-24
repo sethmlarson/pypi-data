@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "edgedb-ci",
+    "Elvis.Pranskevichus",
+    "yselivanov"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

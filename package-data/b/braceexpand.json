@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "trendels"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "GaelVaroquaux",
+    "lesteve",
+    "ogrisel",
+    "tommoral"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

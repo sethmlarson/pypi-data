@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "glyph",
+    "mhammond",
+    "mithrandi",
+    "pf_moore"
+  ],
   "requires_dist": {
     "dists": [
       "pywin32"

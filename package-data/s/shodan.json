@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "achillean"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

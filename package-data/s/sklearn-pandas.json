@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "calpaterson",
+    "devforfu",
+    "dukebody",
+    "paulgb",
+    "rja171"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

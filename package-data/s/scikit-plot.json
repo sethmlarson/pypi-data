@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "reiinakano"
+  ],
   "requires_dist": {
     "dists": [
       "joblib",

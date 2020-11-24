@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ponty"
+  ],
   "requires_dist": {
     "dists": [
       "argparse"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lgedgar"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

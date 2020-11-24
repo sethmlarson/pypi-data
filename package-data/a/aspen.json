@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Changaco",
+    "whit537"
+  ],
   "requires_dist": {
     "dists": [
       "dependency-injection",

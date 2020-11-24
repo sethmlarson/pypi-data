@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "coremltools"
+  ],
   "requires_dist": {
     "dists": [
       "attr",

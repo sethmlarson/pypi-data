@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "kriechi",
+    "Lukasa",
+    "SethMichaelLarson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

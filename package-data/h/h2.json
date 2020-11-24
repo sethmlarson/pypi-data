@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "kriechi",
+    "Lukasa",
+    "pgjones",
+    "SethMichaelLarson"
+  ],
   "requires_dist": {
     "dists": [
       "hpack",

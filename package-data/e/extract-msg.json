@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jpbourget",
+    "The_Elemental_of_Creation"
+  ],
   "requires_dist": {
     "dists": [
       "compressed-rtf",

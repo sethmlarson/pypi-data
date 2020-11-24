@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Belval"
+  ],
   "requires_dist": {
     "dists": [
       "pillow"

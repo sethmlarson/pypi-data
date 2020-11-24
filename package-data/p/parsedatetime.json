@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bear",
+    "Philip_Tzou"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

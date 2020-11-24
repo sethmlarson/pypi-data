@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "fxdgear",
+    "SethMichaelLarson"
+  ],
   "requires_dist": {
     "dists": [
       "urllib3"

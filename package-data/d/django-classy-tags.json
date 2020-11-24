@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "aldryn",
+    "czpython",
+    "djangocms",
+    "FinalAngel",
+    "ojii"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

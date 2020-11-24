@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jadolg"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "amitsharma1981",
+    "nflxgenie",
+    "tgianos"
+  ],
   "requires_dist": {
     "dists": [
       "decorator",

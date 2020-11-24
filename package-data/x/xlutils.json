@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "chrisw"
+  ],
   "requires_dist": {
     "dists": [
       "xlrd",

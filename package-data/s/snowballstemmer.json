@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mitya57",
+    "shibu"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

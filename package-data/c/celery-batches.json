@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "clokep"
+  ],
   "requires_dist": {
     "dists": [
       "celery"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jorisvandenbossche",
+    "kjordahl"
+  ],
   "requires_dist": {
     "dists": [
       "fiona",

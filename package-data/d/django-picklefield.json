@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "admp",
+    "charettes",
+    "gintautasm"
+  ],
   "requires_dist": {
     "dists": [
       "django"

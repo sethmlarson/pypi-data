@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "jaximus",
+    "jkaster",
+    "joeldodge_looker",
+    "looker-open-source"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

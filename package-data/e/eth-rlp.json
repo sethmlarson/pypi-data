@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "carver",
+    "cburgdorf",
+    "pipermerriam"
+  ],
   "requires_dist": {
     "dists": [
       "eth-utils",

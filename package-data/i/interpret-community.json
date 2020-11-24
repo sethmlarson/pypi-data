@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "interpret-community"
+  ],
   "requires_dist": {
     "dists": [
       "interpret-core",

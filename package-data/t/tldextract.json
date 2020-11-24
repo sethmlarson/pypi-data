@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "John.Kurkowski"
+  ],
   "requires_dist": {
     "dists": [
       "filelock",

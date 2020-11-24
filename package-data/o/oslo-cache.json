@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "elarson",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "dogpile.cache",

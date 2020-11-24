@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "akamaidev",
+    "Jon.Landis"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

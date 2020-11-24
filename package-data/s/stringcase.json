@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "okunishinishi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

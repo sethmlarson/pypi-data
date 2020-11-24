@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "aidanlister",
+    "martey"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

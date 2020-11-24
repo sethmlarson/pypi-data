@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gunthercox",
+    "robot"
+  ],
   "requires_dist": {
     "dists": [
       "mathparse",

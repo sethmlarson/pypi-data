@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "amn41",
+    "tmbo"
+  ],
   "requires_dist": {
     "dists": [
       "coloredlogs",

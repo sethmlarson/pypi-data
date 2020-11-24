@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "necaris"
+  ],
   "requires_dist": {
     "dists": [
       "defusedxml"

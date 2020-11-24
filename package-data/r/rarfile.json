@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mkz"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

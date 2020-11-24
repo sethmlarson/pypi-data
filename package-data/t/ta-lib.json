@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mrjbq7"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

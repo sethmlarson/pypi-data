@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gtalarico"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

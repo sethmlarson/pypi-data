@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Jake.Vanderplas"
+  ],
   "requires_dist": {
     "dists": [
       "altair",

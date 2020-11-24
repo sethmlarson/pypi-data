@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "berkerpeksag",
+    "carthorse-mock",
+    "chrisw",
+    "Fuzzyman",
+    "kushaldas",
+    "lifeless"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

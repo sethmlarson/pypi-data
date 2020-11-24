@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "andrey-git",
+    "armills",
+    "balloob",
+    "pvizeli"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

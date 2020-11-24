@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "awsml"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

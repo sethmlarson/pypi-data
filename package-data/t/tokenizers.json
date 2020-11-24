@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "xn1t0x"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

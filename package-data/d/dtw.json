@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pierre-rouanet"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

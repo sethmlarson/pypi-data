@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nateshmbhat"
+  ],
   "requires_dist": {
     "dists": [
       "comtypes",

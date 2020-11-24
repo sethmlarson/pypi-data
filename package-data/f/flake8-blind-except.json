@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "elijahandrews"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

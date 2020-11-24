@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "CendioOssman",
+    "DirectXMan12",
+    "kanaka"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

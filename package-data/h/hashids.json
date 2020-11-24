@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "davidaurelio"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

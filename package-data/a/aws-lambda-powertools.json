@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "heitorlessa"
+  ],
   "requires_dist": {
     "dists": [
       "aws-xray-sdk",

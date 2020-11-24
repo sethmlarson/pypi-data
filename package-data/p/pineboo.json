@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aulla"
+  ],
   "requires_dist": {
     "dists": [
       "black",

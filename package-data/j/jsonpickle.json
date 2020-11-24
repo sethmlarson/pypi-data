@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "davvid",
+    "jaraco",
+    "johnpaulett"
+  ],
   "requires_dist": {
     "dists": [
       "importlib-metadata"

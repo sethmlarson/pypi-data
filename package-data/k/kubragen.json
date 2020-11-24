@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rangelreale"
+  ],
   "requires_dist": {
     "dists": [
       "deepmerge",

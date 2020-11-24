@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "berrange",
+    "Jay.Pipes",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "debtcollector",

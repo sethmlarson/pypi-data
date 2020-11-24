@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "christopherhesse"
+  ],
   "requires_dist": {
     "dists": [
       "filelock",

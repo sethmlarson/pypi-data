@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "whummer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "rswingler",
+    "yunruiwatts"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

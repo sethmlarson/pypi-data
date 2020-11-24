@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "figo",
+    "mdomke"
+  ],
   "requires_dist": {
     "dists": [
       "iso3166",

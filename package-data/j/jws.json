@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "brianloveswords",
+    "ehashman"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

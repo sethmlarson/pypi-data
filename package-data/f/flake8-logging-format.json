@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "globality"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

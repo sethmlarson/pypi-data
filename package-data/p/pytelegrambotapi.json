@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Badiboy",
+    "eternnoir"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

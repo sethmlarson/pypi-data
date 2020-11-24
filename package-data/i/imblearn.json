@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "glemaitre"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

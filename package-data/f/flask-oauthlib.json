@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "greyli",
+    "lepture"
+  ],
   "requires_dist": {
     "dists": [
       "cachelib",

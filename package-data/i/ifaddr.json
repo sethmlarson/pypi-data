@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jstasiak",
+    "stefan.mueller"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "arekbulski",
+    "gangesmaster",
+    "MostAwesomeDude"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

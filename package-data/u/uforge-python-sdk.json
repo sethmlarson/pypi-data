@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "usharesoft"
+  ],
   "requires_dist": {
     "dists": [
       "lxml",

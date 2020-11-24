@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "jeamland",
+    "kriechi",
+    "Lukasa",
+    "njs",
+    "pgjones"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

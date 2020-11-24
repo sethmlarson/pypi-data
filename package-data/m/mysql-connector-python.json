@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "chuck.bell",
+    "mysql_re_team",
+    "nmariz",
+    "prashanttekriwal"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

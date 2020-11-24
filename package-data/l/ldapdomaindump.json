@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dirkjanm"
+  ],
   "requires_dist": {
     "dists": [
       "dnspython",

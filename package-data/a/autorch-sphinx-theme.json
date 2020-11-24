@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "stacyyang"
+  ],
   "requires_dist": {
     "dists": [
       "sphinx"

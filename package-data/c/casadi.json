@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jgillis"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

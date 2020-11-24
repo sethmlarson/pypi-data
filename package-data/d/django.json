@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "apollo13",
+    "carltongibson",
+    "felixx",
+    "jacobian",
+    "ubernostrum"
+  ],
   "requires_dist": {
     "dists": [
       "asgiref",

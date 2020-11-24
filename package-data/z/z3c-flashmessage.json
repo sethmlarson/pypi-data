@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "ctheune",
+    "faassen",
+    "icemac",
+    "janjaapdriessen",
+    "philikon",
+    "zagy"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

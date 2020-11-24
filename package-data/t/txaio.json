@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "meejah",
+    "oberstet",
+    "om26er"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

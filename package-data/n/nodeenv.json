@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "evkalinin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

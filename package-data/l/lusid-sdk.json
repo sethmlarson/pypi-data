@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "finbourne"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

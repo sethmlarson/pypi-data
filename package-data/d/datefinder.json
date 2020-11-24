@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Alec.Koumjian"
+  ],
   "requires_dist": {
     "dists": [
       "python-dateutil",

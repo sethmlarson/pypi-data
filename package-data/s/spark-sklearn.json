@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "josephkb",
+    "mengxr",
+    "seanowen",
+    "smurching",
+    "thunterdb"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "aclark",
+    "dottedmag",
+    "jaraco",
+    "jorend",
+    "msabramo"
+  ],
   "requires_dist": {
     "dists": [
       "path"

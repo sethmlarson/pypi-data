@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "bgranger",
+    "ccordoba12",
+    "fperez",
+    "ivanov",
+    "jhamrick",
+    "Kyle.Kelley",
+    "mbussonn",
+    "minrk",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "ipykernel",
@@ -22,6 +33,8 @@
     ]
   },
   "requires_extras": {},
-  "requires_python": "",
-  "yanked": []
+  "requires_python": ">= 3.6",
+  "yanked": [
+    "5.0.0"
+  ]
 }

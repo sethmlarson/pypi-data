@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "avian"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

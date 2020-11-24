@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "njs",
+    "SethMichaelLarson"
+  ],
   "requires_dist": {
     "dists": [
       "contextvars"

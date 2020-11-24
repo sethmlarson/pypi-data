@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "alexis.metaireau",
+    "Boris.FELD",
+    "ddouard",
+    "k4nar",
+    "Natim",
+    "rafrombrc",
+    "rfk",
+    "tarek"
+  ],
   "requires_dist": {
     "dists": [
       "psutil",

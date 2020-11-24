@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nficano"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

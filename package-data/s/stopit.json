@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "glenfant"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

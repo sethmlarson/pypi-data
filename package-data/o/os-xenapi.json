@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "CitrixXenserver",
+    "gnomeking",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "babel",

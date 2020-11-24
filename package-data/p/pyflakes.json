@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "asottile",
+    "bitglue",
+    "flox"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

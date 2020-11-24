@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pylinksquare"
+  ],
   "requires_dist": {
     "dists": [
       "future",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "amol",
+    "bbangert",
+    "pjenvey",
+    "TheCrypto"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

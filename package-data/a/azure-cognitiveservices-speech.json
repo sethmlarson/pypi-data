@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "BrianMouncer",
+    "chlandsi",
+    "mahilleb-msft",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "schettino72"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

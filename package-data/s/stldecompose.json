@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jrmontag"
+  ],
   "requires_dist": {
     "dists": [
       "matplotlib",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "chrism",
+    "chrisrossi",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

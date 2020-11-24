@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "asmodai",
+    "jerickso",
+    "piro"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

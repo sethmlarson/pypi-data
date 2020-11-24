@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Gardener-CI"
+  ],
   "requires_dist": {
     "dists": [
       "aliyun-python-sdk-core",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "goflores",
+    "microsoft",
+    "tedchamb"
+  ],
   "requires_dist": {
     "dists": [
       "msrest"

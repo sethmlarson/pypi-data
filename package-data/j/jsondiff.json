@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "zoomeranalytics"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

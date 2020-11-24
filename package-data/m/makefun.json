@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "smarie"
+  ],
   "requires_dist": {
     "dists": [
       "funcsigs"

@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "ahldev",
+    "bmoscon",
+    "burrowsa",
+    "eeaston",
+    "jblackburn",
+    "richardbounds",
+    "shashank88",
+    "wilfredh"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

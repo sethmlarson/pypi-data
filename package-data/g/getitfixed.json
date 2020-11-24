@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "arnaud-morvan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

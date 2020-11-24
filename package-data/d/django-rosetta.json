@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mbi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

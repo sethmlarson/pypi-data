@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mister.wardrop",
+    "zsimic"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

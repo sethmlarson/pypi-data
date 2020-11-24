@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "spotinst"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

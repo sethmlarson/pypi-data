@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "autopub",
+    "jmayer",
+    "neithere"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mopemope"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

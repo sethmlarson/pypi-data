@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "reingart"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ctruong"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

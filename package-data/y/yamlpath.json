@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wwkimball"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

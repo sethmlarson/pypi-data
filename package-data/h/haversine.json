@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "brouberol",
+    "mapado"
+  ],
   "requires_dist": {
     "dists": [
       "enum34"

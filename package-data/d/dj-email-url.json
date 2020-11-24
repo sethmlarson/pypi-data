@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "migonzalvar"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

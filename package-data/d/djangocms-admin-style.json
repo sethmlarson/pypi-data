@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "Aiky30",
+    "aldryn",
+    "czpython",
+    "djangocms",
+    "yakky"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

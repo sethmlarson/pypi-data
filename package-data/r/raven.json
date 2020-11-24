@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ashwoods",
+    "dcramer",
+    "getsentry",
+    "mattrobenolt",
+    "mitsuhiko"
+  ],
   "requires_dist": {
     "dists": [
       "contextlib2"

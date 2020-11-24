@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "moses.palmer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

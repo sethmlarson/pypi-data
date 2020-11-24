@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "aio-libs-bot",
+    "Andrew.Svetlov",
+    "barrachri",
+    "cecton",
+    "joongi",
+    "paultag"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

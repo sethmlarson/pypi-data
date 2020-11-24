@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dpgaspar",
+    "mistercrunch"
+  ],
   "requires_dist": {
     "dists": [
       "apispec",

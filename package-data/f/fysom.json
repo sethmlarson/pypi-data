@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "fysom",
+    "mriehl"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

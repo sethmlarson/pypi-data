@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "agriffis"
+  ],
   "requires_dist": {
     "dists": [
       "vcrpy"

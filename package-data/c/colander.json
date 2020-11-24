@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "chrism",
+    "ericoandrei",
+    "miohtama",
+    "mmerickel",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

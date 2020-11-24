@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "JohannesBuchner"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cjermain",
+    "HaaTa",
+    "jparyani",
+    "kentonv"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

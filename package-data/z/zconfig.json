@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "ajung",
+    "do3cc",
+    "fdrake",
+    "hannosch",
+    "J1m",
+    "jamadden",
+    "mgedmin",
+    "srichter",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

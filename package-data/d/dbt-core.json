@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fishtown-analytics"
+  ],
   "requires_dist": {
     "dists": [
       "agate",

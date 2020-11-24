@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "xelnor"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

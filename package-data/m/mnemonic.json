@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "matejcik",
+    "slush",
+    "stick"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sah"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "google-reauth-python",
+    "google_opensource"
+  ],
   "requires_dist": {
     "dists": [
       "pyu2f"

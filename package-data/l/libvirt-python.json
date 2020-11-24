@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "berrange",
+    "DanielVeillard",
+    "jirkade"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

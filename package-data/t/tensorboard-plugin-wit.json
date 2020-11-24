@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jwexler",
+    "tolgab"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ookoi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

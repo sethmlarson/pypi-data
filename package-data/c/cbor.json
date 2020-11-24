@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Brian.Olson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

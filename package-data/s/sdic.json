@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lr",
+    "mpavlisin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

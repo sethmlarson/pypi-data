@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "eendebakpt"
+  ],
   "requires_dist": {
     "dists": [
       "backports.functools-lru-cache",

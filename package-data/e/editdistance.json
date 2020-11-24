@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aflc"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

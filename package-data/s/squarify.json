@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "laserson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "coala_ci"
+  ],
   "requires_dist": {
     "dists": [
       "backoff",

@@ -8,7 +8,14 @@ from packaging.version import Version, InvalidVersion
 
 base_dir = os.path.dirname((os.path.abspath(__file__)))
 package_data_dir = os.path.join(base_dir, "package-data")
-http = urllib3.PoolManager(retries=urllib3.util.Retry(status=10, backoff_factor=0.5))
+http = urllib3.PoolManager(
+    headers=urllib3.util.make_headers(
+        keep_alive=True,
+        accept_encoding=True,
+        user_agent="sethmlarson/pypi-deps-tracker",
+    ),
+    retries=urllib3.util.Retry(status=10, backoff_factor=0.5),
+)
 wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
 
 
@@ -67,6 +74,7 @@ def sorted_versions(items):
 
 with open("packages.txt") as f:
     packages = [x for x in f.read().split() if x.strip()]
+    publisher_data = {}
 
     for package in tqdm(packages, unit="packages"):
         resp = http.request("GET", f"https://pypi.org/pypi/{package}/json")
@@ -132,6 +140,16 @@ with open("packages.txt") as f:
                     break
         yanked = sorted_versions(set(yanked))
 
+        resp = http.request("GET", f"https://pypi.org/project/{package}")
+        publishers = sorted(
+            set(
+                re.findall(r"<a href=\"/user/([^/\"]+)[/\"]", resp.data.decode("utf-8"))
+            ),
+            key=str.lower,
+        )
+        for publisher in publishers:
+            publisher_data.setdefault(publisher, []).append(package)
+
         os.makedirs(os.path.join(package_data_dir, package[0]), exist_ok=True)
         with open(
             os.path.join(package_data_dir, package[0], f"{package}.json"), "w"
@@ -143,9 +161,21 @@ with open("packages.txt") as f:
                         "requires_dist": requires_dist,
                         "requires_extras": requires_extras,
                         "requires_python": requires_python,
+                        "publishers": publishers,
                         "yanked": yanked,
                     },
                     indent=2,
                     sort_keys=True,
                 )
             )
+
+    # Write publishers.json data
+    with open(os.path.join(package_data_dir, f"publishers.json"), "w") as f:
+        f.truncate()
+        f.write(
+            json.dumps(
+                {k: sorted(v) for k, v in publisher_data.items()},
+                indent=2,
+                sort_keys=True,
+            )
+        )

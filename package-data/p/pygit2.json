@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jdavid"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

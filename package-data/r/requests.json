@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "graffatcolmingov",
+    "Lukasa",
+    "nateprewitt"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "kivybot",
+    "matham",
+    "Mathieu.Virbel",
+    "tshirtman"
+  ],
   "requires_dist": {
     "dists": [
       "docutils",

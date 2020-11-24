@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Thomas.Aynaud"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

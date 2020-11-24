@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ericvergnaud",
+    "parrt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

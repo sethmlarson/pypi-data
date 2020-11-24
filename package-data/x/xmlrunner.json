@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "pycontribs",
+    "sorin",
+    "srittau",
+    "ssbarnea"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

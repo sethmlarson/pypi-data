@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jgm"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

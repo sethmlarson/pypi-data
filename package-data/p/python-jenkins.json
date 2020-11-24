@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "javacruft",
+    "kwc",
+    "openstackci",
+    "zxiiro"
+  ],
   "requires_dist": {
     "dists": [
       "multi-key-dict",

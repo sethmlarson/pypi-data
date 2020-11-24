@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "hjacobs",
+    "jmcs",
+    "rafaelcaricio",
+    "stups-cd"
+  ],
   "requires_dist": {
     "dists": [
       "clickclick",

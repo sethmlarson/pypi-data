@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "benaltieri",
+    "dzollo",
+    "ljbade",
+    "markfine",
+    "snav-patrick",
+    "swiftnav",
+    "swiftnav-jmob"
+  ],
   "requires_dist": {
     "dists": [
       "construct",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wkentaro"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

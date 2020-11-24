@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tomdesmedt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

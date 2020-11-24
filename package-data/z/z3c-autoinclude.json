@@ -1,4 +1,19 @@
 {
+  "publishers": [
+    "davisagli",
+    "ejucovy",
+    "esteele",
+    "faassen",
+    "hannosch",
+    "jamadden",
+    "janjaapdriessen",
+    "jw",
+    "mgedmin",
+    "plone",
+    "rmarianski",
+    "thefunny42",
+    "timo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

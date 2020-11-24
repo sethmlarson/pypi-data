@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "yosida95"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography"

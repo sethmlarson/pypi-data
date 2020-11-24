@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "author",
+    "erikdies",
+    "lapointexavier"
+  ],
   "requires_dist": {
     "dists": [
       "python-dateutil",

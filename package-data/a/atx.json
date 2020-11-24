@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "codeskyblue"
+  ],
   "requires_dist": {
     "dists": [
       "aircv",

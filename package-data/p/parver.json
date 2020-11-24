@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "RazerM"
+  ],
   "requires_dist": {
     "dists": [
       "arpeggio",

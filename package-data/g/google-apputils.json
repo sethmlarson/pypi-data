@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "Craig.Citro",
+    "dborowitz",
+    "google_opensource",
+    "GregoryPSmith"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

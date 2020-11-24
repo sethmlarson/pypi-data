@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nir0s"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

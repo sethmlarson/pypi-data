@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cmanaha"
+  ],
   "requires_dist": {
     "dists": [
       "elasticsearch",

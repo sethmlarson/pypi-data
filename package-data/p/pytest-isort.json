@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "stephrdev"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

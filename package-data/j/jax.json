@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "gnecula",
+    "Jake.Vanderplas",
+    "mattjj",
+    "phawkins",
+    "rf",
+    "zhangqiaorjc"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

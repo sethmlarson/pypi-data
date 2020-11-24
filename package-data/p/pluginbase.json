@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mitsuhiko",
+    "zeroSteiner"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

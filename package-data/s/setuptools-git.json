@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "gingrasy",
+    "msabramo",
+    "vsajip",
+    "wichert"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

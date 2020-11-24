@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "blag",
+    "Goin",
+    "tomasgarzon"
+  ],
   "requires_dist": {
     "dists": [
       "django"

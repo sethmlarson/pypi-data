@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "knsd",
+    "thesharp"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

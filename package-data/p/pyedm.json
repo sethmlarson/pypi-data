@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cameronsmithbusiness",
+    "sugiharalab"
+  ],
   "requires_dist": {
     "dists": [
       "matplotlib",

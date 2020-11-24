@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "abn",
+    "finswimmer",
+    "SDisPater",
+    "stephsamson"
+  ],
   "requires_dist": {
     "dists": [
       "cachecontrol",

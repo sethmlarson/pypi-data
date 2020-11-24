@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tgsmith61591.gh"
+  ],
   "requires_dist": {
     "dists": [
       "cython",

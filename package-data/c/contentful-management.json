@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "contentful",
+    "dlitvakb"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

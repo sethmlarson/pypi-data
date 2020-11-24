@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "adustman",
+    "valhallasw"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

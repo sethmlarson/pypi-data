@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Open3D"
+  ],
   "requires_dist": {
     "dists": [
       "ipywidgets",

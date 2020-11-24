@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "stripe"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

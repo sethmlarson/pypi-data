@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "stoprobots"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

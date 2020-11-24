@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ThilinaRajapakse"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

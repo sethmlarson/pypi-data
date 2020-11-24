@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "doprea",
+    "thead"
+  ],
   "requires_dist": {
     "dists": [
       "nose"

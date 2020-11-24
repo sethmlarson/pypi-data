@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dschep"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

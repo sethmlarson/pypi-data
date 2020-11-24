@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gc-team",
+    "google_opensource"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Parkayun"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

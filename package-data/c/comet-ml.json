@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "comet-ci",
+    "gideonm",
+    "Semantica-Labs"
+  ],
   "requires_dist": {
     "dists": [
       "comet-git-pure",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "NonStatic",
+    "ritwik20",
+    "seanw",
+    "trangevi"
+  ],
   "requires_dist": {
     "dists": [
       "adal",

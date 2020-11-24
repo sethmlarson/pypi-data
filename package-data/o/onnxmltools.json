@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "shauheen",
+    "vinitra",
+    "wechi",
+    "wenbingl"
+  ],
   "requires_dist": {
     "dists": [
       "keras2onnx",

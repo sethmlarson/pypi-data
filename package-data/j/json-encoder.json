@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "benos",
+    "nzme"
+  ],
   "requires_dist": {
     "dists": [
       "singledispatch",

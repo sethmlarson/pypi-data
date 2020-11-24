@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Lucas.Hermann.Negri"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

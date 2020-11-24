@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "janmotl",
+    "willmcg4132"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

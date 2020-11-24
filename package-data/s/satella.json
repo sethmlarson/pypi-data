@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "piotrmaslanka"
+  ],
   "requires_dist": {
     "dists": [
       "psutil"

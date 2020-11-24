@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "scjody",
+    "sfllaw"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

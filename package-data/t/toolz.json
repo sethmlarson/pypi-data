@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "eigenhombre",
+    "eriknw",
+    "mrocklin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

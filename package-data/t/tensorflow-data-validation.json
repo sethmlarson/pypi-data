@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "google_opensource",
+    "tfx_oss"
+  ],
   "requires_dist": {
     "dists": [
       "absl-py",

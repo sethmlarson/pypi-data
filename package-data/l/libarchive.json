@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "doprea"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

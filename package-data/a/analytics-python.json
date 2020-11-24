@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "segment",
+    "segmentkellylu"
+  ],
   "requires_dist": {
     "dists": [
       "backoff",

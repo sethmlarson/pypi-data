@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "psagers"
+  ],
   "requires_dist": {
     "dists": [
       "django-otp",

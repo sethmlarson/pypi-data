@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "dataflake",
+    "J1m",
+    "jm",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "btrees",

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "faassen",
+    "jw",
+    "thefunny42",
+    "trollfot",
+    "vincentfretin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ches",
+    "evyaro",
+    "iElectric",
+    "jandd",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "decorator",

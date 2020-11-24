@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "j5pu"
+  ],
   "requires_dist": {
     "dists": [
       "ansible",

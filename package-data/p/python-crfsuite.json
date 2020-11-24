@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "kmike",
+    "lopuhin",
+    "tpeng"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

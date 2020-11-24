@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bob",
+    "florentaide",
+    "quodt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

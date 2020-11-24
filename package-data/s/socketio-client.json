@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "invisibleroads"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

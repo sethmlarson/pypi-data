@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ip2location"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

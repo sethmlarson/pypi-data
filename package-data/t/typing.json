@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ambv",
+    "guido",
+    "ilevkivskyi",
+    "jukkal",
+    "vlasovskikh"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

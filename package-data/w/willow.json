@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "kaedroho",
+    "torchbox"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

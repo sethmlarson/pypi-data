@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aligrudi",
+    "mcepl",
+    "soupytwist",
+    "zjes"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

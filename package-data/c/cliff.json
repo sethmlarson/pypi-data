@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "doughellmann",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "cmd2",

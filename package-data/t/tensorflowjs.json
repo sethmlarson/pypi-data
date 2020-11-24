@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "bileschi",
+    "caisq",
+    "davidsoergel",
+    "dsmilkov",
+    "lina128",
+    "nsthorat",
+    "pyu10055",
+    "tafsiri"
+  ],
   "requires_dist": {
     "dists": [
       "h5py",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "hubert"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

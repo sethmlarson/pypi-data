@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aws-sam-developers"
+  ],
   "requires_dist": {
     "dists": [
       "aws-lambda-builders",

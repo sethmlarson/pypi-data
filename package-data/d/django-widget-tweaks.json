@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jazzband",
+    "kmike"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

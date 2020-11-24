@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "JdeH"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

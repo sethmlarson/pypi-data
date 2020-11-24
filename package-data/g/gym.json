@@ -1,4 +1,17 @@
 {
+  "publishers": [
+    "christopherhesse",
+    "gdb",
+    "glennpow",
+    "jietang",
+    "jonasschneider",
+    "mplappert",
+    "nivwusquorum",
+    "openai",
+    "peterz-openai",
+    "pzhokhov",
+    "woj.zaremba"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

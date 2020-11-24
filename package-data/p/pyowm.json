@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "csparpa"
+  ],
   "requires_dist": {
     "dists": [
       "geojson",

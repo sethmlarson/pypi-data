@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "alexcjohnson",
+    "cldougl",
+    "cparmer",
+    "jmmease",
+    "nicolaskruchten"
+  ],
   "requires_dist": {
     "dists": [
       "retrying",

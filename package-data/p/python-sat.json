@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aign"
+  ],
   "requires_dist": {
     "dists": [
       "six"

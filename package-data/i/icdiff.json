@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vnitinv"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

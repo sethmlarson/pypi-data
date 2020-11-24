@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ignas"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

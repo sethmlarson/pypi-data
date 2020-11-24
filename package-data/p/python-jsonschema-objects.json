@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cwacek"
+  ],
   "requires_dist": {
     "dists": [
       "inflection",

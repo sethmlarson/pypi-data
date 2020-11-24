@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bboe"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

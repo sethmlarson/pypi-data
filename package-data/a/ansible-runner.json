@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ansible-zuul",
+    "matburt",
+    "ryanpetrello",
+    "shanemcd"
+  ],
   "requires_dist": {
     "dists": [
       "pexpect",

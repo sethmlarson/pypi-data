@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "kizill"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

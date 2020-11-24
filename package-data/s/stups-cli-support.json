@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "hjacobs",
+    "Raffo",
+    "stups-cd",
+    "tuxlife"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

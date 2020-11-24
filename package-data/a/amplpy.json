@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fdabrandao"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

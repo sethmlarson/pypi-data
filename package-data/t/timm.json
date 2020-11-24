@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rwightman"
+  ],
   "requires_dist": {
     "dists": [
       "torch",

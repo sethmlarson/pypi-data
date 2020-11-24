@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "explosion",
+    "honnibal",
+    "inesmontani"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

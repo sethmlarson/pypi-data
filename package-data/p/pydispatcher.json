@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mcfletch"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

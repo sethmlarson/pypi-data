@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tim"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

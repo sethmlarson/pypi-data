@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "corentinl",
+    "LaurentPerron",
+    "mizux"
+  ],
   "requires_dist": {
     "dists": [
       "protobuf",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Splitit"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

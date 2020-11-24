@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "maurer",
+    "sablanchard",
+    "udst"
+  ],
   "requires_dist": {
     "dists": [
       "pandas",

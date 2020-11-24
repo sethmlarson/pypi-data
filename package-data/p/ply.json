@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "beazley"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "philipkershaw"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

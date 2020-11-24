@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "karney"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

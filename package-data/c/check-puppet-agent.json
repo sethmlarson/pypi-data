@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wywy"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

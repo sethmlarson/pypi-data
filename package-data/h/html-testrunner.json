@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ordanis"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2"

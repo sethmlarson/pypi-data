@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "doughellmann",
+    "malor",
+    "openstackci",
+    "viktors"
+  ],
   "requires_dist": {
     "dists": [
       "alembic",

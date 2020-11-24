@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ericscheie",
+    "teradata"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

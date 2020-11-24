@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Kronuz"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "dzuelke",
+    "edmorley",
+    "graffatcolmingov",
+    "heroku"
+  ],
   "requires_dist": {
     "dists": [
       "dj-database-url",

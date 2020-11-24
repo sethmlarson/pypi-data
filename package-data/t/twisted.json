@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "exarkun",
+    "glyph",
+    "hawkowl",
+    "itamarst",
+    "jml",
+    "markrwilliams",
+    "rodrigc"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

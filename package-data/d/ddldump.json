@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lr",
+    "shpiel"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

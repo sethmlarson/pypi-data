@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mister.wardrop",
+    "tlipcon",
+    "wesm"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

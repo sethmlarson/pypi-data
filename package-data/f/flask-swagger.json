@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "atlithorn"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

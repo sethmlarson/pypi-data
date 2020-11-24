@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Neptune",
+    "neptune-deployer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

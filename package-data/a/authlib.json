@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lepture"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography"

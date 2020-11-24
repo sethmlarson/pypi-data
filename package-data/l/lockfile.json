@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "doughellmann",
+    "ethanf",
+    "openstackci",
+    "rpmoseley",
+    "skip"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

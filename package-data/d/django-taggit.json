@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "alexgaynor",
+    "apollo13",
+    "frewsxcv",
+    "FunkyBob",
+    "jazzband",
+    "jdufresne",
+    "nemesisdesign"
+  ],
   "requires_dist": {
     "dists": [
       "django"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bfontaine",
+    "swaroopch"
+  ],
   "requires_dist": {
     "dists": [
       "ply",

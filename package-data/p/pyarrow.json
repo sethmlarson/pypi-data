@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "Charles.Cloud",
+    "cutlerb",
+    "kou",
+    "kszucs",
+    "wesm",
+    "xhochy"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jos.polfliet",
+    "sbrugman"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

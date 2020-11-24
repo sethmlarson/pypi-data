@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "miurahr"
+  ],
   "requires_dist": {
     "dists": [
       "klepto"

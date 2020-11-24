@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "dakrauth",
+    "defbyte",
+    "oknows",
+    "theatlantic"
+  ],
   "requires_dist": {
     "dists": [
       "python-monkey-business",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "frostming",
+    "uranusjr"
+  ],
   "requires_dist": {
     "dists": [
       "six",

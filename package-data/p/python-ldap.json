@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "encukou",
+    "jatoben",
+    "osuchw"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

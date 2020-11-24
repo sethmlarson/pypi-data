@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "git-pull",
+    "rfoliva"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

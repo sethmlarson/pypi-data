@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "njs",
+    "RazerM"
+  ],
   "requires_dist": {
     "dists": [
       "attrs"

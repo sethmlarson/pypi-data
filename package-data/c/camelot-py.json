@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vinayakmehta"
+  ],
   "requires_dist": {
     "dists": [
       "chardet",

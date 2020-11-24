@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "janschulz",
+    "Juho.Vepslinen"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

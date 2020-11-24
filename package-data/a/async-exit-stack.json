@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Davide.Rizzo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

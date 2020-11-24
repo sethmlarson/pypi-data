@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "cparmer",
+    "jmmease",
+    "nicolaskruchten"
+  ],
   "requires_dist": {
     "dists": [
       "plotly",

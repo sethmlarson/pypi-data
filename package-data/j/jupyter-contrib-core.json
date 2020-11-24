@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jcb91",
+    "juhasch"
+  ],
   "requires_dist": {
     "dists": [
       "jupyter-core",

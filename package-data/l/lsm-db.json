@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Charles.Leifer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

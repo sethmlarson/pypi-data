@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "asadurski",
+    "dangra",
+    "eljunior",
+    "pablohoffman",
+    "scrapinghub",
+    "waqasshabbir"
+  ],
   "requires_dist": {
     "dists": [
       "python-dateutil",

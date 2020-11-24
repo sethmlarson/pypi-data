@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gabrielfalcao"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

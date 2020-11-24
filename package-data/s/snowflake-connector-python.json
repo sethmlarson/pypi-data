@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "ankit.bhatnagar",
+    "azhan",
+    "harshc",
+    "hyu",
+    "notkriswagner",
+    "stakeda",
+    "Tianyi"
+  ],
   "requires_dist": {
     "dists": [
       "asn1crypto",

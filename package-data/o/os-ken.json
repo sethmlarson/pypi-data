@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "hongbin034",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "eventlet",

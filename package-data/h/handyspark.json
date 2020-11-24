@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dvgodoy"
+  ],
   "requires_dist": {
     "dists": [
       "findspark",

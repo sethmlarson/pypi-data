@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "aws",
+    "awsebcli"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

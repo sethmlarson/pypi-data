@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "leah4kosh",
+    "omershacham"
+  ],
   "requires_dist": {
     "dists": [
       "azure-storage-blob",

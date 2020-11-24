@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "weiranf"
+  ],
   "requires_dist": {
     "dists": [
       "grpcio"

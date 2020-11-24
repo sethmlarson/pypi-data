@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "dcherian",
+    "jhamman",
+    "maximilianroos",
+    "Stephan.Hoyer"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mdevaev"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

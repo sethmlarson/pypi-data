@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "invlpg"
+  ],
   "requires_dist": {
     "dists": [
       "decorator",

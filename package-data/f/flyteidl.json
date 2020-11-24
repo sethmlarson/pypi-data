@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "changhongflyte",
+    "katrogo",
+    "lyftflyteidl",
+    "matthewphsmith",
+    "mtoledo22",
+    "ytongflyte",
+    "ytonglyft"
+  ],
   "requires_dist": {
     "dists": [
       "protobuf",

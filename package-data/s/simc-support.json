@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Bloodmallet"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

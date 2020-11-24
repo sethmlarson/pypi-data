@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "anthonypjshaw",
+    "erjohnso",
+    "jerryapache",
+    "Kami",
+    "pquerna",
+    "quentinp",
+    "runseb"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

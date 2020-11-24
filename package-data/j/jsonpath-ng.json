@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "h2non"
+  ],
   "requires_dist": {
     "dists": [
       "decorator",

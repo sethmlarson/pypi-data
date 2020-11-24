@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "choldgraf",
+    "Eric89GXL",
+    "GaelVaroquaux",
+    "lesteve",
+    "lucyleeow",
+    "Titan-C"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

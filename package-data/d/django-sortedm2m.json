@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gremu",
+    "jazzband"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

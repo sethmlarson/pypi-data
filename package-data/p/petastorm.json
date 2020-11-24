@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "uber"
+  ],
   "requires_dist": {
     "dists": [
       "dill",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "carltongibson",
+    "linovia",
+    "tomchristie"
+  ],
   "requires_dist": {
     "dists": [
       "django"

@@ -1,4 +1,17 @@
 {
+  "publishers": [
+    "aoen",
+    "artwr",
+    "ashb",
+    "bolke",
+    "criccomini",
+    "Fokko",
+    "kaxil",
+    "mistercrunch",
+    "msumit",
+    "potiuk",
+    "r39132"
+  ],
   "requires_dist": {
     "dists": [
       "alembic",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "machugwu"
+  ],
   "requires_dist": {
     "dists": [
       "autopep8",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tiangolo"
+  ],
   "requires_dist": {
     "dists": [
       "click"

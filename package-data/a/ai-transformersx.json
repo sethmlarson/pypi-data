@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "modongsong"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

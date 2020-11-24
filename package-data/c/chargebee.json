@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "chargebee"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

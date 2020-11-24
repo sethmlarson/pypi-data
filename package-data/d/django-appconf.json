@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "carltongibson",
+    "diox",
+    "jezdez"
+  ],
   "requires_dist": {
     "dists": [
       "django"

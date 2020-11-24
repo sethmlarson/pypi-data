@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "DeepSpace"
+  ],
   "requires_dist": {
     "dists": [
       "colour",

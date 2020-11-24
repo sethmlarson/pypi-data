@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mnemonic"
+  ],
   "requires_dist": {
     "dists": [
       "importlib_metadata",

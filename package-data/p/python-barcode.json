@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "WhyNotHugo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

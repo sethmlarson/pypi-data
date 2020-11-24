@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rickydunlop"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

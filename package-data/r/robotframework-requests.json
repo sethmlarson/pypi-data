@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bulkan",
+    "lucagiove"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

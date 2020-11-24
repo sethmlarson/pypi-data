@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Atrox"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

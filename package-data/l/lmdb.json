@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dw",
+    "jnwatson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

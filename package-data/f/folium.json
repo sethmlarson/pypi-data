@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ocefpaf",
+    "wrobstory"
+  ],
   "requires_dist": {
     "dists": [
       "branca",

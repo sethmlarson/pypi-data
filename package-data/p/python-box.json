@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cdgriffith"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cmlccie",
+    "squ4rks"
+  ],
   "requires_dist": {
     "dists": [
       "future",

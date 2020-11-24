@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ashleysommer",
+    "ncar",
+    "white_gecko"
+  ],
   "requires_dist": {
     "dists": [
       "isodate",

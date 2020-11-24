@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nvmlbindings"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

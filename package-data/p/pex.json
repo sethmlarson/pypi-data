@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "benjyw",
+    "EricArellano",
+    "John.Sirois",
+    "kwlzn",
+    "stuhood",
+    "wickman",
+    "Yasumoto"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

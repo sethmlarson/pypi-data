@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ashpak",
+    "audreyr",
+    "hackebrot",
+    "pydanny"
+  ],
   "requires_dist": {
     "dists": [
       "binaryornot",

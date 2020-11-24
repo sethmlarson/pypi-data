@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "jpopelka",
+    "luiz.carvalho",
+    "mbasti",
+    "rcerven",
+    "twaugh"
+  ],
   "requires_dist": {
     "dists": [
       "six"

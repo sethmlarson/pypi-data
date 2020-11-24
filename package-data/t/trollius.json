@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "J1m",
+    "jamadden",
+    "mgedmin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

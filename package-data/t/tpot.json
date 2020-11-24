@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "moorelab",
+    "rhiever",
+    "weixuanf"
+  ],
   "requires_dist": {
     "dists": [
       "deap",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bkabrda",
+    "has207"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

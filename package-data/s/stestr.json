@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "masayukig",
+    "mtreinish",
+    "stestr-release"
+  ],
   "requires_dist": {
     "dists": [
       "cliff",

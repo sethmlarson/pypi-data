@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "josiahcarlson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "Archan.Luhar",
+    "codytwinton",
+    "ellentao",
+    "evanc",
+    "neilxchen",
+    "paulbain",
+    "ritum",
+    "shootingsyh"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

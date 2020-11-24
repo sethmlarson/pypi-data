@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "regebro"
+  ],
   "requires_dist": {
     "dists": [
       "docutils",

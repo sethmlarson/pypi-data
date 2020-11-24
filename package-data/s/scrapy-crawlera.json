@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "dangra",
+    "pablohoffman",
+    "rdowinton",
+    "scrapinghub"
+  ],
   "requires_dist": {
     "dists": [
       "scrapy",

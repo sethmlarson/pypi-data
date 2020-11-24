@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "UriKatz"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

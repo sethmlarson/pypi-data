@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "naiquevin"
+  ],
   "requires_dist": {
     "dists": [
       "pip"

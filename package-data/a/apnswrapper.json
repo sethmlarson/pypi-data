@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "drchrono",
+    "joymax"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

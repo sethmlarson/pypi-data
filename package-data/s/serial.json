@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "davebelais"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

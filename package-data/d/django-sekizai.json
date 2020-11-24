@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "czpython",
+    "djangocms",
+    "FinalAngel",
+    "ojii"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

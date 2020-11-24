@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "moj-analytical-services",
+    "RobinL",
+    "samnlindsay"
+  ],
   "requires_dist": {
     "dists": [
       "jsonschema"

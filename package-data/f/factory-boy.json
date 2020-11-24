@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dnerdy",
+    "xelnor"
+  ],
   "requires_dist": {
     "dists": [
       "faker"

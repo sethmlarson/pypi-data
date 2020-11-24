@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "png"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

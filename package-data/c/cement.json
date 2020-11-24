@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "derks"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

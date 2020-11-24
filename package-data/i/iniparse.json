@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "csnyder",
+    "jirihnidek",
+    "psoberoi"
+  ],
   "requires_dist": {
     "dists": [
       "six"

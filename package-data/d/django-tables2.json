@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bradley.ayers",
+    "jieter"
+  ],
   "requires_dist": {
     "dists": [
       "django"

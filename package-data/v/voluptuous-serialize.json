@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "balloob"
+  ],
   "requires_dist": {
     "dists": [
       "voluptuous"

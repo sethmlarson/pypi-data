@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gescheit"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

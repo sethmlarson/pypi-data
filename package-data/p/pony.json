@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "amalashkevich",
+    "kozlovsky"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

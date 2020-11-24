@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "fafhrd",
+    "konstin",
+    "messense"
+  ],
   "requires_dist": {
     "dists": [
       "semantic-version",

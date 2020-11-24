@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "robind"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

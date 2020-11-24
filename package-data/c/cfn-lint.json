@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "kddejong"
+  ],
   "requires_dist": {
     "dists": [
       "aws-sam-translator",

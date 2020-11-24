@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "Anaethelion",
+    "emel",
+    "fle",
+    "gutard",
+    "jec",
+    "leplatrem"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

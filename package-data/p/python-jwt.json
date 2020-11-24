@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "davedoesdev"
+  ],
   "requires_dist": {
     "dists": [
       "jwcrypto"

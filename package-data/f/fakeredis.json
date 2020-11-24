@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bmerry-ska",
+    "jamesls",
+    "schwardt",
+    "simonr101"
+  ],
   "requires_dist": {
     "dists": [
       "redis",

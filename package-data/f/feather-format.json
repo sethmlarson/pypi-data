@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wesm"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

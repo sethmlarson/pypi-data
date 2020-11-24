@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "kmike",
+    "Sergei.Lebedev"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

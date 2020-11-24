@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "twitter"
+  ],
   "requires_dist": {
     "dists": [
       "twitter.common.lang"

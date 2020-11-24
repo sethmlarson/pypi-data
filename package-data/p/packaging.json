@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "brettcannon",
+    "dstufft",
+    "pf_moore",
+    "pradyunsg"
+  ],
   "requires_dist": {
     "dists": [
       "pyparsing",

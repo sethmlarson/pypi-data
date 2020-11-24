@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "erilem"
+  ],
   "requires_dist": {
     "dists": [
       "sqlalchemy"

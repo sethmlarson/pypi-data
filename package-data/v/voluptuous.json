@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "alecthomas",
+    "tusharmakkar08"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "Corey.Goldberg",
+    "cyberwiz",
+    "heyman",
+    "mbeacom"
+  ],
   "requires_dist": {
     "dists": [
       "configargparse",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "google_opensource",
+    "pavithra",
+    "tf-cloud-robot"
+  ],
   "requires_dist": {
     "dists": [
       "absl-py",

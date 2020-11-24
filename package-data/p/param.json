@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ioam",
+    "pyviz"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

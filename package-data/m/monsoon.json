@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "matthalp",
+    "mbrinker",
+    "msoon_jared"
+  ],
   "requires_dist": {
     "dists": [
       "libusb1",

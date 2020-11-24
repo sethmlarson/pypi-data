@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "clarkperkins"
+  ],
   "requires_dist": {
     "dists": [
       "click"

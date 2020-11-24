@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "petersanchez"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

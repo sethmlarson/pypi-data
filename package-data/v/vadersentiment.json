@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cjhutto"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

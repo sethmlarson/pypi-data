@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "kislyuk"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

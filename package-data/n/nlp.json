@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lhoestq",
+    "Thomwolf"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

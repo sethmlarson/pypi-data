@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "codingjoe"
+  ],
   "requires_dist": {
     "dists": [
       "django",

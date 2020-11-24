@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "agronholm",
+    "regebro"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "bgranger",
+    "fperez",
+    "mbussonn",
+    "minrk",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

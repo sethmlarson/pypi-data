@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "ansible",
+    "badger",
+    "gmainwaring",
+    "jimi",
+    "mattclay",
+    "nitzmahone",
+    "relrod"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

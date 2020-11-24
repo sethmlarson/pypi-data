@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "brosner",
+    "Fantomas42",
+    "insin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

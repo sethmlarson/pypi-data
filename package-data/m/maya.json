@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dgouldin",
+    "kennethreitz",
+    "tuxtimo"
+  ],
   "requires_dist": {
     "dists": [
       "dateparser",

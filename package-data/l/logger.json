@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Pavel.Paulau"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

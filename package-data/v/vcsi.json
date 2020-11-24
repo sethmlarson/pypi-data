@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "amietn"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2",

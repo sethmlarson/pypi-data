@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "miketheman"
+  ],
   "requires_dist": {
     "dists": [
       "pytest"

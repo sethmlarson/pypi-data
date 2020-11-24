@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "featurelabs",
+    "featurelabs-bot",
+    "kmax12",
+    "rwedge"
+  ],
   "requires_dist": {
     "dists": [
       "click",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "os"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

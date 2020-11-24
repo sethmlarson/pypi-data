@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "crucialfelix"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

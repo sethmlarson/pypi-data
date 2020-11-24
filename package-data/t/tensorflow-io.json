@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "cutlerb",
+    "dmitrievanthony",
+    "kvignesh1420",
+    "terrytangyuan",
+    "vlasenkoalexey",
+    "yongtang"
+  ],
   "requires_dist": {
     "dists": [
       "tensorflow"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "joeyespo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

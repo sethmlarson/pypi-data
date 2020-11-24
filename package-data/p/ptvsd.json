@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "int19h",
+    "kanadig",
+    "microsoft",
+    "pymsft",
+    "Steve.Dower"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

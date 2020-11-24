@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ganik",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [
       "dotnetcore2",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "palewire"
+  ],
   "requires_dist": {
     "dists": [
       "psycopg2"

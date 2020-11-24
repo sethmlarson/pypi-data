@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "avelis",
+    "jazzband",
+    "mtford90"
+  ],
   "requires_dist": {
     "dists": [
       "autopep8",

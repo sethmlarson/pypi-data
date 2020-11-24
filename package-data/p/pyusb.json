@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "eblot",
+    "jonasmalaco",
+    "rnix",
+    "SimplicityGuy",
+    "wander.lairson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "UPPNVU"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

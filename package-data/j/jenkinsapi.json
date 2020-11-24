@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lechat",
+    "salimfadhley"
+  ],
   "requires_dist": {
     "dists": [
       "pytz",

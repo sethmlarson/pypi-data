@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mapboxci",
+    "seang"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

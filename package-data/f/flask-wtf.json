@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "Anthony.Ford",
+    "danjac",
+    "davidism",
+    "dplepage",
+    "lepture",
+    "Ron.DuPlain"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

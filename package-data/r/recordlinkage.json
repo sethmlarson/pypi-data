@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "j535d165"
+  ],
   "requires_dist": {
     "dists": [
       "jellyfish",

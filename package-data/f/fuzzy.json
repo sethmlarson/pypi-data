@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "chmullig",
+    "jaraco"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ashkankiani",
+    "bfredl",
+    "jamessan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

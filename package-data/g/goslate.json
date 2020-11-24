@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "zhuoqiang"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

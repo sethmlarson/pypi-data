@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "josh-paul"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

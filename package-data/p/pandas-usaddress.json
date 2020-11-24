@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lyonk71"
+  ],
   "requires_dist": {
     "dists": [
       "pandas",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "explosion",
+    "inesmontani"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

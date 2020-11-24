@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "johnpaulett"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

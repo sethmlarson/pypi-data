@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wmayner"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

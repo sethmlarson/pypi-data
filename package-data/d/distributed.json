@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "jakirkham",
+    "jrbourbeau",
+    "mrocklin",
+    "tomaugspurger"
+  ],
   "requires_dist": {
     "dists": [
       "click",

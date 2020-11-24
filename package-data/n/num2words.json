@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "erozqba",
+    "sfl"
+  ],
   "requires_dist": {
     "dists": [
       "docopt"

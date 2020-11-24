@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "Anaethelion",
+    "fle",
+    "Gagaro",
+    "gutard",
+    "jec",
+    "leplatrem",
+    "palkeo"
+  ],
   "requires_dist": {
     "dists": [
       "django"

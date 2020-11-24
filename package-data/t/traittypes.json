@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jasongrout",
+    "maartenbreddels",
+    "Sylvain.Corlay"
+  ],
   "requires_dist": {
     "dists": [
       "traitlets"

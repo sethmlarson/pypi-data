@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fabsx00"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

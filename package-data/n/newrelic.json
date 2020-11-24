@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "newrelic"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

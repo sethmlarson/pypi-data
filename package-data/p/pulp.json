@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "js",
+    "pchtsp",
+    "StuartMitchell"
+  ],
   "requires_dist": {
     "dists": [
       "amply"

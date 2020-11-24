@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ask",
+    "auvipy",
+    "mher",
+    "smorin",
+    "the_drow"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

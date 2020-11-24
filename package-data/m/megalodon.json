@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mstoiber"
+  ],
   "requires_dist": {
     "dists": [
       "cython",

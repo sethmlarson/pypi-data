@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "svchipiga"
+  ],
   "requires_dist": {
     "dists": [
       "nose",

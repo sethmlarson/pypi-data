@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "h5py",
+    "matthew.brett",
+    "scopatz",
+    "takowl",
+    "Thomas.Caswell"
+  ],
   "requires_dist": {
     "dists": [
       "cached-property",

@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "ev-br",
+    "matthew.brett",
+    "pv",
+    "rgommers",
+    "rkern",
+    "teoliphant",
+    "treddy"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

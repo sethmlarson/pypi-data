@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "leszek.hanusz",
+    "mvanlonden",
+    "syrusakbary"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

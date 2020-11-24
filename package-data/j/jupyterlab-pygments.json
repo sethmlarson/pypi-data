@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "bgranger",
+    "blink1073",
+    "darian",
+    "jasongrout",
+    "Sylvain.Corlay"
+  ],
   "requires_dist": {
     "dists": [
       "pygments"

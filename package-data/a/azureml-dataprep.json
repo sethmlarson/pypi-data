@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dataprepms",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [
       "azure-identity",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "pombredanne",
+    "wmula"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

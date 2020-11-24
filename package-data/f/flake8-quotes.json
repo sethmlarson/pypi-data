@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "JoeHitchen",
+    "twolfson",
+    "zheller"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

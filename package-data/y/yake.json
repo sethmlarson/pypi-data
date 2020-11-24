@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "arianpasquali",
+    "vitordouzi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

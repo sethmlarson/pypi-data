@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dbnd-dev"
+  ],
   "requires_dist": {
     "dists": [
       "dbnd",
@@ -6,8 +9,8 @@
       "qds-sdk"
     ],
     "specifiers": [
-      "dbnd (==0.30.5)",
-      "dbnd-spark (==0.30.5)",
+      "dbnd (==0.30.6)",
+      "dbnd-spark (==0.30.6)",
       "qds-sdk (==1.13.2)"
     ]
   },

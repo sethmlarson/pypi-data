@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "marselester"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

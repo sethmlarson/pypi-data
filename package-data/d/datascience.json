@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "alvinwan",
+    "davidwagner",
+    "okpy",
+    "samlau95"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

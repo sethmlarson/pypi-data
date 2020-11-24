@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rennat"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

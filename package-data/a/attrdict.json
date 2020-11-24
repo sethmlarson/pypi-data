@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bcj"
+  ],
   "requires_dist": {
     "dists": [
       "six"

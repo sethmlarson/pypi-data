@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "axiak"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "DRMacIver"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "brainstorm",
+    "gbrandl",
+    "mitsuhiko",
+    "scilifelab",
+    "vmalloc"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

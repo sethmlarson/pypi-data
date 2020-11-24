@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "Avipsa1",
+    "CBlaha",
+    "edouard.fouche",
+    "nrausch",
+    "ToniBollinger"
+  ],
   "requires_dist": {
     "dists": [
       "future",

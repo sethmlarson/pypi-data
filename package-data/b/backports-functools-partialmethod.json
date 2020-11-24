@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "PythonBackports"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

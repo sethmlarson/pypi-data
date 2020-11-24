@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ByronBates",
+    "mtrier",
+    "nvie",
+    "Sebastian.Thiel",
+    "yarikoptic"
+  ],
   "requires_dist": {
     "dists": [
       "gitdb"

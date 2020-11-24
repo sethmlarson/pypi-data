@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "capitaloneOS",
+    "fdosani",
+    "ianrobertson85"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dpetzold"
+  ],
   "requires_dist": {
     "dists": [
       "geoip2",

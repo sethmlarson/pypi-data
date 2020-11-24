@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dmsimard",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "cliff",

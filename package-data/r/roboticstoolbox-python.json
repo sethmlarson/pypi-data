@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jhavl",
+    "petercorke"
+  ],
   "requires_dist": {
     "dists": [
       "ansitable",

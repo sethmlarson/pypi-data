@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Aspard",
+    "ltorti"
+  ],
   "requires_dist": {
     "dists": [
       "configparser",

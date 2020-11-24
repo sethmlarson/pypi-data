@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aurzenligl"
+  ],
   "requires_dist": {
     "dists": [
       "future",

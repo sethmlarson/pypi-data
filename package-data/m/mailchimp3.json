@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "charlesthk"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

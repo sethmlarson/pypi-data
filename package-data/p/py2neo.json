@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nigelsmall"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "douglasmiller",
+    "joannasese",
+    "recurly-integrations"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dmeranda"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

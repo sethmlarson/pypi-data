@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "thinkingserious",
+    "twilio-api"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

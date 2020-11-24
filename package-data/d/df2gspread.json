@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "maybelinot"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

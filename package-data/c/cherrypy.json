@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "fumanchu",
+    "jaraco",
+    "Lawouach",
+    "rdelon",
+    "tabo",
+    "webknjaz"
+  ],
   "requires_dist": {
     "dists": [
       "cheroot",

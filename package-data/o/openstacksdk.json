@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "brian.curtin",
+    "openstackci",
+    "terrylhowe"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

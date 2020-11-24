@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "flox",
+    "graffatcolmingov",
+    "jparise"
+  ],
   "requires_dist": {
     "dists": [
       "flake8-polyfill"

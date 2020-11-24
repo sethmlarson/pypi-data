@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "waditu"
+  ],
   "requires_dist": {
     "dists": [
       "bs4",

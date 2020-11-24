@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "djsutho"
+  ],
   "requires_dist": {
     "dists": [
       "django-debug-toolbar"

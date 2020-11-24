@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "duburcqa"
+  ],
   "requires_dist": {
     "dists": [
       "h5py",

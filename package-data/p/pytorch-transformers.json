@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Thomwolf"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

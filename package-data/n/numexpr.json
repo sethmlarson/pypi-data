@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "andreabedini",
+    "falted",
+    "matthew.brett",
+    "robbmcleod"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

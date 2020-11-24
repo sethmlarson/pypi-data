@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aio-libs-bot",
+    "Andrew.Svetlov",
+    "jettify",
+    "popravich"
+  ],
   "requires_dist": {
     "dists": [
       "pymysql"

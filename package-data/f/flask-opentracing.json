@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bensigelman",
+    "calberto.cortez",
+    "kcamenzind",
+    "ror6ax"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

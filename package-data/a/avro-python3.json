@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "Doug.Cutting",
+    "Fokko",
+    "iemejia",
+    "rdblue",
+    "RyanSkraba",
+    "suraj.acharya",
+    "tomwhite"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

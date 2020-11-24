@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ankitkumarr",
+    "dolko",
+    "francisco.gamino",
+    "hanzhangzeng",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "marcogallotta",
+    "slobak",
+    "theaeolianmachine",
+    "tlrobinson"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

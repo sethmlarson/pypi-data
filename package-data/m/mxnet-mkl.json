@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mxnet",
+    "mxnet-ci"
+  ],
   "requires_dist": {
     "dists": [
       "graphviz",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "KimiNewt"
+  ],
   "requires_dist": {
     "dists": [
       "lxml",

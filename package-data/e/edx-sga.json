@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mitx-devops"
+  ],
   "requires_dist": {
     "dists": [
       "web-fragments",

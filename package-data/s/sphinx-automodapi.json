@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bsipocz",
+    "Erik.Tollerud",
+    "robitaille"
+  ],
   "requires_dist": {
     "dists": [
       "sphinx"

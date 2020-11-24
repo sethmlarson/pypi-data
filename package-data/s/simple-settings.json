@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "drgarcia1986"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

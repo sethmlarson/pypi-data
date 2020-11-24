@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "crad",
+    "lukebakken",
+    "tonyg"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

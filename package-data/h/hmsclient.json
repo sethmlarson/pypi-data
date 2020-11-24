@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lanzani"
+  ],
   "requires_dist": {
     "dists": [
       "click",

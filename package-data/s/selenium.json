@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "adamgoucher",
+    "davehunt",
+    "David.Burns",
+    "epall",
+    "hugs",
+    "lmtierney",
+    "lsemerau",
+    "maikroeder",
+    "tebeka"
+  ],
   "requires_dist": {
     "dists": [
       "trio",

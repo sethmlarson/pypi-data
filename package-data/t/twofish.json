@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Filippo.Valsorda",
+    "maxtaco"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

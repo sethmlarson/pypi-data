@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sffjunkie"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "barisits",
+    "garvin",
+    "mlassnig",
+    "serfon"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

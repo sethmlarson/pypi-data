@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "agroszer",
+    "icemac",
+    "jamadden",
+    "mgedmin",
+    "srichter",
+    "tismer",
+    "tseaver",
+    "zope.wheelbuilder",
+    "zope.wineggbuilder"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools"

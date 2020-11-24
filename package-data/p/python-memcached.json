@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jafo"
+  ],
   "requires_dist": {
     "dists": [
       "six"

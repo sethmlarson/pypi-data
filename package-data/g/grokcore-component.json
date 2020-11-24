@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "ctheune",
+    "faassen",
+    "icemac",
+    "jw",
+    "mgedmin",
+    "philikon",
+    "thefunny42"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fantix"
+  ],
   "requires_dist": {
     "dists": [
       "contextvars"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ko-zu"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "johnbonzo",
+    "safwan"
+  ],
   "requires_dist": {
     "dists": [
       "elasticsearch-dsl",

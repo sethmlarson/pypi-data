@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bboe",
+    "jarhill0"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "dateutilbot",
+    "jarondl",
+    "pganssle",
+    "tpievila"
+  ],
   "requires_dist": {
     "dists": [
       "six"

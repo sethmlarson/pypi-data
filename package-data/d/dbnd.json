@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dbnd-dev"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

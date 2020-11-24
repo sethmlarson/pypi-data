@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "librato"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

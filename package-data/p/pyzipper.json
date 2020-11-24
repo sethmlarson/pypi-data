@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "danifus"
+  ],
   "requires_dist": {
     "dists": [
       "pycryptodomex"

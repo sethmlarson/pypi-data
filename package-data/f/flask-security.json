@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "jirikuncar",
+    "jonafato",
+    "lnielsen",
+    "mattupstate"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

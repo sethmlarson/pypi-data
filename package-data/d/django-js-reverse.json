@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "boerni",
+    "Thomas.Grainger"
+  ],
   "requires_dist": {
     "dists": [
       "django"

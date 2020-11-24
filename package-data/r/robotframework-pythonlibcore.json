@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tatu.aalto"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

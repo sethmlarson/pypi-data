@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "William.Zhang",
+    "xyb"
+  ],
   "requires_dist": {
     "dists": [
       "prompt-toolkit",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "davidlbaird",
+    "jmcgeheeiv",
+    "mrbean-bremen"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

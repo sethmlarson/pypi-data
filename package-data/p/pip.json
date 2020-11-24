@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "cjerdonek",
+    "dstufft",
+    "pf_moore",
+    "pradyunsg",
+    "xafer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

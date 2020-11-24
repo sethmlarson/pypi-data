@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ataymano",
+    "gramhagen",
+    "jackgerrits",
+    "pchang"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gabor-boros",
+    "rethinkdb"
+  ],
   "requires_dist": {
     "dists": [
       "six"

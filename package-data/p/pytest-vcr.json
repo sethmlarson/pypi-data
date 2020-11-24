@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ktosiek"
+  ],
   "requires_dist": {
     "dists": [
       "pytest",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "svc_pipy_bioinfo"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "darklow"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

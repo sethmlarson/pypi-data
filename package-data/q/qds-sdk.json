@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "qubole"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

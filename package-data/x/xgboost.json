@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "chohyu01",
+    "phunter",
+    "tqchen"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

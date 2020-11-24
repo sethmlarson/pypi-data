@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ahupp"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

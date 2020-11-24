@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "khalas"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jlhutch"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mailchimp"
+  ],
   "requires_dist": {
     "dists": [
       "docopt",

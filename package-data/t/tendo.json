@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "nhooey",
+    "pycontribs",
+    "sorin",
+    "ssbarnea"
+  ],
   "requires_dist": {
     "dists": [
       "pbr",

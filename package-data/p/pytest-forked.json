@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "nicoddemus",
+    "ronny",
+    "untitaker"
+  ],
   "requires_dist": {
     "dists": [
       "py",

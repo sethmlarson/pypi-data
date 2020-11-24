@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "joris.roovers"
+  ],
   "requires_dist": {
     "dists": [
       "arrow",

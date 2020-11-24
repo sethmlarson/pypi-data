@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "aleneum",
+    "tyarkoni"
+  ],
   "requires_dist": {
     "dists": [
       "six"

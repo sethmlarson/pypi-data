@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "alexis.metaireau",
+    "glasserc",
+    "leplatrem",
+    "mythmon",
+    "n1k0",
+    "Natim",
+    "rafrombrc",
+    "rfk",
+    "tarek"
+  ],
   "requires_dist": {
     "dists": [
       "pyramid",

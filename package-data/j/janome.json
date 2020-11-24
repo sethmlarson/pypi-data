@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "moco_beta"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

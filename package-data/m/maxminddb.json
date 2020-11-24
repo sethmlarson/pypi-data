@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "oschwald",
+    "wstorey"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

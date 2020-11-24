@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "innixma",
+    "jonasm",
+    "zhanghang0704",
+    "zhreshold"
+  ],
   "requires_dist": {
     "dists": [
       "autogluon.core",

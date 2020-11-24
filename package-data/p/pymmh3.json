@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "alahmed"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

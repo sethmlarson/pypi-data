@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "RamonHagenaars"
+  ],
   "requires_dist": {
     "dists": [
       "typish"

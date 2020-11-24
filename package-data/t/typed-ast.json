@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "guido",
+    "jukkal",
+    "msullivan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

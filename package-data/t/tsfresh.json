@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jneuff",
+    "MaxChrist",
+    "nbraun"
+  ],
   "requires_dist": {
     "dists": [
       "dask",

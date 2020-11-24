@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mhchia",
+    "sbuss",
+    "zixuanzh"
+  ],
   "requires_dist": {
     "dists": [
       "base58",

@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "betatim",
+    "consideRatio",
+    "irose",
+    "jupyterhub-bot",
+    "minrk",
+    "nbserverproxy",
+    "rylo",
+    "yuvipanda"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Aaron.Mildenstein",
+    "honza.kral"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

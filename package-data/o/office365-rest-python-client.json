@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dom.dinicola",
+    "kgadek",
+    "vgrem"
+  ],
   "requires_dist": {
     "dists": [
       "msal",

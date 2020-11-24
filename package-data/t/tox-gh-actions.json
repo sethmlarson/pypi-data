@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ymyzk"
+  ],
   "requires_dist": {
     "dists": [
       "tox",

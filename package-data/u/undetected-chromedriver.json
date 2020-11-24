@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ultrafunkamsterdam"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lbud4"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

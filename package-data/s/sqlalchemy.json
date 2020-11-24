@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "CaselIT",
+    "pjenvey",
+    "zzzeek"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

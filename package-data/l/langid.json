@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "saffsd"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "google_opensource",
+    "jonparrott"
+  ],
   "requires_dist": {
     "dists": [
       "google-auth",

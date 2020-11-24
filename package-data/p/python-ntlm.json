@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "joeforker"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

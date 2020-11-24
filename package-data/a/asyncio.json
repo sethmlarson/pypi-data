@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dstufft",
+    "guido"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dimsi",
+    "fk"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

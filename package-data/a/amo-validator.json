@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "diox",
+    "mstriemer",
+    "muffinresearch"
+  ],
   "requires_dist": {
     "dists": [
       "argparse",

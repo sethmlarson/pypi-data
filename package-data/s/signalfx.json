@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mpetazzoni",
+    "ramjothikumar",
+    "signalfx.pypi"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

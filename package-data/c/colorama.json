@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "tartley",
+    "wiggin15"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

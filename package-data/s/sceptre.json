@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sceptre"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

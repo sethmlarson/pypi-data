@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bgranger",
+    "Jake.Vanderplas"
+  ],
   "requires_dist": {
     "dists": [
       "entrypoints",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "hms_pypi"
+  ],
   "requires_dist": {
     "dists": [
       "benchmark-4dn",

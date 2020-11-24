@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jaredhobbs"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

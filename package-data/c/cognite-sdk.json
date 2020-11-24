@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cognitedeploy",
+    "erlendcognite"
+  ],
   "requires_dist": {
     "dists": [
       "pandas",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "robotframework",
+    "tatu.aalto",
+    "yanne"
+  ],
   "requires_dist": {
     "dists": [
       "robotframework",

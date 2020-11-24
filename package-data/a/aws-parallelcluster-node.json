@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aws-cfncluster"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

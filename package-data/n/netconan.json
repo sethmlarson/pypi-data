@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "arifogel",
+    "dhalperi",
+    "fraint",
+    "progwriter"
+  ],
   "requires_dist": {
     "dists": [
       "bidict",

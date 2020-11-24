@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "basictracer",
+    "bensigelman",
+    "calberto.cortez",
+    "shkuro"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

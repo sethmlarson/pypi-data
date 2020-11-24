@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tim.golden"
+  ],
   "requires_dist": {
     "dists": [
       "pywin32"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "aws-cdk",
+    "cdk8s"
+  ],
   "requires_dist": {
     "dists": [
       "jsii",

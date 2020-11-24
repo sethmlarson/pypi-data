@@ -1,4 +1,18 @@
 {
+  "publishers": [
+    "bgranger",
+    "fperez",
+    "ivanov",
+    "jhamrick",
+    "Kyle.Kelley",
+    "mbussonn",
+    "mdpacer",
+    "minrk",
+    "mpacer",
+    "MSeal",
+    "Sylvain.Corlay",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "ipython-genutils",

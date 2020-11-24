@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "dataflake",
+    "hannosch",
+    "icemac",
+    "tseaver",
+    "zope.wheelbuilder",
+    "zope.wineggbuilder"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

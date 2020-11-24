@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "fabiang",
+    "frog32",
+    "matthiask"
+  ],
   "requires_dist": {
     "dists": [
       "django",

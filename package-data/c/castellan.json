@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dmend",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography",

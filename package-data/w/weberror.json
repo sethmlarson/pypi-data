@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bbangert",
+    "xistence"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

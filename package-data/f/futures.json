@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "agronholm",
+    "bquinlan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

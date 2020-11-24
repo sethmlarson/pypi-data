@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "chris.laws"
+  ],
   "requires_dist": {
     "dists": [
       "quantile-python"

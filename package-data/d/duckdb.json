@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "hfmuehleisen",
+    "Mytherin"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

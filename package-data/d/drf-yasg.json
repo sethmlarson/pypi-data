@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cvijdea",
+    "joellefkowitz"
+  ],
   "requires_dist": {
     "dists": [
       "coreapi",

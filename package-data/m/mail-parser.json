@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fmantuano"
+  ],
   "requires_dist": {
     "dists": [
       "ipaddress",
@@ -6,9 +9,9 @@
       "six"
     ],
     "specifiers": [
-      "ipaddress (==1.0.23)",
-      "simplejson (==3.17.0)",
-      "six (==1.14.0)"
+      "ipaddress (>=1.0.23); python_version<'3.3'",
+      "simplejson (>=3.17.0)",
+      "six (>=1.14.0)"
     ]
   },
   "requires_extras": {},

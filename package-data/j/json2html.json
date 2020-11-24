@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "softvar"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

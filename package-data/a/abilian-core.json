@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sfermigier"
+  ],
   "requires_dist": {
     "dists": [
       "alembic",

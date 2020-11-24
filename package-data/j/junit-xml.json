@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Brian.Beyer"
+  ],
   "requires_dist": {
     "dists": [
       "six"

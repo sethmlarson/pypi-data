@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Ian-Foote",
+    "meshy"
+  ],
   "requires_dist": {
     "dists": [
       "blessings",

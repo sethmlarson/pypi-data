@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "daira",
+    "mitsuhiko",
+    "takowl",
+    "Thomas.Grainger"
+  ],
   "requires_dist": {
     "dists": [
       "fissix"

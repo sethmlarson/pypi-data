@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "koed00"
+  ],
   "requires_dist": {
     "dists": [
       "arrow",

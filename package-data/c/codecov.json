@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "drazisil",
+    "hootener",
+    "thomasrockhu"
+  ],
   "requires_dist": {
     "dists": [
       "coverage",

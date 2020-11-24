@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "edx"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

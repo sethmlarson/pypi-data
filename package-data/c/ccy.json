@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lsbardel"
+  ],
   "requires_dist": {
     "dists": [
       "python-dateutil",

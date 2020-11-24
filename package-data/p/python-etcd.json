@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Jose.Plana"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

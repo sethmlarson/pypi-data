@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "argentpepper"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

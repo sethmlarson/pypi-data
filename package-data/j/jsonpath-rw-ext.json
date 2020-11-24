@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "cdent",
+    "jd",
+    "sileht"
+  ],
   "requires_dist": {
     "dists": [
       "jsonpath-rw",

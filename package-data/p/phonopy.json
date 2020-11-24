@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "atztogo",
+    "jochym"
+  ],
   "requires_dist": {
     "dists": [
       "h5py",

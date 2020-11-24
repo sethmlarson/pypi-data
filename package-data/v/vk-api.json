@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "python273",
+    "python273_travisci"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

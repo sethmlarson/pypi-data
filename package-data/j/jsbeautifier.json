@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bitwiseman",
+    "Richard.Bronosky"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mysql_re_team"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

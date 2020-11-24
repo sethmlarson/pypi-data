@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Eric89GXL"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

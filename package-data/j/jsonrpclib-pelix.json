@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Thomas.Calmant"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

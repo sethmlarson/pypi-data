@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mwaskom"
+  ],
   "requires_dist": {
     "dists": [
       "matplotlib",

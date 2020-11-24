@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "pgomezvmware",
+    "vmwarevcd"
+  ],
   "requires_dist": {
     "dists": [
       "humanfriendly",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "klingerdinger"
+  ],
   "requires_dist": {
     "dists": [
       "geojson",

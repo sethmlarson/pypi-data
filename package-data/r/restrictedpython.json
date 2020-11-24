@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "agroszer",
+    "dataflake",
+    "davisagli",
+    "hannosch",
+    "icemac",
+    "J1m",
+    "mgedmin",
+    "tlotze",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

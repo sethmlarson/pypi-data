@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Apalala"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

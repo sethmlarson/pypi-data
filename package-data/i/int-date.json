@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jealous"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

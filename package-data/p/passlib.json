@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "elic"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

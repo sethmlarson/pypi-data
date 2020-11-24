@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "yuanming-hu"
+  ],
   "requires_dist": {
     "dists": [
       "astor",

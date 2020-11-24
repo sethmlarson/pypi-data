@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "John.Mark.Vandenberg",
+    "ryanhiebert",
+    "ryanhiebert-auto"
+  ],
   "requires_dist": {
     "dists": [
       "tox"

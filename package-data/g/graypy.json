@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "nklapste",
+    "severb"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "pkern",
+    "themill"
+  ],
   "requires_dist": {
     "dists": [
       "chardet",

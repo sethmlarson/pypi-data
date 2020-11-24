@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "macbre"
+  ],
   "requires_dist": {
     "dists": [
       "sqlparse"

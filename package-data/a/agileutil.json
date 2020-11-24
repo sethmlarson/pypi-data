@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lycclsltt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

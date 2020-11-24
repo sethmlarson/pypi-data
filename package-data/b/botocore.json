@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "aws",
+    "garnaat"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

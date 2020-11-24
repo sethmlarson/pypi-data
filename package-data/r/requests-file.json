@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dshea"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

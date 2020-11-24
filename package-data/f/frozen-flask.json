@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "honzajavorek",
+    "max-k",
+    "SimonSapin",
+    "TimSwast"
+  ],
   "requires_dist": {
     "dists": [
       "flask"

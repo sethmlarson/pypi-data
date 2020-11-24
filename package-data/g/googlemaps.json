@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "chrisarriola",
+    "googlemaps-bot",
+    "justinwp"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

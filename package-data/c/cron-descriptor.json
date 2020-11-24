@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Salamek"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

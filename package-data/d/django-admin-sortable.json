@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "btaylorweb"
+  ],
   "requires_dist": {
     "dists": [
       "django"

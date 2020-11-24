@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jrbourbeau",
+    "tomaugspurger"
+  ],
   "requires_dist": {
     "dists": [
       "dask-glm",

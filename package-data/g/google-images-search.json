@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "arrrlo"
+  ],
   "requires_dist": {
     "dists": [
       "click",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dedie"
+  ],
   "requires_dist": {
     "dists": [
       "jsonrpclib-pelix",

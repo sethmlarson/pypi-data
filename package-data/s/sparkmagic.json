@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bgranger",
+    "hdinsightmsftagu",
+    "mbussonn",
+    "minrk"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

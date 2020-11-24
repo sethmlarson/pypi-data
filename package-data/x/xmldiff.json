@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "agroszer",
+    "alga",
+    "gotcha",
+    "kedder",
+    "logilab",
+    "regebro",
+    "srichter"
+  ],
   "requires_dist": {
     "dists": [
       "lxml",

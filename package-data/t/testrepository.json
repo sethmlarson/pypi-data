@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "free.ekanayaka",
+    "lifeless"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

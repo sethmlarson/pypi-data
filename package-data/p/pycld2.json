@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aboSamoor"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

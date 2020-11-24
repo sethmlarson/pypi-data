@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mwouts"
+  ],
   "requires_dist": {
     "dists": [
       "markdown-it-py",

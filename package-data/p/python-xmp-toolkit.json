@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lnielsen"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

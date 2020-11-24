@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "joowani"
+  ],
   "requires_dist": {
     "dists": [
       "pyjwt",

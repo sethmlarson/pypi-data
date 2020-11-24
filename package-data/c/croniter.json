@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "kiorky",
+    "taichino"
+  ],
   "requires_dist": {
     "dists": [
       "natsort",

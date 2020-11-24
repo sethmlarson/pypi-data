@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tmbo"
+  ],
   "requires_dist": {
     "dists": [
       "prompt_toolkit"

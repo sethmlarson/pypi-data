@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "peke",
+    "rantanen",
+    "robotframework",
+    "yanne"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

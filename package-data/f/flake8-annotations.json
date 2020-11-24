@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sco1"
+  ],
   "requires_dist": {
     "dists": [
       "flake8",

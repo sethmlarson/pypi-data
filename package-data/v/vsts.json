@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "microsoft",
+    "tedchamb"
+  ],
   "requires_dist": {
     "dists": [
       "msrest"

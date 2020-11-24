@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "graffatcolmingov",
+    "jborean93",
+    "Lukasa",
+    "mastahyeti",
+    "nitzmahone"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography",

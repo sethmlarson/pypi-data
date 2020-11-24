@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "google_opensource",
+    "tfx_oss",
+    "zhitaoli.google",
+    "zhuo_at_goog"
+  ],
   "requires_dist": {
     "dists": [
       "absl-py",

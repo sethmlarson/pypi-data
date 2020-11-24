@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jrbourbeau",
+    "mrocklin"
+  ],
   "requires_dist": {
     "dists": [
       "heapdict"

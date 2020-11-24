@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "clayg",
+    "kmgreen2",
+    "openstackci",
+    "thiagodasilva",
+    "tsg"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "c4urself",
+    "ekohl"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

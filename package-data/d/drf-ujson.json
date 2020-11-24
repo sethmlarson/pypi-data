@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jacob.haslehurst"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pkittenis"
+  ],
   "requires_dist": {
     "dists": [
       "gevent",

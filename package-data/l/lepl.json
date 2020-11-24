@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "andrewcooke"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

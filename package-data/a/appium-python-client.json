@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "imurchie",
+    "KazuCocoa"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

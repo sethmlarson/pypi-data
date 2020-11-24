@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "adyen",
+    "IgorAdyen"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

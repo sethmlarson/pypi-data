@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "rapidsai",
+    "raydouglass"
+  ],
   "requires_dist": {
     "dists": [
       "dask",

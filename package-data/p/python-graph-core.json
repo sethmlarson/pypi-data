@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "agroszer",
+    "pmatiello",
+    "regebro"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

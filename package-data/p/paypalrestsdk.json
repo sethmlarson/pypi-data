@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "paypal"
+  ],
   "requires_dist": {
     "dists": [
       "braintreehttp"

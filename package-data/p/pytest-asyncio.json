@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "hpk",
+    "nicoddemus",
+    "tinchester"
+  ],
   "requires_dist": {
     "dists": [
       "async-generator",

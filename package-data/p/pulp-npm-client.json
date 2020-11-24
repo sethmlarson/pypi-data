@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pulp"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

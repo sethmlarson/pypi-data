@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "isadaqah",
+    "wbond"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

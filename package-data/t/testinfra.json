@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "philpep"
+  ],
   "requires_dist": {
     "dists": [
       "pytest-testinfra"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "araczkowski"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

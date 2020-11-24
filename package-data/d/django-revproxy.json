@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "penguin_brian",
+    "seocam"
+  ],
   "requires_dist": {
     "dists": [
       "django",

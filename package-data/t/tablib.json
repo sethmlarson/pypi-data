@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "iurisilvio",
+    "jazzband",
+    "kennethreitz",
+    "tuxtimo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

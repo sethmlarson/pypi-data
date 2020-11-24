@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "giampaolo.rodola"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mattrobenolt"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2"

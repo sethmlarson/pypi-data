@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ColinDuquesnoy",
+    "dpizetta"
+  ],
   "requires_dist": {
     "dists": [
       "helpdev",

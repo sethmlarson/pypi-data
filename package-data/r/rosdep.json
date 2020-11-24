@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "dthomas",
+    "nuclearsandwich",
+    "sloretz",
+    "tfoote",
+    "wwoodall"
+  ],
   "requires_dist": {
     "dists": [
       "catkin-pkg",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vmagamedov"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

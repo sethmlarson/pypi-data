@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rmk"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

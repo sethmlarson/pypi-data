@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Terence.Honles",
+    "verigak"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

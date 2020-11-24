@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mikedh"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

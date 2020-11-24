@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "carver",
+    "cburgdorf",
+    "gsalgado",
+    "nick.ghita",
+    "pipermerriam"
+  ],
   "requires_dist": {
     "dists": [
       "cytoolz",

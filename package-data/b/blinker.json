@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jek"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

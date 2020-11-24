@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "carlio",
+    "chocoelho"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

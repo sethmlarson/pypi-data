@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "EdinburghGenomeFoundry"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

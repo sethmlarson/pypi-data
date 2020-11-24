@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "azure-sdk"
+  ],
   "requires_dist": {
     "dists": [
       "tox"

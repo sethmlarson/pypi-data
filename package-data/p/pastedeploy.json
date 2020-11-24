@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "agronholm",
+    "cdent",
+    "haypo",
+    "ianb",
+    "mmerickel"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools"

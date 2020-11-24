@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "google_opensource"
+  ],
   "requires_dist": {
     "dists": [
       "absl-py",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "DocumentDB"
+  ],
   "requires_dist": {
     "dists": [
       "azure-common",

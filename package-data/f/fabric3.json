@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mati"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

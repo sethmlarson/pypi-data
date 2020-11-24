@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "kurtraschke"
+  ],
   "requires_dist": {
     "dists": [
       "pytz"

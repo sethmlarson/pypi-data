@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lidatong"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Michal.Danilk"
+  ],
   "requires_dist": {
     "dists": [
       "six"

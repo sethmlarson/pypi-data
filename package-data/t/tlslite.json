@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "trevp",
+    "xeger"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

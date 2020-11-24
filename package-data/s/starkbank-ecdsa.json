@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "cdottori-stark",
+    "matheuscferraz",
+    "rcmstark"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

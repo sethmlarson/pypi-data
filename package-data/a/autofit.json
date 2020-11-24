@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Jammy2211",
+    "rhayes777"
+  ],
   "requires_dist": {
     "dists": [
       "autoconf",

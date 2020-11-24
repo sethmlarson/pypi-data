@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cr0hn"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

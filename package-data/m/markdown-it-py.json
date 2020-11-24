@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cjsewell",
+    "ebp-bot"
+  ],
   "requires_dist": {
     "dists": [
       "attrs"

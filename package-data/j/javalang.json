@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "c2nes"
+  ],
   "requires_dist": {
     "dists": [
       "six"

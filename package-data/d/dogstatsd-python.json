@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "alq666",
+    "bunelr",
+    "cbranagan",
+    "clofresh",
+    "clutchski",
+    "mattdog",
+    "yannmh"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mdmintz"
+  ],
   "requires_dist": {
     "dists": [
       "allure-pytest",

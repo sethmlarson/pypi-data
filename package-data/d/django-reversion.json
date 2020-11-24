@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "etianen"
+  ],
   "requires_dist": {
     "dists": [
       "django"

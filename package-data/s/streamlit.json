@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "karrie-streamlit",
+    "treuille",
+    "tvst"
+  ],
   "requires_dist": {
     "dists": [
       "altair",

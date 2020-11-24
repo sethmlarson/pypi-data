@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "cklinger",
+    "faassen",
+    "janjaapdriessen",
+    "jw",
+    "thefunny42",
+    "trollfot"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

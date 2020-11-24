@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Martin.Raspaud",
+    "storpipfugl"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

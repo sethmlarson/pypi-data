@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Joshua.Harlow",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "pbr",

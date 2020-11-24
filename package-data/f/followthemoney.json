@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "jnn",
+    "occrp",
+    "pudo",
+    "sunu"
+  ],
   "requires_dist": {
     "dists": [
       "babel",

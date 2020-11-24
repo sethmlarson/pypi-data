@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "doukremt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

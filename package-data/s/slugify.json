@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "disturbyte"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

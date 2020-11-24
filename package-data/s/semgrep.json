@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "brendongo",
+    "r2c-drewdennison"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

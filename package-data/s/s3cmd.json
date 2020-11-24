@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "brandonrhodes",
+    "fviard",
+    "ghickman",
+    "matt.domsch.com"
+  ],
   "requires_dist": {
     "dists": [
       "python-dateutil",

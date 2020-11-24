@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "antocuni",
+    "fijal",
+    "ronny"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

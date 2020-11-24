@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dfmartins"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

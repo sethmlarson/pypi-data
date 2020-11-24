@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dropboxapi"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

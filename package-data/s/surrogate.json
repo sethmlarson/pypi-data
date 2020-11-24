@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "JASchilz"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

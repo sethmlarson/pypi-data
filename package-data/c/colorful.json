@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tuxtimo"
+  ],
   "requires_dist": {
     "dists": [
       "colorama"

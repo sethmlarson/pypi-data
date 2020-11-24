@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aws-serverlessrepo-developers"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

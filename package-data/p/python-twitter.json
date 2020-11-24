@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "batlogg",
+    "bear",
+    "dclinton",
+    "jcbl"
+  ],
   "requires_dist": {
     "dists": [
       "future",

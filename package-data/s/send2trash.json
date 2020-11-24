@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "arsenetar",
+    "hsoft"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

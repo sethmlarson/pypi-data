@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tbielawa"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

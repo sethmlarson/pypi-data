@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "client-engineering-bot",
+    "davidnub",
+    "pubnub"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

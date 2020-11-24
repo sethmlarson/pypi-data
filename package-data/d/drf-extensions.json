@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "auvipy",
+    "mynameis"
+  ],
   "requires_dist": {
     "dists": [
       "djangorestframework"

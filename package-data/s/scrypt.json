@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "holgern",
+    "mhallin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

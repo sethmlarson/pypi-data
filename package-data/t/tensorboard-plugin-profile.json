@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "xprofplugin"
+  ],
   "requires_dist": {
     "dists": [
       "gviz-api",

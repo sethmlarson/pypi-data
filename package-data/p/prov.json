@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "trungdong"
+  ],
   "requires_dist": {
     "dists": [
       "lxml",

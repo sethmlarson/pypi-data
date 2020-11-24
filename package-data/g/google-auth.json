@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "gcloudpypi",
+    "google_opensource",
+    "theacodes"
+  ],
   "requires_dist": {
     "dists": [
       "cachetools",

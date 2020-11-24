@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "crad"
+  ],
   "requires_dist": {
     "dists": [
       "pamqp"

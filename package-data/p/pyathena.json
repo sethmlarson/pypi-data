@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "laughingman7743"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

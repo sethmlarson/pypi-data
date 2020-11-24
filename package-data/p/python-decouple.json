@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "henriquebastos"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

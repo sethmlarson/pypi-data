@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "m.burst"
+  ],
   "requires_dist": {
     "dists": [
       "flake8-plugin-utils"

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dstufft",
+    "glyph",
+    "releasebot.publication"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "glyph",
+    "mhammond",
+    "pf_moore"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

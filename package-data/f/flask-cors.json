@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "corydolphin",
+    "wcdolphin"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

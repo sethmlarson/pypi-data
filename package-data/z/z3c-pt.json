@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "chrism",
+    "dataflake",
+    "hannosch",
+    "icemac",
+    "jamadden",
+    "malthe",
+    "srichter",
+    "wichert"
+  ],
   "requires_dist": {
     "dists": [
       "chameleon",

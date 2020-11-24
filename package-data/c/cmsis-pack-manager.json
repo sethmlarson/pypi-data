@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "crflit",
+    "mathias-arm",
+    "MbedTestTools"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

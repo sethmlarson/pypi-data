@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bgaifullin",
+    "hoefling",
+    "mehcode"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lukecyca",
+    "neothematrix"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

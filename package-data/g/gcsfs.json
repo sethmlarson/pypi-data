@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jcrist",
+    "mdurant",
+    "tomaugspurger"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

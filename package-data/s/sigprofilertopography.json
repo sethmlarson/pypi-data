@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "burcakotlu"
+  ],
   "requires_dist": {
     "dists": [
       "fastrand",

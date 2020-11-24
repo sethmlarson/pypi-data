@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "kieranwynn"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

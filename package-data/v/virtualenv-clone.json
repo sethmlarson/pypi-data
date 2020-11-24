@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "edwardgeorge",
+    "eeshangarg",
+    "tabbott"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

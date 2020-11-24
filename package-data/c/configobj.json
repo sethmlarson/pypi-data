@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "EliAndrewC",
+    "Fuzzyman",
+    "jh",
+    "Rob.Dennis"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

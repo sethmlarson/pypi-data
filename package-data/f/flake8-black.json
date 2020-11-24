@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "peterjc"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

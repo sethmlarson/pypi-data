@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "gatorsmile",
+    "HaejoonLee",
+    "hyukjinkwon",
+    "rxin",
+    "thunterdb",
+    "ueshin",
+    "xinrong-databricks"
+  ],
   "requires_dist": {
     "dists": [
       "matplotlib",

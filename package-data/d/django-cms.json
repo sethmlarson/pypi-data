@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "aldryn",
+    "christianbertschy",
+    "czpython",
+    "djangocms",
+    "FinalAngel",
+    "Thaian",
+    "yakky"
+  ],
   "requires_dist": {
     "dists": [
       "django",

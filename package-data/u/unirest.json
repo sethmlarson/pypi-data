@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mashape"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

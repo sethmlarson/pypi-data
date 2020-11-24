@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "glyph",
+    "markrwilliams"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

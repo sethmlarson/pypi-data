@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "agsolino"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

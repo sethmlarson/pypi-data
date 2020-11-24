@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "evansd"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

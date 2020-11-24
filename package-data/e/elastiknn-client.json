@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "alexklibisz"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

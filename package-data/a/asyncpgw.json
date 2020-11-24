@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "furimu"
+  ],
   "requires_dist": {
     "dists": [
       "asyncpg"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "waqaraqeel"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

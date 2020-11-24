@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mnooner256"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

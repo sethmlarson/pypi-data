@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mercuree"
+  ],
   "requires_dist": {
     "dists": [
       "lxml",

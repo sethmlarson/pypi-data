@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "robotis",
+    "saschpe"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

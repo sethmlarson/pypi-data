@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Gennady.Trafimenkov"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

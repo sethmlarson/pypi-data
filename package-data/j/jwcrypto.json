@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "puiterwijk",
+    "puiterwijk.id.fedoraproject.org",
+    "tiran"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography"

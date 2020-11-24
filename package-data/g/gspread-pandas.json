@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aiguofer"
+  ],
   "requires_dist": {
     "dists": [
       "decorator",

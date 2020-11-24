@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "brunobord"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

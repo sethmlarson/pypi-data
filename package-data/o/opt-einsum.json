@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dgasmith",
+    "lnaden",
+    "loriab"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "geowurster",
+    "seang"
+  ],
   "requires_dist": {
     "dists": [
       "argparse",

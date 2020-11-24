@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "alahmed",
+    "guangning",
+    "ivankelly",
+    "jerrypeng",
+    "jiazhai",
+    "merlimat",
+    "penghui",
+    "sijieg",
+    "xiaolongran"
+  ],
   "requires_dist": {
     "dists": [
       "apache-bookkeeper-client",

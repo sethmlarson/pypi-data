@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Anorov"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

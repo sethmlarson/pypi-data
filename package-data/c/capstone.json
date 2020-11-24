@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aquynh",
+    "qilingframework",
+    "rhelmot"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

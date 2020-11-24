@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "guido",
+    "ilevkivskyi",
+    "jukkal",
+    "msullivan"
+  ],
   "requires_dist": {
     "dists": [
       "typing"

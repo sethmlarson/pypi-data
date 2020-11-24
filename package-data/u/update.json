@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lmittmann"
+  ],
   "requires_dist": {
     "dists": [
       "style"

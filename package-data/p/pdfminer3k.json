@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "canserhat77"
+  ],
   "requires_dist": {
     "dists": [
       "ply"

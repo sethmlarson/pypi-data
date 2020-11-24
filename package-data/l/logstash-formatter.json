@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bruno",
+    "pyr",
+    "thoas"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

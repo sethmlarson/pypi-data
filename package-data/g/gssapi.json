@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "DirectXMan12",
+    "rharwood",
+    "sigmaris"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

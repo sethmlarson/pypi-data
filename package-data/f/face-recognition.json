@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ageitgey"
+  ],
   "requires_dist": {
     "dists": [
       "click",

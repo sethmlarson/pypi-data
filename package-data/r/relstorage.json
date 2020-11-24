@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "hathawsh",
+    "J1m",
+    "jamadden"
+  ],
   "requires_dist": {
     "dists": [
       "btrees",

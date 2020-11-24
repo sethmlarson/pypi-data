@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jazzband",
+    "nvie"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

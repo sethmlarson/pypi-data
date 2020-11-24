@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "kjd"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "andriirr",
+    "mhartzel"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

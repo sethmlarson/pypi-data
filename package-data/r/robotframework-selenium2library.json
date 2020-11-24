@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "emanlove",
+    "j1z0",
+    "peke",
+    "rtomac",
+    "tatu.aalto",
+    "zephraph"
+  ],
   "requires_dist": {
     "dists": [
       "robotframework-seleniumlibrary"

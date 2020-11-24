@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "dcramer",
+    "disqus",
+    "mattrobenolt",
+    "tabbott",
+    "tail"
+  ],
   "requires_dist": {
     "dists": [
       "django",

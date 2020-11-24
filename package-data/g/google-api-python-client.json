@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "gcloudpypi",
+    "google_opensource",
+    "jonparrott",
+    "Nathaniel.Manista",
+    "tmatsuo"
+  ],
   "requires_dist": {
     "dists": [
       "google-api-core",

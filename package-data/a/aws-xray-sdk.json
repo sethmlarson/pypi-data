@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "aws",
+    "aws-xray"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

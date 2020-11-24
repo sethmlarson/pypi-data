@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "andreaspelme",
+    "bluetech",
+    "blueyed",
+    "nicoddemus"
+  ],
   "requires_dist": {
     "dists": [
       "pytest"

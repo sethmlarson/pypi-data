@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "abravalheri",
+    "Florian.Wilhelm"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

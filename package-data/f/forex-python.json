@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Micropyramid"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

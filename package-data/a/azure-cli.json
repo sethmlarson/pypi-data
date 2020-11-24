@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "azpycli",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [
       "antlr4-python3-runtime",

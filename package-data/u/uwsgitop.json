@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "unbit",
+    "xrmx"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

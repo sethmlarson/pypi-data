@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "brian.curtin"
+  ],
   "requires_dist": {
     "dists": [
       "packaging"

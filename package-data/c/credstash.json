@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mike-fugue",
+    "schoof",
+    "wayne-fugue"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

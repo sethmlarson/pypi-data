@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "codecommit"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

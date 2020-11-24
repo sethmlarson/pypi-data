@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "deschler",
+    "partizan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

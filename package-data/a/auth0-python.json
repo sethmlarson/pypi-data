@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "aaguiar",
+    "auth0"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

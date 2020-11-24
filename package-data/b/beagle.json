@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "4383",
+    "doughellmann"
+  ],
   "requires_dist": {
     "dists": [
       "cliff",

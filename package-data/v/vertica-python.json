@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "alex.ji.kim",
+    "gabrielhaim",
+    "jberka",
+    "sectioneight",
+    "sitingren",
+    "vertica"
+  ],
   "requires_dist": {
     "dists": [
       "python-dateutil",

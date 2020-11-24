@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "anselor",
+    "catherinedevlin",
+    "FedericoCeratto",
+    "kmvanbrunt",
+    "kotfu",
+    "tleonhardt"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

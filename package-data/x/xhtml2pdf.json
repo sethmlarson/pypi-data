@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "benjaoming",
+    "chrisglass",
+    "dyu",
+    "lanshark",
+    "luisza",
+    "Samuel.Spencer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

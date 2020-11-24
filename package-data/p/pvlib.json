@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bwanamarko",
+    "wholmgren"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

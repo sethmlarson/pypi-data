@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "cmayer-ms",
+    "danade-ms",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

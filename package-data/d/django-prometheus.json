@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "asherf",
+    "korfuri"
+  ],
   "requires_dist": {
     "dists": [
       "prometheus-client"

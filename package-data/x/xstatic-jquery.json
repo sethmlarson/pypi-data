@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "openstackci",
+    "robcresswell",
+    "sheep",
+    "ThomasWaldmann"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

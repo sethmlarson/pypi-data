@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "b0noi",
+    "gcloudpypi",
+    "mikehcheng",
+    "ojarjur"
+  ],
   "requires_dist": {
     "dists": [
       "configparser",

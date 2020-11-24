@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cboylan",
+    "corvus",
+    "openstackci",
+    "zxiiro"
+  ],
   "requires_dist": {
     "dists": [
       "fasteners",

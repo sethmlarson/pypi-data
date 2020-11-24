@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "peter-hamilton"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

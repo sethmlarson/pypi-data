@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jason0916"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

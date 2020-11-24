@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dayures",
+    "Wikier"
+  ],
   "requires_dist": {
     "dists": [
       "rdflib"

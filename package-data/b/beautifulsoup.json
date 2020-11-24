@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "leonard"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

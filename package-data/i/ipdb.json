@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gnebehay",
+    "gotcha"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

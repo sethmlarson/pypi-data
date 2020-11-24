@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vinit.kumar"
+  ],
   "requires_dist": {
     "dists": [
       "dicttoxml",

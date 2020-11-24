@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "adsri",
+    "johnbelamaric",
+    "rav28",
+    "sbidari",
+    "ssastry",
+    "yuewko"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

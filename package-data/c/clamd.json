@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Thomas.Grainger"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "alexprengere",
+    "KelSolaar",
+    "libwilliam"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

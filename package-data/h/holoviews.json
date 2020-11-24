@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ioam"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

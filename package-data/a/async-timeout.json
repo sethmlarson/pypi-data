@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "aio-libs-bot",
+    "Andrew.Svetlov"
+  ],
   "requires_dist": {
     "dists": [
       "typing-extensions"

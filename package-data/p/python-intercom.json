@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "intercom",
+    "jkeyes"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

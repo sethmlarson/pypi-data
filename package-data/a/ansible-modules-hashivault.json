@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "terrylhowe"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

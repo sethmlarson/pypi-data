@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "scanny"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

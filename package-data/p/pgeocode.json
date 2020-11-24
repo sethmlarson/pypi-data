@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ryurchak"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

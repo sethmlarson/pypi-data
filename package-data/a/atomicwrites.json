@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "untitaker"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

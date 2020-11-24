@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mongkok"
+  ],
   "requires_dist": {
     "dists": [
       "django",

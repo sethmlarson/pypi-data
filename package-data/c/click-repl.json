@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "geier",
+    "untitaker"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

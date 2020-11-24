@@ -1,4 +1,16 @@
 {
+  "publishers": [
+    "bgranger",
+    "fperez",
+    "jasongrout",
+    "jhamrick",
+    "Jonathan.Frederic",
+    "Kyle.Kelley",
+    "mbussonn",
+    "minrk",
+    "Sylvain.Corlay",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "ipykernel",

@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "anemitz",
+    "ashpak",
+    "losintikfos",
+    "naumanahmad",
+    "rozza",
+    "the_drow",
+    "wojcikstefan"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

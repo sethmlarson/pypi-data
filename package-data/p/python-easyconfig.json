@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "RussellLuo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "neo4j",
+    "nigelsmall"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

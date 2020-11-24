@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mcarans"
+  ],
   "requires_dist": {
     "dists": [
       "basicauth",

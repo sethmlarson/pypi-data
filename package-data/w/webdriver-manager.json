@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "SergeyPirogov"
+  ],
   "requires_dist": {
     "dists": [
       "configparser",

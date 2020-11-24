@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fnl"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

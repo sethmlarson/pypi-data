@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cmcqueen1975"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

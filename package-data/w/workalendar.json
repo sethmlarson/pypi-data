@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "brunobord",
+    "kael",
+    "tbcvl",
+    "zebuline"
+  ],
   "requires_dist": {
     "dists": [
       "lunardate",

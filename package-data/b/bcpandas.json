@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "yehoshuadimarsky"
+  ],
   "requires_dist": {
     "dists": [
       "pandas",

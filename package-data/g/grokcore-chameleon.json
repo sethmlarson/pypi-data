@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cklinger",
+    "jw",
+    "thefunny42",
+    "ulif"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

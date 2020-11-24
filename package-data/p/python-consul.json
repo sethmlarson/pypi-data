@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "abn",
+    "cablehead",
+    "python-consul-admin"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

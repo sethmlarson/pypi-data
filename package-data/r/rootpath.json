@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "grimen"
+  ],
   "requires_dist": {
     "dists": [
       "codecov",

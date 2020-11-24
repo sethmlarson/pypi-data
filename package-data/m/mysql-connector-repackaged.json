@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "iElectric"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

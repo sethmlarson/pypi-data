@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cjmarkie",
+    "matthew.brett"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

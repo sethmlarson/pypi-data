@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "confluent",
+    "ewencp"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

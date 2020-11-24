@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "rfaircloth-splunk",
+    "splunkdev"
+  ],
   "requires_dist": {
     "dists": [
       "beautifulsoup4",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "asarb",
+    "mikhail.semeniuk"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

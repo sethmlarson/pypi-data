@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "icholy"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

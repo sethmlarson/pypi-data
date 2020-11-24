@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aaronsw",
+    "anandology",
+    "cclauss",
+    "zhb"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

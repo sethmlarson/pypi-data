@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "di",
+    "dstufft",
+    "graffatcolmingov",
+    "jaraco"
+  ],
   "requires_dist": {
     "dists": [
       "colorama",

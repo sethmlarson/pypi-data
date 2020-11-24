@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Hackathon"
+  ],
   "requires_dist": {
     "dists": [
       "pytz",

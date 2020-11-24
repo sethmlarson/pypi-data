@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jefke"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

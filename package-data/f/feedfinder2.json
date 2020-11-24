@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "danfm"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

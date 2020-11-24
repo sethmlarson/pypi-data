@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Robert.Winslow",
+    "wvo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

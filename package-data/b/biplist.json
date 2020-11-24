@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wooster"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

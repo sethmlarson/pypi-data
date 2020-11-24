@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "zyga"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

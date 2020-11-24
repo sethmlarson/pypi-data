@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "c-bata"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

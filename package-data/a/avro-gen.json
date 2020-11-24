@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rbystrit"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

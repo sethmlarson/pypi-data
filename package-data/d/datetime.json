@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "dataflake",
+    "hannosch",
+    "icemac",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "pytz",

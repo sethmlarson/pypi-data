@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "gdb",
+    "jietang",
+    "jonasschneider",
+    "joschu",
+    "nivwusquorum",
+    "openai",
+    "peterz-openai",
+    "pzhokhov"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

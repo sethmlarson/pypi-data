@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "erikrose",
+    "jazzband",
+    "jbalogh",
+    "John.Whitlock"
+  ],
   "requires_dist": {
     "dists": [
       "nose"

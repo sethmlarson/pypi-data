@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aoberoi",
+    "seratch",
+    "slackhq",
+    "stevesgill"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

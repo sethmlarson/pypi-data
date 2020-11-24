@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "j9ac9k",
+    "ksunden",
+    "lcampagn"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

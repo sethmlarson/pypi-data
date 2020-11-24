@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mdurant",
+    "mrocklin",
+    "tomaugspurger"
+  ],
   "requires_dist": {
     "dists": [
       "aiobotocore",

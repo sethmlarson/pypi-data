@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jpricket",
+    "kuvinod",
+    "vs-rm-python"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

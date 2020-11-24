@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "stephenfin"
+  ],
   "requires_dist": {
     "dists": [
       "pbr",

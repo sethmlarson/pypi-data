@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "iMerica",
+    "jazzband"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

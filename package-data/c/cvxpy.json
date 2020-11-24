@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "stevend2"
+  ],
   "requires_dist": {
     "dists": [
       "ecos",

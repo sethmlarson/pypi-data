@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lowellalleman",
+    "planders"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "samuelcolvin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

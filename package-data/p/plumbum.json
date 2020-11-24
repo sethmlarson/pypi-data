@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gangesmaster",
+    "henryiii"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

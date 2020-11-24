@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "njs",
+    "oremanj",
+    "quentinp",
+    "smurfix"
+  ],
   "requires_dist": {
     "dists": [
       "async-generator",

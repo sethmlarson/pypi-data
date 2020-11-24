@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "itayb"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

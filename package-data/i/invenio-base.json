@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "inveniosoftware"
+  ],
   "requires_dist": {
     "dists": [
       "blinker",

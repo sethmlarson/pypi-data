@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "grun"
+  ],
   "requires_dist": {
     "dists": [
       "orderedmultidict",

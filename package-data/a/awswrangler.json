@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "chamcca",
+    "igorborgest"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

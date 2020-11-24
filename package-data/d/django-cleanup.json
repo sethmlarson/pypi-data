@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "un1t",
+    "vinnyrose"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

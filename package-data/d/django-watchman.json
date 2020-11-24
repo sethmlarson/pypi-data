@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mwarkentin"
+  ],
   "requires_dist": {
     "dists": [
       "django"

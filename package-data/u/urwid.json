@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "AndrewDunai",
+    "iward",
+    "tonycpsu",
+    "ulidtko"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

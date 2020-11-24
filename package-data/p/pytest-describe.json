@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cito",
+    "flub",
+    "jacebrowning",
+    "robinpeder"
+  ],
   "requires_dist": {
     "dists": [
       "pytest"

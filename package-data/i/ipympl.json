@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "blink1073",
+    "martinRenou",
+    "Sylvain.Corlay"
+  ],
   "requires_dist": {
     "dists": [
       "ipykernel",

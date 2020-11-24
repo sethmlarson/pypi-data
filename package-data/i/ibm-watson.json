@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ehdsouza",
+    "germanattanasio",
+    "watson-devex"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

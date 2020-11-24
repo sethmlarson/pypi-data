@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mgedmin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

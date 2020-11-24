@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "fschulze",
+    "hpk"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

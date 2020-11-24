@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "alan.d.snow",
+    "jswhit"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

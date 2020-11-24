@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tanbro"
+  ],
   "requires_dist": {
     "dists": [
       "pyyaml"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tkrabel"
+  ],
   "requires_dist": {
     "dists": [
       "analytics-python",

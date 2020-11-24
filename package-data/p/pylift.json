@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ryi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

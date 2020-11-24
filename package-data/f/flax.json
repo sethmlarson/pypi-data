@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "AlexeyG",
+    "avitalo",
+    "jheek",
+    "levskaya"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

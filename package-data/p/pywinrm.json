@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "Alexey.Diyan",
+    "badcure",
+    "jborean93",
+    "nitzmahone"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

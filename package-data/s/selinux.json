@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ansible-zuul",
+    "gundalow",
+    "pycontribs",
+    "ssbarnea"
+  ],
   "requires_dist": {
     "dists": [
       "distro",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bergvca"
+  ],
   "requires_dist": {
     "dists": [
       "matplotlib",

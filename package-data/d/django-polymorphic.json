@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "chrisglass",
+    "vdboor"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

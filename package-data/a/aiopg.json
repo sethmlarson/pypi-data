@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aio-libs-bot",
+    "Andrew.Svetlov",
+    "popravich"
+  ],
   "requires_dist": {
     "dists": [
       "psycopg2-binary"

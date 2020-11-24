@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mrpowers"
+  ],
   "requires_dist": {
     "dists": [
       "pyspark"

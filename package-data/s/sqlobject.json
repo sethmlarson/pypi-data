@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ianb",
+    "phd"
+  ],
   "requires_dist": {
     "dists": [
       "formencode",

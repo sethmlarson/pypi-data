@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "TCYT"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

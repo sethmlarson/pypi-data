@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "doughellmann",
+    "jasonamyers"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

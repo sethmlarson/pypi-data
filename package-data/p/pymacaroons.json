@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ecordell"
+  ],
   "requires_dist": {
     "dists": [
       "pynacl",

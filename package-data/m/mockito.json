@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "herrkaste",
+    "justinrhopper",
+    "soplakanets"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "adacola",
+    "usakotail",
+    "yuji38kwmt"
+  ],
   "requires_dist": {
     "dists": [
       "annofabapi",

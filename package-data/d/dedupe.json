@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "datamade.wheelbuilder",
+    "Derek.Eder",
+    "fgregg"
+  ],
   "requires_dist": {
     "dists": [
       "affinegap",

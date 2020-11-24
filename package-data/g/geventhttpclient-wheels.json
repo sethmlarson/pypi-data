@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "heyman",
+    "locust"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

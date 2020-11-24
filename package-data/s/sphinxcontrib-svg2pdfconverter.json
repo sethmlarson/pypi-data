@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "missinglinkelectronics"
+  ],
   "requires_dist": {
     "dists": [
       "sphinx"

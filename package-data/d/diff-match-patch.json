@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jreese",
+    "spookylukey"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

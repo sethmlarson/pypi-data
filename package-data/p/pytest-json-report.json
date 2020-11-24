@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "numirias"
+  ],
   "requires_dist": {
     "dists": [
       "pytest",

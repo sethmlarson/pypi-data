@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "JetBlackPope",
+    "kennethreitz",
+    "nateprewitt",
+    "techalchemy",
+    "tuxtimo"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

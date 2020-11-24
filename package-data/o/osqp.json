@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bstellato"
+  ],
   "requires_dist": {
     "dists": [
       "future",

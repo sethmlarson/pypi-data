@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ianb"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

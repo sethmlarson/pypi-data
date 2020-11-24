@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rahulverma"
+  ],
   "requires_dist": {
     "dists": [
       "browsermob-proxy",

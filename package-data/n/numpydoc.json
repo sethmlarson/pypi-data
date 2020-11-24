@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "Eric89GXL",
+    "jnothman",
+    "pv",
+    "rgommers"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2",

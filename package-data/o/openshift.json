@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "openshift"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

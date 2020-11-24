@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ericpruitt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "bensigelman",
+    "frenchfrywpepper",
+    "katiabazzi",
+    "lightstep",
+    "resonancelabs"
+  ],
   "requires_dist": {
     "dists": [
       "basictracer",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "akhmerov",
+    "choldgraf",
+    "jasongrout",
+    "Sylvain.Corlay"
+  ],
   "requires_dist": {
     "dists": [
       "ipython",

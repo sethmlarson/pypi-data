@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "amitu",
+    "browserstack"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

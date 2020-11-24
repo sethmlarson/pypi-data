@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ramon.nb",
+    "vangheem"
+  ],
   "requires_dist": {
     "dists": [
       "argon2-cffi",

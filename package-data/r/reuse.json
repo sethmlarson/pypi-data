@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "carmenbianca",
+    "comzeradd",
+    "kirschner"
+  ],
   "requires_dist": {
     "dists": [
       "binaryornot",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "hemberger",
+    "hickford",
+    "moy"
+  ],
   "requires_dist": {
     "dists": [
       "beautifulsoup4",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "facebook",
+    "ppwwyyxx"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

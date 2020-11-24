@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "David.Pursehouse",
+    "marcomiller"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "qameta"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

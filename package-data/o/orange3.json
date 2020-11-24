@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "AlesErjavec",
+    "Anze.Staric",
+    "lanzagar",
+    "markotoplak",
+    "nikicc",
+    "primozgodec"
+  ],
   "requires_dist": {
     "dists": [
       "anyqt",

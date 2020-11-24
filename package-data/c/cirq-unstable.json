@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "quantumlibdev"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

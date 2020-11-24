@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "aws",
+    "chrkevin_at_aws",
+    "dishantk",
+    "kerent",
+    "shreejos"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

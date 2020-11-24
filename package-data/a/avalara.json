@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Avalara"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

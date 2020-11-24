@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "bgranger",
+    "fperez",
+    "mbussonn",
+    "minrk",
+    "takowl",
+    "vidartf"
+  ],
   "requires_dist": {
     "dists": [
       "colorama",

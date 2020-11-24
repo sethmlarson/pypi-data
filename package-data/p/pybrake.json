@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "airbrake",
+    "vmihailenco"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

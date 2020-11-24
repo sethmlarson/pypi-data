@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "kgrandis"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

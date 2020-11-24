@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ced",
+    "nicoe",
+    "pokoli"
+  ],
   "requires_dist": {
     "dists": [
       "genshi",

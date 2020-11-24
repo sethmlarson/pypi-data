@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "guyr",
+    "jaraco",
+    "tarek"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

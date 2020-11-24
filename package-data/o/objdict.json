@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gloc.mike",
+    "Innov8ian"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

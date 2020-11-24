@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bist"
+  ],
   "requires_dist": {
     "dists": [
       "pathlib2",

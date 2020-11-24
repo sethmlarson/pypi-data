@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "eblot"
+  ],
   "requires_dist": {
     "dists": [
       "aenum",

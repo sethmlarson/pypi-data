@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "kmike",
+    "kyamagu"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

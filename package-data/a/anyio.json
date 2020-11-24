@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "agronholm",
+    "njs",
+    "smurfix"
+  ],
   "requires_dist": {
     "dists": [
       "async-generator",

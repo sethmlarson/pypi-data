@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "flaper87",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "eventlet",

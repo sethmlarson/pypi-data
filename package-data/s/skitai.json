@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "hansroh"
+  ],
   "requires_dist": {
     "dists": [
       "aquests",

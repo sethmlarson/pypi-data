@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tehmaze"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

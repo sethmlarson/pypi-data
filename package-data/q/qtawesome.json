@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ccordoba12",
+    "d.althviz",
+    "goanpeca",
+    "Sylvain.Corlay"
+  ],
   "requires_dist": {
     "dists": [
       "qtpy"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "msabramo",
+    "xoviat"
+  ],
   "requires_dist": {
     "dists": [
       "pypandoc"

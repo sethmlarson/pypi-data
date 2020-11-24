@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "RobRuana"
+  ],
   "requires_dist": {
     "dists": [
       "pockets",

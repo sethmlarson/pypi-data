@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ambv",
+    "carljm",
+    "cooperlees",
+    "graffatcolmingov"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

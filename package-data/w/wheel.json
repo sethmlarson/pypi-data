@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "agronholm",
+    "joeforker",
+    "natefoo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

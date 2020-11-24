@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "david.arcos",
+    "dukebody"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

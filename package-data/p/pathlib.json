@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "antoine"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

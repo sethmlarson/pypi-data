@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bob",
+    "ronaldoussoren"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

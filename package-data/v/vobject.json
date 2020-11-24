@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jdharris",
+    "skarim",
+    "wpercy"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

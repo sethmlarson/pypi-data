@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "cerberusautomation",
+    "mayitbeepypi",
+    "sdford"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

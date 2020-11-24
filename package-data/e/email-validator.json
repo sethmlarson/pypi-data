@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Joshua.Tauberer"
+  ],
   "requires_dist": {
     "dists": [
       "dnspython",

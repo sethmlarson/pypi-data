@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "chrism",
+    "hannosch",
+    "malthe",
+    "wichert"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

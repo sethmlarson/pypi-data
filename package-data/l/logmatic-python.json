@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gpolaert",
+    "SupportLogmatic"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

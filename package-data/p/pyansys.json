@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "akaszynski"
+  ],
   "requires_dist": {
     "dists": [
       "ansys-corba",

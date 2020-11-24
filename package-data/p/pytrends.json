@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dreyco676",
+    "emlazzarin"
+  ],
   "requires_dist": {
     "dists": [
       "lxml",

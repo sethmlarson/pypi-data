@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "andrix",
+    "mdurant"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

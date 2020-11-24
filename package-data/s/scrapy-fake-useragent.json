@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "alecxe"
+  ],
   "requires_dist": {
     "dists": [
       "fake-useragent",

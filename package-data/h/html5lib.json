@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gsnedders",
+    "jgraham"
+  ],
   "requires_dist": {
     "dists": [
       "six",

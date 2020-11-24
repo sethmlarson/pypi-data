@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "skvark"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

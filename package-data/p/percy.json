@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "faun",
+    "percy-io"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

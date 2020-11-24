@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nvie"
+  ],
   "requires_dist": {
     "dists": [
       "arrow"

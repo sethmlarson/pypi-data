@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ohadlahav",
+    "tunedank"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

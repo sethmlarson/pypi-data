@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "pv",
+    "rgommers",
+    "robitaille"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

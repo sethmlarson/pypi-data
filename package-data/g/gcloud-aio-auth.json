@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "talkiq",
+    "TheKevJames"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

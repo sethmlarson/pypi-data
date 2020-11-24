@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "curella.org",
+    "joke2k"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

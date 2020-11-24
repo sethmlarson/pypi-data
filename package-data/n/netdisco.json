@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "balloob",
+    "robbiet480"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "AlexeyVolkov",
+    "kubeflow-pipelines"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

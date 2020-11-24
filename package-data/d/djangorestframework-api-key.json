@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "florimondmanca"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

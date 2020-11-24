@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "neologix"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

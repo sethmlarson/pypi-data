@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "juliotrigo",
+    "mattbennett"
+  ],
   "requires_dist": {
     "dists": [
       "six",

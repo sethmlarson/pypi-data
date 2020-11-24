@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rtobar"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

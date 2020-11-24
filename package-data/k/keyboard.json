@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "BoppreH"
+  ],
   "requires_dist": {
     "dists": [
       "pyobjc"

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "juliuszsompolski",
+    "NiallEgan",
+    "sgoos-db",
+    "yb"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

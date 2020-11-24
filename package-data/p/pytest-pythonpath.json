@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bigsassy"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

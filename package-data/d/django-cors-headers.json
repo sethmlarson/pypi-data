@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "AdamChainz",
+    "ottoyiu"
+  ],
   "requires_dist": {
     "dists": [
       "django"

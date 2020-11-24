@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fbcotter"
+  ],
   "requires_dist": {
     "dists": [
       "xmltodict"

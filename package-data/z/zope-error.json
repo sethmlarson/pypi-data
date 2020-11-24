@@ -1,4 +1,25 @@
 {
+  "publishers": [
+    "agroszer",
+    "batlogg",
+    "ccomb",
+    "ctheune",
+    "davisagli",
+    "faassen",
+    "icemac",
+    "J1m",
+    "jamadden",
+    "jw",
+    "kedder",
+    "menesis",
+    "mgedmin",
+    "philikon",
+    "projekt01",
+    "srichter",
+    "tlotze",
+    "tseaver",
+    "zagy"
+  ],
   "requires_dist": {
     "dists": [
       "persistent",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "akaszynski",
+    "banesullivan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

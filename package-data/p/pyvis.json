@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gperrone"
+  ],
   "requires_dist": {
     "dists": [
       "ipython",

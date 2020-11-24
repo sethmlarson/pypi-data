@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jm.carp",
+    "sloria"
+  ],
   "requires_dist": {
     "dists": [
       "apispec",

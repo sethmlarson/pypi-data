@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Franck.Cuny"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

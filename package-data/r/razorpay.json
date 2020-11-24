@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "captn3m0",
+    "decached",
+    "jitendrakkkk",
+    "razorpay"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

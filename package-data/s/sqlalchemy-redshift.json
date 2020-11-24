@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Jeff.Klukas",
+    "Thomas.Grainger"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

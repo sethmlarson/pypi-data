@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "verigak"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "madman_bob"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

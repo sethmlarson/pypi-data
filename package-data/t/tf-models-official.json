@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "google_opensource",
+    "tf-nightly"
+  ],
   "requires_dist": {
     "dists": [
       "cython",

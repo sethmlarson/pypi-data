@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Cairnarvon"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

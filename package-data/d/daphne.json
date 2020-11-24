@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "andrewgodwin",
+    "andrewgodwin_bot",
+    "apollo13",
+    "carltongibson",
+    "Tim.Graham"
+  ],
   "requires_dist": {
     "dists": [
       "asgiref",

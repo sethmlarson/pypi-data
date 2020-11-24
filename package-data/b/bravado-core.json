@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "macisamuele",
+    "prat0318",
+    "sjaensch",
+    "spatel",
+    "yelplabs"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

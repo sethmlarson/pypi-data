@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "didix21"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

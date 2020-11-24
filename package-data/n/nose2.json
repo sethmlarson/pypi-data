@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "jpellerin",
+    "katrinabrock",
+    "kumar303",
+    "sirosen",
+    "the_drow"
+  ],
   "requires_dist": {
     "dists": [
       "coverage",

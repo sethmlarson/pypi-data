@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "amlpypi",
+    "Laurent.Mazuel",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "bthirion",
+    "GaelVaroquaux",
+    "goulagman",
+    "KamalakerDadi",
+    "kchawla-pi",
+    "lesteve",
+    "NicolasGensollen"
+  ],
   "requires_dist": {
     "dists": [
       "joblib",

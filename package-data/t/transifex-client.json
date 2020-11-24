@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "deathbird",
+    "dimitrios",
+    "diotsoumas",
+    "glezos",
+    "kbairak"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

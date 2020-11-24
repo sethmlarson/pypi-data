@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "briford",
+    "dugsong",
+    "kbandla",
+    "obormot"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

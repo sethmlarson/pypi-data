@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jdufresne",
+    "niwibe"
+  ],
   "requires_dist": {
     "dists": [
       "django",

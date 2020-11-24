@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fornwall"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

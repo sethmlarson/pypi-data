@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "borgstrom"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

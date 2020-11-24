@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "adreznec",
+    "novalink"
+  ],
   "requires_dist": {
     "dists": [
       "futures",

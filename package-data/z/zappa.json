@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "matthew.d.crowson",
+    "miserlou"
+  ],
   "requires_dist": {
     "dists": [
       "argcomplete",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "olucurious"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

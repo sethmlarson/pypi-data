@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bobf",
+    "ikanobori",
+    "supakeen"
+  ],
   "requires_dist": {
     "dists": [
       "curtsies",

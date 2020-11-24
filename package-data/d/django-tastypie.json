@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "acdha",
+    "daniellindsley",
+    "dstufft",
+    "George.Dorn",
+    "gingerlime",
+    "issackelly",
+    "joshbohde",
+    "Sean_Hayes"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

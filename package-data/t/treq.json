@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "alexgaynor",
+    "dreid",
+    "glyph",
+    "hawkowl",
+    "hynek",
+    "markrwilliams",
+    "mithrandi",
+    "twm"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

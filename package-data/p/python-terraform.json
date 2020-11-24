@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "beelit94"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

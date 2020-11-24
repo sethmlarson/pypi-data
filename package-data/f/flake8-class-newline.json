@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "alexandervaneck"
+  ],
   "requires_dist": {
     "dists": [
       "flake8"

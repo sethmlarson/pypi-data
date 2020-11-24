@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "oubiwann"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

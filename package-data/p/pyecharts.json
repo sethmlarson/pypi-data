@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "chenjiandongx",
+    "sunhailinLeo"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2",

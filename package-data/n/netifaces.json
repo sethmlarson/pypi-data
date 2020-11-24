@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "alastair",
+    "opalmer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

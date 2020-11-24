@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "glyph",
+    "hawkowl",
+    "mithrandi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

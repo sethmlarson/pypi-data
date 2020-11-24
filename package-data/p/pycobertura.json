@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aconrad"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

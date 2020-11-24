@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "clenk",
+    "emmanvg",
+    "gback",
+    "ikiril01"
+  ],
   "requires_dist": {
     "dists": [
       "lxml",

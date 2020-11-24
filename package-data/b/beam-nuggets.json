@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mohaseeb"
+  ],
   "requires_dist": {
     "dists": [
       "apache-beam",

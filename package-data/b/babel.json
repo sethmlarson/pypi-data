@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "akx",
+    "babel",
+    "cmlenz",
+    "mitsuhiko",
+    "sils"
+  ],
   "requires_dist": {
     "dists": [
       "pytz"

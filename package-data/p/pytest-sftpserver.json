@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ulo.pe"
+  ],
   "requires_dist": {
     "dists": [
       "paramiko",

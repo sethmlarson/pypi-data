@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "baitxo",
+    "euangoddard",
+    "FranRuiz",
+    "Gustavo",
+    "kumar303"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

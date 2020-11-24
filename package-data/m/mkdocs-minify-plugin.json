@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "byrnereese"
+  ],
   "requires_dist": {
     "dists": [
       "htmlmin",

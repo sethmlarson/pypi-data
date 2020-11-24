@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "badrogger",
+    "dmitry-tk",
+    "skalelabs"
+  ],
   "requires_dist": {
     "dists": [
       "asyncio",

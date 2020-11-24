@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jaredmixpanel"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

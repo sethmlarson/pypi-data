@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "benhowes",
+    "michaelboulton",
+    "tavern-uploader"
+  ],
   "requires_dist": {
     "dists": [
       "jmespath",

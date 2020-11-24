@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Jonathan.Eunice",
+    "verigak"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

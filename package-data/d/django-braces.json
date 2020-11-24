@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "chrisjones",
+    "kennethlove"
+  ],
   "requires_dist": {
     "dists": [
       "django",

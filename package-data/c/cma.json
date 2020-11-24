@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Nikolaus.Hansen"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

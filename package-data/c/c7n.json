@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "c7nbot",
+    "kapilt",
+    "mandeepbal",
+    "sonnyshi",
+    "stefangordon"
+  ],
   "requires_dist": {
     "dists": [
       "argcomplete",

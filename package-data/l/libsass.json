@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "asottile",
+    "dahlia"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

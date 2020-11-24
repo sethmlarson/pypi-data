@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aws",
+    "graebm.amazon",
+    "liuszeng.amazon"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

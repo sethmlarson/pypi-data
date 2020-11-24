@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "ahaldane",
+    "charlesr.harris",
+    "matthew.brett",
+    "mattip",
+    "rgommers",
+    "teoliphant"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

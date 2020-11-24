@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "10mohi6"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

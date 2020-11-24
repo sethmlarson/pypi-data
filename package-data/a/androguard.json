@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jbremer",
+    "krnick",
+    "reox"
+  ],
   "requires_dist": {
     "dists": [
       "asn1crypto",

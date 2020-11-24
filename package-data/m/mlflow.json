@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "andrewmchen",
+    "databricks",
+    "dbczumar",
+    "mateiz",
+    "paul.ogilvie",
+    "smurching",
+    "sueanndb"
+  ],
   "requires_dist": {
     "dists": [
       "alembic",

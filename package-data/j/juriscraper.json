@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "floooie",
+    "freelawproject"
+  ],
   "requires_dist": {
     "dists": [
       "argparse",

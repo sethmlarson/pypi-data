@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cyberwiz",
+    "heyman"
+  ],
   "requires_dist": {
     "dists": [
       "configargparse",

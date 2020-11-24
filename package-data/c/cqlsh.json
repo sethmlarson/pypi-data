@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "aboudreault",
+    "jeffwidman"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

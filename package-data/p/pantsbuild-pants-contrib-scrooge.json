@@ -1,4 +1,23 @@
 {
+  "publishers": [
+    "baroquebobcat",
+    "benjyw",
+    "blorente",
+    "dmcclanahan",
+    "EricArellano",
+    "ericzundel",
+    "gmalmquist",
+    "gshuflin",
+    "illicitonion",
+    "ity",
+    "John.Sirois",
+    "kwlzn",
+    "mateor",
+    "Patrick.Lawson",
+    "pierrechevalier",
+    "stuhood",
+    "wisechengyi"
+  ],
   "requires_dist": {
     "dists": [
       "pantsbuild.pants"

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dougalmaclaurin",
+    "j-towns",
+    "mattjj"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

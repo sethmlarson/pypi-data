@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "benoitc",
+    "berkerpeksag",
+    "davisp",
+    "tilgovi"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools"

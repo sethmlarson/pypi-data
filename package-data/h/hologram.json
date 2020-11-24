@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "connor-fishtownanalytics",
+    "drewbanin",
+    "fishtown-analytics",
+    "gerdashank",
+    "jerco",
+    "kwigley"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

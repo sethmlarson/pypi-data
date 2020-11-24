@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "andscoop",
+    "dbrecht",
+    "JonWobken",
+    "lambacck",
+    "nickcatal",
+    "scottpersinger",
+    "simple-salesforce",
+    "tedmiston"
+  ],
   "requires_dist": {
     "dists": [
       "authlib",

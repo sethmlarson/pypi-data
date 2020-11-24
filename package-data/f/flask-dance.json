@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "daenney",
+    "singingwolfboy"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

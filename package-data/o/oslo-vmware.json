@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "eventlet",

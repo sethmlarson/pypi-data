@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "chezou",
+    "takuti",
+    "treasure_data",
+    "yyuu"
+  ],
   "requires_dist": {
     "dists": [
       "pandas",

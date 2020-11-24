@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "automunge"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jbelmonte",
+    "mehaase",
+    "njs"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

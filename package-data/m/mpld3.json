@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "aflaxman",
+    "Eric.Galloway",
+    "Jake.Vanderplas",
+    "sciris",
+    "vladh"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

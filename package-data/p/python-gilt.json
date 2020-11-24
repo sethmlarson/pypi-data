@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "coreiaas",
+    "retr0h"
+  ],
   "requires_dist": {
     "dists": [
       "click",

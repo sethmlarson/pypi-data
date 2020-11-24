@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "aoberoi",
+    "attari",
+    "seratch",
+    "shanedewael",
+    "slackhq",
+    "stevesgill"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

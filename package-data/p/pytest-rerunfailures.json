@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "DanielHavlikGocept",
+    "florianpilz",
+    "icemac",
+    "klrmn",
+    "sallner",
+    "sweh",
+    "tlotze"
+  ],
   "requires_dist": {
     "dists": [
       "pytest",

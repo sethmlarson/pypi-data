@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "zephyr-project"
+  ],
   "requires_dist": {
     "dists": [
       "colorama",

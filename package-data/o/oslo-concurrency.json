@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "openstackci",
+    "yorik.sar"
+  ],
   "requires_dist": {
     "dists": [
       "fasteners",

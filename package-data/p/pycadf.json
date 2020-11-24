@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "chungg",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "debtcollector",

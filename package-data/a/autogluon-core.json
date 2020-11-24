@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "zhanghang0704"
+  ],
   "requires_dist": {
     "dists": [
       "autograd",

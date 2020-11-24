@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "blink1073",
+    "darian",
+    "datalayer",
+    "jasongrout",
+    "jtp",
+    "kevin-bates",
+    "Sylvain.Corlay",
+    "zsailer"
+  ],
   "requires_dist": {
     "dists": [
       "ipython-genutils",

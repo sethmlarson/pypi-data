@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mdurant",
+    "tomaugspurger"
+  ],
   "requires_dist": {
     "dists": [
       "numba",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "casper.dcl",
+    "dmpetrov",
+    "efiop",
+    "shcheklein"
+  ],
   "requires_dist": {
     "dists": [
       "argparse"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cyrille.rossant",
+    "oliche"
+  ],
   "requires_dist": {
     "dists": [
       "dask",

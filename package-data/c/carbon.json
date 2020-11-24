@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "chrismd",
+    "dcech",
+    "deniszh",
+    "iksaif",
+    "jssjr",
+    "mleinart",
+    "obfuscurity"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

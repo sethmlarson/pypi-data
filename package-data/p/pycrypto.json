@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "amk",
+    "dlitz"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

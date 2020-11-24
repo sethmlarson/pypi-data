@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cossdk",
+    "rveitch_ibm"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

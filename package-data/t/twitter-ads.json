@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "jshishido",
+    "smaeda-ks",
+    "tbhushan",
+    "twitterdev-ads"
+  ],
   "requires_dist": {
     "dists": [
       "python-dateutil",

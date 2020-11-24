@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "azure-sdk",
+    "Laurent.Mazuel",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [
       "azure-nspkg"

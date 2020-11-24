@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "di",
+    "eliben",
+    "gwelymernans"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

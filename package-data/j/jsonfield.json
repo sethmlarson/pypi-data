@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bradjasper",
+    "dkoch",
+    "rpkilby"
+  ],
   "requires_dist": {
     "dists": [
       "django"

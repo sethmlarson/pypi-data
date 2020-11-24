@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ahmadia",
+    "dalcinl"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "bgranger",
+    "blink1073",
+    "darian",
+    "fperez",
+    "jasongrout",
+    "mbussonn",
+    "minrk",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "jsonschema",

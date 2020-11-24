@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jacebrowning"
+  ],
   "requires_dist": {
     "dists": [
       "parse",

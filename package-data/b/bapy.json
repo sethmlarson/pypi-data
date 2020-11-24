@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jose-nferx"
+  ],
   "requires_dist": {
     "dists": [
       "asgiref",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "infinidat",
+    "ishirav"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

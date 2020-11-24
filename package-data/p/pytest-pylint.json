@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "carsongee"
+  ],
   "requires_dist": {
     "dists": [
       "pylint",

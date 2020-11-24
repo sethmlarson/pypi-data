@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "spotify"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

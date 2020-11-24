@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ashb",
+    "kaxil",
+    "potiuk"
+  ],
   "requires_dist": {
     "dists": [
       "apache-airflow",

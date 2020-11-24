@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lovasoa"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

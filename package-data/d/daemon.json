@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "sah",
+    "sauce",
+    "sebv"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "carletes",
+    "mvdbeek",
+    "soltar"
+  ],
   "requires_dist": {
     "dists": [
       "paramiko",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mikelane",
+    "theY4Kman"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

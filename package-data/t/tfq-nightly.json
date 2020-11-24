@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "google_opensource",
+    "uploader"
+  ],
   "requires_dist": {
     "dists": [
       "cirq",

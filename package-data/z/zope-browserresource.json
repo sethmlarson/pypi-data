@@ -1,4 +1,24 @@
 {
+  "publishers": [
+    "achapman",
+    "agroszer",
+    "alga",
+    "baijum",
+    "davisagli",
+    "faassen",
+    "fdrake",
+    "gary",
+    "hannosch",
+    "icemac",
+    "J1m",
+    "jamadden",
+    "menesis",
+    "mgedmin",
+    "nadako",
+    "srichter",
+    "tlotze",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

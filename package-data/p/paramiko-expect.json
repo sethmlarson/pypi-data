@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fruch"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

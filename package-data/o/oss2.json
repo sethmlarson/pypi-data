@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aliyun"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "parousiaic"
+  ],
   "requires_dist": {
     "dists": [
       "send2trash"

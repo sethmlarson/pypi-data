@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Amit.Dev"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

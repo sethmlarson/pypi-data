@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "David-Wobrock"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

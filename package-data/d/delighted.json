@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "delighted",
+    "erikpilz",
+    "kindjar",
+    "thierryu"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

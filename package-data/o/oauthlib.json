@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "dgouldin",
+    "ib.lundgren",
+    "idangazit",
+    "JonathanHuot",
+    "skion",
+    "the_drow"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

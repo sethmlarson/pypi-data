@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "erotemic"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bossylobster",
+    "gcloudpypi",
+    "jgeewax",
+    "silvolu"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

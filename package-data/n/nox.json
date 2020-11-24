@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "bossylobster",
+    "crwilcox",
+    "lukesneeringer",
+    "stsewd",
+    "theacodes"
+  ],
   "requires_dist": {
     "dists": [
       "argcomplete",

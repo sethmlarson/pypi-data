@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jnpr-community-netdev",
+    "nwkautomaniac"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "simonw"
+  ],
   "requires_dist": {
     "dists": [
       "click",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "phihag"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

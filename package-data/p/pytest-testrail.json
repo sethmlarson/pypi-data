@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "allanklp"
+  ],
   "requires_dist": {
     "dists": [
       "pytest",

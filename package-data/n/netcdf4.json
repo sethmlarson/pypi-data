@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jswhit",
+    "matthew.brett"
+  ],
   "requires_dist": {
     "dists": [
       "cftime",

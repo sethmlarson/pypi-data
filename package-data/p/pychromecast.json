@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "balloob",
+    "emontnemery"
+  ],
   "requires_dist": {
     "dists": [
       "casttube",

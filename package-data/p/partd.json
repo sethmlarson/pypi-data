@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jcrist",
+    "mrocklin",
+    "tomaugspurger"
+  ],
   "requires_dist": {
     "dists": [
       "locket",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nickstenning"
+  ],
   "requires_dist": {
     "dists": [
       "argparse",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dthomas"
+  ],
   "requires_dist": {
     "dists": [
       "colcon-argcomplete",

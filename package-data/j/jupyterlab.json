@@ -1,4 +1,20 @@
 {
+  "publishers": [
+    "ajbozarth",
+    "bgranger",
+    "blink1073",
+    "darian",
+    "datalayer",
+    "fperez",
+    "jasongrout",
+    "jtp",
+    "marthacryan",
+    "mbussonn",
+    "minrk",
+    "saulshanabrook",
+    "takowl",
+    "zsailer"
+  ],
   "requires_dist": {
     "dists": [
       "ipython",

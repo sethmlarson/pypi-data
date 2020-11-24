@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Changaco",
+    "ic3b3rg",
+    "whit537"
+  ],
   "requires_dist": {
     "dists": [
       "psycopg2-binary",

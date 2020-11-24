@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jdowns",
+    "jkaldon"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

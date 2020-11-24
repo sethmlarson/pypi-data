@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ryanfox"
+  ],
   "requires_dist": {
     "dists": [
       "markdown"

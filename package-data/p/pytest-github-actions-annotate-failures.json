@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "utgwkk"
+  ],
   "requires_dist": {
     "dists": [
       "pytest"

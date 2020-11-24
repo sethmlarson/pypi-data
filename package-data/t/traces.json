@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "stringertheory",
+    "vlsd"
+  ],
   "requires_dist": {
     "dists": [
       "infinity",

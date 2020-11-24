@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "euri3000",
+    "peterzal",
+    "sailthru",
+    "sudiptabbsr1"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

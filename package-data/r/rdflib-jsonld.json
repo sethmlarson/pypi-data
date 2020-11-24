@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ashleysommer",
+    "hsolbrig",
+    "ncar",
+    "niklasl"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

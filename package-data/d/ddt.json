@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "txels",
+    "wswld"
+  ],
   "requires_dist": {
     "dists": [
       "enum34"

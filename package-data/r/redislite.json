@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dhyahoo",
+    "redislite",
+    "yahoorpici"
+  ],
   "requires_dist": {
     "dists": [
       "psutil",

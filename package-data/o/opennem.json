@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dylanjmcconnell",
+    "nikc"
+  ],
   "requires_dist": {
     "dists": [
       "aiofiles",

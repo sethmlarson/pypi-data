@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "joerick"
+  ],
   "requires_dist": {
     "dists": [
       "pyinstrument-cext"

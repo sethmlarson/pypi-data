@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Toilal",
+    "wackou"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

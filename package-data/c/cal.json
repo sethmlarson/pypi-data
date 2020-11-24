@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tanzer"
+  ],
   "requires_dist": {
     "dists": [
       "python-dateutil",

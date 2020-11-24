@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jonathan.stoppani",
+    "pradyunsg"
+  ],
   "requires_dist": {
     "dists": [
       "livereload",

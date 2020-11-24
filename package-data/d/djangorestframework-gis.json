@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dmeehan",
+    "nemesisdesign"
+  ],
   "requires_dist": {
     "dists": [
       "djangorestframework"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mbr"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

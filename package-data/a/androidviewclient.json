@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dtmilano"
+  ],
   "requires_dist": {
     "dists": [
       "culebratester-client",

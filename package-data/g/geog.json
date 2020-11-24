@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jwass"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

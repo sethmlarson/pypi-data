@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dmgass",
+    "rlbuvel"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

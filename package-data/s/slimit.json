@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rspivak"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

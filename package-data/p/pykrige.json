@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bsmurphy",
+    "geostatframework",
+    "ryurchak"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

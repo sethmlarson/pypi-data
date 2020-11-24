@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dajor"
+  ],
   "requires_dist": {
     "dists": [
       "click",

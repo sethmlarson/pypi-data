@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jmulla"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

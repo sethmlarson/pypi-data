@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bufferoverflow",
+    "gpocentek",
+    "max-wittig",
+    "python-gitlab-deploy"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "alexgaynor",
+    "bob",
+    "ronaldoussoren"
+  ],
   "requires_dist": {
     "dists": [
       "cffi"

@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "Charles.Cloud",
+    "cowlicks",
+    "kwmsmith",
+    "ltransom",
+    "mrocklin",
+    "mwiebe"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

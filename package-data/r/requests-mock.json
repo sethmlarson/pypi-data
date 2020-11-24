@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jamielennox"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

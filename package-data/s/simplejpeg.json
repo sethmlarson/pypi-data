@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jfolz"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

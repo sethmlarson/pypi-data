@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "eljunior",
+    "pablohoffman",
+    "scrapy"
+  ],
   "requires_dist": {
     "dists": [
       "cssselect",

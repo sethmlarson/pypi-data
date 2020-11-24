@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "addxy"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

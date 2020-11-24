@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "liZe",
+    "SimonSapin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

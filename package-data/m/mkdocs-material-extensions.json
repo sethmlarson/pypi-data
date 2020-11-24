@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "facelessuser"
+  ],
   "requires_dist": {
     "dists": [
       "mkdocs-material"

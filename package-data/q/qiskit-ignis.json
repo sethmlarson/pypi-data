@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dcmckay",
+    "qiskit"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "glyph",
+    "mahmoud",
+    "markrwilliams"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

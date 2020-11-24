@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jfbercher"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "searchivarius"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

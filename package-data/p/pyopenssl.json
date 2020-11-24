@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "alexgaynor",
+    "exarkun",
+    "hynek",
+    "reaperhulk"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography",

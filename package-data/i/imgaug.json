@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aleju"
+  ],
   "requires_dist": {
     "dists": [
       "imageio",

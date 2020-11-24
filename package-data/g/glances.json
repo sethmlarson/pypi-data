@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nicolargo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

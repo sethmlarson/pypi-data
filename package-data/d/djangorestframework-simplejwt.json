@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "davesque"
+  ],
   "requires_dist": {
     "dists": [
       "django",

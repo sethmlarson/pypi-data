@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "offline",
+    "Stavros",
+    "stochastic"
+  ],
   "requires_dist": {
     "dists": [
       "django",

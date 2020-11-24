@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "benediktschmitt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

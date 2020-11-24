@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "rdegges",
+    "snoopy1497"
+  ],
   "requires_dist": {
     "dists": [
       "django",

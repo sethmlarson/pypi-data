@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Xion"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

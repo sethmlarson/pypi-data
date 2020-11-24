@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "altendky"
+  ],
   "requires_dist": {
     "dists": [
       "click",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "duo_security"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

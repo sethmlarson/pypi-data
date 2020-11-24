@@ -1,4 +1,20 @@
 {
+  "publishers": [
+    "baroquebobcat",
+    "benjyw",
+    "blorente",
+    "dmcclanahan",
+    "EricArellano",
+    "gshuflin",
+    "illicitonion",
+    "ity",
+    "John.Sirois",
+    "kwlzn",
+    "mateor",
+    "pierrechevalier",
+    "stuhood",
+    "wisechengyi"
+  ],
   "requires_dist": {
     "dists": [
       "ansicolors",

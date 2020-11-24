@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "diox",
+    "jezdez",
+    "karyon",
+    "xian"
+  ],
   "requires_dist": {
     "dists": [
       "django-appconf",

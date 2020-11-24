@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "AdamChainz",
+    "schinckel"
+  ],
   "requires_dist": {
     "dists": [
       "django",

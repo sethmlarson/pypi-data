@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "o.bulkin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "agatonsax"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

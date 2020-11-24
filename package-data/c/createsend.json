@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "campmon",
+    "jdennes"
+  ],
   "requires_dist": {
     "dists": [
       "six"

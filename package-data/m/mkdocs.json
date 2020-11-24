@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "d0ugal",
+    "mkdocsdeploy",
+    "tomchristie",
+    "waylan"
+  ],
   "requires_dist": {
     "dists": [
       "click",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pje"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ahal",
+    "camd",
+    "marco-c"
+  ],
   "requires_dist": {
     "dists": [
       "adr",

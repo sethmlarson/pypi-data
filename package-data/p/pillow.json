@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aclark",
+    "hugovk",
+    "radarhere",
+    "wiredfool"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

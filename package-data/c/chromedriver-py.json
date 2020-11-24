@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "scriptworld"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

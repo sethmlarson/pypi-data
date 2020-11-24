@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "bgranger",
+    "blink1073",
+    "fperez",
+    "ivanov",
+    "Kyle.Kelley",
+    "mbussonn",
+    "minrk",
+    "Sylvain.Corlay",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "appnope",

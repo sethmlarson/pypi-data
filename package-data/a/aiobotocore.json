@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aio-libs-bot",
+    "Andrew.Svetlov",
+    "jettify",
+    "thehesiod"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

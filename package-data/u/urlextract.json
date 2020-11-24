@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lipoja"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

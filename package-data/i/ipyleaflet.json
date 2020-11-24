@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "bgranger",
+    "davidbrochart",
+    "jasongrout",
+    "martinRenou",
+    "Sylvain.Corlay"
+  ],
   "requires_dist": {
     "dists": [
       "branca",

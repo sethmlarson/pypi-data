@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "adomahidi",
+    "echu",
+    "stevend2"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

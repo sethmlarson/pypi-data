@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jbalonso",
+    "lumitim",
+    "rspeer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

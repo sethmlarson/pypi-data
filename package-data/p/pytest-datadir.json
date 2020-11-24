@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "gabrielcnr",
+    "igortg",
+    "nicoddemus"
+  ],
   "requires_dist": {
     "dists": [
       "pathlib2",

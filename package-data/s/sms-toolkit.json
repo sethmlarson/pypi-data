@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "chris.conlon",
+    "ndurell",
+    "yannpaul"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

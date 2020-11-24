@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "glamp"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

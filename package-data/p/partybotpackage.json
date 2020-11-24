@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "xMistt"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

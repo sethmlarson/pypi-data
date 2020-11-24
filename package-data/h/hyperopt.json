@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "JamesBergstra",
+    "maxpumperla"
+  ],
   "requires_dist": {
     "dists": [
       "cloudpickle",

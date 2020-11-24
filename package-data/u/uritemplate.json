@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "brettcannon",
+    "graffatcolmingov",
+    "jcgregorio",
+    "mnot"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ejulio",
+    "scrapinghub",
+    "scrapy"
+  ],
   "requires_dist": {
     "dists": [
       "itemadapter",

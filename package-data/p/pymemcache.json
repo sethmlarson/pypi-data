@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "cgordon",
+    "jogo",
+    "jparise"
+  ],
   "requires_dist": {
     "dists": [
       "six"

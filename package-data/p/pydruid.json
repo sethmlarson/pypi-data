@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "dganguli",
+    "gianmerlino",
+    "mistercrunch",
+    "textractor",
+    "xvrl"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

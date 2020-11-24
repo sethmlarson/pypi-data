@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nielsenb"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "kjetilja",
+    "mfx",
+    "olegp"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

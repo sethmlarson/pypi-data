@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mkleehammer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

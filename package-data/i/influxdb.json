@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ReAzem",
+    "sebito91",
+    "xginn8"
+  ],
   "requires_dist": {
     "dists": [
       "msgpack",

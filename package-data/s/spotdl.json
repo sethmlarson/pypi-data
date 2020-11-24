@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "linusg",
+    "Mikhail_Zex",
+    "Ritiek",
+    "vn-ki"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

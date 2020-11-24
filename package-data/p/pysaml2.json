@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "agatonsax",
+    "baijum",
+    "c00kiemon5ter",
+    "lgs",
+    "Lundberg"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography",

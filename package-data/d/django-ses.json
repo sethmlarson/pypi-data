@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "embrangler",
+    "hmarr",
+    "jschneier",
+    "tswicegood"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

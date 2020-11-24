@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "saucecat"
+  ],
   "requires_dist": {
     "dists": [
       "joblib",

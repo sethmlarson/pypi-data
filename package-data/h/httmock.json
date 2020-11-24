@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "patrys"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

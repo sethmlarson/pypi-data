@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jkimbo",
+    "mvanlonden",
+    "syrusakbary"
+  ],
   "requires_dist": {
     "dists": [
       "django",

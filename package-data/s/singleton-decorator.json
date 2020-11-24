@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Kemaweyan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

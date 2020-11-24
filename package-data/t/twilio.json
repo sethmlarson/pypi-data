@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "dougblack",
+    "mdnowack",
+    "phalt",
+    "skimbrel",
+    "twilio",
+    "twilio-api"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

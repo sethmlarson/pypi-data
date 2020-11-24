@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "ctheune",
+    "faassen",
+    "janjaapdriessen",
+    "jw",
+    "philikon",
+    "reinout",
+    "thefunny42",
+    "trollfot",
+    "ulif"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

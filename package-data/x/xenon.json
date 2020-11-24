@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Michele.Lacchia"
+  ],
   "requires_dist": {
     "dists": [
       "pyyaml",

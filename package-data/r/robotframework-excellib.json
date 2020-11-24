@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "daborisov",
+    "dmizverev",
+    "Lev-v"
+  ],
   "requires_dist": {
     "dists": [
       "future",

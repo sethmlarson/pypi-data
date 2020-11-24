@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "blueyed",
+    "jpic",
+    "Kirill.Gagarski",
+    "vindarel",
+    "yourlabs"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

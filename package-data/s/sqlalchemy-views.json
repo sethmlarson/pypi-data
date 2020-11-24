@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Jeff.Klukas"
+  ],
   "requires_dist": {
     "dists": [
       "sqlalchemy"

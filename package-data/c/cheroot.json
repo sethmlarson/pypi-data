@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "fumanchu",
+    "jaraco",
+    "Lawouach",
+    "tabo",
+    "webknjaz"
+  ],
   "requires_dist": {
     "dists": [
       "backports.functools-lru-cache",

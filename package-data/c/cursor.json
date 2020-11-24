@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "GijsTimmers"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cjerdonek",
+    "defunkt",
+    "io41",
+    "kevindmorgan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

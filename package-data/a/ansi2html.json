@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "pycontribs",
+    "ralphbean",
+    "ssbarnea"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

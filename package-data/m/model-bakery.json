@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "amureki",
+    "anapaulagomes",
+    "berinfontes"
+  ],
   "requires_dist": {
     "dists": [
       "django"

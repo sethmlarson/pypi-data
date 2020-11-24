@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "imalison",
+    "kevin1024",
+    "luiz.menezes",
+    "neozenith",
+    "Thomas.Grainger"
+  ],
   "requires_dist": {
     "dists": [
       "pyyaml",

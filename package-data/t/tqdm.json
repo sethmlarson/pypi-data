@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "casper.dcl",
+    "tqdm"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

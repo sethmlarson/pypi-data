@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Paul.Craven"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

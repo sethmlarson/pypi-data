@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "coldfix",
+    "comrumino",
+    "gangesmaster"
+  ],
   "requires_dist": {
     "dists": [
       "plumbum"

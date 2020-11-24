@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "fastestimatordev",
+    "vbvg2008"
+  ],
   "requires_dist": {
     "dists": [
       "albumentations",

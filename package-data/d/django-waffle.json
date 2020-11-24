@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ahsan-ul-haq",
+    "clintonb",
+    "django-waffle",
+    "jsocol",
+    "rlucioni"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

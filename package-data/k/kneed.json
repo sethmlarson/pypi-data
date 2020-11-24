@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "arvkevi"
+  ],
   "requires_dist": {
     "dists": [
       "matplotlib",

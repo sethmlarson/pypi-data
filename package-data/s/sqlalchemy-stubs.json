@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ilevkivskyi"
+  ],
   "requires_dist": {
     "dists": [
       "mypy",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ehoelzl",
+    "gsa",
+    "martinmilenkoski",
+    "Panaetius"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

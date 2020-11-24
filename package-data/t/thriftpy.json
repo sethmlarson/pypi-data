@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lxyu"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

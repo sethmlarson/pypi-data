@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "phfaist"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

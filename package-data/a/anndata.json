@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "falexwolf",
+    "flyingsheep",
+    "ivirshup"
+  ],
   "requires_dist": {
     "dists": [
       "h5py",

@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "bplotnick",
+    "drolando",
+    "gkayling",
+    "kaisen",
+    "sjaensch",
+    "yelplabs"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

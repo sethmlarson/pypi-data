@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "lysandre",
+    "sgugger",
+    "Thomwolf"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "kennethreitz",
+    "Master_Odin",
+    "Master_Odin_Bot",
+    "tuxtimo"
+  ],
   "requires_dist": {
     "dists": [
       "colorama"

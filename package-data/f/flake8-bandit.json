@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tylerwince"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

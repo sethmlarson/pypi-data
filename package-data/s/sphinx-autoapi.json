@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "agj",
+    "AWhetter",
+    "ericholscher"
+  ],
   "requires_dist": {
     "dists": [
       "astroid",

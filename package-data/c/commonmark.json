@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bracewel",
+    "ericholscher",
+    "nnyby"
+  ],
   "requires_dist": {
     "dists": [
       "future"

@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "author",
+    "bcen",
+    "erikdies",
+    "jamesob",
+    "lapointexavier",
+    "ltucker"
+  ],
   "requires_dist": {
     "dists": [
       "future"

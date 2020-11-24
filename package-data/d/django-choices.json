@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "BigJason",
+    "sergei.maertens"
+  ],
   "requires_dist": {
     "dists": [
       "django",

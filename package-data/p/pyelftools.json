@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "eliben"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

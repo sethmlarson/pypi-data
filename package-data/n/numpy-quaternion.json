@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "moboyle79"
+  ],
   "requires_dist": {
     "dists": [
       "llvmlite",

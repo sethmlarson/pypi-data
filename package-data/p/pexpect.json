@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "jquast",
+    "luyer",
+    "noah",
+    "Red_M",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "ptyprocess"

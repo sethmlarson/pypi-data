@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "ctheune",
+    "hannosch",
+    "J1m",
+    "jm",
+    "tseaver",
+    "zope.wineggbuilder"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

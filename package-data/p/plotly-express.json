@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "alexcjohnson",
+    "cparmer",
+    "jmmease",
+    "nicolaskruchten",
+    "scjody"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

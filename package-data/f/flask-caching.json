@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sh4nks"
+  ],
   "requires_dist": {
     "dists": [
       "flask"

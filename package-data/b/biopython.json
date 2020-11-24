@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "chapmanb",
+    "jchang",
+    "peterjc",
+    "tiagoantao"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

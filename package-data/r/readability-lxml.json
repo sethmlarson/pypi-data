@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mitechie",
+    "Yuri.Baburov"
+  ],
   "requires_dist": {
     "dists": [
       "chardet",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "openstackci",
+    "rodrigods"
+  ],
   "requires_dist": {
     "dists": [
       "oslo.config",

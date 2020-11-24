@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "artemmavrin"
+  ],
   "requires_dist": {
     "dists": [
       "tensorflow"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "TheKevJames",
+    "thekevjames-circleci"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

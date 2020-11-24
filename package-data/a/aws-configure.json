@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "qoomon"
+  ],
   "requires_dist": {
     "dists": [
       "awscli",

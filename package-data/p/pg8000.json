@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mfenniak",
+    "tlocke"
+  ],
   "requires_dist": {
     "dists": [
       "scramp"

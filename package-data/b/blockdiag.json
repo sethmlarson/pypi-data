@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "shimizukawa",
+    "tk0miya"
+  ],
   "requires_dist": {
     "dists": [
       "funcparserlib",

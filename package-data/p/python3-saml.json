@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Sixto.Pablo.Martin.Garcia"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

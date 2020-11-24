@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fabiocaccamo"
+  ],
   "requires_dist": {
     "dists": [
       "ftfy",

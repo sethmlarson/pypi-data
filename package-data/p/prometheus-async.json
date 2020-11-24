@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "hynek"
+  ],
   "requires_dist": {
     "dists": [
       "monotonic",

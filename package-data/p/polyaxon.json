@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mmourafiq",
+    "polyaxonbot"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lucasmcgartland"
+  ],
   "requires_dist": {
     "dists": [
       "six"

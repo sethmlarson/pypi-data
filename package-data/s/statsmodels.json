@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "bashtage",
+    "josefpktd",
+    "matthew.brett",
+    "rgommers",
+    "Skipper.Seabold"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ezyang",
+    "facebook",
+    "fmassa",
+    "seemethere",
+    "soumith"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

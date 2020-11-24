@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tree-copybara"
+  ],
   "requires_dist": {
     "dists": [
       "six"

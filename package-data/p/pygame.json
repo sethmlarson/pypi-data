@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "illume",
+    "pygameci",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

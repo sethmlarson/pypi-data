@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "elarivie"
+  ],
   "requires_dist": {
     "dists": [
       "typing-extensions"

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "paulmelnikow",
+    "syrusakbary",
+    "yourbuddyconner"
+  ],
   "requires_dist": {
     "dists": [
       "fastdiff",

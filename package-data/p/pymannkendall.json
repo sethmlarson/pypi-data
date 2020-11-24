@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mmhs013"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

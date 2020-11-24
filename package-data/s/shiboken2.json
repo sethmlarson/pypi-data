@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cmaureir",
+    "QtForPython"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

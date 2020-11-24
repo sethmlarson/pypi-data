@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "davidism",
+    "ThiefMaster"
+  ],
   "requires_dist": {
     "dists": [
       "markupsafe"

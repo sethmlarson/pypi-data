@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "gjain",
+    "kormoc",
+    "mattrobenolt",
+    "savant"
+  ],
   "requires_dist": {
     "dists": [
       "configobj",

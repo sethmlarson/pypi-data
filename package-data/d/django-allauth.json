@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pennersr"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

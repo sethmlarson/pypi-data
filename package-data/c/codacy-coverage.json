@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "codacy"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

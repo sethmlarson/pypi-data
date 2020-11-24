@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "x84"
+  ],
   "requires_dist": {
     "dists": [
       "aiodns",

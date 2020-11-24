@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "datakund_test"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

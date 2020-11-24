@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "faassen",
+    "scoder",
+    "zope.wineggbuilder"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

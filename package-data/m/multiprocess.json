@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mmckerns"
+  ],
   "requires_dist": {
     "dists": [
       "dill"

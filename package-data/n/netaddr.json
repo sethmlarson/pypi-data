@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "drkjam",
+    "jstasiak"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

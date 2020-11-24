@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "ccrone",
+    "dev-tooling-team",
+    "docker",
+    "rumpl",
+    "slubecki",
+    "ulyssessouza"
+  ],
   "requires_dist": {
     "dists": [
       "backports.ssl-match-hostname",

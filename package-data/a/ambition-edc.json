@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "erikvw"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pmclanahan"
+  ],
   "requires_dist": {
     "dists": [
       "django",

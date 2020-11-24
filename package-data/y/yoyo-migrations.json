@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "olly"
+  ],
   "requires_dist": {
     "dists": [
       "sqlparse",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "brian.thorne",
+    "hardbyte",
+    "sandberg"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

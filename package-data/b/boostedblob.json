@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "hauntsaninja"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

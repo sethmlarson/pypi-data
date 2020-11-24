@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "ahal",
+    "bclary",
+    "davehunt",
+    "elvis314",
+    "hackebrot",
+    "jgraham",
+    "whimboo",
+    "wlach"
+  ],
   "requires_dist": {
     "dists": [
       "mozfile",

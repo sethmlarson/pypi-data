@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "pysimdjson_builder",
+    "TkTech"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

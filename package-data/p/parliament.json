@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "duolabs",
+    "kylelady",
+    "scottpiper",
+    "steiza"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

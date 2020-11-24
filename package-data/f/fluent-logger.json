@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "arcivanov",
+    "kzk",
+    "repeatedly",
+    "yyuu"
+  ],
   "requires_dist": {
     "dists": [
       "msgpack"

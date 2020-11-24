@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dcrosta",
+    "toxdev"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

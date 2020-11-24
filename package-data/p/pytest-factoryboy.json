@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "anatoly",
+    "andreaspelme",
+    "Oleg.Pidsadnyi",
+    "youtux"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

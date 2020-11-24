@@ -1,4 +1,19 @@
 {
+  "publishers": [
+    "bgranger",
+    "blink1073",
+    "fperez",
+    "ivanov",
+    "jhamrick",
+    "Kyle.Kelley",
+    "mbussonn",
+    "mdpacer",
+    "minrk",
+    "mpacer",
+    "MSeal",
+    "Sylvain.Corlay",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "bleach",

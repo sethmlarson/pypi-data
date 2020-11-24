@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "brett19",
+    "cbrobot",
+    "dkelly",
+    "griels",
+    "ingenthr"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

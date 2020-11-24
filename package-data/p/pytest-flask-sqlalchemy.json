@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jeancochrane"
+  ],
   "requires_dist": {
     "dists": [
       "flask-sqlalchemy",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dbrattli",
+    "mainro"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

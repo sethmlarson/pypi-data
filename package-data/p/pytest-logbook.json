@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "flub"
+  ],
   "requires_dist": {
     "dists": [
       "logbook",

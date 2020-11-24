@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bucknerns",
+    "cjmarkie",
+    "warner",
+    "yarikoptic"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

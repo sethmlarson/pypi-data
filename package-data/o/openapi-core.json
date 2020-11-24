@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "p1c2u"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

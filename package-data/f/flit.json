@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "docutils",

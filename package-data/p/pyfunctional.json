@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "prodriguez"
+  ],
   "requires_dist": {
     "dists": [
       "dill",

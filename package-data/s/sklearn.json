@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "filo",
+    "lesteve",
+    "t3kcit"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "niksite"
+  ],
   "requires_dist": {
     "dists": [
       "six"

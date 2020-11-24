@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lavr"
+  ],
   "requires_dist": {
     "dists": [
       "chardet",

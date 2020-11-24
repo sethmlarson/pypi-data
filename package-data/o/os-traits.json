@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "o-tony",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "pbr"

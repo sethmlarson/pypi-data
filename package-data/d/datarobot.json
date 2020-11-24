@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "alexalokhinrobot",
+    "archmag",
+    "Axik",
+    "datarobot",
+    "dsakagi"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

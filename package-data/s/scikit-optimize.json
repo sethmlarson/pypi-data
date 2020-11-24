@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "betatim",
+    "holgern"
+  ],
   "requires_dist": {
     "dists": [
       "joblib",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "cognitedeploy"
+  ],
   "requires_dist": {
     "dists": [
       "cognite-sdk",

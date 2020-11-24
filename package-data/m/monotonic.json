@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "atdt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "opentracing-ci",
+    "rnburn"
+  ],
   "requires_dist": {
     "dists": [
       "grpcio",

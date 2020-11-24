@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gawel"
+  ],
   "requires_dist": {
     "dists": [
       "croniter",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nsatterl"
+  ],
   "requires_dist": {
     "dists": [
       "bcrypt",

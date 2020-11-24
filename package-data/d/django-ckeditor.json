@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "cblignaut",
+    "hedley",
+    "matthiask",
+    "Piotr.Maliski",
+    "Praekelt"
+  ],
   "requires_dist": {
     "dists": [
       "django-js-asset"

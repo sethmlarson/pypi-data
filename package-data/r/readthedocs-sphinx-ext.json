@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "agj",
+    "davidfischer",
+    "ericholscher",
+    "humitos"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2",

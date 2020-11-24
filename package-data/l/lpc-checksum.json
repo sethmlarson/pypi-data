@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "basilfx"
+  ],
   "requires_dist": {
     "dists": [
       "intelhex"

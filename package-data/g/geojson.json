@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "frewsxcv",
+    "jazzband",
+    "seang"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

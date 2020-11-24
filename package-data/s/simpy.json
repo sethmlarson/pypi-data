@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "jpgrayson",
+    "oluensdorf",
+    "scherfke",
+    "sscherfke"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

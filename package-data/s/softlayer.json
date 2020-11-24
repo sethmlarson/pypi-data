@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "briancline",
+    "Christopher.Gallo",
+    "cmporter",
+    "kwienken",
+    "sergiocarlos",
+    "SoftLayer"
+  ],
   "requires_dist": {
     "dists": [
       "click",

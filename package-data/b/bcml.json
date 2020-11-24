@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "NiceneNerd"
+  ],
   "requires_dist": {
     "dists": [
       "aamp",

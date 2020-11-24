@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pylucid"
+  ],
   "requires_dist": {
     "dists": [
       "diff-match-patch",

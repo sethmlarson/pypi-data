@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "taleinat"
+  ],
   "requires_dist": {
     "dists": [
       "attrs"

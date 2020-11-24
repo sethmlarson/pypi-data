@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ntamas"
+  ],
   "requires_dist": {
     "dists": [
       "texttable"

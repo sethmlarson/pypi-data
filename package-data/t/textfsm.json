@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "buxtronix",
+    "harro"
+  ],
   "requires_dist": {
     "dists": [
       "future",

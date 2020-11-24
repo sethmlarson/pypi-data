@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mattmann"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

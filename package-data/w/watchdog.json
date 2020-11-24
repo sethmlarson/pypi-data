@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "blag",
+    "danilo.bellini",
+    "gorakhargosh",
+    "T2",
+    "takoi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

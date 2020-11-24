@@ -1,4 +1,16 @@
 {
+  "publishers": [
+    "fperez",
+    "jtyberg",
+    "kevin-bates",
+    "Kyle.Kelley",
+    "lbustelo",
+    "lresende",
+    "mbussonn",
+    "minrk",
+    "parente",
+    "rolweber"
+  ],
   "requires_dist": {
     "dists": [
       "jupyter-client",

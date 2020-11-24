@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "astroquery",
+    "bsipocz",
+    "keflavich",
+    "robitaille"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "borntyping"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

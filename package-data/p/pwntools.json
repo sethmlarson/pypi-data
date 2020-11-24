@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "Arusekk",
+    "br0ns",
+    "heapcrash",
+    "Idolf",
+    "zachriggle"
+  ],
   "requires_dist": {
     "dists": [
       "capstone",

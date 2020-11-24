@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dopplershift",
+    "jhamman",
+    "jswhit"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

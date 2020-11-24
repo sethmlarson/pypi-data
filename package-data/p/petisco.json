@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "alicebiometrics"
+  ],
   "requires_dist": {
     "dists": [
       "apscheduler",

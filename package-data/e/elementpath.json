@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "brunato"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

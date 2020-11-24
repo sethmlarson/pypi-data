@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jamesls"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

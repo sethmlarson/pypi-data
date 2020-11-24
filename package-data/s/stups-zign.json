@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "hjacobs",
+    "npiccolotto",
+    "stups-cd",
+    "tuxlife"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

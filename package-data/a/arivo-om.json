@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "arivo"
+  ],
   "requires_dist": {
     "dists": [
       "editdistance",

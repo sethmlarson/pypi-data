@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "chair6",
+    "ericwb",
+    "graffatcolmingov",
+    "openstackci",
+    "tkelsey",
+    "tmcpeak"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

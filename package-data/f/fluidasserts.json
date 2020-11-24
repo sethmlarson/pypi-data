@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fluid"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

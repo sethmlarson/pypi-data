@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "SteadBytes",
+    "Ziirish"
+  ],
   "requires_dist": {
     "dists": [
       "aniso8601",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fchollet"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

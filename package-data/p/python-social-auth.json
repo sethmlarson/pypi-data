@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "omab"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

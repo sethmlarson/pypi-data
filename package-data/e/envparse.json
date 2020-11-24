@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rconradharris"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

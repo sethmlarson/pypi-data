@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "antisch",
+    "azure-sdk",
+    "microsoft"
+  ],
   "requires_dist": {
     "dists": [
       "azure-core",

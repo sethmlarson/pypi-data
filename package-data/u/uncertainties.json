@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lebigot"
+  ],
   "requires_dist": {
     "dists": [
       "future"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "serge_sans_paille"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

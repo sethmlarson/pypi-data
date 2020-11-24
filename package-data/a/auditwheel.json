@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "auvipy",
+    "ehashman",
+    "lkollar",
+    "mayeut",
+    "njs",
+    "ogrisel",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

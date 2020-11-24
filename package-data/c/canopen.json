@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "af-silva",
+    "sandberg"
+  ],
   "requires_dist": {
     "dists": [
       "python-can"

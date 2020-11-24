@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gfairchild"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

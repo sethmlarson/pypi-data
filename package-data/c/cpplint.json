@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mattyclarkson",
+    "theandrewdavis",
+    "ThibaultKruse"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

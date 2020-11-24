@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ero",
+    "johnyf",
+    "prmtl"
+  ],
   "requires_dist": {
     "dists": [
       "pyparsing"

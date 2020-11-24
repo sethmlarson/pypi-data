@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gor_ar",
+    "sgevorg"
+  ],
   "requires_dist": {
     "dists": [
       "aimrecords",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jiffyclub"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

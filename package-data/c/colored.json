@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dslackw"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

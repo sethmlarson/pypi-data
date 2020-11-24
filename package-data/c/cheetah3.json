@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "karpierz",
+    "phd"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

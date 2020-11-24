@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "buildbot_virgilsecurity",
+    "unlim"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "adobrawy",
+    "LukaszBalcerzak",
+    "penguin_brian"
+  ],
   "requires_dist": {
     "dists": [
       "django"

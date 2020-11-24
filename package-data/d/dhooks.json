@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "fourjr",
+    "kyber"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

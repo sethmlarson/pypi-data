@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "kirovilya",
+    "prefer"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

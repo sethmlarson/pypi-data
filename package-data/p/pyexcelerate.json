@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Kevin.Zhang"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2",

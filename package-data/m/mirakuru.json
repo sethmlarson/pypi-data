@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "fizyk",
+    "thearoom"
+  ],
   "requires_dist": {
     "dists": [
       "psutil"

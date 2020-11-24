@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gutworth"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

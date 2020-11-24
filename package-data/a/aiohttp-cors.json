@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aio-libs-bot",
+    "aiohttp-cors-deploy",
+    "Andrew.Svetlov",
+    "rutsky"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

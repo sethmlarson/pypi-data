@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "dfmartins",
+    "flavioribeiro",
+    "hltbra",
+    "Juarez.Bochi",
+    "leandromoreira",
+    "mauricioabreua"
+  ],
   "requires_dist": {
     "dists": [
       "iso8601"

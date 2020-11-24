@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "stephenrauch"
+  ],
   "requires_dist": {
     "dists": [
       "networkx",

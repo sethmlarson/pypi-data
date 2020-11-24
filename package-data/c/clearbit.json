@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "maccman"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dawoudt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

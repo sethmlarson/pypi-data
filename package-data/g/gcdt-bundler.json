@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "glomex",
+    "markfink"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

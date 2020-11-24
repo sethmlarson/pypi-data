@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "craigds",
+    "goodtune",
+    "matthiask"
+  ],
   "requires_dist": {
     "dists": [
       "django",

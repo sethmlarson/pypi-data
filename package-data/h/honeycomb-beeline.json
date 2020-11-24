@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "honeycomb"
+  ],
   "requires_dist": {
     "dists": [
       "libhoney",

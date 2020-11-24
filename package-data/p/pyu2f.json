@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "google_opensource",
+    "jiangk"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

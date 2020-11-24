@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "fchollet",
+    "invernizzi",
+    "jhfjhfj1",
+    "omalleyt12"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

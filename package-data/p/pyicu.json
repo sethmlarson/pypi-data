@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vajda"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

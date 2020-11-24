@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jamesturk"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "cdent",
+    "graffatcolmingov",
+    "httplib2.release",
+    "jcgregorio",
+    "Sergey.Shepelev"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bsilverberg",
+    "davehunt",
+    "tomviner"
+  ],
   "requires_dist": {
     "dists": [
       "pytest"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "teradata"
+  ],
   "requires_dist": {
     "dists": [
       "pycryptodome"

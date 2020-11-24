@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "felix.antoine.fortin",
+    "fmder"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

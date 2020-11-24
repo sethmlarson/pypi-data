@@ -1,4 +1,31 @@
 {
+  "publishers": [
+    "aaltay",
+    "akedin",
+    "aljoscha",
+    "amaliujia",
+    "apilloud",
+    "ardagan",
+    "bhulette",
+    "boyuanzz",
+    "chamikara",
+    "charlesccychen",
+    "danoliveira",
+    "davorbonaci",
+    "goenka",
+    "ibzib",
+    "jbonofre",
+    "KennKnowles",
+    "lostluck",
+    "lukecwik",
+    "markliu",
+    "pabloem",
+    "robertwb",
+    "robinyqiu",
+    "tvalentyn",
+    "udim",
+    "yifanzou"
+  ],
   "requires_dist": {
     "dists": [
       "avro",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "hipo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

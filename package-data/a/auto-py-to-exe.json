@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "brentvollebregt"
+  ],
   "requires_dist": {
     "dists": [
       "eel",

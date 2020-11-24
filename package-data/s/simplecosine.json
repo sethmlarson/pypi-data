@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "datamade.wheelbuilder",
+    "fgregg"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

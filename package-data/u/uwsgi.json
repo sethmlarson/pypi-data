@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "anthon",
+    "unbit"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

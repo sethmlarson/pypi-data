@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "timmahrt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

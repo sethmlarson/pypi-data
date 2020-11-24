@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dhoese",
+    "Martin.Raspaud",
+    "storpipfugl"
+  ],
   "requires_dist": {
     "dists": [
       "configobj",

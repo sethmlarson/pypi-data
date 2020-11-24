@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "BeyondEvil",
+    "davehunt",
+    "pytest-dev",
+    "ssbarnea"
+  ],
   "requires_dist": {
     "dists": [
       "pytest",

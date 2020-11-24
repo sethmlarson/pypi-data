@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jamrizzi"
+  ],
   "requires_dist": {
     "dists": [
       "html2text",

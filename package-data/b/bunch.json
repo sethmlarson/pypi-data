@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "David.Schoonover",
+    "dsc"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

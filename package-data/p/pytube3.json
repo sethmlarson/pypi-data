@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "hmartin"
+  ],
   "requires_dist": {
     "dists": [
       "typing-extensions"

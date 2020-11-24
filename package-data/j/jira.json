@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bspeakmon",
+    "pycontribs",
+    "ssbarnea",
+    "tebeka"
+  ],
   "requires_dist": {
     "dists": [
       "defusedxml",

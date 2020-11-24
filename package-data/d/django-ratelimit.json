@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "AdamChainz",
+    "jsocol",
+    "willhelm"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

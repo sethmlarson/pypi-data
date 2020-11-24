@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "danielhochman",
+    "garrettheel",
+    "jlafon",
+    "jmphilli",
+    "lyft-pynamodb"
+  ],
   "requires_dist": {
     "dists": [
       "botocore",

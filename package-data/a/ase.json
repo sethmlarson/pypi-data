@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "askhl",
+    "jj",
+    "marcindulak"
+  ],
   "requires_dist": {
     "dists": [
       "matplotlib",

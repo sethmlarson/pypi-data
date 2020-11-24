@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jokoala",
+    "lonvia"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sashahart"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

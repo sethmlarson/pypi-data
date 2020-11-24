@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lob_python"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

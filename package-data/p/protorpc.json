@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "bossylobster",
+    "Craig.Citro",
+    "google_opensource",
+    "inklesspen",
+    "slobberchops"
+  ],
   "requires_dist": {
     "dists": [
       "six"

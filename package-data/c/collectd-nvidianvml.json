@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vskubriev"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

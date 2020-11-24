@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sickrage"
+  ],
   "requires_dist": {
     "dists": [
       "alembic",

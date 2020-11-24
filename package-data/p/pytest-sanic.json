@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "yunxu1992"
+  ],
   "requires_dist": {
     "dists": [
       "aiohttp",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "retr0h"
+  ],
   "requires_dist": {
     "dists": [
       "pbr"

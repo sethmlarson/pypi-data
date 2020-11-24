@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mikeboers",
+    "pyav-pypi-ci",
+    "sharky"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

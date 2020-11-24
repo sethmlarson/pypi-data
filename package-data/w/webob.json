@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "chrism",
+    "ianb",
+    "mmerickel",
+    "pylonsbot",
+    "xistence"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

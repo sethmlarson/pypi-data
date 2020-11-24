@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jbiggs_ets"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

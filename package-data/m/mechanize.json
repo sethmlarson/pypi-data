@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jjlee",
+    "kovidgoyal"
+  ],
   "requires_dist": {
     "dists": [
       "html5lib"

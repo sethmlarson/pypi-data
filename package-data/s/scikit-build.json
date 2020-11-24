@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jcfr",
+    "thewtex"
+  ],
   "requires_dist": {
     "dists": [
       "distro",

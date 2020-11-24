@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "scrgiorgio"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

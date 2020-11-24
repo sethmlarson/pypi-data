@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "quandyfactory"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

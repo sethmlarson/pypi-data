@@ -1,4 +1,19 @@
 {
+  "publishers": [
+    "agroszer",
+    "baijum",
+    "dataflake",
+    "davisagli",
+    "faassen",
+    "gary",
+    "hannosch",
+    "icemac",
+    "MarkPilgrim",
+    "menesis",
+    "roymath",
+    "srichter",
+    "tlotze"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

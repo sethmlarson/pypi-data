@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "acozzette",
+    "dlj",
+    "jhaberman",
+    "jieluo",
+    "protobuf-packages",
+    "teboring",
+    "xfxyjwf"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

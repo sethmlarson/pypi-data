@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dbnd-dev"
+  ],
   "requires_dist": {
     "dists": [
       "dbnd",
@@ -6,7 +9,7 @@
       "psycopg2"
     ],
     "specifiers": [
-      "dbnd (==0.30.5)",
+      "dbnd (==0.30.6)",
       "packaging",
       "psycopg2 (<2.8,>=2.7.4)"
     ]

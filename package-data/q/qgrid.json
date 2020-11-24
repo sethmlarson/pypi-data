@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "quantopian",
+    "ssanderson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

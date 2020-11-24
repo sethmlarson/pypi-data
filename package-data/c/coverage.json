@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nedbatchelder"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

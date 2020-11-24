@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Joshua.Harlow",
+    "pycqa",
+    "ssbarnea"
+  ],
   "requires_dist": {
     "dists": [
       "chardet",

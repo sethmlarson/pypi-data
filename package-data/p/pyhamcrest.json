@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "brunns",
+    "Chris.Rose",
+    "Jon.Reid"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

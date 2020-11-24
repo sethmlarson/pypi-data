@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "greyli"
+  ],
   "requires_dist": {
     "dists": [
       "flask"

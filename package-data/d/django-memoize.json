@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "escer",
+    "samu",
+    "tvavrys",
+    "utek"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

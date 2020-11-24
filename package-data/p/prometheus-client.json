@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "beorn7",
+    "Brian.Brazil"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

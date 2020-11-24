@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "c4urself",
+    "peritus"
+  ],
   "requires_dist": {
     "dists": [
       "bump2version"

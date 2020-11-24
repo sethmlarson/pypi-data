@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ploxiln"
+  ],
   "requires_dist": {
     "dists": [
       "bcrypt",

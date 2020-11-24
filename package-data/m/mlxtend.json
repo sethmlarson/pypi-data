@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rasbt"
+  ],
   "requires_dist": {
     "dists": [
       "joblib",

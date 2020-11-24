@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aino",
+    "jazzband",
+    "mariocesar"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

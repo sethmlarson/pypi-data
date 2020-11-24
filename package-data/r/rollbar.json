@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "ajtran",
+    "brianr",
+    "coryvirok",
+    "jondeandres",
+    "Letania",
+    "waltjones"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

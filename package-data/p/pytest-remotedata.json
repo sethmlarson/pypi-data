@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "bsipocz",
+    "drdavella",
+    "robitaille"
+  ],
   "requires_dist": {
     "dists": [
       "pytest",

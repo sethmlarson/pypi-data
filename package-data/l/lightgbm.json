@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "guolinke",
+    "wxchan"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Aaron.Meurer",
+    "fschulze"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

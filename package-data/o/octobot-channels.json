@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "DrakkarSoftware",
+    "GuillaumeDSM"
+  ],
   "requires_dist": {
     "dists": [
       "cython",

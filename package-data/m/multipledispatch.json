@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "Charles.Cloud",
+    "llllllllll",
+    "mniekerk",
+    "mrocklin"
+  ],
   "requires_dist": {
     "dists": [
       "six"

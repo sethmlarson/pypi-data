@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dranjan"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

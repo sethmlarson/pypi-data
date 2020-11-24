@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "FFY00"
+  ],
   "requires_dist": {
     "dists": [
       "importlib-metadata",

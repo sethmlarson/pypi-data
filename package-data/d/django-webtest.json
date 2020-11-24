@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "a_soldatenko",
+    "gawel",
+    "kmike"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

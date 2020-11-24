@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jgoppert",
+    "tridge"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

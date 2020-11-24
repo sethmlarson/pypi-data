@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "google_opensource",
+    "grpc-packages"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

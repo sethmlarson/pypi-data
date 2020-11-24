@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "andrewgy8",
+    "bmihelac.myopenid.com",
+    "manelclos"
+  ],
   "requires_dist": {
     "dists": [
       "diff-match-patch",

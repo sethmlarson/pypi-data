@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "TMiguelT"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

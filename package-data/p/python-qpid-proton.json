@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "astitcher",
+    "flaper87",
+    "kgiusti",
+    "ssorj"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cwrowley",
+    "jgoppert",
+    "murrayrm",
+    "slivingston"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dadubovs",
+    "microsoft",
+    "microsoftkusto"
+  ],
   "requires_dist": {
     "dists": [
       "adal",

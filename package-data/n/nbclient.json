@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "davidbrochart",
+    "MSeal",
+    "Sylvain.Corlay"
+  ],
   "requires_dist": {
     "dists": [
       "async-generator",

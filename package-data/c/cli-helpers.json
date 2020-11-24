@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "amjith",
+    "icherniavska",
+    "tsroten"
+  ],
   "requires_dist": {
     "dists": [
       "configobj",

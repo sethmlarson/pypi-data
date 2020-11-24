@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "login.launchpad.net_134",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "importlib-metadata",

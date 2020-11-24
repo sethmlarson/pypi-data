@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "pablopunk",
+    "petrjasek",
+    "superdesk"
+  ],
   "requires_dist": {
     "dists": [
       "arrow",

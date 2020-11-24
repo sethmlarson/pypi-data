@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mpenning"
+  ],
   "requires_dist": {
     "dists": [
       "colorama",

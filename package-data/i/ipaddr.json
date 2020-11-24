@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mikelward",
+    "pmoody"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rh0main"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mdavidsaver"
+  ],
   "requires_dist": {
     "dists": [
       "epicscorelibs",

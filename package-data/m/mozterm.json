@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ahal",
+    "davehunt",
+    "whimboo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

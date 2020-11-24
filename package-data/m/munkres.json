@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bmc"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

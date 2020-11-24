@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ekzhu"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

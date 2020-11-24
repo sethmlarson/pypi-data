@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Bob.Van.Zant",
+    "markpeek",
+    "phobologic"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

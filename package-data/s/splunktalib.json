@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rfaircloth-splunk"
+  ],
   "requires_dist": {
     "dists": [
       "httplib2",

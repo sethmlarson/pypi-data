@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cleverdevil",
+    "ryanpetrello"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

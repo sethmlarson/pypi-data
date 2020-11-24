@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dqsully",
+    "laktak"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

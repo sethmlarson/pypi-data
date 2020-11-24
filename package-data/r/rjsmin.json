@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ndparker"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

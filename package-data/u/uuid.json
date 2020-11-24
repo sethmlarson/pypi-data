@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ping"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "malexer"
+  ],
   "requires_dist": {
     "dists": [
       "findspark",

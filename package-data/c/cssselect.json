@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "redapple",
+    "scrapy",
+    "SimonSapin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dil",
+    "dlongley"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

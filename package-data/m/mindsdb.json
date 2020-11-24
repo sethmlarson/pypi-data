@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mindsdb",
+    "mindsdb_sysadmin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "Dylan.Smith",
+    "jamied",
+    "lisa.ugray",
+    "pickle27",
+    "shopify",
+    "tylerball"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

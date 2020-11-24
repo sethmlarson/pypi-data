@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Brian.Quinlan",
+    "google_opensource",
+    "moraes"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

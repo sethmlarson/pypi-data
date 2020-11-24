@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "joerick",
+    "YannickJadoul"
+  ],
   "requires_dist": {
     "dists": [
       "bashlex",

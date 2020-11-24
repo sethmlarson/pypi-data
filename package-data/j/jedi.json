@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "David.Halter"
+  ],
   "requires_dist": {
     "dists": [
       "parso"

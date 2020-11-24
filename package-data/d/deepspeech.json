@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "deepspeech"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pganssle"
+  ],
   "requires_dist": {
     "dists": [
       "importlib-resources"

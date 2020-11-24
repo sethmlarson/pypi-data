@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "caxap"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

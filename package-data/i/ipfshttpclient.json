@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ntninja"
+  ],
   "requires_dist": {
     "dists": [
       "multiaddr",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "eamonnfaherty"
+  ],
   "requires_dist": {
     "dists": [
       "better-boto",

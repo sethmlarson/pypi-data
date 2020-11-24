@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Alexander.Shorin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

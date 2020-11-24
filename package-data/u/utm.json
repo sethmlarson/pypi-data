@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Tobias.Bieniek"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

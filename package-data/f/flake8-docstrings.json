@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "asottile",
+    "graffatcolmingov"
+  ],
   "requires_dist": {
     "dists": [
       "flake8",

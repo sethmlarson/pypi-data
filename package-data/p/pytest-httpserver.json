@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "csernazs"
+  ],
   "requires_dist": {
     "dists": [
       "typing",

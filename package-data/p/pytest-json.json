@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mattcl"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mballance"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

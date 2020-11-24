@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Andrea.Censi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

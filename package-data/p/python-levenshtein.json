@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "dorianj",
+    "LukeImhoff",
+    "miohtama",
+    "ztane"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

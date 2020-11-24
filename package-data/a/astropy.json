@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "bsipocz",
+    "embray",
+    "Erik.Tollerud",
+    "matthew.brett",
+    "robitaille"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

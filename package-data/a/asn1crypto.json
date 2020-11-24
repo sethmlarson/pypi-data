@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wbond"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

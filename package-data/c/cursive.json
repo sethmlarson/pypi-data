@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dane-fichter",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "castellan",

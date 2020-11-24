@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gcloudpypi"
+  ],
   "requires_dist": {
     "dists": [
       "cffi"

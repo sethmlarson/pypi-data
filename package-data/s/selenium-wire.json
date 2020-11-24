@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wkeeling"
+  ],
   "requires_dist": {
     "dists": [
       "selenium"

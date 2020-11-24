@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "akx",
+    "drodrz",
+    "hzdg",
+    "rmb185",
+    "taleb"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

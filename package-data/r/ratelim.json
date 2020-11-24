@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "themiurgo"
+  ],
   "requires_dist": {
     "dists": [
       "decorator"

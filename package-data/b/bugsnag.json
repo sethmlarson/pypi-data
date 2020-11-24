@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "bugsnag",
+    "Cawllec",
+    "imjoehaines",
+    "kattrali",
+    "loopj",
+    "snmaynard",
+    "tomlongridge"
+  ],
   "requires_dist": {
     "dists": [
       "webob"

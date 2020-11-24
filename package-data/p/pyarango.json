@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "joerg84",
+    "tariqdaouda"
+  ],
   "requires_dist": {
     "dists": [
       "datetime",

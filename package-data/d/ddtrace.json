@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "brettlangdon",
+    "clutchski",
+    "Datadog",
+    "jd",
+    "kyle-verhoog",
+    "labbati",
+    "majorgreys",
+    "palazzem"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

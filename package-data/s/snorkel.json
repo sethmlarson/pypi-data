@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ajratner",
+    "henryre",
+    "snorkel",
+    "stephenbach"
+  ],
   "requires_dist": {
     "dists": [
       "munkres",

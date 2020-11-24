@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "anna-livia",
+    "benjello",
+    "cbenz",
+    "florian.pagnoux",
+    "guillett",
+    "manou",
+    "maukoquiroga",
+    "openfisca-bot",
+    "sacha"
+  ],
   "requires_dist": {
     "dists": [
       "openfisca-core"

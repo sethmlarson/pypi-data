@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "dre",
+    "glyph",
+    "rvanlaar",
+    "wsanchez"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

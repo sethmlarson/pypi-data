@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "madzak",
+    "peritus"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

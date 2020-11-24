@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "allisson"
+  ],
   "requires_dist": {
     "dists": [
       "httpx",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bonber",
+    "ConnorHack",
+    "JLSam",
+    "Luigy0x18"
+  ],
   "requires_dist": {
     "dists": [
       "beautifulsoup4",

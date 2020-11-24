@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "akhorlin",
+    "andresp",
+    "arnoegw",
+    "noelutz",
+    "tf-nightly"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

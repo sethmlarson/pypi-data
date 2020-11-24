@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "burnash"
+  ],
   "requires_dist": {
     "dists": [
       "google-auth",

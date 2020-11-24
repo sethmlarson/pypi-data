@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "amazon-kinesis-tools",
+    "aws",
+    "kurtisn"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

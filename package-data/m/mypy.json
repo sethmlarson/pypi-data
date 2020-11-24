@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ambv",
+    "guido",
+    "ilevkivskyi",
+    "jukkal",
+    "msullivan"
+  ],
   "requires_dist": {
     "dists": [
       "mypy-extensions",

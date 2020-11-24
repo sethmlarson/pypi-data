@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pdodds"
+  ],
   "requires_dist": {
     "dists": [
       "addict",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sfpythoncli"
+  ],
   "requires_dist": {
     "dists": [
       "adal",

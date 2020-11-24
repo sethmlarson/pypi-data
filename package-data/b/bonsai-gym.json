@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bonsaiai"
+  ],
   "requires_dist": {
     "dists": [
       "bonsai-ai",

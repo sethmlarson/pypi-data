@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "cdent",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "pbr"

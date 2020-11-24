@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "paddle-dev"
+  ],
   "requires_dist": {
     "dists": [
       "astor",

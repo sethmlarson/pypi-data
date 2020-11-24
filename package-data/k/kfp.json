@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "google_opensource",
+    "kubeflow-pipelines",
+    "neuromage"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

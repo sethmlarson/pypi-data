@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "energycap"
+  ],
   "requires_dist": {
     "dists": [
       "msrest"

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "amontalenti",
+    "emmett9001",
+    "kbourgoin",
+    "msukmanowsky",
+    "parsely"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

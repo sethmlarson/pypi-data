@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "HamidM6",
+    "vikramgovindan"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

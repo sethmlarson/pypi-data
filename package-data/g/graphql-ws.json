@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "mvanlonden",
+    "syrusakbary"
+  ],
   "requires_dist": {
     "dists": [
       "graphql-core"

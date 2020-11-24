@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jschneier"
+  ],
   "requires_dist": {
     "dists": [
       "django"

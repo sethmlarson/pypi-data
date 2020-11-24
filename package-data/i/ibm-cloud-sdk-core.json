@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "padamstx",
+    "watson-devex"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

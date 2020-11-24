@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "facebook",
+    "seemethere",
+    "soumith"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

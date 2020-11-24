@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "barry",
+    "brettcannon",
+    "jaraco"
+  ],
   "requires_dist": {
     "dists": [
       "contextlib2",

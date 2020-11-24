@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "okfn",
+    "pwalsh",
+    "roll",
+    "tryggvib",
+    "vitorbaptista"
+  ],
   "requires_dist": {
     "dists": [
       "chardet",

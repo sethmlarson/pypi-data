@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "author",
+    "jamesob",
+    "lapointexavier",
+    "ltucker"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

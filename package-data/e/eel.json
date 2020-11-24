@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ChrisKnott",
+    "samuelhwilliams"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

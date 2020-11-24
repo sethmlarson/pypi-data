@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "uehara1414"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

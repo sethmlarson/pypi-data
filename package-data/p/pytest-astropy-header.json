@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "robitaille"
+  ],
   "requires_dist": {
     "dists": [
       "pytest"

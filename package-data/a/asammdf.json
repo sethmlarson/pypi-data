@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "danielhrisca"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

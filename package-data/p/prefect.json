@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cicdw",
+    "jlowin",
+    "joshmeek",
+    "prefect"
+  ],
   "requires_dist": {
     "dists": [
       "click",
@@ -104,7 +110,7 @@
         "azureml-sdk (<1.1,>=1.0.65); extra=='all_extras'",
         "black; extra=='all_extras'",
         "boto3 (<2.0,>=1.9); extra=='all_extras'",
-        "dask-cloudprovider (<1.0,>=0.2.0); extra=='all_extras'",
+        "dask-cloudprovider[aws] (<1.0,>=0.2.0); extra=='all_extras'",
         "dask-kubernetes (>=0.8.0); extra=='all_extras'",
         "dropbox (~=9.0); extra=='all_extras'",
         "feedparser (<6.0,>=5.0.1); extra=='all_extras'",
@@ -163,7 +169,7 @@
         "dask-cloudprovider"
       ],
       "specifiers": [
-        "dask-cloudprovider (<1.0,>=0.2.0); extra=='dask_cloudprovider'"
+        "dask-cloudprovider[aws] (<1.0,>=0.2.0); extra=='dask_cloudprovider'"
       ]
     },
     "dropbox": {

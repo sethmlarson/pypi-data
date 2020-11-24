@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "annegentle",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "dulwich",

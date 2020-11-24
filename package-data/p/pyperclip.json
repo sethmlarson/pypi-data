@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "AlSweigart",
+    "cblgh"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

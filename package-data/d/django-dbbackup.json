@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "benjaoming",
+    "mjs7231",
+    "ZuluPro"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

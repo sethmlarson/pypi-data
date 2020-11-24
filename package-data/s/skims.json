@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "fluidattacks",
+    "kamadorueda"
+  ],
   "requires_dist": {
     "dists": [
       "aioextensions",
@@ -17,7 +21,6 @@
       "networkx",
       "oyaml",
       "pillow",
-      "pygraphviz",
       "pyparsing",
       "python-dateutil",
       "python-hcl2",
@@ -44,7 +47,6 @@
       "networkx (==2.5)",
       "oyaml (==0.9)",
       "pillow (==7.2.0)",
-      "pygraphviz (==1.5)",
       "pyparsing (==2.4.7)",
       "python-dateutil (==2.8.1)",
       "python-hcl2 (==0.3.0)",

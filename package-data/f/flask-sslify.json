@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "graffatcolmingov",
+    "heroku",
+    "kennethreitz",
+    "laner",
+    "tuxtimo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lostanlen",
+    "rabitt"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "g-rl-infra-oss",
+    "sguada",
+    "tobyboyd"
+  ],
   "requires_dist": {
     "dists": [
       "absl-py"

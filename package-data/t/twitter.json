@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "boogheta",
+    "hugovk",
+    "sixohsix"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

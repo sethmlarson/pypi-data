@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "alexgaynor",
+    "carltongibson"
+  ],
   "requires_dist": {
     "dists": [
       "django"

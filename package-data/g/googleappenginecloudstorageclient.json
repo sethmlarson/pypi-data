@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "BrandonY",
+    "troytrimble",
+    "Ye.Yuan"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

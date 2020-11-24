@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "paulocheque"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

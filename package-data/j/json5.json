@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dpranke"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

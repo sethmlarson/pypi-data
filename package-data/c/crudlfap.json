@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jpic",
+    "vindarel",
+    "yourlabs"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,28 @@
 {
+  "publishers": [
+    "agroszer",
+    "baijum",
+    "ccomb",
+    "chrisw",
+    "davisagli",
+    "faassen",
+    "gary",
+    "hannosch",
+    "hathawsh",
+    "icemac",
+    "J1m",
+    "jamadden",
+    "menesis",
+    "mgedmin",
+    "nadako",
+    "pcardune",
+    "roymath",
+    "srichter",
+    "tlotze",
+    "tseaver",
+    "zope.wheelbuilder",
+    "zope.wineggbuilder"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

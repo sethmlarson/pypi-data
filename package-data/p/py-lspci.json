@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Shooshp"
+  ],
   "requires_dist": {
     "dists": [
       "paramiko"

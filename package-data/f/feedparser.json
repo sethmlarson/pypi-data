@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "kurtmckee"
+  ],
   "requires_dist": {
     "dists": [
       "sgmllib3k"

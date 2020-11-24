@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "23",
+    "tatsuro",
+    "zackw"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

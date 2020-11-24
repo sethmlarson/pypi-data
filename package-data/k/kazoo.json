@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "bbangert",
+    "hannosch",
+    "Joshua.Harlow",
+    "nimbusproject"
+  ],
   "requires_dist": {
     "dists": [
       "six"

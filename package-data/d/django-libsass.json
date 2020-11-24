@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mattwestcott"
+  ],
   "requires_dist": {
     "dists": [
       "django-compressor",

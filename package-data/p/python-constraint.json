@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "niemeyer",
+    "scls"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "benjaoming",
+    "reinbach",
+    "Stranger6667"
+  ],
   "requires_dist": {
     "dists": [
       "django",

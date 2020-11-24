@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "bgranger",
+    "fperez",
+    "ivanov",
+    "jhamrick",
+    "Jonathan.Frederic",
+    "Kyle.Kelley",
+    "mbussonn",
+    "minrk",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "decorator",

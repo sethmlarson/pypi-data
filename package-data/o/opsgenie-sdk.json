@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "opsgenie",
+    "zafer"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

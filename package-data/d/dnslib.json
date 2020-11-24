@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "paulc"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

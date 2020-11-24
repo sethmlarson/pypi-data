@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dpkp",
+    "mumrah"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

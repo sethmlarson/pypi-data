@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "erm0l0v"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

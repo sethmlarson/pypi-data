@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "htgoebel",
+    "matysek"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

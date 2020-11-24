@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "grokzen"
+  ],
   "requires_dist": {
     "dists": [
       "redis"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "brandonrhodes"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

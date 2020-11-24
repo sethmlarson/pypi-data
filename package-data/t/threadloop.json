@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "abgu",
+    "blampe",
+    "breerly",
+    "junchaowu",
+    "westover"
+  ],
   "requires_dist": {
     "dists": [
       "tornado"

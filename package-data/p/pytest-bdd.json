@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "anatoly",
+    "Oleg.Pidsadnyi",
+    "The_Compiler",
+    "youtux"
+  ],
   "requires_dist": {
     "dists": [
       "glob2",

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "durin42",
+    "indygreg",
+    "krbullock",
+    "mpmselenic",
+    "pulkitg"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

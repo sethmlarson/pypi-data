@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "madprof"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lk-geimfari",
+    "sobolevn"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

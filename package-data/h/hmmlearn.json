@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "anntzer",
+    "Sergei.Lebedev"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "kenrobbins",
+    "lelit"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

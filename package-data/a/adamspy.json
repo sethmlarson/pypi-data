@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bthornton191"
+  ],
   "requires_dist": {
     "dists": [
       "dripy",

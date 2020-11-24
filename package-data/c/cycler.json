@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "matthew.brett",
+    "mdboom2",
+    "Thomas.Caswell"
+  ],
   "requires_dist": {
     "dists": [
       "six"

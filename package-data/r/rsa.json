@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sybrenstuvel"
+  ],
   "requires_dist": {
     "dists": [
       "pyasn1"

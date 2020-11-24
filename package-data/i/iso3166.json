@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "deactivated"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

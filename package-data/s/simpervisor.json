@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "yuvipanda"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

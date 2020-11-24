@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "r.elsmore",
+    "underyx"
+  ],
   "requires_dist": {
     "dists": [
       "flask",

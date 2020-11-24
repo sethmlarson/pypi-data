@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Toilal"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "slezica"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

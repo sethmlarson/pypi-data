@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mitsuhiko",
+    "puiterwijk",
+    "puiterwijk.id.fedoraproject.org"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "ctheune",
+    "hannosch",
+    "icemac",
+    "J1m",
+    "jamadden",
+    "mgedmin",
+    "tseaver",
+    "zope.wheelbuilder",
+    "zope.wineggbuilder"
+  ],
   "requires_dist": {
     "dists": [
       "persistent",

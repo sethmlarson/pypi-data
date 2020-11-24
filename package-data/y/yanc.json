@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "noela"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

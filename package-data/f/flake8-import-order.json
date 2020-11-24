@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "pgjones",
+    "public"
+  ],
   "requires_dist": {
     "dists": [
       "enum34",

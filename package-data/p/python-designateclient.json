@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "kiall",
+    "openstackci",
+    "openstackjenkins"
+  ],
   "requires_dist": {
     "dists": [
       "cliff",

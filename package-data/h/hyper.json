@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Lukasa",
+    "SethMichaelLarson"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography",

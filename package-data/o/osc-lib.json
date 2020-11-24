@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dtroyer",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "cliff",

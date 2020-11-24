@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "tfmot"
+  ],
   "requires_dist": {
     "dists": [
       "dm-tree",

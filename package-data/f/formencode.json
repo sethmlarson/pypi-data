@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cito",
+    "dstanek",
+    "ianb",
+    "lambacck"
+  ],
   "requires_dist": {
     "dists": [
       "six"

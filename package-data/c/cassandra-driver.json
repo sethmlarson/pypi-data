@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "aboudreault",
+    "aholmber"
+  ],
   "requires_dist": {
     "dists": [
       "futures",

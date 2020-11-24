@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "saturnboy",
+    "sstirlin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "graffatcolmingov",
+    "kennethreitz",
+    "Lukasa",
+    "singingwolfboy",
+    "tuxtimo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

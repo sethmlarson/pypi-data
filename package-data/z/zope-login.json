@@ -1,4 +1,25 @@
 {
+  "publishers": [
+    "agroszer",
+    "baijum",
+    "benji",
+    "ccomb",
+    "ctheune",
+    "davisagli",
+    "faassen",
+    "hannosch",
+    "hathawsh",
+    "icemac",
+    "J1m",
+    "jamadden",
+    "kedder",
+    "menesis",
+    "mgedmin",
+    "nadako",
+    "projekt01",
+    "srichter",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

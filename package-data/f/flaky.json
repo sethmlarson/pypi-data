@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Jeff-Meadows",
+    "kunalparmar",
+    "potrebic"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

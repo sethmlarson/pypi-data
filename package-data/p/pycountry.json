@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ctheune"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

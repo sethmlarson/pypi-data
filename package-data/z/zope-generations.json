@@ -1,4 +1,22 @@
 {
+  "publishers": [
+    "agroszer",
+    "baijum",
+    "ccomb",
+    "ctheune",
+    "davisagli",
+    "hannosch",
+    "icemac",
+    "J1m",
+    "jamadden",
+    "menesis",
+    "mgedmin",
+    "projekt01",
+    "srichter",
+    "tlotze",
+    "tseaver",
+    "zagy"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

@@ -1,10 +1,18 @@
-# PyPI Dependency Tracker
+# PyPI Seismometer
 
-Tracking the top 5,000 packages on PyPI for changes to dependencies
+Tracking the top 5,000 packages on PyPI for changes that may impact the ecosystem
 
 All package information is available under `package-data/`. These
 files are auto-generated so shouldn't be modified directly, instead
 modify `main.py` with the desired changes.
+
+## Data being tracked
+
+- Publishers (`publishers`)
+- Direct requirements (`requires_dist`)
+- Extra requirements (`requires_extras`)
+- Python requirements (`requires_python`)
+- Yanked versions (`yanked`)
 
 ## License
 

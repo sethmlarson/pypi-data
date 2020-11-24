@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sivel"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

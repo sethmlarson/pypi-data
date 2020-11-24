@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "hanfang"
+  ],
   "requires_dist": {
     "dists": [
       "joblib"

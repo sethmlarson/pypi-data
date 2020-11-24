@@ -1,4 +1,15 @@
 {
+  "publishers": [
+    "bgw-ig",
+    "DragonMinded",
+    "jimmyl",
+    "josieesh",
+    "jreese",
+    "Kronuz",
+    "luciali",
+    "thatch",
+    "zsolzsol"
+  ],
   "requires_dist": {
     "dists": [
       "dataclasses",

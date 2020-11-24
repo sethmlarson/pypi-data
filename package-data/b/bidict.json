@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jab"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

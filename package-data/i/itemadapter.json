@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "elacuesta",
+    "scrapinghub",
+    "scrapy"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

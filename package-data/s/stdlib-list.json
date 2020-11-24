@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "ericdill",
+    "jackmaney",
+    "ocefpaf"
+  ],
   "requires_dist": {
     "dists": [
       "functools32"

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "pri22296"
+  ],
   "requires_dist": {
     "dists": [
       "wcwidth"

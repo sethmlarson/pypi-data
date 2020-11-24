@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "kvesteri",
+    "mitsuhiko",
+    "TkTech"
+  ],
   "requires_dist": {
     "dists": [
       "babel",

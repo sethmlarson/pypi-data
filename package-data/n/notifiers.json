@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "liiight"
+  ],
   "requires_dist": {
     "dists": [
       "click",

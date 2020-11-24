@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "deepmind"
+  ],
   "requires_dist": {
     "dists": [
       "absl-py",

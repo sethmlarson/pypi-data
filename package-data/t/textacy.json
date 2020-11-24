@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bjdewilde"
+  ],
   "requires_dist": {
     "dists": [
       "cachetools",

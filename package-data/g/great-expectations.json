@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "eugene.mandel.ge",
+    "jamesc",
+    "jpcampb2"
+  ],
   "requires_dist": {
     "dists": [
       "altair",

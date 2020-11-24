@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "colemaclean"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jd",
+    "openstackci",
+    "yassine"
+  ],
   "requires_dist": {
     "dists": [
       "fasteners",

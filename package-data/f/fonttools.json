@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "anthrotype",
+    "davelab6",
+    "just",
+    "mmmmmm",
+    "moyogo",
+    "xen"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

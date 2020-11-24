@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "kennethreitz",
+    "nateprewitt",
+    "tuxtimo"
+  ],
   "requires_dist": {
     "dists": [
       "pexpect"

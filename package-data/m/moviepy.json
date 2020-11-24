@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mbeacom",
+    "tburrows13",
+    "Zulko"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

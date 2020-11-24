@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "seanpianka"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

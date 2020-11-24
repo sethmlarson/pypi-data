@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Omer.Gertel"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

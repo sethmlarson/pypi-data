@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "mpetazzoni"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

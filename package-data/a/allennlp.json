@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "allennlp",
+    "dirkgr",
+    "epwalsh"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

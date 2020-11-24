@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aio-libs-bot",
+    "Andrew.Svetlov",
+    "hellysmile"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

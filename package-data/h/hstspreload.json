@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "kislyuk",
+    "SethMichaelLarson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cgbystrom",
+    "hugovk",
+    "Jonas.Tarnstrom",
+    "rstms"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

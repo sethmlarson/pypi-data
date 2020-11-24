@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lababidi",
+    "larskendall"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "DomNomNom",
+    "kipje13",
+    "RLBotOfficial"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

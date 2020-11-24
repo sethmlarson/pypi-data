@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Aspard"
+  ],
   "requires_dist": {
     "dists": [
       "configparser",

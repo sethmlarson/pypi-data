@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "anatoly",
+    "flub",
+    "hpk",
+    "nicoddemus",
+    "pfctdayelise",
+    "ronny",
+    "The_Compiler"
+  ],
   "requires_dist": {
     "dists": [
       "execnet",

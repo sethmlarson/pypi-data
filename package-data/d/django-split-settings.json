@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "akaihola",
+    "sobolevn",
+    "Visa.Kopu"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

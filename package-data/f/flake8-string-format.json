@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "xzise"
+  ],
   "requires_dist": {
     "dists": [
       "flake8"

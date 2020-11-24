@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "mapboxci",
+    "perrygeo",
+    "seang"
+  ],
   "requires_dist": {
     "dists": [
       "click"

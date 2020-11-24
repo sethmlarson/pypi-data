@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vog"
+  ],
   "requires_dist": {
     "dists": [
       "pyopenssl",

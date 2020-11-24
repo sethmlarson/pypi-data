@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "crsmithdev",
+    "jadchaar",
+    "systemcatch"
+  ],
   "requires_dist": {
     "dists": [
       "backports.functools-lru-cache",

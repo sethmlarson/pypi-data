@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "dstufft",
+    "ianb",
+    "Ivoz",
+    "jaraco",
+    "jezdez",
+    "pje"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

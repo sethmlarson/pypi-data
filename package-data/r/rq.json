@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "nvie",
+    "selwin"
+  ],
   "requires_dist": {
     "dists": [
       "click",

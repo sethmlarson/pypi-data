@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "idohalevi",
+    "mirii1994",
+    "roiravhon"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

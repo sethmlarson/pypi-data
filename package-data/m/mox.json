@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "google_opensource",
+    "GregoryPSmith",
+    "steve.middlekauff"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

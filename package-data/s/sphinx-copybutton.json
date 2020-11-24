@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "choldgraf"
+  ],
   "requires_dist": {
     "dists": [
       "sphinx"

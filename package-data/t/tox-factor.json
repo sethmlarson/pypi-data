@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rpkilby"
+  ],
   "requires_dist": {
     "dists": [
       "tox"

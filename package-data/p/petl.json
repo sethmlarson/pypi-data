@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aliman"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

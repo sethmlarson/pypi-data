@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "ducu",
+    "eoranged",
+    "nvie",
+    "tcorbettclark"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

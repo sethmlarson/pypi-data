@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "konstin"
+  ],
   "requires_dist": {
     "dists": [
       "toml"

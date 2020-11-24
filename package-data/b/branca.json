@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bibmartin",
+    "ocefpaf"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2"

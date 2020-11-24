@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jazzband",
+    "jezdez"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

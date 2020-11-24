@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "rthomas900"
+  ],
   "requires_dist": {
     "dists": [
       "gspread"

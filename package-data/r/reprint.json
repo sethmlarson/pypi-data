@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Yinzo"
+  ],
   "requires_dist": {
     "dists": [
       "backports.shutil-get-terminal-size",

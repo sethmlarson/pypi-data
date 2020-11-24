@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "wolfhong"
+  ],
   "requires_dist": {
     "dists": [
       "ephem",

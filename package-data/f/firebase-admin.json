@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Firebase"
+  ],
   "requires_dist": {
     "dists": [
       "cachecontrol",

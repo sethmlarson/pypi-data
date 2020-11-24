@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ifoukarakis",
+    "sque"
+  ],
   "requires_dist": {
     "dists": [
       "flask"

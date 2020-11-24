@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jrief",
+    "vdboor",
+    "yakky"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

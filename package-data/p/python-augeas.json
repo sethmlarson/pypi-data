@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "kuba",
+    "the_drow"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

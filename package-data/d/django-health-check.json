@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "codingjoe",
+    "jqb",
+    "KristianOellegaard",
+    "stefanfoulis"
+  ],
   "requires_dist": {
     "dists": [
       "django"

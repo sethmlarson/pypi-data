@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bmcustodio",
+    "frederickjansen"
+  ],
   "requires_dist": {
     "dists": [
       "six"

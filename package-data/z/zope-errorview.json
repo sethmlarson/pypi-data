@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "jamadden",
+    "janjaapdriessen",
+    "jw",
+    "mgedmin"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

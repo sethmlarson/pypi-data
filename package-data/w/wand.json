@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "dahlia",
+    "emcconville"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

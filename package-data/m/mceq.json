@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "a_fedynitch-121.a"
+  ],
   "requires_dist": {
     "dists": [
       "crflux",

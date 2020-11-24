@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "exarkun",
+    "meejah",
+    "sajith",
+    "vu3rdd",
+    "warner",
+    "zooko"
+  ],
   "requires_dist": {
     "dists": [
       "argparse"

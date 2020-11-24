@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "basherwo",
+    "mwcraig",
+    "rwchabay",
+    "sspickle"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

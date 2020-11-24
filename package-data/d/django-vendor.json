@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "renderbox"
+  ],
   "requires_dist": {
     "dists": [
       "django",

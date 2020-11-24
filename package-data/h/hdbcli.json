@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "SAP"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

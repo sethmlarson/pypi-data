@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "elementl",
+    "mgasner"
+  ],
   "requires_dist": {
     "dists": [
       "alembic",

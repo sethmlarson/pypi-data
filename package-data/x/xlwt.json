@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "chrisw",
+    "sjmachin"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

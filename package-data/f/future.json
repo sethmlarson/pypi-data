@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "edschofield",
+    "jmadler",
+    "om_henners",
+    "sfdye"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

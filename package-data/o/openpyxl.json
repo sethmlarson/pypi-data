@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "CharlieX",
+    "eric.gazoni"
+  ],
   "requires_dist": {
     "dists": [
       "et-xmlfile",

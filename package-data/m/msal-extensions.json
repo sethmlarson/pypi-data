@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "microsoft",
+    "nugetaad"
+  ],
   "requires_dist": {
     "dists": [
       "msal",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "hackebrot"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

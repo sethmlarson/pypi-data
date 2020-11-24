@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "crflynn"
+  ],
   "requires_dist": {
     "dists": [
       "databricks-cli"

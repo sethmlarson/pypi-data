@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dmpetrov",
+    "efiop",
+    "shcheklein"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

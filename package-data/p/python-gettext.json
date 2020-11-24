@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "hannosch",
+    "icemac",
+    "sallner"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

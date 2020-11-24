@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "florimondmanca",
+    "tomchristie",
+    "yeraydiazdiaz"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

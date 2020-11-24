@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "chrism",
+    "tseaver"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

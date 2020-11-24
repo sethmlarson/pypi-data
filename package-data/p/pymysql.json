@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "iDavidStory",
+    "lecram",
+    "naoki",
+    "peterhunt"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "linuxscout"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

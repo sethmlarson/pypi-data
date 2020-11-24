@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bndr"
+  ],
   "requires_dist": {
     "dists": [
       "docopt",

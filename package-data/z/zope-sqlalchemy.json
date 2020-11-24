@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "chrism",
+    "icemac",
+    "laurencerowe",
+    "mgedmin"
+  ],
   "requires_dist": {
     "dists": [
       "setuptools",

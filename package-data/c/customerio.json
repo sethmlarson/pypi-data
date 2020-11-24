@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "customerio",
+    "hownowstephen",
+    "jatinn"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

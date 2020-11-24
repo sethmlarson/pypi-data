@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "HexDecimal"
+  ],
   "requires_dist": {
     "dists": [
       "cffi",

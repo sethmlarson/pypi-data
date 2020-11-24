@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ryanjgallag"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

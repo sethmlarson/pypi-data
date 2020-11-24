@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lebedov"
+  ],
   "requires_dist": {
     "dists": [
       "msgpack",

@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "aurelie",
+    "ibm_docloud_team",
+    "vberaudi",
+    "viulongkong"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

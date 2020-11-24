@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "dschult",
+    "hagberg",
+    "jarrodmillman"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

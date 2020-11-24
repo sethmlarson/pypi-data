@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jwodder"
+  ],
   "requires_dist": {
     "dists": [
       "six"

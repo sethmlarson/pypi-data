@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jonafato",
+    "mattupstate"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

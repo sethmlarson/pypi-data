@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "cmitchel",
+    "csams",
+    "jcrafts",
+    "jjaggars",
+    "kylape",
+    "ldupont",
+    "sadams"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

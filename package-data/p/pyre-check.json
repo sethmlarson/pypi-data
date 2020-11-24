@@ -1,4 +1,16 @@
 {
+  "publishers": [
+    "dkgi",
+    "facebook",
+    "gbleaney",
+    "grievejia",
+    "maggiemoss",
+    "markmendoza",
+    "maxime.arthaud",
+    "pradeepkumar",
+    "shannonzhu",
+    "sinancepel"
+  ],
   "requires_dist": {
     "dists": [
       "click",

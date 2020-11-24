@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "flywheel-io"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

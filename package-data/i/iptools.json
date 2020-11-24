@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Bryan.Davis"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

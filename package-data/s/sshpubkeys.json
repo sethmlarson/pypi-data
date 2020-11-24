@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Olli.Jarva"
+  ],
   "requires_dist": {
     "dists": [
       "cryptography",

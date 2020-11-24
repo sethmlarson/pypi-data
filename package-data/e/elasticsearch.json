@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "fxdgear",
+    "honza.kral",
+    "SethMichaelLarson"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

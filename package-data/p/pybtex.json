@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "erosennin"
+  ],
   "requires_dist": {
     "dists": [
       "latexcodec",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ids1024",
+    "Ritiek"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

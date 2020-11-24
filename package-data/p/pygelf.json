@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "keeprocking"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

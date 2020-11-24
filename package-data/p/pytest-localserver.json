@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "basti"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

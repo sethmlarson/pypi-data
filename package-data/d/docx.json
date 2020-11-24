@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "jiaaro",
+    "scanny"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "cdevienne",
+    "doughellmann",
+    "openstackci"
+  ],
   "requires_dist": {
     "dists": [
       "netaddr",

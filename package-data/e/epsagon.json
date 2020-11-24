@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "epsagon"
+  ],
   "requires_dist": {
     "dists": [
       "autowrapt",

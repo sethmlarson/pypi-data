@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "flpereira",
+    "ohm314",
+    "pramodk",
+    "ramcdougal"
+  ],
   "requires_dist": {
     "dists": [
       "numpy"

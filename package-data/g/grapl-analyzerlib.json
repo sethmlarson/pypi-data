@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "insanitybit"
+  ],
   "requires_dist": {
     "dists": [
       "boto3",

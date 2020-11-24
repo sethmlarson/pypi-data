@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "aericson",
+    "AndersonResende86",
+    "bradwhittington",
+    "victorcarrico",
+    "vintasoftware"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Gorialis"
+  ],
   "requires_dist": {
     "dists": [
       "braceexpand",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aafshar",
+    "jgwak",
+    "rnabel"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

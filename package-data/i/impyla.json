@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "attilaj",
+    "dknupp",
+    "gregrahn",
+    "larsv",
+    "laserson",
+    "mister.wardrop",
+    "timarmstrong",
+    "wesm"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

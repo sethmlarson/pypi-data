@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "sebleier"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

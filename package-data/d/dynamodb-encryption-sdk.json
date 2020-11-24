@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aws-crypto-builder-tools"
+  ],
   "requires_dist": {
     "dists": [
       "attrs",

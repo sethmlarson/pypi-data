@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "aws-cdk"
+  ],
   "requires_dist": {
     "dists": [
       "aws-cdk.aws-cognito",

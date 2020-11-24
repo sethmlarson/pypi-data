@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "blaflamme",
+    "chrism",
+    "mmerickel",
+    "pylonsbot",
+    "xistence"
+  ],
   "requires_dist": {
     "dists": [
       "ipaddress",

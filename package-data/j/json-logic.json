@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "nadir.izr"
+  ],
   "requires_dist": {
     "dists": [
       "six"

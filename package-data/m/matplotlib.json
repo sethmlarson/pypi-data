@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "ivanov",
+    "matthew.brett",
+    "mdboom2",
+    "QuLogic",
+    "Thomas.Caswell"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

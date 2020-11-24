@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "qba73"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

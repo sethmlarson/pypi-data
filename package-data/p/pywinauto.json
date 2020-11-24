@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "aireilil",
+    "markm",
+    "vasily-v-ryabov"
+  ],
   "requires_dist": {
     "dists": [
       "comtypes",

@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "alexcjohnson",
+    "bpostlethwaite",
+    "cldougl",
+    "cparmer",
+    "marivet",
+    "nicolaskruchten",
+    "rpkyle",
+    "scjody"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

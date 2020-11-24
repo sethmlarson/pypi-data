@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bonsaiai",
+    "navvaran.mann"
+  ],
   "requires_dist": {
     "dists": [
       "click",

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "alecthomas",
+    "jstasiak"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

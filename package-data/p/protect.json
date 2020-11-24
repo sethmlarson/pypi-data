@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "arkal",
+    "cgcloud_jenkins"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

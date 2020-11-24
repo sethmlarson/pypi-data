@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "celebio",
+    "cpuhrsch"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "hpk",
+    "ronny"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "chrisjones",
+    "kennethlove",
+    "medmunds"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

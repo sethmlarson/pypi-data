@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "interpretml"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

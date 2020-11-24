@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "harlekeyn",
+    "JayFK",
+    "jwomers",
+    "rafaelpivato"
+  ],
   "requires_dist": {
     "dists": [
       "click",

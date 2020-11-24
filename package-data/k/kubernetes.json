@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "kubernetes"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

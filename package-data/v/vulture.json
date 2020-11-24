@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jendrik"
+  ],
   "requires_dist": {
     "dists": [
       "toml"

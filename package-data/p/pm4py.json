@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "Javert899",
+    "PM4Py",
+    "s.j.v.zelst"
+  ],
   "requires_dist": {
     "dists": [
       "ciso8601",

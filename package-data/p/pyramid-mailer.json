@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "chrism",
+    "danjac",
+    "mmerickel",
+    "pylonsbot",
+    "tseaver",
+    "xistence"
+  ],
   "requires_dist": {
     "dists": [
       "pyramid",

@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "cnk",
+    "google_opensource",
+    "reyang"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

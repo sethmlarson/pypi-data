@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "graffatcolmingov"
+  ],
   "requires_dist": {
     "dists": [
       "uritemplate"

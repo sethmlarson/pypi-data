@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "cortesi",
+    "kriechi",
+    "mhils",
+    "mitmproxy"
+  ],
   "requires_dist": {
     "dists": [
       "asgiref",

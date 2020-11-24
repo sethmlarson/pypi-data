@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "jpmckinney",
+    "opencontracting",
+    "OpenDataServices"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

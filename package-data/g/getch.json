@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "syscon"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

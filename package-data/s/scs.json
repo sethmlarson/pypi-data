@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "bodono"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

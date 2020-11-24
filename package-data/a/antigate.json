@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "gotlium"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

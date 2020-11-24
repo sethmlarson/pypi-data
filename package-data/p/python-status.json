@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "avi"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "albu",
+    "BloodAxe",
+    "creafz",
+    "Dipet",
+    "ternaus"
+  ],
   "requires_dist": {
     "dists": [
       "imgaug",

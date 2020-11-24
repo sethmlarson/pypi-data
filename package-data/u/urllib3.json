@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "SethMichaelLarson",
+    "shazow",
+    "urllib3"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jlawhead"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

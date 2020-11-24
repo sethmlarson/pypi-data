@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "vimalloc"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

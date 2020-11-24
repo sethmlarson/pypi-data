@@ -1,4 +1,18 @@
 {
+  "publishers": [
+    "aeidelson-plaid",
+    "andchen",
+    "anjiren",
+    "cfarmerplaid",
+    "dfish",
+    "ggworley_plaid",
+    "pbernasconi",
+    "pchen_plaid",
+    "ravron",
+    "sbrown",
+    "skansal7",
+    "stephentsai"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

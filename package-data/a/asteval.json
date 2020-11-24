@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "newville"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

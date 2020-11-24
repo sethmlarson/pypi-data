@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "andreabedini",
+    "antonio.valentino",
+    "falted",
+    "jsancho",
+    "matthew.brett",
+    "tomkooij"
+  ],
   "requires_dist": {
     "dists": [
       "numexpr",

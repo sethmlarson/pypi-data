@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "lincolnloop",
+    "SmileyChris"
+  ],
   "requires_dist": {
     "dists": [
       "colorama",

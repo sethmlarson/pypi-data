@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "google_opensource",
+    "tfp-automation",
+    "tfp-team"
+  ],
   "requires_dist": {
     "dists": [
       "cloudpickle",

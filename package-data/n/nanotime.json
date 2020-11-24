@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jbenet"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

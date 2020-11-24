@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "bednar",
+    "rhajek"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",

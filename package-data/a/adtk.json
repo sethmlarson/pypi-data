@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "arundo",
+    "tailaiw"
+  ],
   "requires_dist": {
     "dists": [
       "matplotlib",

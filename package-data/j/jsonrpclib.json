@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "joshmarshall"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

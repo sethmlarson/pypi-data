@@ -1,4 +1,13 @@
 {
+  "publishers": [
+    "AngledLuffa",
+    "futurulus",
+    "jebolton",
+    "qipeng",
+    "vzhong",
+    "yuhaozhang",
+    "yuhuiz"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

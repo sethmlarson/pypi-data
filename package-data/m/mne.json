@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "agramfort",
+    "dengemann",
+    "Eric89GXL",
+    "massich"
+  ],
   "requires_dist": {
     "dists": [
       "numpy",

@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "dtkav"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2"

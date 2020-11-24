@@ -1,4 +1,9 @@
 {
+  "publishers": [
+    "agronholm",
+    "jaraco",
+    "pwdyson"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

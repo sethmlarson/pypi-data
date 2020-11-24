@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "alanmcruickshank"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

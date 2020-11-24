@@ -1,4 +1,11 @@
 {
+  "publishers": [
+    "AdamChainz",
+    "AltusBarry",
+    "cblignaut",
+    "phala",
+    "Praekelt"
+  ],
   "requires_dist": {
     "dists": [
       "django"

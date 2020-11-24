@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "blink1073",
+    "fperez",
+    "ivanov",
+    "jhamrick",
+    "Kyle.Kelley",
+    "mbussonn",
+    "minrk",
+    "takowl"
+  ],
   "requires_dist": {
     "dists": [
       "ipykernel",

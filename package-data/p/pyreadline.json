@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jstenar"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

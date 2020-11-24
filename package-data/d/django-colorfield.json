@@ -1,4 +1,10 @@
 {
+  "publishers": [
+    "fabiocaccamo",
+    "guillaume.thomas",
+    "jabapyth",
+    "tmitchell"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

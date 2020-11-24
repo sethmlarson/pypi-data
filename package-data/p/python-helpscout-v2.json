@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "santiher"
+  ],
   "requires_dist": {
     "dists": [
       "requests"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "Matthias.Geier",
+    "spatialaudio"
+  ],
   "requires_dist": {
     "dists": [
       "cffi"

@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "belopolsky",
+    "pganssle"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

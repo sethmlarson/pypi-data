@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gawen",
+    "yselivanov"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

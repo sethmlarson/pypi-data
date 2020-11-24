@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "theacodes"
+  ],
   "requires_dist": {
     "dists": [
       "six"

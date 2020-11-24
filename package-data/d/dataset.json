@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "gka",
+    "pudo"
+  ],
   "requires_dist": {
     "dists": [
       "alembic",

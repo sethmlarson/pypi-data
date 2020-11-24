@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "msabramo"
+  ],
   "requires_dist": {
     "dists": [
       "requests",

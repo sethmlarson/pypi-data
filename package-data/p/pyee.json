@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "Joshua.Holbrook"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

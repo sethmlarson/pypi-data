@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "ymwdalex"
+  ],
   "requires_dist": {
     "dists": [
       "cython",

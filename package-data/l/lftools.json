@@ -1,4 +1,14 @@
 {
+  "publishers": [
+    "aricg",
+    "askb",
+    "bramwelt",
+    "ericball",
+    "jwagantall",
+    "lf-releng-pypi",
+    "tykeal",
+    "zxiiro"
+  ],
   "requires_dist": {
     "dists": [
       "appdirs",

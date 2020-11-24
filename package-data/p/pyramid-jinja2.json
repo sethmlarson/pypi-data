@@ -1,4 +1,12 @@
 {
+  "publishers": [
+    "chrism",
+    "iElectric",
+    "mmerickel",
+    "pylonsbot",
+    "rockyburt",
+    "xistence"
+  ],
   "requires_dist": {
     "dists": [
       "jinja2",

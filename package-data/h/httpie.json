@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "jakubroztocil"
+  ],
   "requires_dist": {
     "dists": [
       "colorama",

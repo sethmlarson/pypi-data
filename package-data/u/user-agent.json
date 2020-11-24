@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "lorien"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

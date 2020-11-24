@@ -1,4 +1,7 @@
 {
+  "publishers": [
+    "fmoo"
+  ],
   "requires_dist": {
     "dists": [],
     "specifiers": []

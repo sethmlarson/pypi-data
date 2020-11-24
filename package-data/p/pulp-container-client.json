@@ -1,4 +1,8 @@
 {
+  "publishers": [
+    "ipanova",
+    "pulp"
+  ],
   "requires_dist": {
     "dists": [
       "certifi",
