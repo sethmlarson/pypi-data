@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "matplotlib (>=2.2)",
-    "pandas (>=0.20.3)",
-    "pybind11 (>=2.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "matplotlib",
+      "pandas",
+      "pybind11"
+    ],
+    "specifiers": [
+      "matplotlib (>=2.2)",
+      "pandas (>=0.20.3)",
+      "pybind11 (>=2.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3",
   "yanked": []

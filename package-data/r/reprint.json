@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "backports.shutil-get-terminal-size",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "backports.shutil-get-terminal-size",
+      "six"
+    ],
+    "specifiers": [
+      "backports.shutil-get-terminal-size",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

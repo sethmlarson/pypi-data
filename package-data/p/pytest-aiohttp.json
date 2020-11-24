@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "aiohttp (>=2.3.5)",
-    "pytest"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "pytest"
+    ],
+    "specifiers": [
+      "aiohttp (>=2.3.5)",
+      "pytest"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

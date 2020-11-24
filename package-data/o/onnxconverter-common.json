@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "numpy",
-    "onnx",
-    "protobuf"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "onnx",
+      "protobuf"
+    ],
+    "specifiers": [
+      "numpy",
+      "onnx",
+      "protobuf"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

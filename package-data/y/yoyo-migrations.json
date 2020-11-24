@@ -1,18 +1,39 @@
 {
-  "requires_dist": [
-    "sqlparse",
-    "tabulate"
-  ],
-  "requires_extras": {
-    "mysql": [
-      "PyMySQL; extra=='mysql'"
+  "requires_dist": {
+    "dists": [
+      "sqlparse",
+      "tabulate"
     ],
-    "postgres": [
-      "psycopg2; extra=='postgres'"
-    ],
-    "pyodbc": [
-      "pyodbc; extra=='pyodbc'"
+    "specifiers": [
+      "sqlparse",
+      "tabulate"
     ]
+  },
+  "requires_extras": {
+    "mysql": {
+      "dists": [
+        "pymysql"
+      ],
+      "specifiers": [
+        "pymysql; extra=='mysql'"
+      ]
+    },
+    "postgres": {
+      "dists": [
+        "psycopg2"
+      ],
+      "specifiers": [
+        "psycopg2; extra=='postgres'"
+      ]
+    },
+    "pyodbc": {
+      "dists": [
+        "pyodbc"
+      ],
+      "specifiers": [
+        "pyodbc; extra=='pyodbc'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

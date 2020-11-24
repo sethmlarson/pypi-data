@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "et-xmlfile",
-    "jdcal"
-  ],
+  "requires_dist": {
+    "dists": [
+      "et-xmlfile",
+      "jdcal"
+    ],
+    "specifiers": [
+      "et-xmlfile",
+      "jdcal"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6,",
   "yanked": []

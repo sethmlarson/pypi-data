@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "prompt-toolkit (<3,>=2)",
-    "robotframework (>=3.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "prompt-toolkit",
+      "robotframework"
+    ],
+    "specifiers": [
+      "prompt-toolkit (<3,>=2)",
+      "robotframework (>=3.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,23 +1,53 @@
 {
-  "requires_dist": [
-    "TFL-STP (>=3)"
-  ],
-  "requires_extras": {
-    "bcrypt": [
-      "bcrypt; extra=='bcrypt'"
+  "requires_dist": {
+    "dists": [
+      "tfl-stp"
     ],
-    "html_cleaner": [
-      "bs4; extra=='html_cleaner'"
-    ],
-    "human_friendly_hsl": [
-      "husl; extra=='human_friendly_hsl'"
-    ],
-    "i18n": [
-      "babel; extra=='i18n'"
-    ],
-    "timezone_support": [
-      "python-dateutil; extra=='timezone_support'"
+    "specifiers": [
+      "tfl-stp (>=3)"
     ]
+  },
+  "requires_extras": {
+    "bcrypt": {
+      "dists": [
+        "bcrypt"
+      ],
+      "specifiers": [
+        "bcrypt; extra=='bcrypt'"
+      ]
+    },
+    "html_cleaner": {
+      "dists": [
+        "bs4"
+      ],
+      "specifiers": [
+        "bs4; extra=='html_cleaner'"
+      ]
+    },
+    "human_friendly_hsl": {
+      "dists": [
+        "husl"
+      ],
+      "specifiers": [
+        "husl; extra=='human_friendly_hsl'"
+      ]
+    },
+    "i18n": {
+      "dists": [
+        "babel"
+      ],
+      "specifiers": [
+        "babel; extra=='i18n'"
+      ]
+    },
+    "timezone_support": {
+      "dists": [
+        "python-dateutil"
+      ],
+      "specifiers": [
+        "python-dateutil; extra=='timezone_support'"
+      ]
+    }
   },
   "requires_python": ">=3.7",
   "yanked": []

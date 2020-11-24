@@ -1,24 +1,51 @@
 {
-  "requires_dist": [
-    "cloudpickle",
-    "future",
-    "networkx (>=2.2)",
-    "numpy",
-    "scipy",
-    "six",
-    "tqdm"
-  ],
-  "requires_extras": {
-    "atpe": [
-      "lightgbm; extra=='atpe'",
-      "scikit-learn; extra=='atpe'"
+  "requires_dist": {
+    "dists": [
+      "cloudpickle",
+      "future",
+      "networkx",
+      "numpy",
+      "scipy",
+      "six",
+      "tqdm"
     ],
-    "mongotrials": [
-      "pymongo; extra=='mongotrials'"
-    ],
-    "sparktrials": [
-      "pyspark; extra=='sparktrials'"
+    "specifiers": [
+      "cloudpickle",
+      "future",
+      "networkx (>=2.2)",
+      "numpy",
+      "scipy",
+      "six",
+      "tqdm"
     ]
+  },
+  "requires_extras": {
+    "atpe": {
+      "dists": [
+        "lightgbm",
+        "scikit-learn"
+      ],
+      "specifiers": [
+        "lightgbm; extra=='atpe'",
+        "scikit-learn; extra=='atpe'"
+      ]
+    },
+    "mongotrials": {
+      "dists": [
+        "pymongo"
+      ],
+      "specifiers": [
+        "pymongo; extra=='mongotrials'"
+      ]
+    },
+    "sparktrials": {
+      "dists": [
+        "pyspark"
+      ],
+      "specifiers": [
+        "pyspark; extra=='sparktrials'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

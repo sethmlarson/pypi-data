@@ -1,38 +1,89 @@
 {
-  "requires_dist": [
-    "appdirs",
-    "pyobjc; sys_platform=='darwin'",
-    "pyobjc-core; sys_platform=='darwin'",
-    "pywin32; sys_platform=='win32'",
-    "requests",
-    "ruamel.yaml"
-  ],
-  "requires_extras": {
-    "emoji": [
-      "emoji; extra=='emoji'"
+  "requires_dist": {
+    "dists": [
+      "appdirs",
+      "pyobjc",
+      "pyobjc-core",
+      "pywin32",
+      "requests",
+      "ruamel.yaml"
     ],
-    "instapush": [
-      "instapush; extra=='instapush'"
-    ],
-    "matrix": [
-      "matrix-client; extra=='matrix'"
-    ],
-    "pid": [
-      "psutil; extra=='pid'"
-    ],
-    "rocketchat": [
-      "rocketchat-API; extra=='rocketchat'"
-    ],
-    "slack": [
-      "slacker; extra=='slack'"
-    ],
-    "telegram": [
-      "telegram-send; extra=='telegram'"
-    ],
-    "xmpp": [
-      "dnspython3; extra=='xmpp'",
-      "sleekxmpp; extra=='xmpp'"
+    "specifiers": [
+      "appdirs",
+      "pyobjc; sys_platform=='darwin'",
+      "pyobjc-core; sys_platform=='darwin'",
+      "pywin32; sys_platform=='win32'",
+      "requests",
+      "ruamel.yaml"
     ]
+  },
+  "requires_extras": {
+    "emoji": {
+      "dists": [
+        "emoji"
+      ],
+      "specifiers": [
+        "emoji; extra=='emoji'"
+      ]
+    },
+    "instapush": {
+      "dists": [
+        "instapush"
+      ],
+      "specifiers": [
+        "instapush; extra=='instapush'"
+      ]
+    },
+    "matrix": {
+      "dists": [
+        "matrix-client"
+      ],
+      "specifiers": [
+        "matrix-client; extra=='matrix'"
+      ]
+    },
+    "pid": {
+      "dists": [
+        "psutil"
+      ],
+      "specifiers": [
+        "psutil; extra=='pid'"
+      ]
+    },
+    "rocketchat": {
+      "dists": [
+        "rocketchat-api"
+      ],
+      "specifiers": [
+        "rocketchat-api; extra=='rocketchat'"
+      ]
+    },
+    "slack": {
+      "dists": [
+        "slacker"
+      ],
+      "specifiers": [
+        "slacker; extra=='slack'"
+      ]
+    },
+    "telegram": {
+      "dists": [
+        "telegram-send"
+      ],
+      "specifiers": [
+        "telegram-send; extra=='telegram'"
+      ]
+    },
+    "xmpp": {
+      "dists": [
+        "dnspython3",
+        "sleekxmpp"
+      ],
+      "specifiers": [
+        "dnspython3; extra=='xmpp'",
+        "sleekxmpp; extra=='xmpp'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

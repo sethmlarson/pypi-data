@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "google-api-core[grpc] (<2.0.0dev,>=1.22.2)",
-    "libcst (>=0.2.5)",
-    "proto-plus (>=1.4.0)"
-  ],
-  "requires_extras": {
-    "pandas": [
-      "pandas (>=0.17.1); extra=='pandas'"
+  "requires_dist": {
+    "dists": [
+      "google-api-core",
+      "libcst",
+      "proto-plus"
+    ],
+    "specifiers": [
+      "google-api-core[grpc] (<2.0.0dev,>=1.22.2)",
+      "libcst (>=0.2.5)",
+      "proto-plus (>=1.4.0)"
     ]
+  },
+  "requires_extras": {
+    "pandas": {
+      "dists": [
+        "pandas"
+      ],
+      "specifiers": [
+        "pandas (>=0.17.1); extra=='pandas'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

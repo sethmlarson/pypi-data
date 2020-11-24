@@ -1,13 +1,27 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "coverage": [
-      "coverage (<6); extra=='coverage'",
-      "pytest-cov (<3); extra=='coverage'"
-    ],
-    "precommit": [
-      "pre-commit (<3); extra=='precommit'"
-    ]
+    "coverage": {
+      "dists": [
+        "coverage",
+        "pytest-cov"
+      ],
+      "specifiers": [
+        "coverage (<6); extra=='coverage'",
+        "pytest-cov (<3); extra=='coverage'"
+      ]
+    },
+    "precommit": {
+      "dists": [
+        "pre-commit"
+      ],
+      "specifiers": [
+        "pre-commit (<3); extra=='precommit'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": [

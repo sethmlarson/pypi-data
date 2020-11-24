@@ -1,20 +1,45 @@
 {
-  "requires_dist": [
-    "six"
-  ],
-  "requires_extras": {
-    "cache": [
-      "django-cache-url; extra=='cache'"
+  "requires_dist": {
+    "dists": [
+      "six"
     ],
-    "database": [
-      "dj-database-url; extra=='database'"
-    ],
-    "email": [
-      "dj-email-url; extra=='email'"
-    ],
-    "search": [
-      "dj-search-url; extra=='search'"
+    "specifiers": [
+      "six"
     ]
+  },
+  "requires_extras": {
+    "cache": {
+      "dists": [
+        "django-cache-url"
+      ],
+      "specifiers": [
+        "django-cache-url; extra=='cache'"
+      ]
+    },
+    "database": {
+      "dists": [
+        "dj-database-url"
+      ],
+      "specifiers": [
+        "dj-database-url; extra=='database'"
+      ]
+    },
+    "email": {
+      "dists": [
+        "dj-email-url"
+      ],
+      "specifiers": [
+        "dj-email-url; extra=='email'"
+      ]
+    },
+    "search": {
+      "dists": [
+        "dj-search-url"
+      ],
+      "specifiers": [
+        "dj-search-url; extra=='search'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

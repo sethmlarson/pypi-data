@@ -1,24 +1,51 @@
 {
-  "requires_dist": [
-    "futures (>=3.2.0); python_version<'3.2'",
-    "google-auth (<2.0dev,>=1.21.1)",
-    "googleapis-common-protos (<2.0dev,>=1.6.0)",
-    "protobuf (>=3.12.0)",
-    "pytz",
-    "requests (<3.0.0dev,>=2.18.0)",
-    "setuptools (>=34.0.0)",
-    "six (>=1.13.0)"
-  ],
-  "requires_extras": {
-    "grpc": [
-      "grpcio (<2.0dev,>=1.29.0); extra=='grpc'"
+  "requires_dist": {
+    "dists": [
+      "futures",
+      "google-auth",
+      "googleapis-common-protos",
+      "protobuf",
+      "pytz",
+      "requests",
+      "setuptools",
+      "six"
     ],
-    "grpcgcp": [
-      "grpcio-gcp (>=0.2.2); extra=='grpcgcp'"
-    ],
-    "grpcio-gcp": [
-      "grpcio-gcp (>=0.2.2); extra=='grpcio-gcp'"
+    "specifiers": [
+      "futures (>=3.2.0); python_version<'3.2'",
+      "google-auth (<2.0dev,>=1.21.1)",
+      "googleapis-common-protos (<2.0dev,>=1.6.0)",
+      "protobuf (>=3.12.0)",
+      "pytz",
+      "requests (<3.0.0dev,>=2.18.0)",
+      "setuptools (>=34.0.0)",
+      "six (>=1.13.0)"
     ]
+  },
+  "requires_extras": {
+    "grpc": {
+      "dists": [
+        "grpcio"
+      ],
+      "specifiers": [
+        "grpcio (<2.0dev,>=1.29.0); extra=='grpc'"
+      ]
+    },
+    "grpcgcp": {
+      "dists": [
+        "grpcio-gcp"
+      ],
+      "specifiers": [
+        "grpcio-gcp (>=0.2.2); extra=='grpcgcp'"
+      ]
+    },
+    "grpcio-gcp": {
+      "dists": [
+        "grpcio-gcp"
+      ],
+      "specifiers": [
+        "grpcio-gcp (>=0.2.2); extra=='grpcio-gcp'"
+      ]
+    }
   },
   "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*",
   "yanked": [

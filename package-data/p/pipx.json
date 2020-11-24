@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "argcomplete (<2.0,>=1.9.4)",
-    "packaging (>=20.0)",
-    "userpath (>=1.4.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "argcomplete",
+      "packaging",
+      "userpath"
+    ],
+    "specifiers": [
+      "argcomplete (<2.0,>=1.9.4)",
+      "packaging (>=20.0)",
+      "userpath (>=1.4.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

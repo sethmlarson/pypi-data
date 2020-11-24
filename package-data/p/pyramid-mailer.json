@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "pyramid",
-    "repoze.sendmail (>=4.1)",
-    "transaction"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyramid",
+      "repoze.sendmail",
+      "transaction"
+    ],
+    "specifiers": [
+      "pyramid",
+      "repoze.sendmail (>=4.1)",
+      "transaction"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "global": [
-      "pybind11-global (==2.6.1); extra=='global'"
-    ]
+    "global": {
+      "dists": [
+        "pybind11-global"
+      ],
+      "specifiers": [
+        "pybind11-global (==2.6.1); extra=='global'"
+      ]
+    }
   },
   "requires_python": "!=3.0,!=3.1,!=3.2,!=3.3,!=3.4,>=2.7",
   "yanked": []

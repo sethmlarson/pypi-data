@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "Django",
-    "django-model-utils",
-    "djangorestframework",
-    "edx-drf-extensions (>=1.11.0)",
-    "edx-opaque-keys[django]",
-    "edx-toggles (>=1.2.0)",
-    "pytz",
-    "XBlock (>=1.2.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "django-model-utils",
+      "djangorestframework",
+      "edx-drf-extensions",
+      "edx-opaque-keys",
+      "edx-toggles",
+      "pytz",
+      "xblock"
+    ],
+    "specifiers": [
+      "django",
+      "django-model-utils",
+      "djangorestframework",
+      "edx-drf-extensions (>=1.11.0)",
+      "edx-opaque-keys[django]",
+      "edx-toggles (>=1.2.0)",
+      "pytz",
+      "xblock (>=1.2.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

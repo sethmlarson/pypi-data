@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "qtpy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "qtpy"
+    ],
+    "specifiers": [
+      "qtpy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

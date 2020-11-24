@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "netaddr",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "netaddr",
+      "six"
+    ],
+    "specifiers": [
+      "netaddr",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

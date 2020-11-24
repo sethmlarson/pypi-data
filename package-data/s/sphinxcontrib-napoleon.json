@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pockets (>=0.3)",
-    "six (>=1.5.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pockets",
+      "six"
+    ],
+    "specifiers": [
+      "pockets (>=0.3)",
+      "six (>=1.5.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

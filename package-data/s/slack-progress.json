@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "slacker (>=0.9.25)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "slacker"
+    ],
+    "specifiers": [
+      "slacker (>=0.9.25)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

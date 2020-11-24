@@ -1,15 +1,31 @@
 {
-  "requires_dist": [
-    "cryptography",
-    "enum34; python_version<'3.5'"
-  ],
-  "requires_extras": {
-    "kerberos": [
-      "gssapi (>=1.5.0); (sys_platform!='win32') and extra=='kerberos'"
+  "requires_dist": {
+    "dists": [
+      "cryptography",
+      "enum34"
     ],
-    "yaml": [
-      "ruamel.yaml; extra=='yaml'"
+    "specifiers": [
+      "cryptography",
+      "enum34; python_version<'3.5'"
     ]
+  },
+  "requires_extras": {
+    "kerberos": {
+      "dists": [
+        "gssapi"
+      ],
+      "specifiers": [
+        "gssapi (>=1.5.0); (sys_platform!='win32') and extra=='kerberos'"
+      ]
+    },
+    "yaml": {
+      "dists": [
+        "ruamel.yaml"
+      ],
+      "specifiers": [
+        "ruamel.yaml; extra=='yaml'"
+      ]
+    }
   },
   "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*",
   "yanked": []

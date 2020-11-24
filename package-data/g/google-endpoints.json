@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "attrs (==17.4.0)",
-    "google-endpoints-api-management (>=1.10.0)",
-    "semver (==2.7.7)",
-    "setuptools (>=36.2.5)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "attrs",
+      "google-endpoints-api-management",
+      "semver",
+      "setuptools"
+    ],
+    "specifiers": [
+      "attrs (==17.4.0)",
+      "google-endpoints-api-management (>=1.10.0)",
+      "semver (==2.7.7)",
+      "setuptools (>=36.2.5)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

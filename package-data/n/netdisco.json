@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "requests (>=2.0)",
-    "zeroconf (>=0.27.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "requests",
+      "zeroconf"
+    ],
+    "specifiers": [
+      "requests (>=2.0)",
+      "zeroconf (>=0.27.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3",
   "yanked": []

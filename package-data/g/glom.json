@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "attrs",
-    "boltons (>=19.3.0)",
-    "face (>=20.1.0)"
-  ],
-  "requires_extras": {
-    "yaml": [
-      "PyYAML; extra=='yaml'"
+  "requires_dist": {
+    "dists": [
+      "attrs",
+      "boltons",
+      "face"
+    ],
+    "specifiers": [
+      "attrs",
+      "boltons (>=19.3.0)",
+      "face (>=20.1.0)"
     ]
+  },
+  "requires_extras": {
+    "yaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml; extra=='yaml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

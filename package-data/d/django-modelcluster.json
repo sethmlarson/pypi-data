@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "pytz (>=2015.2)"
-  ],
-  "requires_extras": {
-    "taggit": [
-      "django-taggit (>=0.20); extra=='taggit'"
+  "requires_dist": {
+    "dists": [
+      "pytz"
+    ],
+    "specifiers": [
+      "pytz (>=2015.2)"
     ]
+  },
+  "requires_extras": {
+    "taggit": {
+      "dists": [
+        "django-taggit"
+      ],
+      "specifiers": [
+        "django-taggit (>=0.20); extra=='taggit'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

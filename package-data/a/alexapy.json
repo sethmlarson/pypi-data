@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "aiofiles (>=0.5.0,<0.6.0)",
-    "aiohttp",
-    "backoff (>=1.10.0,<2.0.0)",
-    "bs4",
-    "certifi",
-    "requests",
-    "simplejson",
-    "yarl"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiofiles",
+      "aiohttp",
+      "backoff",
+      "bs4",
+      "certifi",
+      "requests",
+      "simplejson",
+      "yarl"
+    ],
+    "specifiers": [
+      "aiofiles (>=0.5.0,<0.6.0)",
+      "aiohttp",
+      "backoff (>=1.10.0,<2.0.0)",
+      "bs4",
+      "certifi",
+      "requests",
+      "simplejson",
+      "yarl"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6,<4.0",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "contextvars; python_version>='3.6' and python_version<'3.7'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "contextvars"
+    ],
+    "specifiers": [
+      "contextvars; python_version>='3.6' and python_version<'3.7'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "fiona",
-    "pandas (>=0.23.0)",
-    "pyproj (>=2.2.0)",
-    "shapely"
-  ],
+  "requires_dist": {
+    "dists": [
+      "fiona",
+      "pandas",
+      "pyproj",
+      "shapely"
+    ],
+    "specifiers": [
+      "fiona",
+      "pandas (>=0.23.0)",
+      "pyproj (>=2.2.0)",
+      "shapely"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

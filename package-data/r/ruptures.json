@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "numpy",
-    "scipy"
-  ],
-  "requires_extras": {
-    "display": [
-      "matplotlib; extra=='display'"
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "scipy"
+    ],
+    "specifiers": [
+      "numpy",
+      "scipy"
     ]
+  },
+  "requires_extras": {
+    "display": {
+      "dists": [
+        "matplotlib"
+      ],
+      "specifiers": [
+        "matplotlib; extra=='display'"
+      ]
+    }
   },
   "requires_python": ">=3",
   "yanked": []

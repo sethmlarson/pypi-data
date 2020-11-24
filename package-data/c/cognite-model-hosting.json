@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "cognite-sdk (==1.*)",
-    "marshmallow (==3.0.0rc4)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cognite-sdk",
+      "marshmallow"
+    ],
+    "specifiers": [
+      "cognite-sdk (==1.*)",
+      "marshmallow (==3.0.0rc4)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

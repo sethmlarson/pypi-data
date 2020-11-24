@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "antlr4-python3-runtime (==4.8)",
-    "importlib-resources; python_version<'3.9'",
-    "omegaconf (>=2.0.5)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "antlr4-python3-runtime",
+      "importlib-resources",
+      "omegaconf"
+    ],
+    "specifiers": [
+      "antlr4-python3-runtime (==4.8)",
+      "importlib-resources; python_version<'3.9'",
+      "omegaconf (>=2.0.5)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

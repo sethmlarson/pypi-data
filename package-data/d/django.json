@@ -1,16 +1,33 @@
 {
-  "requires_dist": [
-    "asgiref (<4,>=3.2.10)",
-    "pytz",
-    "sqlparse (>=0.2.2)"
-  ],
-  "requires_extras": {
-    "argon2": [
-      "argon2-cffi (>=16.1.0); extra=='argon2'"
+  "requires_dist": {
+    "dists": [
+      "asgiref",
+      "pytz",
+      "sqlparse"
     ],
-    "bcrypt": [
-      "bcrypt; extra=='bcrypt'"
+    "specifiers": [
+      "asgiref (<4,>=3.2.10)",
+      "pytz",
+      "sqlparse (>=0.2.2)"
     ]
+  },
+  "requires_extras": {
+    "argon2": {
+      "dists": [
+        "argon2-cffi"
+      ],
+      "specifiers": [
+        "argon2-cffi (>=16.1.0); extra=='argon2'"
+      ]
+    },
+    "bcrypt": {
+      "dists": [
+        "bcrypt"
+      ],
+      "specifiers": [
+        "bcrypt; extra=='bcrypt'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

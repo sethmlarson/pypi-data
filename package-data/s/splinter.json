@@ -1,26 +1,55 @@
 {
-  "requires_dist": [
-    "selenium (>=3.141.0)",
-    "six"
-  ],
-  "requires_extras": {
-    "django": [
-      "cssselect; extra=='django'",
-      "Django (>=1.7.11); (python_version<'3.0') and extra=='django'",
-      "Django (>=2.0.6); (python_version>'3.3') and extra=='django'",
-      "lxml (>=2.3.6); extra=='django'",
-      "six; extra=='django'"
+  "requires_dist": {
+    "dists": [
+      "selenium",
+      "six"
     ],
-    "flask": [
-      "cssselect; extra=='flask'",
-      "Flask (>=1.0.2); extra=='flask'",
-      "lxml (>=2.3.6); extra=='flask'"
-    ],
-    "zope.testbrowser": [
-      "cssselect; extra=='zope.testbrowser'",
-      "lxml (>=4.2.4); extra=='zope.testbrowser'",
-      "zope.testbrowser (>=5.2.4); extra=='zope.testbrowser'"
+    "specifiers": [
+      "selenium (>=3.141.0)",
+      "six"
     ]
+  },
+  "requires_extras": {
+    "django": {
+      "dists": [
+        "cssselect",
+        "django",
+        "django",
+        "lxml",
+        "six"
+      ],
+      "specifiers": [
+        "cssselect; extra=='django'",
+        "django (>=1.7.11); (python_version<'3.0') and extra=='django'",
+        "django (>=2.0.6); (python_version>'3.3') and extra=='django'",
+        "lxml (>=2.3.6); extra=='django'",
+        "six; extra=='django'"
+      ]
+    },
+    "flask": {
+      "dists": [
+        "cssselect",
+        "flask",
+        "lxml"
+      ],
+      "specifiers": [
+        "cssselect; extra=='flask'",
+        "flask (>=1.0.2); extra=='flask'",
+        "lxml (>=2.3.6); extra=='flask'"
+      ]
+    },
+    "zope.testbrowser": {
+      "dists": [
+        "cssselect",
+        "lxml",
+        "zope.testbrowser"
+      ],
+      "specifiers": [
+        "cssselect; extra=='zope.testbrowser'",
+        "lxml (>=4.2.4); extra=='zope.testbrowser'",
+        "zope.testbrowser (>=5.2.4); extra=='zope.testbrowser'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

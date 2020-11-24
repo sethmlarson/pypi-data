@@ -1,17 +1,33 @@
 {
-  "requires_dist": [
-    "appdirs (~=1.4.3)",
-    "backports.os (~=0.1); python_version<'3.0'",
-    "enum34 (~=1.1.6); python_version<'3.4'",
-    "pytz",
-    "setuptools",
-    "six (~=1.10)",
-    "typing (~=3.6); python_version<'3.6'"
-  ],
-  "requires_extras": {
-    "scandir_": [
-      "scandir (~=1.5); (python_version<'3.5') and extra=='scandir_'"
+  "requires_dist": {
+    "dists": [
+      "appdirs",
+      "backports.os",
+      "enum34",
+      "pytz",
+      "setuptools",
+      "six",
+      "typing"
+    ],
+    "specifiers": [
+      "appdirs (~=1.4.3)",
+      "backports.os (~=0.1); python_version<'3.0'",
+      "enum34 (~=1.1.6); python_version<'3.4'",
+      "pytz",
+      "setuptools",
+      "six (~=1.10)",
+      "typing (~=3.6); python_version<'3.6'"
     ]
+  },
+  "requires_extras": {
+    "scandir_": {
+      "dists": [
+        "scandir"
+      ],
+      "specifiers": [
+        "scandir (~=1.5); (python_version<'3.5') and extra=='scandir_'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

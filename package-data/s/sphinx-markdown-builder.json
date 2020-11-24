@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "html2text",
-    "pydash",
-    "sphinx",
-    "unify",
-    "yapf"
-  ],
+  "requires_dist": {
+    "dists": [
+      "html2text",
+      "pydash",
+      "sphinx",
+      "unify",
+      "yapf"
+    ],
+    "specifiers": [
+      "html2text",
+      "pydash",
+      "sphinx",
+      "unify",
+      "yapf"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

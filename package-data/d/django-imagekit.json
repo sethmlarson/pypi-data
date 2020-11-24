@@ -1,16 +1,33 @@
 {
-  "requires_dist": [
-    "django-appconf (>=0.5)",
-    "pilkit (>=0.2.0)",
-    "six"
-  ],
-  "requires_extras": {
-    "async": [
-      "django-celery (>=3.0); extra=='async'"
+  "requires_dist": {
+    "dists": [
+      "django-appconf",
+      "pilkit",
+      "six"
     ],
-    "async_rq": [
-      "django-rq (>=0.6.0); extra=='async_rq'"
+    "specifiers": [
+      "django-appconf (>=0.5)",
+      "pilkit (>=0.2.0)",
+      "six"
     ]
+  },
+  "requires_extras": {
+    "async": {
+      "dists": [
+        "django-celery"
+      ],
+      "specifiers": [
+        "django-celery (>=3.0); extra=='async'"
+      ]
+    },
+    "async_rq": {
+      "dists": [
+        "django-rq"
+      ],
+      "specifiers": [
+        "django-rq (>=0.6.0); extra=='async_rq'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

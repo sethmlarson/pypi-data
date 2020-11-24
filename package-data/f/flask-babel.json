@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "Babel (>=2.3)",
-    "Flask",
-    "Jinja2 (>=2.5)",
-    "pytz"
-  ],
+  "requires_dist": {
+    "dists": [
+      "babel",
+      "flask",
+      "jinja2",
+      "pytz"
+    ],
+    "specifiers": [
+      "babel (>=2.3)",
+      "flask",
+      "jinja2 (>=2.5)",
+      "pytz"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

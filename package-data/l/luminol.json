@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "future (==0.16.0)",
-    "numpy",
-    "scipy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "future",
+      "numpy",
+      "scipy"
+    ],
+    "specifiers": [
+      "future (==0.16.0)",
+      "numpy",
+      "scipy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

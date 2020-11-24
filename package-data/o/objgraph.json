@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "graphviz"
-  ],
+  "requires_dist": {
+    "dists": [
+      "graphviz"
+    ],
+    "specifiers": [
+      "graphviz"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

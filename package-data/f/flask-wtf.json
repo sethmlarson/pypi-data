@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "Flask",
-    "itsdangerous",
-    "WTForms"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flask",
+      "itsdangerous",
+      "wtforms"
+    ],
+    "specifiers": [
+      "flask",
+      "itsdangerous",
+      "wtforms"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

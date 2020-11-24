@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "cryptography",
-    "django",
-    "djangorestframework"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cryptography",
+      "django",
+      "djangorestframework"
+    ],
+    "specifiers": [
+      "cryptography",
+      "django",
+      "djangorestframework"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "biopython",
-    "numpy (>=1.10)",
-    "pyparsing",
-    "scipy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "biopython",
+      "numpy",
+      "pyparsing",
+      "scipy"
+    ],
+    "specifiers": [
+      "biopython",
+      "numpy (>=1.10)",
+      "pyparsing",
+      "scipy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

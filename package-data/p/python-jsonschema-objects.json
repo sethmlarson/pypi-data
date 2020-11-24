@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "inflection (>=0.2)",
-    "jsonschema (>=2.3)",
-    "Markdown (>=2.4)",
-    "six (>=1.5.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "inflection",
+      "jsonschema",
+      "markdown",
+      "six"
+    ],
+    "specifiers": [
+      "inflection (>=0.2)",
+      "jsonschema (>=2.3)",
+      "markdown (>=2.4)",
+      "six (>=1.5.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,19 +1,36 @@
 {
-  "requires_dist": [
-    "numpy",
-    "pandas",
-    "regex",
-    "requests",
-    "scikit-learn",
-    "scipy",
-    "seqeval",
-    "streamlit",
-    "tensorboardx",
-    "tokenizers",
-    "tqdm (>=4.47.0)",
-    "transformers (>=3.0.2)",
-    "wandb"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "pandas",
+      "regex",
+      "requests",
+      "scikit-learn",
+      "scipy",
+      "seqeval",
+      "streamlit",
+      "tensorboardx",
+      "tokenizers",
+      "tqdm",
+      "transformers",
+      "wandb"
+    ],
+    "specifiers": [
+      "numpy",
+      "pandas",
+      "regex",
+      "requests",
+      "scikit-learn",
+      "scipy",
+      "seqeval",
+      "streamlit",
+      "tensorboardx",
+      "tokenizers",
+      "tqdm (>=4.47.0)",
+      "transformers (>=3.0.2)",
+      "wandb"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

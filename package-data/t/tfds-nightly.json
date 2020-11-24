@@ -1,127 +1,297 @@
 {
-  "requires_dist": [
-    "absl-py",
-    "attrs (>=18.1.0)",
-    "dataclasses; python_version<'3.7'",
-    "dill",
-    "future",
-    "importlib-resources; python_version<'3.9'",
-    "numpy",
-    "promise",
-    "protobuf (>=3.6.1)",
-    "requests (>=2.19.0)",
-    "six",
-    "tensorflow-metadata",
-    "termcolor",
-    "tqdm",
-    "typing-extensions; python_version<'3.8'"
-  ],
-  "requires_extras": {
-    "aflw2k3d": [
-      "scipy; extra=='aflw2k3d'"
+  "requires_dist": {
+    "dists": [
+      "absl-py",
+      "attrs",
+      "dataclasses",
+      "dill",
+      "future",
+      "importlib-resources",
+      "numpy",
+      "promise",
+      "protobuf",
+      "requests",
+      "six",
+      "tensorflow-metadata",
+      "termcolor",
+      "tqdm",
+      "typing-extensions"
     ],
-    "c4": [
-      "apache-beam; extra=='c4'",
-      "gcld3; extra=='c4'",
-      "langdetect; extra=='c4'",
-      "nltk; extra=='c4'",
-      "tldextract; extra=='c4'"
-    ],
-    "cats_vs_dogs": [
-      "matplotlib; extra=='cats_vs_dogs'"
-    ],
-    "colorectal_histology": [
-      "Pillow; extra=='colorectal_histology'"
-    ],
-    "common_voice": [
-      "pydub; extra=='common_voice'"
-    ],
-    "duke_ultrasound": [
-      "scipy; extra=='duke_ultrasound'"
-    ],
-    "eurosat": [
-      "imagecodecs; extra=='eurosat'",
-      "scikit-image; extra=='eurosat'",
-      "tifffile; extra=='eurosat'"
-    ],
-    "groove": [
-      "pretty-midi; extra=='groove'",
-      "pydub; extra=='groove'"
-    ],
-    "imagenet2012_corrupted": [
-      "opencv-python; extra=='imagenet2012_corrupted'",
-      "scikit-image; extra=='imagenet2012_corrupted'",
-      "scipy; extra=='imagenet2012_corrupted'"
-    ],
-    "librispeech": [
-      "pydub; extra=='librispeech'"
-    ],
-    "lsun": [
-      "tensorflow-io; extra=='lsun'"
-    ],
-    "matplotlib": [
-      "matplotlib; extra=='matplotlib'"
-    ],
-    "nsynth": [
-      "crepe (>=0.0.11); extra=='nsynth'",
-      "librosa; extra=='nsynth'",
-      "scikit-learn (==0.20.3); extra=='nsynth'"
-    ],
-    "pet_finder": [
-      "pandas; extra=='pet_finder'"
-    ],
-    "robonet": [
-      "h5py; extra=='robonet'"
-    ],
-    "svhn": [
-      "scipy; extra=='svhn'"
-    ],
-    "tensorflow": [
-      "tensorflow (>=2.1); extra=='tensorflow'"
-    ],
-    "tensorflow-data-validation": [
-      "tensorflow-data-validation; extra=='tensorflow-data-validation'"
-    ],
-    "tests-all": [
-      "apache-beam; extra=='tests-all'",
-      "bs4; extra=='tests-all'",
-      "gcld3; extra=='tests-all'",
-      "h5py; extra=='tests-all'",
-      "imagecodecs; extra=='tests-all'",
-      "jupyter; extra=='tests-all'",
-      "langdetect; extra=='tests-all'",
-      "lxml; extra=='tests-all'",
-      "mako; extra=='tests-all'",
-      "matplotlib; extra=='tests-all'",
-      "mwparserfromhell; extra=='tests-all'",
-      "nltk; extra=='tests-all'",
-      "opencv-python; extra=='tests-all'",
-      "pandas; extra=='tests-all'",
-      "Pillow; extra=='tests-all'",
-      "pretty-midi; extra=='tests-all'",
-      "pydub; extra=='tests-all'",
-      "pytest; extra=='tests-all'",
-      "pytest-xdist; extra=='tests-all'",
-      "scikit-image; extra=='tests-all'",
-      "scipy; extra=='tests-all'",
-      "tensorflow-data-validation; (python_version<'3.7') and extra=='tests-all'",
-      "tifffile; extra=='tests-all'",
-      "tldextract; extra=='tests-all'"
-    ],
-    "the300w_lp": [
-      "scipy; extra=='the300w_lp'"
-    ],
-    "wider_face": [
-      "Pillow; extra=='wider_face'"
-    ],
-    "wikipedia": [
-      "apache-beam; extra=='wikipedia'",
-      "mwparserfromhell; extra=='wikipedia'"
-    ],
-    "wsc273": [
-      "bs4; extra=='wsc273'",
-      "lxml; extra=='wsc273'"
+    "specifiers": [
+      "absl-py",
+      "attrs (>=18.1.0)",
+      "dataclasses; python_version<'3.7'",
+      "dill",
+      "future",
+      "importlib-resources; python_version<'3.9'",
+      "numpy",
+      "promise",
+      "protobuf (>=3.6.1)",
+      "requests (>=2.19.0)",
+      "six",
+      "tensorflow-metadata",
+      "termcolor",
+      "tqdm",
+      "typing-extensions; python_version<'3.8'"
     ]
+  },
+  "requires_extras": {
+    "aflw2k3d": {
+      "dists": [
+        "scipy"
+      ],
+      "specifiers": [
+        "scipy; extra=='aflw2k3d'"
+      ]
+    },
+    "c4": {
+      "dists": [
+        "apache-beam",
+        "gcld3",
+        "langdetect",
+        "nltk",
+        "tldextract"
+      ],
+      "specifiers": [
+        "apache-beam; extra=='c4'",
+        "gcld3; extra=='c4'",
+        "langdetect; extra=='c4'",
+        "nltk; extra=='c4'",
+        "tldextract; extra=='c4'"
+      ]
+    },
+    "cats_vs_dogs": {
+      "dists": [
+        "matplotlib"
+      ],
+      "specifiers": [
+        "matplotlib; extra=='cats_vs_dogs'"
+      ]
+    },
+    "colorectal_histology": {
+      "dists": [
+        "pillow"
+      ],
+      "specifiers": [
+        "pillow; extra=='colorectal_histology'"
+      ]
+    },
+    "common_voice": {
+      "dists": [
+        "pydub"
+      ],
+      "specifiers": [
+        "pydub; extra=='common_voice'"
+      ]
+    },
+    "duke_ultrasound": {
+      "dists": [
+        "scipy"
+      ],
+      "specifiers": [
+        "scipy; extra=='duke_ultrasound'"
+      ]
+    },
+    "eurosat": {
+      "dists": [
+        "imagecodecs",
+        "scikit-image",
+        "tifffile"
+      ],
+      "specifiers": [
+        "imagecodecs; extra=='eurosat'",
+        "scikit-image; extra=='eurosat'",
+        "tifffile; extra=='eurosat'"
+      ]
+    },
+    "groove": {
+      "dists": [
+        "pretty-midi",
+        "pydub"
+      ],
+      "specifiers": [
+        "pretty-midi; extra=='groove'",
+        "pydub; extra=='groove'"
+      ]
+    },
+    "imagenet2012_corrupted": {
+      "dists": [
+        "opencv-python",
+        "scikit-image",
+        "scipy"
+      ],
+      "specifiers": [
+        "opencv-python; extra=='imagenet2012_corrupted'",
+        "scikit-image; extra=='imagenet2012_corrupted'",
+        "scipy; extra=='imagenet2012_corrupted'"
+      ]
+    },
+    "librispeech": {
+      "dists": [
+        "pydub"
+      ],
+      "specifiers": [
+        "pydub; extra=='librispeech'"
+      ]
+    },
+    "lsun": {
+      "dists": [
+        "tensorflow-io"
+      ],
+      "specifiers": [
+        "tensorflow-io; extra=='lsun'"
+      ]
+    },
+    "matplotlib": {
+      "dists": [
+        "matplotlib"
+      ],
+      "specifiers": [
+        "matplotlib; extra=='matplotlib'"
+      ]
+    },
+    "nsynth": {
+      "dists": [
+        "crepe",
+        "librosa",
+        "scikit-learn"
+      ],
+      "specifiers": [
+        "crepe (>=0.0.11); extra=='nsynth'",
+        "librosa; extra=='nsynth'",
+        "scikit-learn (==0.20.3); extra=='nsynth'"
+      ]
+    },
+    "pet_finder": {
+      "dists": [
+        "pandas"
+      ],
+      "specifiers": [
+        "pandas; extra=='pet_finder'"
+      ]
+    },
+    "robonet": {
+      "dists": [
+        "h5py"
+      ],
+      "specifiers": [
+        "h5py; extra=='robonet'"
+      ]
+    },
+    "svhn": {
+      "dists": [
+        "scipy"
+      ],
+      "specifiers": [
+        "scipy; extra=='svhn'"
+      ]
+    },
+    "tensorflow": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (>=2.1); extra=='tensorflow'"
+      ]
+    },
+    "tensorflow-data-validation": {
+      "dists": [
+        "tensorflow-data-validation"
+      ],
+      "specifiers": [
+        "tensorflow-data-validation; extra=='tensorflow-data-validation'"
+      ]
+    },
+    "tests-all": {
+      "dists": [
+        "apache-beam",
+        "bs4",
+        "gcld3",
+        "h5py",
+        "imagecodecs",
+        "jupyter",
+        "langdetect",
+        "lxml",
+        "mako",
+        "matplotlib",
+        "mwparserfromhell",
+        "nltk",
+        "opencv-python",
+        "pandas",
+        "pillow",
+        "pretty-midi",
+        "pydub",
+        "pytest",
+        "pytest-xdist",
+        "scikit-image",
+        "scipy",
+        "tensorflow-data-validation",
+        "tifffile",
+        "tldextract"
+      ],
+      "specifiers": [
+        "apache-beam; extra=='tests-all'",
+        "bs4; extra=='tests-all'",
+        "gcld3; extra=='tests-all'",
+        "h5py; extra=='tests-all'",
+        "imagecodecs; extra=='tests-all'",
+        "jupyter; extra=='tests-all'",
+        "langdetect; extra=='tests-all'",
+        "lxml; extra=='tests-all'",
+        "mako; extra=='tests-all'",
+        "matplotlib; extra=='tests-all'",
+        "mwparserfromhell; extra=='tests-all'",
+        "nltk; extra=='tests-all'",
+        "opencv-python; extra=='tests-all'",
+        "pandas; extra=='tests-all'",
+        "pillow; extra=='tests-all'",
+        "pretty-midi; extra=='tests-all'",
+        "pydub; extra=='tests-all'",
+        "pytest; extra=='tests-all'",
+        "pytest-xdist; extra=='tests-all'",
+        "scikit-image; extra=='tests-all'",
+        "scipy; extra=='tests-all'",
+        "tensorflow-data-validation; (python_version<'3.7') and extra=='tests-all'",
+        "tifffile; extra=='tests-all'",
+        "tldextract; extra=='tests-all'"
+      ]
+    },
+    "the300w_lp": {
+      "dists": [
+        "scipy"
+      ],
+      "specifiers": [
+        "scipy; extra=='the300w_lp'"
+      ]
+    },
+    "wider_face": {
+      "dists": [
+        "pillow"
+      ],
+      "specifiers": [
+        "pillow; extra=='wider_face'"
+      ]
+    },
+    "wikipedia": {
+      "dists": [
+        "apache-beam",
+        "mwparserfromhell"
+      ],
+      "specifiers": [
+        "apache-beam; extra=='wikipedia'",
+        "mwparserfromhell; extra=='wikipedia'"
+      ]
+    },
+    "wsc273": {
+      "dists": [
+        "bs4",
+        "lxml"
+      ],
+      "specifiers": [
+        "bs4; extra=='wsc273'",
+        "lxml; extra=='wsc273'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

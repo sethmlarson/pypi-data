@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "sentinels",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "sentinels",
+      "six"
+    ],
+    "specifiers": [
+      "sentinels",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

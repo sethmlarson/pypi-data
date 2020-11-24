@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "sortedcontainers"
-  ],
+  "requires_dist": {
+    "dists": [
+      "sortedcontainers"
+    ],
+    "specifiers": [
+      "sortedcontainers"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

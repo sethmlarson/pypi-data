@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "coverage (<6.0,>=4.1)",
-    "docopt (>=0.6.1)",
-    "requests (>=1.0.0)"
-  ],
-  "requires_extras": {
-    "yaml": [
-      "PyYAML (>=3.10); extra=='yaml'"
+  "requires_dist": {
+    "dists": [
+      "coverage",
+      "docopt",
+      "requests"
+    ],
+    "specifiers": [
+      "coverage (<6.0,>=4.1)",
+      "docopt (>=0.6.1)",
+      "requests (>=1.0.0)"
     ]
+  },
+  "requires_extras": {
+    "yaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml (>=3.10); extra=='yaml'"
+      ]
+    }
   },
   "requires_python": ">= 3.5",
   "yanked": []

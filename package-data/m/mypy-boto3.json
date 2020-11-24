@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "boto3",
-    "typing-extensions; python_version<'3.8'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "boto3",
+      "typing-extensions"
+    ],
+    "specifiers": [
+      "boto3",
+      "typing-extensions; python_version<'3.8'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

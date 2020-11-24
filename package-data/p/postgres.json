@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "psycopg2-binary (>=2.8)",
-    "psycopg2-pool"
-  ],
+  "requires_dist": {
+    "dists": [
+      "psycopg2-binary",
+      "psycopg2-pool"
+    ],
+    "specifiers": [
+      "psycopg2-binary (>=2.8)",
+      "psycopg2-pool"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,48 +1,97 @@
 {
-  "requires_dist": [
-    "adr (==0.19.2)",
-    "boto3 (==1.16.23)",
-    "imbalanced-learn (==0.7.0)",
-    "joblib (==0.17.0)",
-    "libmozdata (==0.1.68)",
-    "lmdb (==0.99)",
-    "matplotlib (==3.3.3)",
-    "mercurial (==5.6)",
-    "microannotate (==0.0.21)",
-    "mozci (==1.11.0)",
-    "numpy (==1.19.4)",
-    "orjson (==3.4.3)",
-    "ortools (==8.0.8283)",
-    "pandas (==1.1.4)",
-    "psutil (==5.7.3)",
-    "pydriller (==1.12)",
-    "pyOpenSSL (>=0.14)",
-    "python-dateutil (==2.8.1)",
-    "python-hglib (==2.6.2)",
-    "requests (==2.25.0)",
-    "rs-parsepatch (==0.3.3)",
-    "scikit-learn (==0.23.2)",
-    "scipy (==1.5.4)",
-    "shap[plots] (==0.37.0)",
-    "tabulate (==0.8.7)",
-    "taskcluster (==38.0.6)",
-    "tenacity (==6.2.0)",
-    "tqdm (==4.52.0)",
-    "xgboost (==1.2.1)",
-    "zstandard (==0.14.0)"
-  ],
-  "requires_extras": {
-    "nlp": [
-      "elasticsearch (==7.10.0); extra=='nlp'",
-      "gensim (==3.8.3); extra=='nlp'",
-      "nltk (==3.5); extra=='nlp'",
-      "pyemd (==0.5.1); extra=='nlp'",
-      "spacy (==2.3.2); extra=='nlp'",
-      "wmd (==1.3.2); extra=='nlp'"
+  "requires_dist": {
+    "dists": [
+      "adr",
+      "boto3",
+      "imbalanced-learn",
+      "joblib",
+      "libmozdata",
+      "lmdb",
+      "matplotlib",
+      "mercurial",
+      "microannotate",
+      "mozci",
+      "numpy",
+      "orjson",
+      "ortools",
+      "pandas",
+      "psutil",
+      "pydriller",
+      "pyopenssl",
+      "python-dateutil",
+      "python-hglib",
+      "requests",
+      "rs-parsepatch",
+      "scikit-learn",
+      "scipy",
+      "shap",
+      "tabulate",
+      "taskcluster",
+      "tenacity",
+      "tqdm",
+      "xgboost",
+      "zstandard"
     ],
-    "nn": [
-      "tensorflow (==2.3.1); extra=='nn'"
+    "specifiers": [
+      "adr (==0.19.2)",
+      "boto3 (==1.16.23)",
+      "imbalanced-learn (==0.7.0)",
+      "joblib (==0.17.0)",
+      "libmozdata (==0.1.68)",
+      "lmdb (==0.99)",
+      "matplotlib (==3.3.3)",
+      "mercurial (==5.6)",
+      "microannotate (==0.0.21)",
+      "mozci (==1.11.0)",
+      "numpy (==1.19.4)",
+      "orjson (==3.4.3)",
+      "ortools (==8.0.8283)",
+      "pandas (==1.1.4)",
+      "psutil (==5.7.3)",
+      "pydriller (==1.12)",
+      "pyopenssl (>=0.14)",
+      "python-dateutil (==2.8.1)",
+      "python-hglib (==2.6.2)",
+      "requests (==2.25.0)",
+      "rs-parsepatch (==0.3.3)",
+      "scikit-learn (==0.23.2)",
+      "scipy (==1.5.4)",
+      "shap[plots] (==0.37.0)",
+      "tabulate (==0.8.7)",
+      "taskcluster (==38.0.6)",
+      "tenacity (==6.2.0)",
+      "tqdm (==4.52.0)",
+      "xgboost (==1.2.1)",
+      "zstandard (==0.14.0)"
     ]
+  },
+  "requires_extras": {
+    "nlp": {
+      "dists": [
+        "elasticsearch",
+        "gensim",
+        "nltk",
+        "pyemd",
+        "spacy",
+        "wmd"
+      ],
+      "specifiers": [
+        "elasticsearch (==7.10.0); extra=='nlp'",
+        "gensim (==3.8.3); extra=='nlp'",
+        "nltk (==3.5); extra=='nlp'",
+        "pyemd (==0.5.1); extra=='nlp'",
+        "spacy (==2.3.2); extra=='nlp'",
+        "wmd (==1.3.2); extra=='nlp'"
+      ]
+    },
+    "nn": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (==2.3.1); extra=='nn'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

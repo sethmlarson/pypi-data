@@ -1,18 +1,37 @@
 {
-  "requires_dist": [
-    "asyncio (==3.4.3)",
-    "pyyaml (==5.3.1)",
-    "sgx.py (==0.6.dev13)",
-    "web3 (==5.6.0)"
-  ],
-  "requires_extras": {
-    "hw-wallet": [
-      "ledgerblue (==0.1.31); extra=='hw-wallet'"
+  "requires_dist": {
+    "dists": [
+      "asyncio",
+      "pyyaml",
+      "sgx.py",
+      "web3"
     ],
-    "linter": [
-      "flake8 (==3.8.3); extra=='linter'",
-      "isort (<5.4.3,>=4.2.15); extra=='linter'"
+    "specifiers": [
+      "asyncio (==3.4.3)",
+      "pyyaml (==5.3.1)",
+      "sgx.py (==0.6.dev13)",
+      "web3 (==5.6.0)"
     ]
+  },
+  "requires_extras": {
+    "hw-wallet": {
+      "dists": [
+        "ledgerblue"
+      ],
+      "specifiers": [
+        "ledgerblue (==0.1.31); extra=='hw-wallet'"
+      ]
+    },
+    "linter": {
+      "dists": [
+        "flake8",
+        "isort"
+      ],
+      "specifiers": [
+        "flake8 (==3.8.3); extra=='linter'",
+        "isort (<5.4.3,>=4.2.15); extra=='linter'"
+      ]
+    }
   },
   "requires_python": ">=3.7,<4",
   "yanked": []

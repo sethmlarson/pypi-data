@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "django (>=2.2)",
-    "pytz"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "pytz"
+    ],
+    "specifiers": [
+      "django (>=2.2)",
+      "pytz"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

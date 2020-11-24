@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "more-itertools"
-  ],
+  "requires_dist": {
+    "dists": [
+      "more-itertools"
+    ],
+    "specifiers": [
+      "more-itertools"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

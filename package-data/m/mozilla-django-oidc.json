@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "cryptography",
-    "Django (>=1.11)",
-    "josepy",
-    "requests",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cryptography",
+      "django",
+      "josepy",
+      "requests",
+      "six"
+    ],
+    "specifiers": [
+      "cryptography",
+      "django (>=1.11)",
+      "josepy",
+      "requests",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

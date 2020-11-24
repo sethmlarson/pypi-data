@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "lunardate",
-    "pyCalverter",
-    "pyluach",
-    "python-dateutil",
-    "pytz",
-    "setuptools (>=1.0)",
-    "skyfield",
-    "skyfield-data"
-  ],
+  "requires_dist": {
+    "dists": [
+      "lunardate",
+      "pycalverter",
+      "pyluach",
+      "python-dateutil",
+      "pytz",
+      "setuptools",
+      "skyfield",
+      "skyfield-data"
+    ],
+    "specifiers": [
+      "lunardate",
+      "pycalverter",
+      "pyluach",
+      "python-dateutil",
+      "pytz",
+      "setuptools (>=1.0)",
+      "skyfield",
+      "skyfield-data"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

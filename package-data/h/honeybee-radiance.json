@@ -1,16 +1,31 @@
 {
-  "requires_dist": [
-    "honeybee-core (==1.41.3)",
-    "honeybee-radiance-command (==1.1.8)",
-    "honeybee-radiance-folder (==2.3.3)",
-    "honeybee-standards (==2.0.0)"
-  ],
-  "requires_extras": {
-    "cli": [
-      "click (==7.1.2); extra=='cli'",
-      "click-plugins (==1.1.1); extra=='cli'",
-      "honeybee-core[cli] (==1.41.3); extra=='cli'"
+  "requires_dist": {
+    "dists": [
+      "honeybee-core",
+      "honeybee-radiance-command",
+      "honeybee-radiance-folder",
+      "honeybee-standards"
+    ],
+    "specifiers": [
+      "honeybee-core (==1.41.3)",
+      "honeybee-radiance-command (==1.1.8)",
+      "honeybee-radiance-folder (==2.3.3)",
+      "honeybee-standards (==2.0.0)"
     ]
+  },
+  "requires_extras": {
+    "cli": {
+      "dists": [
+        "click",
+        "click-plugins",
+        "honeybee-core"
+      ],
+      "specifiers": [
+        "click (==7.1.2); extra=='cli'",
+        "click-plugins (==1.1.1); extra=='cli'",
+        "honeybee-core[cli] (==1.41.3); extra=='cli'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

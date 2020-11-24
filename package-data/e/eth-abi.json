@@ -1,19 +1,39 @@
 {
-  "requires_dist": [
-    "eth-typing (<3.0.0,>=2.0.0)",
-    "eth-utils (<2.0.0,>=1.2.0)",
-    "parsimonious (<0.9.0,>=0.8.0)"
-  ],
-  "requires_extras": {
-    "lint": [
-      "flake8 (==3.4.1); extra=='lint'",
-      "isort (<5,>=4.2.15); extra=='lint'",
-      "mypy (==0.701); extra=='lint'",
-      "pydocstyle (<4,>=3.0.0); extra=='lint'"
+  "requires_dist": {
+    "dists": [
+      "eth-typing",
+      "eth-utils",
+      "parsimonious"
     ],
-    "tools": [
-      "hypothesis (<4,>=3.6.1); extra=='tools'"
+    "specifiers": [
+      "eth-typing (<3.0.0,>=2.0.0)",
+      "eth-utils (<2.0.0,>=1.2.0)",
+      "parsimonious (<0.9.0,>=0.8.0)"
     ]
+  },
+  "requires_extras": {
+    "lint": {
+      "dists": [
+        "flake8",
+        "isort",
+        "mypy",
+        "pydocstyle"
+      ],
+      "specifiers": [
+        "flake8 (==3.4.1); extra=='lint'",
+        "isort (<5,>=4.2.15); extra=='lint'",
+        "mypy (==0.701); extra=='lint'",
+        "pydocstyle (<4,>=3.0.0); extra=='lint'"
+      ]
+    },
+    "tools": {
+      "dists": [
+        "hypothesis"
+      ],
+      "specifiers": [
+        "hypothesis (<4,>=3.6.1); extra=='tools'"
+      ]
+    }
   },
   "requires_python": ">=3.6, <4",
   "yanked": []

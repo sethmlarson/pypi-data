@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "Django (>=1.11)",
-    "django-crum",
-    "django-model-utils",
-    "djangorestframework",
-    "edx-celeryutils",
-    "simplejson"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "django-crum",
+      "django-model-utils",
+      "djangorestframework",
+      "edx-celeryutils",
+      "simplejson"
+    ],
+    "specifiers": [
+      "django (>=1.11)",
+      "django-crum",
+      "django-model-utils",
+      "djangorestframework",
+      "edx-celeryutils",
+      "simplejson"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

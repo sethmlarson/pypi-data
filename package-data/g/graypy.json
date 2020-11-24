@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "amqp": [
-      "amqplib (==1.0.2); extra=='amqp'"
-    ]
+    "amqp": {
+      "dists": [
+        "amqplib"
+      ],
+      "specifiers": [
+        "amqplib (==1.0.2); extra=='amqp'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,149 +1,347 @@
 {
-  "requires_dist": [
-    "click (>=7.0)",
-    "cloudpickle (>=0.6.0)",
-    "croniter (<1.0,>=0.3.24)",
-    "dask (>=2.15.0)",
-    "distributed (>=2.15.0)",
-    "docker (>=3.4.1)",
-    "importlib-resources (>=3.0.0); python_version<'3.9'",
-    "marshmallow (>=3.0.0b19)",
-    "marshmallow-oneofschema (>=2.0.0b2)",
-    "msgpack (>=0.6.0)",
-    "mypy-extensions (>=0.4.0)",
-    "pendulum (>=2.0.4)",
-    "python-box (>=5.1.0)",
-    "python-dateutil (>=2.7.0)",
-    "python-slugify (>=1.2.6)",
-    "pytz (>=2018.7)",
-    "pyyaml (>=3.13)",
-    "requests (>=2.20)",
-    "tabulate (>=0.8.0)",
-    "toml (>=0.9.4)",
-    "urllib3 (>=1.24.3)"
-  ],
-  "requires_extras": {
-    "airtable": [
-      "airtable-python-wrapper (<0.12,>=0.11); extra=='airtable'"
+  "requires_dist": {
+    "dists": [
+      "click",
+      "cloudpickle",
+      "croniter",
+      "dask",
+      "distributed",
+      "docker",
+      "importlib-resources",
+      "marshmallow",
+      "marshmallow-oneofschema",
+      "msgpack",
+      "mypy-extensions",
+      "pendulum",
+      "python-box",
+      "python-dateutil",
+      "python-slugify",
+      "pytz",
+      "pyyaml",
+      "requests",
+      "tabulate",
+      "toml",
+      "urllib3"
     ],
-    "all_extras": [
-      "airtable-python-wrapper (<0.12,>=0.11); extra=='all_extras'",
-      "azure-cosmos (<3.2,>=3.1.1); extra=='all_extras'",
-      "azure-storage-blob (<13.0,>=12.1.0); extra=='all_extras'",
-      "azureml-sdk (<1.1,>=1.0.65); extra=='all_extras'",
-      "black; extra=='all_extras'",
-      "boto3 (<2.0,>=1.9); extra=='all_extras'",
-      "dask-cloudprovider (<1.0,>=0.2.0); extra=='all_extras'",
-      "dask-kubernetes (>=0.8.0); extra=='all_extras'",
-      "dropbox (~=9.0); extra=='all_extras'",
-      "feedparser (<6.0,>=5.0.1); extra=='all_extras'",
-      "google-cloud-bigquery (<2.0,>=1.6.0); extra=='all_extras'",
-      "google-cloud-storage (<2.0,>=1.13); extra=='all_extras'",
-      "graphviz (>=0.8); extra=='all_extras'",
-      "graphviz (>=0.8.3); extra=='all_extras'",
-      "great-expectations (>=0.11.1); extra=='all_extras'",
-      "gspread (>=3.6.0); extra=='all_extras'",
-      "jinja2 (<3.0,>=2.0); extra=='all_extras'",
-      "jira (>=2.0.0); extra=='all_extras'",
-      "kubernetes (<=11.0.0b2,>=9.0.0a1); extra=='all_extras'",
-      "mypy (<0.800,>=0.600); extra=='all_extras'",
-      "nbconvert (>=6.0.7); extra=='all_extras'",
-      "pandas (>=1.0.1); extra=='all_extras'",
-      "papermill (>=2.2.0); extra=='all_extras'",
-      "psycopg2-binary (>=2.8.2); extra=='all_extras'",
-      "pushbullet.py (>=0.11.0); extra=='all_extras'",
-      "PyGithub (<2.0,>=1.51); extra=='all_extras'",
-      "Pygments (<3.0,>=2.2); extra=='all_extras'",
-      "pymysql (>=0.9.3); extra=='all_extras'",
-      "pytest (>=5.0); extra=='all_extras'",
-      "pytest-cov (>=2.6); extra=='all_extras'",
-      "pytest-env (>=0.6.0); extra=='all_extras'",
-      "pytest-xdist (>=1.23); extra=='all_extras'",
-      "python-gitlab (<3.0,>=2.5.0); extra=='all_extras'",
-      "redis (>=3.2.1); extra=='all_extras'",
-      "snowflake-connector-python (<2.5,>=1.8.2); extra=='all_extras'",
-      "spacy (<3.0.0,>=2.0.0); extra=='all_extras'",
-      "testfixtures (>=6.10.3); extra=='all_extras'",
-      "tweepy (<4.0,>=3.5); extra=='all_extras'"
-    ],
-    "aws": [
-      "boto3 (<2.0,>=1.9); extra=='aws'"
-    ],
-    "azure": [
-      "azure-cosmos (<3.2,>=3.1.1); extra=='azure'",
-      "azure-storage-blob (<13.0,>=12.1.0); extra=='azure'",
-      "azureml-sdk (<1.1,>=1.0.65); extra=='azure'"
-    ],
-    "dask_cloudprovider": [
-      "dask-cloudprovider (<1.0,>=0.2.0); extra=='dask_cloudprovider'"
-    ],
-    "dropbox": [
-      "dropbox (~=9.0); extra=='dropbox'"
-    ],
-    "gcp": [
-      "google-cloud-bigquery (<2.0,>=1.6.0); extra=='gcp'",
-      "google-cloud-storage (<2.0,>=1.13); extra=='gcp'"
-    ],
-    "ge": [
-      "great-expectations (>=0.11.1); extra=='ge'"
-    ],
-    "github": [
-      "PyGithub (<2.0,>=1.51); extra=='github'"
-    ],
-    "gitlab": [
-      "python-gitlab (<3.0,>=2.5.0); extra=='gitlab'"
-    ],
-    "google": [
-      "google-cloud-bigquery (<2.0,>=1.6.0); extra=='google'",
-      "google-cloud-storage (<2.0,>=1.13); extra=='google'"
-    ],
-    "gsheets": [
-      "gspread (>=3.6.0); extra=='gsheets'"
-    ],
-    "jira": [
-      "jira (>=2.0.0); extra=='jira'"
-    ],
-    "jupyter": [
-      "nbconvert (>=6.0.7); extra=='jupyter'",
-      "papermill (>=2.2.0); extra=='jupyter'"
-    ],
-    "kubernetes": [
-      "dask-kubernetes (>=0.8.0); extra=='kubernetes'",
-      "kubernetes (<=11.0.0b2,>=9.0.0a1); extra=='kubernetes'"
-    ],
-    "mysql": [
-      "pymysql (>=0.9.3); extra=='mysql'"
-    ],
-    "pandas": [
-      "pandas (>=1.0.1); extra=='pandas'"
-    ],
-    "postgres": [
-      "psycopg2-binary (>=2.8.2); extra=='postgres'"
-    ],
-    "pushbullet": [
-      "pushbullet.py (>=0.11.0); extra=='pushbullet'"
-    ],
-    "redis": [
-      "redis (>=3.2.1); extra=='redis'"
-    ],
-    "rss": [
-      "feedparser (<6.0,>=5.0.1); extra=='rss'"
-    ],
-    "snowflake": [
-      "snowflake-connector-python (<2.5,>=1.8.2); extra=='snowflake'"
-    ],
-    "spacy": [
-      "spacy (<3.0.0,>=2.0.0); extra=='spacy'"
-    ],
-    "templates": [
-      "jinja2 (<3.0,>=2.0); extra=='templates'"
-    ],
-    "twitter": [
-      "tweepy (<4.0,>=3.5); extra=='twitter'"
-    ],
-    "viz": [
-      "graphviz (>=0.8.3); extra=='viz'"
+    "specifiers": [
+      "click (>=7.0)",
+      "cloudpickle (>=0.6.0)",
+      "croniter (<1.0,>=0.3.24)",
+      "dask (>=2.15.0)",
+      "distributed (>=2.15.0)",
+      "docker (>=3.4.1)",
+      "importlib-resources (>=3.0.0); python_version<'3.9'",
+      "marshmallow (>=3.0.0b19)",
+      "marshmallow-oneofschema (>=2.0.0b2)",
+      "msgpack (>=0.6.0)",
+      "mypy-extensions (>=0.4.0)",
+      "pendulum (>=2.0.4)",
+      "python-box (>=5.1.0)",
+      "python-dateutil (>=2.7.0)",
+      "python-slugify (>=1.2.6)",
+      "pytz (>=2018.7)",
+      "pyyaml (>=3.13)",
+      "requests (>=2.20)",
+      "tabulate (>=0.8.0)",
+      "toml (>=0.9.4)",
+      "urllib3 (>=1.24.3)"
     ]
+  },
+  "requires_extras": {
+    "airtable": {
+      "dists": [
+        "airtable-python-wrapper"
+      ],
+      "specifiers": [
+        "airtable-python-wrapper (<0.12,>=0.11); extra=='airtable'"
+      ]
+    },
+    "all_extras": {
+      "dists": [
+        "airtable-python-wrapper",
+        "azure-cosmos",
+        "azure-storage-blob",
+        "azureml-sdk",
+        "black",
+        "boto3",
+        "dask-cloudprovider",
+        "dask-kubernetes",
+        "dropbox",
+        "feedparser",
+        "google-cloud-bigquery",
+        "google-cloud-storage",
+        "graphviz",
+        "graphviz",
+        "great-expectations",
+        "gspread",
+        "jinja2",
+        "jira",
+        "kubernetes",
+        "mypy",
+        "nbconvert",
+        "pandas",
+        "papermill",
+        "psycopg2-binary",
+        "pushbullet.py",
+        "pygithub",
+        "pygments",
+        "pymysql",
+        "pytest",
+        "pytest-cov",
+        "pytest-env",
+        "pytest-xdist",
+        "python-gitlab",
+        "redis",
+        "snowflake-connector-python",
+        "spacy",
+        "testfixtures",
+        "tweepy"
+      ],
+      "specifiers": [
+        "airtable-python-wrapper (<0.12,>=0.11); extra=='all_extras'",
+        "azure-cosmos (<3.2,>=3.1.1); extra=='all_extras'",
+        "azure-storage-blob (<13.0,>=12.1.0); extra=='all_extras'",
+        "azureml-sdk (<1.1,>=1.0.65); extra=='all_extras'",
+        "black; extra=='all_extras'",
+        "boto3 (<2.0,>=1.9); extra=='all_extras'",
+        "dask-cloudprovider (<1.0,>=0.2.0); extra=='all_extras'",
+        "dask-kubernetes (>=0.8.0); extra=='all_extras'",
+        "dropbox (~=9.0); extra=='all_extras'",
+        "feedparser (<6.0,>=5.0.1); extra=='all_extras'",
+        "google-cloud-bigquery (<2.0,>=1.6.0); extra=='all_extras'",
+        "google-cloud-storage (<2.0,>=1.13); extra=='all_extras'",
+        "graphviz (>=0.8); extra=='all_extras'",
+        "graphviz (>=0.8.3); extra=='all_extras'",
+        "great-expectations (>=0.11.1); extra=='all_extras'",
+        "gspread (>=3.6.0); extra=='all_extras'",
+        "jinja2 (<3.0,>=2.0); extra=='all_extras'",
+        "jira (>=2.0.0); extra=='all_extras'",
+        "kubernetes (<=11.0.0b2,>=9.0.0a1); extra=='all_extras'",
+        "mypy (<0.800,>=0.600); extra=='all_extras'",
+        "nbconvert (>=6.0.7); extra=='all_extras'",
+        "pandas (>=1.0.1); extra=='all_extras'",
+        "papermill (>=2.2.0); extra=='all_extras'",
+        "psycopg2-binary (>=2.8.2); extra=='all_extras'",
+        "pushbullet.py (>=0.11.0); extra=='all_extras'",
+        "pygithub (<2.0,>=1.51); extra=='all_extras'",
+        "pygments (<3.0,>=2.2); extra=='all_extras'",
+        "pymysql (>=0.9.3); extra=='all_extras'",
+        "pytest (>=5.0); extra=='all_extras'",
+        "pytest-cov (>=2.6); extra=='all_extras'",
+        "pytest-env (>=0.6.0); extra=='all_extras'",
+        "pytest-xdist (>=1.23); extra=='all_extras'",
+        "python-gitlab (<3.0,>=2.5.0); extra=='all_extras'",
+        "redis (>=3.2.1); extra=='all_extras'",
+        "snowflake-connector-python (<2.5,>=1.8.2); extra=='all_extras'",
+        "spacy (<3.0.0,>=2.0.0); extra=='all_extras'",
+        "testfixtures (>=6.10.3); extra=='all_extras'",
+        "tweepy (<4.0,>=3.5); extra=='all_extras'"
+      ]
+    },
+    "aws": {
+      "dists": [
+        "boto3"
+      ],
+      "specifiers": [
+        "boto3 (<2.0,>=1.9); extra=='aws'"
+      ]
+    },
+    "azure": {
+      "dists": [
+        "azure-cosmos",
+        "azure-storage-blob",
+        "azureml-sdk"
+      ],
+      "specifiers": [
+        "azure-cosmos (<3.2,>=3.1.1); extra=='azure'",
+        "azure-storage-blob (<13.0,>=12.1.0); extra=='azure'",
+        "azureml-sdk (<1.1,>=1.0.65); extra=='azure'"
+      ]
+    },
+    "dask_cloudprovider": {
+      "dists": [
+        "dask-cloudprovider"
+      ],
+      "specifiers": [
+        "dask-cloudprovider (<1.0,>=0.2.0); extra=='dask_cloudprovider'"
+      ]
+    },
+    "dropbox": {
+      "dists": [
+        "dropbox"
+      ],
+      "specifiers": [
+        "dropbox (~=9.0); extra=='dropbox'"
+      ]
+    },
+    "gcp": {
+      "dists": [
+        "google-cloud-bigquery",
+        "google-cloud-storage"
+      ],
+      "specifiers": [
+        "google-cloud-bigquery (<2.0,>=1.6.0); extra=='gcp'",
+        "google-cloud-storage (<2.0,>=1.13); extra=='gcp'"
+      ]
+    },
+    "ge": {
+      "dists": [
+        "great-expectations"
+      ],
+      "specifiers": [
+        "great-expectations (>=0.11.1); extra=='ge'"
+      ]
+    },
+    "github": {
+      "dists": [
+        "pygithub"
+      ],
+      "specifiers": [
+        "pygithub (<2.0,>=1.51); extra=='github'"
+      ]
+    },
+    "gitlab": {
+      "dists": [
+        "python-gitlab"
+      ],
+      "specifiers": [
+        "python-gitlab (<3.0,>=2.5.0); extra=='gitlab'"
+      ]
+    },
+    "google": {
+      "dists": [
+        "google-cloud-bigquery",
+        "google-cloud-storage"
+      ],
+      "specifiers": [
+        "google-cloud-bigquery (<2.0,>=1.6.0); extra=='google'",
+        "google-cloud-storage (<2.0,>=1.13); extra=='google'"
+      ]
+    },
+    "gsheets": {
+      "dists": [
+        "gspread"
+      ],
+      "specifiers": [
+        "gspread (>=3.6.0); extra=='gsheets'"
+      ]
+    },
+    "jira": {
+      "dists": [
+        "jira"
+      ],
+      "specifiers": [
+        "jira (>=2.0.0); extra=='jira'"
+      ]
+    },
+    "jupyter": {
+      "dists": [
+        "nbconvert",
+        "papermill"
+      ],
+      "specifiers": [
+        "nbconvert (>=6.0.7); extra=='jupyter'",
+        "papermill (>=2.2.0); extra=='jupyter'"
+      ]
+    },
+    "kubernetes": {
+      "dists": [
+        "dask-kubernetes",
+        "kubernetes"
+      ],
+      "specifiers": [
+        "dask-kubernetes (>=0.8.0); extra=='kubernetes'",
+        "kubernetes (<=11.0.0b2,>=9.0.0a1); extra=='kubernetes'"
+      ]
+    },
+    "mysql": {
+      "dists": [
+        "pymysql"
+      ],
+      "specifiers": [
+        "pymysql (>=0.9.3); extra=='mysql'"
+      ]
+    },
+    "pandas": {
+      "dists": [
+        "pandas"
+      ],
+      "specifiers": [
+        "pandas (>=1.0.1); extra=='pandas'"
+      ]
+    },
+    "postgres": {
+      "dists": [
+        "psycopg2-binary"
+      ],
+      "specifiers": [
+        "psycopg2-binary (>=2.8.2); extra=='postgres'"
+      ]
+    },
+    "pushbullet": {
+      "dists": [
+        "pushbullet.py"
+      ],
+      "specifiers": [
+        "pushbullet.py (>=0.11.0); extra=='pushbullet'"
+      ]
+    },
+    "redis": {
+      "dists": [
+        "redis"
+      ],
+      "specifiers": [
+        "redis (>=3.2.1); extra=='redis'"
+      ]
+    },
+    "rss": {
+      "dists": [
+        "feedparser"
+      ],
+      "specifiers": [
+        "feedparser (<6.0,>=5.0.1); extra=='rss'"
+      ]
+    },
+    "snowflake": {
+      "dists": [
+        "snowflake-connector-python"
+      ],
+      "specifiers": [
+        "snowflake-connector-python (<2.5,>=1.8.2); extra=='snowflake'"
+      ]
+    },
+    "spacy": {
+      "dists": [
+        "spacy"
+      ],
+      "specifiers": [
+        "spacy (<3.0.0,>=2.0.0); extra=='spacy'"
+      ]
+    },
+    "templates": {
+      "dists": [
+        "jinja2"
+      ],
+      "specifiers": [
+        "jinja2 (<3.0,>=2.0); extra=='templates'"
+      ]
+    },
+    "twitter": {
+      "dists": [
+        "tweepy"
+      ],
+      "specifiers": [
+        "tweepy (<4.0,>=3.5); extra=='twitter'"
+      ]
+    },
+    "viz": {
+      "dists": [
+        "graphviz"
+      ],
+      "specifiers": [
+        "graphviz (>=0.8.3); extra=='viz'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

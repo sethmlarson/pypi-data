@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "PyQt5-sip (>=12.8,<13)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyqt5-sip"
+    ],
+    "specifiers": [
+      "pyqt5-sip (>=12.8,<13)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

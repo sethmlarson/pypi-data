@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "jaraco.classes",
-    "jaraco.text",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "jaraco.classes",
+      "jaraco.text",
+      "six"
+    ],
+    "specifiers": [
+      "jaraco.classes",
+      "jaraco.text",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=2.7",
   "yanked": []

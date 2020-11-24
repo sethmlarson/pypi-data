@@ -1,11 +1,21 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "maintainer": [
-      "django; extra=='maintainer'",
-      "transifex-client; extra=='maintainer'",
-      "zest.releaser[recommended]; extra=='maintainer'"
-    ]
+    "maintainer": {
+      "dists": [
+        "django",
+        "transifex-client",
+        "zest.releaser"
+      ],
+      "specifiers": [
+        "django; extra=='maintainer'",
+        "transifex-client; extra=='maintainer'",
+        "zest.releaser[recommended]; extra=='maintainer'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

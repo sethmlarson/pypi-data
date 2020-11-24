@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "nose",
-    "pytest-allure-adaptor"
-  ],
+  "requires_dist": {
+    "dists": [
+      "nose",
+      "pytest-allure-adaptor"
+    ],
+    "specifiers": [
+      "nose",
+      "pytest-allure-adaptor"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

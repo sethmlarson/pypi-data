@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "future",
-    "numpy",
-    "progressbar2",
-    "scipy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "future",
+      "numpy",
+      "progressbar2",
+      "scipy"
+    ],
+    "specifiers": [
+      "future",
+      "numpy",
+      "progressbar2",
+      "scipy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

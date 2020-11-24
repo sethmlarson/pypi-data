@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "packaging",
-    "pyyaml",
-    "toml"
-  ],
-  "requires_extras": {
-    "pipenv": [
-      "pipenv; extra=='pipenv'"
+  "requires_dist": {
+    "dists": [
+      "packaging",
+      "pyyaml",
+      "toml"
+    ],
+    "specifiers": [
+      "packaging",
+      "pyyaml",
+      "toml"
     ]
+  },
+  "requires_extras": {
+    "pipenv": {
+      "dists": [
+        "pipenv"
+      ],
+      "specifiers": [
+        "pipenv; extra=='pipenv'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

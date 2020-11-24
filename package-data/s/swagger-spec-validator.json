@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "jsonschema",
-    "pyyaml",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "jsonschema",
+      "pyyaml",
+      "six"
+    ],
+    "specifiers": [
+      "jsonschema",
+      "pyyaml",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

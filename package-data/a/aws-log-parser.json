@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "geoip2 (==2.9.0)",
-    "python-whois (==0.7.1)",
-    "user-agents (==2.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "geoip2",
+      "python-whois",
+      "user-agents"
+    ],
+    "specifiers": [
+      "geoip2 (==2.9.0)",
+      "python-whois (==0.7.1)",
+      "user-agents (==2.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

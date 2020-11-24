@@ -1,24 +1,47 @@
 {
-  "requires_dist": [
-    "importlib-metadata; python_version<'3.8'",
-    "packaging",
-    "py7zr (!=0.10.0,<0.11.0,>=0.9.9)",
-    "requests",
-    "texttable",
-    "wheel"
-  ],
-  "requires_extras": {
-    "check": [
-      "check-manifest; extra=='check'",
-      "docutils; extra=='check'",
-      "flake8; extra=='check'",
-      "isort (>=5.0.0); extra=='check'",
-      "packaging; extra=='check'",
-      "pep517; extra=='check'",
-      "pygments; extra=='check'",
-      "readme-renderer; extra=='check'",
-      "twine; extra=='check'"
+  "requires_dist": {
+    "dists": [
+      "importlib-metadata",
+      "packaging",
+      "py7zr",
+      "requests",
+      "texttable",
+      "wheel"
+    ],
+    "specifiers": [
+      "importlib-metadata; python_version<'3.8'",
+      "packaging",
+      "py7zr (!=0.10.0,<0.11.0,>=0.9.9)",
+      "requests",
+      "texttable",
+      "wheel"
     ]
+  },
+  "requires_extras": {
+    "check": {
+      "dists": [
+        "check-manifest",
+        "docutils",
+        "flake8",
+        "isort",
+        "packaging",
+        "pep517",
+        "pygments",
+        "readme-renderer",
+        "twine"
+      ],
+      "specifiers": [
+        "check-manifest; extra=='check'",
+        "docutils; extra=='check'",
+        "flake8; extra=='check'",
+        "isort (>=5.0.0); extra=='check'",
+        "packaging; extra=='check'",
+        "pep517; extra=='check'",
+        "pygments; extra=='check'",
+        "readme-renderer; extra=='check'",
+        "twine; extra=='check'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

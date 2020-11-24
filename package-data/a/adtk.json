@@ -1,13 +1,24 @@
 {
-  "requires_dist": [
-    "matplotlib (>=3.0)",
-    "numpy (>=1.15)",
-    "packaging (>=17.0)",
-    "pandas (>=0.23)",
-    "scikit-learn (>=0.20)",
-    "statsmodels (>=0.9)",
-    "tabulate (>=0.8)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "matplotlib",
+      "numpy",
+      "packaging",
+      "pandas",
+      "scikit-learn",
+      "statsmodels",
+      "tabulate"
+    ],
+    "specifiers": [
+      "matplotlib (>=3.0)",
+      "numpy (>=1.15)",
+      "packaging (>=17.0)",
+      "pandas (>=0.23)",
+      "scikit-learn (>=0.20)",
+      "statsmodels (>=0.9)",
+      "tabulate (>=0.8)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

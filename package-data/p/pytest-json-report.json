@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pytest (>=4.2.0)",
-    "pytest-metadata"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pytest",
+      "pytest-metadata"
+    ],
+    "specifiers": [
+      "pytest (>=4.2.0)",
+      "pytest-metadata"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

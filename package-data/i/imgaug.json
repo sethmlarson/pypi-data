@@ -1,15 +1,28 @@
 {
-  "requires_dist": [
-    "imageio",
-    "matplotlib",
-    "numpy (>=1.15)",
-    "opencv-python",
-    "Pillow",
-    "scikit-image (>=0.14.2)",
-    "scipy",
-    "Shapely",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "imageio",
+      "matplotlib",
+      "numpy",
+      "opencv-python",
+      "pillow",
+      "scikit-image",
+      "scipy",
+      "shapely",
+      "six"
+    ],
+    "specifiers": [
+      "imageio",
+      "matplotlib",
+      "numpy (>=1.15)",
+      "opencv-python",
+      "pillow",
+      "scikit-image (>=0.14.2)",
+      "scipy",
+      "shapely",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

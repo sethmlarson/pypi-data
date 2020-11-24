@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "chardet (<4,>=3.0.4)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "chardet"
+    ],
+    "specifiers": [
+      "chardet (<4,>=3.0.4)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

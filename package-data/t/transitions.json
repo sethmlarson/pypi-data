@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "six"
-  ],
-  "requires_extras": {
-    "diagrams": [
-      "pygraphviz; extra=='diagrams'"
+  "requires_dist": {
+    "dists": [
+      "six"
+    ],
+    "specifiers": [
+      "six"
     ]
+  },
+  "requires_extras": {
+    "diagrams": {
+      "dists": [
+        "pygraphviz"
+      ],
+      "specifiers": [
+        "pygraphviz; extra=='diagrams'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

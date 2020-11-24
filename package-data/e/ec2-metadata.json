@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "cached-property",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cached-property",
+      "requests"
+    ],
+    "specifiers": [
+      "cached-property",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

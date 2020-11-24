@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "numpy (>=1.18.1)",
-    "Pillow (>=6.2.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "pillow"
+    ],
+    "specifiers": [
+      "numpy (>=1.18.1)",
+      "pillow (>=6.2.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

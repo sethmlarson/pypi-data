@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pycryptodome"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pycryptodome"
+    ],
+    "specifiers": [
+      "pycryptodome"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.4",
   "yanked": []

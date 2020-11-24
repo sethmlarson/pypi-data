@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "click",
-    "colorama",
-    "fasteners",
-    "PyYAML",
-    "sh"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click",
+      "colorama",
+      "fasteners",
+      "pyyaml",
+      "sh"
+    ],
+    "specifiers": [
+      "click",
+      "colorama",
+      "fasteners",
+      "pyyaml",
+      "sh"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

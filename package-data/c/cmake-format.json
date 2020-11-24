@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "cmakelang (>=0.6.13)"
-  ],
-  "requires_extras": {
-    "yaml": [
-      "pyyaml (>=5.3); extra=='yaml'"
+  "requires_dist": {
+    "dists": [
+      "cmakelang"
+    ],
+    "specifiers": [
+      "cmakelang (>=0.6.13)"
     ]
+  },
+  "requires_extras": {
+    "yaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml (>=5.3); extra=='yaml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

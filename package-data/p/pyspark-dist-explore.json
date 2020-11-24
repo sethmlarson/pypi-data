@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "matplotlib",
-    "numpy",
-    "pandas",
-    "scipy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "scipy"
+    ],
+    "specifiers": [
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "scipy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

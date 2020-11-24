@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "flake8 (>=3.5)",
-    "pytest (>=3.5)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flake8",
+      "pytest"
+    ],
+    "specifiers": [
+      "flake8 (>=3.5)",
+      "pytest (>=3.5)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

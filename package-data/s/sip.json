@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "packaging",
-    "toml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "packaging",
+      "toml"
+    ],
+    "specifiers": [
+      "packaging",
+      "toml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5.1",
   "yanked": []

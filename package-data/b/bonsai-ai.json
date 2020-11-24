@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "aiohttp (==2.3.10)",
-    "async-timeout (==2.0.1)",
-    "configparser (>=3.5.0)",
-    "msal (>=0.8.0)",
-    "protobuf (<4,>=3.0.0)",
-    "requests (>=2.11)",
-    "wheel (>=0.31.0)",
-    "yarl (==1.2.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "async-timeout",
+      "configparser",
+      "msal",
+      "protobuf",
+      "requests",
+      "wheel",
+      "yarl"
+    ],
+    "specifiers": [
+      "aiohttp (==2.3.10)",
+      "async-timeout (==2.0.1)",
+      "configparser (>=3.5.0)",
+      "msal (>=0.8.0)",
+      "protobuf (<4,>=3.0.0)",
+      "requests (>=2.11)",
+      "wheel (>=0.31.0)",
+      "yarl (==1.2.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "dbnd (==0.30.4)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dbnd"
+    ],
+    "specifiers": [
+      "dbnd (==0.30.5)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

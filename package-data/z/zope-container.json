@@ -1,34 +1,69 @@
 {
-  "requires_dist": [
-    "BTrees",
-    "persistent (>=4.1.0)",
-    "setuptools",
-    "six",
-    "zope.cachedescriptors",
-    "zope.component",
-    "zope.dottedname",
-    "zope.event",
-    "zope.filerepresentation",
-    "zope.i18nmessageid",
-    "zope.interface",
-    "zope.lifecycleevent (>=3.5.2)",
-    "zope.location (>=3.5.4)",
-    "zope.proxy (>=4.1.5)",
-    "zope.publisher",
-    "zope.schema",
-    "zope.security",
-    "zope.size",
-    "zope.traversing (>=4.0.0a1)"
-  ],
-  "requires_extras": {
-    "zcml": [
-      "zope.component[zcml]; extra=='zcml'",
-      "zope.configuration; extra=='zcml'",
-      "zope.security[zcml] (>=4.0.0a3); extra=='zcml'"
+  "requires_dist": {
+    "dists": [
+      "btrees",
+      "persistent",
+      "setuptools",
+      "six",
+      "zope.cachedescriptors",
+      "zope.component",
+      "zope.dottedname",
+      "zope.event",
+      "zope.filerepresentation",
+      "zope.i18nmessageid",
+      "zope.interface",
+      "zope.lifecycleevent",
+      "zope.location",
+      "zope.proxy",
+      "zope.publisher",
+      "zope.schema",
+      "zope.security",
+      "zope.size",
+      "zope.traversing"
     ],
-    "zodb": [
-      "ZODB (>=3.10); extra=='zodb'"
+    "specifiers": [
+      "btrees",
+      "persistent (>=4.1.0)",
+      "setuptools",
+      "six",
+      "zope.cachedescriptors",
+      "zope.component",
+      "zope.dottedname",
+      "zope.event",
+      "zope.filerepresentation",
+      "zope.i18nmessageid",
+      "zope.interface",
+      "zope.lifecycleevent (>=3.5.2)",
+      "zope.location (>=3.5.4)",
+      "zope.proxy (>=4.1.5)",
+      "zope.publisher",
+      "zope.schema",
+      "zope.security",
+      "zope.size",
+      "zope.traversing (>=4.0.0a1)"
     ]
+  },
+  "requires_extras": {
+    "zcml": {
+      "dists": [
+        "zope.component",
+        "zope.configuration",
+        "zope.security"
+      ],
+      "specifiers": [
+        "zope.component[zcml]; extra=='zcml'",
+        "zope.configuration; extra=='zcml'",
+        "zope.security[zcml] (>=4.0.0a3); extra=='zcml'"
+      ]
+    },
+    "zodb": {
+      "dists": [
+        "zodb"
+      ],
+      "specifiers": [
+        "zodb (>=3.10); extra=='zodb'"
+      ]
+    }
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
   "yanked": []

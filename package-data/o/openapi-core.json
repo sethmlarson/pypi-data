@@ -1,27 +1,57 @@
 {
-  "requires_dist": [
-    "attrs",
-    "backports.functools-lru-cache; python_version<'3.0'",
-    "backports.functools-partialmethod; python_version<'3.0'",
-    "isodate",
-    "lazy-object-proxy",
-    "more-itertools",
-    "openapi-schema-validator",
-    "openapi-spec-validator",
-    "parse",
-    "six",
-    "werkzeug"
-  ],
-  "requires_extras": {
-    "django": [
-      "django (>=2.2); (python_version>='3.0') and extra=='django'"
+  "requires_dist": {
+    "dists": [
+      "attrs",
+      "backports.functools-lru-cache",
+      "backports.functools-partialmethod",
+      "isodate",
+      "lazy-object-proxy",
+      "more-itertools",
+      "openapi-schema-validator",
+      "openapi-spec-validator",
+      "parse",
+      "six",
+      "werkzeug"
     ],
-    "flask": [
-      "flask; extra=='flask'"
-    ],
-    "requests": [
-      "requests; extra=='requests'"
+    "specifiers": [
+      "attrs",
+      "backports.functools-lru-cache; python_version<'3.0'",
+      "backports.functools-partialmethod; python_version<'3.0'",
+      "isodate",
+      "lazy-object-proxy",
+      "more-itertools",
+      "openapi-schema-validator",
+      "openapi-spec-validator",
+      "parse",
+      "six",
+      "werkzeug"
     ]
+  },
+  "requires_extras": {
+    "django": {
+      "dists": [
+        "django"
+      ],
+      "specifiers": [
+        "django (>=2.2); (python_version>='3.0') and extra=='django'"
+      ]
+    },
+    "flask": {
+      "dists": [
+        "flask"
+      ],
+      "specifiers": [
+        "flask; extra=='flask'"
+      ]
+    },
+    "requests": {
+      "dists": [
+        "requests"
+      ],
+      "specifiers": [
+        "requests; extra=='requests'"
+      ]
+    }
   },
   "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7",
   "yanked": []

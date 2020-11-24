@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "mbstrdecoder (<2,>=1.0.0)",
-    "setuptools (>=38.3.0)"
-  ],
-  "requires_extras": {
-    "datetime": [
-      "python-dateutil (<3.0.0,>=2.8.0); extra=='datetime'",
-      "pytz (>=2018.9); extra=='datetime'"
+  "requires_dist": {
+    "dists": [
+      "mbstrdecoder",
+      "setuptools"
+    ],
+    "specifiers": [
+      "mbstrdecoder (<2,>=1.0.0)",
+      "setuptools (>=38.3.0)"
     ]
+  },
+  "requires_extras": {
+    "datetime": {
+      "dists": [
+        "python-dateutil",
+        "pytz"
+      ],
+      "specifiers": [
+        "python-dateutil (<3.0.0,>=2.8.0); extra=='datetime'",
+        "pytz (>=2018.9); extra=='datetime'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

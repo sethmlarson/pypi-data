@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "requests",
-    "six (>=1.9.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "requests",
+      "six"
+    ],
+    "specifiers": [
+      "requests",
+      "six (>=1.9.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "ply (>=3.10)",
-    "pyRFC3339 (>=0.2)",
-    "pytz (>=2016.10)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "ply",
+      "pyrfc3339",
+      "pytz"
+    ],
+    "specifiers": [
+      "ply (>=3.10)",
+      "pyrfc3339 (>=0.2)",
+      "pytz (>=2016.10)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

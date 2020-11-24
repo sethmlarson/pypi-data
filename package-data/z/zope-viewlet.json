@@ -1,19 +1,36 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "zope.browserpage",
-    "zope.component",
-    "zope.configuration",
-    "zope.contentprovider",
-    "zope.event",
-    "zope.i18nmessageid",
-    "zope.interface",
-    "zope.location",
-    "zope.publisher",
-    "zope.schema",
-    "zope.security",
-    "zope.traversing"
-  ],
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "zope.browserpage",
+      "zope.component",
+      "zope.configuration",
+      "zope.contentprovider",
+      "zope.event",
+      "zope.i18nmessageid",
+      "zope.interface",
+      "zope.location",
+      "zope.publisher",
+      "zope.schema",
+      "zope.security",
+      "zope.traversing"
+    ],
+    "specifiers": [
+      "setuptools",
+      "zope.browserpage",
+      "zope.component",
+      "zope.configuration",
+      "zope.contentprovider",
+      "zope.event",
+      "zope.i18nmessageid",
+      "zope.interface",
+      "zope.location",
+      "zope.publisher",
+      "zope.schema",
+      "zope.security",
+      "zope.traversing"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

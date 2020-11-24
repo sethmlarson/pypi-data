@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "pyparsing (>=2.4.7)",
-    "requests (>=2.9.2)",
-    "requests-toolbelt (>=0.9.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyparsing",
+      "requests",
+      "requests-toolbelt"
+    ],
+    "specifiers": [
+      "pyparsing (>=2.4.7)",
+      "requests (>=2.9.2)",
+      "requests-toolbelt (>=0.9.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

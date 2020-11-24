@@ -1,22 +1,43 @@
 {
-  "requires_dist": [
-    "h5py",
-    "matplotlib (<3.3)",
-    "meshcat (>=0.0.19)",
-    "numpy",
-    "pillow",
-    "psutil",
-    "pyppeteer",
-    "requests-html",
-    "scipy",
-    "toml",
-    "tqdm",
-    "trimesh"
-  ],
-  "requires_extras": {
-    "gepetto": [
-      "opencv-python-headless (<=4.3.0.36); extra=='gepetto'"
+  "requires_dist": {
+    "dists": [
+      "h5py",
+      "matplotlib",
+      "meshcat",
+      "numpy",
+      "pillow",
+      "psutil",
+      "pyppeteer",
+      "requests-html",
+      "scipy",
+      "toml",
+      "tqdm",
+      "trimesh"
+    ],
+    "specifiers": [
+      "h5py",
+      "matplotlib (<3.3)",
+      "meshcat (>=0.0.19)",
+      "numpy",
+      "pillow",
+      "psutil",
+      "pyppeteer",
+      "requests-html",
+      "scipy",
+      "toml",
+      "tqdm",
+      "trimesh"
     ]
+  },
+  "requires_extras": {
+    "gepetto": {
+      "dists": [
+        "opencv-python-headless"
+      ],
+      "specifiers": [
+        "opencv-python-headless (<=4.3.0.36); extra=='gepetto'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

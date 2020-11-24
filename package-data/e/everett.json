@@ -1,12 +1,25 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "ini": [
-      "configobj; extra=='ini'"
-    ],
-    "yaml": [
-      "PyYAML; extra=='yaml'"
-    ]
+    "ini": {
+      "dists": [
+        "configobj"
+      ],
+      "specifiers": [
+        "configobj; extra=='ini'"
+      ]
+    },
+    "yaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml; extra=='yaml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

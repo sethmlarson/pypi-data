@@ -1,20 +1,43 @@
 {
-  "requires_dist": [
-    "future",
-    "model-archiver",
-    "Pillow",
-    "psutil"
-  ],
-  "requires_extras": {
-    "mxnet": [
-      "mxnet; extra=='mxnet'"
+  "requires_dist": {
+    "dists": [
+      "future",
+      "model-archiver",
+      "pillow",
+      "psutil"
     ],
-    "mxnet-cu90mkl": [
-      "mxnet-cu90mkl; extra=='mxnet-cu90mkl'"
-    ],
-    "mxnet-mkl": [
-      "mxnet-mkl; extra=='mxnet-mkl'"
+    "specifiers": [
+      "future",
+      "model-archiver",
+      "pillow",
+      "psutil"
     ]
+  },
+  "requires_extras": {
+    "mxnet": {
+      "dists": [
+        "mxnet"
+      ],
+      "specifiers": [
+        "mxnet; extra=='mxnet'"
+      ]
+    },
+    "mxnet-cu90mkl": {
+      "dists": [
+        "mxnet-cu90mkl"
+      ],
+      "specifiers": [
+        "mxnet-cu90mkl; extra=='mxnet-cu90mkl'"
+      ]
+    },
+    "mxnet-mkl": {
+      "dists": [
+        "mxnet-mkl"
+      ],
+      "specifiers": [
+        "mxnet-mkl; extra=='mxnet-mkl'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

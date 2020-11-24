@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "docopt",
-    "yarg"
-  ],
+  "requires_dist": {
+    "dists": [
+      "docopt",
+      "yarg"
+    ],
+    "specifiers": [
+      "docopt",
+      "yarg"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

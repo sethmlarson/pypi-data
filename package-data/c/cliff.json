@@ -1,13 +1,24 @@
 {
-  "requires_dist": [
-    "cmd2 (!=0.8.3,>=0.8.0)",
-    "pbr (!=2.1.0,>=2.0.0)",
-    "PrettyTable (<0.8,>=0.7.2)",
-    "pyparsing (>=2.1.0)",
-    "PyYAML (>=3.12)",
-    "six (>=1.10.0)",
-    "stevedore (>=2.0.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cmd2",
+      "pbr",
+      "prettytable",
+      "pyparsing",
+      "pyyaml",
+      "six",
+      "stevedore"
+    ],
+    "specifiers": [
+      "cmd2 (!=0.8.3,>=0.8.0)",
+      "pbr (!=2.1.0,>=2.0.0)",
+      "prettytable (<0.8,>=0.7.2)",
+      "pyparsing (>=2.1.0)",
+      "pyyaml (>=3.12)",
+      "six (>=1.10.0)",
+      "stevedore (>=2.0.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

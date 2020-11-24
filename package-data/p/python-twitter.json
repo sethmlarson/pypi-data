@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "future",
-    "requests",
-    "requests-oauthlib"
-  ],
+  "requires_dist": {
+    "dists": [
+      "future",
+      "requests",
+      "requests-oauthlib"
+    ],
+    "specifiers": [
+      "future",
+      "requests",
+      "requests-oauthlib"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

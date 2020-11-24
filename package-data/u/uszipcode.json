@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "attrs",
-    "pathlib-mate",
-    "requests",
-    "sqlalchemy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "attrs",
+      "pathlib-mate",
+      "requests",
+      "sqlalchemy"
+    ],
+    "specifiers": [
+      "attrs",
+      "pathlib-mate",
+      "requests",
+      "sqlalchemy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

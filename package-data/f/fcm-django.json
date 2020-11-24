@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Django",
-    "pyfcm (==1.4.7)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "pyfcm"
+    ],
+    "specifiers": [
+      "django",
+      "pyfcm (==1.4.7)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

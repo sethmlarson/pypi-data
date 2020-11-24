@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "requests",
-    "requests-toolbelt"
-  ],
+  "requires_dist": {
+    "dists": [
+      "requests",
+      "requests-toolbelt"
+    ],
+    "specifiers": [
+      "requests",
+      "requests-toolbelt"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3",
   "yanked": []

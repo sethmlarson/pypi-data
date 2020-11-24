@@ -1,15 +1,28 @@
 {
-  "requires_dist": [
-    "hypothesis (>=5.1)",
-    "pytest (>=4.6)",
-    "pytest-arraydiff (>=0.1)",
-    "pytest-astropy-header (>=0.1.2)",
-    "pytest-cov (>=2.0)",
-    "pytest-doctestplus (>=0.2.0)",
-    "pytest-filter-subpackage (>=0.1)",
-    "pytest-openfiles (>=0.3.1)",
-    "pytest-remotedata (>=0.3.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "hypothesis",
+      "pytest",
+      "pytest-arraydiff",
+      "pytest-astropy-header",
+      "pytest-cov",
+      "pytest-doctestplus",
+      "pytest-filter-subpackage",
+      "pytest-openfiles",
+      "pytest-remotedata"
+    ],
+    "specifiers": [
+      "hypothesis (>=5.1)",
+      "pytest (>=4.6)",
+      "pytest-arraydiff (>=0.1)",
+      "pytest-astropy-header (>=0.1.2)",
+      "pytest-cov (>=2.0)",
+      "pytest-doctestplus (>=0.2.0)",
+      "pytest-filter-subpackage (>=0.1)",
+      "pytest-openfiles (>=0.3.1)",
+      "pytest-remotedata (>=0.3.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pyramid (>=1.5)",
-    "transaction (>=2.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyramid",
+      "transaction"
+    ],
+    "specifiers": [
+      "pyramid (>=1.5)",
+      "transaction (>=2.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

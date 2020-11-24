@@ -1,14 +1,27 @@
 {
-  "requires_dist": [
-    "bleach (>=2.1.0)",
-    "docutils (>=0.13.1)",
-    "Pygments (>=2.5.1)",
-    "six"
-  ],
-  "requires_extras": {
-    "md": [
-      "cmarkgfm (>=0.2.0); extra=='md'"
+  "requires_dist": {
+    "dists": [
+      "bleach",
+      "docutils",
+      "pygments",
+      "six"
+    ],
+    "specifiers": [
+      "bleach (>=2.1.0)",
+      "docutils (>=0.13.1)",
+      "pygments (>=2.5.1)",
+      "six"
     ]
+  },
+  "requires_extras": {
+    "md": {
+      "dists": [
+        "cmarkgfm"
+      ],
+      "specifiers": [
+        "cmarkgfm (>=0.2.0); extra=='md'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

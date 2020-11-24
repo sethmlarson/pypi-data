@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "azureml-automl-core (~=1.18.0)",
-    "azureml-automl-runtime (~=1.18.0)",
-    "azureml-dataset-runtime[pandas,fuse] (~=1.18.0)",
-    "azureml-train-automl-client (~=1.18.0)",
-    "azureml-train-automl-runtime (~=1.18.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "azureml-automl-core",
+      "azureml-automl-runtime",
+      "azureml-dataset-runtime",
+      "azureml-train-automl-client",
+      "azureml-train-automl-runtime"
+    ],
+    "specifiers": [
+      "azureml-automl-core (~=1.18.0)",
+      "azureml-automl-runtime (~=1.18.0)",
+      "azureml-dataset-runtime[pandas,fuse] (~=1.18.0)",
+      "azureml-train-automl-client (~=1.18.0)",
+      "azureml-train-automl-runtime (~=1.18.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5,<4",
   "yanked": []

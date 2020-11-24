@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "packaging"
-  ],
+  "requires_dist": {
+    "dists": [
+      "packaging"
+    ],
+    "specifiers": [
+      "packaging"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

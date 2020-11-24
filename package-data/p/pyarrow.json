@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "numpy (>=1.14)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy"
+    ],
+    "specifiers": [
+      "numpy (>=1.14)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

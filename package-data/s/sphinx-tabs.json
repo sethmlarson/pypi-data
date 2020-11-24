@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "pygments",
-    "sphinx (<4,>=2)"
-  ],
-  "requires_extras": {
-    "code_style": [
-      "pre-commit (==2.6); extra=='code_style'"
+  "requires_dist": {
+    "dists": [
+      "pygments",
+      "sphinx"
+    ],
+    "specifiers": [
+      "pygments",
+      "sphinx (<4,>=2)"
     ]
+  },
+  "requires_extras": {
+    "code_style": {
+      "dists": [
+        "pre-commit"
+      ],
+      "specifiers": [
+        "pre-commit (==2.6); extra=='code_style'"
+      ]
+    }
   },
   "requires_python": "~=3.6",
   "yanked": []

@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "joblib",
-    "numpy",
-    "pandas",
-    "scikit-learn",
-    "scipy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "joblib",
+      "numpy",
+      "pandas",
+      "scikit-learn",
+      "scipy"
+    ],
+    "specifiers": [
+      "joblib",
+      "numpy",
+      "pandas",
+      "scikit-learn",
+      "scipy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

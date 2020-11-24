@@ -16,8 +16,20 @@ def get_extras(req):
     return tuple(sorted(set(re.findall(r"extra=='([^']+)'", req))))
 
 
+def dist_from_requires_dist(req):
+    return re.match(r"^([A-Za-z0-9_.\-]+)", req).group(1)
+
+
 def normalize_requires_dist(req):
-    return re.sub(r"\s*,\s*", ",", re.sub(r"\s*([><=~]{1,2})\s*", r"\1", re.sub(r"\s*;\s*", r"; ", req.replace('"', "'"))))
+    return re.sub(
+        r"\s*,\s*",
+        ",",
+        re.sub(
+            r"\s*([><=~]{1,2})\s*",
+            r"\1",
+            re.sub(r"\s*;\s*", r"; ", req.replace('"', "'")),
+        ),
+    ).lower()
 
 
 def requires_dist_sort_key(req):
@@ -85,7 +97,7 @@ with open("packages.txt") as f:
         ]
         urequires_dist = sorted(urequires_dist, key=requires_dist_sort_key)
 
-        requires_dist = []
+        requires_dist = {"specifiers": [], "dists": []}
         requires_extras = {}
         yanked = []
 
@@ -104,9 +116,12 @@ with open("packages.txt") as f:
                         "all",
                     ):
                         continue
-                    requires_extras.setdefault(extra, []).append(req)
+                    requires_extras.setdefault(extra, {"specifiers": [], "dists": []})
+                    requires_extras[extra]["specifiers"].append(req)
+                    requires_extras[extra]["dists"].append(dist_from_requires_dist(req))
             else:
-                requires_dist.append(req)
+                requires_dist["specifiers"].append(req)
+                requires_dist["dists"].append(dist_from_requires_dist(req))
 
         requires_python = resp["info"]["requires_python"] or ""
 
@@ -118,7 +133,9 @@ with open("packages.txt") as f:
         yanked = sorted_versions(set(yanked))
 
         os.makedirs(os.path.join(package_data_dir, package[0]), exist_ok=True)
-        with open(os.path.join(package_data_dir, package[0], f"{package}.json"), "w") as f:
+        with open(
+            os.path.join(package_data_dir, package[0], f"{package}.json"), "w"
+        ) as f:
             f.truncate()
             f.write(
                 json.dumps(

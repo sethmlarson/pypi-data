@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "psutil",
-    "redis",
-    "setuptools (>38.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "psutil",
+      "redis",
+      "setuptools"
+    ],
+    "specifiers": [
+      "psutil",
+      "redis",
+      "setuptools (>38.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=2.7.11",
   "yanked": []

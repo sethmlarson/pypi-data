@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "django (>=1.11)",
-    "django-ipware",
-    "structlog"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "django-ipware",
+      "structlog"
+    ],
+    "specifiers": [
+      "django (>=1.11)",
+      "django-ipware",
+      "structlog"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

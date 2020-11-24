@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "pathlib; python_version<'3.4'",
-    "PyJWT",
-    "python-dateutil",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pathlib",
+      "pyjwt",
+      "python-dateutil",
+      "requests"
+    ],
+    "specifiers": [
+      "pathlib; python_version<'3.4'",
+      "pyjwt",
+      "python-dateutil",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

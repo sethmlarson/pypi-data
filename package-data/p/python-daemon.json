@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "docutils",
-    "lockfile (>=0.10)",
-    "setuptools"
-  ],
+  "requires_dist": {
+    "dists": [
+      "docutils",
+      "lockfile",
+      "setuptools"
+    ],
+    "specifiers": [
+      "docutils",
+      "lockfile (>=0.10)",
+      "setuptools"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

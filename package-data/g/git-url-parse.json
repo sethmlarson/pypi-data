@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pbr"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pbr"
+    ],
+    "specifiers": [
+      "pbr"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "asgiref (<4,>=3.2.10)",
-    "autobahn (>=0.18)",
-    "twisted[tls] (>=18.7)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "asgiref",
+      "autobahn",
+      "twisted"
+    ],
+    "specifiers": [
+      "asgiref (<4,>=3.2.10)",
+      "autobahn (>=0.18)",
+      "twisted[tls] (>=18.7)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

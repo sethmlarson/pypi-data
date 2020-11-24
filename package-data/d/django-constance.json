@@ -1,12 +1,25 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "database": [
-      "django-picklefield; extra=='database'"
-    ],
-    "redis": [
-      "redis; extra=='redis'"
-    ]
+    "database": {
+      "dists": [
+        "django-picklefield"
+      ],
+      "specifiers": [
+        "django-picklefield; extra=='database'"
+      ]
+    },
+    "redis": {
+      "dists": [
+        "redis"
+      ],
+      "specifiers": [
+        "redis; extra=='redis'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

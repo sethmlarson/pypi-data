@@ -1,16 +1,31 @@
 {
-  "requires_dist": [
-    "python-dateutil",
-    "pytz",
-    "regex (!=2019.02.19)",
-    "tzlocal"
-  ],
-  "requires_extras": {
-    "calendars": [
-      "convertdate; (python_version<'3.6') and extra=='calendars'",
-      "convertdate; (python_version>='3.6') and extra=='calendars'",
-      "hijri-converter; (python_version>='3.6') and extra=='calendars'"
+  "requires_dist": {
+    "dists": [
+      "python-dateutil",
+      "pytz",
+      "regex",
+      "tzlocal"
+    ],
+    "specifiers": [
+      "python-dateutil",
+      "pytz",
+      "regex (!=2019.02.19)",
+      "tzlocal"
     ]
+  },
+  "requires_extras": {
+    "calendars": {
+      "dists": [
+        "convertdate",
+        "convertdate",
+        "hijri-converter"
+      ],
+      "specifiers": [
+        "convertdate; (python_version<'3.6') and extra=='calendars'",
+        "convertdate; (python_version>='3.6') and extra=='calendars'",
+        "hijri-converter; (python_version>='3.6') and extra=='calendars'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

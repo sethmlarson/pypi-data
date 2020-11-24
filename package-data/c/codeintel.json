@@ -1,15 +1,28 @@
 {
-  "requires_dist": [
-    "3to2",
-    "applib",
-    "chardet",
-    "clang",
-    "cmdln",
-    "esprima",
-    "inflector",
-    "six",
-    "zope.cachedescriptors"
-  ],
+  "requires_dist": {
+    "dists": [
+      "3to2",
+      "applib",
+      "chardet",
+      "clang",
+      "cmdln",
+      "esprima",
+      "inflector",
+      "six",
+      "zope.cachedescriptors"
+    ],
+    "specifiers": [
+      "3to2",
+      "applib",
+      "chardet",
+      "clang",
+      "cmdln",
+      "esprima",
+      "inflector",
+      "six",
+      "zope.cachedescriptors"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

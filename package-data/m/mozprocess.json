@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "mozinfo"
-  ],
+  "requires_dist": {
+    "dists": [
+      "mozinfo"
+    ],
+    "specifiers": [
+      "mozinfo"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

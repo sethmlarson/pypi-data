@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "colorama",
-    "configobj",
-    "packaging",
-    "pykwalify",
-    "PyYAML (>=5.1)",
-    "setuptools"
-  ],
+  "requires_dist": {
+    "dists": [
+      "colorama",
+      "configobj",
+      "packaging",
+      "pykwalify",
+      "pyyaml",
+      "setuptools"
+    ],
+    "specifiers": [
+      "colorama",
+      "configobj",
+      "packaging",
+      "pykwalify",
+      "pyyaml (>=5.1)",
+      "setuptools"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

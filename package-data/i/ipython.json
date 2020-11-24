@@ -1,37 +1,83 @@
 {
-  "requires_dist": [
-    "appnope; sys_platform=='darwin'",
-    "backcall",
-    "colorama; sys_platform=='win32'",
-    "decorator",
-    "jedi (>=0.10)",
-    "pexpect (>4.3); sys_platform !='win32'",
-    "pickleshare",
-    "prompt-toolkit (!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0)",
-    "pygments",
-    "setuptools (>=18.5)",
-    "traitlets (>=4.2)"
-  ],
-  "requires_extras": {
-    "kernel": [
-      "ipykernel; extra=='kernel'"
+  "requires_dist": {
+    "dists": [
+      "appnope",
+      "backcall",
+      "colorama",
+      "decorator",
+      "jedi",
+      "pexpect",
+      "pickleshare",
+      "prompt-toolkit",
+      "pygments",
+      "setuptools",
+      "traitlets"
     ],
-    "nbconvert": [
-      "nbconvert; extra=='nbconvert'"
-    ],
-    "nbformat": [
-      "nbformat; extra=='nbformat'"
-    ],
-    "notebook": [
-      "ipywidgets; extra=='notebook'",
-      "notebook; extra=='notebook'"
-    ],
-    "parallel": [
-      "ipyparallel; extra=='parallel'"
-    ],
-    "qtconsole": [
-      "qtconsole; extra=='qtconsole'"
+    "specifiers": [
+      "appnope; sys_platform=='darwin'",
+      "backcall",
+      "colorama; sys_platform=='win32'",
+      "decorator",
+      "jedi (>=0.10)",
+      "pexpect (>4.3); sys_platform !='win32'",
+      "pickleshare",
+      "prompt-toolkit (!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0)",
+      "pygments",
+      "setuptools (>=18.5)",
+      "traitlets (>=4.2)"
     ]
+  },
+  "requires_extras": {
+    "kernel": {
+      "dists": [
+        "ipykernel"
+      ],
+      "specifiers": [
+        "ipykernel; extra=='kernel'"
+      ]
+    },
+    "nbconvert": {
+      "dists": [
+        "nbconvert"
+      ],
+      "specifiers": [
+        "nbconvert; extra=='nbconvert'"
+      ]
+    },
+    "nbformat": {
+      "dists": [
+        "nbformat"
+      ],
+      "specifiers": [
+        "nbformat; extra=='nbformat'"
+      ]
+    },
+    "notebook": {
+      "dists": [
+        "ipywidgets",
+        "notebook"
+      ],
+      "specifiers": [
+        "ipywidgets; extra=='notebook'",
+        "notebook; extra=='notebook'"
+      ]
+    },
+    "parallel": {
+      "dists": [
+        "ipyparallel"
+      ],
+      "specifiers": [
+        "ipyparallel; extra=='parallel'"
+      ]
+    },
+    "qtconsole": {
+      "dists": [
+        "qtconsole"
+      ],
+      "specifiers": [
+        "qtconsole; extra=='qtconsole'"
+      ]
+    }
   },
   "requires_python": ">=3.7",
   "yanked": [

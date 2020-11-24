@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "docopt (==0.4.0)",
-    "requests (>=0.13.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "docopt",
+      "requests"
+    ],
+    "specifiers": [
+      "docopt (==0.4.0)",
+      "requests (>=0.13.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

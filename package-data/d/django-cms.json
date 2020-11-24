@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "Django (>=2.2)",
-    "django-classy-tags (>=0.7.2)",
-    "django-formtools (>=2.1)",
-    "django-sekizai (>=0.7)",
-    "django-treebeard (>=4.3)",
-    "djangocms-admin-style (>=1.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "django-classy-tags",
+      "django-formtools",
+      "django-sekizai",
+      "django-treebeard",
+      "djangocms-admin-style"
+    ],
+    "specifiers": [
+      "django (>=2.2)",
+      "django-classy-tags (>=0.7.2)",
+      "django-formtools (>=2.1)",
+      "django-sekizai (>=0.7)",
+      "django-treebeard (>=4.3)",
+      "djangocms-admin-style (>=1.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

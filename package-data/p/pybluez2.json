@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "pyobjc-core (>=6)",
-    "pyobjc-framework-Cocoa (>=6)"
-  ],
-  "requires_extras": {
-    "ble": [
-      "gattlib; extra=='ble'"
+  "requires_dist": {
+    "dists": [
+      "pyobjc-core",
+      "pyobjc-framework-cocoa"
+    ],
+    "specifiers": [
+      "pyobjc-core (>=6)",
+      "pyobjc-framework-cocoa (>=6)"
     ]
+  },
+  "requires_extras": {
+    "ble": {
+      "dists": [
+        "gattlib"
+      ],
+      "specifiers": [
+        "gattlib; extra=='ble'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "django-debug-toolbar (>=2.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django-debug-toolbar"
+    ],
+    "specifiers": [
+      "django-debug-toolbar (>=2.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

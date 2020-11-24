@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "appdirs",
-    "filelock",
-    "idna",
-    "uritools"
-  ],
+  "requires_dist": {
+    "dists": [
+      "appdirs",
+      "filelock",
+      "idna",
+      "uritools"
+    ],
+    "specifiers": [
+      "appdirs",
+      "filelock",
+      "idna",
+      "uritools"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,25 +1,51 @@
 {
-  "requires_dist": [
-    "dataclasses; python_version<'3.7'",
-    "numpy (>=1.11.3)",
-    "scipy (>=0.18.1)",
-    "smart-open (>=1.8.1)"
-  ],
-  "requires_extras": {
-    "distributed": [
-      "Pyro4 (>=4.27); extra=='distributed'"
+  "requires_dist": {
+    "dists": [
+      "dataclasses",
+      "numpy",
+      "scipy",
+      "smart-open"
     ],
-    "test-win": [
-      "cython; extra=='test-win'",
-      "mock; extra=='test-win'",
-      "Morfessor (==2.0.2a4); extra=='test-win'",
-      "nmslib; extra=='test-win'",
-      "pyemd; extra=='test-win'",
-      "pytest; extra=='test-win'",
-      "python-Levenshtein (>=0.10.2); extra=='test-win'",
-      "scikit-learn; extra=='test-win'",
-      "testfixtures; extra=='test-win'"
+    "specifiers": [
+      "dataclasses; python_version<'3.7'",
+      "numpy (>=1.11.3)",
+      "scipy (>=0.18.1)",
+      "smart-open (>=1.8.1)"
     ]
+  },
+  "requires_extras": {
+    "distributed": {
+      "dists": [
+        "pyro4"
+      ],
+      "specifiers": [
+        "pyro4 (>=4.27); extra=='distributed'"
+      ]
+    },
+    "test-win": {
+      "dists": [
+        "cython",
+        "mock",
+        "morfessor",
+        "nmslib",
+        "pyemd",
+        "pytest",
+        "python-levenshtein",
+        "scikit-learn",
+        "testfixtures"
+      ],
+      "specifiers": [
+        "cython; extra=='test-win'",
+        "mock; extra=='test-win'",
+        "morfessor (==2.0.2a4); extra=='test-win'",
+        "nmslib; extra=='test-win'",
+        "pyemd; extra=='test-win'",
+        "pytest; extra=='test-win'",
+        "python-levenshtein (>=0.10.2); extra=='test-win'",
+        "scikit-learn; extra=='test-win'",
+        "testfixtures; extra=='test-win'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

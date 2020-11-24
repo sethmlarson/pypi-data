@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "numpy (>=1.7)"
-  ],
-  "requires_extras": {
-    "msgpack": [
-      "msgpack; extra=='msgpack'"
+  "requires_dist": {
+    "dists": [
+      "numpy"
+    ],
+    "specifiers": [
+      "numpy (>=1.7)"
     ]
+  },
+  "requires_extras": {
+    "msgpack": {
+      "dists": [
+        "msgpack"
+      ],
+      "specifiers": [
+        "msgpack; extra=='msgpack'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": [

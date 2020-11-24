@@ -1,25 +1,57 @@
 {
-  "requires_dist": [
-    "numpy (>=1.14)",
-    "packaging (>=14.3)"
-  ],
-  "requires_extras": {
-    "dicom": [
-      "pydicom (>=0.9.9); extra=='dicom'"
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "packaging"
     ],
-    "dicomfs": [
-      "pillow; extra=='dicomfs'",
-      "pydicom (>=0.9.9); extra=='dicomfs'"
-    ],
-    "minc2": [
-      "h5py; extra=='minc2'"
-    ],
-    "spm": [
-      "scipy; extra=='spm'"
-    ],
-    "style": [
-      "flake8; extra=='style'"
+    "specifiers": [
+      "numpy (>=1.14)",
+      "packaging (>=14.3)"
     ]
+  },
+  "requires_extras": {
+    "dicom": {
+      "dists": [
+        "pydicom"
+      ],
+      "specifiers": [
+        "pydicom (>=0.9.9); extra=='dicom'"
+      ]
+    },
+    "dicomfs": {
+      "dists": [
+        "pillow",
+        "pydicom"
+      ],
+      "specifiers": [
+        "pillow; extra=='dicomfs'",
+        "pydicom (>=0.9.9); extra=='dicomfs'"
+      ]
+    },
+    "minc2": {
+      "dists": [
+        "h5py"
+      ],
+      "specifiers": [
+        "h5py; extra=='minc2'"
+      ]
+    },
+    "spm": {
+      "dists": [
+        "scipy"
+      ],
+      "specifiers": [
+        "scipy; extra=='spm'"
+      ]
+    },
+    "style": {
+      "dists": [
+        "flake8"
+      ],
+      "specifiers": [
+        "flake8; extra=='style'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

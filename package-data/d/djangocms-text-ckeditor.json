@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "django-cms (>=3.6)",
-    "html5lib (>=1)",
-    "Pillow"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django-cms",
+      "html5lib",
+      "pillow"
+    ],
+    "specifiers": [
+      "django-cms (>=3.6)",
+      "html5lib (>=1)",
+      "pillow"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

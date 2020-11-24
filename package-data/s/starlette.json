@@ -1,15 +1,29 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "full": [
-      "aiofiles; extra=='full'",
-      "graphene; extra=='full'",
-      "itsdangerous; extra=='full'",
-      "jinja2; extra=='full'",
-      "python-multipart; extra=='full'",
-      "pyyaml; extra=='full'",
-      "requests; extra=='full'"
-    ]
+    "full": {
+      "dists": [
+        "aiofiles",
+        "graphene",
+        "itsdangerous",
+        "jinja2",
+        "python-multipart",
+        "pyyaml",
+        "requests"
+      ],
+      "specifiers": [
+        "aiofiles; extra=='full'",
+        "graphene; extra=='full'",
+        "itsdangerous; extra=='full'",
+        "jinja2; extra=='full'",
+        "python-multipart; extra=='full'",
+        "pyyaml; extra=='full'",
+        "requests; extra=='full'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

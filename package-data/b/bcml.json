@@ -1,18 +1,34 @@
 {
-  "requires_dist": [
-    "aamp (>=1.4.1)",
-    "botw-havok (~=0.3.17)",
-    "botw-utils (==0.2.3)",
-    "byml (>=2.3.1)",
-    "cefpython3 (~=66.0)",
-    "numpy (==1.19.2)",
-    "oead (>=1.1.4)",
-    "pythonnet (>=2.5.0rc2); platform_system=='Windows'",
-    "PyYAML (~=5.3.1)",
-    "requests (~=2.23.0)",
-    "rstb (>=1.2.0)",
-    "xxhash (~=1.4.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aamp",
+      "botw-havok",
+      "botw-utils",
+      "byml",
+      "cefpython3",
+      "numpy",
+      "oead",
+      "pythonnet",
+      "pyyaml",
+      "requests",
+      "rstb",
+      "xxhash"
+    ],
+    "specifiers": [
+      "aamp (>=1.4.1)",
+      "botw-havok (~=0.3.17)",
+      "botw-utils (==0.2.3)",
+      "byml (>=2.3.1)",
+      "cefpython3 (~=66.0)",
+      "numpy (==1.19.2)",
+      "oead (>=1.1.4)",
+      "pythonnet (>=2.5.0rc2); platform_system=='windows'",
+      "pyyaml (~=5.3.1)",
+      "requests (~=2.23.0)",
+      "rstb (>=1.2.0)",
+      "xxhash (~=1.4.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.7",
   "yanked": []

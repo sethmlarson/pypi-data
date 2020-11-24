@@ -1,14 +1,29 @@
 {
-  "requires_dist": [
-    "quantile-python (>=1.1)"
-  ],
-  "requires_extras": {
-    "aiohttp": [
-      "aiohttp (>=3.3.2); extra=='aiohttp'"
+  "requires_dist": {
+    "dists": [
+      "quantile-python"
     ],
-    "binary": [
-      "prometheus-metrics-proto (>=18.1.1); extra=='binary'"
+    "specifiers": [
+      "quantile-python (>=1.1)"
     ]
+  },
+  "requires_extras": {
+    "aiohttp": {
+      "dists": [
+        "aiohttp"
+      ],
+      "specifiers": [
+        "aiohttp (>=3.3.2); extra=='aiohttp'"
+      ]
+    },
+    "binary": {
+      "dists": [
+        "prometheus-metrics-proto"
+      ],
+      "specifiers": [
+        "prometheus-metrics-proto (>=18.1.1); extra=='binary'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,54 +1,127 @@
 {
-  "requires_dist": [
-    "elasticsearch (<7.0,>=6.2.0)",
-    "Jinja2 (<2.12,>=2.10.0)",
-    "neo4j-driver (<4.0,>=1.7.2)",
-    "pandas (<1.2.0,>=0.21.0)",
-    "pyhocon (>=0.3.42)",
-    "pytz (>=2018.4)",
-    "requests (<3.0,>=2.23.0)",
-    "retrying (>=1.3.3)",
-    "statsd (>=3.2.1)",
-    "typing (>=3.6); python_version=='2.7'",
-    "unidecode"
-  ],
-  "requires_extras": {
-    "athena": [
-      "PyAthena[sqlalchemy] (>=1.0.0); extra=='athena'"
+  "requires_dist": {
+    "dists": [
+      "elasticsearch",
+      "jinja2",
+      "neo4j-driver",
+      "pandas",
+      "pyhocon",
+      "pytz",
+      "requests",
+      "retrying",
+      "statsd",
+      "typing",
+      "unidecode"
     ],
-    "bigquery": [
-      "google-api-python-client (<2.0.0dev,>=1.6.0); extra=='bigquery'",
-      "google-auth-httplib2 (<2.0.0dev,>=0.0.1google-auth>=1.0.0); extra=='bigquery'"
-    ],
-    "cassandra": [
-      "cassandra-driver (==3.20.1); extra=='cassandra'"
-    ],
-    "db2": [
-      "ibm-db (==3.0.1); extra=='db2'",
-      "ibm-db-sa-py3 (==0.3.1-1); extra=='db2'"
-    ],
-    "delta-lake": [
-      "pyspark (==3.0.1); extra=='delta-lake'"
-    ],
-    "dremio": [
-      "pyodbc (==4.0.30); extra=='dremio'"
-    ],
-    "druid": [
-      "pydruid; extra=='druid'"
-    ],
-    "glue": [
-      "boto3 (==1.10.1); extra=='glue'"
-    ],
-    "jsonpath": [
-      "jsonpath-rw (==1.4.0); extra=='jsonpath'"
-    ],
-    "kafka": [
-      "confluent-kafka (==1.0.0); extra=='kafka'"
-    ],
-    "snowflake": [
-      "snowflake-connector-python; extra=='snowflake'",
-      "snowflake-sqlalchemy; extra=='snowflake'"
+    "specifiers": [
+      "elasticsearch (<7.0,>=6.2.0)",
+      "jinja2 (<2.12,>=2.10.0)",
+      "neo4j-driver (<4.0,>=1.7.2)",
+      "pandas (<1.2.0,>=0.21.0)",
+      "pyhocon (>=0.3.42)",
+      "pytz (>=2018.4)",
+      "requests (<3.0,>=2.23.0)",
+      "retrying (>=1.3.3)",
+      "statsd (>=3.2.1)",
+      "typing (>=3.6); python_version=='2.7'",
+      "unidecode"
     ]
+  },
+  "requires_extras": {
+    "athena": {
+      "dists": [
+        "pyathena"
+      ],
+      "specifiers": [
+        "pyathena[sqlalchemy] (>=1.0.0); extra=='athena'"
+      ]
+    },
+    "bigquery": {
+      "dists": [
+        "google-api-python-client",
+        "google-auth-httplib2"
+      ],
+      "specifiers": [
+        "google-api-python-client (<2.0.0dev,>=1.6.0); extra=='bigquery'",
+        "google-auth-httplib2 (<2.0.0dev,>=0.0.1google-auth>=1.0.0); extra=='bigquery'"
+      ]
+    },
+    "cassandra": {
+      "dists": [
+        "cassandra-driver"
+      ],
+      "specifiers": [
+        "cassandra-driver (==3.20.1); extra=='cassandra'"
+      ]
+    },
+    "db2": {
+      "dists": [
+        "ibm-db",
+        "ibm-db-sa-py3"
+      ],
+      "specifiers": [
+        "ibm-db (==3.0.1); extra=='db2'",
+        "ibm-db-sa-py3 (==0.3.1-1); extra=='db2'"
+      ]
+    },
+    "delta-lake": {
+      "dists": [
+        "pyspark"
+      ],
+      "specifiers": [
+        "pyspark (==3.0.1); extra=='delta-lake'"
+      ]
+    },
+    "dremio": {
+      "dists": [
+        "pyodbc"
+      ],
+      "specifiers": [
+        "pyodbc (==4.0.30); extra=='dremio'"
+      ]
+    },
+    "druid": {
+      "dists": [
+        "pydruid"
+      ],
+      "specifiers": [
+        "pydruid; extra=='druid'"
+      ]
+    },
+    "glue": {
+      "dists": [
+        "boto3"
+      ],
+      "specifiers": [
+        "boto3 (==1.10.1); extra=='glue'"
+      ]
+    },
+    "jsonpath": {
+      "dists": [
+        "jsonpath-rw"
+      ],
+      "specifiers": [
+        "jsonpath-rw (==1.4.0); extra=='jsonpath'"
+      ]
+    },
+    "kafka": {
+      "dists": [
+        "confluent-kafka"
+      ],
+      "specifiers": [
+        "confluent-kafka (==1.0.0); extra=='kafka'"
+      ]
+    },
+    "snowflake": {
+      "dists": [
+        "snowflake-connector-python",
+        "snowflake-sqlalchemy"
+      ],
+      "specifiers": [
+        "snowflake-connector-python; extra=='snowflake'",
+        "snowflake-sqlalchemy; extra=='snowflake'"
+      ]
+    }
   },
   "requires_python": ">=3.6,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*",
   "yanked": []

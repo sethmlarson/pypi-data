@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "torch (<2,>=1.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "torch"
+    ],
+    "specifiers": [
+      "torch (<2,>=1.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

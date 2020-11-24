@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "numpy",
-    "torch (>=1.6.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "torch"
+    ],
+    "specifiers": [
+      "numpy",
+      "torch (>=1.6.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

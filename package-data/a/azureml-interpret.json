@@ -1,17 +1,37 @@
 {
-  "requires_dist": [
-    "interpret-community (==0.15.*)"
-  ],
-  "requires_extras": {
-    "deep": [
-      "interpret-community[deep]; extra=='deep'"
+  "requires_dist": {
+    "dists": [
+      "interpret-community"
     ],
-    "mimic": [
-      "interpret-community[mimic]; extra=='mimic'"
-    ],
-    "sample": [
-      "interpret-community[sample]; extra=='sample'"
+    "specifiers": [
+      "interpret-community (==0.15.*)"
     ]
+  },
+  "requires_extras": {
+    "deep": {
+      "dists": [
+        "interpret-community"
+      ],
+      "specifiers": [
+        "interpret-community[deep]; extra=='deep'"
+      ]
+    },
+    "mimic": {
+      "dists": [
+        "interpret-community"
+      ],
+      "specifiers": [
+        "interpret-community[mimic]; extra=='mimic'"
+      ]
+    },
+    "sample": {
+      "dists": [
+        "interpret-community"
+      ],
+      "specifiers": [
+        "interpret-community[sample]; extra=='sample'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

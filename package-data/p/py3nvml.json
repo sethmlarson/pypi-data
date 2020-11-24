@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "xmltodict"
-  ],
+  "requires_dist": {
+    "dists": [
+      "xmltodict"
+    ],
+    "specifiers": [
+      "xmltodict"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

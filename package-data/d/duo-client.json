@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "six"
+    ],
+    "specifiers": [
+      "setuptools",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

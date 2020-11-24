@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "Faker (==0.9.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "faker"
+    ],
+    "specifiers": [
+      "faker (==0.9.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

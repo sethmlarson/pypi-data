@@ -1,18 +1,39 @@
 {
-  "requires_dist": [
-    "six (>=1.11.0)",
-    "subprocess32; python_version<'3'"
-  ],
-  "requires_extras": {
-    "colors": [
-      "colorama (>=0.3.9); extra=='colors'"
+  "requires_dist": {
+    "dists": [
+      "six",
+      "subprocess32"
     ],
-    "crypto": [
-      "cryptography (>=2.6); extra=='crypto'"
-    ],
-    "pynacl": [
-      "pynacl (>1.2.0); extra=='pynacl'"
+    "specifiers": [
+      "six (>=1.11.0)",
+      "subprocess32; python_version<'3'"
     ]
+  },
+  "requires_extras": {
+    "colors": {
+      "dists": [
+        "colorama"
+      ],
+      "specifiers": [
+        "colorama (>=0.3.9); extra=='colors'"
+      ]
+    },
+    "crypto": {
+      "dists": [
+        "cryptography"
+      ],
+      "specifiers": [
+        "cryptography (>=2.6); extra=='crypto'"
+      ]
+    },
+    "pynacl": {
+      "dists": [
+        "pynacl"
+      ],
+      "specifiers": [
+        "pynacl (>1.2.0); extra=='pynacl'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "attrs",
-    "eradicate (>=2.0,<3.0)",
-    "flake8 (>=3.5,<4.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "attrs",
+      "eradicate",
+      "flake8"
+    ],
+    "specifiers": [
+      "attrs",
+      "eradicate (>=2.0,<3.0)",
+      "flake8 (>=3.5,<4.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6,<4.0",
   "yanked": []

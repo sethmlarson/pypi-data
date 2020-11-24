@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "enum34 (>=1.0.4); python_version<'3.4'",
-    "futures (>=2.2.0); python_version<'3.2'",
-    "six (>=1.5.2)"
-  ],
-  "requires_extras": {
-    "protobuf": [
-      "grpcio-tools (>=1.34.0rc1); extra=='protobuf'"
+  "requires_dist": {
+    "dists": [
+      "enum34",
+      "futures",
+      "six"
+    ],
+    "specifiers": [
+      "enum34 (>=1.0.4); python_version<'3.4'",
+      "futures (>=2.2.0); python_version<'3.2'",
+      "six (>=1.5.2)"
     ]
+  },
+  "requires_extras": {
+    "protobuf": {
+      "dists": [
+        "grpcio-tools"
+      ],
+      "specifiers": [
+        "grpcio-tools (>=1.34.0rc1); extra=='protobuf'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

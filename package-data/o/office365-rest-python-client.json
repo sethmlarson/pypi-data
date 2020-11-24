@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "msal",
-    "requests"
-  ],
-  "requires_extras": {
-    "ntlmauthentication": [
-      "requests-ntlm; extra=='ntlmauthentication'"
+  "requires_dist": {
+    "dists": [
+      "msal",
+      "requests"
+    ],
+    "specifiers": [
+      "msal",
+      "requests"
     ]
+  },
+  "requires_extras": {
+    "ntlmauthentication": {
+      "dists": [
+        "requests-ntlm"
+      ],
+      "specifiers": [
+        "requests-ntlm; extra=='ntlmauthentication'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

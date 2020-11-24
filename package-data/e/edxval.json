@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "boto",
-    "Django (>=1.11)",
-    "django-fernet-fields",
-    "django-model-utils",
-    "django-storages",
-    "edx-drf-extensions",
-    "lxml",
-    "pysrt"
-  ],
+  "requires_dist": {
+    "dists": [
+      "boto",
+      "django",
+      "django-fernet-fields",
+      "django-model-utils",
+      "django-storages",
+      "edx-drf-extensions",
+      "lxml",
+      "pysrt"
+    ],
+    "specifiers": [
+      "boto",
+      "django (>=1.11)",
+      "django-fernet-fields",
+      "django-model-utils",
+      "django-storages",
+      "edx-drf-extensions",
+      "lxml",
+      "pysrt"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pygments (<3,>=2.4.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pygments"
+    ],
+    "specifiers": [
+      "pygments (<3,>=2.4.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

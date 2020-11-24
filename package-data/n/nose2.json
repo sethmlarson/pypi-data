@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "coverage (>=4.4.1)",
-    "mock (==2.0.0); python_version<'3.6'",
-    "six (>=1.7)"
-  ],
-  "requires_extras": {
-    "coverage_plugin": [
-      "coverage (>=4.4.1); extra=='coverage_plugin'"
+  "requires_dist": {
+    "dists": [
+      "coverage",
+      "mock",
+      "six"
+    ],
+    "specifiers": [
+      "coverage (>=4.4.1)",
+      "mock (==2.0.0); python_version<'3.6'",
+      "six (>=1.7)"
     ]
+  },
+  "requires_extras": {
+    "coverage_plugin": {
+      "dists": [
+        "coverage"
+      ],
+      "specifiers": [
+        "coverage (>=4.4.1); extra=='coverage_plugin'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

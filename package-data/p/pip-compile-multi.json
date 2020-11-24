@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "click",
-    "pip-tools",
-    "toposort"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click",
+      "pip-tools",
+      "toposort"
+    ],
+    "specifiers": [
+      "click",
+      "pip-tools",
+      "toposort"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "~=3.6",
   "yanked": []

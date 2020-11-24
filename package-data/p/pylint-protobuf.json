@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "astroid",
-    "pylint"
-  ],
+  "requires_dist": {
+    "dists": [
+      "astroid",
+      "pylint"
+    ],
+    "specifiers": [
+      "astroid",
+      "pylint"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

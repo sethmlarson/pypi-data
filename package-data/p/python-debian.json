@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "chardet",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "chardet",
+      "six"
+    ],
+    "specifiers": [
+      "chardet",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

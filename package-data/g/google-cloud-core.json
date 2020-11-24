@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "google-api-core (<2.0.0dev,>=1.19.0)"
-  ],
-  "requires_extras": {
-    "grpc": [
-      "grpcio (<2.0dev,>=1.8.2); extra=='grpc'"
+  "requires_dist": {
+    "dists": [
+      "google-api-core"
+    ],
+    "specifiers": [
+      "google-api-core (<2.0.0dev,>=1.19.0)"
     ]
+  },
+  "requires_extras": {
+    "grpc": {
+      "dists": [
+        "grpcio"
+      ],
+      "specifiers": [
+        "grpcio (<2.0dev,>=1.8.2); extra=='grpc'"
+      ]
+    }
   },
   "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "zipp (>=0.5)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "zipp"
+    ],
+    "specifiers": [
+      "zipp (>=0.5)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

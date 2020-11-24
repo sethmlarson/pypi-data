@@ -1,27 +1,61 @@
 {
-  "requires_dist": [
-    "Django (>=2.2)",
-    "django-formtools",
-    "django-otp (>=0.8.0)",
-    "django-phonenumber-field (<3.99,>=1.1.0)",
-    "qrcode (<6.99,>=4.0.0)"
-  ],
-  "requires_extras": {
-    "call": [
-      "twilio (>=6.0); extra=='call'"
+  "requires_dist": {
+    "dists": [
+      "django",
+      "django-formtools",
+      "django-otp",
+      "django-phonenumber-field",
+      "qrcode"
     ],
-    "phonenumbers": [
-      "phonenumbers (<8.99,>=7.0.9); extra=='phonenumbers'"
-    ],
-    "phonenumberslite": [
-      "phonenumberslite (<8.99,>=7.0.9); extra=='phonenumberslite'"
-    ],
-    "sms": [
-      "twilio (>=6.0); extra=='sms'"
-    ],
-    "yubikey": [
-      "django-otp-yubikey; extra=='yubikey'"
+    "specifiers": [
+      "django (>=2.2)",
+      "django-formtools",
+      "django-otp (>=0.8.0)",
+      "django-phonenumber-field (<3.99,>=1.1.0)",
+      "qrcode (<6.99,>=4.0.0)"
     ]
+  },
+  "requires_extras": {
+    "call": {
+      "dists": [
+        "twilio"
+      ],
+      "specifiers": [
+        "twilio (>=6.0); extra=='call'"
+      ]
+    },
+    "phonenumbers": {
+      "dists": [
+        "phonenumbers"
+      ],
+      "specifiers": [
+        "phonenumbers (<8.99,>=7.0.9); extra=='phonenumbers'"
+      ]
+    },
+    "phonenumberslite": {
+      "dists": [
+        "phonenumberslite"
+      ],
+      "specifiers": [
+        "phonenumberslite (<8.99,>=7.0.9); extra=='phonenumberslite'"
+      ]
+    },
+    "sms": {
+      "dists": [
+        "twilio"
+      ],
+      "specifiers": [
+        "twilio (>=6.0); extra=='sms'"
+      ]
+    },
+    "yubikey": {
+      "dists": [
+        "django-otp-yubikey"
+      ],
+      "specifiers": [
+        "django-otp-yubikey; extra=='yubikey'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

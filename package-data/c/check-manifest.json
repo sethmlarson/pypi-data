@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "build (>=0.1)",
-    "setuptools",
-    "toml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "build",
+      "setuptools",
+      "toml"
+    ],
+    "specifiers": [
+      "build (>=0.1)",
+      "setuptools",
+      "toml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,15 +1,31 @@
 {
-  "requires_dist": [
-    "tensorflow-hub (>=0.2)",
-    "tensorflow-probability (>=0.7)"
-  ],
-  "requires_extras": {
-    "tensorflow-datasets": [
-      "tensorflow-datasets (>=0.5.0); extra=='tensorflow-datasets'"
+  "requires_dist": {
+    "dists": [
+      "tensorflow-hub",
+      "tensorflow-probability"
     ],
-    "tf": [
-      "tensorflow (>=1.12); extra=='tf'"
+    "specifiers": [
+      "tensorflow-hub (>=0.2)",
+      "tensorflow-probability (>=0.7)"
     ]
+  },
+  "requires_extras": {
+    "tensorflow-datasets": {
+      "dists": [
+        "tensorflow-datasets"
+      ],
+      "specifiers": [
+        "tensorflow-datasets (>=0.5.0); extra=='tensorflow-datasets'"
+      ]
+    },
+    "tf": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (>=1.12); extra=='tf'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

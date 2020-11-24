@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "WebOb",
-    "zope.interface"
-  ],
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "webob",
+      "zope.interface"
+    ],
+    "specifiers": [
+      "setuptools",
+      "webob",
+      "zope.interface"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

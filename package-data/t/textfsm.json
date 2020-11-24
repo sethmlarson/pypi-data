@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "future",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "future",
+      "six"
+    ],
+    "specifiers": [
+      "future",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

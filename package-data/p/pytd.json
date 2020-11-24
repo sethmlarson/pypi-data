@@ -1,17 +1,33 @@
 {
-  "requires_dist": [
-    "pandas (>=0.24.0)",
-    "presto-python-client (>=0.6.0)",
-    "pytz (>=2018.5)",
-    "td-client (>=1.1.0)",
-    "urllib3 (<1.25,>=1.21.1)"
-  ],
-  "requires_extras": {
-    "spark": [
-      "pyarrow (>=0.11.0); extra=='spark'",
-      "pyspark (>=2.4.0); extra=='spark'",
-      "td-pyspark (>=19.9.0); extra=='spark'"
+  "requires_dist": {
+    "dists": [
+      "pandas",
+      "presto-python-client",
+      "pytz",
+      "td-client",
+      "urllib3"
+    ],
+    "specifiers": [
+      "pandas (>=0.24.0)",
+      "presto-python-client (>=0.6.0)",
+      "pytz (>=2018.5)",
+      "td-client (>=1.1.0)",
+      "urllib3 (<1.25,>=1.21.1)"
     ]
+  },
+  "requires_extras": {
+    "spark": {
+      "dists": [
+        "pyarrow",
+        "pyspark",
+        "td-pyspark"
+      ],
+      "specifiers": [
+        "pyarrow (>=0.11.0); extra=='spark'",
+        "pyspark (>=2.4.0); extra=='spark'",
+        "td-pyspark (>=19.9.0); extra=='spark'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

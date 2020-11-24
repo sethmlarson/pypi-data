@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "future",
-    "psutil (>=5.2.2)",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "future",
+      "psutil",
+      "six"
+    ],
+    "specifiers": [
+      "future",
+      "psutil (>=5.2.2)",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

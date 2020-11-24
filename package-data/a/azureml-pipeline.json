@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "azureml-pipeline-core (~=1.18.0)",
-    "azureml-pipeline-steps (~=1.18.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "azureml-pipeline-core",
+      "azureml-pipeline-steps"
+    ],
+    "specifiers": [
+      "azureml-pipeline-core (~=1.18.0)",
+      "azureml-pipeline-steps (~=1.18.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

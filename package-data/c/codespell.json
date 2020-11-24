@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "hard-encoding-detection": [
-      "chardet; extra=='hard-encoding-detection'"
-    ]
+    "hard-encoding-detection": {
+      "dists": [
+        "chardet"
+      ],
+      "specifiers": [
+        "chardet; extra=='hard-encoding-detection'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

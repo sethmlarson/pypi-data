@@ -1,19 +1,36 @@
 {
-  "requires_dist": [
-    "absl-py (>=0.9.0)",
-    "flax (>=0.2.0)",
-    "gin-config (>=0.3.0)",
-    "gym[atari] (>=0.13.1)",
-    "jax (>=0.1.72)",
-    "jaxlib (>=0.1.51)",
-    "numpy (>=1.16.4)",
-    "opencv-python (>=3.4.8.29)",
-    "pandas (>=0.24.2)",
-    "Pillow (>=7.0.0)",
-    "pygame (>=1.9.2)",
-    "tensorflow (>=2.2.0)",
-    "tf-slim (>=1.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "absl-py",
+      "flax",
+      "gin-config",
+      "gym",
+      "jax",
+      "jaxlib",
+      "numpy",
+      "opencv-python",
+      "pandas",
+      "pillow",
+      "pygame",
+      "tensorflow",
+      "tf-slim"
+    ],
+    "specifiers": [
+      "absl-py (>=0.9.0)",
+      "flax (>=0.2.0)",
+      "gin-config (>=0.3.0)",
+      "gym[atari] (>=0.13.1)",
+      "jax (>=0.1.72)",
+      "jaxlib (>=0.1.51)",
+      "numpy (>=1.16.4)",
+      "opencv-python (>=3.4.8.29)",
+      "pandas (>=0.24.2)",
+      "pillow (>=7.0.0)",
+      "pygame (>=1.9.2)",
+      "tensorflow (>=2.2.0)",
+      "tf-slim (>=1.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

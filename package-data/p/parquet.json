@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "backports.csv; python_version=='2.7'",
-    "thriftpy2"
-  ],
-  "requires_extras": {
-    "snappy": [
-      "python-snappy; extra=='snappy'"
+  "requires_dist": {
+    "dists": [
+      "backports.csv",
+      "thriftpy2"
+    ],
+    "specifiers": [
+      "backports.csv; python_version=='2.7'",
+      "thriftpy2"
     ]
+  },
+  "requires_extras": {
+    "snappy": {
+      "dists": [
+        "python-snappy"
+      ],
+      "specifiers": [
+        "python-snappy; extra=='snappy'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

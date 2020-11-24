@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "numpy",
-    "requests",
-    "torch",
-    "tqdm"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "requests",
+      "torch",
+      "tqdm"
+    ],
+    "specifiers": [
+      "numpy",
+      "requests",
+      "torch",
+      "tqdm"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

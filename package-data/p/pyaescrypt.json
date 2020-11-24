@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "cryptography"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cryptography"
+    ],
+    "specifiers": [
+      "cryptography"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

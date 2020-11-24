@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "accumulation-tree",
-    "pyudorandom"
-  ],
+  "requires_dist": {
+    "dists": [
+      "accumulation-tree",
+      "pyudorandom"
+    ],
+    "specifiers": [
+      "accumulation-tree",
+      "pyudorandom"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

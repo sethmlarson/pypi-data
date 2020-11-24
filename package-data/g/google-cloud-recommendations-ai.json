@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "google-api-core (<2.0.0dev,>=1.8.0)",
-    "googleapis-common-protos (>=1.5.8)",
-    "grpcio (>=1.10.0)",
-    "proto-plus (>=0.4.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "google-api-core",
+      "googleapis-common-protos",
+      "grpcio",
+      "proto-plus"
+    ],
+    "specifiers": [
+      "google-api-core (<2.0.0dev,>=1.8.0)",
+      "googleapis-common-protos (>=1.5.8)",
+      "grpcio (>=1.10.0)",
+      "proto-plus (>=0.4.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

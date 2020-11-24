@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "attrs",
-    "flake8 (>=3.2.1)",
-    "pyflakes (>=2.1.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "attrs",
+      "flake8",
+      "pyflakes"
+    ],
+    "specifiers": [
+      "attrs",
+      "flake8 (>=3.2.1)",
+      "pyflakes (>=2.1.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

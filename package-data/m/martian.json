@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "six",
-    "zope.interface"
-  ],
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "six",
+      "zope.interface"
+    ],
+    "specifiers": [
+      "setuptools",
+      "six",
+      "zope.interface"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

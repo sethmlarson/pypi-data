@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "attrs",
-    "constantly",
-    "incremental",
-    "lxml",
-    "pyrsistent",
-    "python-dateutil",
-    "twisted[tls] (>=15.5.0)",
-    "venusian"
-  ],
+  "requires_dist": {
+    "dists": [
+      "attrs",
+      "constantly",
+      "incremental",
+      "lxml",
+      "pyrsistent",
+      "python-dateutil",
+      "twisted",
+      "venusian"
+    ],
+    "specifiers": [
+      "attrs",
+      "constantly",
+      "incremental",
+      "lxml",
+      "pyrsistent",
+      "python-dateutil",
+      "twisted[tls] (>=15.5.0)",
+      "venusian"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

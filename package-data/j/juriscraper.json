@@ -1,20 +1,38 @@
 {
-  "requires_dist": [
-    "argparse",
-    "cchardet (>=1.1.2)",
-    "certifi (>=2017.4.17)",
-    "chardet (<3.1.0,>=3.0.2)",
-    "cssselect",
-    "feedparser (==5.2.1)",
-    "geonamescache (==0.20)",
-    "html5lib",
-    "lxml (~=4.0)",
-    "python-dateutil (==2.8.1)",
-    "requests (>=2.20.0)",
-    "selenium (==4.0.0-alpha-6)",
-    "six",
-    "tldextract"
-  ],
+  "requires_dist": {
+    "dists": [
+      "argparse",
+      "cchardet",
+      "certifi",
+      "chardet",
+      "cssselect",
+      "feedparser",
+      "geonamescache",
+      "html5lib",
+      "lxml",
+      "python-dateutil",
+      "requests",
+      "selenium",
+      "six",
+      "tldextract"
+    ],
+    "specifiers": [
+      "argparse",
+      "cchardet (>=1.1.2)",
+      "certifi (>=2017.4.17)",
+      "chardet (<3.1.0,>=3.0.2)",
+      "cssselect",
+      "feedparser (==5.2.1)",
+      "geonamescache (==0.20)",
+      "html5lib",
+      "lxml (~=4.0)",
+      "python-dateutil (==2.8.1)",
+      "requests (>=2.20.0)",
+      "selenium (==4.0.0-alpha-6)",
+      "six",
+      "tldextract"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "numexpr (>=2.6.2)",
-    "numpy (>=1.9.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numexpr",
+      "numpy"
+    ],
+    "specifiers": [
+      "numexpr (>=2.6.2)",
+      "numpy (>=1.9.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

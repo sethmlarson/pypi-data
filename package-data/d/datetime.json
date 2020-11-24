@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pytz",
-    "zope.interface"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pytz",
+      "zope.interface"
+    ],
+    "specifiers": [
+      "pytz",
+      "zope.interface"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "attrs",
-    "findspark",
-    "pyspark",
-    "shapely"
-  ],
+  "requires_dist": {
+    "dists": [
+      "attrs",
+      "findspark",
+      "pyspark",
+      "shapely"
+    ],
+    "specifiers": [
+      "attrs",
+      "findspark",
+      "pyspark",
+      "shapely"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

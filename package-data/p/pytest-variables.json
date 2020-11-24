@@ -1,17 +1,37 @@
 {
-  "requires_dist": [
-    "pytest (>=2.4.2)"
-  ],
-  "requires_extras": {
-    "hjson": [
-      "hjson; extra=='hjson'"
+  "requires_dist": {
+    "dists": [
+      "pytest"
     ],
-    "toml": [
-      "toml; extra=='toml'"
-    ],
-    "yaml": [
-      "PyYAML; extra=='yaml'"
+    "specifiers": [
+      "pytest (>=2.4.2)"
     ]
+  },
+  "requires_extras": {
+    "hjson": {
+      "dists": [
+        "hjson"
+      ],
+      "specifiers": [
+        "hjson; extra=='hjson'"
+      ]
+    },
+    "toml": {
+      "dists": [
+        "toml"
+      ],
+      "specifiers": [
+        "toml; extra=='toml'"
+      ]
+    },
+    "yaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml; extra=='yaml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

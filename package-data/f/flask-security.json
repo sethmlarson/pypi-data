@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "Flask (>=0.11)",
-    "Flask-BabelEx (>=0.9.3)",
-    "Flask-Login (>=0.3.0)",
-    "Flask-Mail (>=0.7.3)",
-    "Flask-Principal (>=0.3.3)",
-    "Flask-WTF (>=0.13.1)",
-    "itsdangerous (>=0.21)",
-    "passlib (>=1.7)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flask",
+      "flask-babelex",
+      "flask-login",
+      "flask-mail",
+      "flask-principal",
+      "flask-wtf",
+      "itsdangerous",
+      "passlib"
+    ],
+    "specifiers": [
+      "flask (>=0.11)",
+      "flask-babelex (>=0.9.3)",
+      "flask-login (>=0.3.0)",
+      "flask-mail (>=0.7.3)",
+      "flask-principal (>=0.3.3)",
+      "flask-wtf (>=0.13.1)",
+      "itsdangerous (>=0.21)",
+      "passlib (>=1.7)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,15 +1,29 @@
 {
-  "requires_dist": [
-    "dulwich (>=0.15.0)",
-    "packaging (>=20.4)",
-    "pbr",
-    "PyYAML (>=5.3.1)"
-  ],
-  "requires_extras": {
-    "sphinx": [
-      "docutils (>=0.11); extra=='sphinx'",
-      "sphinx (!=2.1.0,>=2.0.0); extra=='sphinx'"
+  "requires_dist": {
+    "dists": [
+      "dulwich",
+      "packaging",
+      "pbr",
+      "pyyaml"
+    ],
+    "specifiers": [
+      "dulwich (>=0.15.0)",
+      "packaging (>=20.4)",
+      "pbr",
+      "pyyaml (>=5.3.1)"
     ]
+  },
+  "requires_extras": {
+    "sphinx": {
+      "dists": [
+        "docutils",
+        "sphinx"
+      ],
+      "specifiers": [
+        "docutils (>=0.11); extra=='sphinx'",
+        "sphinx (!=2.1.0,>=2.0.0); extra=='sphinx'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,16 +1,31 @@
 {
-  "requires_dist": [
-    "aiohttp",
-    "decorator",
-    "fsspec (>=0.8.0)",
-    "google-auth (>=1.2)",
-    "google-auth-oauthlib",
-    "requests"
-  ],
-  "requires_extras": {
-    "gcsfuse": [
-      "fusepy; extra=='gcsfuse'"
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "decorator",
+      "fsspec",
+      "google-auth",
+      "google-auth-oauthlib",
+      "requests"
+    ],
+    "specifiers": [
+      "aiohttp",
+      "decorator",
+      "fsspec (>=0.8.0)",
+      "google-auth (>=1.2)",
+      "google-auth-oauthlib",
+      "requests"
     ]
+  },
+  "requires_extras": {
+    "gcsfuse": {
+      "dists": [
+        "fusepy"
+      ],
+      "specifiers": [
+        "fusepy; extra=='gcsfuse'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "flake8-plugin-utils (>=1.3.1,<2.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flake8-plugin-utils"
+    ],
+    "specifiers": [
+      "flake8-plugin-utils (>=1.3.1,<2.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6,<4.0",
   "yanked": []

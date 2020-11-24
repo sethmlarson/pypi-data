@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pyramid (>=1.7)",
-    "venusian"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyramid",
+      "venusian"
+    ],
+    "specifiers": [
+      "pyramid (>=1.7)",
+      "venusian"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

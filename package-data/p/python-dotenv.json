@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "typing; python_version<'3.5'"
-  ],
-  "requires_extras": {
-    "cli": [
-      "click (>=5.0); extra=='cli'"
+  "requires_dist": {
+    "dists": [
+      "typing"
+    ],
+    "specifiers": [
+      "typing; python_version<'3.5'"
     ]
+  },
+  "requires_extras": {
+    "cli": {
+      "dists": [
+        "click"
+      ],
+      "specifiers": [
+        "click (>=5.0); extra=='cli'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

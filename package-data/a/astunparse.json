@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "six (<2.0,>=1.6.1)",
-    "wheel (<1.0,>=0.23.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "six",
+      "wheel"
+    ],
+    "specifiers": [
+      "six (<2.0,>=1.6.1)",
+      "wheel (<1.0,>=0.23.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

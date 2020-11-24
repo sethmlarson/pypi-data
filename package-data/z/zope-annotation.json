@@ -1,20 +1,41 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "zope.component",
-    "zope.interface",
-    "zope.location",
-    "zope.proxy"
-  ],
-  "requires_extras": {
-    "btrees": [
-      "BTrees; extra=='btrees'",
-      "persistent; extra=='btrees'"
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "zope.component",
+      "zope.interface",
+      "zope.location",
+      "zope.proxy"
     ],
-    "zcml": [
-      "zope.component[zcml]; extra=='zcml'",
-      "zope.configuration; extra=='zcml'"
+    "specifiers": [
+      "setuptools",
+      "zope.component",
+      "zope.interface",
+      "zope.location",
+      "zope.proxy"
     ]
+  },
+  "requires_extras": {
+    "btrees": {
+      "dists": [
+        "btrees",
+        "persistent"
+      ],
+      "specifiers": [
+        "btrees; extra=='btrees'",
+        "persistent; extra=='btrees'"
+      ]
+    },
+    "zcml": {
+      "dists": [
+        "zope.component",
+        "zope.configuration"
+      ],
+      "specifiers": [
+        "zope.component[zcml]; extra=='zcml'",
+        "zope.configuration; extra=='zcml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

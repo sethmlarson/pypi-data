@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "dataclasses; python_version=='3.6'",
-    "PyYAML (>=5.1.*)",
-    "typing-extensions"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dataclasses",
+      "pyyaml",
+      "typing-extensions"
+    ],
+    "specifiers": [
+      "dataclasses; python_version=='3.6'",
+      "pyyaml (>=5.1.*)",
+      "typing-extensions"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": [

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Flask (>=0.10)",
-    "PyYAML (>=5.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flask",
+      "pyyaml"
+    ],
+    "specifiers": [
+      "flask (>=0.10)",
+      "pyyaml (>=5.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "hexdump",
-    "pytest",
-    "pytest-cov",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "hexdump",
+      "pytest",
+      "pytest-cov",
+      "six"
+    ],
+    "specifiers": [
+      "hexdump",
+      "pytest",
+      "pytest-cov",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

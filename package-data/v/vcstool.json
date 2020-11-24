@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "PyYAML",
-    "setuptools"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyyaml",
+      "setuptools"
+    ],
+    "specifiers": [
+      "pyyaml",
+      "setuptools"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

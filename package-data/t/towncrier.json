@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "click",
-    "click-default-group",
-    "incremental",
-    "jinja2",
-    "toml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click",
+      "click-default-group",
+      "incremental",
+      "jinja2",
+      "toml"
+    ],
+    "specifiers": [
+      "click",
+      "click-default-group",
+      "incremental",
+      "jinja2",
+      "toml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "lxml",
-    "pandas (>=0.25)",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "lxml",
+      "pandas",
+      "requests"
+    ],
+    "specifiers": [
+      "lxml",
+      "pandas (>=0.25)",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

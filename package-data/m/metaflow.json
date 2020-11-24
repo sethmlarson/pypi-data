@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "boto3",
-    "click (>=7.0)",
-    "pylint (<2.5.0)",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "boto3",
+      "click",
+      "pylint",
+      "requests"
+    ],
+    "specifiers": [
+      "boto3",
+      "click (>=7.0)",
+      "pylint (<2.5.0)",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

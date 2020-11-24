@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "selectors34; python_version<'3.4'",
-    "serpent (<1.30,>=1.27); python_version<'3.2'",
-    "serpent (>=1.27); python_version>='3.2'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "selectors34",
+      "serpent",
+      "serpent"
+    ],
+    "specifiers": [
+      "selectors34; python_version<'3.4'",
+      "serpent (<1.30,>=1.27); python_version<'3.2'",
+      "serpent (>=1.27); python_version>='3.2'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

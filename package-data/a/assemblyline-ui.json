@@ -1,21 +1,40 @@
 {
-  "requires_dist": [
-    "assemblyline",
-    "assemblyline-core",
-    "authlib",
-    "fido2",
-    "flask",
-    "flask-socketio",
-    "gevent",
-    "gevent-websocket",
-    "greenlet",
-    "gunicorn",
-    "markdown",
-    "pyqrcode",
-    "python-ldap",
-    "python-socketio",
-    "werkzeug"
-  ],
+  "requires_dist": {
+    "dists": [
+      "assemblyline",
+      "assemblyline-core",
+      "authlib",
+      "fido2",
+      "flask",
+      "flask-socketio",
+      "gevent",
+      "gevent-websocket",
+      "greenlet",
+      "gunicorn",
+      "markdown",
+      "pyqrcode",
+      "python-ldap",
+      "python-socketio",
+      "werkzeug"
+    ],
+    "specifiers": [
+      "assemblyline",
+      "assemblyline-core",
+      "authlib",
+      "fido2",
+      "flask",
+      "flask-socketio",
+      "gevent",
+      "gevent-websocket",
+      "greenlet",
+      "gunicorn",
+      "markdown",
+      "pyqrcode",
+      "python-ldap",
+      "python-socketio",
+      "werkzeug"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

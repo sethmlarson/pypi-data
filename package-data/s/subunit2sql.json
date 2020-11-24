@@ -1,20 +1,39 @@
 {
-  "requires_dist": [
-    "alembic (>=0.8.10)",
-    "oslo.config (>=4.0.0)",
-    "oslo.db (>=4.24.0)",
-    "pbr (!=2.1.0,>=2.0.0)",
-    "python-dateutil (>=2.4.2)",
-    "python-subunit (>=0.0.18)",
-    "six (>=1.9.0)",
-    "SQLAlchemy (!=1.1.5,!=1.1.6,!=1.1.7,!=1.1.8,>=1.0.10)",
-    "stevedore (>=1.20.0)"
-  ],
-  "requires_extras": {
-    "graph": [
-      "matplotlib (>=2.0.2); extra=='graph'",
-      "pandas (>=0.20.1); extra=='graph'"
+  "requires_dist": {
+    "dists": [
+      "alembic",
+      "oslo.config",
+      "oslo.db",
+      "pbr",
+      "python-dateutil",
+      "python-subunit",
+      "six",
+      "sqlalchemy",
+      "stevedore"
+    ],
+    "specifiers": [
+      "alembic (>=0.8.10)",
+      "oslo.config (>=4.0.0)",
+      "oslo.db (>=4.24.0)",
+      "pbr (!=2.1.0,>=2.0.0)",
+      "python-dateutil (>=2.4.2)",
+      "python-subunit (>=0.0.18)",
+      "six (>=1.9.0)",
+      "sqlalchemy (!=1.1.5,!=1.1.6,!=1.1.7,!=1.1.8,>=1.0.10)",
+      "stevedore (>=1.20.0)"
     ]
+  },
+  "requires_extras": {
+    "graph": {
+      "dists": [
+        "matplotlib",
+        "pandas"
+      ],
+      "specifiers": [
+        "matplotlib (>=2.0.2); extra=='graph'",
+        "pandas (>=0.20.1); extra=='graph'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

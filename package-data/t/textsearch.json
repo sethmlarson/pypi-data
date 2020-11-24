@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pyahocorasick",
-    "Unidecode"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyahocorasick",
+      "unidecode"
+    ],
+    "specifiers": [
+      "pyahocorasick",
+      "unidecode"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

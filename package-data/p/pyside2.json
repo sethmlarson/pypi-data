@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "shiboken2 (==5.15.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "shiboken2"
+    ],
+    "specifiers": [
+      "shiboken2 (==5.15.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <3.10",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "torch (>=1.0)",
-    "torchvision"
-  ],
+  "requires_dist": {
+    "dists": [
+      "torch",
+      "torchvision"
+    ],
+    "specifiers": [
+      "torch (>=1.0)",
+      "torchvision"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

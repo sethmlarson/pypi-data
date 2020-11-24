@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "colcon-core"
-  ],
+  "requires_dist": {
+    "dists": [
+      "colcon-core"
+    ],
+    "specifiers": [
+      "colcon-core"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

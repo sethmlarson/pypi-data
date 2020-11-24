@@ -1,15 +1,29 @@
 {
-  "requires_dist": [
-    "Django (>=2.2)",
-    "graphene (<4,>=3.0.0b5)",
-    "graphql-core (<4,>=3.1.0)",
-    "promise (>=2.1)",
-    "unidecode (<2,>=1.1.1)"
-  ],
-  "requires_extras": {
-    "rest_framework": [
-      "djangorestframework (>=3.6.3); extra=='rest_framework'"
+  "requires_dist": {
+    "dists": [
+      "django",
+      "graphene",
+      "graphql-core",
+      "promise",
+      "unidecode"
+    ],
+    "specifiers": [
+      "django (>=2.2)",
+      "graphene (<4,>=3.0.0b5)",
+      "graphql-core (<4,>=3.1.0)",
+      "promise (>=2.1)",
+      "unidecode (<2,>=1.1.1)"
     ]
+  },
+  "requires_extras": {
+    "rest_framework": {
+      "dists": [
+        "djangorestframework"
+      ],
+      "specifiers": [
+        "djangorestframework (>=3.6.3); extra=='rest_framework'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

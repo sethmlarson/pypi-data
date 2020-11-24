@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "ply (>=3.4)",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "ply",
+      "six"
+    ],
+    "specifiers": [
+      "ply (>=3.4)",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

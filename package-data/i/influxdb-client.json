@@ -1,21 +1,43 @@
 {
-  "requires_dist": [
-    "certifi (>=14.05.14)",
-    "python-dateutil (>=2.5.3)",
-    "pytz (>=2019.1)",
-    "rx (>=3.0.1)",
-    "setuptools (>=21.0.0)",
-    "six (>=1.10)",
-    "urllib3 (>=1.15.1)"
-  ],
-  "requires_extras": {
-    "ciso": [
-      "ciso8601 (>=2.1.1); extra=='ciso'"
+  "requires_dist": {
+    "dists": [
+      "certifi",
+      "python-dateutil",
+      "pytz",
+      "rx",
+      "setuptools",
+      "six",
+      "urllib3"
     ],
-    "extra": [
-      "numpy; extra=='extra'",
-      "pandas (>=0.25.3); extra=='extra'"
+    "specifiers": [
+      "certifi (>=14.05.14)",
+      "python-dateutil (>=2.5.3)",
+      "pytz (>=2019.1)",
+      "rx (>=3.0.1)",
+      "setuptools (>=21.0.0)",
+      "six (>=1.10)",
+      "urllib3 (>=1.15.1)"
     ]
+  },
+  "requires_extras": {
+    "ciso": {
+      "dists": [
+        "ciso8601"
+      ],
+      "specifiers": [
+        "ciso8601 (>=2.1.1); extra=='ciso'"
+      ]
+    },
+    "extra": {
+      "dists": [
+        "numpy",
+        "pandas"
+      ],
+      "specifiers": [
+        "numpy; extra=='extra'",
+        "pandas (>=0.25.3); extra=='extra'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "numpy",
-    "pandas",
-    "scikit-learn",
-    "scipy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "pandas",
+      "scikit-learn",
+      "scipy"
+    ],
+    "specifiers": [
+      "numpy",
+      "pandas",
+      "scikit-learn",
+      "scipy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

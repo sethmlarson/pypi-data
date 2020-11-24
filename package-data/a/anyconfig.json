@@ -1,23 +1,53 @@
 {
-  "requires_dist": [
-    "setuptools"
-  ],
-  "requires_extras": {
-    "query": [
-      "jmespath; extra=='query'"
+  "requires_dist": {
+    "dists": [
+      "setuptools"
     ],
-    "schema": [
-      "jsonschema; extra=='schema'"
-    ],
-    "template": [
-      "Jinja2; extra=='template'"
-    ],
-    "toml": [
-      "toml; extra=='toml'"
-    ],
-    "yaml": [
-      "pyyaml; extra=='yaml'"
+    "specifiers": [
+      "setuptools"
     ]
+  },
+  "requires_extras": {
+    "query": {
+      "dists": [
+        "jmespath"
+      ],
+      "specifiers": [
+        "jmespath; extra=='query'"
+      ]
+    },
+    "schema": {
+      "dists": [
+        "jsonschema"
+      ],
+      "specifiers": [
+        "jsonschema; extra=='schema'"
+      ]
+    },
+    "template": {
+      "dists": [
+        "jinja2"
+      ],
+      "specifiers": [
+        "jinja2; extra=='template'"
+      ]
+    },
+    "toml": {
+      "dists": [
+        "toml"
+      ],
+      "specifiers": [
+        "toml; extra=='toml'"
+      ]
+    },
+    "yaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml; extra=='yaml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

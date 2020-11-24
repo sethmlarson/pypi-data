@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "bump2version"
-  ],
+  "requires_dist": {
+    "dists": [
+      "bump2version"
+    ],
+    "specifiers": [
+      "bump2version"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

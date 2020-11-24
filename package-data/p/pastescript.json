@@ -1,26 +1,59 @@
 {
-  "requires_dist": [
-    "Paste (>=3.0)",
-    "PasteDeploy",
-    "six"
-  ],
-  "requires_extras": {
-    "cheetah": [
-      "Cheetah; extra=='cheetah'"
+  "requires_dist": {
+    "dists": [
+      "paste",
+      "pastedeploy",
+      "six"
     ],
-    "config": [
-      "PasteDeploy; extra=='config'"
-    ],
-    "flup": [
-      "Flup; extra=='flup'"
-    ],
-    "paste": [
-      "Cheetah; extra=='paste'",
-      "PasteDeploy; extra=='paste'"
-    ],
-    "wsgiutils": [
-      "WSGIserver; extra=='wsgiutils'"
+    "specifiers": [
+      "paste (>=3.0)",
+      "pastedeploy",
+      "six"
     ]
+  },
+  "requires_extras": {
+    "cheetah": {
+      "dists": [
+        "cheetah"
+      ],
+      "specifiers": [
+        "cheetah; extra=='cheetah'"
+      ]
+    },
+    "config": {
+      "dists": [
+        "pastedeploy"
+      ],
+      "specifiers": [
+        "pastedeploy; extra=='config'"
+      ]
+    },
+    "flup": {
+      "dists": [
+        "flup"
+      ],
+      "specifiers": [
+        "flup; extra=='flup'"
+      ]
+    },
+    "paste": {
+      "dists": [
+        "cheetah",
+        "pastedeploy"
+      ],
+      "specifiers": [
+        "cheetah; extra=='paste'",
+        "pastedeploy; extra=='paste'"
+      ]
+    },
+    "wsgiutils": {
+      "dists": [
+        "wsgiserver"
+      ],
+      "specifiers": [
+        "wsgiserver; extra=='wsgiutils'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

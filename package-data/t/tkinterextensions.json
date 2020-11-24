@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "pillow (>=8.0.1)",
-    "PythonDebugTools (>=1.7.8)",
-    "tk-html-widgets (>=0.4.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pillow",
+      "pythondebugtools",
+      "tk-html-widgets"
+    ],
+    "specifiers": [
+      "pillow (>=8.0.1)",
+      "pythondebugtools (>=1.7.8)",
+      "tk-html-widgets (>=0.4.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,17 +1,37 @@
 {
-  "requires_dist": [
-    "lml (>=0.0.4)"
-  ],
-  "requires_extras": {
-    "ods": [
-      "pyexcel-ods3 (>=0.6.0); extra=='ods'"
+  "requires_dist": {
+    "dists": [
+      "lml"
     ],
-    "xls": [
-      "pyexcel-xls (>=0.6.0); extra=='xls'"
-    ],
-    "xlsx": [
-      "pyexcel-xlsx (>=0.6.0); extra=='xlsx'"
+    "specifiers": [
+      "lml (>=0.0.4)"
     ]
+  },
+  "requires_extras": {
+    "ods": {
+      "dists": [
+        "pyexcel-ods3"
+      ],
+      "specifiers": [
+        "pyexcel-ods3 (>=0.6.0); extra=='ods'"
+      ]
+    },
+    "xls": {
+      "dists": [
+        "pyexcel-xls"
+      ],
+      "specifiers": [
+        "pyexcel-xls (>=0.6.0); extra=='xls'"
+      ]
+    },
+    "xlsx": {
+      "dists": [
+        "pyexcel-xlsx"
+      ],
+      "specifiers": [
+        "pyexcel-xlsx (>=0.6.0); extra=='xlsx'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

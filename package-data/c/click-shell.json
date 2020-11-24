@@ -1,14 +1,29 @@
 {
-  "requires_dist": [
-    "click (>=6.0)"
-  ],
-  "requires_extras": {
-    "readline": [
-      "gnureadline; extra=='readline'"
+  "requires_dist": {
+    "dists": [
+      "click"
     ],
-    "windows": [
-      "pyreadline; extra=='windows'"
+    "specifiers": [
+      "click (>=6.0)"
     ]
+  },
+  "requires_extras": {
+    "readline": {
+      "dists": [
+        "gnureadline"
+      ],
+      "specifiers": [
+        "gnureadline; extra=='readline'"
+      ]
+    },
+    "windows": {
+      "dists": [
+        "pyreadline"
+      ],
+      "specifiers": [
+        "pyreadline; extra=='windows'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

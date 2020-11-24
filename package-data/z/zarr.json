@@ -1,15 +1,29 @@
 {
-  "requires_dist": [
-    "asciitree",
-    "fasteners",
-    "numcodecs (>=0.6.4)",
-    "numpy (>=1.7)"
-  ],
-  "requires_extras": {
-    "jupyter": [
-      "ipytree; extra=='jupyter'",
-      "notebook; extra=='jupyter'"
+  "requires_dist": {
+    "dists": [
+      "asciitree",
+      "fasteners",
+      "numcodecs",
+      "numpy"
+    ],
+    "specifiers": [
+      "asciitree",
+      "fasteners",
+      "numcodecs (>=0.6.4)",
+      "numpy (>=1.7)"
     ]
+  },
+  "requires_extras": {
+    "jupyter": {
+      "dists": [
+        "ipytree",
+        "notebook"
+      ],
+      "specifiers": [
+        "ipytree; extra=='jupyter'",
+        "notebook; extra=='jupyter'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

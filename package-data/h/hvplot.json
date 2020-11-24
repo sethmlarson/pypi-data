@@ -1,63 +1,129 @@
 {
-  "requires_dist": [
-    "bokeh (>=1.0.0)",
-    "colorcet (>=2)",
-    "holoviews (>=1.11.0)",
-    "numpy (>=1.15)",
-    "pandas"
-  ],
-  "requires_extras": {
-    "build": [
-      "param (>=1.6.1); extra=='build'",
-      "setuptools; extra=='build'"
+  "requires_dist": {
+    "dists": [
+      "bokeh",
+      "colorcet",
+      "holoviews",
+      "numpy",
+      "pandas"
     ],
-    "examples": [
-      "dask; extra=='examples'",
-      "datashader (>=0.6.5); extra=='examples'",
-      "geopandas; extra=='examples'",
-      "geoviews (>=1.6.0); extra=='examples'",
-      "intake; extra=='examples'",
-      "intake-parquet; extra=='examples'",
-      "intake-xarray; extra=='examples'",
-      "networkx; extra=='examples'",
-      "notebook (>=5.4); extra=='examples'",
-      "panel; extra=='examples'",
-      "pillow; extra=='examples'",
-      "pyepsg; extra=='examples'",
-      "python-snappy; extra=='examples'",
-      "rasterio; extra=='examples'",
-      "s3fs; extra=='examples'",
-      "scikit-image; extra=='examples'",
-      "scipy; extra=='examples'",
-      "selenium; extra=='examples'",
-      "spatialpandas; extra=='examples'",
-      "streamz (>=0.3.0); extra=='examples'",
-      "xarray; extra=='examples'"
-    ],
-    "examples_extra": [
-      "dask; extra=='examples_extra'",
-      "datashader (>=0.6.5); extra=='examples_extra'",
-      "geopandas; extra=='examples_extra'",
-      "geoviews (>=1.6.0); extra=='examples_extra'",
-      "intake; extra=='examples_extra'",
-      "intake-parquet; extra=='examples_extra'",
-      "intake-xarray; extra=='examples_extra'",
-      "networkx; extra=='examples_extra'",
-      "notebook (>=5.4); extra=='examples_extra'",
-      "panel; extra=='examples_extra'",
-      "pillow; extra=='examples_extra'",
-      "pyepsg; extra=='examples_extra'",
-      "pygraphviz; extra=='examples_extra'",
-      "python-snappy; extra=='examples_extra'",
-      "rasterio; extra=='examples_extra'",
-      "s3fs; extra=='examples_extra'",
-      "scikit-image; extra=='examples_extra'",
-      "scipy; extra=='examples_extra'",
-      "selenium; extra=='examples_extra'",
-      "spatialpandas; extra=='examples_extra'",
-      "streamz (>=0.3.0); extra=='examples_extra'",
-      "xarray; extra=='examples_extra'"
+    "specifiers": [
+      "bokeh (>=1.0.0)",
+      "colorcet (>=2)",
+      "holoviews (>=1.11.0)",
+      "numpy (>=1.15)",
+      "pandas"
     ]
+  },
+  "requires_extras": {
+    "build": {
+      "dists": [
+        "param",
+        "setuptools"
+      ],
+      "specifiers": [
+        "param (>=1.6.1); extra=='build'",
+        "setuptools; extra=='build'"
+      ]
+    },
+    "examples": {
+      "dists": [
+        "dask",
+        "datashader",
+        "geopandas",
+        "geoviews",
+        "intake",
+        "intake-parquet",
+        "intake-xarray",
+        "networkx",
+        "notebook",
+        "panel",
+        "pillow",
+        "pyepsg",
+        "python-snappy",
+        "rasterio",
+        "s3fs",
+        "scikit-image",
+        "scipy",
+        "selenium",
+        "spatialpandas",
+        "streamz",
+        "xarray"
+      ],
+      "specifiers": [
+        "dask; extra=='examples'",
+        "datashader (>=0.6.5); extra=='examples'",
+        "geopandas; extra=='examples'",
+        "geoviews (>=1.6.0); extra=='examples'",
+        "intake; extra=='examples'",
+        "intake-parquet; extra=='examples'",
+        "intake-xarray; extra=='examples'",
+        "networkx; extra=='examples'",
+        "notebook (>=5.4); extra=='examples'",
+        "panel; extra=='examples'",
+        "pillow; extra=='examples'",
+        "pyepsg; extra=='examples'",
+        "python-snappy; extra=='examples'",
+        "rasterio; extra=='examples'",
+        "s3fs; extra=='examples'",
+        "scikit-image; extra=='examples'",
+        "scipy; extra=='examples'",
+        "selenium; extra=='examples'",
+        "spatialpandas; extra=='examples'",
+        "streamz (>=0.3.0); extra=='examples'",
+        "xarray; extra=='examples'"
+      ]
+    },
+    "examples_extra": {
+      "dists": [
+        "dask",
+        "datashader",
+        "geopandas",
+        "geoviews",
+        "intake",
+        "intake-parquet",
+        "intake-xarray",
+        "networkx",
+        "notebook",
+        "panel",
+        "pillow",
+        "pyepsg",
+        "pygraphviz",
+        "python-snappy",
+        "rasterio",
+        "s3fs",
+        "scikit-image",
+        "scipy",
+        "selenium",
+        "spatialpandas",
+        "streamz",
+        "xarray"
+      ],
+      "specifiers": [
+        "dask; extra=='examples_extra'",
+        "datashader (>=0.6.5); extra=='examples_extra'",
+        "geopandas; extra=='examples_extra'",
+        "geoviews (>=1.6.0); extra=='examples_extra'",
+        "intake; extra=='examples_extra'",
+        "intake-parquet; extra=='examples_extra'",
+        "intake-xarray; extra=='examples_extra'",
+        "networkx; extra=='examples_extra'",
+        "notebook (>=5.4); extra=='examples_extra'",
+        "panel; extra=='examples_extra'",
+        "pillow; extra=='examples_extra'",
+        "pyepsg; extra=='examples_extra'",
+        "pygraphviz; extra=='examples_extra'",
+        "python-snappy; extra=='examples_extra'",
+        "rasterio; extra=='examples_extra'",
+        "s3fs; extra=='examples_extra'",
+        "scikit-image; extra=='examples_extra'",
+        "scipy; extra=='examples_extra'",
+        "selenium; extra=='examples_extra'",
+        "spatialpandas; extra=='examples_extra'",
+        "streamz (>=0.3.0); extra=='examples_extra'",
+        "xarray; extra=='examples_extra'"
+      ]
+    }
   },
   "requires_python": ">=2.7",
   "yanked": []

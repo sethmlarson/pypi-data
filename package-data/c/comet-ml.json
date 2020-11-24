@@ -1,23 +1,45 @@
 {
-  "requires_dist": [
-    "comet-git-pure (>=0.19.11); python_version<'3.0'",
-    "dulwich (>=0.20.6); python_version>='3.0'",
-    "everett (==0.9); python_version<'3.0'",
-    "everett[ini] (>=1.0.1); python_version>='3.0'",
-    "jsonschema (!=3.1.0,>=2.6.0)",
-    "netifaces (>=0.10.7)",
-    "nvidia-ml-py3 (>=7.352.0)",
-    "requests (>=2.18.4)",
-    "six",
-    "typing (>=3.7.4); python_version<'3.5'",
-    "websocket-client (>=0.55.0)",
-    "wrapt (>=1.11.2)",
-    "wurlitzer (>=1.0.2)"
-  ],
-  "requires_extras": {
-    "cpu_logging": [
-      "psutil (>=5.6.3); extra=='cpu_logging'"
+  "requires_dist": {
+    "dists": [
+      "comet-git-pure",
+      "dulwich",
+      "everett",
+      "everett",
+      "jsonschema",
+      "netifaces",
+      "nvidia-ml-py3",
+      "requests",
+      "six",
+      "typing",
+      "websocket-client",
+      "wrapt",
+      "wurlitzer"
+    ],
+    "specifiers": [
+      "comet-git-pure (>=0.19.11); python_version<'3.0'",
+      "dulwich (>=0.20.6); python_version>='3.0'",
+      "everett (==0.9); python_version<'3.0'",
+      "everett[ini] (>=1.0.1); python_version>='3.0'",
+      "jsonschema (!=3.1.0,>=2.6.0)",
+      "netifaces (>=0.10.7)",
+      "nvidia-ml-py3 (>=7.352.0)",
+      "requests (>=2.18.4)",
+      "six",
+      "typing (>=3.7.4); python_version<'3.5'",
+      "websocket-client (>=0.55.0)",
+      "wrapt (>=1.11.2)",
+      "wurlitzer (>=1.0.2)"
     ]
+  },
+  "requires_extras": {
+    "cpu_logging": {
+      "dists": [
+        "psutil"
+      ],
+      "specifiers": [
+        "psutil (>=5.6.3); extra=='cpu_logging'"
+      ]
+    }
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
   "yanked": []

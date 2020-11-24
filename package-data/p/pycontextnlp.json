@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "networkx",
-    "pyyaml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "networkx",
+      "pyyaml"
+    ],
+    "specifiers": [
+      "networkx",
+      "pyyaml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

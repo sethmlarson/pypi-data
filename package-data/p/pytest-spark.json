@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "findspark",
-    "pytest"
-  ],
+  "requires_dist": {
+    "dists": [
+      "findspark",
+      "pytest"
+    ],
+    "specifiers": [
+      "findspark",
+      "pytest"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Twisted (>=16.0)",
-    "wrapt"
-  ],
+  "requires_dist": {
+    "dists": [
+      "twisted",
+      "wrapt"
+    ],
+    "specifiers": [
+      "twisted (>=16.0)",
+      "wrapt"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

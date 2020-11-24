@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "numpy (>=1.15.4)",
-    "python-dateutil (>=2.7.3)",
-    "pytz (>=2017.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "python-dateutil",
+      "pytz"
+    ],
+    "specifiers": [
+      "numpy (>=1.15.4)",
+      "python-dateutil (>=2.7.3)",
+      "pytz (>=2017.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.1",
   "yanked": []

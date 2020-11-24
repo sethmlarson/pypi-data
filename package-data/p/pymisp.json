@@ -1,29 +1,71 @@
 {
-  "requires_dist": [
-    "deprecated (>=1.2.7,<2.0.0)",
-    "jsonschema (>=3.2.0,<4.0.0)",
-    "mail-parser (==3.12.0)",
-    "python-dateutil (>=2.8.1,<3.0.0)",
-    "requests (>=2.22.0,<3.0.0)"
-  ],
-  "requires_extras": {
-    "fileobjects": [
-      "lief (>=0.10.1,<0.11.0); extra=='fileobjects'",
-      "pydeep (>=0.4,<0.5); extra=='fileobjects'",
-      "python-magic (>=0.4.15,<0.5.0); extra=='fileobjects'"
+  "requires_dist": {
+    "dists": [
+      "deprecated",
+      "jsonschema",
+      "python-dateutil",
+      "requests"
     ],
-    "openioc": [
-      "beautifulsoup4 (>=4.8.2,<5.0.0); extra=='openioc'"
-    ],
-    "pdfexport": [
-      "reportlab (>=3.5.34,<4.0.0); extra=='pdfexport'"
-    ],
-    "url": [
-      "pyfaup (>=1.2,<2.0); extra=='url'"
-    ],
-    "virustotal": [
-      "validators (>=0.14.2,<0.15.0); extra=='virustotal'"
+    "specifiers": [
+      "deprecated (>=1.2.7,<2.0.0)",
+      "jsonschema (>=3.2.0,<4.0.0)",
+      "python-dateutil (>=2.8.1,<3.0.0)",
+      "requests (>=2.22.0,<3.0.0)"
     ]
+  },
+  "requires_extras": {
+    "email": {
+      "dists": [
+        "mail-parser"
+      ],
+      "specifiers": [
+        "mail-parser (>=3.12.0,<4.0.0); extra=='email'"
+      ]
+    },
+    "fileobjects": {
+      "dists": [
+        "lief",
+        "pydeep",
+        "python-magic"
+      ],
+      "specifiers": [
+        "lief (>=0.10.1,<0.11.0); extra=='fileobjects'",
+        "pydeep (>=0.4,<0.5); extra=='fileobjects'",
+        "python-magic (>=0.4.15,<0.5.0); extra=='fileobjects'"
+      ]
+    },
+    "openioc": {
+      "dists": [
+        "beautifulsoup4"
+      ],
+      "specifiers": [
+        "beautifulsoup4 (>=4.8.2,<5.0.0); extra=='openioc'"
+      ]
+    },
+    "pdfexport": {
+      "dists": [
+        "reportlab"
+      ],
+      "specifiers": [
+        "reportlab (>=3.5.34,<4.0.0); extra=='pdfexport'"
+      ]
+    },
+    "url": {
+      "dists": [
+        "pyfaup"
+      ],
+      "specifiers": [
+        "pyfaup (>=1.2,<2.0); extra=='url'"
+      ]
+    },
+    "virustotal": {
+      "dists": [
+        "validators"
+      ],
+      "specifiers": [
+        "validators (>=0.14.2,<0.15.0); extra=='virustotal'"
+      ]
+    }
   },
   "requires_python": ">=3.6,<4.0",
   "yanked": []

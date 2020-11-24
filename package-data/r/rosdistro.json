@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "catkin-pkg",
-    "PyYAML",
-    "rospkg",
-    "setuptools"
-  ],
+  "requires_dist": {
+    "dists": [
+      "catkin-pkg",
+      "pyyaml",
+      "rospkg",
+      "setuptools"
+    ],
+    "specifiers": [
+      "catkin-pkg",
+      "pyyaml",
+      "rospkg",
+      "setuptools"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

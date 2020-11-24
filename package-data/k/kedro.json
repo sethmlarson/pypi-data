@@ -1,153 +1,375 @@
 {
-  "requires_dist": [
-    "anyconfig (~=0.9.7)",
-    "cachetools (~=4.1)",
-    "click (<8.0)",
-    "cookiecutter (<1.7.0,>=1.6.0)",
-    "fsspec (<0.7.0,>=0.5.1)",
-    "jmespath (<1.0,>=0.9.5)",
-    "jupyter-client (<7.0,>=5.1)",
-    "pip-tools (~=5.0)",
-    "pluggy (~=0.13.0)",
-    "python-json-logger (~=0.1.9)",
-    "PyYAML (<6.0,>=4.2)",
-    "setuptools (>=38.0)",
-    "toposort (~=1.5)"
-  ],
-  "requires_extras": {
-    "api": [
-      "requests (~=2.20); extra=='api'"
+  "requires_dist": {
+    "dists": [
+      "anyconfig",
+      "cachetools",
+      "click",
+      "cookiecutter",
+      "fsspec",
+      "jmespath",
+      "jupyter-client",
+      "pip-tools",
+      "pluggy",
+      "python-json-logger",
+      "pyyaml",
+      "setuptools",
+      "toposort"
     ],
-    "api.apidataset": [
-      "requests (~=2.20); extra=='api.apidataset'"
-    ],
-    "biosequence": [
-      "biopython (~=1.73); extra=='biosequence'"
-    ],
-    "biosequence.biosequencedataset": [
-      "biopython (~=1.73); extra=='biosequence.biosequencedataset'"
-    ],
-    "dask": [
-      "dask[complete] (~=2.6); extra=='dask'"
-    ],
-    "dask.parquetdataset": [
-      "dask[complete] (~=2.6); extra=='dask.parquetdataset'"
-    ],
-    "geopandas": [
-      "geopandas (<1.0,>=0.6.0); extra=='geopandas'"
-    ],
-    "geopandas.geojsondataset": [
-      "geopandas (<1.0,>=0.6.0); extra=='geopandas.geojsondataset'"
-    ],
-    "holoviews": [
-      "holoviews (~=1.13.0); extra=='holoviews'"
-    ],
-    "holoviews.holoviewswriter": [
-      "holoviews (~=1.13.0); extra=='holoviews.holoviewswriter'"
-    ],
-    "matplotlib": [
-      "matplotlib (<4.0,>=3.0.3); extra=='matplotlib'"
-    ],
-    "matplotlib.matplotlibwriter": [
-      "matplotlib (<4.0,>=3.0.3); extra=='matplotlib.matplotlibwriter'"
-    ],
-    "networkx": [
-      "networkx (~=2.4); extra=='networkx'"
-    ],
-    "networkx.networkxdataset": [
-      "networkx (~=2.4); extra=='networkx.networkxdataset'"
-    ],
-    "notebook_templates": [
-      "nbconvert (<6.0,>=5.3.1); extra=='notebook_templates'",
-      "nbformat (~=4.4); extra=='notebook_templates'"
-    ],
-    "pandas": [
-      "openpyxl (<4.0,>=3.0.3); extra=='pandas'",
-      "pandas (>=0.24); extra=='pandas'",
-      "pandas-gbq (<1.0,>=0.12.0); extra=='pandas'",
-      "pyarrow (<1.0.0,>=0.12.0); extra=='pandas'",
-      "SQLAlchemy (~=1.2); extra=='pandas'",
-      "tables (~=3.6); extra=='pandas'",
-      "xlrd (~=1.0); extra=='pandas'",
-      "xlsxwriter (~=1.0); extra=='pandas'"
-    ],
-    "pandas.appendableexceldataset": [
-      "openpyxl (<4.0,>=3.0.3); extra=='pandas.appendableexceldataset'",
-      "pandas (>=0.24); extra=='pandas.appendableexceldataset'"
-    ],
-    "pandas.csvdataset": [
-      "pandas (>=0.24); extra=='pandas.csvdataset'"
-    ],
-    "pandas.exceldataset": [
-      "pandas (>=0.24); extra=='pandas.exceldataset'",
-      "xlrd (~=1.0); extra=='pandas.exceldataset'",
-      "xlsxwriter (~=1.0); extra=='pandas.exceldataset'"
-    ],
-    "pandas.featherdataset": [
-      "pandas (>=0.24); extra=='pandas.featherdataset'"
-    ],
-    "pandas.gbqtabledataset": [
-      "pandas (>=0.24); extra=='pandas.gbqtabledataset'",
-      "pandas-gbq (<1.0,>=0.12.0); extra=='pandas.gbqtabledataset'"
-    ],
-    "pandas.hdfdataset": [
-      "pandas (>=0.24); extra=='pandas.hdfdataset'",
-      "tables (~=3.6); extra=='pandas.hdfdataset'"
-    ],
-    "pandas.jsondataset": [
-      "pandas (>=0.24); extra=='pandas.jsondataset'"
-    ],
-    "pandas.parquetdataset": [
-      "pandas (>=0.24); extra=='pandas.parquetdataset'",
-      "pyarrow (<1.0.0,>=0.12.0); extra=='pandas.parquetdataset'"
-    ],
-    "pandas.sqltabledataset": [
-      "pandas (>=0.24); extra=='pandas.sqltabledataset'",
-      "SQLAlchemy (~=1.2); extra=='pandas.sqltabledataset'"
-    ],
-    "pillow": [
-      "Pillow (~=7.1.2); extra=='pillow'"
-    ],
-    "pillow.imagedataset": [
-      "Pillow (~=7.1.2); extra=='pillow.imagedataset'"
-    ],
-    "profilers": [
-      "memory-profiler (<1.0,>=0.50.0); extra=='profilers'"
-    ],
-    "spark": [
-      "hdfs (<3.0,>=2.5.8); extra=='spark'",
-      "pyspark (~=2.2); extra=='spark'",
-      "s3fs (<0.4.1,>=0.3.0); extra=='spark'"
-    ],
-    "spark.sparkdataset": [
-      "hdfs (<3.0,>=2.5.8); extra=='spark.sparkdataset'",
-      "pyspark (~=2.2); extra=='spark.sparkdataset'",
-      "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkdataset'"
-    ],
-    "spark.sparkhivedataset": [
-      "hdfs (<3.0,>=2.5.8); extra=='spark.sparkhivedataset'",
-      "pyspark (~=2.2); extra=='spark.sparkhivedataset'",
-      "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkhivedataset'"
-    ],
-    "spark.sparkjdbcdataset": [
-      "hdfs (<3.0,>=2.5.8); extra=='spark.sparkjdbcdataset'",
-      "pyspark (~=2.2); extra=='spark.sparkjdbcdataset'",
-      "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkjdbcdataset'"
-    ],
-    "tensorflow": [
-      "tensorflow (~=2.0); extra=='tensorflow'"
-    ],
-    "tensorflow.tensorflowmodeldataset": [
-      "tensorflow (~=2.0); extra=='tensorflow.tensorflowmodeldataset'"
-    ],
-    "yaml": [
-      "pandas (>=0.24); extra=='yaml'",
-      "PyYAML (<6.0,>=4.2); extra=='yaml'"
-    ],
-    "yaml.yamldataset": [
-      "pandas (>=0.24); extra=='yaml.yamldataset'",
-      "PyYAML (<6.0,>=4.2); extra=='yaml.yamldataset'"
+    "specifiers": [
+      "anyconfig (~=0.9.7)",
+      "cachetools (~=4.1)",
+      "click (<8.0)",
+      "cookiecutter (<1.7.0,>=1.6.0)",
+      "fsspec (<0.7.0,>=0.5.1)",
+      "jmespath (<1.0,>=0.9.5)",
+      "jupyter-client (<7.0,>=5.1)",
+      "pip-tools (~=5.0)",
+      "pluggy (~=0.13.0)",
+      "python-json-logger (~=0.1.9)",
+      "pyyaml (<6.0,>=4.2)",
+      "setuptools (>=38.0)",
+      "toposort (~=1.5)"
     ]
+  },
+  "requires_extras": {
+    "api": {
+      "dists": [
+        "requests"
+      ],
+      "specifiers": [
+        "requests (~=2.20); extra=='api'"
+      ]
+    },
+    "api.apidataset": {
+      "dists": [
+        "requests"
+      ],
+      "specifiers": [
+        "requests (~=2.20); extra=='api.apidataset'"
+      ]
+    },
+    "biosequence": {
+      "dists": [
+        "biopython"
+      ],
+      "specifiers": [
+        "biopython (~=1.73); extra=='biosequence'"
+      ]
+    },
+    "biosequence.biosequencedataset": {
+      "dists": [
+        "biopython"
+      ],
+      "specifiers": [
+        "biopython (~=1.73); extra=='biosequence.biosequencedataset'"
+      ]
+    },
+    "dask": {
+      "dists": [
+        "dask"
+      ],
+      "specifiers": [
+        "dask[complete] (~=2.6); extra=='dask'"
+      ]
+    },
+    "dask.parquetdataset": {
+      "dists": [
+        "dask"
+      ],
+      "specifiers": [
+        "dask[complete] (~=2.6); extra=='dask.parquetdataset'"
+      ]
+    },
+    "geopandas": {
+      "dists": [
+        "geopandas"
+      ],
+      "specifiers": [
+        "geopandas (<1.0,>=0.6.0); extra=='geopandas'"
+      ]
+    },
+    "geopandas.geojsondataset": {
+      "dists": [
+        "geopandas"
+      ],
+      "specifiers": [
+        "geopandas (<1.0,>=0.6.0); extra=='geopandas.geojsondataset'"
+      ]
+    },
+    "holoviews": {
+      "dists": [
+        "holoviews"
+      ],
+      "specifiers": [
+        "holoviews (~=1.13.0); extra=='holoviews'"
+      ]
+    },
+    "holoviews.holoviewswriter": {
+      "dists": [
+        "holoviews"
+      ],
+      "specifiers": [
+        "holoviews (~=1.13.0); extra=='holoviews.holoviewswriter'"
+      ]
+    },
+    "matplotlib": {
+      "dists": [
+        "matplotlib"
+      ],
+      "specifiers": [
+        "matplotlib (<4.0,>=3.0.3); extra=='matplotlib'"
+      ]
+    },
+    "matplotlib.matplotlibwriter": {
+      "dists": [
+        "matplotlib"
+      ],
+      "specifiers": [
+        "matplotlib (<4.0,>=3.0.3); extra=='matplotlib.matplotlibwriter'"
+      ]
+    },
+    "networkx": {
+      "dists": [
+        "networkx"
+      ],
+      "specifiers": [
+        "networkx (~=2.4); extra=='networkx'"
+      ]
+    },
+    "networkx.networkxdataset": {
+      "dists": [
+        "networkx"
+      ],
+      "specifiers": [
+        "networkx (~=2.4); extra=='networkx.networkxdataset'"
+      ]
+    },
+    "notebook_templates": {
+      "dists": [
+        "nbconvert",
+        "nbformat"
+      ],
+      "specifiers": [
+        "nbconvert (<6.0,>=5.3.1); extra=='notebook_templates'",
+        "nbformat (~=4.4); extra=='notebook_templates'"
+      ]
+    },
+    "pandas": {
+      "dists": [
+        "openpyxl",
+        "pandas",
+        "pandas-gbq",
+        "pyarrow",
+        "sqlalchemy",
+        "tables",
+        "xlrd",
+        "xlsxwriter"
+      ],
+      "specifiers": [
+        "openpyxl (<4.0,>=3.0.3); extra=='pandas'",
+        "pandas (>=0.24); extra=='pandas'",
+        "pandas-gbq (<1.0,>=0.12.0); extra=='pandas'",
+        "pyarrow (<1.0.0,>=0.12.0); extra=='pandas'",
+        "sqlalchemy (~=1.2); extra=='pandas'",
+        "tables (~=3.6); extra=='pandas'",
+        "xlrd (~=1.0); extra=='pandas'",
+        "xlsxwriter (~=1.0); extra=='pandas'"
+      ]
+    },
+    "pandas.appendableexceldataset": {
+      "dists": [
+        "openpyxl",
+        "pandas"
+      ],
+      "specifiers": [
+        "openpyxl (<4.0,>=3.0.3); extra=='pandas.appendableexceldataset'",
+        "pandas (>=0.24); extra=='pandas.appendableexceldataset'"
+      ]
+    },
+    "pandas.csvdataset": {
+      "dists": [
+        "pandas"
+      ],
+      "specifiers": [
+        "pandas (>=0.24); extra=='pandas.csvdataset'"
+      ]
+    },
+    "pandas.exceldataset": {
+      "dists": [
+        "pandas",
+        "xlrd",
+        "xlsxwriter"
+      ],
+      "specifiers": [
+        "pandas (>=0.24); extra=='pandas.exceldataset'",
+        "xlrd (~=1.0); extra=='pandas.exceldataset'",
+        "xlsxwriter (~=1.0); extra=='pandas.exceldataset'"
+      ]
+    },
+    "pandas.featherdataset": {
+      "dists": [
+        "pandas"
+      ],
+      "specifiers": [
+        "pandas (>=0.24); extra=='pandas.featherdataset'"
+      ]
+    },
+    "pandas.gbqtabledataset": {
+      "dists": [
+        "pandas",
+        "pandas-gbq"
+      ],
+      "specifiers": [
+        "pandas (>=0.24); extra=='pandas.gbqtabledataset'",
+        "pandas-gbq (<1.0,>=0.12.0); extra=='pandas.gbqtabledataset'"
+      ]
+    },
+    "pandas.hdfdataset": {
+      "dists": [
+        "pandas",
+        "tables"
+      ],
+      "specifiers": [
+        "pandas (>=0.24); extra=='pandas.hdfdataset'",
+        "tables (~=3.6); extra=='pandas.hdfdataset'"
+      ]
+    },
+    "pandas.jsondataset": {
+      "dists": [
+        "pandas"
+      ],
+      "specifiers": [
+        "pandas (>=0.24); extra=='pandas.jsondataset'"
+      ]
+    },
+    "pandas.parquetdataset": {
+      "dists": [
+        "pandas",
+        "pyarrow"
+      ],
+      "specifiers": [
+        "pandas (>=0.24); extra=='pandas.parquetdataset'",
+        "pyarrow (<1.0.0,>=0.12.0); extra=='pandas.parquetdataset'"
+      ]
+    },
+    "pandas.sqltabledataset": {
+      "dists": [
+        "pandas",
+        "sqlalchemy"
+      ],
+      "specifiers": [
+        "pandas (>=0.24); extra=='pandas.sqltabledataset'",
+        "sqlalchemy (~=1.2); extra=='pandas.sqltabledataset'"
+      ]
+    },
+    "pillow": {
+      "dists": [
+        "pillow"
+      ],
+      "specifiers": [
+        "pillow (~=7.1.2); extra=='pillow'"
+      ]
+    },
+    "pillow.imagedataset": {
+      "dists": [
+        "pillow"
+      ],
+      "specifiers": [
+        "pillow (~=7.1.2); extra=='pillow.imagedataset'"
+      ]
+    },
+    "profilers": {
+      "dists": [
+        "memory-profiler"
+      ],
+      "specifiers": [
+        "memory-profiler (<1.0,>=0.50.0); extra=='profilers'"
+      ]
+    },
+    "spark": {
+      "dists": [
+        "hdfs",
+        "pyspark",
+        "s3fs"
+      ],
+      "specifiers": [
+        "hdfs (<3.0,>=2.5.8); extra=='spark'",
+        "pyspark (~=2.2); extra=='spark'",
+        "s3fs (<0.4.1,>=0.3.0); extra=='spark'"
+      ]
+    },
+    "spark.sparkdataset": {
+      "dists": [
+        "hdfs",
+        "pyspark",
+        "s3fs"
+      ],
+      "specifiers": [
+        "hdfs (<3.0,>=2.5.8); extra=='spark.sparkdataset'",
+        "pyspark (~=2.2); extra=='spark.sparkdataset'",
+        "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkdataset'"
+      ]
+    },
+    "spark.sparkhivedataset": {
+      "dists": [
+        "hdfs",
+        "pyspark",
+        "s3fs"
+      ],
+      "specifiers": [
+        "hdfs (<3.0,>=2.5.8); extra=='spark.sparkhivedataset'",
+        "pyspark (~=2.2); extra=='spark.sparkhivedataset'",
+        "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkhivedataset'"
+      ]
+    },
+    "spark.sparkjdbcdataset": {
+      "dists": [
+        "hdfs",
+        "pyspark",
+        "s3fs"
+      ],
+      "specifiers": [
+        "hdfs (<3.0,>=2.5.8); extra=='spark.sparkjdbcdataset'",
+        "pyspark (~=2.2); extra=='spark.sparkjdbcdataset'",
+        "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkjdbcdataset'"
+      ]
+    },
+    "tensorflow": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (~=2.0); extra=='tensorflow'"
+      ]
+    },
+    "tensorflow.tensorflowmodeldataset": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (~=2.0); extra=='tensorflow.tensorflowmodeldataset'"
+      ]
+    },
+    "yaml": {
+      "dists": [
+        "pandas",
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pandas (>=0.24); extra=='yaml'",
+        "pyyaml (<6.0,>=4.2); extra=='yaml'"
+      ]
+    },
+    "yaml.yamldataset": {
+      "dists": [
+        "pandas",
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pandas (>=0.24); extra=='yaml.yamldataset'",
+        "pyyaml (<6.0,>=4.2); extra=='yaml.yamldataset'"
+      ]
+    }
   },
   "requires_python": ">=3.6, <3.9",
   "yanked": []

@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "attrs (>=19.0.0)",
-    "cvss (>=2.0)",
-    "html2text (==2019.8.11)",
-    "maya (>=0.6.0)",
-    "orm-choices (==0.3.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "attrs",
+      "cvss",
+      "html2text",
+      "maya",
+      "orm-choices"
+    ],
+    "specifiers": [
+      "attrs (>=19.0.0)",
+      "cvss (>=2.0)",
+      "html2text (==2019.8.11)",
+      "maya (>=0.6.0)",
+      "orm-choices (==0.3.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

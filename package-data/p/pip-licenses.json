@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "PTable"
-  ],
+  "requires_dist": {
+    "dists": [
+      "ptable"
+    ],
+    "specifiers": [
+      "ptable"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "~=3.6",
   "yanked": []

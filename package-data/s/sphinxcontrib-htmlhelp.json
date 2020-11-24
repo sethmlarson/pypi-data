@@ -1,11 +1,21 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "lint": [
-      "docutils-stubs; extra=='lint'",
-      "flake8; extra=='lint'",
-      "mypy; extra=='lint'"
-    ]
+    "lint": {
+      "dists": [
+        "docutils-stubs",
+        "flake8",
+        "mypy"
+      ],
+      "specifiers": [
+        "docutils-stubs; extra=='lint'",
+        "flake8; extra=='lint'",
+        "mypy; extra=='lint'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

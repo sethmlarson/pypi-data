@@ -1,15 +1,29 @@
 {
-  "requires_dist": [
-    "joblib (>=0.11)",
-    "numpy (>=1.13.3)",
-    "pyaml (>=16.9)",
-    "scikit-learn (>=0.20.0)",
-    "scipy (>=0.19.1)"
-  ],
-  "requires_extras": {
-    "plots": [
-      "matplotlib (>=2.0.0); extra=='plots'"
+  "requires_dist": {
+    "dists": [
+      "joblib",
+      "numpy",
+      "pyaml",
+      "scikit-learn",
+      "scipy"
+    ],
+    "specifiers": [
+      "joblib (>=0.11)",
+      "numpy (>=1.13.3)",
+      "pyaml (>=16.9)",
+      "scikit-learn (>=0.20.0)",
+      "scipy (>=0.19.1)"
     ]
+  },
+  "requires_extras": {
+    "plots": {
+      "dists": [
+        "matplotlib"
+      ],
+      "specifiers": [
+        "matplotlib (>=2.0.0); extra=='plots'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

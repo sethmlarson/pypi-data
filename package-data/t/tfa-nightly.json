@@ -1,17 +1,37 @@
 {
-  "requires_dist": [
-    "typeguard (>=2.7)"
-  ],
-  "requires_extras": {
-    "tensorflow": [
-      "tensorflow (<2.4.0,>=2.2.0); extra=='tensorflow'"
+  "requires_dist": {
+    "dists": [
+      "typeguard"
     ],
-    "tensorflow-cpu": [
-      "tensorflow-cpu (<2.4.0,>=2.2.0); extra=='tensorflow-cpu'"
-    ],
-    "tensorflow-gpu": [
-      "tensorflow-gpu (<2.4.0,>=2.2.0); extra=='tensorflow-gpu'"
+    "specifiers": [
+      "typeguard (>=2.7)"
     ]
+  },
+  "requires_extras": {
+    "tensorflow": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (<2.4.0,>=2.2.0); extra=='tensorflow'"
+      ]
+    },
+    "tensorflow-cpu": {
+      "dists": [
+        "tensorflow-cpu"
+      ],
+      "specifiers": [
+        "tensorflow-cpu (<2.4.0,>=2.2.0); extra=='tensorflow-cpu'"
+      ]
+    },
+    "tensorflow-gpu": {
+      "dists": [
+        "tensorflow-gpu"
+      ],
+      "specifiers": [
+        "tensorflow-gpu (<2.4.0,>=2.2.0); extra=='tensorflow-gpu'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

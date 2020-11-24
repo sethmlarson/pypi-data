@@ -1,14 +1,27 @@
 {
-  "requires_dist": [
-    "configparser; python_version<'3'",
-    "future",
-    "setuptools"
-  ],
-  "requires_extras": {
-    "with-fonttools": [
-      "fonttools (>=3.0<4.0); (python_version<'3') and extra=='with-fonttools'",
-      "fonttools (>=4.0); (python_version>='3') and extra=='with-fonttools'"
+  "requires_dist": {
+    "dists": [
+      "configparser",
+      "future",
+      "setuptools"
+    ],
+    "specifiers": [
+      "configparser; python_version<'3'",
+      "future",
+      "setuptools"
     ]
+  },
+  "requires_extras": {
+    "with-fonttools": {
+      "dists": [
+        "fonttools",
+        "fonttools"
+      ],
+      "specifiers": [
+        "fonttools (>=3.0<4.0); (python_version<'3') and extra=='with-fonttools'",
+        "fonttools (>=4.0); (python_version>='3') and extra=='with-fonttools'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

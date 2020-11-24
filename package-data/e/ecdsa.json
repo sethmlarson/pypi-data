@@ -1,14 +1,29 @@
 {
-  "requires_dist": [
-    "six (>=1.9.0)"
-  ],
-  "requires_extras": {
-    "gmpy": [
-      "gmpy; extra=='gmpy'"
+  "requires_dist": {
+    "dists": [
+      "six"
     ],
-    "gmpy2": [
-      "gmpy2; extra=='gmpy2'"
+    "specifiers": [
+      "six (>=1.9.0)"
     ]
+  },
+  "requires_extras": {
+    "gmpy": {
+      "dists": [
+        "gmpy"
+      ],
+      "specifiers": [
+        "gmpy; extra=='gmpy'"
+      ]
+    },
+    "gmpy2": {
+      "dists": [
+        "gmpy2"
+      ],
+      "specifiers": [
+        "gmpy2; extra=='gmpy2'"
+      ]
+    }
   },
   "requires_python": ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "send2trash"
-  ],
+  "requires_dist": {
+    "dists": [
+      "send2trash"
+    ],
+    "specifiers": [
+      "send2trash"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "tornado (>=2.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "tornado"
+    ],
+    "specifiers": [
+      "tornado (>=2.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

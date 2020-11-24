@@ -1,21 +1,43 @@
 {
-  "requires_dist": [
-    "crflux (>1.0.4)",
-    "h5py",
-    "numpy",
-    "particletools",
-    "requests",
-    "scipy",
-    "six",
-    "tqdm"
-  ],
-  "requires_extras": {
-    "cuda": [
-      "cupy-cuda101 (==6.2.0); extra=='cuda'"
+  "requires_dist": {
+    "dists": [
+      "crflux",
+      "h5py",
+      "numpy",
+      "particletools",
+      "requests",
+      "scipy",
+      "six",
+      "tqdm"
     ],
-    "mkl": [
-      "mkl (==2019.0); extra=='mkl'"
+    "specifiers": [
+      "crflux (>1.0.4)",
+      "h5py",
+      "numpy",
+      "particletools",
+      "requests",
+      "scipy",
+      "six",
+      "tqdm"
     ]
+  },
+  "requires_extras": {
+    "cuda": {
+      "dists": [
+        "cupy-cuda101"
+      ],
+      "specifiers": [
+        "cupy-cuda101 (==6.2.0); extra=='cuda'"
+      ]
+    },
+    "mkl": {
+      "dists": [
+        "mkl"
+      ],
+      "specifiers": [
+        "mkl (==2019.0); extra=='mkl'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

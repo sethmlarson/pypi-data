@@ -1,10 +1,19 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "full": [
-      "orjson; extra=='full'",
-      "rich; extra=='full'"
-    ]
+    "full": {
+      "dists": [
+        "orjson",
+        "rich"
+      ],
+      "specifiers": [
+        "orjson; extra=='full'",
+        "rich; extra=='full'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,21 +1,40 @@
 {
-  "requires_dist": [
-    "attrs",
-    "cached-property",
-    "cracklib",
-    "dnspython",
-    "jinja2",
-    "ldap3",
-    "pexpect",
-    "pycryptodome",
-    "pygithub",
-    "pymysql (<0.10.0)",
-    "pysnmp",
-    "pyyaml",
-    "redis",
-    "requests",
-    "sqlalchemy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "attrs",
+      "cached-property",
+      "cracklib",
+      "dnspython",
+      "jinja2",
+      "ldap3",
+      "pexpect",
+      "pycryptodome",
+      "pygithub",
+      "pymysql",
+      "pysnmp",
+      "pyyaml",
+      "redis",
+      "requests",
+      "sqlalchemy"
+    ],
+    "specifiers": [
+      "attrs",
+      "cached-property",
+      "cracklib",
+      "dnspython",
+      "jinja2",
+      "ldap3",
+      "pexpect",
+      "pycryptodome",
+      "pygithub",
+      "pymysql (<0.10.0)",
+      "pysnmp",
+      "pyyaml",
+      "redis",
+      "requests",
+      "sqlalchemy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

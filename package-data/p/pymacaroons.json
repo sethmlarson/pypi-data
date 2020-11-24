@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "PyNaCl (>=1.1.2,<2.0)",
-    "six (>=1.8.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pynacl",
+      "six"
+    ],
+    "specifiers": [
+      "pynacl (>=1.1.2,<2.0)",
+      "six (>=1.8.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

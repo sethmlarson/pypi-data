@@ -1,18 +1,34 @@
 {
-  "requires_dist": [
-    "aws-cdk.aws-cognito (==1.74.0)",
-    "aws-cdk.aws-dynamodb (==1.74.0)",
-    "aws-cdk.aws-ec2 (==1.74.0)",
-    "aws-cdk.aws-iam (==1.74.0)",
-    "aws-cdk.aws-lambda (==1.74.0)",
-    "aws-cdk.aws-rds (==1.74.0)",
-    "aws-cdk.aws-s3-assets (==1.74.0)",
-    "aws-cdk.aws-secretsmanager (==1.74.0)",
-    "aws-cdk.core (==1.74.0)",
-    "constructs (<4.0.0,>=3.2.0)",
-    "jsii (<2.0.0,>=1.14.1)",
-    "publication (>=0.0.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aws-cdk.aws-cognito",
+      "aws-cdk.aws-dynamodb",
+      "aws-cdk.aws-ec2",
+      "aws-cdk.aws-iam",
+      "aws-cdk.aws-lambda",
+      "aws-cdk.aws-rds",
+      "aws-cdk.aws-s3-assets",
+      "aws-cdk.aws-secretsmanager",
+      "aws-cdk.core",
+      "constructs",
+      "jsii",
+      "publication"
+    ],
+    "specifiers": [
+      "aws-cdk.aws-cognito (==1.74.0)",
+      "aws-cdk.aws-dynamodb (==1.74.0)",
+      "aws-cdk.aws-ec2 (==1.74.0)",
+      "aws-cdk.aws-iam (==1.74.0)",
+      "aws-cdk.aws-lambda (==1.74.0)",
+      "aws-cdk.aws-rds (==1.74.0)",
+      "aws-cdk.aws-s3-assets (==1.74.0)",
+      "aws-cdk.aws-secretsmanager (==1.74.0)",
+      "aws-cdk.core (==1.74.0)",
+      "constructs (<4.0.0,>=3.2.0)",
+      "jsii (<2.0.0,>=1.14.1)",
+      "publication (>=0.0.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

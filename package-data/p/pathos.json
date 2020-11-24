@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "dill (>=0.3.3)",
-    "multiprocess (>=0.70.11)",
-    "pox (>=0.2.9)",
-    "ppft (>=1.6.6.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dill",
+      "multiprocess",
+      "pox",
+      "ppft"
+    ],
+    "specifiers": [
+      "dill (>=0.3.3)",
+      "multiprocess (>=0.70.11)",
+      "pox (>=0.2.9)",
+      "ppft (>=1.6.6.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

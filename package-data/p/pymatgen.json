@@ -1,34 +1,73 @@
 {
-  "requires_dist": [
-    "dataclasses (>=0.6); python_version<'3.7'",
-    "matplotlib (>=1.5)",
-    "monty (>=3.0.2)",
-    "networkx (>=2.2)",
-    "numpy (>=1.14.3)",
-    "palettable (>=3.1.1)",
-    "pandas",
-    "plotly (>=4.5.0)",
-    "requests",
-    "ruamel.yaml (>=0.15.6)",
-    "scipy (>=1.5.0)",
-    "spglib (>=1.9.9.44)",
-    "sympy",
-    "tabulate",
-    "uncertainties (>=3.1.4)"
-  ],
-  "requires_extras": {
-    "abinit": [
-      "netcdf4; extra=='abinit'"
+  "requires_dist": {
+    "dists": [
+      "dataclasses",
+      "matplotlib",
+      "monty",
+      "networkx",
+      "numpy",
+      "palettable",
+      "pandas",
+      "plotly",
+      "requests",
+      "ruamel.yaml",
+      "scipy",
+      "spglib",
+      "sympy",
+      "tabulate",
+      "uncertainties"
     ],
-    "ase": [
-      "ase (>=3.3); extra=='ase'"
-    ],
-    "provenance": [
-      "pybtex; extra=='provenance'"
-    ],
-    "vis": [
-      "vtk (>=6.0.0); extra=='vis'"
+    "specifiers": [
+      "dataclasses (>=0.6); python_version<'3.7'",
+      "matplotlib (>=1.5)",
+      "monty (>=3.0.2)",
+      "networkx (>=2.2)",
+      "numpy (>=1.14.3)",
+      "palettable (>=3.1.1)",
+      "pandas",
+      "plotly (>=4.5.0)",
+      "requests",
+      "ruamel.yaml (>=0.15.6)",
+      "scipy (>=1.5.0)",
+      "spglib (>=1.9.9.44)",
+      "sympy",
+      "tabulate",
+      "uncertainties (>=3.1.4)"
     ]
+  },
+  "requires_extras": {
+    "abinit": {
+      "dists": [
+        "netcdf4"
+      ],
+      "specifiers": [
+        "netcdf4; extra=='abinit'"
+      ]
+    },
+    "ase": {
+      "dists": [
+        "ase"
+      ],
+      "specifiers": [
+        "ase (>=3.3); extra=='ase'"
+      ]
+    },
+    "provenance": {
+      "dists": [
+        "pybtex"
+      ],
+      "specifiers": [
+        "pybtex; extra=='provenance'"
+      ]
+    },
+    "vis": {
+      "dists": [
+        "vtk"
+      ],
+      "specifiers": [
+        "vtk (>=6.0.0); extra=='vis'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

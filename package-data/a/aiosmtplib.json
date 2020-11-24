@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "uvloop": [
-      "uvloop (>=0.13,<0.15); extra=='uvloop'"
-    ]
+    "uvloop": {
+      "dists": [
+        "uvloop"
+      ],
+      "specifiers": [
+        "uvloop (>=0.13,<0.15); extra=='uvloop'"
+      ]
+    }
   },
   "requires_python": ">=3.5.2,<4.0.0",
   "yanked": []

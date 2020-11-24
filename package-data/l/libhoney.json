@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "backports_abc (>=0.5,<0.6); python_version>='2.7' and python_version<'2.8'",
-    "futures (>=3.3.0,<4.0.0); python_version>='2.7' and python_version<'2.8'",
-    "requests (>=2.24.0,<3.0.0)",
-    "singledispatch (>=3.4.0,<4.0.0); python_version>='2.7' and python_version<'2.8'",
-    "six (>=1.15.0,<2.0.0)",
-    "statsd (>=3.3.0,<4.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "backports_abc",
+      "futures",
+      "requests",
+      "singledispatch",
+      "six",
+      "statsd"
+    ],
+    "specifiers": [
+      "backports_abc (>=0.5,<0.6); python_version>='2.7' and python_version<'2.8'",
+      "futures (>=3.3.0,<4.0.0); python_version>='2.7' and python_version<'2.8'",
+      "requests (>=2.24.0,<3.0.0)",
+      "singledispatch (>=3.4.0,<4.0.0); python_version>='2.7' and python_version<'2.8'",
+      "six (>=1.15.0,<2.0.0)",
+      "statsd (>=3.3.0,<4.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
   "yanked": []

@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "lxml",
-    "requests",
-    "requests-toolbelt"
-  ],
+  "requires_dist": {
+    "dists": [
+      "lxml",
+      "requests",
+      "requests-toolbelt"
+    ],
+    "specifiers": [
+      "lxml",
+      "requests",
+      "requests-toolbelt"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

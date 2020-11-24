@@ -1,26 +1,57 @@
 {
-  "requires_dist": [
-    "numpy"
-  ],
-  "requires_extras": {
-    "benchmark": [
-      "cma; extra=='benchmark'",
-      "kurobako; extra=='benchmark'",
-      "optuna; extra=='benchmark'"
+  "requires_dist": {
+    "dists": [
+      "numpy"
     ],
-    "lint": [
-      "black; extra=='lint'",
-      "flake8; extra=='lint'",
-      "mypy; extra=='lint'"
-    ],
-    "release": [
-      "twine; extra=='release'",
-      "wheel; extra=='release'"
-    ],
-    "visualization": [
-      "matplotlib; extra=='visualization'",
-      "scipy; extra=='visualization'"
+    "specifiers": [
+      "numpy"
     ]
+  },
+  "requires_extras": {
+    "benchmark": {
+      "dists": [
+        "cma",
+        "kurobako",
+        "optuna"
+      ],
+      "specifiers": [
+        "cma; extra=='benchmark'",
+        "kurobako; extra=='benchmark'",
+        "optuna; extra=='benchmark'"
+      ]
+    },
+    "lint": {
+      "dists": [
+        "black",
+        "flake8",
+        "mypy"
+      ],
+      "specifiers": [
+        "black; extra=='lint'",
+        "flake8; extra=='lint'",
+        "mypy; extra=='lint'"
+      ]
+    },
+    "release": {
+      "dists": [
+        "twine",
+        "wheel"
+      ],
+      "specifiers": [
+        "twine; extra=='release'",
+        "wheel; extra=='release'"
+      ]
+    },
+    "visualization": {
+      "dists": [
+        "matplotlib",
+        "scipy"
+      ],
+      "specifiers": [
+        "matplotlib; extra=='visualization'",
+        "scipy; extra=='visualization'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

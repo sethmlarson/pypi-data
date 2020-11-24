@@ -1,19 +1,36 @@
 {
-  "requires_dist": [
-    "ipython-genutils",
-    "jinja2",
-    "jupyter-client (>=6.1.1)",
-    "jupyter-core (>=4.4.0)",
-    "nbconvert",
-    "nbformat",
-    "prometheus-client",
-    "pywin32 (>=1.0); sys_platform=='win32'",
-    "pyzmq (>=17)",
-    "Send2Trash",
-    "terminado (>=0.8.3)",
-    "tornado (>=5.0)",
-    "traitlets (>=4.2.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "ipython-genutils",
+      "jinja2",
+      "jupyter-client",
+      "jupyter-core",
+      "nbconvert",
+      "nbformat",
+      "prometheus-client",
+      "pywin32",
+      "pyzmq",
+      "send2trash",
+      "terminado",
+      "tornado",
+      "traitlets"
+    ],
+    "specifiers": [
+      "ipython-genutils",
+      "jinja2",
+      "jupyter-client (>=6.1.1)",
+      "jupyter-core (>=4.4.0)",
+      "nbconvert",
+      "nbformat",
+      "prometheus-client",
+      "pywin32 (>=1.0); sys_platform=='win32'",
+      "pyzmq (>=17)",
+      "send2trash",
+      "terminado (>=0.8.3)",
+      "tornado (>=5.0)",
+      "traitlets (>=4.2.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

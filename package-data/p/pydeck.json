@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "ipykernel (>=5.1.2); python_version>='3.4'",
-    "ipython (>=5.8.0); python_version<'3.4'",
-    "ipywidgets (>=7.0.0)",
-    "jinja2 (>=2.10.1)",
-    "numpy (>=1.16.4)",
-    "traitlets (>=4.3.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "ipykernel",
+      "ipython",
+      "ipywidgets",
+      "jinja2",
+      "numpy",
+      "traitlets"
+    ],
+    "specifiers": [
+      "ipykernel (>=5.1.2); python_version>='3.4'",
+      "ipython (>=5.8.0); python_version<'3.4'",
+      "ipywidgets (>=7.0.0)",
+      "jinja2 (>=2.10.1)",
+      "numpy (>=1.16.4)",
+      "traitlets (>=4.3.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

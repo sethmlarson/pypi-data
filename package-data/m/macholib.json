@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "altgraph (>=0.15)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "altgraph"
+    ],
+    "specifiers": [
+      "altgraph (>=0.15)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

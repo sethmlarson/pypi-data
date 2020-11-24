@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "pytz",
-    "screen",
-    "xlwt"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pytz",
+      "screen",
+      "xlwt"
+    ],
+    "specifiers": [
+      "pytz",
+      "screen",
+      "xlwt"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

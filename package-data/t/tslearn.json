@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "Cython",
-    "joblib",
-    "numba",
-    "numpy",
-    "scikit-learn",
-    "scipy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cython",
+      "joblib",
+      "numba",
+      "numpy",
+      "scikit-learn",
+      "scipy"
+    ],
+    "specifiers": [
+      "cython",
+      "joblib",
+      "numba",
+      "numpy",
+      "scikit-learn",
+      "scipy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

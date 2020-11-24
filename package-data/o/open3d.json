@@ -1,17 +1,32 @@
 {
-  "requires_dist": [
-    "addict",
-    "ipywidgets",
-    "matplotlib",
-    "notebook",
-    "numpy",
-    "pandas",
-    "plyfile",
-    "pyyaml",
-    "sklearn",
-    "tqdm",
-    "widgetsnbextension"
-  ],
+  "requires_dist": {
+    "dists": [
+      "addict",
+      "ipywidgets",
+      "matplotlib",
+      "notebook",
+      "numpy",
+      "pandas",
+      "plyfile",
+      "pyyaml",
+      "sklearn",
+      "tqdm",
+      "widgetsnbextension"
+    ],
+    "specifiers": [
+      "addict",
+      "ipywidgets",
+      "matplotlib",
+      "notebook",
+      "numpy",
+      "pandas",
+      "plyfile",
+      "pyyaml",
+      "sklearn",
+      "tqdm",
+      "widgetsnbextension"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "numpy (<1.17); python_version<='2.7'",
-    "numpy; python_version>='3.0'",
-    "pillow",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "numpy",
+      "pillow",
+      "six"
+    ],
+    "specifiers": [
+      "numpy (<1.17); python_version<='2.7'",
+      "numpy; python_version>='3.0'",
+      "pillow",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

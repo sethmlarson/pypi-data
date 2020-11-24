@@ -1,14 +1,29 @@
 {
-  "requires_dist": [
-    "Django (>=2.2)"
-  ],
-  "requires_extras": {
-    "phonenumbers": [
-      "phonenumbers (>=7.0.2); extra=='phonenumbers'"
+  "requires_dist": {
+    "dists": [
+      "django"
     ],
-    "phonenumberslite": [
-      "phonenumberslite (>=7.0.2); extra=='phonenumberslite'"
+    "specifiers": [
+      "django (>=2.2)"
     ]
+  },
+  "requires_extras": {
+    "phonenumbers": {
+      "dists": [
+        "phonenumbers"
+      ],
+      "specifiers": [
+        "phonenumbers (>=7.0.2); extra=='phonenumbers'"
+      ]
+    },
+    "phonenumberslite": {
+      "dists": [
+        "phonenumberslite"
+      ],
+      "specifiers": [
+        "phonenumberslite (>=7.0.2); extra=='phonenumberslite'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

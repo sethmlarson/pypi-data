@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "brotlipy",
-    "decorator",
-    "Flask",
-    "itsdangerous",
-    "MarkupSafe",
-    "raven[flask]",
-    "six",
-    "werkzeug (>=0.14.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "brotlipy",
+      "decorator",
+      "flask",
+      "itsdangerous",
+      "markupsafe",
+      "raven",
+      "six",
+      "werkzeug"
+    ],
+    "specifiers": [
+      "brotlipy",
+      "decorator",
+      "flask",
+      "itsdangerous",
+      "markupsafe",
+      "raven[flask]",
+      "six",
+      "werkzeug (>=0.14.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

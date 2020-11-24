@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "aiohttp",
-    "notebook",
-    "simpervisor (>=0.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "notebook",
+      "simpervisor"
+    ],
+    "specifiers": [
+      "aiohttp",
+      "notebook",
+      "simpervisor (>=0.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

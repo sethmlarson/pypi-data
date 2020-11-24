@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "cached-property",
-    "Django (>=1.8)",
-    "enum-compat",
-    "setuptools",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cached-property",
+      "django",
+      "enum-compat",
+      "setuptools",
+      "six"
+    ],
+    "specifiers": [
+      "cached-property",
+      "django (>=1.8)",
+      "enum-compat",
+      "setuptools",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

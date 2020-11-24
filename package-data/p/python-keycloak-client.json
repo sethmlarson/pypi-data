@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "python-jose",
-    "requests"
-  ],
-  "requires_extras": {
-    "aio": [
-      "aiohttp (<4,>=3.4.4); (python_full_version>='3.5.3') and extra=='aio'"
+  "requires_dist": {
+    "dists": [
+      "python-jose",
+      "requests"
+    ],
+    "specifiers": [
+      "python-jose",
+      "requests"
     ]
+  },
+  "requires_extras": {
+    "aio": {
+      "dists": [
+        "aiohttp"
+      ],
+      "specifiers": [
+        "aiohttp (<4,>=3.4.4); (python_full_version>='3.5.3') and extra=='aio'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

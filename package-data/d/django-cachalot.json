@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "Django (>=2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django"
+    ],
+    "specifiers": [
+      "django (>=2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

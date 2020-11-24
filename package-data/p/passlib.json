@@ -1,20 +1,45 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "argon2": [
-      "argon2-cffi (>=18.2.0); extra=='argon2'"
-    ],
-    "bcrypt": [
-      "bcrypt (>=3.1.0); extra=='bcrypt'"
-    ],
-    "build_docs": [
-      "cloud-sptheme (>=1.10.1); extra=='build_docs'",
-      "sphinx (>=1.6); extra=='build_docs'",
-      "sphinxcontrib-fulltoc (>=1.2.0); extra=='build_docs'"
-    ],
-    "totp": [
-      "cryptography; extra=='totp'"
-    ]
+    "argon2": {
+      "dists": [
+        "argon2-cffi"
+      ],
+      "specifiers": [
+        "argon2-cffi (>=18.2.0); extra=='argon2'"
+      ]
+    },
+    "bcrypt": {
+      "dists": [
+        "bcrypt"
+      ],
+      "specifiers": [
+        "bcrypt (>=3.1.0); extra=='bcrypt'"
+      ]
+    },
+    "build_docs": {
+      "dists": [
+        "cloud-sptheme",
+        "sphinx",
+        "sphinxcontrib-fulltoc"
+      ],
+      "specifiers": [
+        "cloud-sptheme (>=1.10.1); extra=='build_docs'",
+        "sphinx (>=1.6); extra=='build_docs'",
+        "sphinxcontrib-fulltoc (>=1.2.0); extra=='build_docs'"
+      ]
+    },
+    "totp": {
+      "dists": [
+        "cryptography"
+      ],
+      "specifiers": [
+        "cryptography; extra=='totp'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

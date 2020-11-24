@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "pyaes",
-    "rsa"
-  ],
-  "requires_extras": {
-    "cryptg": [
-      "cryptg; extra=='cryptg'"
+  "requires_dist": {
+    "dists": [
+      "pyaes",
+      "rsa"
+    ],
+    "specifiers": [
+      "pyaes",
+      "rsa"
     ]
+  },
+  "requires_extras": {
+    "cryptg": {
+      "dists": [
+        "cryptg"
+      ],
+      "specifiers": [
+        "cryptg; extra=='cryptg'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

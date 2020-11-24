@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "typing_extensions>=3.7"
-  ],
+  "requires_dist": {
+    "dists": [
+      "typing_extensions"
+    ],
+    "specifiers": [
+      "typing_extensions>=3.7"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

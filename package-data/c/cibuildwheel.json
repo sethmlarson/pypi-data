@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "bashlex (!=0.13)",
-    "certifi",
-    "toml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "bashlex",
+      "certifi",
+      "toml"
+    ],
+    "specifiers": [
+      "bashlex (!=0.13)",
+      "certifi",
+      "toml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": [

@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "click (>=7<8)",
-    "colorama (>=0.3.9)",
-    "kaptan (>=0.5.10)",
-    "libtmux (>=0.8<0.9)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click",
+      "colorama",
+      "kaptan",
+      "libtmux"
+    ],
+    "specifiers": [
+      "click (>=7<8)",
+      "colorama (>=0.3.9)",
+      "kaptan (>=0.5.10)",
+      "libtmux (>=0.8<0.9)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": [

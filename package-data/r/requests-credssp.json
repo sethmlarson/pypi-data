@@ -1,16 +1,31 @@
 {
-  "requires_dist": [
-    "cryptography",
-    "pyasn1 (>=0.3.1)",
-    "pyOpenSSL (>=16.0.0)",
-    "pyspnego",
-    "requests (>=2.0.0)",
-    "six"
-  ],
-  "requires_extras": {
-    "kerberos": [
-      "gssapi (>=1.5.0); (sys_platform!='win32') and extra=='kerberos'"
+  "requires_dist": {
+    "dists": [
+      "cryptography",
+      "pyasn1",
+      "pyopenssl",
+      "pyspnego",
+      "requests",
+      "six"
+    ],
+    "specifiers": [
+      "cryptography",
+      "pyasn1 (>=0.3.1)",
+      "pyopenssl (>=16.0.0)",
+      "pyspnego",
+      "requests (>=2.0.0)",
+      "six"
     ]
+  },
+  "requires_extras": {
+    "kerberos": {
+      "dists": [
+        "gssapi"
+      ],
+      "specifiers": [
+        "gssapi (>=1.5.0); (sys_platform!='win32') and extra=='kerberos'"
+      ]
+    }
   },
   "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*",
   "yanked": []

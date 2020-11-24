@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "certifi",
-    "python-dateutil",
-    "six (>=1.10)",
-    "urllib3 (>=1.15)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "certifi",
+      "python-dateutil",
+      "six",
+      "urllib3"
+    ],
+    "specifiers": [
+      "certifi",
+      "python-dateutil",
+      "six (>=1.10)",
+      "urllib3 (>=1.15)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.4",
   "yanked": []

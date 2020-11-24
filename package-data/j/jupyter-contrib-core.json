@@ -1,16 +1,31 @@
 {
-  "requires_dist": [
-    "jupyter-core",
-    "notebook (>=4.0)",
-    "setuptools",
-    "tornado",
-    "traitlets"
-  ],
-  "requires_extras": {
-    "testing_utils": [
-      "mock; python_version=='2.7' and extra=='testing_utils'",
-      "nose; extra=='testing_utils'"
+  "requires_dist": {
+    "dists": [
+      "jupyter-core",
+      "notebook",
+      "setuptools",
+      "tornado",
+      "traitlets"
+    ],
+    "specifiers": [
+      "jupyter-core",
+      "notebook (>=4.0)",
+      "setuptools",
+      "tornado",
+      "traitlets"
     ]
+  },
+  "requires_extras": {
+    "testing_utils": {
+      "dists": [
+        "mock",
+        "nose"
+      ],
+      "specifiers": [
+        "mock; python_version=='2.7' and extra=='testing_utils'",
+        "nose; extra=='testing_utils'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

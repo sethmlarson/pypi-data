@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "heapdict"
-  ],
+  "requires_dist": {
+    "dists": [
+      "heapdict"
+    ],
+    "specifiers": [
+      "heapdict"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "lxml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "lxml"
+    ],
+    "specifiers": [
+      "lxml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

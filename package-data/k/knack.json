@@ -1,13 +1,24 @@
 {
-  "requires_dist": [
-    "argcomplete",
-    "colorama",
-    "jmespath",
-    "pygments",
-    "pyyaml",
-    "six",
-    "tabulate"
-  ],
+  "requires_dist": {
+    "dists": [
+      "argcomplete",
+      "colorama",
+      "jmespath",
+      "pygments",
+      "pyyaml",
+      "six",
+      "tabulate"
+    ],
+    "specifiers": [
+      "argcomplete",
+      "colorama",
+      "jmespath",
+      "pygments",
+      "pyyaml",
+      "six",
+      "tabulate"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "scandir; python_version<'3.5'",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "scandir",
+      "six"
+    ],
+    "specifiers": [
+      "scandir; python_version<'3.5'",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "blessings (>=1.3)",
-    "mozfile",
-    "mozterm",
-    "six (>=1.10.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "blessings",
+      "mozfile",
+      "mozterm",
+      "six"
+    ],
+    "specifiers": [
+      "blessings (>=1.3)",
+      "mozfile",
+      "mozterm",
+      "six (>=1.10.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

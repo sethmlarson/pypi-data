@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "tox"
-  ],
+  "requires_dist": {
+    "dists": [
+      "tox"
+    ],
+    "specifiers": [
+      "tox"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

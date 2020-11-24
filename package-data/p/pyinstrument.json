@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pyinstrument-cext (>=0.2.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyinstrument-cext"
+    ],
+    "specifiers": [
+      "pyinstrument-cext (>=0.2.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

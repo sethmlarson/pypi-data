@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "pbr (!=2.1.0,>=2.0.0)",
-    "six (>=1.10.0)",
-    "wrapt (>=1.7.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pbr",
+      "six",
+      "wrapt"
+    ],
+    "specifiers": [
+      "pbr (!=2.1.0,>=2.0.0)",
+      "six (>=1.10.0)",
+      "wrapt (>=1.7.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

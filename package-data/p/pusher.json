@@ -1,20 +1,41 @@
 {
-  "requires_dist": [
-    "ndg-httpsclient",
-    "pyasn1",
-    "pynacl",
-    "pyopenssl",
-    "requests (>=2.3.0)",
-    "six",
-    "urllib3"
-  ],
-  "requires_extras": {
-    "aiohttp": [
-      "aiohttp (>=0.20.0); extra=='aiohttp'"
+  "requires_dist": {
+    "dists": [
+      "ndg-httpsclient",
+      "pyasn1",
+      "pynacl",
+      "pyopenssl",
+      "requests",
+      "six",
+      "urllib3"
     ],
-    "tornado": [
-      "tornado (>=5.0.0); extra=='tornado'"
+    "specifiers": [
+      "ndg-httpsclient",
+      "pyasn1",
+      "pynacl",
+      "pyopenssl",
+      "requests (>=2.3.0)",
+      "six",
+      "urllib3"
     ]
+  },
+  "requires_extras": {
+    "aiohttp": {
+      "dists": [
+        "aiohttp"
+      ],
+      "specifiers": [
+        "aiohttp (>=0.20.0); extra=='aiohttp'"
+      ]
+    },
+    "tornado": {
+      "dists": [
+        "tornado"
+      ],
+      "specifiers": [
+        "tornado (>=5.0.0); extra=='tornado'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

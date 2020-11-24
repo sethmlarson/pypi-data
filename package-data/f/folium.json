@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "branca (>=0.3.0)",
-    "jinja2 (>=2.9)",
-    "numpy",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "branca",
+      "jinja2",
+      "numpy",
+      "requests"
+    ],
+    "specifiers": [
+      "branca (>=0.3.0)",
+      "jinja2 (>=2.9)",
+      "numpy",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

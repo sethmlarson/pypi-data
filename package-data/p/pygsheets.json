@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "enum34",
-    "google-api-python-client (>=1.5.5)",
-    "google-auth-oauthlib"
-  ],
-  "requires_extras": {
-    "pandas": [
-      "pandas (>=0.14.0); extra=='pandas'"
+  "requires_dist": {
+    "dists": [
+      "enum34",
+      "google-api-python-client",
+      "google-auth-oauthlib"
+    ],
+    "specifiers": [
+      "enum34",
+      "google-api-python-client (>=1.5.5)",
+      "google-auth-oauthlib"
     ]
+  },
+  "requires_extras": {
+    "pandas": {
+      "dists": [
+        "pandas"
+      ],
+      "specifiers": [
+        "pandas (>=0.14.0); extra=='pandas'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

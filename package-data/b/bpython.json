@@ -1,25 +1,53 @@
 {
-  "requires_dist": [
-    "curtsies (>=0.3.0)",
-    "greenlet",
-    "ndg-httpsclient; python_full_version=='2.7.0' or python_full_version=='2.7.1' or python_full_version=='2.7.2' or python_full_version=='2.7.3' or python_full_version=='2.7.4' or python_full_version=='2.7.5' or python_full_version=='2.7.6'",
-    "pyasn1; python_full_version=='2.7.0' or python_full_version=='2.7.1' or python_full_version=='2.7.2' or python_full_version=='2.7.3' or python_full_version=='2.7.4' or python_full_version=='2.7.5' or python_full_version=='2.7.6'",
-    "pygments",
-    "pyOpenSSL; python_full_version=='2.7.0' or python_full_version=='2.7.1' or python_full_version=='2.7.2' or python_full_version=='2.7.3' or python_full_version=='2.7.4' or python_full_version=='2.7.5' or python_full_version=='2.7.6'",
-    "requests",
-    "six (>=1.5)",
-    "wcwidth"
-  ],
-  "requires_extras": {
-    "jedi": [
-      "jedi; extra=='jedi'"
+  "requires_dist": {
+    "dists": [
+      "curtsies",
+      "greenlet",
+      "ndg-httpsclient",
+      "pyasn1",
+      "pygments",
+      "pyopenssl",
+      "requests",
+      "six",
+      "wcwidth"
     ],
-    "urwid": [
-      "urwid; extra=='urwid'"
-    ],
-    "watch": [
-      "watchdog; extra=='watch'"
+    "specifiers": [
+      "curtsies (>=0.3.0)",
+      "greenlet",
+      "ndg-httpsclient; python_full_version=='2.7.0' or python_full_version=='2.7.1' or python_full_version=='2.7.2' or python_full_version=='2.7.3' or python_full_version=='2.7.4' or python_full_version=='2.7.5' or python_full_version=='2.7.6'",
+      "pyasn1; python_full_version=='2.7.0' or python_full_version=='2.7.1' or python_full_version=='2.7.2' or python_full_version=='2.7.3' or python_full_version=='2.7.4' or python_full_version=='2.7.5' or python_full_version=='2.7.6'",
+      "pygments",
+      "pyopenssl; python_full_version=='2.7.0' or python_full_version=='2.7.1' or python_full_version=='2.7.2' or python_full_version=='2.7.3' or python_full_version=='2.7.4' or python_full_version=='2.7.5' or python_full_version=='2.7.6'",
+      "requests",
+      "six (>=1.5)",
+      "wcwidth"
     ]
+  },
+  "requires_extras": {
+    "jedi": {
+      "dists": [
+        "jedi"
+      ],
+      "specifiers": [
+        "jedi; extra=='jedi'"
+      ]
+    },
+    "urwid": {
+      "dists": [
+        "urwid"
+      ],
+      "specifiers": [
+        "urwid; extra=='urwid'"
+      ]
+    },
+    "watch": {
+      "dists": [
+        "watchdog"
+      ],
+      "specifiers": [
+        "watchdog; extra=='watch'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "grpcio (>=1.34.0rc1)",
-    "protobuf (<4.0dev,>=3.5.0.post1)",
-    "setuptools"
-  ],
+  "requires_dist": {
+    "dists": [
+      "grpcio",
+      "protobuf",
+      "setuptools"
+    ],
+    "specifiers": [
+      "grpcio (>=1.34.0rc1)",
+      "protobuf (<4.0dev,>=3.5.0.post1)",
+      "setuptools"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

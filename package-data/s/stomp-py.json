@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "docopt (>=0.6.2,<0.7.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "docopt"
+    ],
+    "specifiers": [
+      "docopt (>=0.6.2,<0.7.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6,<4.0",
   "yanked": []

@@ -1,52 +1,125 @@
 {
-  "requires_dist": [
-    "DataProperty (<2,>=0.50.0)",
-    "mbstrdecoder (<2,>=1.0.0)",
-    "msgfy (<1,>=0.1.0)",
-    "pathvalidate (<3,>=2.3.0)",
-    "setuptools (>=38.3.0)",
-    "tabledata (<2,>=1.1.3)",
-    "tcolorpy (<1,>=0.0.5)",
-    "typepy[datetime] (<2,>=1.1.1)"
-  ],
-  "requires_extras": {
-    "es": [
-      "elasticsearch (<8,>=7.0.5); extra=='es'"
+  "requires_dist": {
+    "dists": [
+      "dataproperty",
+      "mbstrdecoder",
+      "msgfy",
+      "pathvalidate",
+      "setuptools",
+      "tabledata",
+      "tcolorpy",
+      "typepy"
     ],
-    "es5": [
-      "elasticsearch (<6,>=5.5.3); extra=='es5'"
-    ],
-    "es6": [
-      "elasticsearch (<7,>=6.3.1); extra=='es6'"
-    ],
-    "es7": [
-      "elasticsearch (<8,>=7.0.5); extra=='es7'"
-    ],
-    "excel": [
-      "XlsxWriter (<2,>=0.9.6); extra=='excel'",
-      "xlwt; extra=='excel'"
-    ],
-    "from": [
-      "pytablereader (<2,>=0.30.0); extra=='from'"
-    ],
-    "html": [
-      "dominate (<3,>=2.1.5); extra=='html'"
-    ],
-    "logging": [
-      "loguru (<1,>=0.4.1); extra=='logging'"
-    ],
-    "sqlite": [
-      "SimpleSQLite (<2,>=1.1.3); extra=='sqlite'"
-    ],
-    "theme": [
-      "pytablewriter-altrow-theme (<1,>=0.0.2); extra=='theme'"
-    ],
-    "toml": [
-      "toml (<1,>=0.9.3); extra=='toml'"
-    ],
-    "yaml": [
-      "PyYAML (<6,>=3.11); extra=='yaml'"
+    "specifiers": [
+      "dataproperty (<2,>=0.50.0)",
+      "mbstrdecoder (<2,>=1.0.0)",
+      "msgfy (<1,>=0.1.0)",
+      "pathvalidate (<3,>=2.3.0)",
+      "setuptools (>=38.3.0)",
+      "tabledata (<2,>=1.1.3)",
+      "tcolorpy (<1,>=0.0.5)",
+      "typepy[datetime] (<2,>=1.1.1)"
     ]
+  },
+  "requires_extras": {
+    "es": {
+      "dists": [
+        "elasticsearch"
+      ],
+      "specifiers": [
+        "elasticsearch (<8,>=7.0.5); extra=='es'"
+      ]
+    },
+    "es5": {
+      "dists": [
+        "elasticsearch"
+      ],
+      "specifiers": [
+        "elasticsearch (<6,>=5.5.3); extra=='es5'"
+      ]
+    },
+    "es6": {
+      "dists": [
+        "elasticsearch"
+      ],
+      "specifiers": [
+        "elasticsearch (<7,>=6.3.1); extra=='es6'"
+      ]
+    },
+    "es7": {
+      "dists": [
+        "elasticsearch"
+      ],
+      "specifiers": [
+        "elasticsearch (<8,>=7.0.5); extra=='es7'"
+      ]
+    },
+    "excel": {
+      "dists": [
+        "xlsxwriter",
+        "xlwt"
+      ],
+      "specifiers": [
+        "xlsxwriter (<2,>=0.9.6); extra=='excel'",
+        "xlwt; extra=='excel'"
+      ]
+    },
+    "from": {
+      "dists": [
+        "pytablereader"
+      ],
+      "specifiers": [
+        "pytablereader (<2,>=0.30.0); extra=='from'"
+      ]
+    },
+    "html": {
+      "dists": [
+        "dominate"
+      ],
+      "specifiers": [
+        "dominate (<3,>=2.1.5); extra=='html'"
+      ]
+    },
+    "logging": {
+      "dists": [
+        "loguru"
+      ],
+      "specifiers": [
+        "loguru (<1,>=0.4.1); extra=='logging'"
+      ]
+    },
+    "sqlite": {
+      "dists": [
+        "simplesqlite"
+      ],
+      "specifiers": [
+        "simplesqlite (<2,>=1.1.3); extra=='sqlite'"
+      ]
+    },
+    "theme": {
+      "dists": [
+        "pytablewriter-altrow-theme"
+      ],
+      "specifiers": [
+        "pytablewriter-altrow-theme (<1,>=0.0.2); extra=='theme'"
+      ]
+    },
+    "toml": {
+      "dists": [
+        "toml"
+      ],
+      "specifiers": [
+        "toml (<1,>=0.9.3); extra=='toml'"
+      ]
+    },
+    "yaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml (<6,>=3.11); extra=='yaml'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

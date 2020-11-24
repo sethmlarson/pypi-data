@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "numpy",
-    "pandas",
-    "scipy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "pandas",
+      "scipy"
+    ],
+    "specifiers": [
+      "numpy",
+      "pandas",
+      "scipy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

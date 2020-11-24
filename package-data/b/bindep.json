@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "distro",
-    "Parsley",
-    "pbr (>=2.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "distro",
+      "parsley",
+      "pbr"
+    ],
+    "specifiers": [
+      "distro",
+      "parsley",
+      "pbr (>=2.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

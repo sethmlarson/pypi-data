@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "click",
-    "requests",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click",
+      "requests",
+      "six"
+    ],
+    "specifiers": [
+      "click",
+      "requests",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=2.7",
   "yanked": []

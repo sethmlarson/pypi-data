@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "certifi",
-    "gevent (>=0.13)",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "certifi",
+      "gevent",
+      "six"
+    ],
+    "specifiers": [
+      "certifi",
+      "gevent (>=0.13)",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

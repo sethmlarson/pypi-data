@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "flake8 (<3.9.0,>=3.8.0)"
-  ],
-  "requires_extras": {
-    "pep257": [
-      "flake8-docstrings (==0.2.1.post1); extra=='pep257'"
+  "requires_dist": {
+    "dists": [
+      "flake8"
+    ],
+    "specifiers": [
+      "flake8 (<3.9.0,>=3.8.0)"
     ]
+  },
+  "requires_extras": {
+    "pep257": {
+      "dists": [
+        "flake8-docstrings"
+      ],
+      "specifiers": [
+        "flake8-docstrings (==0.2.1.post1); extra=='pep257'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

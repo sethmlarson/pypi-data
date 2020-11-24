@@ -1,19 +1,37 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "six",
-    "zope.component",
-    "zope.i18n (>=4.0.1)",
-    "zope.i18nmessageid",
-    "zope.interface",
-    "zope.tal (>=4.2.0)",
-    "zope.tales",
-    "zope.traversing"
-  ],
-  "requires_extras": {
-    "untrusted": [
-      "zope.untrustedpython; (python_version=='2.7') and extra=='untrusted'"
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "six",
+      "zope.component",
+      "zope.i18n",
+      "zope.i18nmessageid",
+      "zope.interface",
+      "zope.tal",
+      "zope.tales",
+      "zope.traversing"
+    ],
+    "specifiers": [
+      "setuptools",
+      "six",
+      "zope.component",
+      "zope.i18n (>=4.0.1)",
+      "zope.i18nmessageid",
+      "zope.interface",
+      "zope.tal (>=4.2.0)",
+      "zope.tales",
+      "zope.traversing"
     ]
+  },
+  "requires_extras": {
+    "untrusted": {
+      "dists": [
+        "zope.untrustedpython"
+      ],
+      "specifiers": [
+        "zope.untrustedpython; (python_version=='2.7') and extra=='untrusted'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

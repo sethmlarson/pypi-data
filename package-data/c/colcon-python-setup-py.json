@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "colcon-core (>=0.6.1)",
-    "setuptools"
-  ],
+  "requires_dist": {
+    "dists": [
+      "colcon-core",
+      "setuptools"
+    ],
+    "specifiers": [
+      "colcon-core (>=0.6.1)",
+      "setuptools"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

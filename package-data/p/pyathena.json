@@ -1,17 +1,35 @@
 {
-  "requires_dist": [
-    "boto3 (>=1.4.4)",
-    "botocore (>=1.5.52)",
-    "tenacity (>=4.1.0)"
-  ],
-  "requires_extras": {
-    "Pandas": [
-      "pandas (>=1.0.0); extra=='Pandas'",
-      "pyarrow (>=1.0.0); extra=='Pandas'"
+  "requires_dist": {
+    "dists": [
+      "boto3",
+      "botocore",
+      "tenacity"
     ],
-    "SQLAlchemy": [
-      "sqlalchemy (>=1.0.0,<2.0.0); extra=='SQLAlchemy'"
+    "specifiers": [
+      "boto3 (>=1.4.4)",
+      "botocore (>=1.5.52)",
+      "tenacity (>=4.1.0)"
     ]
+  },
+  "requires_extras": {
+    "pandas": {
+      "dists": [
+        "pandas",
+        "pyarrow"
+      ],
+      "specifiers": [
+        "pandas (>=1.0.0); extra=='pandas'",
+        "pyarrow (>=1.0.0); extra=='pandas'"
+      ]
+    },
+    "sqlalchemy": {
+      "dists": [
+        "sqlalchemy"
+      ],
+      "specifiers": [
+        "sqlalchemy (>=1.0.0,<2.0.0); extra=='sqlalchemy'"
+      ]
+    }
   },
   "requires_python": ">=3.6.1,<4.0.0",
   "yanked": []

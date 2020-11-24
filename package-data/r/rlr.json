@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "future (>=0.14)",
-    "numpy (>=1.13.1)",
-    "pylbfgs"
-  ],
+  "requires_dist": {
+    "dists": [
+      "future",
+      "numpy",
+      "pylbfgs"
+    ],
+    "specifiers": [
+      "future (>=0.14)",
+      "numpy (>=1.13.1)",
+      "pylbfgs"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

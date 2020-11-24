@@ -1,20 +1,41 @@
 {
-  "requires_dist": [
-    "numpy (>=1.15.0)",
-    "requests (>=2.18.4)",
-    "spacy (==2.3.0)",
-    "tqdm (>=4.23.3)"
-  ],
-  "requires_extras": {
-    "distances": [
-      "distances (>=1.0); extra=='distances'",
-      "munkres (>=1.0.12); extra=='distances'",
-      "zss (>=1.2); extra=='distances'"
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "requests",
+      "spacy",
+      "tqdm"
     ],
-    "visualize": [
-      "matplotlib (==3.2.2); extra=='visualize'",
-      "networkx (>=2.0); extra=='visualize'"
+    "specifiers": [
+      "numpy (>=1.15.0)",
+      "requests (>=2.18.4)",
+      "spacy (==2.3.0)",
+      "tqdm (>=4.23.3)"
     ]
+  },
+  "requires_extras": {
+    "distances": {
+      "dists": [
+        "distances",
+        "munkres",
+        "zss"
+      ],
+      "specifiers": [
+        "distances (>=1.0); extra=='distances'",
+        "munkres (>=1.0.12); extra=='distances'",
+        "zss (>=1.2); extra=='distances'"
+      ]
+    },
+    "visualize": {
+      "dists": [
+        "matplotlib",
+        "networkx"
+      ],
+      "specifiers": [
+        "matplotlib (==3.2.2); extra=='visualize'",
+        "networkx (>=2.0); extra=='visualize'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

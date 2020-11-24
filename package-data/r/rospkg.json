@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "catkin-pkg",
-    "distro",
-    "PyYAML"
-  ],
+  "requires_dist": {
+    "dists": [
+      "catkin-pkg",
+      "distro",
+      "pyyaml"
+    ],
+    "specifiers": [
+      "catkin-pkg",
+      "distro",
+      "pyyaml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "cliff (>=3.2.0)",
-    "keystoneauth1 (>=3.14.0)",
-    "openstacksdk (>=0.15.0)",
-    "oslo.i18n (>=3.15.3)",
-    "oslo.utils (>=3.33.0)",
-    "pbr (!=2.1.0,>=2.0.0)",
-    "simplejson (>=3.5.1)",
-    "stevedore (>=1.20.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cliff",
+      "keystoneauth1",
+      "openstacksdk",
+      "oslo.i18n",
+      "oslo.utils",
+      "pbr",
+      "simplejson",
+      "stevedore"
+    ],
+    "specifiers": [
+      "cliff (>=3.2.0)",
+      "keystoneauth1 (>=3.14.0)",
+      "openstacksdk (>=0.15.0)",
+      "oslo.i18n (>=3.15.3)",
+      "oslo.utils (>=3.33.0)",
+      "pbr (!=2.1.0,>=2.0.0)",
+      "simplejson (>=3.5.1)",
+      "stevedore (>=1.20.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

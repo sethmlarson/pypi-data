@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "paramiko (>=1.15.2)"
-  ],
-  "requires_extras": {
-    "build_sphinx": [
-      "sphinx; extra=='build_sphinx'",
-      "sphinxcontrib-napoleon; extra=='build_sphinx'"
+  "requires_dist": {
+    "dists": [
+      "paramiko"
+    ],
+    "specifiers": [
+      "paramiko (>=1.15.2)"
     ]
+  },
+  "requires_extras": {
+    "build_sphinx": {
+      "dists": [
+        "sphinx",
+        "sphinxcontrib-napoleon"
+      ],
+      "specifiers": [
+        "sphinx; extra=='build_sphinx'",
+        "sphinxcontrib-napoleon; extra=='build_sphinx'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

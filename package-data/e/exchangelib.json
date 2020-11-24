@@ -1,31 +1,65 @@
 {
-  "requires_dist": [
-    "backports-datetime-fromisoformat; python_version<'3.7'",
-    "backports.zoneinfo; python_version<'3.9'",
-    "cached-property",
-    "defusedxml (>=0.6.0)",
-    "dnspython (>=2.0.0)",
-    "isodate",
-    "lxml (>3.0)",
-    "oauthlib",
-    "pygments",
-    "requests (>=2.7)",
-    "requests-ntlm (>=0.2.0)",
-    "requests-oauthlib",
-    "tzdata",
-    "tzlocal"
-  ],
-  "requires_extras": {
-    "complete": [
-      "requests-gssapi; extra=='complete'",
-      "requests-negotiate-sspi; extra=='complete'"
+  "requires_dist": {
+    "dists": [
+      "backports-datetime-fromisoformat",
+      "backports.zoneinfo",
+      "cached-property",
+      "defusedxml",
+      "dnspython",
+      "isodate",
+      "lxml",
+      "oauthlib",
+      "pygments",
+      "requests",
+      "requests-ntlm",
+      "requests-oauthlib",
+      "tzdata",
+      "tzlocal"
     ],
-    "kerberos": [
-      "requests-gssapi; extra=='kerberos'"
-    ],
-    "sspi": [
-      "requests-negotiate-sspi; extra=='sspi'"
+    "specifiers": [
+      "backports-datetime-fromisoformat; python_version<'3.7'",
+      "backports.zoneinfo; python_version<'3.9'",
+      "cached-property",
+      "defusedxml (>=0.6.0)",
+      "dnspython (>=2.0.0)",
+      "isodate",
+      "lxml (>3.0)",
+      "oauthlib",
+      "pygments",
+      "requests (>=2.7)",
+      "requests-ntlm (>=0.2.0)",
+      "requests-oauthlib",
+      "tzdata",
+      "tzlocal"
     ]
+  },
+  "requires_extras": {
+    "complete": {
+      "dists": [
+        "requests-gssapi",
+        "requests-negotiate-sspi"
+      ],
+      "specifiers": [
+        "requests-gssapi; extra=='complete'",
+        "requests-negotiate-sspi; extra=='complete'"
+      ]
+    },
+    "kerberos": {
+      "dists": [
+        "requests-gssapi"
+      ],
+      "specifiers": [
+        "requests-gssapi; extra=='kerberos'"
+      ]
+    },
+    "sspi": {
+      "dists": [
+        "requests-negotiate-sspi"
+      ],
+      "specifiers": [
+        "requests-negotiate-sspi; extra=='sspi'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

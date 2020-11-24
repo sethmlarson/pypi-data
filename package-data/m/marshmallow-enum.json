@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "marshmallow (>=2.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "marshmallow"
+    ],
+    "specifiers": [
+      "marshmallow (>=2.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

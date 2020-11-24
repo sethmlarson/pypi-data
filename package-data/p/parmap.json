@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "progress_bar": [
-      "tqdm (>=4.8.4); extra=='progress_bar'"
-    ]
+    "progress_bar": {
+      "dists": [
+        "tqdm"
+      ],
+      "specifiers": [
+        "tqdm (>=4.8.4); extra=='progress_bar'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

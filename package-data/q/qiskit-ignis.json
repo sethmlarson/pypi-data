@@ -1,21 +1,45 @@
 {
-  "requires_dist": [
-    "numpy (>=1.13)",
-    "qiskit-terra (>=0.13.0)",
-    "scikit-learn (>=0.17)",
-    "scipy (!=0.19.1,>=0.19)",
-    "setuptools (>=40.1.0)"
-  ],
-  "requires_extras": {
-    "cvx": [
-      "cvxpy (>=1.0.15); extra=='cvx'"
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "qiskit-terra",
+      "scikit-learn",
+      "scipy",
+      "setuptools"
     ],
-    "jit": [
-      "numba; extra=='jit'"
-    ],
-    "visualization": [
-      "matplotlib (>=2.1); extra=='visualization'"
+    "specifiers": [
+      "numpy (>=1.13)",
+      "qiskit-terra (>=0.13.0)",
+      "scikit-learn (>=0.17)",
+      "scipy (!=0.19.1,>=0.19)",
+      "setuptools (>=40.1.0)"
     ]
+  },
+  "requires_extras": {
+    "cvx": {
+      "dists": [
+        "cvxpy"
+      ],
+      "specifiers": [
+        "cvxpy (>=1.0.15); extra=='cvx'"
+      ]
+    },
+    "jit": {
+      "dists": [
+        "numba"
+      ],
+      "specifiers": [
+        "numba; extra=='jit'"
+      ]
+    },
+    "visualization": {
+      "dists": [
+        "matplotlib"
+      ],
+      "specifiers": [
+        "matplotlib (>=2.1); extra=='visualization'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

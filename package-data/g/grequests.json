@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "gevent",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "gevent",
+      "requests"
+    ],
+    "specifiers": [
+      "gevent",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

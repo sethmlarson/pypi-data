@@ -1,14 +1,27 @@
 {
-  "requires_dist": [
-    "lxml (>=3.3.5)",
-    "networkx (>=2.0)",
-    "python-dateutil (>=2.2)",
-    "rdflib (>=4.2.1)"
-  ],
-  "requires_extras": {
-    "dot": [
-      "pydot (>=1.2.0); extra=='dot'"
+  "requires_dist": {
+    "dists": [
+      "lxml",
+      "networkx",
+      "python-dateutil",
+      "rdflib"
+    ],
+    "specifiers": [
+      "lxml (>=3.3.5)",
+      "networkx (>=2.0)",
+      "python-dateutil (>=2.2)",
+      "rdflib (>=4.2.1)"
     ]
+  },
+  "requires_extras": {
+    "dot": {
+      "dists": [
+        "pydot"
+      ],
+      "specifiers": [
+        "pydot (>=1.2.0); extra=='dot'"
+      ]
+    }
   },
   "requires_python": ">=3.6, <4",
   "yanked": []

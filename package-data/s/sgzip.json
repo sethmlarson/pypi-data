@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "geopy",
-    "pandas",
-    "shapely"
-  ],
+  "requires_dist": {
+    "dists": [
+      "geopy",
+      "pandas",
+      "shapely"
+    ],
+    "specifiers": [
+      "geopy",
+      "pandas",
+      "shapely"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

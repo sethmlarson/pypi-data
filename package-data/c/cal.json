@@ -1,15 +1,31 @@
 {
-  "requires_dist": [
-    "python-dateutil",
-    "TFL (>=3)"
-  ],
-  "requires_extras": {
-    "icalendar": [
-      "icalendar; extra=='icalendar'"
+  "requires_dist": {
+    "dists": [
+      "python-dateutil",
+      "tfl"
     ],
-    "pdf": [
-      "reportlab; extra=='pdf'"
+    "specifiers": [
+      "python-dateutil",
+      "tfl (>=3)"
     ]
+  },
+  "requires_extras": {
+    "icalendar": {
+      "dists": [
+        "icalendar"
+      ],
+      "specifiers": [
+        "icalendar; extra=='icalendar'"
+      ]
+    },
+    "pdf": {
+      "dists": [
+        "reportlab"
+      ],
+      "specifiers": [
+        "reportlab; extra=='pdf'"
+      ]
+    }
   },
   "requires_python": ">=3.7",
   "yanked": []

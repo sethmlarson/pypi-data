@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "python-dateutil (>=1.5)",
-    "six (>=1.10.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "python-dateutil",
+      "six"
+    ],
+    "specifiers": [
+      "python-dateutil (>=1.5)",
+      "six (>=1.10.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

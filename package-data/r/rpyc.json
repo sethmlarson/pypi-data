@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "plumbum"
-  ],
+  "requires_dist": {
+    "dists": [
+      "plumbum"
+    ],
+    "specifiers": [
+      "plumbum"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

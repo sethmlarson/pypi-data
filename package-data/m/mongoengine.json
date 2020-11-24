@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pymongo (<4.0,>=3.4)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pymongo"
+    ],
+    "specifiers": [
+      "pymongo (<4.0,>=3.4)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

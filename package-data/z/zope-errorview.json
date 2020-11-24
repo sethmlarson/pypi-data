@@ -1,19 +1,37 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "zope.component",
-    "zope.i18n",
-    "zope.i18nmessageid",
-    "zope.interface",
-    "zope.publisher",
-    "zope.security"
-  ],
-  "requires_extras": {
-    "browser": [
-      "zope.authentication; extra=='browser'",
-      "zope.browser; extra=='browser'",
-      "zope.browserpage; extra=='browser'"
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "zope.component",
+      "zope.i18n",
+      "zope.i18nmessageid",
+      "zope.interface",
+      "zope.publisher",
+      "zope.security"
+    ],
+    "specifiers": [
+      "setuptools",
+      "zope.component",
+      "zope.i18n",
+      "zope.i18nmessageid",
+      "zope.interface",
+      "zope.publisher",
+      "zope.security"
     ]
+  },
+  "requires_extras": {
+    "browser": {
+      "dists": [
+        "zope.authentication",
+        "zope.browser",
+        "zope.browserpage"
+      ],
+      "specifiers": [
+        "zope.authentication; extra=='browser'",
+        "zope.browser; extra=='browser'",
+        "zope.browserpage; extra=='browser'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

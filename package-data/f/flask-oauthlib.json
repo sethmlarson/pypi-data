@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "cachelib",
-    "Flask",
-    "oauthlib (!=2.0.3,!=2.0.4,!=2.0.5,<3.0.0,>=1.1.2)",
-    "requests-oauthlib (<1.2.0,>=0.6.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cachelib",
+      "flask",
+      "oauthlib",
+      "requests-oauthlib"
+    ],
+    "specifiers": [
+      "cachelib",
+      "flask",
+      "oauthlib (!=2.0.3,!=2.0.4,!=2.0.5,<3.0.0,>=1.1.2)",
+      "requests-oauthlib (<1.2.0,>=0.6.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

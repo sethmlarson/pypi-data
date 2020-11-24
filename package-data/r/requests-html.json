@@ -1,13 +1,24 @@
 {
-  "requires_dist": [
-    "bs4",
-    "fake-useragent",
-    "parse",
-    "pyppeteer (>=0.0.14)",
-    "pyquery",
-    "requests",
-    "w3lib"
-  ],
+  "requires_dist": {
+    "dists": [
+      "bs4",
+      "fake-useragent",
+      "parse",
+      "pyppeteer",
+      "pyquery",
+      "requests",
+      "w3lib"
+    ],
+    "specifiers": [
+      "bs4",
+      "fake-useragent",
+      "parse",
+      "pyppeteer (>=0.0.14)",
+      "pyquery",
+      "requests",
+      "w3lib"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.0",
   "yanked": []

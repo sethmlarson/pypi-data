@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "sphinx"
-  ],
+  "requires_dist": {
+    "dists": [
+      "sphinx"
+    ],
+    "specifiers": [
+      "sphinx"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

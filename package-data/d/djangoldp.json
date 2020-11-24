@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "django (~=2.2)",
-    "django-brotli",
-    "django-guardian (==2.3.0)",
-    "django-rest-framework",
-    "djangorestframework-guardian",
-    "pyld (==1.0.5)",
-    "requests",
-    "validators (~=0.12)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "django-brotli",
+      "django-guardian",
+      "django-rest-framework",
+      "djangorestframework-guardian",
+      "pyld",
+      "requests",
+      "validators"
+    ],
+    "specifiers": [
+      "django (~=2.2)",
+      "django-brotli",
+      "django-guardian (==2.3.0)",
+      "django-rest-framework",
+      "djangorestframework-guardian",
+      "pyld (==1.0.5)",
+      "requests",
+      "validators (~=0.12)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": [

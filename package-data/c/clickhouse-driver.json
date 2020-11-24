@@ -1,19 +1,39 @@
 {
-  "requires_dist": [
-    "enum34; python_version<'3.4'",
-    "ipaddress; python_version<'3.4'",
-    "pytz",
-    "tzlocal"
-  ],
-  "requires_extras": {
-    "lz4": [
-      "clickhouse-cityhash (>=1.0.2.1); extra=='lz4'",
-      "lz4 (<=3.0.1); extra=='lz4'"
+  "requires_dist": {
+    "dists": [
+      "enum34",
+      "ipaddress",
+      "pytz",
+      "tzlocal"
     ],
-    "zstd": [
-      "clickhouse-cityhash (>=1.0.2.1); extra=='zstd'",
-      "zstd; extra=='zstd'"
+    "specifiers": [
+      "enum34; python_version<'3.4'",
+      "ipaddress; python_version<'3.4'",
+      "pytz",
+      "tzlocal"
     ]
+  },
+  "requires_extras": {
+    "lz4": {
+      "dists": [
+        "clickhouse-cityhash",
+        "lz4"
+      ],
+      "specifiers": [
+        "clickhouse-cityhash (>=1.0.2.1); extra=='lz4'",
+        "lz4 (<=3.0.1); extra=='lz4'"
+      ]
+    },
+    "zstd": {
+      "dists": [
+        "clickhouse-cityhash",
+        "zstd"
+      ],
+      "specifiers": [
+        "clickhouse-cityhash (>=1.0.2.1); extra=='zstd'",
+        "zstd; extra=='zstd'"
+      ]
+    }
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
   "yanked": []

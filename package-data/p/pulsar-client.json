@@ -1,15 +1,28 @@
 {
-  "requires_dist": [
-    "apache-bookkeeper-client (>=4.9.2)",
-    "certifi",
-    "enum34 (>=1.1.9); python_version<'3.4'",
-    "fastavro",
-    "grpcio",
-    "prometheus-client",
-    "protobuf (>=3.6.1)",
-    "ratelimit",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "apache-bookkeeper-client",
+      "certifi",
+      "enum34",
+      "fastavro",
+      "grpcio",
+      "prometheus-client",
+      "protobuf",
+      "ratelimit",
+      "six"
+    ],
+    "specifiers": [
+      "apache-bookkeeper-client (>=4.9.2)",
+      "certifi",
+      "enum34 (>=1.1.9); python_version<'3.4'",
+      "fastavro",
+      "grpcio",
+      "prometheus-client",
+      "protobuf (>=3.6.1)",
+      "ratelimit",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

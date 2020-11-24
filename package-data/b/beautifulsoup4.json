@@ -1,15 +1,31 @@
 {
-  "requires_dist": [
-    "soupsieve (<2.0,>1.2); python_version<'3.0'",
-    "soupsieve (>1.2); python_version>='3.0'"
-  ],
-  "requires_extras": {
-    "html5lib": [
-      "html5lib; extra=='html5lib'"
+  "requires_dist": {
+    "dists": [
+      "soupsieve",
+      "soupsieve"
     ],
-    "lxml": [
-      "lxml; extra=='lxml'"
+    "specifiers": [
+      "soupsieve (<2.0,>1.2); python_version<'3.0'",
+      "soupsieve (>1.2); python_version>='3.0'"
     ]
+  },
+  "requires_extras": {
+    "html5lib": {
+      "dists": [
+        "html5lib"
+      ],
+      "specifiers": [
+        "html5lib; extra=='html5lib'"
+      ]
+    },
+    "lxml": {
+      "dists": [
+        "lxml"
+      ],
+      "specifiers": [
+        "lxml; extra=='lxml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

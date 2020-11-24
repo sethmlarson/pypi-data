@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "easyprocess",
-    "entrypoint2"
-  ],
+  "requires_dist": {
+    "dists": [
+      "easyprocess",
+      "entrypoint2"
+    ],
+    "specifiers": [
+      "easyprocess",
+      "entrypoint2"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

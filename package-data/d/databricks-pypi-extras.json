@@ -1,12 +1,25 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "db1": [
-      "databricks-pypi1; extra=='db1'"
-    ],
-    "db2": [
-      "databricks-pypi2; extra=='db2'"
-    ]
+    "db1": {
+      "dists": [
+        "databricks-pypi1"
+      ],
+      "specifiers": [
+        "databricks-pypi1; extra=='db1'"
+      ]
+    },
+    "db2": {
+      "dists": [
+        "databricks-pypi2"
+      ],
+      "specifiers": [
+        "databricks-pypi2; extra=='db2'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

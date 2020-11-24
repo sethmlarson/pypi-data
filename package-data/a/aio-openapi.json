@@ -1,20 +1,38 @@
 {
-  "requires_dist": [
-    "aiohttp",
-    "alembic",
-    "asyncpg",
-    "click",
-    "email-validator",
-    "httptools",
-    "psycopg2-binary",
-    "python-dateutil",
-    "pytz",
-    "pyyaml",
-    "simplejson",
-    "sqlalchemy",
-    "sqlalchemy-utils",
-    "uvloop"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "alembic",
+      "asyncpg",
+      "click",
+      "email-validator",
+      "httptools",
+      "psycopg2-binary",
+      "python-dateutil",
+      "pytz",
+      "pyyaml",
+      "simplejson",
+      "sqlalchemy",
+      "sqlalchemy-utils",
+      "uvloop"
+    ],
+    "specifiers": [
+      "aiohttp",
+      "alembic",
+      "asyncpg",
+      "click",
+      "email-validator",
+      "httptools",
+      "psycopg2-binary",
+      "python-dateutil",
+      "pytz",
+      "pyyaml",
+      "simplejson",
+      "sqlalchemy",
+      "sqlalchemy-utils",
+      "uvloop"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

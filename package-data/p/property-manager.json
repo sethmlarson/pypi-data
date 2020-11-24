@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "humanfriendly (>=8.0)",
-    "verboselogs (>=1.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "humanfriendly",
+      "verboselogs"
+    ],
+    "specifiers": [
+      "humanfriendly (>=8.0)",
+      "verboselogs (>=1.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "sqlparse (==0.4.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "sqlparse"
+    ],
+    "specifiers": [
+      "sqlparse (==0.4.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

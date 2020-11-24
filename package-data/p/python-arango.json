@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "PyJWT",
-    "requests",
-    "requests-toolbelt",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyjwt",
+      "requests",
+      "requests-toolbelt",
+      "six"
+    ],
+    "specifiers": [
+      "pyjwt",
+      "requests",
+      "requests-toolbelt",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

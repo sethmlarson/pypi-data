@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "cloudformation-cli (<0.2,>=0.1.10)",
-    "docker (<5,>=3.7)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cloudformation-cli",
+      "docker"
+    ],
+    "specifiers": [
+      "cloudformation-cli (<0.2,>=0.1.10)",
+      "docker (<5,>=3.7)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

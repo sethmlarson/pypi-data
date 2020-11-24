@@ -1,15 +1,28 @@
 {
-  "requires_dist": [
-    "cachetools (>=3.1)",
-    "flask (>=1.1)",
-    "flask-cors",
-    "k8kat (>=0.0.225)",
-    "pymongo",
-    "redis (>=3)",
-    "requests",
-    "rq",
-    "validators"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cachetools",
+      "flask",
+      "flask-cors",
+      "k8kat",
+      "pymongo",
+      "redis",
+      "requests",
+      "rq",
+      "validators"
+    ],
+    "specifiers": [
+      "cachetools (>=3.1)",
+      "flask (>=1.1)",
+      "flask-cors",
+      "k8kat (>=0.0.225)",
+      "pymongo",
+      "redis (>=3)",
+      "requests",
+      "rq",
+      "validators"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

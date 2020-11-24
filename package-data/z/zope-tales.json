@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "six",
-    "zope.interface"
-  ],
-  "requires_extras": {
-    "tal": [
-      "zope.tal; extra=='tal'"
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "six",
+      "zope.interface"
+    ],
+    "specifiers": [
+      "setuptools",
+      "six",
+      "zope.interface"
     ]
+  },
+  "requires_extras": {
+    "tal": {
+      "dists": [
+        "zope.tal"
+      ],
+      "specifiers": [
+        "zope.tal; extra=='tal'"
+      ]
+    }
   },
   "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*",
   "yanked": []

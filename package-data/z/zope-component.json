@@ -1,31 +1,67 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "zope.deferredimport (>=4.2.1)",
-    "zope.deprecation (>=4.3.0)",
-    "zope.event",
-    "zope.hookable (>=4.2.0)",
-    "zope.interface (>=4.1.0)"
-  ],
-  "requires_extras": {
-    "mintests": [
-      "zope.configuration; extra=='mintests'",
-      "zope.i18nmessageid; extra=='mintests'",
-      "zope.testing; extra=='mintests'",
-      "zope.testrunner; extra=='mintests'"
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "zope.deferredimport",
+      "zope.deprecation",
+      "zope.event",
+      "zope.hookable",
+      "zope.interface"
     ],
-    "persistentregistry": [
-      "persistent; extra=='persistentregistry'"
-    ],
-    "security": [
-      "zope.location; extra=='security'",
-      "zope.proxy; extra=='security'",
-      "zope.security; extra=='security'"
-    ],
-    "zcml": [
-      "zope.configuration; extra=='zcml'",
-      "zope.i18nmessageid; extra=='zcml'"
+    "specifiers": [
+      "setuptools",
+      "zope.deferredimport (>=4.2.1)",
+      "zope.deprecation (>=4.3.0)",
+      "zope.event",
+      "zope.hookable (>=4.2.0)",
+      "zope.interface (>=4.1.0)"
     ]
+  },
+  "requires_extras": {
+    "mintests": {
+      "dists": [
+        "zope.configuration",
+        "zope.i18nmessageid",
+        "zope.testing",
+        "zope.testrunner"
+      ],
+      "specifiers": [
+        "zope.configuration; extra=='mintests'",
+        "zope.i18nmessageid; extra=='mintests'",
+        "zope.testing; extra=='mintests'",
+        "zope.testrunner; extra=='mintests'"
+      ]
+    },
+    "persistentregistry": {
+      "dists": [
+        "persistent"
+      ],
+      "specifiers": [
+        "persistent; extra=='persistentregistry'"
+      ]
+    },
+    "security": {
+      "dists": [
+        "zope.location",
+        "zope.proxy",
+        "zope.security"
+      ],
+      "specifiers": [
+        "zope.location; extra=='security'",
+        "zope.proxy; extra=='security'",
+        "zope.security; extra=='security'"
+      ]
+    },
+    "zcml": {
+      "dists": [
+        "zope.configuration",
+        "zope.i18nmessageid"
+      ],
+      "specifiers": [
+        "zope.configuration; extra=='zcml'",
+        "zope.i18nmessageid; extra=='zcml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

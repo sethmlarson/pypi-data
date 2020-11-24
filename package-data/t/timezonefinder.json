@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "numpy (>=1.16)"
-  ],
-  "requires_extras": {
-    "numba": [
-      "numba (>=0.48); extra=='numba'"
+  "requires_dist": {
+    "dists": [
+      "numpy"
+    ],
+    "specifiers": [
+      "numpy (>=1.16)"
     ]
+  },
+  "requires_extras": {
+    "numba": {
+      "dists": [
+        "numba"
+      ],
+      "specifiers": [
+        "numba (>=0.48); extra=='numba'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

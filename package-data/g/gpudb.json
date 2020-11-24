@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "future",
-    "pyzmq"
-  ],
+  "requires_dist": {
+    "dists": [
+      "future",
+      "pyzmq"
+    ],
+    "specifiers": [
+      "future",
+      "pyzmq"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

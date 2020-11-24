@@ -1,49 +1,111 @@
 {
-  "requires_dist": [
-    "click (>=7.0.0)",
-    "cloudpickle (>=0.4.0)",
-    "dask[dataframe] (>=2.12.0)",
-    "distributed (>=2.12.0)",
-    "numpy (>=1.13.3)",
-    "pandas (!=1.1.0,!=1.1.1,<2.0.0,>=0.24.1)",
-    "psutil (>=5.4.8)",
-    "pyyaml (>=3.12)",
-    "scipy (>=0.13.3)",
-    "tqdm (>=4.32.0)"
-  ],
-  "requires_extras": {
-    "autonormalize": [
-      "autonormalize (>=1.0.0); extra=='autonormalize'"
+  "requires_dist": {
+    "dists": [
+      "click",
+      "cloudpickle",
+      "dask",
+      "distributed",
+      "numpy",
+      "pandas",
+      "psutil",
+      "pyyaml",
+      "scipy",
+      "tqdm"
     ],
-    "categorical_encoding": [
-      "categorical-encoding (>=0.2.0); extra=='categorical_encoding'"
-    ],
-    "complete": [
-      "autonormalize (>=1.0.0); extra=='complete'",
-      "categorical-encoding (>=0.2.0); extra=='complete'",
-      "featuretools-sklearn-transformer (>=0.1.1); extra=='complete'",
-      "featuretools-tsfresh-primitives (>=0.1.0); extra=='complete'",
-      "featuretools-update-checker (>=1.0.0); extra=='complete'",
-      "koalas (>=1.1.0); extra=='complete'",
-      "nlp-primitives[complete] (>=1.0.0); extra=='complete'",
-      "pyspark (>=3.0.0); extra=='complete'"
-    ],
-    "koalas": [
-      "koalas (>=1.1.0); extra=='koalas'",
-      "pyspark (>=3.0.0); extra=='koalas'"
-    ],
-    "nlp_primitives": [
-      "nlp-primitives[complete] (>=1.0.0); extra=='nlp_primitives'"
-    ],
-    "sklearn_transformer": [
-      "featuretools-sklearn-transformer (>=0.1.1); extra=='sklearn_transformer'"
-    ],
-    "tsfresh": [
-      "featuretools-tsfresh-primitives (>=0.1.0); extra=='tsfresh'"
-    ],
-    "update_checker": [
-      "featuretools-update-checker (>=1.0.0); extra=='update_checker'"
+    "specifiers": [
+      "click (>=7.0.0)",
+      "cloudpickle (>=0.4.0)",
+      "dask[dataframe] (>=2.12.0)",
+      "distributed (>=2.12.0)",
+      "numpy (>=1.13.3)",
+      "pandas (!=1.1.0,!=1.1.1,<2.0.0,>=0.24.1)",
+      "psutil (>=5.4.8)",
+      "pyyaml (>=3.12)",
+      "scipy (>=0.13.3)",
+      "tqdm (>=4.32.0)"
     ]
+  },
+  "requires_extras": {
+    "autonormalize": {
+      "dists": [
+        "autonormalize"
+      ],
+      "specifiers": [
+        "autonormalize (>=1.0.0); extra=='autonormalize'"
+      ]
+    },
+    "categorical_encoding": {
+      "dists": [
+        "categorical-encoding"
+      ],
+      "specifiers": [
+        "categorical-encoding (>=0.2.0); extra=='categorical_encoding'"
+      ]
+    },
+    "complete": {
+      "dists": [
+        "autonormalize",
+        "categorical-encoding",
+        "featuretools-sklearn-transformer",
+        "featuretools-tsfresh-primitives",
+        "featuretools-update-checker",
+        "koalas",
+        "nlp-primitives",
+        "pyspark"
+      ],
+      "specifiers": [
+        "autonormalize (>=1.0.0); extra=='complete'",
+        "categorical-encoding (>=0.2.0); extra=='complete'",
+        "featuretools-sklearn-transformer (>=0.1.1); extra=='complete'",
+        "featuretools-tsfresh-primitives (>=0.1.0); extra=='complete'",
+        "featuretools-update-checker (>=1.0.0); extra=='complete'",
+        "koalas (>=1.1.0); extra=='complete'",
+        "nlp-primitives[complete] (>=1.0.0); extra=='complete'",
+        "pyspark (>=3.0.0); extra=='complete'"
+      ]
+    },
+    "koalas": {
+      "dists": [
+        "koalas",
+        "pyspark"
+      ],
+      "specifiers": [
+        "koalas (>=1.1.0); extra=='koalas'",
+        "pyspark (>=3.0.0); extra=='koalas'"
+      ]
+    },
+    "nlp_primitives": {
+      "dists": [
+        "nlp-primitives"
+      ],
+      "specifiers": [
+        "nlp-primitives[complete] (>=1.0.0); extra=='nlp_primitives'"
+      ]
+    },
+    "sklearn_transformer": {
+      "dists": [
+        "featuretools-sklearn-transformer"
+      ],
+      "specifiers": [
+        "featuretools-sklearn-transformer (>=0.1.1); extra=='sklearn_transformer'"
+      ]
+    },
+    "tsfresh": {
+      "dists": [
+        "featuretools-tsfresh-primitives"
+      ],
+      "specifiers": [
+        "featuretools-tsfresh-primitives (>=0.1.0); extra=='tsfresh'"
+      ]
+    },
+    "update_checker": {
+      "dists": [
+        "featuretools-update-checker"
+      ],
+      "specifiers": [
+        "featuretools-update-checker (>=1.0.0); extra=='update_checker'"
+      ]
+    }
   },
   "requires_python": ">=3.6, <4",
   "yanked": []

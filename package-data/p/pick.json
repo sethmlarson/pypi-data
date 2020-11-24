@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "windows-curses; platform_system=='Windows'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "windows-curses"
+    ],
+    "specifiers": [
+      "windows-curses; platform_system=='windows'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

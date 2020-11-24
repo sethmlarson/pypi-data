@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "supervisor"
-  ],
+  "requires_dist": {
+    "dists": [
+      "supervisor"
+    ],
+    "specifiers": [
+      "supervisor"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

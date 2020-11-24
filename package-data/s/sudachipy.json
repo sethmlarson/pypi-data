@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "dartsclone (~=0.9.0)",
-    "sortedcontainers (~=2.1.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dartsclone",
+      "sortedcontainers"
+    ],
+    "specifiers": [
+      "dartsclone (~=0.9.0)",
+      "sortedcontainers (~=2.1.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

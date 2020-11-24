@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "iso3166 (>=0.7)",
-    "pycountry (<=18.12.8); (python_version=='2.7')",
-    "pycountry; (python_version>='3.5')"
-  ],
+  "requires_dist": {
+    "dists": [
+      "iso3166",
+      "pycountry",
+      "pycountry"
+    ],
+    "specifiers": [
+      "iso3166 (>=0.7)",
+      "pycountry (<=18.12.8); (python_version=='2.7')",
+      "pycountry; (python_version>='3.5')"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

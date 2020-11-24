@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "faker",
-    "robotframework",
-    "wrapt"
-  ],
+  "requires_dist": {
+    "dists": [
+      "faker",
+      "robotframework",
+      "wrapt"
+    ],
+    "specifiers": [
+      "faker",
+      "robotframework",
+      "wrapt"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

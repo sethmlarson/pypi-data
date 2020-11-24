@@ -1,31 +1,71 @@
 {
-  "requires_dist": [
-    "numba (>=0.28)",
-    "numpy (>=1.11)",
-    "packaging",
-    "pandas (>=0.19)",
-    "six",
-    "thrift (>=0.11.0)"
-  ],
-  "requires_extras": {
-    "brotli": [
-      "brotli; extra=='brotli'"
+  "requires_dist": {
+    "dists": [
+      "numba",
+      "numpy",
+      "packaging",
+      "pandas",
+      "six",
+      "thrift"
     ],
-    "lz4": [
-      "lz4 (>=0.19.1); extra=='lz4'"
-    ],
-    "lzo": [
-      "python-lzo; extra=='lzo'"
-    ],
-    "snappy": [
-      "python-snappy; extra=='snappy'"
-    ],
-    "zstandard": [
-      "zstandard; extra=='zstandard'"
-    ],
-    "zstd": [
-      "zstd; extra=='zstd'"
+    "specifiers": [
+      "numba (>=0.28)",
+      "numpy (>=1.11)",
+      "packaging",
+      "pandas (>=0.19)",
+      "six",
+      "thrift (>=0.11.0)"
     ]
+  },
+  "requires_extras": {
+    "brotli": {
+      "dists": [
+        "brotli"
+      ],
+      "specifiers": [
+        "brotli; extra=='brotli'"
+      ]
+    },
+    "lz4": {
+      "dists": [
+        "lz4"
+      ],
+      "specifiers": [
+        "lz4 (>=0.19.1); extra=='lz4'"
+      ]
+    },
+    "lzo": {
+      "dists": [
+        "python-lzo"
+      ],
+      "specifiers": [
+        "python-lzo; extra=='lzo'"
+      ]
+    },
+    "snappy": {
+      "dists": [
+        "python-snappy"
+      ],
+      "specifiers": [
+        "python-snappy; extra=='snappy'"
+      ]
+    },
+    "zstandard": {
+      "dists": [
+        "zstandard"
+      ],
+      "specifiers": [
+        "zstandard; extra=='zstandard'"
+      ]
+    },
+    "zstd": {
+      "dists": [
+        "zstd"
+      ],
+      "specifiers": [
+        "zstd; extra=='zstd'"
+      ]
+    }
   },
   "requires_python": ">=3.6,",
   "yanked": []

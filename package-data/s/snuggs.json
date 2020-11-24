@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "numpy",
-    "pyparsing (>=2.1.6)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "pyparsing"
+    ],
+    "specifiers": [
+      "numpy",
+      "pyparsing (>=2.1.6)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "traitlets (>=4.2.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "traitlets"
+    ],
+    "specifiers": [
+      "traitlets (>=4.2.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

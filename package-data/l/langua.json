@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "numpy",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "six"
+    ],
+    "specifiers": [
+      "numpy",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

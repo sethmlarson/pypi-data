@@ -1,17 +1,35 @@
 {
-  "requires_dist": [
-    "certifi",
-    "httpcore (==0.12.*)",
-    "rfc3986[idna2008] (<2,>=1.3)",
-    "sniffio"
-  ],
-  "requires_extras": {
-    "brotli": [
-      "brotlipy (==0.7.*); extra=='brotli'"
+  "requires_dist": {
+    "dists": [
+      "certifi",
+      "httpcore",
+      "rfc3986",
+      "sniffio"
     ],
-    "http2": [
-      "h2 (==3.*); extra=='http2'"
+    "specifiers": [
+      "certifi",
+      "httpcore (==0.12.*)",
+      "rfc3986[idna2008] (<2,>=1.3)",
+      "sniffio"
     ]
+  },
+  "requires_extras": {
+    "brotli": {
+      "dists": [
+        "brotlipy"
+      ],
+      "specifiers": [
+        "brotlipy (==0.7.*); extra=='brotli'"
+      ]
+    },
+    "http2": {
+      "dists": [
+        "h2"
+      ],
+      "specifiers": [
+        "h2 (==3.*); extra=='http2'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

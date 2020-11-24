@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "beautifulsoup4 (>=4.8.0,<5.0.0)",
-    "django (>=2.2,<4.0)",
-    "importlib-metadata (<3); python_version<'3.8'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "beautifulsoup4",
+      "django",
+      "importlib-metadata"
+    ],
+    "specifiers": [
+      "beautifulsoup4 (>=4.8.0,<5.0.0)",
+      "django (>=2.2,<4.0)",
+      "importlib-metadata (<3); python_version<'3.8'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6,<4.0",
   "yanked": []

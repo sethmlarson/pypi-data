@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "cssselect (>=0.9)",
-    "functools32; python_version<'3.0'",
-    "lxml",
-    "six (>=1.6.0)",
-    "w3lib (>=1.19.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cssselect",
+      "functools32",
+      "lxml",
+      "six",
+      "w3lib"
+    ],
+    "specifiers": [
+      "cssselect (>=0.9)",
+      "functools32; python_version<'3.0'",
+      "lxml",
+      "six (>=1.6.0)",
+      "w3lib (>=1.19.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

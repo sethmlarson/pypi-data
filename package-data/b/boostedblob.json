@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "aiohttp (>=3.7.2,<4.0.0)",
-    "pycryptodomex (>=3.9,<4.0)",
-    "uvloop (>=0.14,<0.15)",
-    "xmltodict (>=0.12,<0.13)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "pycryptodomex",
+      "uvloop",
+      "xmltodict"
+    ],
+    "specifiers": [
+      "aiohttp (>=3.7.2,<4.0.0)",
+      "pycryptodomex (>=3.9,<4.0)",
+      "uvloop (>=0.14,<0.15)",
+      "xmltodict (>=0.12,<0.13)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.7,<4.0",
   "yanked": []

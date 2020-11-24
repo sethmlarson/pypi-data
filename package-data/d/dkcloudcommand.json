@@ -1,19 +1,36 @@
 {
-  "requires_dist": [
-    "aniso8601 (==6.0.0)",
-    "click (==7.0)",
-    "idna (==2.6)",
-    "Jinja2 (==2.7.3)",
-    "MarkupSafe (==0.23)",
-    "mixpanel (==4.6.0)",
-    "prettytable (==0.7.2)",
-    "PyJWT (==1.6.1)",
-    "pyopenssl (==18.0.0)",
-    "pytz (==2017.2)",
-    "requests (==2.22.0)",
-    "six (==1.12.0)",
-    "websocket-client (==0.32.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aniso8601",
+      "click",
+      "idna",
+      "jinja2",
+      "markupsafe",
+      "mixpanel",
+      "prettytable",
+      "pyjwt",
+      "pyopenssl",
+      "pytz",
+      "requests",
+      "six",
+      "websocket-client"
+    ],
+    "specifiers": [
+      "aniso8601 (==6.0.0)",
+      "click (==7.0)",
+      "idna (==2.6)",
+      "jinja2 (==2.7.3)",
+      "markupsafe (==0.23)",
+      "mixpanel (==4.6.0)",
+      "prettytable (==0.7.2)",
+      "pyjwt (==1.6.1)",
+      "pyopenssl (==18.0.0)",
+      "pytz (==2017.2)",
+      "requests (==2.22.0)",
+      "six (==1.12.0)",
+      "websocket-client (==0.32.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

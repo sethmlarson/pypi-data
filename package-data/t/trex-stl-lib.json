@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "jsonrpclib-pelix",
-    "pyyaml",
-    "pyzmq",
-    "scapy",
-    "simpy",
-    "texttable"
-  ],
+  "requires_dist": {
+    "dists": [
+      "jsonrpclib-pelix",
+      "pyyaml",
+      "pyzmq",
+      "scapy",
+      "simpy",
+      "texttable"
+    ],
+    "specifiers": [
+      "jsonrpclib-pelix",
+      "pyyaml",
+      "pyzmq",
+      "scapy",
+      "simpy",
+      "texttable"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

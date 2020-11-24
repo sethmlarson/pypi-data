@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Flask (>=0.9)",
-    "python-socketio (>=4.3.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flask",
+      "python-socketio"
+    ],
+    "specifiers": [
+      "flask (>=0.9)",
+      "python-socketio (>=4.3.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "dataclasses; python_version<'3.7'",
-    "h11 (<1,>=0.9.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dataclasses",
+      "h11"
+    ],
+    "specifiers": [
+      "dataclasses; python_version<'3.7'",
+      "h11 (<1,>=0.9.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.1",
   "yanked": []

@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "texttable (>=1.6.2)"
-  ],
-  "requires_extras": {
-    "plotting": [
-      "pycairo (>=1.18.0); extra=='plotting'"
+  "requires_dist": {
+    "dists": [
+      "texttable"
+    ],
+    "specifiers": [
+      "texttable (>=1.6.2)"
     ]
+  },
+  "requires_extras": {
+    "plotting": {
+      "dists": [
+        "pycairo"
+      ],
+      "specifiers": [
+        "pycairo (>=1.18.0); extra=='plotting'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

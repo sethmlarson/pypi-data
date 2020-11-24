@@ -1,24 +1,49 @@
 {
-  "requires_dist": [
-    "cliff",
-    "pbr (!=2.1.0,>=2.0.0)",
-    "requests (>=2.14.2)"
-  ],
-  "requires_extras": {
-    "postgresql": [
-      "psycopg2; extra=='postgresql'"
+  "requires_dist": {
+    "dists": [
+      "cliff",
+      "pbr",
+      "requests"
     ],
-    "server": [
-      "Django (<3.0,>=2.1.5); extra=='server'",
-      "django-cors-headers; extra=='server'",
-      "django-filter; extra=='server'",
-      "django-health-check; extra=='server'",
-      "djangorestframework (>=3.9.1); extra=='server'",
-      "dynaconf[yaml]; extra=='server'",
-      "pygments; extra=='server'",
-      "tzlocal; extra=='server'",
-      "whitenoise; extra=='server'"
+    "specifiers": [
+      "cliff",
+      "pbr (!=2.1.0,>=2.0.0)",
+      "requests (>=2.14.2)"
     ]
+  },
+  "requires_extras": {
+    "postgresql": {
+      "dists": [
+        "psycopg2"
+      ],
+      "specifiers": [
+        "psycopg2; extra=='postgresql'"
+      ]
+    },
+    "server": {
+      "dists": [
+        "django",
+        "django-cors-headers",
+        "django-filter",
+        "django-health-check",
+        "djangorestframework",
+        "dynaconf",
+        "pygments",
+        "tzlocal",
+        "whitenoise"
+      ],
+      "specifiers": [
+        "django (<3.0,>=2.1.5); extra=='server'",
+        "django-cors-headers; extra=='server'",
+        "django-filter; extra=='server'",
+        "django-health-check; extra=='server'",
+        "djangorestframework (>=3.9.1); extra=='server'",
+        "dynaconf[yaml]; extra=='server'",
+        "pygments; extra=='server'",
+        "tzlocal; extra=='server'",
+        "whitenoise; extra=='server'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

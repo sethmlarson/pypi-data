@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Flask (>=0.9)",
-    "Six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flask",
+      "six"
+    ],
+    "specifiers": [
+      "flask (>=0.9)",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,24 +1,51 @@
 {
-  "requires_dist": [
-    "clickclick (>=1.2)",
-    "flask (>=1.0.4)",
-    "inflection (>=0.3.1)",
-    "jsonschema (>=2.5.1)",
-    "openapi-spec-validator (>=0.2.4)",
-    "PyYAML (>=5.1)",
-    "requests (>=2.9.1)"
-  ],
-  "requires_extras": {
-    "aiohttp": [
-      "aiohttp (>=2.3.10); extra=='aiohttp'",
-      "aiohttp-jinja2 (>=0.14.0); extra=='aiohttp'"
+  "requires_dist": {
+    "dists": [
+      "clickclick",
+      "flask",
+      "inflection",
+      "jsonschema",
+      "openapi-spec-validator",
+      "pyyaml",
+      "requests"
     ],
-    "flask": [
-      "flask (>=1.0.4); extra=='flask'"
-    ],
-    "swagger-ui": [
-      "swagger-ui-bundle (>=0.0.2); extra=='swagger-ui'"
+    "specifiers": [
+      "clickclick (>=1.2)",
+      "flask (>=1.0.4)",
+      "inflection (>=0.3.1)",
+      "jsonschema (>=2.5.1)",
+      "openapi-spec-validator (>=0.2.4)",
+      "pyyaml (>=5.1)",
+      "requests (>=2.9.1)"
     ]
+  },
+  "requires_extras": {
+    "aiohttp": {
+      "dists": [
+        "aiohttp",
+        "aiohttp-jinja2"
+      ],
+      "specifiers": [
+        "aiohttp (>=2.3.10); extra=='aiohttp'",
+        "aiohttp-jinja2 (>=0.14.0); extra=='aiohttp'"
+      ]
+    },
+    "flask": {
+      "dists": [
+        "flask"
+      ],
+      "specifiers": [
+        "flask (>=1.0.4); extra=='flask'"
+      ]
+    },
+    "swagger-ui": {
+      "dists": [
+        "swagger-ui-bundle"
+      ],
+      "specifiers": [
+        "swagger-ui-bundle (>=0.0.2); extra=='swagger-ui'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

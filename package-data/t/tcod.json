@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "cffi (~=1.13)",
-    "numpy (~=1.10)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cffi",
+      "numpy"
+    ],
+    "specifiers": [
+      "cffi (~=1.13)",
+      "numpy (~=1.10)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

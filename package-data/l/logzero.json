@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "colorama; sys_platform=='win32'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "colorama"
+    ],
+    "specifiers": [
+      "colorama; sys_platform=='win32'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,15 +1,31 @@
 {
-  "requires_dist": [
-    "cython"
-  ],
-  "requires_extras": {
-    "numpy": [
-      "numpy; extra=='numpy'",
-      "scipy; extra=='numpy'"
+  "requires_dist": {
+    "dists": [
+      "cython"
     ],
-    "vis": [
-      "matplotlib; extra=='vis'"
+    "specifiers": [
+      "cython"
     ]
+  },
+  "requires_extras": {
+    "numpy": {
+      "dists": [
+        "numpy",
+        "scipy"
+      ],
+      "specifiers": [
+        "numpy; extra=='numpy'",
+        "scipy; extra=='numpy'"
+      ]
+    },
+    "vis": {
+      "dists": [
+        "matplotlib"
+      ],
+      "specifiers": [
+        "matplotlib; extra=='vis'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

@@ -1,62 +1,135 @@
 {
-  "requires_dist": [
-    "black (==19.10b0)",
-    "boto3 (<2.0,>=1.4.4)",
-    "click (<8.0,>=6.6)",
-    "croniter (<4.0.0,>=0.3.20)",
-    "deprecated (<2.0,>=1.0)",
-    "flyteidl (<1.0.0,>=0.18.9)",
-    "grpcio (<2.0,>=1.3.0)",
-    "ipykernel (>=5.0.0)",
-    "keyring (>=18.0.1)",
-    "papermill (>=1.2.0)",
-    "protobuf (<4,>=3.6.1)",
-    "python-dateutil (<=2.8.1,>=2.1)",
-    "pytimeparse (<2.0.0,>=1.1.8)",
-    "pytz (<2018.5,>=2017.2)",
-    "requests (<3.0.0,>=2.18.4)",
-    "responses (>=0.10.7)",
-    "retry (==0.9.2)",
-    "six (<2.0.0,>=1.9.0)",
-    "sortedcontainers (>=1.5.9<3.0.0)",
-    "statsd (<4.0.0,>=3.0.0)",
-    "urllib3 (<1.26.0,>=1.22)",
-    "wrapt (<2.0.0,>=1.0.0)"
-  ],
-  "requires_extras": {
-    "all-spark2.4": [
-      "hmsclient (<1.0.0,>=0.0.1); extra=='all-spark2.4'",
-      "k8s-proto (<1.0.0,>=0.0.3); extra=='all-spark2.4'",
-      "numpy (<2.0.0,>=1.14.0); extra=='all-spark2.4'",
-      "pandas (<2.0.0,>=0.22.0); extra=='all-spark2.4'",
-      "pyarrow (<1.0.0,>=0.11.0); extra=='all-spark2.4'",
-      "pyspark (<3.0.0,>=2.4.0); extra=='all-spark2.4'"
+  "requires_dist": {
+    "dists": [
+      "black",
+      "boto3",
+      "click",
+      "croniter",
+      "deprecated",
+      "flyteidl",
+      "grpcio",
+      "ipykernel",
+      "keyring",
+      "papermill",
+      "protobuf",
+      "python-dateutil",
+      "pytimeparse",
+      "pytz",
+      "requests",
+      "responses",
+      "retry",
+      "six",
+      "sortedcontainers",
+      "statsd",
+      "urllib3",
+      "wrapt"
     ],
-    "all-spark3": [
-      "hmsclient (<1.0.0,>=0.0.1); extra=='all-spark3'",
-      "k8s-proto (<1.0.0,>=0.0.3); extra=='all-spark3'",
-      "numpy (<2.0.0,>=1.14.0); extra=='all-spark3'",
-      "pandas (<2.0.0,>=0.22.0); extra=='all-spark3'",
-      "pyarrow (<1.0.0,>=0.11.0); extra=='all-spark3'",
-      "pyspark (>=3.0.0); extra=='all-spark3'"
-    ],
-    "hive_sensor": [
-      "hmsclient (<1.0.0,>=0.0.1); extra=='hive_sensor'"
-    ],
-    "schema": [
-      "numpy (<2.0.0,>=1.14.0); extra=='schema'",
-      "pandas (<2.0.0,>=0.22.0); extra=='schema'",
-      "pyarrow (<1.0.0,>=0.11.0); extra=='schema'"
-    ],
-    "sidecar": [
-      "k8s-proto (<1.0.0,>=0.0.3); extra=='sidecar'"
-    ],
-    "spark": [
-      "pyspark (<3.0.0,>=2.4.0); extra=='spark'"
-    ],
-    "spark3": [
-      "pyspark (>=3.0.0); extra=='spark3'"
+    "specifiers": [
+      "black (==19.10b0)",
+      "boto3 (<2.0,>=1.4.4)",
+      "click (<8.0,>=6.6)",
+      "croniter (<4.0.0,>=0.3.20)",
+      "deprecated (<2.0,>=1.0)",
+      "flyteidl (<1.0.0,>=0.18.9)",
+      "grpcio (<2.0,>=1.3.0)",
+      "ipykernel (>=5.0.0)",
+      "keyring (>=18.0.1)",
+      "papermill (>=1.2.0)",
+      "protobuf (<4,>=3.6.1)",
+      "python-dateutil (<=2.8.1,>=2.1)",
+      "pytimeparse (<2.0.0,>=1.1.8)",
+      "pytz (<2018.5,>=2017.2)",
+      "requests (<3.0.0,>=2.18.4)",
+      "responses (>=0.10.7)",
+      "retry (==0.9.2)",
+      "six (<2.0.0,>=1.9.0)",
+      "sortedcontainers (>=1.5.9<3.0.0)",
+      "statsd (<4.0.0,>=3.0.0)",
+      "urllib3 (<1.26.0,>=1.22)",
+      "wrapt (<2.0.0,>=1.0.0)"
     ]
+  },
+  "requires_extras": {
+    "all-spark2.4": {
+      "dists": [
+        "hmsclient",
+        "k8s-proto",
+        "numpy",
+        "pandas",
+        "pyarrow",
+        "pyspark"
+      ],
+      "specifiers": [
+        "hmsclient (<1.0.0,>=0.0.1); extra=='all-spark2.4'",
+        "k8s-proto (<1.0.0,>=0.0.3); extra=='all-spark2.4'",
+        "numpy (<2.0.0,>=1.14.0); extra=='all-spark2.4'",
+        "pandas (<2.0.0,>=0.22.0); extra=='all-spark2.4'",
+        "pyarrow (<1.0.0,>=0.11.0); extra=='all-spark2.4'",
+        "pyspark (<3.0.0,>=2.4.0); extra=='all-spark2.4'"
+      ]
+    },
+    "all-spark3": {
+      "dists": [
+        "hmsclient",
+        "k8s-proto",
+        "numpy",
+        "pandas",
+        "pyarrow",
+        "pyspark"
+      ],
+      "specifiers": [
+        "hmsclient (<1.0.0,>=0.0.1); extra=='all-spark3'",
+        "k8s-proto (<1.0.0,>=0.0.3); extra=='all-spark3'",
+        "numpy (<2.0.0,>=1.14.0); extra=='all-spark3'",
+        "pandas (<2.0.0,>=0.22.0); extra=='all-spark3'",
+        "pyarrow (<1.0.0,>=0.11.0); extra=='all-spark3'",
+        "pyspark (>=3.0.0); extra=='all-spark3'"
+      ]
+    },
+    "hive_sensor": {
+      "dists": [
+        "hmsclient"
+      ],
+      "specifiers": [
+        "hmsclient (<1.0.0,>=0.0.1); extra=='hive_sensor'"
+      ]
+    },
+    "schema": {
+      "dists": [
+        "numpy",
+        "pandas",
+        "pyarrow"
+      ],
+      "specifiers": [
+        "numpy (<2.0.0,>=1.14.0); extra=='schema'",
+        "pandas (<2.0.0,>=0.22.0); extra=='schema'",
+        "pyarrow (<1.0.0,>=0.11.0); extra=='schema'"
+      ]
+    },
+    "sidecar": {
+      "dists": [
+        "k8s-proto"
+      ],
+      "specifiers": [
+        "k8s-proto (<1.0.0,>=0.0.3); extra=='sidecar'"
+      ]
+    },
+    "spark": {
+      "dists": [
+        "pyspark"
+      ],
+      "specifiers": [
+        "pyspark (<3.0.0,>=2.4.0); extra=='spark'"
+      ]
+    },
+    "spark3": {
+      "dists": [
+        "pyspark"
+      ],
+      "specifiers": [
+        "pyspark (>=3.0.0); extra=='spark3'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

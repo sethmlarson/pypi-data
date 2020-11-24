@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "keras (>=2.0.0)",
-    "opencv-python (>=4.1.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "keras",
+      "opencv-python"
+    ],
+    "specifiers": [
+      "keras (>=2.0.0)",
+      "opencv-python (>=4.1.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

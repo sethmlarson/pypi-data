@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "certifi",
-    "fpdf (>=1.7.2)",
-    "lxml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "certifi",
+      "fpdf",
+      "lxml"
+    ],
+    "specifiers": [
+      "certifi",
+      "fpdf (>=1.7.2)",
+      "lxml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

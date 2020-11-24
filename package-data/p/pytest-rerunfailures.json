@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pytest (>=5.0)",
-    "setuptools (>=40.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pytest",
+      "setuptools"
+    ],
+    "specifiers": [
+      "pytest (>=5.0)",
+      "setuptools (>=40.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

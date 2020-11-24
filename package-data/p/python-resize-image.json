@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Pillow (>=5.1.0)",
-    "requests (>=2.19.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pillow",
+      "requests"
+    ],
+    "specifiers": [
+      "pillow (>=5.1.0)",
+      "requests (>=2.19.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

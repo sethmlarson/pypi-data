@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "aiohttp>=2.3.0"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp"
+    ],
+    "specifiers": [
+      "aiohttp>=2.3.0"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

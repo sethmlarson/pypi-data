@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "datetime",
-    "future",
-    "requests (>=2.7.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "datetime",
+      "future",
+      "requests"
+    ],
+    "specifiers": [
+      "datetime",
+      "future",
+      "requests (>=2.7.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

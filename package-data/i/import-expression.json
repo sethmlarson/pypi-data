@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "astunparse (<2.0.0,>=1.6.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "astunparse"
+    ],
+    "specifiers": [
+      "astunparse (<2.0.0,>=1.6.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,16 +1,33 @@
 {
-  "requires_dist": [
-    "six (>=1.11.0)"
-  ],
-  "requires_extras": {
-    "django": [
-      "graphene-django (>=2.0.0); extra=='django'"
+  "requires_dist": {
+    "dists": [
+      "six"
     ],
-    "flask": [
-      "Flask (>=1.0.2); extra=='flask'",
-      "Flask-Graphql (>=2.0.0); extra=='flask'",
-      "graphene (>=2.1.2); extra=='flask'"
+    "specifiers": [
+      "six (>=1.11.0)"
     ]
+  },
+  "requires_extras": {
+    "django": {
+      "dists": [
+        "graphene-django"
+      ],
+      "specifiers": [
+        "graphene-django (>=2.0.0); extra=='django'"
+      ]
+    },
+    "flask": {
+      "dists": [
+        "flask",
+        "flask-graphql",
+        "graphene"
+      ],
+      "specifiers": [
+        "flask (>=1.0.2); extra=='flask'",
+        "flask-graphql (>=2.0.0); extra=='flask'",
+        "graphene (>=2.1.2); extra=='flask'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

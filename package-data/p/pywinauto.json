@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "comtypes",
-    "pywin32",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "comtypes",
+      "pywin32",
+      "six"
+    ],
+    "specifiers": [
+      "comtypes",
+      "pywin32",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

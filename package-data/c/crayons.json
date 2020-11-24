@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "colorama"
-  ],
+  "requires_dist": {
+    "dists": [
+      "colorama"
+    ],
+    "specifiers": [
+      "colorama"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "argparse (>=0.8)"
-  ],
-  "requires_extras": {
-    "bench": [
-      "pyutil (>=3.0.0); extra=='bench'"
+  "requires_dist": {
+    "dists": [
+      "argparse"
+    ],
+    "specifiers": [
+      "argparse (>=0.8)"
     ]
+  },
+  "requires_extras": {
+    "bench": {
+      "dists": [
+        "pyutil"
+      ],
+      "specifiers": [
+        "pyutil (>=3.0.0); extra=='bench'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

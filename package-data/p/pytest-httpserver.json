@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "typing; python_version<'3.5'",
-    "werkzeug"
-  ],
+  "requires_dist": {
+    "dists": [
+      "typing",
+      "werkzeug"
+    ],
+    "specifiers": [
+      "typing; python_version<'3.5'",
+      "werkzeug"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.4",
   "yanked": []

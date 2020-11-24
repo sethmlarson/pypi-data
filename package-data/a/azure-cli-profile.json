@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "azure-cli-command-modules-nspkg (>=2.0.0)",
-    "azure-cli-core"
-  ],
+  "requires_dist": {
+    "dists": [
+      "azure-cli-command-modules-nspkg",
+      "azure-cli-core"
+    ],
+    "specifiers": [
+      "azure-cli-command-modules-nspkg (>=2.0.0)",
+      "azure-cli-core"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

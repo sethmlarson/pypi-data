@@ -1,18 +1,41 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "msgpack": [
-      "msgpack; extra=='msgpack'"
-    ],
-    "pyyaml": [
-      "PyYAML; extra=='pyyaml'"
-    ],
-    "ruamel.yaml": [
-      "ruamel.yaml; extra=='ruamel.yaml'"
-    ],
-    "toml": [
-      "toml; extra=='toml'"
-    ]
+    "msgpack": {
+      "dists": [
+        "msgpack"
+      ],
+      "specifiers": [
+        "msgpack; extra=='msgpack'"
+      ]
+    },
+    "pyyaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml; extra=='pyyaml'"
+      ]
+    },
+    "ruamel.yaml": {
+      "dists": [
+        "ruamel.yaml"
+      ],
+      "specifiers": [
+        "ruamel.yaml; extra=='ruamel.yaml'"
+      ]
+    },
+    "toml": {
+      "dists": [
+        "toml"
+      ],
+      "specifiers": [
+        "toml; extra=='toml'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

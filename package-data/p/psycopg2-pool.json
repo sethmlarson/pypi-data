@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "psycopg2-binary"
-  ],
+  "requires_dist": {
+    "dists": [
+      "psycopg2-binary"
+    ],
+    "specifiers": [
+      "psycopg2-binary"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">= 2.7, != 3.0.*, != 3.1.*, != 3.2.*, != 3.3.*, != 3.4.*",
   "yanked": []

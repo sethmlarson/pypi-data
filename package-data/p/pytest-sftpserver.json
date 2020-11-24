@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "paramiko",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "paramiko",
+      "six"
+    ],
+    "specifiers": [
+      "paramiko",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

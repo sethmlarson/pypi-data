@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "vine (==5.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "vine"
+    ],
+    "specifiers": [
+      "vine (==5.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

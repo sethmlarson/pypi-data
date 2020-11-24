@@ -1,21 +1,45 @@
 {
-  "requires_dist": [
-    "dataclasses; python_version<'3.7'",
-    "deprecation",
-    "filetype"
-  ],
-  "requires_extras": {
-    "art-plugin": [
-      "pillow; extra=='art-plugin'",
-      "pylast; extra=='art-plugin'",
-      "requests; extra=='art-plugin'"
+  "requires_dist": {
+    "dists": [
+      "dataclasses",
+      "deprecation",
+      "filetype"
     ],
-    "display-plugin": [
-      "grako; extra=='display-plugin'"
-    ],
-    "yaml-plugin": [
-      "ruamel.yaml; extra=='yaml-plugin'"
+    "specifiers": [
+      "dataclasses; python_version<'3.7'",
+      "deprecation",
+      "filetype"
     ]
+  },
+  "requires_extras": {
+    "art-plugin": {
+      "dists": [
+        "pillow",
+        "pylast",
+        "requests"
+      ],
+      "specifiers": [
+        "pillow; extra=='art-plugin'",
+        "pylast; extra=='art-plugin'",
+        "requests; extra=='art-plugin'"
+      ]
+    },
+    "display-plugin": {
+      "dists": [
+        "grako"
+      ],
+      "specifiers": [
+        "grako; extra=='display-plugin'"
+      ]
+    },
+    "yaml-plugin": {
+      "dists": [
+        "ruamel.yaml"
+      ],
+      "specifiers": [
+        "ruamel.yaml; extra=='yaml-plugin'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

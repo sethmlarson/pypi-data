@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "boto3",
-    "jmespath",
-    "json-cfg",
-    "pyyaml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "boto3",
+      "jmespath",
+      "json-cfg",
+      "pyyaml"
+    ],
+    "specifiers": [
+      "boto3",
+      "jmespath",
+      "json-cfg",
+      "pyyaml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

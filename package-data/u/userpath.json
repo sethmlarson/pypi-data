@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "click",
-    "distro; platform_system=='Linux'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click",
+      "distro"
+    ],
+    "specifiers": [
+      "click",
+      "distro; platform_system=='linux'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

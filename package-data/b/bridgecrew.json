@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "bc-python-hcl2 (>=0.3.10)",
-    "checkov (>=1.0.642)",
-    "jschema-to-python (>=1.2.3)",
-    "sarif-om (>=1.0.4)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "bc-python-hcl2",
+      "checkov",
+      "jschema-to-python",
+      "sarif-om"
+    ],
+    "specifiers": [
+      "bc-python-hcl2 (>=0.3.10)",
+      "checkov (>=1.0.642)",
+      "jschema-to-python (>=1.2.3)",
+      "sarif-om (>=1.0.4)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

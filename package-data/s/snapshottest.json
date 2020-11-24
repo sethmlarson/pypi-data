@@ -1,15 +1,31 @@
 {
-  "requires_dist": [
-    "fastdiff (<1,>=0.1.4)",
-    "termcolor"
-  ],
-  "requires_extras": {
-    "nose": [
-      "nose; extra=='nose'"
+  "requires_dist": {
+    "dists": [
+      "fastdiff",
+      "termcolor"
     ],
-    "pytest": [
-      "pytest; extra=='pytest'"
+    "specifiers": [
+      "fastdiff (<1,>=0.1.4)",
+      "termcolor"
     ]
+  },
+  "requires_extras": {
+    "nose": {
+      "dists": [
+        "nose"
+      ],
+      "specifiers": [
+        "nose; extra=='nose'"
+      ]
+    },
+    "pytest": {
+      "dists": [
+        "pytest"
+      ],
+      "specifiers": [
+        "pytest; extra=='pytest'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

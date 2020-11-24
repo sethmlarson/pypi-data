@@ -1,8 +1,15 @@
 {
-  "requires_dist": [
-    "ipython"
-  ],
+  "requires_dist": {
+    "dists": [
+      "importlib-metadata",
+      "ipython"
+    ],
+    "specifiers": [
+      "importlib-metadata (<3.0); python_version<'3.8'",
+      "ipython"
+    ]
+  },
   "requires_extras": {},
-  "requires_python": "",
+  "requires_python": ">=3.7",
   "yanked": []
 }

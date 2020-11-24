@@ -1,17 +1,35 @@
 {
-  "requires_dist": [
-    "matplotlib (>=3.0.0)",
-    "numpy (>=1.14)",
-    "pandas (>=0.23.2)",
-    "pyarrow (>=0.10)"
-  ],
-  "requires_extras": {
-    "mlflow": [
-      "mlflow (>=1.0); extra=='mlflow'"
+  "requires_dist": {
+    "dists": [
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "pyarrow"
     ],
-    "spark": [
-      "pyspark (>=2.4.0); extra=='spark'"
+    "specifiers": [
+      "matplotlib (>=3.0.0)",
+      "numpy (>=1.14)",
+      "pandas (>=0.23.2)",
+      "pyarrow (>=0.10)"
     ]
+  },
+  "requires_extras": {
+    "mlflow": {
+      "dists": [
+        "mlflow"
+      ],
+      "specifiers": [
+        "mlflow (>=1.0); extra=='mlflow'"
+      ]
+    },
+    "spark": {
+      "dists": [
+        "pyspark"
+      ],
+      "specifiers": [
+        "pyspark (>=2.4.0); extra=='spark'"
+      ]
+    }
   },
   "requires_python": ">=3.5,<3.9",
   "yanked": []

@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "aiohttp (>=3.6.3)",
-    "jinja2 (>=2.10.1)",
-    "typing-extensions (>=3.7.4)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "jinja2",
+      "typing-extensions"
+    ],
+    "specifiers": [
+      "aiohttp (>=3.6.3)",
+      "jinja2 (>=2.10.1)",
+      "typing-extensions (>=3.7.4)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5.3",
   "yanked": []

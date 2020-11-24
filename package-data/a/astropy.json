@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "numpy (>=1.17)",
-    "pyerfa"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "pyerfa"
+    ],
+    "specifiers": [
+      "numpy (>=1.17)",
+      "pyerfa"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.7",
   "yanked": []

@@ -1,24 +1,55 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "curio": [
-      "curio (>=1.2); extra=='curio'",
-      "sniffio (>=1.1); extra=='curio'"
-    ],
-    "dnssec": [
-      "cryptography (>=2.6); extra=='dnssec'"
-    ],
-    "doh": [
-      "requests; extra=='doh'",
-      "requests-toolbelt; extra=='doh'"
-    ],
-    "idna": [
-      "idna (>=2.1); extra=='idna'"
-    ],
-    "trio": [
-      "sniffio (>=1.1); extra=='trio'",
-      "trio (>=0.14.0); extra=='trio'"
-    ]
+    "curio": {
+      "dists": [
+        "curio",
+        "sniffio"
+      ],
+      "specifiers": [
+        "curio (>=1.2); extra=='curio'",
+        "sniffio (>=1.1); extra=='curio'"
+      ]
+    },
+    "dnssec": {
+      "dists": [
+        "cryptography"
+      ],
+      "specifiers": [
+        "cryptography (>=2.6); extra=='dnssec'"
+      ]
+    },
+    "doh": {
+      "dists": [
+        "requests",
+        "requests-toolbelt"
+      ],
+      "specifiers": [
+        "requests; extra=='doh'",
+        "requests-toolbelt; extra=='doh'"
+      ]
+    },
+    "idna": {
+      "dists": [
+        "idna"
+      ],
+      "specifiers": [
+        "idna (>=2.1); extra=='idna'"
+      ]
+    },
+    "trio": {
+      "dists": [
+        "sniffio",
+        "trio"
+      ],
+      "specifiers": [
+        "sniffio (>=1.1); extra=='trio'",
+        "trio (>=0.14.0); extra=='trio'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

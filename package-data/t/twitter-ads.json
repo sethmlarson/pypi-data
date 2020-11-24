@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "python-dateutil",
-    "pyyaml",
-    "requests-oauthlib"
-  ],
+  "requires_dist": {
+    "dists": [
+      "python-dateutil",
+      "pyyaml",
+      "requests-oauthlib"
+    ],
+    "specifiers": [
+      "python-dateutil",
+      "pyyaml",
+      "requests-oauthlib"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,12 +1,25 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "ed25519": [
-      "PyNaCl (>=1.4.0); extra=='ed25519'"
-    ],
-    "rsa": [
-      "cryptography; extra=='rsa'"
-    ]
+    "ed25519": {
+      "dists": [
+        "pynacl"
+      ],
+      "specifiers": [
+        "pynacl (>=1.4.0); extra=='ed25519'"
+      ]
+    },
+    "rsa": {
+      "dists": [
+        "cryptography"
+      ],
+      "specifiers": [
+        "cryptography; extra=='rsa'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

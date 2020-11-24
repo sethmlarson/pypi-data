@@ -1,24 +1,49 @@
 {
-  "requires_dist": [
-    "alembic (>=0.9.6)",
-    "debtcollector (>=1.2.0)",
-    "oslo.config (>=5.2.0)",
-    "oslo.i18n (>=3.15.3)",
-    "oslo.utils (>=3.33.0)",
-    "pbr (!=2.1.0,>=2.0.0)",
-    "SQLAlchemy (>=1.2.0)",
-    "sqlalchemy-migrate (>=0.11.0)",
-    "stevedore (>=1.20.0)",
-    "testresources (>=2.0.0)",
-    "testscenarios (>=0.4)"
-  ],
-  "requires_extras": {
-    "mysql": [
-      "PyMySQL (>=0.7.6); extra=='mysql'"
+  "requires_dist": {
+    "dists": [
+      "alembic",
+      "debtcollector",
+      "oslo.config",
+      "oslo.i18n",
+      "oslo.utils",
+      "pbr",
+      "sqlalchemy",
+      "sqlalchemy-migrate",
+      "stevedore",
+      "testresources",
+      "testscenarios"
     ],
-    "postgresql": [
-      "psycopg2 (>=2.8.0); extra=='postgresql'"
+    "specifiers": [
+      "alembic (>=0.9.6)",
+      "debtcollector (>=1.2.0)",
+      "oslo.config (>=5.2.0)",
+      "oslo.i18n (>=3.15.3)",
+      "oslo.utils (>=3.33.0)",
+      "pbr (!=2.1.0,>=2.0.0)",
+      "sqlalchemy (>=1.2.0)",
+      "sqlalchemy-migrate (>=0.11.0)",
+      "stevedore (>=1.20.0)",
+      "testresources (>=2.0.0)",
+      "testscenarios (>=0.4)"
     ]
+  },
+  "requires_extras": {
+    "mysql": {
+      "dists": [
+        "pymysql"
+      ],
+      "specifiers": [
+        "pymysql (>=0.7.6); extra=='mysql'"
+      ]
+    },
+    "postgresql": {
+      "dists": [
+        "psycopg2"
+      ],
+      "specifiers": [
+        "psycopg2 (>=2.8.0); extra=='postgresql'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

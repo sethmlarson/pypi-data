@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "google-auth",
-    "google-auth-oauthlib",
-    "setuptools"
-  ],
+  "requires_dist": {
+    "dists": [
+      "google-auth",
+      "google-auth-oauthlib",
+      "setuptools"
+    ],
+    "specifiers": [
+      "google-auth",
+      "google-auth-oauthlib",
+      "setuptools"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

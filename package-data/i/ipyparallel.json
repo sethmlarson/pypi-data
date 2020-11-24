@@ -1,19 +1,37 @@
 {
-  "requires_dist": [
-    "decorator",
-    "ipykernel (>=4.4)",
-    "ipython (>=4)",
-    "ipython-genutils",
-    "jupyter-client",
-    "python-dateutil (>=2.1)",
-    "pyzmq (>=13)",
-    "tornado (>=4)",
-    "traitlets (>=4.3)"
-  ],
-  "requires_extras": {
-    "nbext": [
-      "notebook; extra=='nbext'"
+  "requires_dist": {
+    "dists": [
+      "decorator",
+      "ipykernel",
+      "ipython",
+      "ipython-genutils",
+      "jupyter-client",
+      "python-dateutil",
+      "pyzmq",
+      "tornado",
+      "traitlets"
+    ],
+    "specifiers": [
+      "decorator",
+      "ipykernel (>=4.4)",
+      "ipython (>=4)",
+      "ipython-genutils",
+      "jupyter-client",
+      "python-dateutil (>=2.1)",
+      "pyzmq (>=13)",
+      "tornado (>=4)",
+      "traitlets (>=4.3)"
     ]
+  },
+  "requires_extras": {
+    "nbext": {
+      "dists": [
+        "notebook"
+      ],
+      "specifiers": [
+        "notebook; extra=='nbext'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

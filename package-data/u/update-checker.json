@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "requests (>=2.3.0)"
-  ],
-  "requires_extras": {
-    "lint": [
-      "black; extra=='lint'",
-      "flake8; extra=='lint'"
+  "requires_dist": {
+    "dists": [
+      "requests"
+    ],
+    "specifiers": [
+      "requests (>=2.3.0)"
     ]
+  },
+  "requires_extras": {
+    "lint": {
+      "dists": [
+        "black",
+        "flake8"
+      ],
+      "specifiers": [
+        "black; extra=='lint'",
+        "flake8; extra=='lint'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

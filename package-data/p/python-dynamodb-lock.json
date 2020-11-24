@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "boto3",
-    "botocore"
-  ],
+  "requires_dist": {
+    "dists": [
+      "boto3",
+      "botocore"
+    ],
+    "specifiers": [
+      "boto3",
+      "botocore"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

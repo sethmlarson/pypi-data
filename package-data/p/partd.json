@@ -1,15 +1,29 @@
 {
-  "requires_dist": [
-    "locket",
-    "toolz"
-  ],
-  "requires_extras": {
-    "complete": [
-      "blosc; extra=='complete'",
-      "numpy (>=1.9.0); extra=='complete'",
-      "pandas (>=0.19.0); extra=='complete'",
-      "pyzmq; extra=='complete'"
+  "requires_dist": {
+    "dists": [
+      "locket",
+      "toolz"
+    ],
+    "specifiers": [
+      "locket",
+      "toolz"
     ]
+  },
+  "requires_extras": {
+    "complete": {
+      "dists": [
+        "blosc",
+        "numpy",
+        "pandas",
+        "pyzmq"
+      ],
+      "specifiers": [
+        "blosc; extra=='complete'",
+        "numpy (>=1.9.0); extra=='complete'",
+        "pandas (>=0.19.0); extra=='complete'",
+        "pyzmq; extra=='complete'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "alembic (>=0.7)",
-    "Flask (>=0.9)",
-    "Flask-SQLAlchemy (>=1.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "alembic",
+      "flask",
+      "flask-sqlalchemy"
+    ],
+    "specifiers": [
+      "alembic (>=0.7)",
+      "flask (>=0.9)",
+      "flask-sqlalchemy (>=1.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

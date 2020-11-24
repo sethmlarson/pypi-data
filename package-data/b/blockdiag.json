@@ -1,17 +1,35 @@
 {
-  "requires_dist": [
-    "funcparserlib",
-    "Pillow (>3.0)",
-    "setuptools",
-    "webcolors"
-  ],
-  "requires_extras": {
-    "pdf": [
-      "reportlab; extra=='pdf'"
+  "requires_dist": {
+    "dists": [
+      "funcparserlib",
+      "pillow",
+      "setuptools",
+      "webcolors"
     ],
-    "rst": [
-      "docutils; extra=='rst'"
+    "specifiers": [
+      "funcparserlib",
+      "pillow (>3.0)",
+      "setuptools",
+      "webcolors"
     ]
+  },
+  "requires_extras": {
+    "pdf": {
+      "dists": [
+        "reportlab"
+      ],
+      "specifiers": [
+        "reportlab; extra=='pdf'"
+      ]
+    },
+    "rst": {
+      "dists": [
+        "docutils"
+      ],
+      "specifiers": [
+        "docutils; extra=='rst'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

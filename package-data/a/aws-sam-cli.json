@@ -1,21 +1,40 @@
 {
-  "requires_dist": [
-    "aws-lambda-builders (==1.1.0)",
-    "aws-sam-translator (==1.30.1)",
-    "boto3 (~=1.14.23)",
-    "chevron (~=0.12)",
-    "click (~=7.1)",
-    "cookiecutter (~=1.7.2)",
-    "dateparser (~=0.7)",
-    "docker (~=4.2.0)",
-    "Flask (~=1.1.2)",
-    "jmespath (~=0.10.0)",
-    "python-dateutil (<2.8.1,~=2.6)",
-    "PyYAML (~=5.3)",
-    "requests (==2.23.0)",
-    "serverlessrepo (==0.1.10)",
-    "tomlkit (==0.7.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aws-lambda-builders",
+      "aws-sam-translator",
+      "boto3",
+      "chevron",
+      "click",
+      "cookiecutter",
+      "dateparser",
+      "docker",
+      "flask",
+      "jmespath",
+      "python-dateutil",
+      "pyyaml",
+      "requests",
+      "serverlessrepo",
+      "tomlkit"
+    ],
+    "specifiers": [
+      "aws-lambda-builders (==1.1.0)",
+      "aws-sam-translator (==1.31.0)",
+      "boto3 (~=1.14.23)",
+      "chevron (~=0.12)",
+      "click (~=7.1)",
+      "cookiecutter (~=1.7.2)",
+      "dateparser (~=0.7)",
+      "docker (~=4.2.0)",
+      "flask (~=1.1.2)",
+      "jmespath (~=0.10.0)",
+      "python-dateutil (<2.8.1,~=2.6)",
+      "pyyaml (~=5.3)",
+      "requests (==2.23.0)",
+      "serverlessrepo (==0.1.10)",
+      "tomlkit (==0.7.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6, <=4.0, !=4.0",
   "yanked": []

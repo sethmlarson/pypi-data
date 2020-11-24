@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "beautifulsoup4",
-    "six",
-    "waitress (>=0.8.5)",
-    "WebOb (>=1.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "beautifulsoup4",
+      "six",
+      "waitress",
+      "webob"
+    ],
+    "specifiers": [
+      "beautifulsoup4",
+      "six",
+      "waitress (>=0.8.5)",
+      "webob (>=1.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

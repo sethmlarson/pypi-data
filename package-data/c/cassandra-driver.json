@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "futures",
-    "geomet (<0.3,>=0.1)",
-    "six (>=1.9)"
-  ],
-  "requires_extras": {
-    "graph": [
-      "gremlinpython (==3.4.6); extra=='graph'"
+  "requires_dist": {
+    "dists": [
+      "futures",
+      "geomet",
+      "six"
+    ],
+    "specifiers": [
+      "futures",
+      "geomet (<0.3,>=0.1)",
+      "six (>=1.9)"
     ]
+  },
+  "requires_extras": {
+    "graph": {
+      "dists": [
+        "gremlinpython"
+      ],
+      "specifiers": [
+        "gremlinpython (==3.4.6); extra=='graph'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

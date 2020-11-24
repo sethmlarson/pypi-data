@@ -1,14 +1,29 @@
 {
-  "requires_dist": [
-    "defusedxml"
-  ],
-  "requires_extras": {
-    "mysql": [
-      "mysql-connector-python; extra=='mysql'"
+  "requires_dist": {
+    "dists": [
+      "defusedxml"
     ],
-    "postgresql": [
-      "psycopg2; extra=='postgresql'"
+    "specifiers": [
+      "defusedxml"
     ]
+  },
+  "requires_extras": {
+    "mysql": {
+      "dists": [
+        "mysql-connector-python"
+      ],
+      "specifiers": [
+        "mysql-connector-python; extra=='mysql'"
+      ]
+    },
+    "postgresql": {
+      "dists": [
+        "psycopg2"
+      ],
+      "specifiers": [
+        "psycopg2; extra=='postgresql'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

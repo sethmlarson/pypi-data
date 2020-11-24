@@ -1,24 +1,51 @@
 {
-  "requires_dist": [
-    "affine",
-    "attrs",
-    "click (<8,>=4.0)",
-    "click-plugins",
-    "cligj (>=0.5)",
-    "enum34; python_version<'3.4'",
-    "numpy",
-    "snuggs (>=1.4.1)"
-  ],
-  "requires_extras": {
-    "ipython": [
-      "ipython (>=2.0); extra=='ipython'"
+  "requires_dist": {
+    "dists": [
+      "affine",
+      "attrs",
+      "click",
+      "click-plugins",
+      "cligj",
+      "enum34",
+      "numpy",
+      "snuggs"
     ],
-    "plot": [
-      "matplotlib; extra=='plot'"
-    ],
-    "s3": [
-      "boto3 (>=1.2.4); extra=='s3'"
+    "specifiers": [
+      "affine",
+      "attrs",
+      "click (<8,>=4.0)",
+      "click-plugins",
+      "cligj (>=0.5)",
+      "enum34; python_version<'3.4'",
+      "numpy",
+      "snuggs (>=1.4.1)"
     ]
+  },
+  "requires_extras": {
+    "ipython": {
+      "dists": [
+        "ipython"
+      ],
+      "specifiers": [
+        "ipython (>=2.0); extra=='ipython'"
+      ]
+    },
+    "plot": {
+      "dists": [
+        "matplotlib"
+      ],
+      "specifiers": [
+        "matplotlib; extra=='plot'"
+      ]
+    },
+    "s3": {
+      "dists": [
+        "boto3"
+      ],
+      "specifiers": [
+        "boto3 (>=1.2.4); extra=='s3'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

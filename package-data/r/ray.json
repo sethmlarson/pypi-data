@@ -1,53 +1,109 @@
 {
-  "requires_dist": [
-    "aiohttp",
-    "aiohttp-cors",
-    "aioredis",
-    "click (>=7.0)",
-    "colorama",
-    "colorful",
-    "filelock",
-    "google",
-    "gpustat",
-    "grpcio (>=1.28.1)",
-    "jsonschema",
-    "msgpack (<2.0.0,>=1.0.0)",
-    "numpy (>=1.16)",
-    "opencensus",
-    "prometheus-client (>=0.7.1)",
-    "protobuf (>=3.8.0)",
-    "py-spy (>=0.2.0)",
-    "pyyaml",
-    "redis (<3.5.0,>=3.3.2)",
-    "requests"
-  ],
-  "requires_extras": {
-    "rllib": [
-      "atari-py; extra=='rllib'",
-      "dataclasses; (python_version<'3.7') and extra=='rllib'",
-      "dm-tree; extra=='rllib'",
-      "gym[atari]; extra=='rllib'",
-      "lz4; extra=='rllib'",
-      "opencv-python-headless (<=4.3.0.36); extra=='rllib'",
-      "pandas; extra=='rllib'",
-      "pyyaml; extra=='rllib'",
-      "scipy; extra=='rllib'",
-      "tabulate; extra=='rllib'",
-      "tensorboardX; extra=='rllib'"
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "aiohttp-cors",
+      "aioredis",
+      "click",
+      "colorama",
+      "colorful",
+      "filelock",
+      "google",
+      "gpustat",
+      "grpcio",
+      "jsonschema",
+      "msgpack",
+      "numpy",
+      "opencensus",
+      "prometheus-client",
+      "protobuf",
+      "py-spy",
+      "pyyaml",
+      "redis",
+      "requests"
     ],
-    "serve": [
-      "dataclasses; (python_version<'3.7') and extra=='serve'",
-      "flask; extra=='serve'",
-      "pydantic (<1.7); extra=='serve'",
-      "requests; extra=='serve'",
-      "uvicorn; extra=='serve'"
-    ],
-    "tune": [
-      "dataclasses; (python_version<'3.7') and extra=='tune'",
-      "pandas; extra=='tune'",
-      "tabulate; extra=='tune'",
-      "tensorboardX; extra=='tune'"
+    "specifiers": [
+      "aiohttp",
+      "aiohttp-cors",
+      "aioredis",
+      "click (>=7.0)",
+      "colorama",
+      "colorful",
+      "filelock",
+      "google",
+      "gpustat",
+      "grpcio (>=1.28.1)",
+      "jsonschema",
+      "msgpack (<2.0.0,>=1.0.0)",
+      "numpy (>=1.16)",
+      "opencensus",
+      "prometheus-client (>=0.7.1)",
+      "protobuf (>=3.8.0)",
+      "py-spy (>=0.2.0)",
+      "pyyaml",
+      "redis (<3.5.0,>=3.3.2)",
+      "requests"
     ]
+  },
+  "requires_extras": {
+    "rllib": {
+      "dists": [
+        "atari-py",
+        "dataclasses",
+        "dm-tree",
+        "gym",
+        "lz4",
+        "opencv-python-headless",
+        "pandas",
+        "pyyaml",
+        "scipy",
+        "tabulate",
+        "tensorboardx"
+      ],
+      "specifiers": [
+        "atari-py; extra=='rllib'",
+        "dataclasses; (python_version<'3.7') and extra=='rllib'",
+        "dm-tree; extra=='rllib'",
+        "gym[atari]; extra=='rllib'",
+        "lz4; extra=='rllib'",
+        "opencv-python-headless (<=4.3.0.36); extra=='rllib'",
+        "pandas; extra=='rllib'",
+        "pyyaml; extra=='rllib'",
+        "scipy; extra=='rllib'",
+        "tabulate; extra=='rllib'",
+        "tensorboardx; extra=='rllib'"
+      ]
+    },
+    "serve": {
+      "dists": [
+        "dataclasses",
+        "flask",
+        "pydantic",
+        "requests",
+        "uvicorn"
+      ],
+      "specifiers": [
+        "dataclasses; (python_version<'3.7') and extra=='serve'",
+        "flask; extra=='serve'",
+        "pydantic (<1.7); extra=='serve'",
+        "requests; extra=='serve'",
+        "uvicorn; extra=='serve'"
+      ]
+    },
+    "tune": {
+      "dists": [
+        "dataclasses",
+        "pandas",
+        "tabulate",
+        "tensorboardx"
+      ],
+      "specifiers": [
+        "dataclasses; (python_version<'3.7') and extra=='tune'",
+        "pandas; extra=='tune'",
+        "tabulate; extra=='tune'",
+        "tensorboardx; extra=='tune'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

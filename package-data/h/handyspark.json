@@ -1,15 +1,28 @@
 {
-  "requires_dist": [
-    "findspark",
-    "matplotlib",
-    "numpy",
-    "pandas",
-    "pyarrow",
-    "pyspark",
-    "scikit-learn",
-    "scipy",
-    "seaborn"
-  ],
+  "requires_dist": {
+    "dists": [
+      "findspark",
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "pyarrow",
+      "pyspark",
+      "scikit-learn",
+      "scipy",
+      "seaborn"
+    ],
+    "specifiers": [
+      "findspark",
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "pyarrow",
+      "pyspark",
+      "scikit-learn",
+      "scipy",
+      "seaborn"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "braintreehttp (>=0.5.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "braintreehttp"
+    ],
+    "specifiers": [
+      "braintreehttp (>=0.5.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

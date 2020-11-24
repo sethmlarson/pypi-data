@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "aiocontextvars; python_version<'3.7' and python_version>='3.5'",
-    "typing; python_version<'3.5'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiocontextvars",
+      "typing"
+    ],
+    "specifiers": [
+      "aiocontextvars; python_version<'3.7' and python_version>='3.5'",
+      "typing; python_version<'3.5'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

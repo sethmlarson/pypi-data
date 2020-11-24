@@ -1,27 +1,57 @@
 {
-  "requires_dist": [
-    "param (>=1.7.0)",
-    "pyct (>=0.4.4)"
-  ],
-  "requires_extras": {
-    "build": [
-      "param (>=1.7.0); extra=='build'",
-      "pyct (>=0.4.4); extra=='build'",
-      "setuptools (>=30.3.0); extra=='build'",
-      "wheel; extra=='build'"
+  "requires_dist": {
+    "dists": [
+      "param",
+      "pyct"
     ],
-    "examples": [
-      "bokeh; extra=='examples'",
-      "holoviews; extra=='examples'",
-      "matplotlib; extra=='examples'",
-      "numpy; extra=='examples'"
-    ],
-    "tests_extra": [
-      "flake8; extra=='tests_extra'",
-      "nbsmoke (>=0.2.6); extra=='tests_extra'",
-      "pytest (>=2.8.5); extra=='tests_extra'",
-      "pytest-mpl; extra=='tests_extra'"
+    "specifiers": [
+      "param (>=1.7.0)",
+      "pyct (>=0.4.4)"
     ]
+  },
+  "requires_extras": {
+    "build": {
+      "dists": [
+        "param",
+        "pyct",
+        "setuptools",
+        "wheel"
+      ],
+      "specifiers": [
+        "param (>=1.7.0); extra=='build'",
+        "pyct (>=0.4.4); extra=='build'",
+        "setuptools (>=30.3.0); extra=='build'",
+        "wheel; extra=='build'"
+      ]
+    },
+    "examples": {
+      "dists": [
+        "bokeh",
+        "holoviews",
+        "matplotlib",
+        "numpy"
+      ],
+      "specifiers": [
+        "bokeh; extra=='examples'",
+        "holoviews; extra=='examples'",
+        "matplotlib; extra=='examples'",
+        "numpy; extra=='examples'"
+      ]
+    },
+    "tests_extra": {
+      "dists": [
+        "flake8",
+        "nbsmoke",
+        "pytest",
+        "pytest-mpl"
+      ],
+      "specifiers": [
+        "flake8; extra=='tests_extra'",
+        "nbsmoke (>=0.2.6); extra=='tests_extra'",
+        "pytest (>=2.8.5); extra=='tests_extra'",
+        "pytest-mpl; extra=='tests_extra'"
+      ]
+    }
   },
   "requires_python": ">=2.7",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "djangorestframework"
-  ],
+  "requires_dist": {
+    "dists": [
+      "djangorestframework"
+    ],
+    "specifiers": [
+      "djangorestframework"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

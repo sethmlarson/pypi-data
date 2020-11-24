@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "debtcollector (>=1.2.0)",
-    "pbr (!=2.1.0,>=2.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "debtcollector",
+      "pbr"
+    ],
+    "specifiers": [
+      "debtcollector (>=1.2.0)",
+      "pbr (!=2.1.0,>=2.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

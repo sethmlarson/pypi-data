@@ -1,26 +1,61 @@
 {
-  "requires_dist": [
-    "psutil"
-  ],
-  "requires_extras": {
-    "cassandra": [
-      "cassandra-driver; extra=='cassandra'"
+  "requires_dist": {
+    "dists": [
+      "psutil"
     ],
-    "fasterjsonsource": [
-      "ujson; extra=='fasterjsonsource'"
-    ],
-    "httpjsonsource": [
-      "requests; extra=='httpjsonsource'"
-    ],
-    "opentracing": [
-      "opentracing; extra=='opentracing'"
-    ],
-    "tomlsource": [
-      "toml; extra=='tomlsource'"
-    ],
-    "yamlsource": [
-      "pyyaml; extra=='yamlsource'"
+    "specifiers": [
+      "psutil"
     ]
+  },
+  "requires_extras": {
+    "cassandra": {
+      "dists": [
+        "cassandra-driver"
+      ],
+      "specifiers": [
+        "cassandra-driver; extra=='cassandra'"
+      ]
+    },
+    "fasterjsonsource": {
+      "dists": [
+        "ujson"
+      ],
+      "specifiers": [
+        "ujson; extra=='fasterjsonsource'"
+      ]
+    },
+    "httpjsonsource": {
+      "dists": [
+        "requests"
+      ],
+      "specifiers": [
+        "requests; extra=='httpjsonsource'"
+      ]
+    },
+    "opentracing": {
+      "dists": [
+        "opentracing"
+      ],
+      "specifiers": [
+        "opentracing; extra=='opentracing'"
+      ]
+    },
+    "tomlsource": {
+      "dists": [
+        "toml"
+      ],
+      "specifiers": [
+        "toml; extra=='tomlsource'"
+      ]
+    },
+    "yamlsource": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml; extra=='yamlsource'"
+      ]
+    }
   },
   "requires_python": "!=2.7.*,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*",
   "yanked": [

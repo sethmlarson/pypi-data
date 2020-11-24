@@ -1,29 +1,59 @@
 {
-  "requires_dist": [
-    "bcrypt",
-    "blinker",
-    "cryptography",
-    "Flask (>=0.10.1)",
-    "Flask-Compress (>=1.4.0)",
-    "Flask-Cors (>=3.0.2)",
-    "mohawk",
-    "PyJWT",
-    "pymongo (>=3.6)",
-    "pyparsing",
-    "python-dateutil",
-    "pytz",
-    "PyYAML",
-    "requests",
-    "requests-hawk",
-    "sentry-sdk[flask] (>=0.10.2)"
-  ],
-  "requires_extras": {
-    "mongodb": [
-      "pymongo (>=3.0); extra=='mongodb'"
+  "requires_dist": {
+    "dists": [
+      "bcrypt",
+      "blinker",
+      "cryptography",
+      "flask",
+      "flask-compress",
+      "flask-cors",
+      "mohawk",
+      "pyjwt",
+      "pymongo",
+      "pyparsing",
+      "python-dateutil",
+      "pytz",
+      "pyyaml",
+      "requests",
+      "requests-hawk",
+      "sentry-sdk"
     ],
-    "postgres": [
-      "psycopg2; extra=='postgres'"
+    "specifiers": [
+      "bcrypt",
+      "blinker",
+      "cryptography",
+      "flask (>=0.10.1)",
+      "flask-compress (>=1.4.0)",
+      "flask-cors (>=3.0.2)",
+      "mohawk",
+      "pyjwt",
+      "pymongo (>=3.6)",
+      "pyparsing",
+      "python-dateutil",
+      "pytz",
+      "pyyaml",
+      "requests",
+      "requests-hawk",
+      "sentry-sdk[flask] (>=0.10.2)"
     ]
+  },
+  "requires_extras": {
+    "mongodb": {
+      "dists": [
+        "pymongo"
+      ],
+      "specifiers": [
+        "pymongo (>=3.0); extra=='mongodb'"
+      ]
+    },
+    "postgres": {
+      "dists": [
+        "psycopg2"
+      ],
+      "specifiers": [
+        "psycopg2; extra=='postgres'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

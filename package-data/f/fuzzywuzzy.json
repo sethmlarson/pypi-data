@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "speedup": [
-      "python-levenshtein (>=0.12); extra=='speedup'"
-    ]
+    "speedup": {
+      "dists": [
+        "python-levenshtein"
+      ],
+      "specifiers": [
+        "python-levenshtein (>=0.12); extra=='speedup'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

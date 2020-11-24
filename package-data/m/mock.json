@@ -1,11 +1,21 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "build": [
-      "blurb; extra=='build'",
-      "twine; extra=='build'",
-      "wheel; extra=='build'"
-    ]
+    "build": {
+      "dists": [
+        "blurb",
+        "twine",
+        "wheel"
+      ],
+      "specifiers": [
+        "blurb; extra=='build'",
+        "twine; extra=='build'",
+        "wheel; extra=='build'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pyopenssl"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyopenssl"
+    ],
+    "specifiers": [
+      "pyopenssl"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

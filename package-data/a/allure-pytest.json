@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "allure-python-commons (==2.8.21)",
-    "pytest (>=4.5.0)",
-    "six (>=1.9.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "allure-python-commons",
+      "pytest",
+      "six"
+    ],
+    "specifiers": [
+      "allure-python-commons (==2.8.21)",
+      "pytest (>=4.5.0)",
+      "six (>=1.9.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

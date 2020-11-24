@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "ansicolors (==1.1.8)",
-    "dataclasses (==0.6)",
-    "pantsbuild.pants (==1.30.2rc1)",
-    "requests[security] (>=2.20.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "ansicolors",
+      "dataclasses",
+      "pantsbuild.pants",
+      "requests"
+    ],
+    "specifiers": [
+      "ansicolors (==1.1.8)",
+      "dataclasses (==0.6)",
+      "pantsbuild.pants (==1.30.2rc1)",
+      "requests[security] (>=2.20.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

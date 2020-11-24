@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "celery (<4.0,>=3.1.15)",
-    "django (>=1.8)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "celery",
+      "django"
+    ],
+    "specifiers": [
+      "celery (<4.0,>=3.1.15)",
+      "django (>=1.8)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

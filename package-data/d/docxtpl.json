@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "jinja2",
-    "lxml",
-    "python-docx",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "jinja2",
+      "lxml",
+      "python-docx",
+      "six"
+    ],
+    "specifiers": [
+      "jinja2",
+      "lxml",
+      "python-docx",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

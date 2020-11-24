@@ -1,12 +1,25 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "unidic": [
-      "unidic; extra=='unidic'"
-    ],
-    "unidic-lite": [
-      "unidic-lite; extra=='unidic-lite'"
-    ]
+    "unidic": {
+      "dists": [
+        "unidic"
+      ],
+      "specifiers": [
+        "unidic; extra=='unidic'"
+      ]
+    },
+    "unidic-lite": {
+      "dists": [
+        "unidic-lite"
+      ],
+      "specifiers": [
+        "unidic-lite; extra=='unidic-lite'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

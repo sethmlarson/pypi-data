@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "MarkupSafe (>=1.1)"
-  ],
-  "requires_extras": {
-    "i18n": [
-      "Babel (>=2.1); extra=='i18n'"
+  "requires_dist": {
+    "dists": [
+      "markupsafe"
+    ],
+    "specifiers": [
+      "markupsafe (>=1.1)"
     ]
+  },
+  "requires_extras": {
+    "i18n": {
+      "dists": [
+        "babel"
+      ],
+      "specifiers": [
+        "babel (>=2.1); extra=='i18n'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

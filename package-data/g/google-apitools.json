@@ -1,14 +1,27 @@
 {
-  "requires_dist": [
-    "fasteners (>=0.14)",
-    "httplib2 (>=0.8)",
-    "oauth2client (>=1.4.12)",
-    "six (>=1.12.0)"
-  ],
-  "requires_extras": {
-    "cli": [
-      "python-gflags (>=3.0.6); extra=='cli'"
+  "requires_dist": {
+    "dists": [
+      "fasteners",
+      "httplib2",
+      "oauth2client",
+      "six"
+    ],
+    "specifiers": [
+      "fasteners (>=0.14)",
+      "httplib2 (>=0.8)",
+      "oauth2client (>=1.4.12)",
+      "six (>=1.12.0)"
     ]
+  },
+  "requires_extras": {
+    "cli": {
+      "dists": [
+        "python-gflags"
+      ],
+      "specifiers": [
+        "python-gflags (>=3.0.6); extra=='cli'"
+      ]
+    }
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
   "yanked": []

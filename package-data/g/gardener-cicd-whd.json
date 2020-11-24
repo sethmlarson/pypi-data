@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "bjoern",
-    "falcon",
-    "gardener-cicd-cli",
-    "gardener-cicd-libs",
-    "werkzeug"
-  ],
+  "requires_dist": {
+    "dists": [
+      "bjoern",
+      "falcon",
+      "gardener-cicd-cli",
+      "gardener-cicd-libs",
+      "werkzeug"
+    ],
+    "specifiers": [
+      "bjoern",
+      "falcon",
+      "gardener-cicd-cli",
+      "gardener-cicd-libs",
+      "werkzeug"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.8.*",
   "yanked": []

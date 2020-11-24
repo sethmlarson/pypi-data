@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "web-fragments",
-    "XBlock",
-    "xblock-utils"
-  ],
+  "requires_dist": {
+    "dists": [
+      "web-fragments",
+      "xblock",
+      "xblock-utils"
+    ],
+    "specifiers": [
+      "web-fragments",
+      "xblock",
+      "xblock-utils"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pycares (>=3.0.0)",
-    "typing; python_version<'3.7'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pycares",
+      "typing"
+    ],
+    "specifiers": [
+      "pycares (>=3.0.0)",
+      "typing; python_version<'3.7'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

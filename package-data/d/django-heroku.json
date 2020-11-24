@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "dj-database-url (>=0.5.0)",
-    "django",
-    "psycopg2",
-    "whitenoise"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dj-database-url",
+      "django",
+      "psycopg2",
+      "whitenoise"
+    ],
+    "specifiers": [
+      "dj-database-url (>=0.5.0)",
+      "django",
+      "psycopg2",
+      "whitenoise"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

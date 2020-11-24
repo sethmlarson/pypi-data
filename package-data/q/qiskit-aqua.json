@@ -1,38 +1,83 @@
 {
-  "requires_dist": [
-    "dlx",
-    "docplex",
-    "fastdtw",
-    "h5py",
-    "numpy (>=1.17)",
-    "pandas",
-    "psutil (>=5)",
-    "qiskit-ignis (>=0.4.0)",
-    "qiskit-terra (>=0.16.0)",
-    "quandl",
-    "retworkx (>=0.5.0)",
-    "scikit-learn (>=0.20.0)",
-    "scipy (>=1.4)",
-    "setuptools (>=40.1.0)",
-    "sympy (>=1.3)",
-    "yfinance"
-  ],
-  "requires_extras": {
-    "cplex": [
-      "cplex; (python_version>='3.6' and python_version<'3.8') and extra=='cplex'"
+  "requires_dist": {
+    "dists": [
+      "dlx",
+      "docplex",
+      "fastdtw",
+      "h5py",
+      "numpy",
+      "pandas",
+      "psutil",
+      "qiskit-ignis",
+      "qiskit-terra",
+      "quandl",
+      "retworkx",
+      "scikit-learn",
+      "scipy",
+      "setuptools",
+      "sympy",
+      "yfinance"
     ],
-    "cvx": [
-      "cvxpy (!=1.1.0,!=1.1.1,!=1.1.2,>1.0.0); extra=='cvx'"
-    ],
-    "pyscf": [
-      "pyscf; (sys_platform !='win32') and extra=='pyscf'"
-    ],
-    "skquant": [
-      "scikit-quant; extra=='skquant'"
-    ],
-    "torch": [
-      "torch; (sys_platform=='linux' or (python_version<'3.8' and sys_platform !='win32')) and extra=='torch'"
+    "specifiers": [
+      "dlx",
+      "docplex",
+      "fastdtw",
+      "h5py",
+      "numpy (>=1.17)",
+      "pandas",
+      "psutil (>=5)",
+      "qiskit-ignis (>=0.4.0)",
+      "qiskit-terra (>=0.16.0)",
+      "quandl",
+      "retworkx (>=0.5.0)",
+      "scikit-learn (>=0.20.0)",
+      "scipy (>=1.4)",
+      "setuptools (>=40.1.0)",
+      "sympy (>=1.3)",
+      "yfinance"
     ]
+  },
+  "requires_extras": {
+    "cplex": {
+      "dists": [
+        "cplex"
+      ],
+      "specifiers": [
+        "cplex; (python_version>='3.6' and python_version<'3.8') and extra=='cplex'"
+      ]
+    },
+    "cvx": {
+      "dists": [
+        "cvxpy"
+      ],
+      "specifiers": [
+        "cvxpy (!=1.1.0,!=1.1.1,!=1.1.2,>1.0.0); extra=='cvx'"
+      ]
+    },
+    "pyscf": {
+      "dists": [
+        "pyscf"
+      ],
+      "specifiers": [
+        "pyscf; (sys_platform !='win32') and extra=='pyscf'"
+      ]
+    },
+    "skquant": {
+      "dists": [
+        "scikit-quant"
+      ],
+      "specifiers": [
+        "scikit-quant; extra=='skquant'"
+      ]
+    },
+    "torch": {
+      "dists": [
+        "torch"
+      ],
+      "specifiers": [
+        "torch; (sys_platform=='linux' or (python_version<'3.8' and sys_platform !='win32')) and extra=='torch'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

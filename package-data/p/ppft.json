@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "dill": [
-      "dill (>=0.3.3); extra=='dill'"
-    ]
+    "dill": {
+      "dists": [
+        "dill"
+      ],
+      "specifiers": [
+        "dill (>=0.3.3); extra=='dill'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

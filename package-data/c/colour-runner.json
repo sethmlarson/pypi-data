@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "blessings",
-    "pygments"
-  ],
+  "requires_dist": {
+    "dists": [
+      "blessings",
+      "pygments"
+    ],
+    "specifiers": [
+      "blessings",
+      "pygments"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

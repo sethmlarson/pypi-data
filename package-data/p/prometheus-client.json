@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "twisted": [
-      "twisted; extra=='twisted'"
-    ]
+    "twisted": {
+      "dists": [
+        "twisted"
+      ],
+      "specifiers": [
+        "twisted; extra=='twisted'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "celery",
-    "django",
-    "pymongo (<4.0.0,>=2.7.2)",
-    "pytz",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "celery",
+      "django",
+      "pymongo",
+      "pytz",
+      "six"
+    ],
+    "specifiers": [
+      "celery",
+      "django",
+      "pymongo (<4.0.0,>=2.7.2)",
+      "pytz",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

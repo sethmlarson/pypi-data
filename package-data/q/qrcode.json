@@ -1,15 +1,31 @@
 {
-  "requires_dist": [
-    "colorama; platform_system=='Windows'",
-    "six"
-  ],
-  "requires_extras": {
-    "maintainer": [
-      "zest.releaser[recommended]; extra=='maintainer'"
+  "requires_dist": {
+    "dists": [
+      "colorama",
+      "six"
     ],
-    "pil": [
-      "pillow; extra=='pil'"
+    "specifiers": [
+      "colorama; platform_system=='windows'",
+      "six"
     ]
+  },
+  "requires_extras": {
+    "maintainer": {
+      "dists": [
+        "zest.releaser"
+      ],
+      "specifiers": [
+        "zest.releaser[recommended]; extra=='maintainer'"
+      ]
+    },
+    "pil": {
+      "dists": [
+        "pillow"
+      ],
+      "specifiers": [
+        "pillow; extra=='pil'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

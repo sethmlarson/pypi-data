@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "prometheus-client (>=0.7)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "prometheus-client"
+    ],
+    "specifiers": [
+      "prometheus-client (>=0.7)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

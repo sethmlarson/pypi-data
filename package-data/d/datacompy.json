@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "numpy (>=1.11.3)",
-    "pandas (!=0.23.*,>=0.19.0)"
-  ],
-  "requires_extras": {
-    "spark": [
-      "pyspark (>=2.2.0); extra=='spark'"
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "pandas"
+    ],
+    "specifiers": [
+      "numpy (>=1.11.3)",
+      "pandas (!=0.23.*,>=0.19.0)"
     ]
+  },
+  "requires_extras": {
+    "spark": {
+      "dists": [
+        "pyspark"
+      ],
+      "specifiers": [
+        "pyspark (>=2.2.0); extra=='spark'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

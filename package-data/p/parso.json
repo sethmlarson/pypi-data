@@ -1,10 +1,19 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "qa": [
-      "flake8 (==3.8.3); extra=='qa'",
-      "mypy (==0.782); extra=='qa'"
-    ]
+    "qa": {
+      "dists": [
+        "flake8",
+        "mypy"
+      ],
+      "specifiers": [
+        "flake8 (==3.8.3); extra=='qa'",
+        "mypy (==0.782); extra=='qa'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

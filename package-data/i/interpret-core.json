@@ -1,52 +1,125 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "dash": [
-      "dash (>=1.0.0); extra=='dash'",
-      "dash-cytoscape (>=0.1.1); extra=='dash'",
-      "dash-table (>=4.1.0); extra=='dash'",
-      "gevent (>=1.3.6); extra=='dash'",
-      "requests (>=2.19.0); extra=='dash'"
-    ],
-    "debug": [
-      "psutil (>=5.6.2); extra=='debug'"
-    ],
-    "decisiontree": [
-      "joblib (>=0.11); extra=='decisiontree'"
-    ],
-    "ebm": [
-      "joblib (>=0.11); extra=='ebm'"
-    ],
-    "lime": [
-      "lime (>=0.1.1.33); extra=='lime'"
-    ],
-    "notebook": [
-      "ipykernel (>=5.1.0); extra=='notebook'",
-      "ipython (>=7.4.0); extra=='notebook'"
-    ],
-    "plotly": [
-      "plotly (>=3.8.1); extra=='plotly'"
-    ],
-    "required": [
-      "joblib (>=0.11); extra=='required'",
-      "numpy (>=1.11.1); extra=='required'",
-      "pandas (>=0.19.2); extra=='required'",
-      "scikit-learn (>=0.18.1); extra=='required'",
-      "scipy (>=0.18.1); extra=='required'"
-    ],
-    "sensitivity": [
-      "SALib (>=1.3.3); extra=='sensitivity'"
-    ],
-    "shap": [
-      "dill (>=0.2.5); extra=='shap'",
-      "shap (>=0.28.5); extra=='shap'"
-    ],
-    "skoperules": [
-      "skope-rules (>=1.0.0); extra=='skoperules'"
-    ],
-    "treeinterpreter": [
-      "treeinterpreter (>=0.2.2); extra=='treeinterpreter'"
-    ]
+    "dash": {
+      "dists": [
+        "dash",
+        "dash-cytoscape",
+        "dash-table",
+        "gevent",
+        "requests"
+      ],
+      "specifiers": [
+        "dash (>=1.0.0); extra=='dash'",
+        "dash-cytoscape (>=0.1.1); extra=='dash'",
+        "dash-table (>=4.1.0); extra=='dash'",
+        "gevent (>=1.3.6); extra=='dash'",
+        "requests (>=2.19.0); extra=='dash'"
+      ]
+    },
+    "debug": {
+      "dists": [
+        "psutil"
+      ],
+      "specifiers": [
+        "psutil (>=5.6.2); extra=='debug'"
+      ]
+    },
+    "decisiontree": {
+      "dists": [
+        "joblib"
+      ],
+      "specifiers": [
+        "joblib (>=0.11); extra=='decisiontree'"
+      ]
+    },
+    "ebm": {
+      "dists": [
+        "joblib"
+      ],
+      "specifiers": [
+        "joblib (>=0.11); extra=='ebm'"
+      ]
+    },
+    "lime": {
+      "dists": [
+        "lime"
+      ],
+      "specifiers": [
+        "lime (>=0.1.1.33); extra=='lime'"
+      ]
+    },
+    "notebook": {
+      "dists": [
+        "ipykernel",
+        "ipython"
+      ],
+      "specifiers": [
+        "ipykernel (>=5.1.0); extra=='notebook'",
+        "ipython (>=7.4.0); extra=='notebook'"
+      ]
+    },
+    "plotly": {
+      "dists": [
+        "plotly"
+      ],
+      "specifiers": [
+        "plotly (>=3.8.1); extra=='plotly'"
+      ]
+    },
+    "required": {
+      "dists": [
+        "joblib",
+        "numpy",
+        "pandas",
+        "scikit-learn",
+        "scipy"
+      ],
+      "specifiers": [
+        "joblib (>=0.11); extra=='required'",
+        "numpy (>=1.11.1); extra=='required'",
+        "pandas (>=0.19.2); extra=='required'",
+        "scikit-learn (>=0.18.1); extra=='required'",
+        "scipy (>=0.18.1); extra=='required'"
+      ]
+    },
+    "sensitivity": {
+      "dists": [
+        "salib"
+      ],
+      "specifiers": [
+        "salib (>=1.3.3); extra=='sensitivity'"
+      ]
+    },
+    "shap": {
+      "dists": [
+        "dill",
+        "shap"
+      ],
+      "specifiers": [
+        "dill (>=0.2.5); extra=='shap'",
+        "shap (>=0.28.5); extra=='shap'"
+      ]
+    },
+    "skoperules": {
+      "dists": [
+        "skope-rules"
+      ],
+      "specifiers": [
+        "skope-rules (>=1.0.0); extra=='skoperules'"
+      ]
+    },
+    "treeinterpreter": {
+      "dists": [
+        "treeinterpreter"
+      ],
+      "specifiers": [
+        "treeinterpreter (>=0.2.2); extra=='treeinterpreter'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

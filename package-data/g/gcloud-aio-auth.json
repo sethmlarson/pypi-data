@@ -1,13 +1,24 @@
 {
-  "requires_dist": [
-    "aiohttp (<4.0.0,>=3.3.0)",
-    "backoff (<2.0.0,>=1.0.0)",
-    "cryptography (<4.0.0,>=2.0.0)",
-    "future (<0.18.3,>=0.17.0)",
-    "pyjwt (<2.0.0,>=1.5.3)",
-    "six (<2.0.0,>=1.11.0)",
-    "typing (<4.0.0,>=3.7.4.1); python_version<'3.6' or python_full_version<'3.6.2'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "backoff",
+      "cryptography",
+      "future",
+      "pyjwt",
+      "six",
+      "typing"
+    ],
+    "specifiers": [
+      "aiohttp (<4.0.0,>=3.3.0)",
+      "backoff (<2.0.0,>=1.0.0)",
+      "cryptography (<4.0.0,>=2.0.0)",
+      "future (<0.18.3,>=0.17.0)",
+      "pyjwt (<2.0.0,>=1.5.3)",
+      "six (<2.0.0,>=1.11.0)",
+      "typing (<4.0.0,>=3.7.4.1); python_version<'3.6' or python_full_version<'3.6.2'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">= 3.6",
   "yanked": []

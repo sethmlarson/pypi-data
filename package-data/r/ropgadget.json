@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "capstone"
-  ],
+  "requires_dist": {
+    "dists": [
+      "capstone"
+    ],
+    "specifiers": [
+      "capstone"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

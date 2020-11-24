@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "gevent"
-  ],
+  "requires_dist": {
+    "dists": [
+      "gevent"
+    ],
+    "specifiers": [
+      "gevent"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

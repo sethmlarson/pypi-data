@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "pyu2f"
-  ],
-  "requires_extras": {
-    "oauth2client": [
-      "oauth2client (>=2.0.0); extra=='oauth2client'"
+  "requires_dist": {
+    "dists": [
+      "pyu2f"
+    ],
+    "specifiers": [
+      "pyu2f"
     ]
+  },
+  "requires_extras": {
+    "oauth2client": {
+      "dists": [
+        "oauth2client"
+      ],
+      "specifiers": [
+        "oauth2client (>=2.0.0); extra=='oauth2client'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

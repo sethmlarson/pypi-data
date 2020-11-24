@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "importlib-metadata; python_version<'3.8'",
-    "numpy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "importlib-metadata",
+      "numpy"
+    ],
+    "specifiers": [
+      "importlib-metadata; python_version<'3.8'",
+      "numpy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

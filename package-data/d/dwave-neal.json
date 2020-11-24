@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "dimod (>=0.9.2)",
-    "numpy (>=1.16.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dimod",
+      "numpy"
+    ],
+    "specifiers": [
+      "dimod (>=0.9.2)",
+      "numpy (>=1.16.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

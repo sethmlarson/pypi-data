@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "colorama (>=0.2.4); sys_platform=='win32'",
-    "Pygments (>=2.5.2)",
-    "requests-toolbelt (>=0.9.1)",
-    "requests[socks] (>=2.22.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "colorama",
+      "pygments",
+      "requests-toolbelt",
+      "requests"
+    ],
+    "specifiers": [
+      "colorama (>=0.2.4); sys_platform=='win32'",
+      "pygments (>=2.5.2)",
+      "requests-toolbelt (>=0.9.1)",
+      "requests[socks] (>=2.22.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": [

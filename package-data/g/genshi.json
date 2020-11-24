@@ -1,14 +1,29 @@
 {
-  "requires_dist": [
-    "six"
-  ],
-  "requires_extras": {
-    "i18n": [
-      "Babel (>=0.8); extra=='i18n'"
+  "requires_dist": {
+    "dists": [
+      "six"
     ],
-    "plugin": [
-      "setuptools (>=0.6a2); extra=='plugin'"
+    "specifiers": [
+      "six"
     ]
+  },
+  "requires_extras": {
+    "i18n": {
+      "dists": [
+        "babel"
+      ],
+      "specifiers": [
+        "babel (>=0.8); extra=='i18n'"
+      ]
+    },
+    "plugin": {
+      "dists": [
+        "setuptools"
+      ],
+      "specifiers": [
+        "setuptools (>=0.6a2); extra=='plugin'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

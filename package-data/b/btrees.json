@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "persistent (>=4.1.0)",
-    "zope.interface"
-  ],
-  "requires_extras": {
-    "zodb": [
-      "ZODB; extra=='zodb'"
+  "requires_dist": {
+    "dists": [
+      "persistent",
+      "zope.interface"
+    ],
+    "specifiers": [
+      "persistent (>=4.1.0)",
+      "zope.interface"
     ]
+  },
+  "requires_extras": {
+    "zodb": {
+      "dists": [
+        "zodb"
+      ],
+      "specifiers": [
+        "zodb; extra=='zodb'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

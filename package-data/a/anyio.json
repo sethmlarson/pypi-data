@@ -1,18 +1,37 @@
 {
-  "requires_dist": [
-    "async-generator; python_version<'3.7'",
-    "dataclasses; python_version<'3.7'",
-    "idna (>=2.8)",
-    "sniffio (>=1.1)",
-    "typing-extensions; python_version<'3.8'"
-  ],
-  "requires_extras": {
-    "curio": [
-      "curio (>=1.4); extra=='curio'"
+  "requires_dist": {
+    "dists": [
+      "async-generator",
+      "dataclasses",
+      "idna",
+      "sniffio",
+      "typing-extensions"
     ],
-    "trio": [
-      "trio (>=0.16); extra=='trio'"
+    "specifiers": [
+      "async-generator; python_version<'3.7'",
+      "dataclasses; python_version<'3.7'",
+      "idna (>=2.8)",
+      "sniffio (>=1.1)",
+      "typing-extensions; python_version<'3.8'"
     ]
+  },
+  "requires_extras": {
+    "curio": {
+      "dists": [
+        "curio"
+      ],
+      "specifiers": [
+        "curio (>=1.4); extra=='curio'"
+      ]
+    },
+    "trio": {
+      "dists": [
+        "trio"
+      ],
+      "specifiers": [
+        "trio (>=0.16); extra=='trio'"
+      ]
+    }
   },
   "requires_python": ">=3.6.2",
   "yanked": []

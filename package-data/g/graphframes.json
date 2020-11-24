@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "nose",
-    "numpy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "nose",
+      "numpy"
+    ],
+    "specifiers": [
+      "nose",
+      "numpy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

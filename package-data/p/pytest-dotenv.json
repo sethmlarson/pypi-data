@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pytest (>=5.0.0)",
-    "python-dotenv (>=0.9.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pytest",
+      "python-dotenv"
+    ],
+    "specifiers": [
+      "pytest (>=5.0.0)",
+      "python-dotenv (>=0.9.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

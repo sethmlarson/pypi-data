@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "python-stdnum"
-  ],
+  "requires_dist": {
+    "dists": [
+      "python-stdnum"
+    ],
+    "specifiers": [
+      "python-stdnum"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

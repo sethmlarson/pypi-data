@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "cryptography (>=1.1.0)",
-    "PyJWT (>=1.0.0)",
-    "python-dateutil (>=2.1.0)",
-    "requests (>=2.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cryptography",
+      "pyjwt",
+      "python-dateutil",
+      "requests"
+    ],
+    "specifiers": [
+      "cryptography (>=1.1.0)",
+      "pyjwt (>=1.0.0)",
+      "python-dateutil (>=2.1.0)",
+      "requests (>=2.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

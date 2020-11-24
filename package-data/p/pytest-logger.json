@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "future",
-    "pytest (>=3.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "future",
+      "pytest"
+    ],
+    "specifiers": [
+      "future",
+      "pytest (>=3.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

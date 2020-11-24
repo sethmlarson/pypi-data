@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "cryptography (>=2.0.0)",
-    "dbnd (==0.30.4)",
-    "dbnd-airflow (==0.30.4)",
-    "docker (~=3.0)",
-    "kubernetes (==9.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cryptography",
+      "dbnd",
+      "dbnd-airflow",
+      "docker",
+      "kubernetes"
+    ],
+    "specifiers": [
+      "cryptography (>=2.0.0)",
+      "dbnd (==0.30.5)",
+      "dbnd-airflow (==0.30.5)",
+      "docker (~=3.0)",
+      "kubernetes (==9.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

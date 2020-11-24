@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "flake8 (>3.0.0)",
-    "junit-xml (>=1.8)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flake8",
+      "junit-xml"
+    ],
+    "specifiers": [
+      "flake8 (>3.0.0)",
+      "junit-xml (>=1.8)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

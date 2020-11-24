@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "Django (>=2.2)",
-    "djangorestframework (>=3.10)",
-    "inflection (>=0.3.1)",
-    "jsonschema (>=2.6.0)",
-    "PyYAML (>=5.1)",
-    "uritemplate (>=2.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "djangorestframework",
+      "inflection",
+      "jsonschema",
+      "pyyaml",
+      "uritemplate"
+    ],
+    "specifiers": [
+      "django (>=2.2)",
+      "djangorestframework (>=3.10)",
+      "inflection (>=0.3.1)",
+      "jsonschema (>=2.6.0)",
+      "pyyaml (>=5.1)",
+      "uritemplate (>=2.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

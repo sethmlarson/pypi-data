@@ -1,15 +1,29 @@
 {
-  "requires_dist": [
-    "h5py",
-    "matplotlib",
-    "numpy",
-    "PyYAML",
-    "spglib"
-  ],
-  "requires_extras": {
-    "cp2k": [
-      "cp2k-input-tools; extra=='cp2k'"
+  "requires_dist": {
+    "dists": [
+      "h5py",
+      "matplotlib",
+      "numpy",
+      "pyyaml",
+      "spglib"
+    ],
+    "specifiers": [
+      "h5py",
+      "matplotlib",
+      "numpy",
+      "pyyaml",
+      "spglib"
     ]
+  },
+  "requires_extras": {
+    "cp2k": {
+      "dists": [
+        "cp2k-input-tools"
+      ],
+      "specifiers": [
+        "cp2k-input-tools; extra=='cp2k'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

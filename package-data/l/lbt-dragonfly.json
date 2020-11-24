@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "dragonfly-energy (==1.10.72)",
-    "lbt-honeybee (==0.2.252)"
-  ],
-  "requires_extras": {
-    "cli": [
-      "click (==7.1.2); extra=='cli'",
-      "dragonfly-schema (==1.6.19); (python_version>='3.6') and extra=='cli'"
+  "requires_dist": {
+    "dists": [
+      "dragonfly-energy",
+      "lbt-honeybee"
+    ],
+    "specifiers": [
+      "dragonfly-energy (==1.10.72)",
+      "lbt-honeybee (==0.2.252)"
     ]
+  },
+  "requires_extras": {
+    "cli": {
+      "dists": [
+        "click",
+        "dragonfly-schema"
+      ],
+      "specifiers": [
+        "click (==7.1.2); extra=='cli'",
+        "dragonfly-schema (==1.6.19); (python_version>='3.6') and extra=='cli'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

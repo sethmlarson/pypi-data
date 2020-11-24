@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "authlib",
-    "requests (>=2.22.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "authlib",
+      "requests"
+    ],
+    "specifiers": [
+      "authlib",
+      "requests (>=2.22.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

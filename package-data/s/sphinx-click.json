@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pbr (>=2.0)",
-    "sphinx (<4.0,>=1.5)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pbr",
+      "sphinx"
+    ],
+    "specifiers": [
+      "pbr (>=2.0)",
+      "sphinx (<4.0,>=1.5)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "matplotlib"
-  ],
+  "requires_dist": {
+    "dists": [
+      "matplotlib"
+    ],
+    "specifiers": [
+      "matplotlib"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

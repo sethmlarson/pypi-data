@@ -1,17 +1,35 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "zope.interface (>=4.0.2)",
-    "zope.proxy (>=4.0.1)",
-    "zope.schema (>=4.2.2)"
-  ],
-  "requires_extras": {
-    "component": [
-      "zope.component (>=4.0.1); extra=='component'"
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "zope.interface",
+      "zope.proxy",
+      "zope.schema"
     ],
-    "zcml": [
-      "zope.configuration; extra=='zcml'"
+    "specifiers": [
+      "setuptools",
+      "zope.interface (>=4.0.2)",
+      "zope.proxy (>=4.0.1)",
+      "zope.schema (>=4.2.2)"
     ]
+  },
+  "requires_extras": {
+    "component": {
+      "dists": [
+        "zope.component"
+      ],
+      "specifiers": [
+        "zope.component (>=4.0.1); extra=='component'"
+      ]
+    },
+    "zcml": {
+      "dists": [
+        "zope.configuration"
+      ],
+      "specifiers": [
+        "zope.configuration; extra=='zcml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

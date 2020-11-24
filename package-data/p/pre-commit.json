@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "cfgv (>=2.0.0)",
-    "identify (>=1.0.0)",
-    "importlib-metadata; python_version<'3.8'",
-    "importlib-resources; python_version<'3.7'",
-    "nodeenv (>=0.11.1)",
-    "pyyaml (>=5.1)",
-    "toml",
-    "virtualenv (>=20.0.8)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cfgv",
+      "identify",
+      "importlib-metadata",
+      "importlib-resources",
+      "nodeenv",
+      "pyyaml",
+      "toml",
+      "virtualenv"
+    ],
+    "specifiers": [
+      "cfgv (>=2.0.0)",
+      "identify (>=1.0.0)",
+      "importlib-metadata; python_version<'3.8'",
+      "importlib-resources; python_version<'3.7'",
+      "nodeenv (>=0.11.1)",
+      "pyyaml (>=5.1)",
+      "toml",
+      "virtualenv (>=20.0.8)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.1",
   "yanked": []

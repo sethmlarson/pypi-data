@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pywin32 (>=223)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pywin32"
+    ],
+    "specifiers": [
+      "pywin32 (>=223)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

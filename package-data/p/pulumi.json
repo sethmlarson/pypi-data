@@ -1,9 +1,20 @@
 {
-  "requires_dist": [
-    "dill (>=0.3.0)",
-    "grpcio (!=1.30.0,>=1.9.1)",
-    "protobuf (>=3.6.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dill",
+      "grpcio",
+      "protobuf",
+      "semver",
+      "six"
+    ],
+    "specifiers": [
+      "dill (>=0.3.0)",
+      "grpcio (!=1.30.0,>=1.9.1)",
+      "protobuf (>=3.6.0)",
+      "semver (>=2.8.1)",
+      "six (>=1.12.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

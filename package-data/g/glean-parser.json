@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "appdirs (>=1.4)",
-    "Click (>=7)",
-    "diskcache (>=4)",
-    "iso8601 (>=0.1.10); python_version<='3.6'",
-    "Jinja2 (>=2.10.1)",
-    "jsonschema (>=3.0.2)",
-    "PyYAML (>=3.13)",
-    "yamllint (>=1.18.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "appdirs",
+      "click",
+      "diskcache",
+      "iso8601",
+      "jinja2",
+      "jsonschema",
+      "pyyaml",
+      "yamllint"
+    ],
+    "specifiers": [
+      "appdirs (>=1.4)",
+      "click (>=7)",
+      "diskcache (>=4)",
+      "iso8601 (>=0.1.10); python_version<='3.6'",
+      "jinja2 (>=2.10.1)",
+      "jsonschema (>=3.0.2)",
+      "pyyaml (>=3.13)",
+      "yamllint (>=1.18.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

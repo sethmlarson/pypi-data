@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "mozlog (>=6.0)",
-    "six (>=1.10.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "mozlog",
+      "six"
+    ],
+    "specifiers": [
+      "mozlog (>=6.0)",
+      "six (>=1.10.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

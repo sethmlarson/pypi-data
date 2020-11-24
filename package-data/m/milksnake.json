@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "cffi (>=1.6.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cffi"
+    ],
+    "specifiers": [
+      "cffi (>=1.6.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "boto3",
-    "numpy",
-    "regex",
-    "requests",
-    "sacremoses",
-    "sentencepiece",
-    "torch (>=1.0.0)",
-    "tqdm"
-  ],
+  "requires_dist": {
+    "dists": [
+      "boto3",
+      "numpy",
+      "regex",
+      "requests",
+      "sacremoses",
+      "sentencepiece",
+      "torch",
+      "tqdm"
+    ],
+    "specifiers": [
+      "boto3",
+      "numpy",
+      "regex",
+      "requests",
+      "sacremoses",
+      "sentencepiece",
+      "torch (>=1.0.0)",
+      "tqdm"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "altair",
-    "portpicker",
-    "tornado"
-  ],
+  "requires_dist": {
+    "dists": [
+      "altair",
+      "portpicker",
+      "tornado"
+    ],
+    "specifiers": [
+      "altair",
+      "portpicker",
+      "tornado"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

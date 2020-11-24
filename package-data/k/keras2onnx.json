@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "fire",
-    "numpy",
-    "onnx",
-    "onnxconverter-common (>=1.7.0)",
-    "protobuf",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "fire",
+      "numpy",
+      "onnx",
+      "onnxconverter-common",
+      "protobuf",
+      "requests"
+    ],
+    "specifiers": [
+      "fire",
+      "numpy",
+      "onnx",
+      "onnxconverter-common (>=1.7.0)",
+      "protobuf",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

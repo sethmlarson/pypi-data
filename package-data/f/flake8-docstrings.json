@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "flake8 (>=3)",
-    "pydocstyle (>=2.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flake8",
+      "pydocstyle"
+    ],
+    "specifiers": [
+      "flake8 (>=3)",
+      "pydocstyle (>=2.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

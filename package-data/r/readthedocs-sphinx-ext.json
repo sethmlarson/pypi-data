@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Jinja2 (>=2.9)",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "jinja2",
+      "requests"
+    ],
+    "specifiers": [
+      "jinja2 (>=2.9)",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

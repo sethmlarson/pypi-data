@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "Django",
-    "django-crum",
-    "django-waffle",
-    "newrelic",
-    "psutil",
-    "stevedore"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "django-crum",
+      "django-waffle",
+      "newrelic",
+      "psutil",
+      "stevedore"
+    ],
+    "specifiers": [
+      "django",
+      "django-crum",
+      "django-waffle",
+      "newrelic",
+      "psutil",
+      "stevedore"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

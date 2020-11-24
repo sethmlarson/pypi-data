@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "psutil",
-    "pytest (>=4.6)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "psutil",
+      "pytest"
+    ],
+    "specifiers": [
+      "psutil",
+      "pytest (>=4.6)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "MarkupSafe"
-  ],
-  "requires_extras": {
-    "email": [
-      "email-validator; extra=='email'"
+  "requires_dist": {
+    "dists": [
+      "markupsafe"
+    ],
+    "specifiers": [
+      "markupsafe"
     ]
+  },
+  "requires_extras": {
+    "email": {
+      "dists": [
+        "email-validator"
+      ],
+      "specifiers": [
+        "email-validator; extra=='email'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

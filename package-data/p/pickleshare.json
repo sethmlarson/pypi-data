@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pathlib2; python_version in '2.6 2.7 3.2 3.3'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pathlib2"
+    ],
+    "specifiers": [
+      "pathlib2; python_version in '2.6 2.7 3.2 3.3'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

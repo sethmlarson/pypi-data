@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "psycopg2-binary (>=2.7.0)"
-  ],
-  "requires_extras": {
-    "sa": [
-      "sqlalchemy[postgresql_psycopg2binary] (>=1.1); extra=='sa'"
+  "requires_dist": {
+    "dists": [
+      "psycopg2-binary"
+    ],
+    "specifiers": [
+      "psycopg2-binary (>=2.7.0)"
     ]
+  },
+  "requires_extras": {
+    "sa": {
+      "dists": [
+        "sqlalchemy"
+      ],
+      "specifiers": [
+        "sqlalchemy[postgresql_psycopg2binary] (>=1.1); extra=='sa'"
+      ]
+    }
   },
   "requires_python": ">=3.5.3",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "attrs (>=19.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "attrs"
+    ],
+    "specifiers": [
+      "attrs (>=19.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

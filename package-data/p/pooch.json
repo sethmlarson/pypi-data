@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "appdirs",
-    "packaging",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "appdirs",
+      "packaging",
+      "requests"
+    ],
+    "specifiers": [
+      "appdirs",
+      "packaging",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

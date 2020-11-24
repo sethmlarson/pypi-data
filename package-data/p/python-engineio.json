@@ -1,15 +1,31 @@
 {
-  "requires_dist": [
-    "six (>=1.9.0)"
-  ],
-  "requires_extras": {
-    "asyncio_client": [
-      "aiohttp (>=3.4); extra=='asyncio_client'"
+  "requires_dist": {
+    "dists": [
+      "six"
     ],
-    "client": [
-      "requests (>=2.21.0); extra=='client'",
-      "websocket-client (>=0.54.0); extra=='client'"
+    "specifiers": [
+      "six (>=1.9.0)"
     ]
+  },
+  "requires_extras": {
+    "asyncio_client": {
+      "dists": [
+        "aiohttp"
+      ],
+      "specifiers": [
+        "aiohttp (>=3.4); extra=='asyncio_client'"
+      ]
+    },
+    "client": {
+      "dists": [
+        "requests",
+        "websocket-client"
+      ],
+      "specifiers": [
+        "requests (>=2.21.0); extra=='client'",
+        "websocket-client (>=0.54.0); extra=='client'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

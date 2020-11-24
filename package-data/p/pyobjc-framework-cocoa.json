@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pyobjc-core (>=6.2.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyobjc-core"
+    ],
+    "specifiers": [
+      "pyobjc-core (>=6.2.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

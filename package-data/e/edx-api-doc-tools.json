@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "Django (<3.0,>=1.11)",
-    "djangorestframework (>=3.2.0)",
-    "drf-yasg"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "djangorestframework",
+      "drf-yasg"
+    ],
+    "specifiers": [
+      "django (<3.0,>=1.11)",
+      "djangorestframework (>=3.2.0)",
+      "drf-yasg"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

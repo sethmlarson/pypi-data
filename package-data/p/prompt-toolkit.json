@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "wcwidth"
-  ],
+  "requires_dist": {
+    "dists": [
+      "wcwidth"
+    ],
+    "specifiers": [
+      "wcwidth"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.1",
   "yanked": []

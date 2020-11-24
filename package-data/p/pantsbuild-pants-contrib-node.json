@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pantsbuild.pants (==1.30.2rc1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pantsbuild.pants"
+    ],
+    "specifiers": [
+      "pantsbuild.pants (==1.30.2rc1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

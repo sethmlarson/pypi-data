@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "aws-cdk.cloud-assembly-schema (==1.74.0)",
-    "jsii (<2.0.0,>=1.14.1)",
-    "publication (>=0.0.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aws-cdk.cloud-assembly-schema",
+      "jsii",
+      "publication"
+    ],
+    "specifiers": [
+      "aws-cdk.cloud-assembly-schema (==1.74.0)",
+      "jsii (<2.0.0,>=1.14.1)",
+      "publication (>=0.0.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

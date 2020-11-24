@@ -1,28 +1,67 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "cli": [
-      "tabulate; extra=='cli'"
-    ],
-    "html": [
-      "markuppy; extra=='html'"
-    ],
-    "ods": [
-      "odfpy; extra=='ods'"
-    ],
-    "pandas": [
-      "pandas; extra=='pandas'"
-    ],
-    "xls": [
-      "xlrd; extra=='xls'",
-      "xlwt; extra=='xls'"
-    ],
-    "xlsx": [
-      "openpyxl (>=2.6.0); extra=='xlsx'"
-    ],
-    "yaml": [
-      "pyyaml; extra=='yaml'"
-    ]
+    "cli": {
+      "dists": [
+        "tabulate"
+      ],
+      "specifiers": [
+        "tabulate; extra=='cli'"
+      ]
+    },
+    "html": {
+      "dists": [
+        "markuppy"
+      ],
+      "specifiers": [
+        "markuppy; extra=='html'"
+      ]
+    },
+    "ods": {
+      "dists": [
+        "odfpy"
+      ],
+      "specifiers": [
+        "odfpy; extra=='ods'"
+      ]
+    },
+    "pandas": {
+      "dists": [
+        "pandas"
+      ],
+      "specifiers": [
+        "pandas; extra=='pandas'"
+      ]
+    },
+    "xls": {
+      "dists": [
+        "xlrd",
+        "xlwt"
+      ],
+      "specifiers": [
+        "xlrd; extra=='xls'",
+        "xlwt; extra=='xls'"
+      ]
+    },
+    "xlsx": {
+      "dists": [
+        "openpyxl"
+      ],
+      "specifiers": [
+        "openpyxl (>=2.6.0); extra=='xlsx'"
+      ]
+    },
+    "yaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml; extra=='yaml'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

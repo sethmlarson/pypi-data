@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "humanfriendly (>=4.8)",
-    "lxml (>=4.2.1)",
-    "pygments (>=2.2.0)",
-    "python-dateutil (>=2.8.1)",
-    "PyYAML (>=4.2b1)",
-    "requests (>=2.18.4)",
-    "unittest-xml-reporting (>=2.2.1)",
-    "vcd-api-schemas-type (>=9.1.2.dev10)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "humanfriendly",
+      "lxml",
+      "pygments",
+      "python-dateutil",
+      "pyyaml",
+      "requests",
+      "unittest-xml-reporting",
+      "vcd-api-schemas-type"
+    ],
+    "specifiers": [
+      "humanfriendly (>=4.8)",
+      "lxml (>=4.2.1)",
+      "pygments (>=2.2.0)",
+      "python-dateutil (>=2.8.1)",
+      "pyyaml (>=4.2b1)",
+      "requests (>=2.18.4)",
+      "unittest-xml-reporting (>=2.2.1)",
+      "vcd-api-schemas-type (>=9.1.2.dev10)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

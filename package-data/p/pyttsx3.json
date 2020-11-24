@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "comtypes; platform_system=='Windows'",
-    "pyobjc (>=2.4); platform_system=='Darwin'",
-    "pypiwin32; platform_system=='Windows'",
-    "pywin32; platform_system=='Windows'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "comtypes",
+      "pyobjc",
+      "pypiwin32",
+      "pywin32"
+    ],
+    "specifiers": [
+      "comtypes; platform_system=='windows'",
+      "pyobjc (>=2.4); platform_system=='darwin'",
+      "pypiwin32; platform_system=='windows'",
+      "pywin32; platform_system=='windows'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

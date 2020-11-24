@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "boolean.py (<4.0.0,>=3.6)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "boolean.py"
+    ],
+    "specifiers": [
+      "boolean.py (<4.0.0,>=3.6)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

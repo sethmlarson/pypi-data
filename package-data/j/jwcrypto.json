@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "cryptography (>=2.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cryptography"
+    ],
+    "specifiers": [
+      "cryptography (>=2.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

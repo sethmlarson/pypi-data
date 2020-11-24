@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pytz"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pytz"
+    ],
+    "specifiers": [
+      "pytz"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

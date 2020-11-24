@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "matplotlib (>=2.0.0)",
-    "numpy (>=1.11.3)",
-    "scipy (>=0.18.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "matplotlib",
+      "numpy",
+      "scipy"
+    ],
+    "specifiers": [
+      "matplotlib (>=2.0.0)",
+      "numpy (>=1.11.3)",
+      "scipy (>=0.18.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": [

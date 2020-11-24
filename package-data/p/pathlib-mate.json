@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "autopep8",
-    "scandir; python_version<'3.5'",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "autopep8",
+      "scandir",
+      "six"
+    ],
+    "specifiers": [
+      "autopep8",
+      "scandir; python_version<'3.5'",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

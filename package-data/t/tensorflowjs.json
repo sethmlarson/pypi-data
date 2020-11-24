@@ -1,17 +1,35 @@
 {
-  "requires_dist": [
-    "h5py (<3,>=2.8.0)",
-    "six (<2,>=1.12.0)",
-    "tensorflow (<3,>=2.1.0)",
-    "tensorflow-hub (<0.10,>=0.7.0)"
-  ],
-  "requires_extras": {
-    "pyinquirer": [
-      "PyInquirer (==1.0.3); extra=='pyinquirer'"
+  "requires_dist": {
+    "dists": [
+      "h5py",
+      "six",
+      "tensorflow",
+      "tensorflow-hub"
     ],
-    "wizard": [
-      "PyInquirer (==1.0.3); extra=='wizard'"
+    "specifiers": [
+      "h5py (<3,>=2.8.0)",
+      "six (<2,>=1.12.0)",
+      "tensorflow (<3,>=2.1.0)",
+      "tensorflow-hub (<0.10,>=0.7.0)"
     ]
+  },
+  "requires_extras": {
+    "pyinquirer": {
+      "dists": [
+        "pyinquirer"
+      ],
+      "specifiers": [
+        "pyinquirer (==1.0.3); extra=='pyinquirer'"
+      ]
+    },
+    "wizard": {
+      "dists": [
+        "pyinquirer"
+      ],
+      "specifiers": [
+        "pyinquirer (==1.0.3); extra=='wizard'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

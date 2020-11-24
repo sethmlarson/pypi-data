@@ -1,38 +1,93 @@
 {
-  "requires_dist": [
-    "decorator (>=4.3.0)"
-  ],
-  "requires_extras": {
-    "gdal": [
-      "gdal; extra=='gdal'"
+  "requires_dist": {
+    "dists": [
+      "decorator"
     ],
-    "lxml": [
-      "lxml; extra=='lxml'"
-    ],
-    "matplotlib": [
-      "matplotlib; extra=='matplotlib'"
-    ],
-    "numpy": [
-      "numpy; extra=='numpy'"
-    ],
-    "pandas": [
-      "pandas; extra=='pandas'"
-    ],
-    "pydot": [
-      "pydot; extra=='pydot'"
-    ],
-    "pygraphviz": [
-      "pygraphviz; extra=='pygraphviz'"
-    ],
-    "pytest": [
-      "pytest; extra=='pytest'"
-    ],
-    "pyyaml": [
-      "pyyaml; extra=='pyyaml'"
-    ],
-    "scipy": [
-      "scipy; extra=='scipy'"
+    "specifiers": [
+      "decorator (>=4.3.0)"
     ]
+  },
+  "requires_extras": {
+    "gdal": {
+      "dists": [
+        "gdal"
+      ],
+      "specifiers": [
+        "gdal; extra=='gdal'"
+      ]
+    },
+    "lxml": {
+      "dists": [
+        "lxml"
+      ],
+      "specifiers": [
+        "lxml; extra=='lxml'"
+      ]
+    },
+    "matplotlib": {
+      "dists": [
+        "matplotlib"
+      ],
+      "specifiers": [
+        "matplotlib; extra=='matplotlib'"
+      ]
+    },
+    "numpy": {
+      "dists": [
+        "numpy"
+      ],
+      "specifiers": [
+        "numpy; extra=='numpy'"
+      ]
+    },
+    "pandas": {
+      "dists": [
+        "pandas"
+      ],
+      "specifiers": [
+        "pandas; extra=='pandas'"
+      ]
+    },
+    "pydot": {
+      "dists": [
+        "pydot"
+      ],
+      "specifiers": [
+        "pydot; extra=='pydot'"
+      ]
+    },
+    "pygraphviz": {
+      "dists": [
+        "pygraphviz"
+      ],
+      "specifiers": [
+        "pygraphviz; extra=='pygraphviz'"
+      ]
+    },
+    "pytest": {
+      "dists": [
+        "pytest"
+      ],
+      "specifiers": [
+        "pytest; extra=='pytest'"
+      ]
+    },
+    "pyyaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml; extra=='pyyaml'"
+      ]
+    },
+    "scipy": {
+      "dists": [
+        "scipy"
+      ],
+      "specifiers": [
+        "scipy; extra=='scipy'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

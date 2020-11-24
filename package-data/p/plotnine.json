@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "descartes (>=1.1.0)",
-    "matplotlib (>=3.1.1)",
-    "mizani (>=0.7.1)",
-    "numpy (>=1.16.0)",
-    "pandas (>=1.1.0)",
-    "patsy (>=0.5.1)",
-    "scipy (>=1.2.0)",
-    "statsmodels (>=0.11.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "descartes",
+      "matplotlib",
+      "mizani",
+      "numpy",
+      "pandas",
+      "patsy",
+      "scipy",
+      "statsmodels"
+    ],
+    "specifiers": [
+      "descartes (>=1.1.0)",
+      "matplotlib (>=3.1.1)",
+      "mizani (>=0.7.1)",
+      "numpy (>=1.16.0)",
+      "pandas (>=1.1.0)",
+      "patsy (>=0.5.1)",
+      "scipy (>=1.2.0)",
+      "statsmodels (>=0.11.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

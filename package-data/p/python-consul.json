@@ -1,19 +1,41 @@
 {
-  "requires_dist": [
-    "requests (>=2.0)",
-    "six (>=1.4)"
-  ],
-  "requires_extras": {
-    "asyncio": [
-      "aiohttp; extra=='asyncio'"
+  "requires_dist": {
+    "dists": [
+      "requests",
+      "six"
     ],
-    "tornado": [
-      "tornado; extra=='tornado'"
-    ],
-    "twisted": [
-      "treq; extra=='twisted'",
-      "twisted; extra=='twisted'"
+    "specifiers": [
+      "requests (>=2.0)",
+      "six (>=1.4)"
     ]
+  },
+  "requires_extras": {
+    "asyncio": {
+      "dists": [
+        "aiohttp"
+      ],
+      "specifiers": [
+        "aiohttp; extra=='asyncio'"
+      ]
+    },
+    "tornado": {
+      "dists": [
+        "tornado"
+      ],
+      "specifiers": [
+        "tornado; extra=='tornado'"
+      ]
+    },
+    "twisted": {
+      "dists": [
+        "treq",
+        "twisted"
+      ],
+      "specifiers": [
+        "treq; extra=='twisted'",
+        "twisted; extra=='twisted'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

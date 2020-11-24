@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "altair",
-    "altair-data-server (>=0.4.0)",
-    "altair-viewer",
-    "selenium"
-  ],
+  "requires_dist": {
+    "dists": [
+      "altair",
+      "altair-data-server",
+      "altair-viewer",
+      "selenium"
+    ],
+    "specifiers": [
+      "altair",
+      "altair-data-server (>=0.4.0)",
+      "altair-viewer",
+      "selenium"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,17 +1,33 @@
 {
-  "requires_dist": [
-    "future",
-    "lazy",
-    "numpy",
-    "pandas",
-    "pypyodbc",
-    "six"
-  ],
-  "requires_extras": {
-    "jdbc": [
-      "JayDeBeApi (==1.*); extra=='jdbc'",
-      "Jpype1 (==0.6.3); extra=='jdbc'"
+  "requires_dist": {
+    "dists": [
+      "future",
+      "lazy",
+      "numpy",
+      "pandas",
+      "pypyodbc",
+      "six"
+    ],
+    "specifiers": [
+      "future",
+      "lazy",
+      "numpy",
+      "pandas",
+      "pypyodbc",
+      "six"
     ]
+  },
+  "requires_extras": {
+    "jdbc": {
+      "dists": [
+        "jaydebeapi",
+        "jpype1"
+      ],
+      "specifiers": [
+        "jaydebeapi (==1.*); extra=='jdbc'",
+        "jpype1 (==0.6.3); extra=='jdbc'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

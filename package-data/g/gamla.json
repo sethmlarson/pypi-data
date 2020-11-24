@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "async-timeout",
-    "dataclasses-json",
-    "heapq-max",
-    "httpx",
-    "pytest",
-    "pytest-asyncio",
-    "requests",
-    "toolz"
-  ],
+  "requires_dist": {
+    "dists": [
+      "async-timeout",
+      "dataclasses-json",
+      "heapq-max",
+      "httpx",
+      "pytest",
+      "pytest-asyncio",
+      "requests",
+      "toolz"
+    ],
+    "specifiers": [
+      "async-timeout",
+      "dataclasses-json",
+      "heapq-max",
+      "httpx",
+      "pytest",
+      "pytest-asyncio",
+      "requests",
+      "toolz"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

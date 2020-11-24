@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "croniter",
-    "tzlocal"
-  ],
+  "requires_dist": {
+    "dists": [
+      "croniter",
+      "tzlocal"
+    ],
+    "specifiers": [
+      "croniter",
+      "tzlocal"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

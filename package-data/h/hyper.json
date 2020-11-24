@@ -1,15 +1,29 @@
 {
-  "requires_dist": [
-    "cryptography (<1.0); platform_python_implementation=='PyPy' and python_full_version<'2.7.9'",
-    "h2 (<3.0,>=2.4)",
-    "hyperframe (>=3.2,<4.0)",
-    "pyOpenSSL (>=0.15); python_full_version<'2.7.9'",
-    "service-identity (>=14.0.0); python_full_version<'2.7.9'"
-  ],
-  "requires_extras": {
-    "fast": [
-      "pycohttpparser; extra=='fast'"
+  "requires_dist": {
+    "dists": [
+      "cryptography",
+      "h2",
+      "hyperframe",
+      "pyopenssl",
+      "service-identity"
+    ],
+    "specifiers": [
+      "cryptography (<1.0); platform_python_implementation=='pypy' and python_full_version<'2.7.9'",
+      "h2 (<3.0,>=2.4)",
+      "hyperframe (>=3.2,<4.0)",
+      "pyopenssl (>=0.15); python_full_version<'2.7.9'",
+      "service-identity (>=14.0.0); python_full_version<'2.7.9'"
     ]
+  },
+  "requires_extras": {
+    "fast": {
+      "dists": [
+        "pycohttpparser"
+      ],
+      "specifiers": [
+        "pycohttpparser; extra=='fast'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

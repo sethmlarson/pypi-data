@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Django (>=1.11)",
-    "oauth2client (>=1.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "oauth2client"
+    ],
+    "specifiers": [
+      "django (>=1.11)",
+      "oauth2client (>=1.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

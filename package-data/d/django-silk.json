@@ -1,15 +1,28 @@
 {
-  "requires_dist": [
-    "autopep8",
-    "Django (>=2.2)",
-    "gprof2dot (>=2017.09.19)",
-    "Jinja2",
-    "Pygments",
-    "python-dateutil",
-    "pytz",
-    "requests",
-    "sqlparse"
-  ],
+  "requires_dist": {
+    "dists": [
+      "autopep8",
+      "django",
+      "gprof2dot",
+      "jinja2",
+      "pygments",
+      "python-dateutil",
+      "pytz",
+      "requests",
+      "sqlparse"
+    ],
+    "specifiers": [
+      "autopep8",
+      "django (>=2.2)",
+      "gprof2dot (>=2017.09.19)",
+      "jinja2",
+      "pygments",
+      "python-dateutil",
+      "pytz",
+      "requests",
+      "sqlparse"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "markdown (>=3.0.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "markdown"
+    ],
+    "specifiers": [
+      "markdown (>=3.0.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": [

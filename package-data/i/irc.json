@@ -1,15 +1,28 @@
 {
-  "requires_dist": [
-    "importlib-metadata; python_version<'3.8'",
-    "jaraco.collections",
-    "jaraco.functools (>=1.20)",
-    "jaraco.logging",
-    "jaraco.stream",
-    "jaraco.text",
-    "more-itertools",
-    "pytz",
-    "tempora (>=1.6)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "importlib-metadata",
+      "jaraco.collections",
+      "jaraco.functools",
+      "jaraco.logging",
+      "jaraco.stream",
+      "jaraco.text",
+      "more-itertools",
+      "pytz",
+      "tempora"
+    ],
+    "specifiers": [
+      "importlib-metadata; python_version<'3.8'",
+      "jaraco.collections",
+      "jaraco.functools (>=1.20)",
+      "jaraco.logging",
+      "jaraco.stream",
+      "jaraco.text",
+      "more-itertools",
+      "pytz",
+      "tempora (>=1.6)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "yaml": [
-      "ruamel.yaml; extra=='yaml'"
-    ]
+    "yaml": {
+      "dists": [
+        "ruamel.yaml"
+      ],
+      "specifiers": [
+        "ruamel.yaml; extra=='yaml'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "JPype1 (<=0.7.1); python_version<='2.7' and platform_python_implementation !='Jython'",
-    "JPype1; python_version>'2.7' and platform_python_implementation !='Jython'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "jpype1",
+      "jpype1"
+    ],
+    "specifiers": [
+      "jpype1 (<=0.7.1); python_version<='2.7' and platform_python_implementation !='jython'",
+      "jpype1; python_version>'2.7' and platform_python_implementation !='jython'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

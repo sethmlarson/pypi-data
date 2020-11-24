@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "enum-compat",
-    "unicodecsv"
-  ],
+  "requires_dist": {
+    "dists": [
+      "enum-compat",
+      "unicodecsv"
+    ],
+    "specifiers": [
+      "enum-compat",
+      "unicodecsv"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

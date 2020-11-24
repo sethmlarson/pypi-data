@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "decorator"
-  ],
+  "requires_dist": {
+    "dists": [
+      "decorator"
+    ],
+    "specifiers": [
+      "decorator"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "snowballstemmer"
-  ],
+  "requires_dist": {
+    "dists": [
+      "snowballstemmer"
+    ],
+    "specifiers": [
+      "snowballstemmer"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

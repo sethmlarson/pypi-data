@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "python-monkey-business (>=1.0.0)",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "python-monkey-business",
+      "six"
+    ],
+    "specifiers": [
+      "python-monkey-business (>=1.0.0)",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

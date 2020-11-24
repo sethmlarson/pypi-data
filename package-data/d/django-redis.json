@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Django (>=2.2)",
-    "redis (>=3.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "redis"
+    ],
+    "specifiers": [
+      "django (>=2.2)",
+      "redis (>=3.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

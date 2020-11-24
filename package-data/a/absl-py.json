@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "enum34; python_version<'3.4'",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "enum34",
+      "six"
+    ],
+    "specifiers": [
+      "enum34; python_version<'3.4'",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "ptyprocess (>=0.5)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "ptyprocess"
+    ],
+    "specifiers": [
+      "ptyprocess (>=0.5)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

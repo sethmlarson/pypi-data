@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "importlib-resources; python_version<'3.7'"
-  ],
-  "requires_extras": {
-    "tzdata": [
-      "tzdata; extra=='tzdata'"
+  "requires_dist": {
+    "dists": [
+      "importlib-resources"
+    ],
+    "specifiers": [
+      "importlib-resources; python_version<'3.7'"
     ]
+  },
+  "requires_extras": {
+    "tzdata": {
+      "dists": [
+        "tzdata"
+      ],
+      "specifiers": [
+        "tzdata; extra=='tzdata'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

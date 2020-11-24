@@ -1,11 +1,21 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "build": [
-      "setuptools-git; extra=='build'",
-      "twine; extra=='build'",
-      "wheel; extra=='build'"
-    ]
+    "build": {
+      "dists": [
+        "setuptools-git",
+        "twine",
+        "wheel"
+      ],
+      "specifiers": [
+        "setuptools-git; extra=='build'",
+        "twine; extra=='build'",
+        "wheel; extra=='build'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

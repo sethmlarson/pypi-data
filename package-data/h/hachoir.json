@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "urwid": [
-      "urwid (==1.3.1); extra=='urwid'"
-    ]
+    "urwid": {
+      "dists": [
+        "urwid"
+      ],
+      "specifiers": [
+        "urwid (==1.3.1); extra=='urwid'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

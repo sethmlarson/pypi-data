@@ -1,70 +1,147 @@
 {
-  "requires_dist": [
-    "avro (<1.10.0,>=1.8.1); python_version<'3.0'",
-    "avro-python3 (!=1.9.2,<1.10.0,>=1.8.1); python_version>='3.0'",
-    "crcmod (<2.0,>=1.7)",
-    "dill (<0.3.2,>=0.3.1.1)",
-    "fastavro (<2,>=0.21.4)",
-    "funcsigs (<2,>=1.0.2); python_version<'3.0'",
-    "future (<1.0.0,>=0.18.2)",
-    "futures (<4.0.0,>=3.2.0); python_version<'3.0'",
-    "grpcio (<2,>=1.29.0)",
-    "hdfs (<3.0.0,>=2.1.0)",
-    "httplib2 (<0.18.0,>=0.8)",
-    "mock (<3.0.0,>=1.0.1)",
-    "numpy (<2,>=1.14.3)",
-    "oauth2client (<5,>=2.0.1)",
-    "protobuf (<4,>=3.12.2)",
-    "pyarrow (<0.18.0,>=0.15.1); python_version>='3.0' or platform_system !='Windows'",
-    "pydot (<2,>=1.2.0)",
-    "pymongo (<4.0.0,>=3.8.0)",
-    "python-dateutil (<3,>=2.8.0)",
-    "pytz (>=2018.3)",
-    "pyvcf (<0.7.0,>=0.6.8); python_version<'3.0'",
-    "requests (<3.0.0,>=2.24.0)",
-    "typing (<3.8.0,>=3.7.0); python_full_version<'3.5.3'",
-    "typing-extensions (<3.8.0,>=3.7.0)"
-  ],
-  "requires_extras": {
-    "aws": [
-      "boto3 (>=1.9); extra=='aws'"
+  "requires_dist": {
+    "dists": [
+      "avro",
+      "avro-python3",
+      "crcmod",
+      "dill",
+      "fastavro",
+      "funcsigs",
+      "future",
+      "futures",
+      "grpcio",
+      "hdfs",
+      "httplib2",
+      "mock",
+      "numpy",
+      "oauth2client",
+      "protobuf",
+      "pyarrow",
+      "pydot",
+      "pymongo",
+      "python-dateutil",
+      "pytz",
+      "pyvcf",
+      "requests",
+      "typing",
+      "typing-extensions"
     ],
-    "azure": [
-      "azure-core (>=1.7.0); extra=='azure'",
-      "azure-storage-blob (>=12.3.2); extra=='azure'"
-    ],
-    "gcp": [
-      "cachetools (<5,>=3.1.0); extra=='gcp'",
-      "google-apitools (<0.5.32,>=0.5.31); extra=='gcp'",
-      "google-auth (<2,>=1.18.0); extra=='gcp'",
-      "google-cloud-bigquery (<2,>=1.6.0); extra=='gcp'",
-      "google-cloud-bigtable (<2,>=0.31.1); extra=='gcp'",
-      "google-cloud-build (<3,>=2.0.0); (python_version>='3.6') and extra=='gcp'",
-      "google-cloud-core (<2,>=0.28.1); extra=='gcp'",
-      "google-cloud-datastore (<2,>=1.7.1); extra=='gcp'",
-      "google-cloud-dlp (<2,>=0.12.0); extra=='gcp'",
-      "google-cloud-language (<2,>=1.3.0); extra=='gcp'",
-      "google-cloud-pubsub (<2,>=0.39.0); extra=='gcp'",
-      "google-cloud-spanner (<2,>=1.13.0); extra=='gcp'",
-      "google-cloud-videointelligence (<2,>=1.8.0); extra=='gcp'",
-      "google-cloud-vision (<2,>=0.38.0); extra=='gcp'",
-      "grpcio-gcp (<1,>=0.2.2); extra=='gcp'"
-    ],
-    "interactive": [
-      "facets-overview (<2,>=1.0.0); extra=='interactive'",
-      "ipykernel (<6,>=5.2.0); extra=='interactive'",
-      "ipython (<8,>=5.8.0); extra=='interactive'",
-      "timeloop (<2,>=1.0.2); extra=='interactive'"
-    ],
-    "interactive_test": [
-      "chromedriver-binary (<84,>=83); extra=='interactive_test'",
-      "jupyter-client (<7,>=6.1.2); extra=='interactive_test'",
-      "nbconvert (<6,>=5.6.1); extra=='interactive_test'",
-      "nbformat (<6,>=5.0.5); extra=='interactive_test'",
-      "needle (<1,>=0.5.0); extra=='interactive_test'",
-      "pillow (<8,>=7.1.1); extra=='interactive_test'",
-      "selenium (<4,>=3.141.0); extra=='interactive_test'"
+    "specifiers": [
+      "avro (<1.10.0,>=1.8.1); python_version<'3.0'",
+      "avro-python3 (!=1.9.2,<1.10.0,>=1.8.1); python_version>='3.0'",
+      "crcmod (<2.0,>=1.7)",
+      "dill (<0.3.2,>=0.3.1.1)",
+      "fastavro (<2,>=0.21.4)",
+      "funcsigs (<2,>=1.0.2); python_version<'3.0'",
+      "future (<1.0.0,>=0.18.2)",
+      "futures (<4.0.0,>=3.2.0); python_version<'3.0'",
+      "grpcio (<2,>=1.29.0)",
+      "hdfs (<3.0.0,>=2.1.0)",
+      "httplib2 (<0.18.0,>=0.8)",
+      "mock (<3.0.0,>=1.0.1)",
+      "numpy (<2,>=1.14.3)",
+      "oauth2client (<5,>=2.0.1)",
+      "protobuf (<4,>=3.12.2)",
+      "pyarrow (<0.18.0,>=0.15.1); python_version>='3.0' or platform_system !='windows'",
+      "pydot (<2,>=1.2.0)",
+      "pymongo (<4.0.0,>=3.8.0)",
+      "python-dateutil (<3,>=2.8.0)",
+      "pytz (>=2018.3)",
+      "pyvcf (<0.7.0,>=0.6.8); python_version<'3.0'",
+      "requests (<3.0.0,>=2.24.0)",
+      "typing (<3.8.0,>=3.7.0); python_full_version<'3.5.3'",
+      "typing-extensions (<3.8.0,>=3.7.0)"
     ]
+  },
+  "requires_extras": {
+    "aws": {
+      "dists": [
+        "boto3"
+      ],
+      "specifiers": [
+        "boto3 (>=1.9); extra=='aws'"
+      ]
+    },
+    "azure": {
+      "dists": [
+        "azure-core",
+        "azure-storage-blob"
+      ],
+      "specifiers": [
+        "azure-core (>=1.7.0); extra=='azure'",
+        "azure-storage-blob (>=12.3.2); extra=='azure'"
+      ]
+    },
+    "gcp": {
+      "dists": [
+        "cachetools",
+        "google-apitools",
+        "google-auth",
+        "google-cloud-bigquery",
+        "google-cloud-bigtable",
+        "google-cloud-build",
+        "google-cloud-core",
+        "google-cloud-datastore",
+        "google-cloud-dlp",
+        "google-cloud-language",
+        "google-cloud-pubsub",
+        "google-cloud-spanner",
+        "google-cloud-videointelligence",
+        "google-cloud-vision",
+        "grpcio-gcp"
+      ],
+      "specifiers": [
+        "cachetools (<5,>=3.1.0); extra=='gcp'",
+        "google-apitools (<0.5.32,>=0.5.31); extra=='gcp'",
+        "google-auth (<2,>=1.18.0); extra=='gcp'",
+        "google-cloud-bigquery (<2,>=1.6.0); extra=='gcp'",
+        "google-cloud-bigtable (<2,>=0.31.1); extra=='gcp'",
+        "google-cloud-build (<3,>=2.0.0); (python_version>='3.6') and extra=='gcp'",
+        "google-cloud-core (<2,>=0.28.1); extra=='gcp'",
+        "google-cloud-datastore (<2,>=1.7.1); extra=='gcp'",
+        "google-cloud-dlp (<2,>=0.12.0); extra=='gcp'",
+        "google-cloud-language (<2,>=1.3.0); extra=='gcp'",
+        "google-cloud-pubsub (<2,>=0.39.0); extra=='gcp'",
+        "google-cloud-spanner (<2,>=1.13.0); extra=='gcp'",
+        "google-cloud-videointelligence (<2,>=1.8.0); extra=='gcp'",
+        "google-cloud-vision (<2,>=0.38.0); extra=='gcp'",
+        "grpcio-gcp (<1,>=0.2.2); extra=='gcp'"
+      ]
+    },
+    "interactive": {
+      "dists": [
+        "facets-overview",
+        "ipykernel",
+        "ipython",
+        "timeloop"
+      ],
+      "specifiers": [
+        "facets-overview (<2,>=1.0.0); extra=='interactive'",
+        "ipykernel (<6,>=5.2.0); extra=='interactive'",
+        "ipython (<8,>=5.8.0); extra=='interactive'",
+        "timeloop (<2,>=1.0.2); extra=='interactive'"
+      ]
+    },
+    "interactive_test": {
+      "dists": [
+        "chromedriver-binary",
+        "jupyter-client",
+        "nbconvert",
+        "nbformat",
+        "needle",
+        "pillow",
+        "selenium"
+      ],
+      "specifiers": [
+        "chromedriver-binary (<84,>=83); extra=='interactive_test'",
+        "jupyter-client (<7,>=6.1.2); extra=='interactive_test'",
+        "nbconvert (<6,>=5.6.1); extra=='interactive_test'",
+        "nbformat (<6,>=5.0.5); extra=='interactive_test'",
+        "needle (<1,>=0.5.0); extra=='interactive_test'",
+        "pillow (<8,>=7.1.1); extra=='interactive_test'",
+        "selenium (<4,>=3.141.0); extra=='interactive_test'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

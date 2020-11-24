@@ -1,14 +1,27 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "azure-pipelines": [
-      "certifi; extra=='azure-pipelines'",
-      "coverage[toml]; extra=='azure-pipelines'",
-      "pretend; extra=='azure-pipelines'",
-      "pyopenssl; extra=='azure-pipelines'",
-      "pytest; extra=='azure-pipelines'",
-      "pytest-azurepipelines; extra=='azure-pipelines'"
-    ]
+    "azure-pipelines": {
+      "dists": [
+        "certifi",
+        "coverage",
+        "pretend",
+        "pyopenssl",
+        "pytest",
+        "pytest-azurepipelines"
+      ],
+      "specifiers": [
+        "certifi; extra=='azure-pipelines'",
+        "coverage[toml]; extra=='azure-pipelines'",
+        "pretend; extra=='azure-pipelines'",
+        "pyopenssl; extra=='azure-pipelines'",
+        "pytest; extra=='azure-pipelines'",
+        "pytest-azurepipelines; extra=='azure-pipelines'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

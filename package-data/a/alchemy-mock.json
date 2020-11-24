@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "six",
-    "sqlalchemy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "six",
+      "sqlalchemy"
+    ],
+    "specifiers": [
+      "setuptools",
+      "six",
+      "sqlalchemy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "cycler (>=0.10.0)",
-    "matplotlib (!=3.0.0,>=2.0.2)",
-    "numpy (>=1.13.0)",
-    "scikit-learn (>=0.20)",
-    "scipy (>=1.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cycler",
+      "matplotlib",
+      "numpy",
+      "scikit-learn",
+      "scipy"
+    ],
+    "specifiers": [
+      "cycler (>=0.10.0)",
+      "matplotlib (!=3.0.0,>=2.0.2)",
+      "numpy (>=1.13.0)",
+      "scikit-learn (>=0.20)",
+      "scipy (>=1.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.4, <4",
   "yanked": []

@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "protobuf (>=3.6.0)"
-  ],
-  "requires_extras": {
-    "grpc": [
-      "grpcio (>=1.0.0); extra=='grpc'"
+  "requires_dist": {
+    "dists": [
+      "protobuf"
+    ],
+    "specifiers": [
+      "protobuf (>=3.6.0)"
     ]
+  },
+  "requires_extras": {
+    "grpc": {
+      "dists": [
+        "grpcio"
+      ],
+      "specifiers": [
+        "grpcio (>=1.0.0); extra=='grpc'"
+      ]
+    }
   },
   "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*",
   "yanked": []

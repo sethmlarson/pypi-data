@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "netaddr (>=0.7.12)",
-    "pytz",
-    "simplegeneric",
-    "six (>=1.9.0)",
-    "WebOb (>=1.8.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "netaddr",
+      "pytz",
+      "simplegeneric",
+      "six",
+      "webob"
+    ],
+    "specifiers": [
+      "netaddr (>=0.7.12)",
+      "pytz",
+      "simplegeneric",
+      "six (>=1.9.0)",
+      "webob (>=1.8.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

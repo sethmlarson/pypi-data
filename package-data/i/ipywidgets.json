@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "ipykernel (>=4.5.1)",
-    "ipython (>=6.1.0)",
-    "nbformat (>=4.2.0)",
-    "traitlets (>=4.3.1)",
-    "widgetsnbextension (~=4.0a0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "ipykernel",
+      "ipython",
+      "nbformat",
+      "traitlets",
+      "widgetsnbextension"
+    ],
+    "specifiers": [
+      "ipykernel (>=4.5.1)",
+      "ipython (>=6.1.0)",
+      "nbformat (>=4.2.0)",
+      "traitlets (>=4.3.1)",
+      "widgetsnbextension (~=4.0a0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "django (>=2.2)",
-    "python-stdnum (>=1.6)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "python-stdnum"
+    ],
+    "specifiers": [
+      "django (>=2.2)",
+      "python-stdnum (>=1.6)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

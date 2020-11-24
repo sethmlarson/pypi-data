@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "numpy (>=1.10)",
-    "scikit-learn (>=0.16)",
-    "scipy (>=0.19)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "scikit-learn",
+      "scipy"
+    ],
+    "specifiers": [
+      "numpy (>=1.10)",
+      "scikit-learn (>=0.16)",
+      "scipy (>=0.19)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

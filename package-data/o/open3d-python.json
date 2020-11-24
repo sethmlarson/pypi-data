@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "ipywidgets",
-    "notebook",
-    "numpy",
-    "widgetsnbextension"
-  ],
+  "requires_dist": {
+    "dists": [
+      "ipywidgets",
+      "notebook",
+      "numpy",
+      "widgetsnbextension"
+    ],
+    "specifiers": [
+      "ipywidgets",
+      "notebook",
+      "numpy",
+      "widgetsnbextension"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

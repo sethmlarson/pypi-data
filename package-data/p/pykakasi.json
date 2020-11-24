@@ -1,19 +1,37 @@
 {
-  "requires_dist": [
-    "klepto"
-  ],
-  "requires_extras": {
-    "check": [
-      "check-manifest; extra=='check'",
-      "docutils; extra=='check'",
-      "flake8; extra=='check'",
-      "isort; extra=='check'",
-      "mypy (==0.770); extra=='check'",
-      "mypy-extensions (==0.4.3); extra=='check'",
-      "pygments; extra=='check'",
-      "readme-renderer; extra=='check'",
-      "twine; extra=='check'"
+  "requires_dist": {
+    "dists": [
+      "klepto"
+    ],
+    "specifiers": [
+      "klepto"
     ]
+  },
+  "requires_extras": {
+    "check": {
+      "dists": [
+        "check-manifest",
+        "docutils",
+        "flake8",
+        "isort",
+        "mypy",
+        "mypy-extensions",
+        "pygments",
+        "readme-renderer",
+        "twine"
+      ],
+      "specifiers": [
+        "check-manifest; extra=='check'",
+        "docutils; extra=='check'",
+        "flake8; extra=='check'",
+        "isort; extra=='check'",
+        "mypy (==0.770); extra=='check'",
+        "mypy-extensions (==0.4.3); extra=='check'",
+        "pygments; extra=='check'",
+        "readme-renderer; extra=='check'",
+        "twine; extra=='check'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

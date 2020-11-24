@@ -1,28 +1,57 @@
 {
-  "requires_dist": [
-    "chardet (>=3.0)",
-    "click (>=6.7)",
-    "jsonpointer (>=1.10)",
-    "jsonschema (>=2.5)",
-    "requests (>=2.8)",
-    "six (>=1.10)",
-    "tableschema (>=1.12.1)",
-    "tabulator (>=1.29)",
-    "unicodecsv (>=0.14)"
-  ],
-  "requires_extras": {
-    "cchardet": [
-      "cchardet (>=2.0); extra=='cchardet'"
+  "requires_dist": {
+    "dists": [
+      "chardet",
+      "click",
+      "jsonpointer",
+      "jsonschema",
+      "requests",
+      "six",
+      "tableschema",
+      "tabulator",
+      "unicodecsv"
     ],
-    "develop": [
-      "httpretty; extra=='develop'",
-      "mock; extra=='develop'",
-      "pylama; extra=='develop'",
-      "pytest; extra=='develop'",
-      "pytest-cov; extra=='develop'",
-      "tableschema-sql; extra=='develop'",
-      "tox; extra=='develop'"
+    "specifiers": [
+      "chardet (>=3.0)",
+      "click (>=6.7)",
+      "jsonpointer (>=1.10)",
+      "jsonschema (>=2.5)",
+      "requests (>=2.8)",
+      "six (>=1.10)",
+      "tableschema (>=1.12.1)",
+      "tabulator (>=1.29)",
+      "unicodecsv (>=0.14)"
     ]
+  },
+  "requires_extras": {
+    "cchardet": {
+      "dists": [
+        "cchardet"
+      ],
+      "specifiers": [
+        "cchardet (>=2.0); extra=='cchardet'"
+      ]
+    },
+    "develop": {
+      "dists": [
+        "httpretty",
+        "mock",
+        "pylama",
+        "pytest",
+        "pytest-cov",
+        "tableschema-sql",
+        "tox"
+      ],
+      "specifiers": [
+        "httpretty; extra=='develop'",
+        "mock; extra=='develop'",
+        "pylama; extra=='develop'",
+        "pytest; extra=='develop'",
+        "pytest-cov; extra=='develop'",
+        "tableschema-sql; extra=='develop'",
+        "tox; extra=='develop'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

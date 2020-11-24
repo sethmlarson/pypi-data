@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "blinker (>=1.4)",
-    "Flask (>=1.0.4)",
-    "six (>=1.12.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "blinker",
+      "flask",
+      "six"
+    ],
+    "specifiers": [
+      "blinker (>=1.4)",
+      "flask (>=1.0.4)",
+      "six (>=1.12.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

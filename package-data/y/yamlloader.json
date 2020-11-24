@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pyyaml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyyaml"
+    ],
+    "specifiers": [
+      "pyyaml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=2.7",
   "yanked": []

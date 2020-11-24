@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "argparse; python_version=='2.6'",
-    "colorama; sys_platform=='win32'",
-    "ordereddict; python_version=='2.6'"
-  ],
-  "requires_extras": {
-    "export": [
-      "jinja2 (>=2.7,<2.8); extra=='export'"
+  "requires_dist": {
+    "dists": [
+      "argparse",
+      "colorama",
+      "ordereddict"
+    ],
+    "specifiers": [
+      "argparse; python_version=='2.6'",
+      "colorama; sys_platform=='win32'",
+      "ordereddict; python_version=='2.6'"
     ]
+  },
+  "requires_extras": {
+    "export": {
+      "dists": [
+        "jinja2"
+      ],
+      "specifiers": [
+        "jinja2 (>=2.7,<2.8); extra=='export'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

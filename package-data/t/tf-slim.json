@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "absl-py (>=0.2.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "absl-py"
+    ],
+    "specifiers": [
+      "absl-py (>=0.2.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

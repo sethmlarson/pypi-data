@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "aiocometd (<0.5.0,>=0.4.1)",
-    "aiohttp (<4.0,>=3.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiocometd",
+      "aiohttp"
+    ],
+    "specifiers": [
+      "aiocometd (<0.5.0,>=0.4.1)",
+      "aiohttp (<4.0,>=3.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.0",
   "yanked": []

@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "requests",
-    "simplejson",
-    "sphinx",
-    "sphinx-rtd-theme"
-  ],
+  "requires_dist": {
+    "dists": [
+      "requests",
+      "simplejson",
+      "sphinx",
+      "sphinx-rtd-theme"
+    ],
+    "specifiers": [
+      "requests",
+      "simplejson",
+      "sphinx",
+      "sphinx-rtd-theme"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

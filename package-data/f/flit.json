@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "docutils",
-    "flit_core>=3.0.0",
-    "pytoml",
-    "requests",
-    "zipfile36; python_version in '3.3 3.4 3.5'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "docutils",
+      "flit_core",
+      "pytoml",
+      "requests",
+      "zipfile36"
+    ],
+    "specifiers": [
+      "docutils",
+      "flit_core>=3.0.0",
+      "pytoml",
+      "requests",
+      "zipfile36; python_version in '3.3 3.4 3.5'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

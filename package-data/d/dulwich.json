@@ -1,21 +1,47 @@
 {
-  "requires_dist": [
-    "certifi",
-    "urllib3 (>=1.24.1)"
-  ],
-  "requires_extras": {
-    "fastimport": [
-      "fastimport; extra=='fastimport'"
+  "requires_dist": {
+    "dists": [
+      "certifi",
+      "urllib3"
     ],
-    "https": [
-      "urllib3[secure] (>=1.24.1); extra=='https'"
-    ],
-    "pgp": [
-      "gpg; extra=='pgp'"
-    ],
-    "watch": [
-      "pyinotify; extra=='watch'"
+    "specifiers": [
+      "certifi",
+      "urllib3 (>=1.24.1)"
     ]
+  },
+  "requires_extras": {
+    "fastimport": {
+      "dists": [
+        "fastimport"
+      ],
+      "specifiers": [
+        "fastimport; extra=='fastimport'"
+      ]
+    },
+    "https": {
+      "dists": [
+        "urllib3"
+      ],
+      "specifiers": [
+        "urllib3[secure] (>=1.24.1); extra=='https'"
+      ]
+    },
+    "pgp": {
+      "dists": [
+        "gpg"
+      ],
+      "specifiers": [
+        "gpg; extra=='pgp'"
+      ]
+    },
+    "watch": {
+      "dists": [
+        "pyinotify"
+      ],
+      "specifiers": [
+        "pyinotify; extra=='watch'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

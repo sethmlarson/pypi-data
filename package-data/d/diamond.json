@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "configobj",
-    "psutil"
-  ],
+  "requires_dist": {
+    "dists": [
+      "configobj",
+      "psutil"
+    ],
+    "specifiers": [
+      "configobj",
+      "psutil"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

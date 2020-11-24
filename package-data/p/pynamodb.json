@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "botocore (>=1.12.54)",
-    "typing-extensions (>=3.7); python_version<'3.8'"
-  ],
-  "requires_extras": {
-    "signals": [
-      "blinker (<2.0,>=1.3); extra=='signals'"
+  "requires_dist": {
+    "dists": [
+      "botocore",
+      "typing-extensions"
+    ],
+    "specifiers": [
+      "botocore (>=1.12.54)",
+      "typing-extensions (>=3.7); python_version<'3.8'"
     ]
+  },
+  "requires_extras": {
+    "signals": {
+      "dists": [
+        "blinker"
+      ],
+      "specifiers": [
+        "blinker (<2.0,>=1.3); extra=='signals'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

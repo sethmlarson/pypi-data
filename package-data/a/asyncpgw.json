@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "asyncpg"
-  ],
+  "requires_dist": {
+    "dists": [
+      "asyncpg"
+    ],
+    "specifiers": [
+      "asyncpg"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

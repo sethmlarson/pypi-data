@@ -1,23 +1,47 @@
 {
-  "requires_dist": [
-    "azureml-core (==1.18.0)",
-    "distro (==1.4.0)",
-    "jsonschema (==3.0.1)",
-    "more-itertools (==6.0.0)",
-    "numpy (==1.18.1)",
-    "pandas (==1.0.4)",
-    "pyarrow (==0.16.0)",
-    "pycryptodomex (==3.7.3)",
-    "python-dateutil (==2.8.1)",
-    "ruamel.yaml (==0.16.10)"
-  ],
-  "requires_extras": {
-    "image": [
-      "Pillow (==7.1.0); extra=='image'"
+  "requires_dist": {
+    "dists": [
+      "azureml-core",
+      "distro",
+      "jsonschema",
+      "more-itertools",
+      "numpy",
+      "pandas",
+      "pyarrow",
+      "pycryptodomex",
+      "python-dateutil",
+      "ruamel.yaml"
     ],
-    "model": [
-      "cloudpickle (==1.2.2); extra=='model'"
+    "specifiers": [
+      "azureml-core (==1.18.0)",
+      "distro (==1.4.0)",
+      "jsonschema (==3.0.1)",
+      "more-itertools (==6.0.0)",
+      "numpy (==1.18.1)",
+      "pandas (==1.0.4)",
+      "pyarrow (==0.16.0)",
+      "pycryptodomex (==3.7.3)",
+      "python-dateutil (==2.8.1)",
+      "ruamel.yaml (==0.16.10)"
     ]
+  },
+  "requires_extras": {
+    "image": {
+      "dists": [
+        "pillow"
+      ],
+      "specifiers": [
+        "pillow (==7.1.0); extra=='image'"
+      ]
+    },
+    "model": {
+      "dists": [
+        "cloudpickle"
+      ],
+      "specifiers": [
+        "cloudpickle (==1.2.2); extra=='model'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

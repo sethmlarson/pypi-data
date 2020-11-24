@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "dagster"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dagster"
+    ],
+    "specifiers": [
+      "dagster"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

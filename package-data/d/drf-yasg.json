@@ -1,18 +1,35 @@
 {
-  "requires_dist": [
-    "coreapi (>=2.3.3)",
-    "coreschema (>=0.0.4)",
-    "Django (>=2.2.16)",
-    "djangorestframework (>=3.10.3)",
-    "inflection (>=0.3.1)",
-    "packaging",
-    "ruamel.yaml (>=0.15.34)",
-    "uritemplate (>=3.0.0)"
-  ],
-  "requires_extras": {
-    "validation": [
-      "swagger-spec-validator (>=2.1.0); extra=='validation'"
+  "requires_dist": {
+    "dists": [
+      "coreapi",
+      "coreschema",
+      "django",
+      "djangorestframework",
+      "inflection",
+      "packaging",
+      "ruamel.yaml",
+      "uritemplate"
+    ],
+    "specifiers": [
+      "coreapi (>=2.3.3)",
+      "coreschema (>=0.0.4)",
+      "django (>=2.2.16)",
+      "djangorestframework (>=3.10.3)",
+      "inflection (>=0.3.1)",
+      "packaging",
+      "ruamel.yaml (>=0.15.34)",
+      "uritemplate (>=3.0.0)"
     ]
+  },
+  "requires_extras": {
+    "validation": {
+      "dists": [
+        "swagger-spec-validator"
+      ],
+      "specifiers": [
+        "swagger-spec-validator (>=2.1.0); extra=='validation'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

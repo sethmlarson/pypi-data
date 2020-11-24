@@ -1,17 +1,33 @@
 {
-  "requires_dist": [
-    "aiodns (<2.1,>=1.1.1); python_version>='3.5.2'",
-    "aiohttp (<3.8,>=3.7.2); python_version>='3.5.2'",
-    "certifi (>=2018.1.18)",
-    "cryptography (>=2.6.1)",
-    "requests (>=2.18.4)",
-    "setuptools (>=38.5.1)",
-    "yarl (==1.1.0); python_version>='3.5.2'"
-  ],
-  "requires_extras": {
-    "qa": [
-      "flake8 (==3.7.9); extra=='qa'"
+  "requires_dist": {
+    "dists": [
+      "aiodns",
+      "aiohttp",
+      "certifi",
+      "cryptography",
+      "requests",
+      "setuptools",
+      "yarl"
+    ],
+    "specifiers": [
+      "aiodns (<2.1,>=1.1.1); python_version>='3.5.2'",
+      "aiohttp (<3.8,>=3.7.2); python_version>='3.5.2'",
+      "certifi (>=2018.1.18)",
+      "cryptography (>=2.6.1)",
+      "requests (>=2.18.4)",
+      "setuptools (>=38.5.1)",
+      "yarl (==1.1.0); python_version>='3.5.2'"
     ]
+  },
+  "requires_extras": {
+    "qa": {
+      "dists": [
+        "flake8"
+      ],
+      "specifiers": [
+        "flake8 (==3.7.9); extra=='qa'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

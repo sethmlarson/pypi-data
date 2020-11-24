@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "pylint (>=2.3.0)",
-    "pytest (>=5.4)",
-    "toml (>=0.7.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pylint",
+      "pytest",
+      "toml"
+    ],
+    "specifiers": [
+      "pylint (>=2.3.0)",
+      "pytest (>=5.4)",
+      "toml (>=0.7.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "aiohttp; python_version>='3.5.3'",
-    "curlify (>=2.1.0)",
-    "pycountry (>=19.8.18)",
-    "requests (>=2.3.0)",
-    "six (>=1.7.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "curlify",
+      "pycountry",
+      "requests",
+      "six"
+    ],
+    "specifiers": [
+      "aiohttp; python_version>='3.5.3'",
+      "curlify (>=2.1.0)",
+      "pycountry (>=19.8.18)",
+      "requests (>=2.3.0)",
+      "six (>=1.7.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

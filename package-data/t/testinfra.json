@@ -1,20 +1,45 @@
 {
-  "requires_dist": [
-    "pytest-testinfra"
-  ],
-  "requires_extras": {
-    "ansible": [
-      "pytest-testinfra[ansible]; extra=='ansible'"
+  "requires_dist": {
+    "dists": [
+      "pytest-testinfra"
     ],
-    "paramiko": [
-      "pytest-testinfra[paramiko]; extra=='paramiko'"
-    ],
-    "salt": [
-      "pytest-testinfra[salt]; extra=='salt'"
-    ],
-    "winrm": [
-      "pytest-testinfra[pywinrm]; extra=='winrm'"
+    "specifiers": [
+      "pytest-testinfra"
     ]
+  },
+  "requires_extras": {
+    "ansible": {
+      "dists": [
+        "pytest-testinfra"
+      ],
+      "specifiers": [
+        "pytest-testinfra[ansible]; extra=='ansible'"
+      ]
+    },
+    "paramiko": {
+      "dists": [
+        "pytest-testinfra"
+      ],
+      "specifiers": [
+        "pytest-testinfra[paramiko]; extra=='paramiko'"
+      ]
+    },
+    "salt": {
+      "dists": [
+        "pytest-testinfra"
+      ],
+      "specifiers": [
+        "pytest-testinfra[salt]; extra=='salt'"
+      ]
+    },
+    "winrm": {
+      "dists": [
+        "pytest-testinfra"
+      ],
+      "specifiers": [
+        "pytest-testinfra[pywinrm]; extra=='winrm'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

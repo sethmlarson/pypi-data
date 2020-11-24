@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "azure-common (~=1.1)",
-    "azure-core (<2.0.0,>=1.6.0)",
-    "azure-nspkg; python_version<'3.0'",
-    "futures; python_version<'3.0'",
-    "isodate (>=0.6.0)",
-    "msrest (<2.0.0,>=0.6.17)",
-    "six (>=1.6)",
-    "uamqp (<2.0.0,>=1.2.12)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "azure-common",
+      "azure-core",
+      "azure-nspkg",
+      "futures",
+      "isodate",
+      "msrest",
+      "six",
+      "uamqp"
+    ],
+    "specifiers": [
+      "azure-common (~=1.1)",
+      "azure-core (<2.0.0,>=1.6.0)",
+      "azure-nspkg; python_version<'3.0'",
+      "futures; python_version<'3.0'",
+      "isodate (>=0.6.0)",
+      "msrest (<2.0.0,>=0.6.17)",
+      "six (>=1.6)",
+      "uamqp (<2.0.0,>=1.2.12)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

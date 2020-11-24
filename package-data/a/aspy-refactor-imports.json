@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "cached-property"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cached-property"
+    ],
+    "specifiers": [
+      "cached-property"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.1",
   "yanked": []

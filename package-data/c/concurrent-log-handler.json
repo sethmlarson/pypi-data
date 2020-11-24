@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "portalocker (<=1.7.1); python_version<'3'",
-    "portalocker (>=1.4.0); python_version>='3'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "portalocker",
+      "portalocker"
+    ],
+    "specifiers": [
+      "portalocker (<=1.7.1); python_version<'3'",
+      "portalocker (>=1.4.0); python_version>='3'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

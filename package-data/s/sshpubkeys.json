@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "cryptography (>=2.1.4)",
-    "ecdsa (>=0.13)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cryptography",
+      "ecdsa"
+    ],
+    "specifiers": [
+      "cryptography (>=2.1.4)",
+      "ecdsa (>=0.13)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

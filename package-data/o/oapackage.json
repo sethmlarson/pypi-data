@@ -1,18 +1,37 @@
 {
-  "requires_dist": [
-    "backports.functools-lru-cache; python_version<'2.9'",
-    "mock; python_version<'3.0'",
-    "numpy (>=1.13)",
-    "python-dateutil"
-  ],
-  "requires_extras": {
-    "documentation": [
-      "sphinx; extra=='documentation'"
+  "requires_dist": {
+    "dists": [
+      "backports.functools-lru-cache",
+      "mock",
+      "numpy",
+      "python-dateutil"
     ],
-    "gui": [
-      "matplotlib; extra=='gui'",
-      "qtpy; extra=='gui'"
+    "specifiers": [
+      "backports.functools-lru-cache; python_version<'2.9'",
+      "mock; python_version<'3.0'",
+      "numpy (>=1.13)",
+      "python-dateutil"
     ]
+  },
+  "requires_extras": {
+    "documentation": {
+      "dists": [
+        "sphinx"
+      ],
+      "specifiers": [
+        "sphinx; extra=='documentation'"
+      ]
+    },
+    "gui": {
+      "dists": [
+        "matplotlib",
+        "qtpy"
+      ],
+      "specifiers": [
+        "matplotlib; extra=='gui'",
+        "qtpy; extra=='gui'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

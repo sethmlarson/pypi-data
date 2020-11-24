@@ -1,17 +1,33 @@
 {
-  "requires_dist": [
-    "DataProperty (<2,>=0.50.0)",
-    "mbstrdecoder (<2,>=1.0.0)",
-    "pathvalidate (<3)",
-    "setuptools (>=38.3.0)",
-    "sqliteschema (<2,>=1.0.1)",
-    "tabledata (<2,>=1.1.3)",
-    "typepy (<2,>=1.1.1)"
-  ],
-  "requires_extras": {
-    "logging": [
-      "loguru (<1,>=0.4.1); extra=='logging'"
+  "requires_dist": {
+    "dists": [
+      "dataproperty",
+      "mbstrdecoder",
+      "pathvalidate",
+      "setuptools",
+      "sqliteschema",
+      "tabledata",
+      "typepy"
+    ],
+    "specifiers": [
+      "dataproperty (<2,>=0.50.0)",
+      "mbstrdecoder (<2,>=1.0.0)",
+      "pathvalidate (<3)",
+      "setuptools (>=38.3.0)",
+      "sqliteschema (<2,>=1.0.1)",
+      "tabledata (<2,>=1.1.3)",
+      "typepy (<2,>=1.1.1)"
     ]
+  },
+  "requires_extras": {
+    "logging": {
+      "dists": [
+        "loguru"
+      ],
+      "specifiers": [
+        "loguru (<1,>=0.4.1); extra=='logging'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "psycopg2 (>=2.8.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "psycopg2"
+    ],
+    "specifiers": [
+      "psycopg2 (>=2.8.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

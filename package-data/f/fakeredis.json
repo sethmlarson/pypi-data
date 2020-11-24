@@ -1,16 +1,33 @@
 {
-  "requires_dist": [
-    "redis (<3.6.0)",
-    "six (>=1.12)",
-    "sortedcontainers"
-  ],
-  "requires_extras": {
-    "aioredis": [
-      "aioredis; extra=='aioredis'"
+  "requires_dist": {
+    "dists": [
+      "redis",
+      "six",
+      "sortedcontainers"
     ],
-    "lua": [
-      "lupa; extra=='lua'"
+    "specifiers": [
+      "redis (<3.6.0)",
+      "six (>=1.12)",
+      "sortedcontainers"
     ]
+  },
+  "requires_extras": {
+    "aioredis": {
+      "dists": [
+        "aioredis"
+      ],
+      "specifiers": [
+        "aioredis; extra=='aioredis'"
+      ]
+    },
+    "lua": {
+      "dists": [
+        "lupa"
+      ],
+      "specifiers": [
+        "lupa; extra=='lua'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

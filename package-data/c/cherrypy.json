@@ -1,28 +1,63 @@
 {
-  "requires_dist": [
-    "cheroot (>=8.2.1)",
-    "jaraco.collections",
-    "more-itertools",
-    "portend (>=2.1.1)",
-    "pywin32; sys_platform=='win32'",
-    "zc.lockfile"
-  ],
-  "requires_extras": {
-    "json": [
-      "simplejson; extra=='json'"
+  "requires_dist": {
+    "dists": [
+      "cheroot",
+      "jaraco.collections",
+      "more-itertools",
+      "portend",
+      "pywin32",
+      "zc.lockfile"
     ],
-    "memcached_session": [
-      "python-memcached (>=1.58); extra=='memcached_session'"
-    ],
-    "routes_dispatcher": [
-      "routes (>=2.3.1); extra=='routes_dispatcher'"
-    ],
-    "ssl": [
-      "pyOpenSSL; extra=='ssl'"
-    ],
-    "xcgi": [
-      "flup; extra=='xcgi'"
+    "specifiers": [
+      "cheroot (>=8.2.1)",
+      "jaraco.collections",
+      "more-itertools",
+      "portend (>=2.1.1)",
+      "pywin32; sys_platform=='win32'",
+      "zc.lockfile"
     ]
+  },
+  "requires_extras": {
+    "json": {
+      "dists": [
+        "simplejson"
+      ],
+      "specifiers": [
+        "simplejson; extra=='json'"
+      ]
+    },
+    "memcached_session": {
+      "dists": [
+        "python-memcached"
+      ],
+      "specifiers": [
+        "python-memcached (>=1.58); extra=='memcached_session'"
+      ]
+    },
+    "routes_dispatcher": {
+      "dists": [
+        "routes"
+      ],
+      "specifiers": [
+        "routes (>=2.3.1); extra=='routes_dispatcher'"
+      ]
+    },
+    "ssl": {
+      "dists": [
+        "pyopenssl"
+      ],
+      "specifiers": [
+        "pyopenssl; extra=='ssl'"
+      ]
+    },
+    "xcgi": {
+      "dists": [
+        "flup"
+      ],
+      "specifiers": [
+        "flup; extra=='xcgi'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

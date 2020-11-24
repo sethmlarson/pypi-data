@@ -1,45 +1,93 @@
 {
-  "requires_dist": [
-    "asn1crypto (<2.0.0,>0.24.0)",
-    "azure-common (<2.0.0)",
-    "azure-storage-blob (<12.0.0); python_version<='3.5.1'",
-    "azure-storage-blob (<13.0.0,>=12.0.0); python_version>='3.5.2'",
-    "boto3 (<1.16,>=1.4.4)",
-    "certifi (<2021.0.0)",
-    "cffi (<1.15,>=1.9)",
-    "cryptography (<4.0.0,>=2.5.0)",
-    "oscrypto (<2.0.0)",
-    "pycryptodomex (!=3.5.0,<4.0.0,>=3.2)",
-    "pyjwt (<2.0.0)",
-    "pyOpenSSL (<21.0.0,>=16.2.0)",
-    "pytz (<2021.0)",
-    "requests (<2.24.0)",
-    "urllib3 (<1.26.0,>=1.20)"
-  ],
-  "requires_extras": {
-    "development": [
-      "coverage; extra=='development'",
-      "Cython; extra=='development'",
-      "mock; extra=='development'",
-      "more-itertools; extra=='development'",
-      "numpy; extra=='development'",
-      "pendulum (!=2.1.1); extra=='development'",
-      "pexpect; extra=='development'",
-      "pytest (<6.2.0); extra=='development'",
-      "pytest-cov; extra=='development'",
-      "pytest-rerunfailures; extra=='development'",
-      "pytest-timeout; extra=='development'",
-      "pytz; extra=='development'",
-      "pytzdata; extra=='development'"
+  "requires_dist": {
+    "dists": [
+      "asn1crypto",
+      "azure-common",
+      "azure-storage-blob",
+      "azure-storage-blob",
+      "boto3",
+      "certifi",
+      "cffi",
+      "cryptography",
+      "oscrypto",
+      "pycryptodomex",
+      "pyjwt",
+      "pyopenssl",
+      "pytz",
+      "requests",
+      "urllib3"
     ],
-    "pandas": [
-      "pandas (<1.2.0,>=1.0.0); (python_version>'3.5') and extra=='pandas'",
-      "pandas (==0.24.2); (python_version=='3.5') and extra=='pandas'",
-      "pyarrow (<0.18.0,>=0.17.0); extra=='pandas'"
-    ],
-    "secure-local-storage": [
-      "keyring (!=16.1.0,<22.0.0); extra=='secure-local-storage'"
+    "specifiers": [
+      "asn1crypto (<2.0.0,>0.24.0)",
+      "azure-common (<2.0.0)",
+      "azure-storage-blob (<12.0.0); python_version<='3.5.1'",
+      "azure-storage-blob (<13.0.0,>=12.0.0); python_version>='3.5.2'",
+      "boto3 (<1.16,>=1.4.4)",
+      "certifi (<2021.0.0)",
+      "cffi (<1.15,>=1.9)",
+      "cryptography (<4.0.0,>=2.5.0)",
+      "oscrypto (<2.0.0)",
+      "pycryptodomex (!=3.5.0,<4.0.0,>=3.2)",
+      "pyjwt (<2.0.0)",
+      "pyopenssl (<21.0.0,>=16.2.0)",
+      "pytz (<2021.0)",
+      "requests (<2.24.0)",
+      "urllib3 (<1.26.0,>=1.20)"
     ]
+  },
+  "requires_extras": {
+    "development": {
+      "dists": [
+        "coverage",
+        "cython",
+        "mock",
+        "more-itertools",
+        "numpy",
+        "pendulum",
+        "pexpect",
+        "pytest",
+        "pytest-cov",
+        "pytest-rerunfailures",
+        "pytest-timeout",
+        "pytz",
+        "pytzdata"
+      ],
+      "specifiers": [
+        "coverage; extra=='development'",
+        "cython; extra=='development'",
+        "mock; extra=='development'",
+        "more-itertools; extra=='development'",
+        "numpy; extra=='development'",
+        "pendulum (!=2.1.1); extra=='development'",
+        "pexpect; extra=='development'",
+        "pytest (<6.2.0); extra=='development'",
+        "pytest-cov; extra=='development'",
+        "pytest-rerunfailures; extra=='development'",
+        "pytest-timeout; extra=='development'",
+        "pytz; extra=='development'",
+        "pytzdata; extra=='development'"
+      ]
+    },
+    "pandas": {
+      "dists": [
+        "pandas",
+        "pandas",
+        "pyarrow"
+      ],
+      "specifiers": [
+        "pandas (<1.2.0,>=1.0.0); (python_version>'3.5') and extra=='pandas'",
+        "pandas (==0.24.2); (python_version=='3.5') and extra=='pandas'",
+        "pyarrow (<0.18.0,>=0.17.0); extra=='pandas'"
+      ]
+    },
+    "secure-local-storage": {
+      "dists": [
+        "keyring"
+      ],
+      "specifiers": [
+        "keyring (!=16.1.0,<22.0.0); extra=='secure-local-storage'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

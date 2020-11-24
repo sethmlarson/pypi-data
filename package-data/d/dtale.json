@@ -1,6 +1,100 @@
 {
-  "requires_dist": [],
-  "requires_extras": {},
+  "requires_dist": {
+    "dists": [
+      "dash",
+      "dash-bootstrap-components",
+      "dash-bootstrap-components",
+      "dash-colorscales",
+      "dash-daq",
+      "flask",
+      "flask-compress",
+      "flask-ngrok",
+      "future",
+      "itsdangerous",
+      "kaleido",
+      "lz4",
+      "lz4",
+      "pandas",
+      "plotly",
+      "requests",
+      "scikit-learn",
+      "scipy",
+      "six",
+      "squarify",
+      "statsmodels",
+      "strsimpy",
+      "xarray"
+    ],
+    "specifiers": [
+      "dash (>=1.5.0)",
+      "dash-bootstrap-components (<=0.10.5); python_version<'3.0'",
+      "dash-bootstrap-components; python_version>'3.0'",
+      "dash-colorscales",
+      "dash-daq",
+      "flask (>=1.0)",
+      "flask-compress",
+      "flask-ngrok; python_version>'3.0'",
+      "future (>=0.14.0)",
+      "itsdangerous",
+      "kaleido",
+      "lz4 (<=2.2.1); python_version<'3.0'",
+      "lz4; python_version>'3.0'",
+      "pandas",
+      "plotly (>=4.9.0)",
+      "requests",
+      "scikit-learn (>='0.21.0)",
+      "scipy",
+      "six",
+      "squarify",
+      "statsmodels",
+      "strsimpy",
+      "xarray"
+    ]
+  },
+  "requires_extras": {
+    "arctic": {
+      "dists": [
+        "arctic"
+      ],
+      "specifiers": [
+        "arctic; extra=='arctic'"
+      ]
+    },
+    "r": {
+      "dists": [
+        "rpy2",
+        "rpy2"
+      ],
+      "specifiers": [
+        "rpy2 (<=2.8.6); (python_version<'3.0') and extra=='r'",
+        "rpy2; (python_version>'3.0') and extra=='r'"
+      ]
+    },
+    "redis": {
+      "dists": [
+        "redislite"
+      ],
+      "specifiers": [
+        "redislite; extra=='redis'"
+      ]
+    },
+    "streamlit": {
+      "dists": [
+        "streamlit"
+      ],
+      "specifiers": [
+        "streamlit; extra=='streamlit'"
+      ]
+    },
+    "swifter": {
+      "dists": [
+        "swifter"
+      ],
+      "specifiers": [
+        "swifter; extra=='swifter'"
+      ]
+    }
+  },
   "requires_python": "",
   "yanked": []
 }

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "certbot"
-  ],
+  "requires_dist": {
+    "dists": [
+      "certbot"
+    ],
+    "specifiers": [
+      "certbot"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "param"
-  ],
-  "requires_extras": {
-    "build": [
-      "param (>=1.7.0); extra=='build'",
-      "setuptools; extra=='build'"
+  "requires_dist": {
+    "dists": [
+      "param"
+    ],
+    "specifiers": [
+      "param"
     ]
+  },
+  "requires_extras": {
+    "build": {
+      "dists": [
+        "param",
+        "setuptools"
+      ],
+      "specifiers": [
+        "param (>=1.7.0); extra=='build'",
+        "setuptools; extra=='build'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

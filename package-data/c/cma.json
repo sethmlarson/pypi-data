@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "numpy"
-  ],
-  "requires_extras": {
-    "plotting": [
-      "matplotlib; extra=='plotting'"
+  "requires_dist": {
+    "dists": [
+      "numpy"
+    ],
+    "specifiers": [
+      "numpy"
     ]
+  },
+  "requires_extras": {
+    "plotting": {
+      "dists": [
+        "matplotlib"
+      ],
+      "specifiers": [
+        "matplotlib; extra=='plotting'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "protobuf"
-  ],
+  "requires_dist": {
+    "dists": [
+      "protobuf"
+    ],
+    "specifiers": [
+      "protobuf"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

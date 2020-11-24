@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pycparser"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pycparser"
+    ],
+    "specifiers": [
+      "pycparser"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

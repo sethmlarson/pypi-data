@@ -1,15 +1,28 @@
 {
-  "requires_dist": [
-    "munkres (>=1.0.6)",
-    "networkx (<2.4,>=2.2)",
-    "numpy (<2.0.0,>=1.16.0)",
-    "pandas (<2.0.0,>=0.25.0)",
-    "scikit-learn (<0.22.0,>=0.20.2)",
-    "scipy (<2.0.0,>=1.2.0)",
-    "tensorboard (<2.0.0,>=1.14.0)",
-    "torch (<2.0.0,>=1.2.0)",
-    "tqdm (<5.0.0,>=4.33.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "munkres",
+      "networkx",
+      "numpy",
+      "pandas",
+      "scikit-learn",
+      "scipy",
+      "tensorboard",
+      "torch",
+      "tqdm"
+    ],
+    "specifiers": [
+      "munkres (>=1.0.6)",
+      "networkx (<2.4,>=2.2)",
+      "numpy (<2.0.0,>=1.16.0)",
+      "pandas (<2.0.0,>=0.25.0)",
+      "scikit-learn (<0.22.0,>=0.20.2)",
+      "scipy (<2.0.0,>=1.2.0)",
+      "tensorboard (<2.0.0,>=1.14.0)",
+      "torch (<2.0.0,>=1.2.0)",
+      "tqdm (<5.0.0,>=4.33.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

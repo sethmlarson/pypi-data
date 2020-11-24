@@ -1,45 +1,101 @@
 {
-  "requires_dist": [
-    "pyyaml"
-  ],
-  "requires_extras": {
-    "array": [
-      "numpy (>=1.13.0); extra=='array'",
-      "toolz (>=0.8.2); extra=='array'"
+  "requires_dist": {
+    "dists": [
+      "pyyaml"
     ],
-    "bag": [
-      "cloudpickle (>=0.2.2); extra=='bag'",
-      "fsspec (>=0.6.0); extra=='bag'",
-      "partd (>=0.3.10); extra=='bag'",
-      "toolz (>=0.8.2); extra=='bag'"
-    ],
-    "complete": [
-      "bokeh (!=2.0.0,>=1.0.0); extra=='complete'",
-      "cloudpickle (>=0.2.2); extra=='complete'",
-      "distributed (>=2.0); extra=='complete'",
-      "fsspec (>=0.6.0); extra=='complete'",
-      "numpy (>=1.13.0); extra=='complete'",
-      "pandas (>=0.23.0); extra=='complete'",
-      "partd (>=0.3.10); extra=='complete'",
-      "toolz (>=0.8.2); extra=='complete'"
-    ],
-    "dataframe": [
-      "fsspec (>=0.6.0); extra=='dataframe'",
-      "numpy (>=1.13.0); extra=='dataframe'",
-      "pandas (>=0.23.0); extra=='dataframe'",
-      "partd (>=0.3.10); extra=='dataframe'",
-      "toolz (>=0.8.2); extra=='dataframe'"
-    ],
-    "delayed": [
-      "cloudpickle (>=0.2.2); extra=='delayed'",
-      "toolz (>=0.8.2); extra=='delayed'"
-    ],
-    "diagnostics": [
-      "bokeh (!=2.0.0,>=1.0.0); extra=='diagnostics'"
-    ],
-    "distributed": [
-      "distributed (>=2.0); extra=='distributed'"
+    "specifiers": [
+      "pyyaml"
     ]
+  },
+  "requires_extras": {
+    "array": {
+      "dists": [
+        "numpy",
+        "toolz"
+      ],
+      "specifiers": [
+        "numpy (>=1.13.0); extra=='array'",
+        "toolz (>=0.8.2); extra=='array'"
+      ]
+    },
+    "bag": {
+      "dists": [
+        "cloudpickle",
+        "fsspec",
+        "partd",
+        "toolz"
+      ],
+      "specifiers": [
+        "cloudpickle (>=0.2.2); extra=='bag'",
+        "fsspec (>=0.6.0); extra=='bag'",
+        "partd (>=0.3.10); extra=='bag'",
+        "toolz (>=0.8.2); extra=='bag'"
+      ]
+    },
+    "complete": {
+      "dists": [
+        "bokeh",
+        "cloudpickle",
+        "distributed",
+        "fsspec",
+        "numpy",
+        "pandas",
+        "partd",
+        "toolz"
+      ],
+      "specifiers": [
+        "bokeh (!=2.0.0,>=1.0.0); extra=='complete'",
+        "cloudpickle (>=0.2.2); extra=='complete'",
+        "distributed (>=2.0); extra=='complete'",
+        "fsspec (>=0.6.0); extra=='complete'",
+        "numpy (>=1.13.0); extra=='complete'",
+        "pandas (>=0.23.0); extra=='complete'",
+        "partd (>=0.3.10); extra=='complete'",
+        "toolz (>=0.8.2); extra=='complete'"
+      ]
+    },
+    "dataframe": {
+      "dists": [
+        "fsspec",
+        "numpy",
+        "pandas",
+        "partd",
+        "toolz"
+      ],
+      "specifiers": [
+        "fsspec (>=0.6.0); extra=='dataframe'",
+        "numpy (>=1.13.0); extra=='dataframe'",
+        "pandas (>=0.23.0); extra=='dataframe'",
+        "partd (>=0.3.10); extra=='dataframe'",
+        "toolz (>=0.8.2); extra=='dataframe'"
+      ]
+    },
+    "delayed": {
+      "dists": [
+        "cloudpickle",
+        "toolz"
+      ],
+      "specifiers": [
+        "cloudpickle (>=0.2.2); extra=='delayed'",
+        "toolz (>=0.8.2); extra=='delayed'"
+      ]
+    },
+    "diagnostics": {
+      "dists": [
+        "bokeh"
+      ],
+      "specifiers": [
+        "bokeh (!=2.0.0,>=1.0.0); extra=='diagnostics'"
+      ]
+    },
+    "distributed": {
+      "dists": [
+        "distributed"
+      ],
+      "specifiers": [
+        "distributed (>=2.0); extra=='distributed'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

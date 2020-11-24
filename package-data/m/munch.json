@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "six"
-  ],
-  "requires_extras": {
-    "yaml": [
-      "PyYAML (>=5.1.0); extra=='yaml'"
+  "requires_dist": {
+    "dists": [
+      "six"
+    ],
+    "specifiers": [
+      "six"
     ]
+  },
+  "requires_extras": {
+    "yaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml (>=5.1.0); extra=='yaml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "flake8 (>=3.7,<3.9)",
-    "typed-ast (>=1.4,<2.0); python_version<'3.8'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flake8",
+      "typed-ast"
+    ],
+    "specifiers": [
+      "flake8 (>=3.7,<3.9)",
+      "typed-ast (>=1.4,<2.0); python_version<'3.8'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.1,<4.0.0",
   "yanked": []

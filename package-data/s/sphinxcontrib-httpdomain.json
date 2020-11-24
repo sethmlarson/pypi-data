@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "six",
-    "Sphinx (>=1.5)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "six",
+      "sphinx"
+    ],
+    "specifiers": [
+      "six",
+      "sphinx (>=1.5)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

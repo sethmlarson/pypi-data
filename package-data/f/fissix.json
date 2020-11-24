@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "appdirs"
-  ],
+  "requires_dist": {
+    "dists": [
+      "appdirs"
+    ],
+    "specifiers": [
+      "appdirs"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

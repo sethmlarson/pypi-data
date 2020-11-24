@@ -1,16 +1,33 @@
 {
-  "requires_dist": [
-    "numpy",
-    "six",
-    "tensorflow-probability (==0.8)"
-  ],
-  "requires_extras": {
-    "tensorflow": [
-      "tensorflow (>=1.14); extra=='tensorflow'"
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "six",
+      "tensorflow-probability"
     ],
-    "tensorflow_gpu": [
-      "tensorflow-gpu (>=1.14); extra=='tensorflow_gpu'"
+    "specifiers": [
+      "numpy",
+      "six",
+      "tensorflow-probability (==0.8)"
     ]
+  },
+  "requires_extras": {
+    "tensorflow": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (>=1.14); extra=='tensorflow'"
+      ]
+    },
+    "tensorflow_gpu": {
+      "dists": [
+        "tensorflow-gpu"
+      ],
+      "specifiers": [
+        "tensorflow-gpu (>=1.14); extra=='tensorflow_gpu'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

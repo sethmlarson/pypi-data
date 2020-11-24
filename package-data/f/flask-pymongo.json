@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Flask (>=0.11)",
-    "PyMongo (>=3.3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flask",
+      "pymongo"
+    ],
+    "specifiers": [
+      "flask (>=0.11)",
+      "pymongo (>=3.3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

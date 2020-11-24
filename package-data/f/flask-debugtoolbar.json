@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "Blinker",
-    "Flask (>=0.8)",
-    "itsdangerous",
-    "werkzeug"
-  ],
+  "requires_dist": {
+    "dists": [
+      "blinker",
+      "flask",
+      "itsdangerous",
+      "werkzeug"
+    ],
+    "specifiers": [
+      "blinker",
+      "flask (>=0.8)",
+      "itsdangerous",
+      "werkzeug"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

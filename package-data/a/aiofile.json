@@ -1,14 +1,27 @@
 {
-  "requires_dist": [
-    "caio (~=0.6.0)"
-  ],
-  "requires_extras": {
-    "develop": [
-      "aiomisc; extra=='develop'",
-      "asynctest; extra=='develop'",
-      "pytest; extra=='develop'",
-      "pytest-cov; extra=='develop'"
+  "requires_dist": {
+    "dists": [
+      "caio"
+    ],
+    "specifiers": [
+      "caio (~=0.6.0)"
     ]
+  },
+  "requires_extras": {
+    "develop": {
+      "dists": [
+        "aiomisc",
+        "asynctest",
+        "pytest",
+        "pytest-cov"
+      ],
+      "specifiers": [
+        "aiomisc; extra=='develop'",
+        "asynctest; extra=='develop'",
+        "pytest; extra=='develop'",
+        "pytest-cov; extra=='develop'"
+      ]
+    }
   },
   "requires_python": ">3.4.*, <4",
   "yanked": []

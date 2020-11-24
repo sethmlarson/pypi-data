@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "django-excel-base (>=1.0.4)",
-    "django-six (>=1.0.4)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django-excel-base",
+      "django-six"
+    ],
+    "specifiers": [
+      "django-excel-base (>=1.0.4)",
+      "django-six (>=1.0.4)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

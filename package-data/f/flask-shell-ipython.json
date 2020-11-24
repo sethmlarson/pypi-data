@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "click",
-    "flask (>=1.0)",
-    "IPython (>=5.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click",
+      "flask",
+      "ipython"
+    ],
+    "specifiers": [
+      "click",
+      "flask (>=1.0)",
+      "ipython (>=5.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "dulwich (>=0.15.0)",
-    "pbr (!=2.1.0,>=2.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dulwich",
+      "pbr"
+    ],
+    "specifiers": [
+      "dulwich (>=0.15.0)",
+      "pbr (!=2.1.0,>=2.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

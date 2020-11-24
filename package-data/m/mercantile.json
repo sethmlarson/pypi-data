@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "click (>=3.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click"
+    ],
+    "specifiers": [
+      "click (>=3.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

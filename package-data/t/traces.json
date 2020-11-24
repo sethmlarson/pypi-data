@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "infinity",
-    "python-dateutil",
-    "sortedcontainers"
-  ],
-  "requires_extras": {
-    "pandas": [
-      "pandas; extra=='pandas'"
+  "requires_dist": {
+    "dists": [
+      "infinity",
+      "python-dateutil",
+      "sortedcontainers"
+    ],
+    "specifiers": [
+      "infinity",
+      "python-dateutil",
+      "sortedcontainers"
     ]
+  },
+  "requires_extras": {
+    "pandas": {
+      "dists": [
+        "pandas"
+      ],
+      "specifiers": [
+        "pandas; extra=='pandas'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

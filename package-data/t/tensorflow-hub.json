@@ -1,16 +1,33 @@
 {
-  "requires_dist": [
-    "numpy (>=1.12.0)",
-    "protobuf (>=3.8.0)"
-  ],
-  "requires_extras": {
-    "make_image_classifier": [
-      "keras-preprocessing[image]; extra=='make_image_classifier'"
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "protobuf"
     ],
-    "make_nearest_neighbour_index": [
-      "annoy; extra=='make_nearest_neighbour_index'",
-      "apache-beam; extra=='make_nearest_neighbour_index'"
+    "specifiers": [
+      "numpy (>=1.12.0)",
+      "protobuf (>=3.8.0)"
     ]
+  },
+  "requires_extras": {
+    "make_image_classifier": {
+      "dists": [
+        "keras-preprocessing"
+      ],
+      "specifiers": [
+        "keras-preprocessing[image]; extra=='make_image_classifier'"
+      ]
+    },
+    "make_nearest_neighbour_index": {
+      "dists": [
+        "annoy",
+        "apache-beam"
+      ],
+      "specifiers": [
+        "annoy; extra=='make_nearest_neighbour_index'",
+        "apache-beam; extra=='make_nearest_neighbour_index'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

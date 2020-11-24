@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "imgaug (>=0.4.0)",
-    "numpy (>=1.11.1)",
-    "opencv-python-headless (>=4.1.1)",
-    "PyYAML",
-    "scikit-image (>=0.16.1)",
-    "scipy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "imgaug",
+      "numpy",
+      "opencv-python-headless",
+      "pyyaml",
+      "scikit-image",
+      "scipy"
+    ],
+    "specifiers": [
+      "imgaug (>=0.4.0)",
+      "numpy (>=1.11.1)",
+      "opencv-python-headless (>=4.1.1)",
+      "pyyaml",
+      "scikit-image (>=0.16.1)",
+      "scipy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

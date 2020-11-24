@@ -1,15 +1,28 @@
 {
-  "requires_dist": [
-    "astropy (>=3.0.0)",
-    "autoarray (==0.15.2)",
-    "autoconf (==0.7.2)",
-    "autofit (==0.70.1)",
-    "autogalaxy (==0.16.2)",
-    "matplotlib (>=3.0.3)",
-    "numpy (>=1.17.2)",
-    "numpydoc (>=1.0.0)",
-    "pyprojroot (==0.2.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "astropy",
+      "autoarray",
+      "autoconf",
+      "autofit",
+      "autogalaxy",
+      "matplotlib",
+      "numpy",
+      "numpydoc",
+      "pyprojroot"
+    ],
+    "specifiers": [
+      "astropy (>=3.0.0)",
+      "autoarray (==0.15.3)",
+      "autoconf (==0.7.2)",
+      "autofit (==0.70.2)",
+      "autogalaxy (==0.16.3)",
+      "matplotlib (>=3.0.3)",
+      "numpy (>=1.17.2)",
+      "numpydoc (>=1.0.0)",
+      "pyprojroot (==0.2.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

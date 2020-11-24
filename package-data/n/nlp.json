@@ -1,33 +1,73 @@
 {
-  "requires_dist": [
-    "dataclasses; python_version<'3.7'",
-    "dill",
-    "filelock",
-    "numpy",
-    "pandas",
-    "pyarrow (>=0.16.0)",
-    "requests (>=2.19.0)",
-    "tqdm (>=4.27)",
-    "xxhash"
-  ],
-  "requires_extras": {
-    "apache-beam": [
-      "apache-beam; extra=='apache-beam'"
+  "requires_dist": {
+    "dists": [
+      "dataclasses",
+      "dill",
+      "filelock",
+      "numpy",
+      "pandas",
+      "pyarrow",
+      "requests",
+      "tqdm",
+      "xxhash"
     ],
-    "quality": [
-      "black; extra=='quality'",
-      "flake8 (==3.7.9); extra=='quality'",
-      "isort; extra=='quality'"
-    ],
-    "tensorflow": [
-      "tensorflow (>=2.2.0); extra=='tensorflow'"
-    ],
-    "tensorflow_gpu": [
-      "tensorflow-gpu (>=2.2.0); extra=='tensorflow_gpu'"
-    ],
-    "torch": [
-      "torch; extra=='torch'"
+    "specifiers": [
+      "dataclasses; python_version<'3.7'",
+      "dill",
+      "filelock",
+      "numpy",
+      "pandas",
+      "pyarrow (>=0.16.0)",
+      "requests (>=2.19.0)",
+      "tqdm (>=4.27)",
+      "xxhash"
     ]
+  },
+  "requires_extras": {
+    "apache-beam": {
+      "dists": [
+        "apache-beam"
+      ],
+      "specifiers": [
+        "apache-beam; extra=='apache-beam'"
+      ]
+    },
+    "quality": {
+      "dists": [
+        "black",
+        "flake8",
+        "isort"
+      ],
+      "specifiers": [
+        "black; extra=='quality'",
+        "flake8 (==3.7.9); extra=='quality'",
+        "isort; extra=='quality'"
+      ]
+    },
+    "tensorflow": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (>=2.2.0); extra=='tensorflow'"
+      ]
+    },
+    "tensorflow_gpu": {
+      "dists": [
+        "tensorflow-gpu"
+      ],
+      "specifiers": [
+        "tensorflow-gpu (>=2.2.0); extra=='tensorflow_gpu'"
+      ]
+    },
+    "torch": {
+      "dists": [
+        "torch"
+      ],
+      "specifiers": [
+        "torch; extra=='torch'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

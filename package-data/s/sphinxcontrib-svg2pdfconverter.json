@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "Sphinx (>=1.6.3)"
-  ],
-  "requires_extras": {
-    "CairoSVG": [
-      "cairosvg (>=1.0); extra=='CairoSVG'"
+  "requires_dist": {
+    "dists": [
+      "sphinx"
+    ],
+    "specifiers": [
+      "sphinx (>=1.6.3)"
     ]
+  },
+  "requires_extras": {
+    "cairosvg": {
+      "dists": [
+        "cairosvg"
+      ],
+      "specifiers": [
+        "cairosvg (>=1.0); extra=='cairosvg'"
+      ]
+    }
   },
   "requires_python": "~=3.4",
   "yanked": []

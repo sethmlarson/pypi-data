@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "zope.event",
-    "zope.interface (>=5.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "zope.event",
+      "zope.interface"
+    ],
+    "specifiers": [
+      "setuptools",
+      "zope.event",
+      "zope.interface (>=5.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "zope.interface"
-  ],
+  "requires_dist": {
+    "dists": [
+      "zope.interface"
+    ],
+    "specifiers": [
+      "zope.interface"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

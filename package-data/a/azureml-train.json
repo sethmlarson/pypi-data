@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "azureml-train-core (~=1.18.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "azureml-train-core"
+    ],
+    "specifiers": [
+      "azureml-train-core (~=1.18.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5,<4",
   "yanked": []

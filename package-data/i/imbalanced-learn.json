@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "joblib (>=0.11)",
-    "numpy (>=1.13.3)",
-    "scikit-learn (>=0.23)",
-    "scipy (>=0.19.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "joblib",
+      "numpy",
+      "scikit-learn",
+      "scipy"
+    ],
+    "specifiers": [
+      "joblib (>=0.11)",
+      "numpy (>=1.13.3)",
+      "scikit-learn (>=0.23)",
+      "scipy (>=0.19.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

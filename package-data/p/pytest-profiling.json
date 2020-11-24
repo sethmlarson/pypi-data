@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "gprof2dot",
-    "pytest",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "gprof2dot",
+      "pytest",
+      "six"
+    ],
+    "specifiers": [
+      "gprof2dot",
+      "pytest",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "CACHE": [
-      "python-memcached; extra=='CACHE'"
-    ]
+    "cache": {
+      "dists": [
+        "python-memcached"
+      ],
+      "specifiers": [
+        "python-memcached; extra=='cache'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

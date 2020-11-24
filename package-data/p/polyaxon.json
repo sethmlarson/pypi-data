@@ -1,66 +1,147 @@
 {
-  "requires_dist": [
-    "certifi (>=2019.9.11)",
-    "click (<8.0)",
-    "click-completion (<0.6)",
-    "Jinja2 (>=2.10.3)",
-    "kubernetes (>=10.0.1)",
-    "marshmallow (<3.10.0)",
-    "nvidia-ml-py3",
-    "polyaxon-sdk (==1.4.0rc1)",
-    "psutil",
-    "python-dateutil (>=2.7.3)",
-    "pytz (>=2019.2)",
-    "PyYAML (>=5.1)",
-    "requests (>=2.20.1)",
-    "requests-toolbelt (>=0.8.0)",
-    "sentry-sdk (>=0.12.3)",
-    "tabulate (<0.9.0)",
-    "ujson (>=1.35)"
-  ],
-  "requires_extras": {
-    "azure": [
-      "azure-storage-blob (>=12.3.1); extra=='azure'"
+  "requires_dist": {
+    "dists": [
+      "certifi",
+      "click",
+      "click-completion",
+      "jinja2",
+      "kubernetes",
+      "marshmallow",
+      "nvidia-ml-py3",
+      "polyaxon-sdk",
+      "psutil",
+      "python-dateutil",
+      "pytz",
+      "pyyaml",
+      "requests",
+      "requests-toolbelt",
+      "sentry-sdk",
+      "tabulate",
+      "ujson"
     ],
-    "docker": [
-      "docker; extra=='docker'"
-    ],
-    "gcs": [
-      "google-cloud-storage; extra=='gcs'"
-    ],
-    "git": [
-      "gitpython; extra=='git'"
-    ],
-    "numpy": [
-      "numpy; extra=='numpy'"
-    ],
-    "polyboard": [
-      "altair; extra=='polyboard'",
-      "bokeh; extra=='polyboard'",
-      "matplotlib; extra=='polyboard'",
-      "moviepy; extra=='polyboard'",
-      "pandas; extra=='polyboard'",
-      "Pillow; extra=='polyboard'",
-      "plotly; extra=='polyboard'"
-    ],
-    "polytune": [
-      "hyperopt (==0.2.4); extra=='polytune'",
-      "scikit-learn (==0.23.2); extra=='polytune'"
-    ],
-    "s3": [
-      "boto3; extra=='s3'",
-      "botocore; extra=='s3'"
-    ],
-    "streams": [
-      "aiofiles (==0.6.0); extra=='streams'",
-      "httptools (==0.1.1); extra=='streams'",
-      "kubernetes-asyncio (==11.3.0); extra=='streams'",
-      "pandas; extra=='streams'",
-      "python-multipart (==0.0.5); extra=='streams'",
-      "starlette (==0.14.1); extra=='streams'",
-      "uvicorn (==0.12.2); extra=='streams'",
-      "uvloop (==0.14.0); extra=='streams'"
+    "specifiers": [
+      "certifi (>=2019.9.11)",
+      "click (<8.0)",
+      "click-completion (<0.6)",
+      "jinja2 (>=2.10.3)",
+      "kubernetes (>=10.0.1)",
+      "marshmallow (<3.10.0)",
+      "nvidia-ml-py3",
+      "polyaxon-sdk (==1.4.0rc1)",
+      "psutil",
+      "python-dateutil (>=2.7.3)",
+      "pytz (>=2019.2)",
+      "pyyaml (>=5.1)",
+      "requests (>=2.20.1)",
+      "requests-toolbelt (>=0.8.0)",
+      "sentry-sdk (>=0.12.3)",
+      "tabulate (<0.9.0)",
+      "ujson (>=1.35)"
     ]
+  },
+  "requires_extras": {
+    "azure": {
+      "dists": [
+        "azure-storage-blob"
+      ],
+      "specifiers": [
+        "azure-storage-blob (>=12.3.1); extra=='azure'"
+      ]
+    },
+    "docker": {
+      "dists": [
+        "docker"
+      ],
+      "specifiers": [
+        "docker; extra=='docker'"
+      ]
+    },
+    "gcs": {
+      "dists": [
+        "google-cloud-storage"
+      ],
+      "specifiers": [
+        "google-cloud-storage; extra=='gcs'"
+      ]
+    },
+    "git": {
+      "dists": [
+        "gitpython"
+      ],
+      "specifiers": [
+        "gitpython; extra=='git'"
+      ]
+    },
+    "numpy": {
+      "dists": [
+        "numpy"
+      ],
+      "specifiers": [
+        "numpy; extra=='numpy'"
+      ]
+    },
+    "polyboard": {
+      "dists": [
+        "altair",
+        "bokeh",
+        "matplotlib",
+        "moviepy",
+        "pandas",
+        "pillow",
+        "plotly"
+      ],
+      "specifiers": [
+        "altair; extra=='polyboard'",
+        "bokeh; extra=='polyboard'",
+        "matplotlib; extra=='polyboard'",
+        "moviepy; extra=='polyboard'",
+        "pandas; extra=='polyboard'",
+        "pillow; extra=='polyboard'",
+        "plotly; extra=='polyboard'"
+      ]
+    },
+    "polytune": {
+      "dists": [
+        "hyperopt",
+        "scikit-learn"
+      ],
+      "specifiers": [
+        "hyperopt (==0.2.4); extra=='polytune'",
+        "scikit-learn (==0.23.2); extra=='polytune'"
+      ]
+    },
+    "s3": {
+      "dists": [
+        "boto3",
+        "botocore"
+      ],
+      "specifiers": [
+        "boto3; extra=='s3'",
+        "botocore; extra=='s3'"
+      ]
+    },
+    "streams": {
+      "dists": [
+        "aiofiles",
+        "httptools",
+        "kubernetes-asyncio",
+        "pandas",
+        "python-multipart",
+        "starlette",
+        "uvicorn",
+        "uvloop"
+      ],
+      "specifiers": [
+        "aiofiles (==0.6.0); extra=='streams'",
+        "httptools (==0.1.1); extra=='streams'",
+        "kubernetes-asyncio (==11.3.0); extra=='streams'",
+        "pandas; extra=='streams'",
+        "python-multipart (==0.0.5); extra=='streams'",
+        "starlette (==0.14.1); extra=='streams'",
+        "uvicorn (==0.12.2); extra=='streams'",
+        "uvloop (==0.14.0); extra=='streams'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

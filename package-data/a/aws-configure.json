@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "awscli",
-    "botocore"
-  ],
+  "requires_dist": {
+    "dists": [
+      "awscli",
+      "botocore"
+    ],
+    "specifiers": [
+      "awscli",
+      "botocore"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

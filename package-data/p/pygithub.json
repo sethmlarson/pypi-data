@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "deprecated",
-    "pyjwt",
-    "requests (>=2.14.0)"
-  ],
-  "requires_extras": {
-    "integrations": [
-      "cryptography; extra=='integrations'"
+  "requires_dist": {
+    "dists": [
+      "deprecated",
+      "pyjwt",
+      "requests"
+    ],
+    "specifiers": [
+      "deprecated",
+      "pyjwt",
+      "requests (>=2.14.0)"
     ]
+  },
+  "requires_extras": {
+    "integrations": {
+      "dists": [
+        "cryptography"
+      ],
+      "specifiers": [
+        "cryptography; extra=='integrations'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

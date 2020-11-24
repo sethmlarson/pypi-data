@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "msrest (>=0.2.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "msrest"
+    ],
+    "specifiers": [
+      "msrest (>=0.2.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

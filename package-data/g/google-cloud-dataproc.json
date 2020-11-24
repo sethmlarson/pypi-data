@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "google-api-core[grpc] (<2.0.0dev,>=1.22.0)",
-    "libcst (>=0.2.5)",
-    "proto-plus (>=1.4.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "google-api-core",
+      "libcst",
+      "proto-plus"
+    ],
+    "specifiers": [
+      "google-api-core[grpc] (<2.0.0dev,>=1.22.0)",
+      "libcst (>=0.2.5)",
+      "proto-plus (>=1.4.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,20 +1,39 @@
 {
-  "requires_dist": [
-    "applicationinsights (>=0.11.7)",
-    "azureml-core (~=1.18.0)",
-    "azureml-dataset-runtime[fuse] (~=1.18.0)",
-    "azureml-model-management-sdk (==1.0.1b6.post1)",
-    "configparser (==3.7.4)",
-    "flask (==1.0.3)",
-    "gunicorn (==19.9.0)",
-    "json-logging-py (==0.2)",
-    "werkzeug (<=1.0.1,>=0.16.1)"
-  ],
-  "requires_extras": {
-    "async": [
-      "hypercorn[uvloop] (==0.11.1); extra=='async'",
-      "quart (<=0.13.1); extra=='async'"
+  "requires_dist": {
+    "dists": [
+      "applicationinsights",
+      "azureml-core",
+      "azureml-dataset-runtime",
+      "azureml-model-management-sdk",
+      "configparser",
+      "flask",
+      "gunicorn",
+      "json-logging-py",
+      "werkzeug"
+    ],
+    "specifiers": [
+      "applicationinsights (>=0.11.7)",
+      "azureml-core (~=1.18.0)",
+      "azureml-dataset-runtime[fuse] (~=1.18.0)",
+      "azureml-model-management-sdk (==1.0.1b6.post1)",
+      "configparser (==3.7.4)",
+      "flask (==1.0.3)",
+      "gunicorn (==19.9.0)",
+      "json-logging-py (==0.2)",
+      "werkzeug (<=1.0.1,>=0.16.1)"
     ]
+  },
+  "requires_extras": {
+    "async": {
+      "dists": [
+        "hypercorn",
+        "quart"
+      ],
+      "specifiers": [
+        "hypercorn[uvloop] (==0.11.1); extra=='async'",
+        "quart (<=0.13.1); extra=='async'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

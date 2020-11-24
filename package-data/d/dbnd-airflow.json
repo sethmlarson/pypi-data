@@ -1,59 +1,129 @@
 {
-  "requires_dist": [
-    "dbnd (==0.30.4)",
-    "packaging",
-    "psycopg2 (<2.8,>=2.7.4)"
-  ],
-  "requires_extras": {
-    "airflow": [
-      "apache-airflow (==1.10.9); extra=='airflow'",
-      "cattrs (==1.0.0); extra=='airflow'",
-      "psycopg2 (<2.8,>=2.7.4); extra=='airflow'",
-      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow'",
-      "WTForms (<2.3.0); extra=='airflow'"
+  "requires_dist": {
+    "dists": [
+      "dbnd",
+      "packaging",
+      "psycopg2"
     ],
-    "airflow_1_10_10": [
-      "apache-airflow (==1.10.10); extra=='airflow_1_10_10'",
-      "cattrs (==1.0.0); extra=='airflow_1_10_10'",
-      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_10'",
-      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_10'",
-      "WTForms (<2.3.0); extra=='airflow_1_10_10'"
-    ],
-    "airflow_1_10_11": [
-      "apache-airflow (==1.10.11); extra=='airflow_1_10_11'",
-      "cattrs (==1.0.0); extra=='airflow_1_10_11'",
-      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_11'",
-      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_11'",
-      "WTForms (<2.3.0); extra=='airflow_1_10_11'"
-    ],
-    "airflow_1_10_12": [
-      "apache-airflow (==1.10.12); extra=='airflow_1_10_12'",
-      "cattrs (==1.0.0); extra=='airflow_1_10_12'",
-      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_12'",
-      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_12'",
-      "WTForms (<2.3.0); extra=='airflow_1_10_12'"
-    ],
-    "airflow_1_10_7": [
-      "apache-airflow (==1.10.7); extra=='airflow_1_10_7'",
-      "cattrs (==1.0.0); extra=='airflow_1_10_7'",
-      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_7'",
-      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_7'",
-      "WTForms (<2.3.0); extra=='airflow_1_10_7'"
-    ],
-    "airflow_1_10_8": [
-      "apache-airflow (==1.10.8); extra=='airflow_1_10_8'",
-      "cattrs (==1.0.0); extra=='airflow_1_10_8'",
-      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_8'",
-      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_8'",
-      "WTForms (<2.3.0); extra=='airflow_1_10_8'"
-    ],
-    "airflow_1_10_9": [
-      "apache-airflow (==1.10.9); extra=='airflow_1_10_9'",
-      "cattrs (==1.0.0); extra=='airflow_1_10_9'",
-      "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_9'",
-      "Werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_9'",
-      "WTForms (<2.3.0); extra=='airflow_1_10_9'"
+    "specifiers": [
+      "dbnd (==0.30.5)",
+      "packaging",
+      "psycopg2 (<2.8,>=2.7.4)"
     ]
+  },
+  "requires_extras": {
+    "airflow": {
+      "dists": [
+        "apache-airflow",
+        "cattrs",
+        "psycopg2",
+        "werkzeug",
+        "wtforms"
+      ],
+      "specifiers": [
+        "apache-airflow (==1.10.9); extra=='airflow'",
+        "cattrs (==1.0.0); extra=='airflow'",
+        "psycopg2 (<2.8,>=2.7.4); extra=='airflow'",
+        "werkzeug (<1.0.0,>=0.15.0); extra=='airflow'",
+        "wtforms (<2.3.0); extra=='airflow'"
+      ]
+    },
+    "airflow_1_10_10": {
+      "dists": [
+        "apache-airflow",
+        "cattrs",
+        "psycopg2",
+        "werkzeug",
+        "wtforms"
+      ],
+      "specifiers": [
+        "apache-airflow (==1.10.10); extra=='airflow_1_10_10'",
+        "cattrs (==1.0.0); extra=='airflow_1_10_10'",
+        "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_10'",
+        "werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_10'",
+        "wtforms (<2.3.0); extra=='airflow_1_10_10'"
+      ]
+    },
+    "airflow_1_10_11": {
+      "dists": [
+        "apache-airflow",
+        "cattrs",
+        "psycopg2",
+        "werkzeug",
+        "wtforms"
+      ],
+      "specifiers": [
+        "apache-airflow (==1.10.11); extra=='airflow_1_10_11'",
+        "cattrs (==1.0.0); extra=='airflow_1_10_11'",
+        "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_11'",
+        "werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_11'",
+        "wtforms (<2.3.0); extra=='airflow_1_10_11'"
+      ]
+    },
+    "airflow_1_10_12": {
+      "dists": [
+        "apache-airflow",
+        "cattrs",
+        "psycopg2",
+        "werkzeug",
+        "wtforms"
+      ],
+      "specifiers": [
+        "apache-airflow (==1.10.12); extra=='airflow_1_10_12'",
+        "cattrs (==1.0.0); extra=='airflow_1_10_12'",
+        "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_12'",
+        "werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_12'",
+        "wtforms (<2.3.0); extra=='airflow_1_10_12'"
+      ]
+    },
+    "airflow_1_10_7": {
+      "dists": [
+        "apache-airflow",
+        "cattrs",
+        "psycopg2",
+        "werkzeug",
+        "wtforms"
+      ],
+      "specifiers": [
+        "apache-airflow (==1.10.7); extra=='airflow_1_10_7'",
+        "cattrs (==1.0.0); extra=='airflow_1_10_7'",
+        "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_7'",
+        "werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_7'",
+        "wtforms (<2.3.0); extra=='airflow_1_10_7'"
+      ]
+    },
+    "airflow_1_10_8": {
+      "dists": [
+        "apache-airflow",
+        "cattrs",
+        "psycopg2",
+        "werkzeug",
+        "wtforms"
+      ],
+      "specifiers": [
+        "apache-airflow (==1.10.8); extra=='airflow_1_10_8'",
+        "cattrs (==1.0.0); extra=='airflow_1_10_8'",
+        "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_8'",
+        "werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_8'",
+        "wtforms (<2.3.0); extra=='airflow_1_10_8'"
+      ]
+    },
+    "airflow_1_10_9": {
+      "dists": [
+        "apache-airflow",
+        "cattrs",
+        "psycopg2",
+        "werkzeug",
+        "wtforms"
+      ],
+      "specifiers": [
+        "apache-airflow (==1.10.9); extra=='airflow_1_10_9'",
+        "cattrs (==1.0.0); extra=='airflow_1_10_9'",
+        "psycopg2 (<2.8,>=2.7.4); extra=='airflow_1_10_9'",
+        "werkzeug (<1.0.0,>=0.15.0); extra=='airflow_1_10_9'",
+        "wtforms (<2.3.0); extra=='airflow_1_10_9'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

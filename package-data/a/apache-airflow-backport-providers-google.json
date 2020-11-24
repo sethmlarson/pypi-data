@@ -1,75 +1,171 @@
 {
-  "requires_dist": [
-    "apache-airflow (~=1.10)",
-    "google-ads (>=4.0.0)",
-    "google-api-python-client (<2.0.0,>=1.6.0)",
-    "google-auth (<2.0.0,>=1.0.0)",
-    "google-auth-httplib2 (>=0.0.1)",
-    "google-cloud-automl (<2.0.0,>=0.4.0)",
-    "google-cloud-bigquery-datatransfer (<2.0.0,>=0.4.0)",
-    "google-cloud-bigtable (<2.0.0,>=1.0.0)",
-    "google-cloud-container (<2.0.0,>=0.1.1)",
-    "google-cloud-datacatalog (<0.8,>=0.5.0)",
-    "google-cloud-dataproc (<2.0.0,>=1.0.1)",
-    "google-cloud-dlp (<2.0.0,>=0.11.0)",
-    "google-cloud-kms (<2.0.0,>=1.2.1)",
-    "google-cloud-language (<2.0.0,>=1.1.1)",
-    "google-cloud-logging (<2.0.0,>=1.14.0)",
-    "google-cloud-memcache (>=0.2.0)",
-    "google-cloud-monitoring (<2.0.0,>=0.34.0)",
-    "google-cloud-os-login (<2.0.0,>=1.0.0)",
-    "google-cloud-pubsub (<2.0.0,>=1.0.0)",
-    "google-cloud-redis (<2.0.0,>=0.3.0)",
-    "google-cloud-secret-manager (<2.0.0,>=0.2.0)",
-    "google-cloud-spanner (<2.0.0,>=1.10.0)",
-    "google-cloud-speech (<2.0.0,>=0.36.3)",
-    "google-cloud-storage (<2.0.0,>=1.16)",
-    "google-cloud-tasks (<2.0.0,>=1.2.1)",
-    "google-cloud-texttospeech (<2.0.0,>=0.4.0)",
-    "google-cloud-translate (<2.0.0,>=1.5.0)",
-    "google-cloud-videointelligence (<2.0.0,>=1.7.0)",
-    "google-cloud-vision (<2.0.0,>=0.35.2)",
-    "grpcio-gcp (>=0.2.2)",
-    "pandas-gbq",
-    "PyOpenSSL"
-  ],
-  "requires_extras": {
-    "amazon": [
-      "apache-airflow-backport-providers-amazon; extra=='amazon'"
+  "requires_dist": {
+    "dists": [
+      "apache-airflow",
+      "google-ads",
+      "google-api-python-client",
+      "google-auth",
+      "google-auth-httplib2",
+      "google-cloud-automl",
+      "google-cloud-bigquery-datatransfer",
+      "google-cloud-bigtable",
+      "google-cloud-container",
+      "google-cloud-datacatalog",
+      "google-cloud-dataproc",
+      "google-cloud-dlp",
+      "google-cloud-kms",
+      "google-cloud-language",
+      "google-cloud-logging",
+      "google-cloud-memcache",
+      "google-cloud-monitoring",
+      "google-cloud-os-login",
+      "google-cloud-pubsub",
+      "google-cloud-redis",
+      "google-cloud-secret-manager",
+      "google-cloud-spanner",
+      "google-cloud-speech",
+      "google-cloud-storage",
+      "google-cloud-tasks",
+      "google-cloud-texttospeech",
+      "google-cloud-translate",
+      "google-cloud-videointelligence",
+      "google-cloud-vision",
+      "grpcio-gcp",
+      "pandas-gbq",
+      "pyopenssl"
     ],
-    "apache.cassandra": [
-      "apache-airflow-backport-providers-apache-cassandra; extra=='apache.cassandra'"
-    ],
-    "cncf.kubernetes": [
-      "apache-airflow-backport-providers-cncf-kubernetes; extra=='cncf.kubernetes'"
-    ],
-    "facebook": [
-      "apache-airflow-backport-providers-facebook; extra=='facebook'"
-    ],
-    "microsoft.azure": [
-      "apache-airflow-backport-providers-microsoft-azure; extra=='microsoft.azure'"
-    ],
-    "microsoft.mssql": [
-      "apache-airflow-backport-providers-microsoft-mssql; extra=='microsoft.mssql'"
-    ],
-    "mysql": [
-      "apache-airflow-backport-providers-mysql; extra=='mysql'"
-    ],
-    "postgres": [
-      "apache-airflow-backport-providers-postgres; extra=='postgres'"
-    ],
-    "presto": [
-      "apache-airflow-backport-providers-presto; extra=='presto'"
-    ],
-    "salesforce": [
-      "apache-airflow-backport-providers-salesforce; extra=='salesforce'"
-    ],
-    "sftp": [
-      "apache-airflow-backport-providers-sftp; extra=='sftp'"
-    ],
-    "ssh": [
-      "apache-airflow-backport-providers-ssh; extra=='ssh'"
+    "specifiers": [
+      "apache-airflow (~=1.10)",
+      "google-ads (>=4.0.0)",
+      "google-api-python-client (<2.0.0,>=1.6.0)",
+      "google-auth (<2.0.0,>=1.0.0)",
+      "google-auth-httplib2 (>=0.0.1)",
+      "google-cloud-automl (<2.0.0,>=0.4.0)",
+      "google-cloud-bigquery-datatransfer (<2.0.0,>=0.4.0)",
+      "google-cloud-bigtable (<2.0.0,>=1.0.0)",
+      "google-cloud-container (<2.0.0,>=0.1.1)",
+      "google-cloud-datacatalog (<0.8,>=0.5.0)",
+      "google-cloud-dataproc (<2.0.0,>=1.0.1)",
+      "google-cloud-dlp (<2.0.0,>=0.11.0)",
+      "google-cloud-kms (<2.0.0,>=1.2.1)",
+      "google-cloud-language (<2.0.0,>=1.1.1)",
+      "google-cloud-logging (<2.0.0,>=1.14.0)",
+      "google-cloud-memcache (>=0.2.0)",
+      "google-cloud-monitoring (<2.0.0,>=0.34.0)",
+      "google-cloud-os-login (<2.0.0,>=1.0.0)",
+      "google-cloud-pubsub (<2.0.0,>=1.0.0)",
+      "google-cloud-redis (<2.0.0,>=0.3.0)",
+      "google-cloud-secret-manager (<2.0.0,>=0.2.0)",
+      "google-cloud-spanner (<2.0.0,>=1.10.0)",
+      "google-cloud-speech (<2.0.0,>=0.36.3)",
+      "google-cloud-storage (<2.0.0,>=1.16)",
+      "google-cloud-tasks (<2.0.0,>=1.2.1)",
+      "google-cloud-texttospeech (<2.0.0,>=0.4.0)",
+      "google-cloud-translate (<2.0.0,>=1.5.0)",
+      "google-cloud-videointelligence (<2.0.0,>=1.7.0)",
+      "google-cloud-vision (<2.0.0,>=0.35.2)",
+      "grpcio-gcp (>=0.2.2)",
+      "pandas-gbq",
+      "pyopenssl"
     ]
+  },
+  "requires_extras": {
+    "amazon": {
+      "dists": [
+        "apache-airflow-backport-providers-amazon"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-amazon; extra=='amazon'"
+      ]
+    },
+    "apache.cassandra": {
+      "dists": [
+        "apache-airflow-backport-providers-apache-cassandra"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-apache-cassandra; extra=='apache.cassandra'"
+      ]
+    },
+    "cncf.kubernetes": {
+      "dists": [
+        "apache-airflow-backport-providers-cncf-kubernetes"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-cncf-kubernetes; extra=='cncf.kubernetes'"
+      ]
+    },
+    "facebook": {
+      "dists": [
+        "apache-airflow-backport-providers-facebook"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-facebook; extra=='facebook'"
+      ]
+    },
+    "microsoft.azure": {
+      "dists": [
+        "apache-airflow-backport-providers-microsoft-azure"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-microsoft-azure; extra=='microsoft.azure'"
+      ]
+    },
+    "microsoft.mssql": {
+      "dists": [
+        "apache-airflow-backport-providers-microsoft-mssql"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-microsoft-mssql; extra=='microsoft.mssql'"
+      ]
+    },
+    "mysql": {
+      "dists": [
+        "apache-airflow-backport-providers-mysql"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-mysql; extra=='mysql'"
+      ]
+    },
+    "postgres": {
+      "dists": [
+        "apache-airflow-backport-providers-postgres"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-postgres; extra=='postgres'"
+      ]
+    },
+    "presto": {
+      "dists": [
+        "apache-airflow-backport-providers-presto"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-presto; extra=='presto'"
+      ]
+    },
+    "salesforce": {
+      "dists": [
+        "apache-airflow-backport-providers-salesforce"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-salesforce; extra=='salesforce'"
+      ]
+    },
+    "sftp": {
+      "dists": [
+        "apache-airflow-backport-providers-sftp"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-sftp; extra=='sftp'"
+      ]
+    },
+    "ssh": {
+      "dists": [
+        "apache-airflow-backport-providers-ssh"
+      ],
+      "specifiers": [
+        "apache-airflow-backport-providers-ssh; extra=='ssh'"
+      ]
+    }
   },
   "requires_python": "~=3.6",
   "yanked": []

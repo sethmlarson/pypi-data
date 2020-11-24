@@ -1,17 +1,32 @@
 {
-  "requires_dist": [
-    "aliyun-python-sdk-core (<3)",
-    "aliyun-python-sdk-ecs (<5)",
-    "azure-storage-blob (<13)",
-    "boto3",
-    "gardener-cicd-libs",
-    "google-api-python-client",
-    "google-auth",
-    "google-cloud-storage",
-    "msal (<2)",
-    "openstacksdk (<1)",
-    "oss2 (<3)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aliyun-python-sdk-core",
+      "aliyun-python-sdk-ecs",
+      "azure-storage-blob",
+      "boto3",
+      "gardener-cicd-libs",
+      "google-api-python-client",
+      "google-auth",
+      "google-cloud-storage",
+      "msal",
+      "openstacksdk",
+      "oss2"
+    ],
+    "specifiers": [
+      "aliyun-python-sdk-core (<3)",
+      "aliyun-python-sdk-ecs (<5)",
+      "azure-storage-blob (<13)",
+      "boto3",
+      "gardener-cicd-libs",
+      "google-api-python-client",
+      "google-auth",
+      "google-cloud-storage",
+      "msal (<2)",
+      "openstacksdk (<1)",
+      "oss2 (<3)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.8.*",
   "yanked": []

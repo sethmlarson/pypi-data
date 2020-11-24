@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Flask",
-    "PyMySQL"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flask",
+      "pymysql"
+    ],
+    "specifiers": [
+      "flask",
+      "pymysql"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

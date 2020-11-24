@@ -1,18 +1,34 @@
 {
-  "requires_dist": [
-    "BTrees",
-    "persistent",
-    "setuptools",
-    "zope.annotation",
-    "zope.component",
-    "zope.container",
-    "zope.index (>=3.5.0)",
-    "zope.interface",
-    "zope.intid",
-    "zope.lifecycleevent",
-    "zope.location",
-    "zope.schema"
-  ],
+  "requires_dist": {
+    "dists": [
+      "btrees",
+      "persistent",
+      "setuptools",
+      "zope.annotation",
+      "zope.component",
+      "zope.container",
+      "zope.index",
+      "zope.interface",
+      "zope.intid",
+      "zope.lifecycleevent",
+      "zope.location",
+      "zope.schema"
+    ],
+    "specifiers": [
+      "btrees",
+      "persistent",
+      "setuptools",
+      "zope.annotation",
+      "zope.component",
+      "zope.container",
+      "zope.index (>=3.5.0)",
+      "zope.interface",
+      "zope.intid",
+      "zope.lifecycleevent",
+      "zope.location",
+      "zope.schema"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "django-filter (>=2.0)",
-    "djangorestframework"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django-filter",
+      "djangorestframework"
+    ],
+    "specifiers": [
+      "django-filter (>=2.0)",
+      "djangorestframework"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

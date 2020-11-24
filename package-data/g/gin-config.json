@@ -1,18 +1,49 @@
 {
-  "requires_dist": [
-    "enum34; python_version<'3'",
-    "six (>=1.10.0)"
-  ],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "tensorflow": [
-      "tensorflow (>=1.13.0); extra=='tensorflow'"
-    ],
-    "tensorflow-gpu": [
-      "tensorflow-gpu (>=1.13.0); extra=='tensorflow-gpu'"
-    ],
-    "tf-nightly": [
-      "tf-nightly; extra=='tf-nightly'"
-    ]
+    "pytorch-nightly": {
+      "dists": [
+        "pytorch-nightly"
+      ],
+      "specifiers": [
+        "pytorch-nightly; extra=='pytorch-nightly'"
+      ]
+    },
+    "tensorflow": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (>=1.13.0); extra=='tensorflow'"
+      ]
+    },
+    "tensorflow-gpu": {
+      "dists": [
+        "tensorflow-gpu"
+      ],
+      "specifiers": [
+        "tensorflow-gpu (>=1.13.0); extra=='tensorflow-gpu'"
+      ]
+    },
+    "tf-nightly": {
+      "dists": [
+        "tf-nightly"
+      ],
+      "specifiers": [
+        "tf-nightly; extra=='tf-nightly'"
+      ]
+    },
+    "torch": {
+      "dists": [
+        "torch"
+      ],
+      "specifiers": [
+        "torch (>=1.3.0); extra=='torch'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

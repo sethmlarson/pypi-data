@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "async-timeout",
-    "hiredis"
-  ],
+  "requires_dist": {
+    "dists": [
+      "async-timeout",
+      "hiredis"
+    ],
+    "specifiers": [
+      "async-timeout",
+      "hiredis"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

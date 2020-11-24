@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "gspread (>=3.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "gspread"
+    ],
+    "specifiers": [
+      "gspread (>=3.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

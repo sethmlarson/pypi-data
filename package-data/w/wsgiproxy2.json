@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "six",
-    "webob"
-  ],
+  "requires_dist": {
+    "dists": [
+      "six",
+      "webob"
+    ],
+    "specifiers": [
+      "six",
+      "webob"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

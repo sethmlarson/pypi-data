@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "dm-tree (~=0.1.1)",
-    "enum34 (~=1.1); python_version<'3.4'",
-    "numpy (~=1.14)",
-    "six (~=1.10)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dm-tree",
+      "enum34",
+      "numpy",
+      "six"
+    ],
+    "specifiers": [
+      "dm-tree (~=0.1.1)",
+      "enum34 (~=1.1); python_version<'3.4'",
+      "numpy (~=1.14)",
+      "six (~=1.10)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3",
   "yanked": []

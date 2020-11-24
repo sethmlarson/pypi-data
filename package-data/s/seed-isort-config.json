@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "aspy.refactor-imports"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aspy.refactor-imports"
+    ],
+    "specifiers": [
+      "aspy.refactor-imports"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.1",
   "yanked": []

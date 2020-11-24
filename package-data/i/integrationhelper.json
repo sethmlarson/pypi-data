@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "aiohttp",
-    "async-timeout",
-    "backoff"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "async-timeout",
+      "backoff"
+    ],
+    "specifiers": [
+      "aiohttp",
+      "async-timeout",
+      "backoff"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

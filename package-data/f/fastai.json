@@ -1,20 +1,38 @@
 {
-  "requires_dist": [
-    "fastcore (>=1.3.5)",
-    "fastprogress (>=0.2.4)",
-    "matplotlib",
-    "packaging",
-    "pandas",
-    "pillow",
-    "pip",
-    "pyyaml",
-    "requests",
-    "scikit-learn",
-    "scipy",
-    "spacy",
-    "torch (>=1.7.0)",
-    "torchvision (>=0.8)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "fastcore",
+      "fastprogress",
+      "matplotlib",
+      "packaging",
+      "pandas",
+      "pillow",
+      "pip",
+      "pyyaml",
+      "requests",
+      "scikit-learn",
+      "scipy",
+      "spacy",
+      "torch",
+      "torchvision"
+    ],
+    "specifiers": [
+      "fastcore (>=1.3.5)",
+      "fastprogress (>=0.2.4)",
+      "matplotlib",
+      "packaging",
+      "pandas",
+      "pillow",
+      "pip",
+      "pyyaml",
+      "requests",
+      "scikit-learn",
+      "scipy",
+      "spacy",
+      "torch (>=1.7.0)",
+      "torchvision (>=0.8)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,17 +1,32 @@
 {
-  "requires_dist": [
-    "cliff (!=2.9.0,>=2.8.0)",
-    "debtcollector (>=1.2.0)",
-    "jsonschema (>=2.6.0)",
-    "keystoneauth1 (>=3.4.0)",
-    "osc-lib (>=1.8.0)",
-    "oslo.serialization (!=2.19.1,>=2.18.0)",
-    "oslo.utils (>=3.33.0)",
-    "pbr (!=2.1.0,>=2.0.0)",
-    "requests (>=2.14.2)",
-    "six (>=1.10.0)",
-    "stevedore (>=1.20.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cliff",
+      "debtcollector",
+      "jsonschema",
+      "keystoneauth1",
+      "osc-lib",
+      "oslo.serialization",
+      "oslo.utils",
+      "pbr",
+      "requests",
+      "six",
+      "stevedore"
+    ],
+    "specifiers": [
+      "cliff (!=2.9.0,>=2.8.0)",
+      "debtcollector (>=1.2.0)",
+      "jsonschema (>=2.6.0)",
+      "keystoneauth1 (>=3.4.0)",
+      "osc-lib (>=1.8.0)",
+      "oslo.serialization (!=2.19.1,>=2.18.0)",
+      "oslo.utils (>=3.33.0)",
+      "pbr (!=2.1.0,>=2.0.0)",
+      "requests (>=2.14.2)",
+      "six (>=1.10.0)",
+      "stevedore (>=1.20.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

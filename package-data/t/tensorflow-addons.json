@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "typeguard (>=2.7)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "typeguard"
+    ],
+    "specifiers": [
+      "typeguard (>=2.7)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

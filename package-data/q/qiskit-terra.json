@@ -1,38 +1,81 @@
 {
-  "requires_dist": [
-    "contextvars (>=2.4); python_version<'3.7'",
-    "dill (>=0.3)",
-    "fastjsonschema (>=2.10)",
-    "jsonschema (>=2.6)",
-    "networkx (>=2.2)",
-    "numpy (>=1.17)",
-    "ply (>=3.10)",
-    "psutil (>=5)",
-    "python-constraint (>=1.4)",
-    "python-dateutil (>=2.8.0)",
-    "retworkx (>=0.5.0)",
-    "scipy (>=1.4)",
-    "sympy (>=1.3)"
-  ],
-  "requires_extras": {
-    "classical-function-compiler": [
-      "tweedledum; extra=='classical-function-compiler'"
+  "requires_dist": {
+    "dists": [
+      "contextvars",
+      "dill",
+      "fastjsonschema",
+      "jsonschema",
+      "networkx",
+      "numpy",
+      "ply",
+      "psutil",
+      "python-constraint",
+      "python-dateutil",
+      "retworkx",
+      "scipy",
+      "sympy"
     ],
-    "crosstalk-pass": [
-      "z3-solver (>=4.7); extra=='crosstalk-pass'"
-    ],
-    "full-featured-simulators": [
-      "qiskit-aer (>=0.1); extra=='full-featured-simulators'"
-    ],
-    "visualization": [
-      "ipywidgets (>=7.3.0); extra=='visualization'",
-      "matplotlib (>=2.1); extra=='visualization'",
-      "pillow (>=4.2.1); extra=='visualization'",
-      "pydot; extra=='visualization'",
-      "pygments (>=2.4); extra=='visualization'",
-      "pylatexenc (>=1.4); extra=='visualization'",
-      "seaborn (>=0.9.0); extra=='visualization'"
+    "specifiers": [
+      "contextvars (>=2.4); python_version<'3.7'",
+      "dill (>=0.3)",
+      "fastjsonschema (>=2.10)",
+      "jsonschema (>=2.6)",
+      "networkx (>=2.2)",
+      "numpy (>=1.17)",
+      "ply (>=3.10)",
+      "psutil (>=5)",
+      "python-constraint (>=1.4)",
+      "python-dateutil (>=2.8.0)",
+      "retworkx (>=0.5.0)",
+      "scipy (>=1.4)",
+      "sympy (>=1.3)"
     ]
+  },
+  "requires_extras": {
+    "classical-function-compiler": {
+      "dists": [
+        "tweedledum"
+      ],
+      "specifiers": [
+        "tweedledum; extra=='classical-function-compiler'"
+      ]
+    },
+    "crosstalk-pass": {
+      "dists": [
+        "z3-solver"
+      ],
+      "specifiers": [
+        "z3-solver (>=4.7); extra=='crosstalk-pass'"
+      ]
+    },
+    "full-featured-simulators": {
+      "dists": [
+        "qiskit-aer"
+      ],
+      "specifiers": [
+        "qiskit-aer (>=0.1); extra=='full-featured-simulators'"
+      ]
+    },
+    "visualization": {
+      "dists": [
+        "ipywidgets",
+        "matplotlib",
+        "pillow",
+        "pydot",
+        "pygments",
+        "pylatexenc",
+        "seaborn"
+      ],
+      "specifiers": [
+        "ipywidgets (>=7.3.0); extra=='visualization'",
+        "matplotlib (>=2.1); extra=='visualization'",
+        "pillow (>=4.2.1); extra=='visualization'",
+        "pydot; extra=='visualization'",
+        "pygments (>=2.4); extra=='visualization'",
+        "pylatexenc (>=1.4); extra=='visualization'",
+        "seaborn (>=0.9.0); extra=='visualization'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

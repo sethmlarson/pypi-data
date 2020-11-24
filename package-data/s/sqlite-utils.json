@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "click",
-    "click-default-group",
-    "sqlite-fts4",
-    "tabulate"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click",
+      "click-default-group",
+      "sqlite-fts4",
+      "tabulate"
+    ],
+    "specifiers": [
+      "click",
+      "click-default-group",
+      "sqlite-fts4",
+      "tabulate"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

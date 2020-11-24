@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "cbor (>=1.0.0)",
-    "click",
-    "cryptography (>=2.4.2)",
-    "intelhex (>=2.2.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cbor",
+      "click",
+      "cryptography",
+      "intelhex"
+    ],
+    "specifiers": [
+      "cbor (>=1.0.0)",
+      "click",
+      "cryptography (>=2.4.2)",
+      "intelhex (>=2.2.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

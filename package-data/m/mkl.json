@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "intel-openmp"
-  ],
+  "requires_dist": {
+    "dists": [
+      "intel-openmp"
+    ],
+    "specifiers": [
+      "intel-openmp"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

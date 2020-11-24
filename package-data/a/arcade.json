@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "numpy",
-    "pillow",
-    "pyglet",
-    "pymunk",
-    "pytiled-parser (==0.9.4a3)",
-    "pyyaml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "pillow",
+      "pyglet",
+      "pymunk",
+      "pytiled-parser",
+      "pyyaml"
+    ],
+    "specifiers": [
+      "numpy",
+      "pillow",
+      "pyglet",
+      "pymunk",
+      "pytiled-parser (==0.9.4a3)",
+      "pyyaml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "webob"
-  ],
-  "requires_extras": {
-    "flask": [
-      "blinker; extra=='flask'",
-      "flask; extra=='flask'"
+  "requires_dist": {
+    "dists": [
+      "webob"
+    ],
+    "specifiers": [
+      "webob"
     ]
+  },
+  "requires_extras": {
+    "flask": {
+      "dists": [
+        "blinker",
+        "flask"
+      ],
+      "specifiers": [
+        "blinker; extra=='flask'",
+        "flask; extra=='flask'"
+      ]
+    }
   },
   "requires_python": ">=3.5.*, <4",
   "yanked": []

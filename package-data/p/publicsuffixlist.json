@@ -1,12 +1,25 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "readme": [
-      "pandoc; extra=='readme'"
-    ],
-    "update": [
-      "requests; extra=='update'"
-    ]
+    "readme": {
+      "dists": [
+        "pandoc"
+      ],
+      "specifiers": [
+        "pandoc; extra=='readme'"
+      ]
+    },
+    "update": {
+      "dists": [
+        "requests"
+      ],
+      "specifiers": [
+        "requests; extra=='update'"
+      ]
+    }
   },
   "requires_python": ">=2.6",
   "yanked": []

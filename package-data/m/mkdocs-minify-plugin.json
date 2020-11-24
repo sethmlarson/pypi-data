@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "htmlmin (>=0.1.4)",
-    "jsmin (>=2.2.2)",
-    "mkdocs (>=1.0.4)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "htmlmin",
+      "jsmin",
+      "mkdocs"
+    ],
+    "specifiers": [
+      "htmlmin (>=0.1.4)",
+      "jsmin (>=2.2.2)",
+      "mkdocs (>=1.0.4)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=2.7",
   "yanked": []

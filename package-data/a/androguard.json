@@ -1,23 +1,47 @@
 {
-  "requires_dist": [
-    "asn1crypto (>=0.24.0)",
-    "click (>=7.0)",
-    "colorama (>=0.4.1)",
-    "ipython (>=5.0.0)",
-    "lxml (>=4.3.0)",
-    "matplotlib (>=3.0.2)",
-    "networkx (>=2.2)",
-    "pydot (>=1.4.1)",
-    "pygments (>=2.3.1)"
-  ],
-  "requires_extras": {
-    "gui": [
-      "pyperclip; extra=='gui'",
-      "PyQt5; extra=='gui'"
+  "requires_dist": {
+    "dists": [
+      "asn1crypto",
+      "click",
+      "colorama",
+      "ipython",
+      "lxml",
+      "matplotlib",
+      "networkx",
+      "pydot",
+      "pygments"
     ],
-    "magic": [
-      "python-magic-bin (>=0.4.14); extra=='magic'"
+    "specifiers": [
+      "asn1crypto (>=0.24.0)",
+      "click (>=7.0)",
+      "colorama (>=0.4.1)",
+      "ipython (>=5.0.0)",
+      "lxml (>=4.3.0)",
+      "matplotlib (>=3.0.2)",
+      "networkx (>=2.2)",
+      "pydot (>=1.4.1)",
+      "pygments (>=2.3.1)"
     ]
+  },
+  "requires_extras": {
+    "gui": {
+      "dists": [
+        "pyperclip",
+        "pyqt5"
+      ],
+      "specifiers": [
+        "pyperclip; extra=='gui'",
+        "pyqt5; extra=='gui'"
+      ]
+    },
+    "magic": {
+      "dists": [
+        "python-magic-bin"
+      ],
+      "specifiers": [
+        "python-magic-bin (>=0.4.14); extra=='magic'"
+      ]
+    }
   },
   "requires_python": ">=3.5",
   "yanked": []

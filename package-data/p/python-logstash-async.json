@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "limits",
-    "pylogbeat",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "limits",
+      "pylogbeat",
+      "requests"
+    ],
+    "specifiers": [
+      "limits",
+      "pylogbeat",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">3.5",
   "yanked": []

@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "chardet",
-    "docutils",
-    "Pygments",
-    "restructuredtext-lint (>=0.7)",
-    "six",
-    "stevedore"
-  ],
+  "requires_dist": {
+    "dists": [
+      "chardet",
+      "docutils",
+      "pygments",
+      "restructuredtext-lint",
+      "six",
+      "stevedore"
+    ],
+    "specifiers": [
+      "chardet",
+      "docutils",
+      "pygments",
+      "restructuredtext-lint (>=0.7)",
+      "six",
+      "stevedore"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

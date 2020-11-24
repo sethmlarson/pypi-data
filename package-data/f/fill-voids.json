@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "fastremap",
-    "numpy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "fastremap",
+      "numpy"
+    ],
+    "specifiers": [
+      "fastremap",
+      "numpy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

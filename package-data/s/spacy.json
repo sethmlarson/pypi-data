@@ -1,59 +1,139 @@
 {
-  "requires_dist": [
-    "blis (<0.5.0,>=0.4.0); python_version<'3.6'",
-    "blis (<0.8.0,>=0.4.0); python_version>='3.6'",
-    "catalogue (<1.1.0,>=0.0.7)",
-    "cymem (<2.1.0,>=2.0.2)",
-    "murmurhash (<1.1.0,>=0.28.0)",
-    "numpy (>=1.15.0)",
-    "pathlib (==1.0.1); python_version<'3.4'",
-    "plac (<1.2.0,>=0.9.6)",
-    "preshed (<3.1.0,>=3.0.2)",
-    "requests (<3.0.0,>=2.13.0)",
-    "setuptools",
-    "srsly (<1.1.0,>=1.0.2)",
-    "thinc (<7.5.0,>=7.4.1)",
-    "tqdm (<5.0.0,>=4.38.0)",
-    "wasabi (<1.1.0,>=0.4.0)"
-  ],
-  "requires_extras": {
-    "cuda": [
-      "cupy (<8.0.0,>=5.0.0b4); extra=='cuda'"
+  "requires_dist": {
+    "dists": [
+      "blis",
+      "blis",
+      "catalogue",
+      "cymem",
+      "murmurhash",
+      "numpy",
+      "pathlib",
+      "plac",
+      "preshed",
+      "requests",
+      "setuptools",
+      "srsly",
+      "thinc",
+      "tqdm",
+      "wasabi"
     ],
-    "cuda100": [
-      "cupy-cuda100 (<8.0.0,>=5.0.0b4); extra=='cuda100'"
-    ],
-    "cuda101": [
-      "cupy-cuda101 (<8.0.0,>=5.0.0b4); extra=='cuda101'"
-    ],
-    "cuda102": [
-      "cupy-cuda102 (<8.0.0,>=5.0.0b4); extra=='cuda102'"
-    ],
-    "cuda80": [
-      "cupy-cuda80 (<8.0.0,>=5.0.0b4); extra=='cuda80'"
-    ],
-    "cuda90": [
-      "cupy-cuda90 (<8.0.0,>=5.0.0b4); extra=='cuda90'"
-    ],
-    "cuda91": [
-      "cupy-cuda91 (<8.0.0,>=5.0.0b4); extra=='cuda91'"
-    ],
-    "cuda92": [
-      "cupy-cuda92 (<8.0.0,>=5.0.0b4); extra=='cuda92'"
-    ],
-    "ja": [
-      "sudachidict-core (>=20200330); extra=='ja'",
-      "sudachipy (>=0.4.5); extra=='ja'"
-    ],
-    "ko": [
-      "natto-py (==0.9.0); extra=='ko'"
-    ],
-    "lookups": [
-      "spacy-lookups-data (<0.4.0,>=0.3.2); extra=='lookups'"
-    ],
-    "th": [
-      "pythainlp (>=2.0); extra=='th'"
+    "specifiers": [
+      "blis (<0.5.0,>=0.4.0); python_version<'3.6'",
+      "blis (<0.8.0,>=0.4.0); python_version>='3.6'",
+      "catalogue (<1.1.0,>=0.0.7)",
+      "cymem (<2.1.0,>=2.0.2)",
+      "murmurhash (<1.1.0,>=0.28.0)",
+      "numpy (>=1.15.0)",
+      "pathlib (==1.0.1); python_version<'3.4'",
+      "plac (<1.2.0,>=0.9.6)",
+      "preshed (<3.1.0,>=3.0.2)",
+      "requests (<3.0.0,>=2.13.0)",
+      "setuptools",
+      "srsly (<1.1.0,>=1.0.2)",
+      "thinc (<7.5.0,>=7.4.1)",
+      "tqdm (<5.0.0,>=4.38.0)",
+      "wasabi (<1.1.0,>=0.4.0)"
     ]
+  },
+  "requires_extras": {
+    "cuda": {
+      "dists": [
+        "cupy"
+      ],
+      "specifiers": [
+        "cupy (<8.0.0,>=5.0.0b4); extra=='cuda'"
+      ]
+    },
+    "cuda100": {
+      "dists": [
+        "cupy-cuda100"
+      ],
+      "specifiers": [
+        "cupy-cuda100 (<8.0.0,>=5.0.0b4); extra=='cuda100'"
+      ]
+    },
+    "cuda101": {
+      "dists": [
+        "cupy-cuda101"
+      ],
+      "specifiers": [
+        "cupy-cuda101 (<8.0.0,>=5.0.0b4); extra=='cuda101'"
+      ]
+    },
+    "cuda102": {
+      "dists": [
+        "cupy-cuda102"
+      ],
+      "specifiers": [
+        "cupy-cuda102 (<8.0.0,>=5.0.0b4); extra=='cuda102'"
+      ]
+    },
+    "cuda80": {
+      "dists": [
+        "cupy-cuda80"
+      ],
+      "specifiers": [
+        "cupy-cuda80 (<8.0.0,>=5.0.0b4); extra=='cuda80'"
+      ]
+    },
+    "cuda90": {
+      "dists": [
+        "cupy-cuda90"
+      ],
+      "specifiers": [
+        "cupy-cuda90 (<8.0.0,>=5.0.0b4); extra=='cuda90'"
+      ]
+    },
+    "cuda91": {
+      "dists": [
+        "cupy-cuda91"
+      ],
+      "specifiers": [
+        "cupy-cuda91 (<8.0.0,>=5.0.0b4); extra=='cuda91'"
+      ]
+    },
+    "cuda92": {
+      "dists": [
+        "cupy-cuda92"
+      ],
+      "specifiers": [
+        "cupy-cuda92 (<8.0.0,>=5.0.0b4); extra=='cuda92'"
+      ]
+    },
+    "ja": {
+      "dists": [
+        "sudachidict-core",
+        "sudachipy"
+      ],
+      "specifiers": [
+        "sudachidict-core (>=20200330); extra=='ja'",
+        "sudachipy (>=0.4.5); extra=='ja'"
+      ]
+    },
+    "ko": {
+      "dists": [
+        "natto-py"
+      ],
+      "specifiers": [
+        "natto-py (==0.9.0); extra=='ko'"
+      ]
+    },
+    "lookups": {
+      "dists": [
+        "spacy-lookups-data"
+      ],
+      "specifiers": [
+        "spacy-lookups-data (<0.4.0,>=0.3.2); extra=='lookups'"
+      ]
+    },
+    "th": {
+      "dists": [
+        "pythainlp"
+      ],
+      "specifiers": [
+        "pythainlp (>=2.0); extra=='th'"
+      ]
+    }
   },
   "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7",
   "yanked": []

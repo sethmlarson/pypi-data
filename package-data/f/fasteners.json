@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "monotonic (>=0.1)",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "monotonic",
+      "six"
+    ],
+    "specifiers": [
+      "monotonic (>=0.1)",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

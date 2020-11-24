@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "requests (>=2.21.0)",
-    "six (>=1.5.0)"
-  ],
-  "requires_extras": {
-    "parser": [
-      "pyhcl (>=0.3.10); extra=='parser'"
+  "requires_dist": {
+    "dists": [
+      "requests",
+      "six"
+    ],
+    "specifiers": [
+      "requests (>=2.21.0)",
+      "six (>=1.5.0)"
     ]
+  },
+  "requires_extras": {
+    "parser": {
+      "dists": [
+        "pyhcl"
+      ],
+      "specifiers": [
+        "pyhcl (>=0.3.10); extra=='parser'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

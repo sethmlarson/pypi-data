@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "cftime",
-    "numpy (>=1.9)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cftime",
+      "numpy"
+    ],
+    "specifiers": [
+      "cftime",
+      "numpy (>=1.9)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

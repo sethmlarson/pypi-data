@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "allure-python-commons (==2.8.21)",
-    "behave (>=1.2.5)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "allure-python-commons",
+      "behave"
+    ],
+    "specifiers": [
+      "allure-python-commons (==2.8.21)",
+      "behave (>=1.2.5)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

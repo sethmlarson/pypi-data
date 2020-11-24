@@ -1,21 +1,45 @@
 {
-  "requires_dist": [
-    "aiocontextvars (>=0.2); python_version<'3.7'",
-    "colorlog (>=2.9.0)",
-    "mypy-extensions",
-    "typing-extensions; python_version<'3.8'"
-  ],
-  "requires_extras": {
-    "eventlet": [
-      "aioeventlet (~=0.5.1); extra=='eventlet'",
-      "dnspython; extra=='eventlet'"
+  "requires_dist": {
+    "dists": [
+      "aiocontextvars",
+      "colorlog",
+      "mypy-extensions",
+      "typing-extensions"
     ],
-    "gevent": [
-      "aiogevent (~=0.2); extra=='gevent'"
-    ],
-    "uvloop": [
-      "uvloop (>=0.8.1); extra=='uvloop'"
+    "specifiers": [
+      "aiocontextvars (>=0.2); python_version<'3.7'",
+      "colorlog (>=2.9.0)",
+      "mypy-extensions",
+      "typing-extensions; python_version<'3.8'"
     ]
+  },
+  "requires_extras": {
+    "eventlet": {
+      "dists": [
+        "aioeventlet",
+        "dnspython"
+      ],
+      "specifiers": [
+        "aioeventlet (~=0.5.1); extra=='eventlet'",
+        "dnspython; extra=='eventlet'"
+      ]
+    },
+    "gevent": {
+      "dists": [
+        "aiogevent"
+      ],
+      "specifiers": [
+        "aiogevent (~=0.2); extra=='gevent'"
+      ]
+    },
+    "uvloop": {
+      "dists": [
+        "uvloop"
+      ],
+      "specifiers": [
+        "uvloop (>=0.8.1); extra=='uvloop'"
+      ]
+    }
   },
   "requires_python": "~=3.6",
   "yanked": []

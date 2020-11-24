@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "chardet",
-    "cssselect",
-    "lxml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "chardet",
+      "cssselect",
+      "lxml"
+    ],
+    "specifiers": [
+      "chardet",
+      "cssselect",
+      "lxml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

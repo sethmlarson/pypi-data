@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "widechars": [
-      "wcwidth; extra=='widechars'"
-    ]
+    "widechars": {
+      "dists": [
+        "wcwidth"
+      ],
+      "specifiers": [
+        "wcwidth; extra=='widechars'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

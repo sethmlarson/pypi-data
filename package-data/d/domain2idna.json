@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "colorama",
-    "setuptools"
-  ],
+  "requires_dist": {
+    "dists": [
+      "colorama",
+      "setuptools"
+    ],
+    "specifiers": [
+      "colorama",
+      "setuptools"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.2, <4",
   "yanked": []

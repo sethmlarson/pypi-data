@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "futures (>=3.2.0); python_version<'3.2'",
-    "grpcio (<1.28,>=1.8.2)",
-    "protobuf (>=3.0.0)",
-    "pymmh3 (>=0.0.5)",
-    "pytz",
-    "requests (<3.0.0dev,>=2.18.0)",
-    "setuptools (>=34.0.0)",
-    "six (>=1.10.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "futures",
+      "grpcio",
+      "protobuf",
+      "pymmh3",
+      "pytz",
+      "requests",
+      "setuptools",
+      "six"
+    ],
+    "specifiers": [
+      "futures (>=3.2.0); python_version<'3.2'",
+      "grpcio (<1.28,>=1.8.2)",
+      "protobuf (>=3.0.0)",
+      "pymmh3 (>=0.0.5)",
+      "pytz",
+      "requests (<3.0.0dev,>=2.18.0)",
+      "setuptools (>=34.0.0)",
+      "six (>=1.10.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

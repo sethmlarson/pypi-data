@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "mozfile (>=1.2)",
-    "mozlog (>=6.0)",
-    "six (<2,>=1.10.0)"
-  ],
-  "requires_extras": {
-    "manifest": [
-      "manifestparser (>=0.6); extra=='manifest'"
+  "requires_dist": {
+    "dists": [
+      "mozfile",
+      "mozlog",
+      "six"
+    ],
+    "specifiers": [
+      "mozfile (>=1.2)",
+      "mozlog (>=6.0)",
+      "six (<2,>=1.10.0)"
     ]
+  },
+  "requires_extras": {
+    "manifest": {
+      "dists": [
+        "manifestparser"
+      ],
+      "specifiers": [
+        "manifestparser (>=0.6); extra=='manifest'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,15 +1,29 @@
 {
-  "requires_dist": [
-    "numpy",
-    "protobuf",
-    "six",
-    "typing (>=3.6.4); python_version<'3.5'",
-    "typing-extensions (>=3.6.2.1)"
-  ],
-  "requires_extras": {
-    "mypy": [
-      "mypy (==0.600); extra=='mypy'"
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "protobuf",
+      "six",
+      "typing",
+      "typing-extensions"
+    ],
+    "specifiers": [
+      "numpy",
+      "protobuf",
+      "six",
+      "typing (>=3.6.4); python_version<'3.5'",
+      "typing-extensions (>=3.6.2.1)"
     ]
+  },
+  "requires_extras": {
+    "mypy": {
+      "dists": [
+        "mypy"
+      ],
+      "specifiers": [
+        "mypy (==0.600); extra=='mypy'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

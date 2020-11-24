@@ -1,15 +1,29 @@
 {
-  "requires_dist": [
-    "click",
-    "ipaddress; python_version=='2.7'",
-    "requests",
-    "six",
-    "typing; python_version=='2.7'"
-  ],
-  "requires_extras": {
-    "kerberos": [
-      "requests-kerberos; extra=='kerberos'"
+  "requires_dist": {
+    "dists": [
+      "click",
+      "ipaddress",
+      "requests",
+      "six",
+      "typing"
+    ],
+    "specifiers": [
+      "click",
+      "ipaddress; python_version=='2.7'",
+      "requests",
+      "six",
+      "typing; python_version=='2.7'"
     ]
+  },
+  "requires_extras": {
+    "kerberos": {
+      "dists": [
+        "requests-kerberos"
+      ],
+      "specifiers": [
+        "requests-kerberos; extra=='kerberos'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

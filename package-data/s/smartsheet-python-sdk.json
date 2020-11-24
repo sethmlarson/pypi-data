@@ -1,18 +1,35 @@
 {
-  "requires_dist": [
-    "certifi",
-    "python-dateutil",
-    "requests",
-    "requests-toolbelt",
-    "six (>=1.9)"
-  ],
-  "requires_extras": {
-    "develop": [
-      "coverage; extra=='develop'",
-      "coveralls[yaml]; extra=='develop'",
-      "pytest; extra=='develop'",
-      "pytest-instafail; extra=='develop'"
+  "requires_dist": {
+    "dists": [
+      "certifi",
+      "python-dateutil",
+      "requests",
+      "requests-toolbelt",
+      "six"
+    ],
+    "specifiers": [
+      "certifi",
+      "python-dateutil",
+      "requests",
+      "requests-toolbelt",
+      "six (>=1.9)"
     ]
+  },
+  "requires_extras": {
+    "develop": {
+      "dists": [
+        "coverage",
+        "coveralls",
+        "pytest",
+        "pytest-instafail"
+      ],
+      "specifiers": [
+        "coverage; extra=='develop'",
+        "coveralls[yaml]; extra=='develop'",
+        "pytest; extra=='develop'",
+        "pytest-instafail; extra=='develop'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "importlib-metadata (>=1); python_version<'3.8'",
-    "jeepney (>=0.4.2); sys_platform=='linux'",
-    "pywin32-ctypes (!=0.1.0,!=0.1.1); sys_platform=='win32'",
-    "SecretStorage (>=3.2); sys_platform=='linux'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "importlib-metadata",
+      "jeepney",
+      "pywin32-ctypes",
+      "secretstorage"
+    ],
+    "specifiers": [
+      "importlib-metadata (>=1); python_version<'3.8'",
+      "jeepney (>=0.4.2); sys_platform=='linux'",
+      "pywin32-ctypes (!=0.1.0,!=0.1.1); sys_platform=='win32'",
+      "secretstorage (>=3.2); sys_platform=='linux'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

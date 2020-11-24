@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pytoml"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pytoml"
+    ],
+    "specifiers": [
+      "pytoml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.4",
   "yanked": []

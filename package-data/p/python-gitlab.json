@@ -1,14 +1,29 @@
 {
-  "requires_dist": [
-    "requests (>=2.22.0)"
-  ],
-  "requires_extras": {
-    "autocompletion": [
-      "argcomplete (<2,>=1.10.0); extra=='autocompletion'"
+  "requires_dist": {
+    "dists": [
+      "requests"
     ],
-    "yaml": [
-      "PyYaml (>=5.2); extra=='yaml'"
+    "specifiers": [
+      "requests (>=2.22.0)"
     ]
+  },
+  "requires_extras": {
+    "autocompletion": {
+      "dists": [
+        "argcomplete"
+      ],
+      "specifiers": [
+        "argcomplete (<2,>=1.10.0); extra=='autocompletion'"
+      ]
+    },
+    "yaml": {
+      "dists": [
+        "pyyaml"
+      ],
+      "specifiers": [
+        "pyyaml (>=5.2); extra=='yaml'"
+      ]
+    }
   },
   "requires_python": ">=3.6.0",
   "yanked": []

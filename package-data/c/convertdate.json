@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pymeeus (<=1,>=0.3.6)",
-    "pytz (>=2014.10)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pymeeus",
+      "pytz"
+    ],
+    "specifiers": [
+      "pymeeus (<=1,>=0.3.6)",
+      "pytz (>=2014.10)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

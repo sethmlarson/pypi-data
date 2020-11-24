@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "kazoo (>=2.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "kazoo"
+    ],
+    "specifiers": [
+      "kazoo (>=2.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

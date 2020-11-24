@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "numpy (>=1.14.0)",
-    "pandas (>=0.21.1)",
-    "patsy (>=0.5.1)",
-    "scikit-learn (>=0.20.0)",
-    "scipy (>=1.0.0)",
-    "statsmodels (>=0.9.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "pandas",
+      "patsy",
+      "scikit-learn",
+      "scipy",
+      "statsmodels"
+    ],
+    "specifiers": [
+      "numpy (>=1.14.0)",
+      "pandas (>=0.21.1)",
+      "patsy (>=0.5.1)",
+      "scikit-learn (>=0.20.0)",
+      "scipy (>=1.0.0)",
+      "statsmodels (>=0.9.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

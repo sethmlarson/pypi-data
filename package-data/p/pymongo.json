@@ -1,32 +1,77 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "aws": [
-      "pymongo-auth-aws (<2.0.0); extra=='aws'"
-    ],
-    "encryption": [
-      "pymongocrypt (<2.0.0); extra=='encryption'"
-    ],
-    "gssapi": [
-      "pykerberos; extra=='gssapi'"
-    ],
-    "ocsp": [
-      "pyopenssl (>=17.2.0); extra=='ocsp'",
-      "requests (<3.0.0); extra=='ocsp'",
-      "service-identity (>=18.1.0); extra=='ocsp'"
-    ],
-    "snappy": [
-      "python-snappy; extra=='snappy'"
-    ],
-    "srv": [
-      "dnspython (<1.17.0,>=1.16.0); extra=='srv'"
-    ],
-    "tls": [
-      "ipaddress; extra=='tls'"
-    ],
-    "zstd": [
-      "zstandard; extra=='zstd'"
-    ]
+    "aws": {
+      "dists": [
+        "pymongo-auth-aws"
+      ],
+      "specifiers": [
+        "pymongo-auth-aws (<2.0.0); extra=='aws'"
+      ]
+    },
+    "encryption": {
+      "dists": [
+        "pymongocrypt"
+      ],
+      "specifiers": [
+        "pymongocrypt (<2.0.0); extra=='encryption'"
+      ]
+    },
+    "gssapi": {
+      "dists": [
+        "pykerberos"
+      ],
+      "specifiers": [
+        "pykerberos; extra=='gssapi'"
+      ]
+    },
+    "ocsp": {
+      "dists": [
+        "pyopenssl",
+        "requests",
+        "service-identity"
+      ],
+      "specifiers": [
+        "pyopenssl (>=17.2.0); extra=='ocsp'",
+        "requests (<3.0.0); extra=='ocsp'",
+        "service-identity (>=18.1.0); extra=='ocsp'"
+      ]
+    },
+    "snappy": {
+      "dists": [
+        "python-snappy"
+      ],
+      "specifiers": [
+        "python-snappy; extra=='snappy'"
+      ]
+    },
+    "srv": {
+      "dists": [
+        "dnspython"
+      ],
+      "specifiers": [
+        "dnspython (<1.17.0,>=1.16.0); extra=='srv'"
+      ]
+    },
+    "tls": {
+      "dists": [
+        "ipaddress"
+      ],
+      "specifiers": [
+        "ipaddress; extra=='tls'"
+      ]
+    },
+    "zstd": {
+      "dists": [
+        "zstandard"
+      ],
+      "specifiers": [
+        "zstandard; extra=='zstd'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

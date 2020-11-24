@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "azure-common (~=1.1)",
-    "azure-core (<2.0.0,>=1.7.0)",
-    "azure-keyvault-nspkg; python_version<'3.0'",
-    "enum34 (>=1.0.4); python_version<'3.4'",
-    "msrest (>=0.6.0)",
-    "typing; python_version<'3.5'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "azure-common",
+      "azure-core",
+      "azure-keyvault-nspkg",
+      "enum34",
+      "msrest",
+      "typing"
+    ],
+    "specifiers": [
+      "azure-common (~=1.1)",
+      "azure-core (<2.0.0,>=1.7.0)",
+      "azure-keyvault-nspkg; python_version<'3.0'",
+      "enum34 (>=1.0.4); python_version<'3.4'",
+      "msrest (>=0.6.0)",
+      "typing; python_version<'3.5'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

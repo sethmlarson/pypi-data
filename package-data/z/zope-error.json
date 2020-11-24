@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "persistent",
-    "setuptools",
-    "six",
-    "zope.exceptions",
-    "zope.interface",
-    "zope.location"
-  ],
+  "requires_dist": {
+    "dists": [
+      "persistent",
+      "setuptools",
+      "six",
+      "zope.exceptions",
+      "zope.interface",
+      "zope.location"
+    ],
+    "specifiers": [
+      "persistent",
+      "setuptools",
+      "six",
+      "zope.exceptions",
+      "zope.interface",
+      "zope.location"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

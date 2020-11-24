@@ -1,13 +1,24 @@
 {
-  "requires_dist": [
-    "affine",
-    "click",
-    "click-plugins",
-    "cligj",
-    "mercantile",
-    "numpy",
-    "rasterio"
-  ],
+  "requires_dist": {
+    "dists": [
+      "affine",
+      "click",
+      "click-plugins",
+      "cligj",
+      "mercantile",
+      "numpy",
+      "rasterio"
+    ],
+    "specifiers": [
+      "affine",
+      "click",
+      "click-plugins",
+      "cligj",
+      "mercantile",
+      "numpy",
+      "rasterio"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

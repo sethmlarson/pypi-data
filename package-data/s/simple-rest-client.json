@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "httpx (>=0.16.1)",
-    "python-slugify (>=4.0.0)",
-    "python-status (>=1.0.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "httpx",
+      "python-slugify",
+      "python-status"
+    ],
+    "specifiers": [
+      "httpx (>=0.16.1)",
+      "python-slugify (>=4.0.0)",
+      "python-status (>=1.0.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

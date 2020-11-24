@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "dbnd (==0.30.4)",
-    "dbnd-spark (==0.30.4)",
-    "qds-sdk (==1.13.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dbnd",
+      "dbnd-spark",
+      "qds-sdk"
+    ],
+    "specifiers": [
+      "dbnd (==0.30.5)",
+      "dbnd-spark (==0.30.5)",
+      "qds-sdk (==1.13.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

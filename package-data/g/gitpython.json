@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "gitdb (<5,>=4.0.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "gitdb"
+    ],
+    "specifiers": [
+      "gitdb (<5,>=4.0.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.4",
   "yanked": []

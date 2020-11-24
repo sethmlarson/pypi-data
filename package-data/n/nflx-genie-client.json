@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "decorator",
-    "multipledispatch",
-    "pyconfigurator",
-    "python-dateutil (>=2.4)",
-    "requests",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "decorator",
+      "multipledispatch",
+      "pyconfigurator",
+      "python-dateutil",
+      "requests",
+      "six"
+    ],
+    "specifiers": [
+      "decorator",
+      "multipledispatch",
+      "pyconfigurator",
+      "python-dateutil (>=2.4)",
+      "requests",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

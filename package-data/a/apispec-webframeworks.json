@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "apispec[yaml] (>=2.0.0)"
-  ],
-  "requires_extras": {
-    "lint": [
-      "flake8 (==3.7.9); extra=='lint'",
-      "flake8-bugbear (==19.8.0); extra=='lint'",
-      "pre-commit (~=1.18); extra=='lint'"
+  "requires_dist": {
+    "dists": [
+      "apispec"
+    ],
+    "specifiers": [
+      "apispec[yaml] (>=2.0.0)"
     ]
+  },
+  "requires_extras": {
+    "lint": {
+      "dists": [
+        "flake8",
+        "flake8-bugbear",
+        "pre-commit"
+      ],
+      "specifiers": [
+        "flake8 (==3.7.9); extra=='lint'",
+        "flake8-bugbear (==19.8.0); extra=='lint'",
+        "pre-commit (~=1.18); extra=='lint'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

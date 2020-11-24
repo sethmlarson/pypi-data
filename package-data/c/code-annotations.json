@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "click (<8.0,>=7.0)",
-    "Django",
-    "Jinja2",
-    "python-slugify",
-    "pyyaml",
-    "stevedore"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click",
+      "django",
+      "jinja2",
+      "python-slugify",
+      "pyyaml",
+      "stevedore"
+    ],
+    "specifiers": [
+      "click (<8.0,>=7.0)",
+      "django",
+      "jinja2",
+      "python-slugify",
+      "pyyaml",
+      "stevedore"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

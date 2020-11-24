@@ -1,25 +1,57 @@
 {
-  "requires_dist": [
-    "rsa",
-    "websocket-client (>=0.47.0)"
-  ],
-  "requires_extras": {
-    "encrypt": [
-      "pyopenssl (>=17.5.0); extra=='encrypt'"
+  "requires_dist": {
+    "dists": [
+      "rsa",
+      "websocket-client"
     ],
-    "examples": [
-      "pproxy; extra=='examples'",
-      "psutil; extra=='examples'"
-    ],
-    "pandas": [
-      "pandas (!=0.23.1,>=0.22); extra=='pandas'"
-    ],
-    "rapidjson": [
-      "python-rapidjson; extra=='rapidjson'"
-    ],
-    "ujson": [
-      "ujson; extra=='ujson'"
+    "specifiers": [
+      "rsa",
+      "websocket-client (>=0.47.0)"
     ]
+  },
+  "requires_extras": {
+    "encrypt": {
+      "dists": [
+        "pyopenssl"
+      ],
+      "specifiers": [
+        "pyopenssl (>=17.5.0); extra=='encrypt'"
+      ]
+    },
+    "examples": {
+      "dists": [
+        "pproxy",
+        "psutil"
+      ],
+      "specifiers": [
+        "pproxy; extra=='examples'",
+        "psutil; extra=='examples'"
+      ]
+    },
+    "pandas": {
+      "dists": [
+        "pandas"
+      ],
+      "specifiers": [
+        "pandas (!=0.23.1,>=0.22); extra=='pandas'"
+      ]
+    },
+    "rapidjson": {
+      "dists": [
+        "python-rapidjson"
+      ],
+      "specifiers": [
+        "python-rapidjson; extra=='rapidjson'"
+      ]
+    },
+    "ujson": {
+      "dists": [
+        "ujson"
+      ],
+      "specifiers": [
+        "ujson; extra=='ujson'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "future (>=0.16)",
-    "pandas (>=0.21)",
-    "pytz",
-    "requests (>=2.18)",
-    "sseclient-py (>=1.7)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "future",
+      "pandas",
+      "pytz",
+      "requests",
+      "sseclient-py"
+    ],
+    "specifiers": [
+      "future (>=0.16)",
+      "pandas (>=0.21)",
+      "pytz",
+      "requests (>=2.18)",
+      "sseclient-py (>=1.7)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

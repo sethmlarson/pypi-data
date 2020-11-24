@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "livereload",
-    "sphinx"
-  ],
+  "requires_dist": {
+    "dists": [
+      "livereload",
+      "sphinx"
+    ],
+    "specifiers": [
+      "livereload",
+      "sphinx"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

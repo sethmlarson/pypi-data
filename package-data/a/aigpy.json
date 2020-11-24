@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "colorama",
-    "configparser",
-    "mutagen",
-    "pycryptodome",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "colorama",
+      "configparser",
+      "mutagen",
+      "pycryptodome",
+      "requests"
+    ],
+    "specifiers": [
+      "colorama",
+      "configparser",
+      "mutagen",
+      "pycryptodome",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

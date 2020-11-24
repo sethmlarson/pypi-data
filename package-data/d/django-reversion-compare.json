@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "diff-match-patch",
-    "django (>=2.2,<3.1)",
-    "django-reversion"
-  ],
+  "requires_dist": {
+    "dists": [
+      "diff-match-patch",
+      "django",
+      "django-reversion"
+    ],
+    "specifiers": [
+      "diff-match-patch",
+      "django (>=2.2,<3.1)",
+      "django-reversion"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6,<4.0",
   "yanked": []

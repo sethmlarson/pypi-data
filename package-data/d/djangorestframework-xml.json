@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "defusedxml (>=0.6.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "defusedxml"
+    ],
+    "specifiers": [
+      "defusedxml (>=0.6.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

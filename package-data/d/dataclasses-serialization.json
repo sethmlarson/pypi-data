@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "dataclasses",
-    "more-properties (>=1.1.0)",
-    "toolz",
-    "toposort",
-    "typing-inspect"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dataclasses",
+      "more-properties",
+      "toolz",
+      "toposort",
+      "typing-inspect"
+    ],
+    "specifiers": [
+      "dataclasses",
+      "more-properties (>=1.1.0)",
+      "toolz",
+      "toposort",
+      "typing-inspect"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

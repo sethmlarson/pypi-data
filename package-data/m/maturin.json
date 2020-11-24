@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "toml~=0.10.0"
-  ],
+  "requires_dist": {
+    "dists": [
+      "toml"
+    ],
+    "specifiers": [
+      "toml~=0.10.0"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

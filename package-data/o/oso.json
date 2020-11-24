@@ -1,16 +1,33 @@
 {
-  "requires_dist": [
-    "cffi (==1.14.0)",
-    "dataclasses; python_version<'3.7'"
-  ],
-  "requires_extras": {
-    "flask": [
-      "authlib; extra=='flask'",
-      "flask; extra=='flask'"
+  "requires_dist": {
+    "dists": [
+      "cffi",
+      "dataclasses"
     ],
-    "jwt": [
-      "authlib; extra=='jwt'"
+    "specifiers": [
+      "cffi (==1.14.0)",
+      "dataclasses; python_version<'3.7'"
     ]
+  },
+  "requires_extras": {
+    "flask": {
+      "dists": [
+        "authlib",
+        "flask"
+      ],
+      "specifiers": [
+        "authlib; extra=='flask'",
+        "flask; extra=='flask'"
+      ]
+    },
+    "jwt": {
+      "dists": [
+        "authlib"
+      ],
+      "specifiers": [
+        "authlib; extra=='jwt'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

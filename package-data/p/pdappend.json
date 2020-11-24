@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "openpyxl",
-    "pandas",
-    "python-dotenv",
-    "xlrd"
-  ],
+  "requires_dist": {
+    "dists": [
+      "openpyxl",
+      "pandas",
+      "python-dotenv",
+      "xlrd"
+    ],
+    "specifiers": [
+      "openpyxl",
+      "pandas",
+      "python-dotenv",
+      "xlrd"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,16 +1,30 @@
 {
-  "requires_dist": [
-    "brotli",
-    "msgpack (>=0.5.2)",
-    "numpy (<1.17.0)",
-    "pandas (<0.25.0)",
-    "pymysql",
-    "python-dateutil",
-    "rqdatac-fund",
-    "six",
-    "SQLAlchemy",
-    "typing"
-  ],
+  "requires_dist": {
+    "dists": [
+      "brotli",
+      "msgpack",
+      "numpy",
+      "pandas",
+      "pymysql",
+      "python-dateutil",
+      "rqdatac-fund",
+      "six",
+      "sqlalchemy",
+      "typing"
+    ],
+    "specifiers": [
+      "brotli",
+      "msgpack (>=0.5.2)",
+      "numpy (<1.17.0)",
+      "pandas (<0.25.0)",
+      "pymysql",
+      "python-dateutil",
+      "rqdatac-fund",
+      "six",
+      "sqlalchemy",
+      "typing"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

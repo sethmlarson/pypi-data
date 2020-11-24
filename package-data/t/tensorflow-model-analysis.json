@@ -1,19 +1,36 @@
 {
-  "requires_dist": [
-    "absl-py (<0.11,>=0.9)",
-    "apache-beam[gcp] (<3,>=2.25)",
-    "ipython (<8,>=7)",
-    "ipywidgets (<8,>=7)",
-    "numpy (<2,>=1.16)",
-    "pandas (<2,>=1.0)",
-    "protobuf (<4,>=3.9.2)",
-    "pyarrow (<0.18,>=0.17)",
-    "scipy (<2,>=1.4.1)",
-    "six (<2,>=1.12)",
-    "tensorflow (!=2.0.*,!=2.1.*,!=2.2.*,<3,>=1.15.2)",
-    "tensorflow-metadata (<0.26,>=0.25)",
-    "tfx-bsl (<0.26,>=0.25)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "absl-py",
+      "apache-beam",
+      "ipython",
+      "ipywidgets",
+      "numpy",
+      "pandas",
+      "protobuf",
+      "pyarrow",
+      "scipy",
+      "six",
+      "tensorflow",
+      "tensorflow-metadata",
+      "tfx-bsl"
+    ],
+    "specifiers": [
+      "absl-py (<0.11,>=0.9)",
+      "apache-beam[gcp] (<3,>=2.25)",
+      "ipython (<8,>=7)",
+      "ipywidgets (<8,>=7)",
+      "numpy (<2,>=1.16)",
+      "pandas (<2,>=1.0)",
+      "protobuf (<4,>=3.9.2)",
+      "pyarrow (<0.18,>=0.17)",
+      "scipy (<2,>=1.4.1)",
+      "six (<2,>=1.12)",
+      "tensorflow (!=2.0.*,!=2.1.*,!=2.2.*,<3,>=1.15.2)",
+      "tensorflow-metadata (<0.26,>=0.25)",
+      "tfx-bsl (<0.26,>=0.25)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6,<4",
   "yanked": []

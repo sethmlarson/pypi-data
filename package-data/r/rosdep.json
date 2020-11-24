@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "catkin-pkg (>=0.4.0)",
-    "PyYAML (>=3.1)",
-    "rosdistro (>=0.7.5)",
-    "rospkg (>=1.2.7)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "catkin-pkg",
+      "pyyaml",
+      "rosdistro",
+      "rospkg"
+    ],
+    "specifiers": [
+      "catkin-pkg (>=0.4.0)",
+      "pyyaml (>=3.1)",
+      "rosdistro (>=0.7.5)",
+      "rospkg (>=1.2.7)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

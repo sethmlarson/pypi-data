@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "azure-common (~=1.1)",
-    "azure-nspkg (>=2.0.0)",
-    "msrest (<2.0.0,>=0.5.4)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "azure-common",
+      "azure-nspkg",
+      "msrest"
+    ],
+    "specifiers": [
+      "azure-common (~=1.1)",
+      "azure-nspkg (>=2.0.0)",
+      "msrest (<2.0.0,>=0.5.4)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

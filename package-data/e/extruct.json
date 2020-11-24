@@ -1,18 +1,35 @@
 {
-  "requires_dist": [
-    "html-text (>=0.5.1)",
-    "jstyleson",
-    "lxml",
-    "mf2py",
-    "rdflib (<5.0.0)",
-    "rdflib-jsonld",
-    "six",
-    "w3lib"
-  ],
-  "requires_extras": {
-    "cli": [
-      "requests; extra=='cli'"
+  "requires_dist": {
+    "dists": [
+      "html-text",
+      "jstyleson",
+      "lxml",
+      "mf2py",
+      "rdflib",
+      "rdflib-jsonld",
+      "six",
+      "w3lib"
+    ],
+    "specifiers": [
+      "html-text (>=0.5.1)",
+      "jstyleson",
+      "lxml",
+      "mf2py",
+      "rdflib (<5.0.0)",
+      "rdflib-jsonld",
+      "six",
+      "w3lib"
     ]
+  },
+  "requires_extras": {
+    "cli": {
+      "dists": [
+        "requests"
+      ],
+      "specifiers": [
+        "requests; extra=='cli'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

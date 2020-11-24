@@ -1,16 +1,31 @@
 {
-  "requires_dist": [
-    "attrs (>=17.2.0)",
-    "Django (<2.3,>=2.2)",
-    "python-dateutil",
-    "sailthru-client (==2.2.3)",
-    "six",
-    "stevedore (>=1.10.0)"
-  ],
-  "requires_extras": {
-    "sailthru": [
-      "sailthru-client (<2.3,>2.2); extra=='sailthru'"
+  "requires_dist": {
+    "dists": [
+      "attrs",
+      "django",
+      "python-dateutil",
+      "sailthru-client",
+      "six",
+      "stevedore"
+    ],
+    "specifiers": [
+      "attrs (>=17.2.0)",
+      "django (<2.3,>=2.2)",
+      "python-dateutil",
+      "sailthru-client (==2.2.3)",
+      "six",
+      "stevedore (>=1.10.0)"
     ]
+  },
+  "requires_extras": {
+    "sailthru": {
+      "dists": [
+        "sailthru-client"
+      ],
+      "specifiers": [
+        "sailthru-client (<2.3,>2.2); extra=='sailthru'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "tokenize-rt (>=3.2.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "tokenize-rt"
+    ],
+    "specifiers": [
+      "tokenize-rt (>=3.2.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.1",
   "yanked": []

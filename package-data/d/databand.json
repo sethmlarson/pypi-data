@@ -1,89 +1,229 @@
 {
-  "requires_dist": [
-    "dbnd (==0.30.4)"
-  ],
-  "requires_extras": {
-    "airflow": [
-      "dbnd-airflow (==0.30.4); extra=='airflow'"
+  "requires_dist": {
+    "dists": [
+      "dbnd"
     ],
-    "airflow-auto-tracking": [
-      "dbnd-airflow-auto-tracking (==0.30.4); extra=='airflow-auto-tracking'"
-    ],
-    "airflow-export": [
-      "dbnd-airflow-export (==0.30.4); extra=='airflow-export'"
-    ],
-    "airflow-operator": [
-      "dbnd-airflow-operator (==0.30.4); extra=='airflow-operator'"
-    ],
-    "airflow-versioned-dag": [
-      "dbnd-airflow-versioned-dag (==0.30.4); extra=='airflow-versioned-dag'"
-    ],
-    "airflow_1_10_10": [
-      "dbnd-airflow[airflow_1_10_10] (==0.30.4); extra=='airflow_1_10_10'"
-    ],
-    "airflow_1_10_11": [
-      "dbnd-airflow[airflow_1_10_11] (==0.30.4); extra=='airflow_1_10_11'"
-    ],
-    "airflow_1_10_12": [
-      "dbnd-airflow[airflow_1_10_12] (==0.30.4); extra=='airflow_1_10_12'"
-    ],
-    "airflow_1_10_7": [
-      "dbnd-airflow[airflow_1_10_7] (==0.30.4); extra=='airflow_1_10_7'"
-    ],
-    "airflow_1_10_8": [
-      "dbnd-airflow[airflow_1_10_8] (==0.30.4); extra=='airflow_1_10_8'"
-    ],
-    "airflow_1_10_9": [
-      "dbnd-airflow[airflow_1_10_9] (==0.30.4); extra=='airflow_1_10_9'"
-    ],
-    "airflow_bundle": [
-      "dbnd-airflow[airflow] (==0.30.4); extra=='airflow_bundle'"
-    ],
-    "aws": [
-      "dbnd-aws (==0.30.4); extra=='aws'"
-    ],
-    "azure": [
-      "dbnd-azure (==0.30.4); extra=='azure'"
-    ],
-    "databricks": [
-      "dbnd-databricks (==0.30.4); extra=='databricks'"
-    ],
-    "docker": [
-      "dbnd-docker (==0.30.4); extra=='docker'"
-    ],
-    "gcp": [
-      "dbnd-gcp (==0.30.4); extra=='gcp'"
-    ],
-    "hdfs": [
-      "dbnd-hdfs (==0.30.4); extra=='hdfs'"
-    ],
-    "k8s": [
-      "dbnd-docker (==0.30.4); extra=='k8s'"
-    ],
-    "luigi": [
-      "dbnd-luigi (==0.30.4); extra=='luigi'"
-    ],
-    "mlflow": [
-      "dbnd-mlflow (==0.30.4); extra=='mlflow'"
-    ],
-    "postgres": [
-      "dbnd-postgres (==0.30.4); extra=='postgres'"
-    ],
-    "qubole": [
-      "dbnd-qubole (==0.30.4); extra=='qubole'"
-    ],
-    "redshift": [
-      "dbnd-redshift (==0.30.4); extra=='redshift'"
-    ],
-    "snowflake": [
-      "dbnd-snowflake (==0.30.4); extra=='snowflake'"
-    ],
-    "spark": [
-      "dbnd-spark (==0.30.4); extra=='spark'"
-    ],
-    "tensorflow": [
-      "dbnd-tensorflow (==0.30.4); extra=='tensorflow'"
+    "specifiers": [
+      "dbnd (==0.30.5)"
     ]
+  },
+  "requires_extras": {
+    "airflow": {
+      "dists": [
+        "dbnd-airflow"
+      ],
+      "specifiers": [
+        "dbnd-airflow (==0.30.5); extra=='airflow'"
+      ]
+    },
+    "airflow-auto-tracking": {
+      "dists": [
+        "dbnd-airflow-auto-tracking"
+      ],
+      "specifiers": [
+        "dbnd-airflow-auto-tracking (==0.30.5); extra=='airflow-auto-tracking'"
+      ]
+    },
+    "airflow-export": {
+      "dists": [
+        "dbnd-airflow-export"
+      ],
+      "specifiers": [
+        "dbnd-airflow-export (==0.30.5); extra=='airflow-export'"
+      ]
+    },
+    "airflow-operator": {
+      "dists": [
+        "dbnd-airflow-operator"
+      ],
+      "specifiers": [
+        "dbnd-airflow-operator (==0.30.5); extra=='airflow-operator'"
+      ]
+    },
+    "airflow-versioned-dag": {
+      "dists": [
+        "dbnd-airflow-versioned-dag"
+      ],
+      "specifiers": [
+        "dbnd-airflow-versioned-dag (==0.30.5); extra=='airflow-versioned-dag'"
+      ]
+    },
+    "airflow_1_10_10": {
+      "dists": [
+        "dbnd-airflow"
+      ],
+      "specifiers": [
+        "dbnd-airflow[airflow_1_10_10] (==0.30.5); extra=='airflow_1_10_10'"
+      ]
+    },
+    "airflow_1_10_11": {
+      "dists": [
+        "dbnd-airflow"
+      ],
+      "specifiers": [
+        "dbnd-airflow[airflow_1_10_11] (==0.30.5); extra=='airflow_1_10_11'"
+      ]
+    },
+    "airflow_1_10_12": {
+      "dists": [
+        "dbnd-airflow"
+      ],
+      "specifiers": [
+        "dbnd-airflow[airflow_1_10_12] (==0.30.5); extra=='airflow_1_10_12'"
+      ]
+    },
+    "airflow_1_10_7": {
+      "dists": [
+        "dbnd-airflow"
+      ],
+      "specifiers": [
+        "dbnd-airflow[airflow_1_10_7] (==0.30.5); extra=='airflow_1_10_7'"
+      ]
+    },
+    "airflow_1_10_8": {
+      "dists": [
+        "dbnd-airflow"
+      ],
+      "specifiers": [
+        "dbnd-airflow[airflow_1_10_8] (==0.30.5); extra=='airflow_1_10_8'"
+      ]
+    },
+    "airflow_1_10_9": {
+      "dists": [
+        "dbnd-airflow"
+      ],
+      "specifiers": [
+        "dbnd-airflow[airflow_1_10_9] (==0.30.5); extra=='airflow_1_10_9'"
+      ]
+    },
+    "airflow_bundle": {
+      "dists": [
+        "dbnd-airflow"
+      ],
+      "specifiers": [
+        "dbnd-airflow[airflow] (==0.30.5); extra=='airflow_bundle'"
+      ]
+    },
+    "aws": {
+      "dists": [
+        "dbnd-aws"
+      ],
+      "specifiers": [
+        "dbnd-aws (==0.30.5); extra=='aws'"
+      ]
+    },
+    "azure": {
+      "dists": [
+        "dbnd-azure"
+      ],
+      "specifiers": [
+        "dbnd-azure (==0.30.5); extra=='azure'"
+      ]
+    },
+    "databricks": {
+      "dists": [
+        "dbnd-databricks"
+      ],
+      "specifiers": [
+        "dbnd-databricks (==0.30.5); extra=='databricks'"
+      ]
+    },
+    "docker": {
+      "dists": [
+        "dbnd-docker"
+      ],
+      "specifiers": [
+        "dbnd-docker (==0.30.5); extra=='docker'"
+      ]
+    },
+    "gcp": {
+      "dists": [
+        "dbnd-gcp"
+      ],
+      "specifiers": [
+        "dbnd-gcp (==0.30.5); extra=='gcp'"
+      ]
+    },
+    "hdfs": {
+      "dists": [
+        "dbnd-hdfs"
+      ],
+      "specifiers": [
+        "dbnd-hdfs (==0.30.5); extra=='hdfs'"
+      ]
+    },
+    "k8s": {
+      "dists": [
+        "dbnd-docker"
+      ],
+      "specifiers": [
+        "dbnd-docker (==0.30.5); extra=='k8s'"
+      ]
+    },
+    "luigi": {
+      "dists": [
+        "dbnd-luigi"
+      ],
+      "specifiers": [
+        "dbnd-luigi (==0.30.5); extra=='luigi'"
+      ]
+    },
+    "mlflow": {
+      "dists": [
+        "dbnd-mlflow"
+      ],
+      "specifiers": [
+        "dbnd-mlflow (==0.30.5); extra=='mlflow'"
+      ]
+    },
+    "postgres": {
+      "dists": [
+        "dbnd-postgres"
+      ],
+      "specifiers": [
+        "dbnd-postgres (==0.30.5); extra=='postgres'"
+      ]
+    },
+    "qubole": {
+      "dists": [
+        "dbnd-qubole"
+      ],
+      "specifiers": [
+        "dbnd-qubole (==0.30.5); extra=='qubole'"
+      ]
+    },
+    "redshift": {
+      "dists": [
+        "dbnd-redshift"
+      ],
+      "specifiers": [
+        "dbnd-redshift (==0.30.5); extra=='redshift'"
+      ]
+    },
+    "snowflake": {
+      "dists": [
+        "dbnd-snowflake"
+      ],
+      "specifiers": [
+        "dbnd-snowflake (==0.30.5); extra=='snowflake'"
+      ]
+    },
+    "spark": {
+      "dists": [
+        "dbnd-spark"
+      ],
+      "specifiers": [
+        "dbnd-spark (==0.30.5); extra=='spark'"
+      ]
+    },
+    "tensorflow": {
+      "dists": [
+        "dbnd-tensorflow"
+      ],
+      "specifiers": [
+        "dbnd-tensorflow (==0.30.5); extra=='tensorflow'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

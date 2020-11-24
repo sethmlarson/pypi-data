@@ -1,20 +1,43 @@
 {
-  "requires_dist": [
-    "jinja2"
-  ],
-  "requires_extras": {
-    "toml": [
-      "jinja2; extra=='toml'",
-      "toml; extra=='toml'"
+  "requires_dist": {
+    "dists": [
+      "jinja2"
     ],
-    "xml": [
-      "jinja2; extra=='xml'",
-      "xmltodict; extra=='xml'"
-    ],
-    "yaml": [
-      "jinja2; extra=='yaml'",
-      "pyyaml; extra=='yaml'"
+    "specifiers": [
+      "jinja2"
     ]
+  },
+  "requires_extras": {
+    "toml": {
+      "dists": [
+        "jinja2",
+        "toml"
+      ],
+      "specifiers": [
+        "jinja2; extra=='toml'",
+        "toml; extra=='toml'"
+      ]
+    },
+    "xml": {
+      "dists": [
+        "jinja2",
+        "xmltodict"
+      ],
+      "specifiers": [
+        "jinja2; extra=='xml'",
+        "xmltodict; extra=='xml'"
+      ]
+    },
+    "yaml": {
+      "dists": [
+        "jinja2",
+        "pyyaml"
+      ],
+      "specifiers": [
+        "jinja2; extra=='yaml'",
+        "pyyaml; extra=='yaml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

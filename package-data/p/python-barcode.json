@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "images": [
-      "pillow; extra=='images'"
-    ]
+    "images": {
+      "dists": [
+        "pillow"
+      ],
+      "specifiers": [
+        "pillow; extra=='images'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

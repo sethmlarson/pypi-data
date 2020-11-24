@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "PyYAML",
-    "six (>=1.5)",
-    "wrapt",
-    "yarl (<1.4); python_version=='3.5'",
-    "yarl; python_version>='3.6'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyyaml",
+      "six",
+      "wrapt",
+      "yarl",
+      "yarl"
+    ],
+    "specifiers": [
+      "pyyaml",
+      "six (>=1.5)",
+      "wrapt",
+      "yarl (<1.4); python_version=='3.5'",
+      "yarl; python_version>='3.6'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

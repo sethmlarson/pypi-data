@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "nose (>=1.2.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "nose"
+    ],
+    "specifiers": [
+      "nose (>=1.2.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,19 +1,41 @@
 {
-  "requires_dist": [
-    "dataclasses; python_version=='3.6'",
-    "marshmallow (<4.0,>=3.0.0)",
-    "typing-inspect"
-  ],
-  "requires_extras": {
-    "enum": [
-      "marshmallow-enum; extra=='enum'"
+  "requires_dist": {
+    "dists": [
+      "dataclasses",
+      "marshmallow",
+      "typing-inspect"
     ],
-    "lint": [
-      "pre-commit (~=1.18); extra=='lint'"
-    ],
-    "union": [
-      "typeguard; extra=='union'"
+    "specifiers": [
+      "dataclasses; python_version=='3.6'",
+      "marshmallow (<4.0,>=3.0.0)",
+      "typing-inspect"
     ]
+  },
+  "requires_extras": {
+    "enum": {
+      "dists": [
+        "marshmallow-enum"
+      ],
+      "specifiers": [
+        "marshmallow-enum; extra=='enum'"
+      ]
+    },
+    "lint": {
+      "dists": [
+        "pre-commit"
+      ],
+      "specifiers": [
+        "pre-commit (~=1.18); extra=='lint'"
+      ]
+    },
+    "union": {
+      "dists": [
+        "typeguard"
+      ],
+      "specifiers": [
+        "typeguard; extra=='union'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "numpy",
-    "pillow",
-    "PyWavelets",
-    "scipy",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "pillow",
+      "pywavelets",
+      "scipy",
+      "six"
+    ],
+    "specifiers": [
+      "numpy",
+      "pillow",
+      "pywavelets",
+      "scipy",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

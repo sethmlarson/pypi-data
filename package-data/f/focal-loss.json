@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "tensorflow (>=2.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "tensorflow"
+    ],
+    "specifiers": [
+      "tensorflow (>=2.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

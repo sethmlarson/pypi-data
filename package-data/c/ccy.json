@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "python-dateutil",
-    "pytz"
-  ],
+  "requires_dist": {
+    "dists": [
+      "python-dateutil",
+      "pytz"
+    ],
+    "specifiers": [
+      "python-dateutil",
+      "pytz"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

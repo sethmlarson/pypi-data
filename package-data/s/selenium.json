@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "trio",
-    "trio-websocket",
-    "urllib3[secure]"
-  ],
+  "requires_dist": {
+    "dists": [
+      "trio",
+      "trio-websocket",
+      "urllib3"
+    ],
+    "specifiers": [
+      "trio",
+      "trio-websocket",
+      "urllib3[secure]"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": [

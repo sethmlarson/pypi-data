@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "click",
-    "pyqt5 (==5.15.1)",
-    "qt5-tools (<5.15.1.2,>=5.15.1.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click",
+      "pyqt5",
+      "qt5-tools"
+    ],
+    "specifiers": [
+      "click",
+      "pyqt5 (==5.15.1)",
+      "qt5-tools (<5.15.1.2,>=5.15.1.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

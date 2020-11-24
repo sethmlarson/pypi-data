@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "elasticsearch",
-    "enum",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "elasticsearch",
+      "enum",
+      "requests"
+    ],
+    "specifiers": [
+      "elasticsearch",
+      "enum",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

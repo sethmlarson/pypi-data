@@ -1,18 +1,37 @@
 {
-  "requires_dist": [
-    "lxml",
-    "numpy (>=1.14.1)"
-  ],
-  "requires_extras": {
-    "interactive": [
-      "altair; extra=='interactive'",
-      "jupyterlab; extra=='interactive'",
-      "matplotlib; extra=='interactive'",
-      "pillow; extra=='interactive'"
+  "requires_dist": {
+    "dists": [
+      "lxml",
+      "numpy"
     ],
-    "setup": [
-      "pytest-runner; extra=='setup'"
+    "specifiers": [
+      "lxml",
+      "numpy (>=1.14.1)"
     ]
+  },
+  "requires_extras": {
+    "interactive": {
+      "dists": [
+        "altair",
+        "jupyterlab",
+        "matplotlib",
+        "pillow"
+      ],
+      "specifiers": [
+        "altair; extra=='interactive'",
+        "jupyterlab; extra=='interactive'",
+        "matplotlib; extra=='interactive'",
+        "pillow; extra=='interactive'"
+      ]
+    },
+    "setup": {
+      "dists": [
+        "pytest-runner"
+      ],
+      "specifiers": [
+        "pytest-runner; extra=='setup'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": [

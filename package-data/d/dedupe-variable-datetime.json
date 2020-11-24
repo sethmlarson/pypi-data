@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "datetime-distance",
-    "dedupe",
-    "future"
-  ],
+  "requires_dist": {
+    "dists": [
+      "datetime-distance",
+      "dedupe",
+      "future"
+    ],
+    "specifiers": [
+      "datetime-distance",
+      "dedupe",
+      "future"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

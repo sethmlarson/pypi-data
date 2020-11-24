@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "aiofiles",
-    "fortnitepy (==3.3.1)",
-    "psutil",
-    "requests",
-    "sanic"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiofiles",
+      "fortnitepy",
+      "psutil",
+      "requests",
+      "sanic"
+    ],
+    "specifiers": [
+      "aiofiles",
+      "fortnitepy (==3.3.1)",
+      "psutil",
+      "requests",
+      "sanic"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "==3.8.5",
   "yanked": []

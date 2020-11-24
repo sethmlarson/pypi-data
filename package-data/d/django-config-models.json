@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "Django (<3,>=1.8)",
-    "djangorestframework (>=3.6)",
-    "edx-django-utils"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "djangorestframework",
+      "edx-django-utils"
+    ],
+    "specifiers": [
+      "django (<3,>=1.8)",
+      "djangorestframework (>=3.6)",
+      "edx-django-utils"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

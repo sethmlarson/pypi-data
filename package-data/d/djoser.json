@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "asgiref (>=3.2.10,<4.0.0)",
-    "coreapi (>=2.3.3,<3.0.0)",
-    "django-templated-mail (>=1.1.1,<2.0.0)",
-    "djangorestframework-simplejwt (>=4.3.0,<5.0.0)",
-    "importlib-metadata (>=1.0,<2.0); python_version<'3.8'",
-    "social-auth-app-django (>=4.0.0,<5.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "asgiref",
+      "coreapi",
+      "django-templated-mail",
+      "djangorestframework-simplejwt",
+      "importlib-metadata",
+      "social-auth-app-django"
+    ],
+    "specifiers": [
+      "asgiref (>=3.2.10,<4.0.0)",
+      "coreapi (>=2.3.3,<3.0.0)",
+      "django-templated-mail (>=1.1.1,<2.0.0)",
+      "djangorestframework-simplejwt (>=4.3.0,<5.0.0)",
+      "importlib-metadata (>=1.0,<2.0); python_version<'3.8'",
+      "social-auth-app-django (>=4.0.0,<5.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.1,<4.0.0",
   "yanked": []

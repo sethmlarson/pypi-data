@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "django (>=2.2)",
-    "django-appconf (>=0.6.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "django-appconf"
+    ],
+    "specifiers": [
+      "django (>=2.2)",
+      "django-appconf (>=0.6.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

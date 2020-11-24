@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "importlib-metadata (>=1.6.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "importlib-metadata"
+    ],
+    "specifiers": [
+      "importlib-metadata (>=1.6.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

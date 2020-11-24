@@ -1,20 +1,45 @@
 {
-  "requires_dist": [
-    "setuptools (>=3.0)"
-  ],
-  "requires_extras": {
-    "eventlet": [
-      "eventlet (>=0.9.7); extra=='eventlet'"
+  "requires_dist": {
+    "dists": [
+      "setuptools"
     ],
-    "gevent": [
-      "gevent (>=0.13); extra=='gevent'"
-    ],
-    "setproctitle": [
-      "setproctitle; extra=='setproctitle'"
-    ],
-    "tornado": [
-      "tornado (>=0.2); extra=='tornado'"
+    "specifiers": [
+      "setuptools (>=3.0)"
     ]
+  },
+  "requires_extras": {
+    "eventlet": {
+      "dists": [
+        "eventlet"
+      ],
+      "specifiers": [
+        "eventlet (>=0.9.7); extra=='eventlet'"
+      ]
+    },
+    "gevent": {
+      "dists": [
+        "gevent"
+      ],
+      "specifiers": [
+        "gevent (>=0.13); extra=='gevent'"
+      ]
+    },
+    "setproctitle": {
+      "dists": [
+        "setproctitle"
+      ],
+      "specifiers": [
+        "setproctitle; extra=='setproctitle'"
+      ]
+    },
+    "tornado": {
+      "dists": [
+        "tornado"
+      ],
+      "specifiers": [
+        "tornado (>=0.2); extra=='tornado'"
+      ]
+    }
   },
   "requires_python": ">=3.4",
   "yanked": []

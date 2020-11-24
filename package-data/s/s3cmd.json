@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "python-dateutil",
-    "python-magic"
-  ],
+  "requires_dist": {
+    "dists": [
+      "python-dateutil",
+      "python-magic"
+    ],
+    "specifiers": [
+      "python-dateutil",
+      "python-magic"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

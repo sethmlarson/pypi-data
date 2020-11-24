@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "async-timeout (>=3.0.1)",
-    "attrs (>=18.2.0)",
-    "cryptography (>=2.5)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "async-timeout",
+      "attrs",
+      "cryptography"
+    ],
+    "specifiers": [
+      "async-timeout (>=3.0.1)",
+      "attrs (>=18.2.0)",
+      "cryptography (>=2.5)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

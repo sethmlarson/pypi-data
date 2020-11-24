@@ -1,16 +1,33 @@
 {
-  "requires_dist": [
-    "isodate",
-    "pyparsing",
-    "six"
-  ],
-  "requires_extras": {
-    "html": [
-      "html5lib; extra=='html'"
+  "requires_dist": {
+    "dists": [
+      "isodate",
+      "pyparsing",
+      "six"
     ],
-    "sparql": [
-      "requests; extra=='sparql'"
+    "specifiers": [
+      "isodate",
+      "pyparsing",
+      "six"
     ]
+  },
+  "requires_extras": {
+    "html": {
+      "dists": [
+        "html5lib"
+      ],
+      "specifiers": [
+        "html5lib; extra=='html'"
+      ]
+    },
+    "sparql": {
+      "dists": [
+        "requests"
+      ],
+      "specifiers": [
+        "requests; extra=='sparql'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "bitarray",
-    "tabulate"
-  ],
+  "requires_dist": {
+    "dists": [
+      "bitarray",
+      "tabulate"
+    ],
+    "specifiers": [
+      "bitarray",
+      "tabulate"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

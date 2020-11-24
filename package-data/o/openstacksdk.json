@@ -1,21 +1,40 @@
 {
-  "requires_dist": [
-    "appdirs (>=1.3.0)",
-    "cryptography (>=2.7)",
-    "decorator (>=4.4.1)",
-    "dogpile.cache (>=0.6.5)",
-    "importlib-metadata (>=1.7.0); (python_version<'3.8')",
-    "iso8601 (>=0.1.11)",
-    "jmespath (>=0.9.0)",
-    "jsonpatch (!=1.20,>=1.16)",
-    "keystoneauth1 (>=3.18.0)",
-    "munch (>=2.1.0)",
-    "netifaces (>=0.10.4)",
-    "os-service-types (>=1.7.0)",
-    "pbr (!=2.1.0,>=2.0.0)",
-    "PyYAML (>=3.13)",
-    "requestsexceptions (>=1.2.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "appdirs",
+      "cryptography",
+      "decorator",
+      "dogpile.cache",
+      "importlib-metadata",
+      "iso8601",
+      "jmespath",
+      "jsonpatch",
+      "keystoneauth1",
+      "munch",
+      "netifaces",
+      "os-service-types",
+      "pbr",
+      "pyyaml",
+      "requestsexceptions"
+    ],
+    "specifiers": [
+      "appdirs (>=1.3.0)",
+      "cryptography (>=2.7)",
+      "decorator (>=4.4.1)",
+      "dogpile.cache (>=0.6.5)",
+      "importlib-metadata (>=1.7.0); (python_version<'3.8')",
+      "iso8601 (>=0.1.11)",
+      "jmespath (>=0.9.0)",
+      "jsonpatch (!=1.20,>=1.16)",
+      "keystoneauth1 (>=3.18.0)",
+      "munch (>=2.1.0)",
+      "netifaces (>=0.10.4)",
+      "os-service-types (>=1.7.0)",
+      "pbr (!=2.1.0,>=2.0.0)",
+      "pyyaml (>=3.13)",
+      "requestsexceptions (>=1.2.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

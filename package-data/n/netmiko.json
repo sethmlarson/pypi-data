@@ -1,13 +1,24 @@
 {
-  "requires_dist": [
-    "importlib-resources; python_version<'3.7'",
-    "ntc-templates",
-    "paramiko (>=2.6.0)",
-    "pyserial",
-    "scp (>=0.13.2)",
-    "setuptools (>=38.4.0)",
-    "tenacity"
-  ],
+  "requires_dist": {
+    "dists": [
+      "importlib-resources",
+      "ntc-templates",
+      "paramiko",
+      "pyserial",
+      "scp",
+      "setuptools",
+      "tenacity"
+    ],
+    "specifiers": [
+      "importlib-resources; python_version<'3.7'",
+      "ntc-templates",
+      "paramiko (>=2.6.0)",
+      "pyserial",
+      "scp (>=0.13.2)",
+      "setuptools (>=38.4.0)",
+      "tenacity"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

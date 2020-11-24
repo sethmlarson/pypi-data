@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "calmjs.parse",
-    "lxml",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "calmjs.parse",
+      "lxml",
+      "six"
+    ],
+    "specifiers": [
+      "calmjs.parse",
+      "lxml",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

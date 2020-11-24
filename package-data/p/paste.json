@@ -1,15 +1,31 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "six (>=1.4.0)"
-  ],
-  "requires_extras": {
-    "flup": [
-      "flup; extra=='flup'"
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "six"
     ],
-    "openid": [
-      "python-openid; extra=='openid'"
+    "specifiers": [
+      "setuptools",
+      "six (>=1.4.0)"
     ]
+  },
+  "requires_extras": {
+    "flup": {
+      "dists": [
+        "flup"
+      ],
+      "specifiers": [
+        "flup; extra=='flup'"
+      ]
+    },
+    "openid": {
+      "dists": [
+        "python-openid"
+      ],
+      "specifiers": [
+        "python-openid; extra=='openid'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

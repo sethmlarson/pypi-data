@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "azure-cli-nspkg (>=3.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "azure-cli-nspkg"
+    ],
+    "specifiers": [
+      "azure-cli-nspkg (>=3.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

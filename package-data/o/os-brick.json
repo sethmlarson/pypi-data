@@ -1,20 +1,38 @@
 {
-  "requires_dist": [
-    "eventlet (>=0.25.1)",
-    "os-win (>=3.0.0)",
-    "oslo.concurrency (>=3.26.0)",
-    "oslo.context (>=2.23.0)",
-    "oslo.i18n (>=3.24.0)",
-    "oslo.log (>=3.44.0)",
-    "oslo.privsep (>=1.32.0)",
-    "oslo.serialization (>=2.29.0)",
-    "oslo.service (!=1.28.1,>=1.24.0)",
-    "oslo.utils (>=3.34.0)",
-    "pbr (!=2.1.0,>=5.4.1)",
-    "requests (>=2.14.2)",
-    "six (>=1.10.0)",
-    "tenacity (>=6.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "eventlet",
+      "os-win",
+      "oslo.concurrency",
+      "oslo.context",
+      "oslo.i18n",
+      "oslo.log",
+      "oslo.privsep",
+      "oslo.serialization",
+      "oslo.service",
+      "oslo.utils",
+      "pbr",
+      "requests",
+      "six",
+      "tenacity"
+    ],
+    "specifiers": [
+      "eventlet (>=0.25.1)",
+      "os-win (>=3.0.0)",
+      "oslo.concurrency (>=3.26.0)",
+      "oslo.context (>=2.23.0)",
+      "oslo.i18n (>=3.24.0)",
+      "oslo.log (>=3.44.0)",
+      "oslo.privsep (>=1.32.0)",
+      "oslo.serialization (>=2.29.0)",
+      "oslo.service (!=1.28.1,>=1.24.0)",
+      "oslo.utils (>=3.34.0)",
+      "pbr (!=2.1.0,>=5.4.1)",
+      "requests (>=2.14.2)",
+      "six (>=1.10.0)",
+      "tenacity (>=6.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

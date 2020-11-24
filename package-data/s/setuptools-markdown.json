@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pypandoc"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pypandoc"
+    ],
+    "specifiers": [
+      "pypandoc"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

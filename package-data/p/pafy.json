@@ -1,9 +1,17 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "youtube-dl-backend": [
-      "youtube-dl; extra=='youtube-dl-backend'"
-    ]
+    "youtube-dl-backend": {
+      "dists": [
+        "youtube-dl"
+      ],
+      "specifiers": [
+        "youtube-dl; extra=='youtube-dl-backend'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

@@ -1,24 +1,47 @@
 {
-  "requires_dist": [
-    "numpy (>=1.12.0)",
-    "pandas (>=0.22.0)",
-    "pytz",
-    "requests",
-    "scipy (>=1.2.0)"
-  ],
-  "requires_extras": {
-    "optional": [
-      "cftime (>=1.1.1); extra=='optional'",
-      "cython; extra=='optional'",
-      "ephem; extra=='optional'",
-      "netcdf4; extra=='optional'",
-      "nrel-pysam; extra=='optional'",
-      "numba; extra=='optional'",
-      "pvfactors; extra=='optional'",
-      "siphon; extra=='optional'",
-      "statsmodels; extra=='optional'",
-      "tables; extra=='optional'"
+  "requires_dist": {
+    "dists": [
+      "numpy",
+      "pandas",
+      "pytz",
+      "requests",
+      "scipy"
+    ],
+    "specifiers": [
+      "numpy (>=1.12.0)",
+      "pandas (>=0.22.0)",
+      "pytz",
+      "requests",
+      "scipy (>=1.2.0)"
     ]
+  },
+  "requires_extras": {
+    "optional": {
+      "dists": [
+        "cftime",
+        "cython",
+        "ephem",
+        "netcdf4",
+        "nrel-pysam",
+        "numba",
+        "pvfactors",
+        "siphon",
+        "statsmodels",
+        "tables"
+      ],
+      "specifiers": [
+        "cftime (>=1.1.1); extra=='optional'",
+        "cython; extra=='optional'",
+        "ephem; extra=='optional'",
+        "netcdf4; extra=='optional'",
+        "nrel-pysam; extra=='optional'",
+        "numba; extra=='optional'",
+        "pvfactors; extra=='optional'",
+        "siphon; extra=='optional'",
+        "statsmodels; extra=='optional'",
+        "tables; extra=='optional'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

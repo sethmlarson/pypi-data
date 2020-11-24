@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "mirakuru (>=2.3.0)",
-    "port-for",
-    "pytest (>=3.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "mirakuru",
+      "port-for",
+      "pytest"
+    ],
+    "specifiers": [
+      "mirakuru (>=2.3.0)",
+      "port-for",
+      "pytest (>=3.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

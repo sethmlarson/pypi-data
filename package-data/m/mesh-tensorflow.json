@@ -1,21 +1,45 @@
 {
-  "requires_dist": [
-    "absl-py",
-    "future",
-    "gin-config",
-    "six"
-  ],
-  "requires_extras": {
-    "auto_mtf": [
-      "ortools; extra=='auto_mtf'"
+  "requires_dist": {
+    "dists": [
+      "absl-py",
+      "future",
+      "gin-config",
+      "six"
     ],
-    "tensorflow": [
-      "tensorflow (>=1.15.0); extra=='tensorflow'"
-    ],
-    "transformer": [
-      "scipy; extra=='transformer'",
-      "tensorflow-datasets; extra=='transformer'"
+    "specifiers": [
+      "absl-py",
+      "future",
+      "gin-config",
+      "six"
     ]
+  },
+  "requires_extras": {
+    "auto_mtf": {
+      "dists": [
+        "ortools"
+      ],
+      "specifiers": [
+        "ortools; extra=='auto_mtf'"
+      ]
+    },
+    "tensorflow": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (>=1.15.0); extra=='tensorflow'"
+      ]
+    },
+    "transformer": {
+      "dists": [
+        "scipy",
+        "tensorflow-datasets"
+      ],
+      "specifiers": [
+        "scipy; extra=='transformer'",
+        "tensorflow-datasets; extra=='transformer'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

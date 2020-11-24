@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "configparser",
-    "crayons",
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "configparser",
+      "crayons",
+      "requests"
+    ],
+    "specifiers": [
+      "configparser",
+      "crayons",
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

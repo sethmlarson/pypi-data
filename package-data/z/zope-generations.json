@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "setuptools",
-    "transaction",
-    "zope.component",
-    "zope.interface",
-    "zope.processlifetime"
-  ],
+  "requires_dist": {
+    "dists": [
+      "setuptools",
+      "transaction",
+      "zope.component",
+      "zope.interface",
+      "zope.processlifetime"
+    ],
+    "specifiers": [
+      "setuptools",
+      "transaction",
+      "zope.component",
+      "zope.interface",
+      "zope.processlifetime"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

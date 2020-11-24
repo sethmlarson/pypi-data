@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "Flask (>=1.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flask"
+    ],
+    "specifiers": [
+      "flask (>=1.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

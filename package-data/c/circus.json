@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "psutil",
-    "pyzmq (>=17.0)",
-    "tornado (>=5.0.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "psutil",
+      "pyzmq",
+      "tornado"
+    ],
+    "specifiers": [
+      "psutil",
+      "pyzmq (>=17.0)",
+      "tornado (>=5.0.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

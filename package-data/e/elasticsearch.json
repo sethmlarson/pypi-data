@@ -1,27 +1,57 @@
 {
-  "requires_dist": [
-    "certifi",
-    "urllib3 (<2,>=1.21.1)"
-  ],
-  "requires_extras": {
-    "async": [
-      "aiohttp (<4,>=3); extra=='async'"
+  "requires_dist": {
+    "dists": [
+      "certifi",
+      "urllib3"
     ],
-    "develop": [
-      "black; extra=='develop'",
-      "coverage; extra=='develop'",
-      "jinja2; extra=='develop'",
-      "mock; extra=='develop'",
-      "pytest; extra=='develop'",
-      "pytest-cov; extra=='develop'",
-      "pyyaml; extra=='develop'",
-      "requests (<3.0.0,>=2.0.0); extra=='develop'",
-      "sphinx (<1.7); extra=='develop'",
-      "sphinx-rtd-theme; extra=='develop'"
-    ],
-    "requests": [
-      "requests (<3.0.0,>=2.4.0); extra=='requests'"
+    "specifiers": [
+      "certifi",
+      "urllib3 (<2,>=1.21.1)"
     ]
+  },
+  "requires_extras": {
+    "async": {
+      "dists": [
+        "aiohttp"
+      ],
+      "specifiers": [
+        "aiohttp (<4,>=3); extra=='async'"
+      ]
+    },
+    "develop": {
+      "dists": [
+        "black",
+        "coverage",
+        "jinja2",
+        "mock",
+        "pytest",
+        "pytest-cov",
+        "pyyaml",
+        "requests",
+        "sphinx",
+        "sphinx-rtd-theme"
+      ],
+      "specifiers": [
+        "black; extra=='develop'",
+        "coverage; extra=='develop'",
+        "jinja2; extra=='develop'",
+        "mock; extra=='develop'",
+        "pytest; extra=='develop'",
+        "pytest-cov; extra=='develop'",
+        "pyyaml; extra=='develop'",
+        "requests (<3.0.0,>=2.0.0); extra=='develop'",
+        "sphinx (<1.7); extra=='develop'",
+        "sphinx-rtd-theme; extra=='develop'"
+      ]
+    },
+    "requests": {
+      "dists": [
+        "requests"
+      ],
+      "specifiers": [
+        "requests (<3.0.0,>=2.4.0); extra=='requests'"
+      ]
+    }
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4",
   "yanked": []

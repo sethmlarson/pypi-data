@@ -1,18 +1,37 @@
 {
-  "requires_dist": [
-    "APScheduler (==3.6.3)",
-    "certifi",
-    "cryptography",
-    "decorator (>=4.4.0)",
-    "tornado (>=5.1)"
-  ],
-  "requires_extras": {
-    "json": [
-      "ujson; extra=='json'"
+  "requires_dist": {
+    "dists": [
+      "apscheduler",
+      "certifi",
+      "cryptography",
+      "decorator",
+      "tornado"
     ],
-    "socks": [
-      "PySocks; extra=='socks'"
+    "specifiers": [
+      "apscheduler (==3.6.3)",
+      "certifi",
+      "cryptography",
+      "decorator (>=4.4.0)",
+      "tornado (>=5.1)"
     ]
+  },
+  "requires_extras": {
+    "json": {
+      "dists": [
+        "ujson"
+      ],
+      "specifiers": [
+        "ujson; extra=='json'"
+      ]
+    },
+    "socks": {
+      "dists": [
+        "pysocks"
+      ],
+      "specifiers": [
+        "pysocks; extra=='socks'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

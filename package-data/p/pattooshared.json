@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "distro",
-    "PyYaml",
-    "virtualenv (==20.0.30)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "distro",
+      "pyyaml",
+      "virtualenv"
+    ],
+    "specifiers": [
+      "distro",
+      "pyyaml",
+      "virtualenv (==20.0.30)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

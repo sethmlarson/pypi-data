@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "graphql-core (>=3.0.0a0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "graphql-core"
+    ],
+    "specifiers": [
+      "graphql-core (>=3.0.0a0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6,<4",
   "yanked": []

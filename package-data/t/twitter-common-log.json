@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "twitter.common.dirutil (==0.3.11)",
-    "twitter.common.options (==0.3.11)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "twitter.common.dirutil",
+      "twitter.common.options"
+    ],
+    "specifiers": [
+      "twitter.common.dirutil (==0.3.11)",
+      "twitter.common.options (==0.3.11)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "ipython-genutils"
-  ],
+  "requires_dist": {
+    "dists": [
+      "ipython-genutils"
+    ],
+    "specifiers": [
+      "ipython-genutils"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.7",
   "yanked": []

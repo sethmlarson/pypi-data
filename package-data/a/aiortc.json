@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "aioice (<0.7.0,>=0.6.17)",
-    "av (<9.0.0,>=8.0.0)",
-    "cffi (>=1.0.0)",
-    "crc32c",
-    "cryptography (>=2.2)",
-    "dataclasses; python_version<'3.7'",
-    "pyee (>=6.0.0)",
-    "pylibsrtp (>=0.5.6)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aioice",
+      "av",
+      "cffi",
+      "crc32c",
+      "cryptography",
+      "dataclasses",
+      "pyee",
+      "pylibsrtp"
+    ],
+    "specifiers": [
+      "aioice (<0.7.0,>=0.6.17)",
+      "av (<9.0.0,>=8.0.0)",
+      "cffi (>=1.0.0)",
+      "crc32c",
+      "cryptography (>=2.2)",
+      "dataclasses; python_version<'3.7'",
+      "pyee (>=6.0.0)",
+      "pylibsrtp (>=0.5.6)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

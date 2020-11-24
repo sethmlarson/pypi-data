@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "aiohttp"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp"
+    ],
+    "specifiers": [
+      "aiohttp"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

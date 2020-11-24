@@ -1,24 +1,47 @@
 {
-  "requires_dist": [
-    "argcomplete",
-    "bagit (>=1.6.4)",
-    "coloredlogs",
-    "mypy-extensions",
-    "prov (==1.5.1)",
-    "psutil",
-    "pydot (>=1.4.1)",
-    "rdflib (<4.3.0,>=4.2.2)",
-    "requests (>=2.6.1)",
-    "ruamel.yaml (<=0.16.5,>=0.12.4)",
-    "schema-salad (<8,>=7)",
-    "setuptools",
-    "shellescape (<3.5,>=3.4.1)",
-    "typing-extensions"
-  ],
-  "requires_extras": {
-    "deps": [
-      "galaxy-tool-util; extra=='deps'"
+  "requires_dist": {
+    "dists": [
+      "argcomplete",
+      "bagit",
+      "coloredlogs",
+      "mypy-extensions",
+      "prov",
+      "psutil",
+      "pydot",
+      "rdflib",
+      "requests",
+      "ruamel.yaml",
+      "schema-salad",
+      "setuptools",
+      "shellescape",
+      "typing-extensions"
+    ],
+    "specifiers": [
+      "argcomplete",
+      "bagit (>=1.6.4)",
+      "coloredlogs",
+      "mypy-extensions",
+      "prov (==1.5.1)",
+      "psutil",
+      "pydot (>=1.4.1)",
+      "rdflib (<4.3.0,>=4.2.2)",
+      "requests (>=2.6.1)",
+      "ruamel.yaml (<=0.16.5,>=0.12.4)",
+      "schema-salad (<8,>=7)",
+      "setuptools",
+      "shellescape (<3.5,>=3.4.1)",
+      "typing-extensions"
     ]
+  },
+  "requires_extras": {
+    "deps": {
+      "dists": [
+        "galaxy-tool-util"
+      ],
+      "specifiers": [
+        "galaxy-tool-util; extra=='deps'"
+      ]
+    }
   },
   "requires_python": ">=3.6, <4",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "appier"
-  ],
+  "requires_dist": {
+    "dists": [
+      "appier"
+    ],
+    "specifiers": [
+      "appier"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

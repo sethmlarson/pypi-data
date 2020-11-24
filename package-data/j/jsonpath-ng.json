@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "decorator",
-    "ply",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "decorator",
+      "ply",
+      "six"
+    ],
+    "specifiers": [
+      "decorator",
+      "ply",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

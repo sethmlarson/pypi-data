@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "paramiko (==2.7.1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "paramiko"
+    ],
+    "specifiers": [
+      "paramiko (==2.7.1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

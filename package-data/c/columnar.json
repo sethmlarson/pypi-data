@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "toolz",
-    "wcwidth"
-  ],
+  "requires_dist": {
+    "dists": [
+      "toolz",
+      "wcwidth"
+    ],
+    "specifiers": [
+      "toolz",
+      "wcwidth"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

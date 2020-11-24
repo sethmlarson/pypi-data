@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "argparse"
-  ],
+  "requires_dist": {
+    "dists": [
+      "argparse"
+    ],
+    "specifiers": [
+      "argparse"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

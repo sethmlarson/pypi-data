@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "aquests (>=0.29.9)",
-    "rs4 (>=0.2.28)",
-    "sqlphile"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aquests",
+      "rs4",
+      "sqlphile"
+    ],
+    "specifiers": [
+      "aquests (>=0.29.9)",
+      "rs4 (>=0.2.28)",
+      "sqlphile"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

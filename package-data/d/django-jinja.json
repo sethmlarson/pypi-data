@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "django (>=2.2)",
-    "jinja2 (>=2.10)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "django",
+      "jinja2"
+    ],
+    "specifiers": [
+      "django (>=2.2)",
+      "jinja2 (>=2.10)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

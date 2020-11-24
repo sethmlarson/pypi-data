@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "futures (>=3.0); python_version=='2.7'",
-    "monotonic (>=0.6); python_version=='2.7'",
-    "six (>=1.9.0)",
-    "typing (>=3.7.4.1); python_version=='2.7'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "futures",
+      "monotonic",
+      "six",
+      "typing"
+    ],
+    "specifiers": [
+      "futures (>=3.0); python_version=='2.7'",
+      "monotonic (>=0.6); python_version=='2.7'",
+      "six (>=1.9.0)",
+      "typing (>=3.7.4.1); python_version=='2.7'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

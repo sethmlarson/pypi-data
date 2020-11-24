@@ -1,18 +1,34 @@
 {
-  "requires_dist": [
-    "configparser",
-    "ipykernel",
-    "IPython",
-    "jupyter-client",
-    "matplotlib",
-    "networkx",
-    "notebook",
-    "pexpect (>=4.0)",
-    "proactive",
-    "pygraphviz",
-    "tornado (==5.1.1)",
-    "traitlets"
-  ],
+  "requires_dist": {
+    "dists": [
+      "configparser",
+      "ipykernel",
+      "ipython",
+      "jupyter-client",
+      "matplotlib",
+      "networkx",
+      "notebook",
+      "pexpect",
+      "proactive",
+      "pygraphviz",
+      "tornado",
+      "traitlets"
+    ],
+    "specifiers": [
+      "configparser",
+      "ipykernel",
+      "ipython",
+      "jupyter-client",
+      "matplotlib",
+      "networkx",
+      "notebook",
+      "pexpect (>=4.0)",
+      "proactive",
+      "pygraphviz",
+      "tornado (==5.1.1)",
+      "traitlets"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

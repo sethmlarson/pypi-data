@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "gensim",
-    "numpy",
-    "requests",
-    "sentencepiece",
-    "tqdm"
-  ],
+  "requires_dist": {
+    "dists": [
+      "gensim",
+      "numpy",
+      "requests",
+      "sentencepiece",
+      "tqdm"
+    ],
+    "specifiers": [
+      "gensim",
+      "numpy",
+      "requests",
+      "sentencepiece",
+      "tqdm"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

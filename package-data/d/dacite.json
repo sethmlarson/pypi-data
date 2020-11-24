@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "dataclasses; python_version<'3.7'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dataclasses"
+    ],
+    "specifiers": [
+      "dataclasses; python_version<'3.7'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

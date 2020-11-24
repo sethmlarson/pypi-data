@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "dbt-bigquery (==0.19.0b1)",
-    "dbt-core (==0.19.0b1)",
-    "dbt-postgres (==0.19.0b1)",
-    "dbt-redshift (==0.19.0b1)",
-    "dbt-snowflake (==0.19.0b1)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "dbt-bigquery",
+      "dbt-core",
+      "dbt-postgres",
+      "dbt-redshift",
+      "dbt-snowflake"
+    ],
+    "specifiers": [
+      "dbt-bigquery (==0.19.0b1)",
+      "dbt-core (==0.19.0b1)",
+      "dbt-postgres (==0.19.0b1)",
+      "dbt-redshift (==0.19.0b1)",
+      "dbt-snowflake (==0.19.0b1)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6.2",
   "yanked": []

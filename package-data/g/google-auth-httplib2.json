@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "google-auth",
-    "httplib2 (>=0.9.1)",
-    "six"
-  ],
+  "requires_dist": {
+    "dists": [
+      "google-auth",
+      "httplib2",
+      "six"
+    ],
+    "specifiers": [
+      "google-auth",
+      "httplib2 (>=0.9.1)",
+      "six"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "requests"
-  ],
+  "requires_dist": {
+    "dists": [
+      "requests"
+    ],
+    "specifiers": [
+      "requests"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3",
   "yanked": []

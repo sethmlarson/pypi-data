@@ -1,22 +1,47 @@
 {
-  "requires_dist": [
-    "h11",
-    "h2 (>=3.1.0)",
-    "priority",
-    "toml",
-    "typing-extensions; python_version<'3.8'",
-    "wsproto (>=0.14.0)"
-  ],
-  "requires_extras": {
-    "h3": [
-      "aioquic (<1.0,>=0.9.0); extra=='h3'"
+  "requires_dist": {
+    "dists": [
+      "h11",
+      "h2",
+      "priority",
+      "toml",
+      "typing-extensions",
+      "wsproto"
     ],
-    "trio": [
-      "trio (>=0.11.0); extra=='trio'"
-    ],
-    "uvloop": [
-      "uvloop; extra=='uvloop'"
+    "specifiers": [
+      "h11",
+      "h2 (>=3.1.0)",
+      "priority",
+      "toml",
+      "typing-extensions; python_version<'3.8'",
+      "wsproto (>=0.14.0)"
     ]
+  },
+  "requires_extras": {
+    "h3": {
+      "dists": [
+        "aioquic"
+      ],
+      "specifiers": [
+        "aioquic (<1.0,>=0.9.0); extra=='h3'"
+      ]
+    },
+    "trio": {
+      "dists": [
+        "trio"
+      ],
+      "specifiers": [
+        "trio (>=0.11.0); extra=='trio'"
+      ]
+    },
+    "uvloop": {
+      "dists": [
+        "uvloop"
+      ],
+      "specifiers": [
+        "uvloop; extra=='uvloop'"
+      ]
+    }
   },
   "requires_python": ">=3.7",
   "yanked": []

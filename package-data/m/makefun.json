@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "funcsigs; python_version<'3.3'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "funcsigs"
+    ],
+    "specifiers": [
+      "funcsigs; python_version<'3.3'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

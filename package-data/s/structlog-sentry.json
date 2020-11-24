@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "sentry-sdk"
-  ],
+  "requires_dist": {
+    "dists": [
+      "sentry-sdk"
+    ],
+    "specifiers": [
+      "sentry-sdk"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

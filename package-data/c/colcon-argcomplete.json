@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "argcomplete",
-    "colcon-core"
-  ],
+  "requires_dist": {
+    "dists": [
+      "argcomplete",
+      "colcon-core"
+    ],
+    "specifiers": [
+      "argcomplete",
+      "colcon-core"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

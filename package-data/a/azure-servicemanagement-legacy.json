@@ -1,13 +1,25 @@
 {
-  "requires_dist": [
-    "azure-common (>=1.1.5)",
-    "azure-nspkg (>=2.0.0)",
-    "requests"
-  ],
-  "requires_extras": {
-    "get_certificate_from_publish_settings": [
-      "pyopenssl; extra=='get_certificate_from_publish_settings'"
+  "requires_dist": {
+    "dists": [
+      "azure-common",
+      "azure-nspkg",
+      "requests"
+    ],
+    "specifiers": [
+      "azure-common (>=1.1.5)",
+      "azure-nspkg (>=2.0.0)",
+      "requests"
     ]
+  },
+  "requires_extras": {
+    "get_certificate_from_publish_settings": {
+      "dists": [
+        "pyopenssl"
+      ],
+      "specifiers": [
+        "pyopenssl; extra=='get_certificate_from_publish_settings'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

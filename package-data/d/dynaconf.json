@@ -1,26 +1,61 @@
 {
-  "requires_dist": [
-    "typing; python_version<'3.5'"
-  ],
-  "requires_extras": {
-    "configobj": [
-      "configobj; extra=='configobj'"
+  "requires_dist": {
+    "dists": [
+      "typing"
     ],
-    "ini": [
-      "configobj; extra=='ini'"
-    ],
-    "redis": [
-      "redis; extra=='redis'"
-    ],
-    "toml": [
-      "toml; extra=='toml'"
-    ],
-    "vault": [
-      "hvac; extra=='vault'"
-    ],
-    "yaml": [
-      "ruamel.yaml; extra=='yaml'"
+    "specifiers": [
+      "typing; python_version<'3.5'"
     ]
+  },
+  "requires_extras": {
+    "configobj": {
+      "dists": [
+        "configobj"
+      ],
+      "specifiers": [
+        "configobj; extra=='configobj'"
+      ]
+    },
+    "ini": {
+      "dists": [
+        "configobj"
+      ],
+      "specifiers": [
+        "configobj; extra=='ini'"
+      ]
+    },
+    "redis": {
+      "dists": [
+        "redis"
+      ],
+      "specifiers": [
+        "redis; extra=='redis'"
+      ]
+    },
+    "toml": {
+      "dists": [
+        "toml"
+      ],
+      "specifiers": [
+        "toml; extra=='toml'"
+      ]
+    },
+    "vault": {
+      "dists": [
+        "hvac"
+      ],
+      "specifiers": [
+        "hvac; extra=='vault'"
+      ]
+    },
+    "yaml": {
+      "dists": [
+        "ruamel.yaml"
+      ],
+      "specifiers": [
+        "ruamel.yaml; extra=='yaml'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

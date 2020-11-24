@@ -1,25 +1,51 @@
 {
-  "requires_dist": [
-    "absl-py (<0.11,>=0.9)",
-    "apache-beam[gcp] (<3,>=2.25)",
-    "joblib (<0.15,>=0.12)",
-    "numpy (<2,>=1.16)",
-    "pandas (<2,>=1.0)",
-    "protobuf (<4,>=3.9.2)",
-    "pyarrow (<0.18,>=0.17)",
-    "six (<2,>=1.12)",
-    "tensorflow (!=2.0.*,!=2.1.*,!=2.2.*,<3,>=1.15.2)",
-    "tensorflow-metadata (<0.26,>=0.25)",
-    "tensorflow-transform (<0.26,>=0.25)",
-    "tfx-bsl (<0.26,>=0.25)"
-  ],
-  "requires_extras": {
-    "mutual-information": [
-      "scikit-learn (<0.24,>=0.18); extra=='mutual-information'"
+  "requires_dist": {
+    "dists": [
+      "absl-py",
+      "apache-beam",
+      "joblib",
+      "numpy",
+      "pandas",
+      "protobuf",
+      "pyarrow",
+      "six",
+      "tensorflow",
+      "tensorflow-metadata",
+      "tensorflow-transform",
+      "tfx-bsl"
     ],
-    "visualization": [
-      "ipython (<8,>=7); extra=='visualization'"
+    "specifiers": [
+      "absl-py (<0.11,>=0.9)",
+      "apache-beam[gcp] (<3,>=2.25)",
+      "joblib (<0.15,>=0.12)",
+      "numpy (<2,>=1.16)",
+      "pandas (<2,>=1.0)",
+      "protobuf (<4,>=3.9.2)",
+      "pyarrow (<0.18,>=0.17)",
+      "six (<2,>=1.12)",
+      "tensorflow (!=2.0.*,!=2.1.*,!=2.2.*,<3,>=1.15.2)",
+      "tensorflow-metadata (<0.26,>=0.25)",
+      "tensorflow-transform (<0.26,>=0.25)",
+      "tfx-bsl (<0.26,>=0.25)"
     ]
+  },
+  "requires_extras": {
+    "mutual-information": {
+      "dists": [
+        "scikit-learn"
+      ],
+      "specifiers": [
+        "scikit-learn (<0.24,>=0.18); extra=='mutual-information'"
+      ]
+    },
+    "visualization": {
+      "dists": [
+        "ipython"
+      ],
+      "specifiers": [
+        "ipython (<8,>=7); extra=='visualization'"
+      ]
+    }
   },
   "requires_python": ">=3.6,<4",
   "yanked": []

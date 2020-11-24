@@ -1,35 +1,75 @@
 {
-  "requires_dist": [
-    "eventlet (!=0.18.3,!=0.20.1,>=0.18.2)",
-    "jsonschema (>=3.2.0)",
-    "keystoneauth1 (>=3.4.0)",
-    "oslo.concurrency (>=3.26.0)",
-    "oslo.config (>=5.2.0)",
-    "oslo.i18n (>=3.15.3)",
-    "oslo.serialization (!=2.19.1,>=2.18.0)",
-    "oslo.utils (>=3.33.0)",
-    "python-keystoneclient (>=3.8.0)",
-    "requests (>=2.14.2)",
-    "six (>=1.10.0)",
-    "stevedore (>=1.20.0)"
-  ],
-  "requires_extras": {
-    "cinder": [
-      "os-brick (>=2.6.0); extra=='cinder'",
-      "oslo.privsep (>=1.23.0); extra=='cinder'",
-      "oslo.rootwrap (>=5.8.0); extra=='cinder'",
-      "python-cinderclient (>=4.1.0); extra=='cinder'"
+  "requires_dist": {
+    "dists": [
+      "eventlet",
+      "jsonschema",
+      "keystoneauth1",
+      "oslo.concurrency",
+      "oslo.config",
+      "oslo.i18n",
+      "oslo.serialization",
+      "oslo.utils",
+      "python-keystoneclient",
+      "requests",
+      "six",
+      "stevedore"
     ],
-    "s3": [
-      "boto3 (>=1.9.199); extra=='s3'"
-    ],
-    "swift": [
-      "httplib2 (>=0.9.1); extra=='swift'",
-      "python-swiftclient (>=3.2.0); extra=='swift'"
-    ],
-    "vmware": [
-      "oslo.vmware (>=2.17.0); extra=='vmware'"
+    "specifiers": [
+      "eventlet (!=0.18.3,!=0.20.1,>=0.18.2)",
+      "jsonschema (>=3.2.0)",
+      "keystoneauth1 (>=3.4.0)",
+      "oslo.concurrency (>=3.26.0)",
+      "oslo.config (>=5.2.0)",
+      "oslo.i18n (>=3.15.3)",
+      "oslo.serialization (!=2.19.1,>=2.18.0)",
+      "oslo.utils (>=3.33.0)",
+      "python-keystoneclient (>=3.8.0)",
+      "requests (>=2.14.2)",
+      "six (>=1.10.0)",
+      "stevedore (>=1.20.0)"
     ]
+  },
+  "requires_extras": {
+    "cinder": {
+      "dists": [
+        "os-brick",
+        "oslo.privsep",
+        "oslo.rootwrap",
+        "python-cinderclient"
+      ],
+      "specifiers": [
+        "os-brick (>=2.6.0); extra=='cinder'",
+        "oslo.privsep (>=1.23.0); extra=='cinder'",
+        "oslo.rootwrap (>=5.8.0); extra=='cinder'",
+        "python-cinderclient (>=4.1.0); extra=='cinder'"
+      ]
+    },
+    "s3": {
+      "dists": [
+        "boto3"
+      ],
+      "specifiers": [
+        "boto3 (>=1.9.199); extra=='s3'"
+      ]
+    },
+    "swift": {
+      "dists": [
+        "httplib2",
+        "python-swiftclient"
+      ],
+      "specifiers": [
+        "httplib2 (>=0.9.1); extra=='swift'",
+        "python-swiftclient (>=3.2.0); extra=='swift'"
+      ]
+    },
+    "vmware": {
+      "dists": [
+        "oslo.vmware"
+      ],
+      "specifiers": [
+        "oslo.vmware (>=2.17.0); extra=='vmware'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

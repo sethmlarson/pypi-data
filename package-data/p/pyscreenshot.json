@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "EasyProcess",
-    "entrypoint2",
-    "jeepney; python_version>'3.4' and platform_system=='Linux'",
-    "mss; python_version>'3.4'"
-  ],
+  "requires_dist": {
+    "dists": [
+      "easyprocess",
+      "entrypoint2",
+      "jeepney",
+      "mss"
+    ],
+    "specifiers": [
+      "easyprocess",
+      "entrypoint2",
+      "jeepney; python_version>'3.4' and platform_system=='linux'",
+      "mss; python_version>'3.4'"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
   "yanked": []

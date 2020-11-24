@@ -1,5 +1,8 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {},
   "requires_python": ">=3.5, <4",
   "yanked": []

@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "flake8 (>3.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flake8"
+    ],
+    "specifiers": [
+      "flake8 (>3.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

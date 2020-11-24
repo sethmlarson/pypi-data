@@ -1,12 +1,22 @@
 {
-  "requires_dist": [
-    "certifi",
-    "python-dateutil",
-    "requests (>=2.18.4)",
-    "requests-toolbelt",
-    "six (>=1.10)",
-    "urllib3 (>=1.15)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "certifi",
+      "python-dateutil",
+      "requests",
+      "requests-toolbelt",
+      "six",
+      "urllib3"
+    ],
+    "specifiers": [
+      "certifi",
+      "python-dateutil",
+      "requests (>=2.18.4)",
+      "requests-toolbelt",
+      "six (>=1.10)",
+      "urllib3 (>=1.15)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

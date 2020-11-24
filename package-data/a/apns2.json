@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "cryptography (>=1.7.2)",
-    "hyper (>=0.7)",
-    "PyJWT (>=1.4.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "cryptography",
+      "hyper",
+      "pyjwt"
+    ],
+    "specifiers": [
+      "cryptography (>=1.7.2)",
+      "hyper (>=0.7)",
+      "pyjwt (>=1.4.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

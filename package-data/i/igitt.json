@@ -1,16 +1,30 @@
 {
-  "requires_dist": [
-    "backoff (~=1.4.3)",
-    "beautifulsoup4 (~=4.6.0)",
-    "cryptography (<3,>=2.1.4)",
-    "git-url-parse (~=1.1.0)",
-    "GitPython (~=2.1.8)",
-    "PyJWT (~=1.6.4)",
-    "pytz (~=2018.4)",
-    "requests (~=2.19.1)",
-    "requests-oauthlib (~=1.0.0)",
-    "setuptools (>=21.0.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "backoff",
+      "beautifulsoup4",
+      "cryptography",
+      "git-url-parse",
+      "gitpython",
+      "pyjwt",
+      "pytz",
+      "requests",
+      "requests-oauthlib",
+      "setuptools"
+    ],
+    "specifiers": [
+      "backoff (~=1.4.3)",
+      "beautifulsoup4 (~=4.6.0)",
+      "cryptography (<3,>=2.1.4)",
+      "git-url-parse (~=1.1.0)",
+      "gitpython (~=2.1.8)",
+      "pyjwt (~=1.6.4)",
+      "pytz (~=2018.4)",
+      "requests (~=2.19.1)",
+      "requests-oauthlib (~=1.0.0)",
+      "setuptools (>=21.0.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

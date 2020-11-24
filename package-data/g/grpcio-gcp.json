@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "grpcio (>=1.12.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "grpcio"
+    ],
+    "specifiers": [
+      "grpcio (>=1.12.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

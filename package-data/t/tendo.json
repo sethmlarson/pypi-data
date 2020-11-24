@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "pbr",
-    "pip",
-    "setuptools",
-    "six (>=1.7.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pbr",
+      "pip",
+      "setuptools",
+      "six"
+    ],
+    "specifiers": [
+      "pbr",
+      "pip",
+      "setuptools",
+      "six (>=1.7.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

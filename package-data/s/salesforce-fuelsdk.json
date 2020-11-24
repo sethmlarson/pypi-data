@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "pyjwt (>=1.5.3)",
-    "requests (>=2.18.4)",
-    "suds-jurko (==0.6)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pyjwt",
+      "requests",
+      "suds-jurko"
+    ],
+    "specifiers": [
+      "pyjwt (>=1.5.3)",
+      "requests (>=2.18.4)",
+      "suds-jurko (==0.6)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

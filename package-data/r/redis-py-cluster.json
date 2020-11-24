@@ -1,11 +1,21 @@
 {
-  "requires_dist": [
-    "redis (<4.0.0,>=3.0.0)"
-  ],
-  "requires_extras": {
-    "hiredis": [
-      "hiredis (>=0.1.3); extra=='hiredis'"
+  "requires_dist": {
+    "dists": [
+      "redis"
+    ],
+    "specifiers": [
+      "redis (<4.0.0,>=3.0.0)"
     ]
+  },
+  "requires_extras": {
+    "hiredis": {
+      "dists": [
+        "hiredis"
+      ],
+      "specifiers": [
+        "hiredis (>=0.1.3); extra=='hiredis'"
+      ]
+    }
   },
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4",
   "yanked": []

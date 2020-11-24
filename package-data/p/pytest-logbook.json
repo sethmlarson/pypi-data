@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "Logbook (>=0.11.3)",
-    "pytest (>=2.8)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "logbook",
+      "pytest"
+    ],
+    "specifiers": [
+      "logbook (>=0.11.3)",
+      "pytest (>=2.8)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

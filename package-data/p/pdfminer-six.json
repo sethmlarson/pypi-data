@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "chardet; python_version>'3.0'",
-    "cryptography",
-    "sortedcontainers"
-  ],
+  "requires_dist": {
+    "dists": [
+      "chardet",
+      "cryptography",
+      "sortedcontainers"
+    ],
+    "specifiers": [
+      "chardet; python_version>'3.0'",
+      "cryptography",
+      "sortedcontainers"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.4",
   "yanked": []

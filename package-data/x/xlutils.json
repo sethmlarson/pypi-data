@@ -1,16 +1,31 @@
 {
-  "requires_dist": [
-    "xlrd (>=0.7.2)",
-    "xlwt (>=0.7.4)"
-  ],
-  "requires_extras": {
-    "build": [
-      "pkginfo; extra=='build'",
-      "setuptools-git; extra=='build'",
-      "sphinx; extra=='build'",
-      "twine; extra=='build'",
-      "wheel; extra=='build'"
+  "requires_dist": {
+    "dists": [
+      "xlrd",
+      "xlwt"
+    ],
+    "specifiers": [
+      "xlrd (>=0.7.2)",
+      "xlwt (>=0.7.4)"
     ]
+  },
+  "requires_extras": {
+    "build": {
+      "dists": [
+        "pkginfo",
+        "setuptools-git",
+        "sphinx",
+        "twine",
+        "wheel"
+      ],
+      "specifiers": [
+        "pkginfo; extra=='build'",
+        "setuptools-git; extra=='build'",
+        "sphinx; extra=='build'",
+        "twine; extra=='build'",
+        "wheel; extra=='build'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

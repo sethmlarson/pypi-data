@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "orderedmultidict (>=1.0.1)",
-    "six (>=1.8.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "orderedmultidict",
+      "six"
+    ],
+    "specifiers": [
+      "orderedmultidict (>=1.0.1)",
+      "six (>=1.8.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

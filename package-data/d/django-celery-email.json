@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "celery (>=4.0)",
-    "django (>=2.2)",
-    "django-appconf"
-  ],
+  "requires_dist": {
+    "dists": [
+      "celery",
+      "django",
+      "django-appconf"
+    ],
+    "specifiers": [
+      "celery (>=4.0)",
+      "django (>=2.2)",
+      "django-appconf"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

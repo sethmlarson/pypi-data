@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "diff-match-patch",
-    "Django (>=2.0)",
-    "tablib[html,ods,xls,xlsx,yaml] (>=0.14.0)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "diff-match-patch",
+      "django",
+      "tablib"
+    ],
+    "specifiers": [
+      "diff-match-patch",
+      "django (>=2.0)",
+      "tablib[html,ods,xls,xlsx,yaml] (>=0.14.0)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []

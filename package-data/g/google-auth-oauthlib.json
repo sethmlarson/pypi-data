@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "google-auth",
-    "requests-oauthlib (>=0.7.0)"
-  ],
-  "requires_extras": {
-    "tool": [
-      "click; extra=='tool'"
+  "requires_dist": {
+    "dists": [
+      "google-auth",
+      "requests-oauthlib"
+    ],
+    "specifiers": [
+      "google-auth",
+      "requests-oauthlib (>=0.7.0)"
     ]
+  },
+  "requires_extras": {
+    "tool": {
+      "dists": [
+        "click"
+      ],
+      "specifiers": [
+        "click; extra=='tool'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": []

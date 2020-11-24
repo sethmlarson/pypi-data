@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "pyparsing"
-  ],
-  "requires_extras": {
-    "full": [
-      "numpy; extra=='full'",
-      "ply; extra=='full'"
+  "requires_dist": {
+    "dists": [
+      "pyparsing"
+    ],
+    "specifiers": [
+      "pyparsing"
     ]
+  },
+  "requires_extras": {
+    "full": {
+      "dists": [
+        "numpy",
+        "ply"
+      ],
+      "specifiers": [
+        "numpy; extra=='full'",
+        "ply; extra=='full'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

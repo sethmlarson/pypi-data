@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "matplotlib",
-    "numpy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "matplotlib",
+      "numpy"
+    ],
+    "specifiers": [
+      "matplotlib",
+      "numpy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

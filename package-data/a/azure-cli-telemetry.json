@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "applicationinsights (<0.12,>=0.11.1)",
-    "portalocker (~=1.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "applicationinsights",
+      "portalocker"
+    ],
+    "specifiers": [
+      "applicationinsights (<0.12,>=0.11.1)",
+      "portalocker (~=1.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

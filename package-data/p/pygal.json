@@ -1,12 +1,25 @@
 {
-  "requires_dist": [],
+  "requires_dist": {
+    "dists": [],
+    "specifiers": []
+  },
   "requires_extras": {
-    "lxml": [
-      "lxml; extra=='lxml'"
-    ],
-    "png": [
-      "cairosvg; extra=='png'"
-    ]
+    "lxml": {
+      "dists": [
+        "lxml"
+      ],
+      "specifiers": [
+        "lxml; extra=='lxml'"
+      ]
+    },
+    "png": {
+      "dists": [
+        "cairosvg"
+      ],
+      "specifiers": [
+        "cairosvg; extra=='png'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

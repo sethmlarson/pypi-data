@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "pydantic>=1.0.0,<2.0.0",
-    "starlette==0.13.6"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pydantic",
+      "starlette"
+    ],
+    "specifiers": [
+      "pydantic>=1.0.0,<2.0.0",
+      "starlette==0.13.6"
+    ]
+  },
   "requires_extras": {},
   "requires_python": ">=3.6",
   "yanked": []

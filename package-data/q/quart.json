@@ -1,18 +1,35 @@
 {
-  "requires_dist": [
-    "aiofiles",
-    "blinker",
-    "click",
-    "hypercorn (>=0.7.0)",
-    "itsdangerous",
-    "jinja2",
-    "toml",
-    "werkzeug (>=1.0.0)"
-  ],
-  "requires_extras": {
-    "dotenv": [
-      "python-dotenv; extra=='dotenv'"
+  "requires_dist": {
+    "dists": [
+      "aiofiles",
+      "blinker",
+      "click",
+      "hypercorn",
+      "itsdangerous",
+      "jinja2",
+      "toml",
+      "werkzeug"
+    ],
+    "specifiers": [
+      "aiofiles",
+      "blinker",
+      "click",
+      "hypercorn (>=0.7.0)",
+      "itsdangerous",
+      "jinja2",
+      "toml",
+      "werkzeug (>=1.0.0)"
     ]
+  },
+  "requires_extras": {
+    "dotenv": {
+      "dists": [
+        "python-dotenv"
+      ],
+      "specifiers": [
+        "python-dotenv; extra=='dotenv'"
+      ]
+    }
   },
   "requires_python": ">=3.7.0",
   "yanked": []

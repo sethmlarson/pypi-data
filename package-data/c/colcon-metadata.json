@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "colcon-core",
-    "PyYAML"
-  ],
+  "requires_dist": {
+    "dists": [
+      "colcon-core",
+      "pyyaml"
+    ],
+    "specifiers": [
+      "colcon-core",
+      "pyyaml"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

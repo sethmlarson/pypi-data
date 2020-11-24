@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "pamqp (<3,>=2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "pamqp"
+    ],
+    "specifiers": [
+      "pamqp (<3,>=2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

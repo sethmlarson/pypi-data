@@ -1,8 +1,14 @@
 {
-  "requires_dist": [
-    "click",
-    "thrift"
-  ],
+  "requires_dist": {
+    "dists": [
+      "click",
+      "thrift"
+    ],
+    "specifiers": [
+      "click",
+      "thrift"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

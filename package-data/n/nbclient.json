@@ -1,19 +1,37 @@
 {
-  "requires_dist": [
-    "async-generator",
-    "jupyter-client (>=6.1.5)",
-    "nbformat (>=5.0)",
-    "nest-asyncio",
-    "traitlets (>=4.2)"
-  ],
-  "requires_extras": {
-    "sphinx": [
-      "mock; extra=='sphinx'",
-      "moto; extra=='sphinx'",
-      "myst-parser; extra=='sphinx'",
-      "Sphinx (>=1.7); extra=='sphinx'",
-      "sphinx-book-theme; extra=='sphinx'"
+  "requires_dist": {
+    "dists": [
+      "async-generator",
+      "jupyter-client",
+      "nbformat",
+      "nest-asyncio",
+      "traitlets"
+    ],
+    "specifiers": [
+      "async-generator",
+      "jupyter-client (>=6.1.5)",
+      "nbformat (>=5.0)",
+      "nest-asyncio",
+      "traitlets (>=4.2)"
     ]
+  },
+  "requires_extras": {
+    "sphinx": {
+      "dists": [
+        "mock",
+        "moto",
+        "myst-parser",
+        "sphinx",
+        "sphinx-book-theme"
+      ],
+      "specifiers": [
+        "mock; extra=='sphinx'",
+        "moto; extra=='sphinx'",
+        "myst-parser; extra=='sphinx'",
+        "sphinx (>=1.7); extra=='sphinx'",
+        "sphinx-book-theme; extra=='sphinx'"
+      ]
+    }
   },
   "requires_python": ">=3.6",
   "yanked": [

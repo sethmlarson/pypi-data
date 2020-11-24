@@ -1,9 +1,16 @@
 {
-  "requires_dist": [
-    "persistent",
-    "setuptools",
-    "zope.interface"
-  ],
+  "requires_dist": {
+    "dists": [
+      "persistent",
+      "setuptools",
+      "zope.interface"
+    ],
+    "specifiers": [
+      "persistent",
+      "setuptools",
+      "zope.interface"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

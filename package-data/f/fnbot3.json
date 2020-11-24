@@ -1,14 +1,26 @@
 {
-  "requires_dist": [
-    "aiohttp",
-    "BenBotAsync",
-    "crayons",
-    "FortniteAPIAsync",
-    "fortnitepy (==3.3.1)",
-    "requests",
-    "sanic (==20.9.0)",
-    "uvloop"
-  ],
+  "requires_dist": {
+    "dists": [
+      "aiohttp",
+      "benbotasync",
+      "crayons",
+      "fortniteapiasync",
+      "fortnitepy",
+      "requests",
+      "sanic",
+      "uvloop"
+    ],
+    "specifiers": [
+      "aiohttp",
+      "benbotasync",
+      "crayons",
+      "fortniteapiasync",
+      "fortnitepy (==3.3.1)",
+      "requests",
+      "sanic (==20.9.0)",
+      "uvloop"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

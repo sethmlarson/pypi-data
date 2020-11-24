@@ -1,12 +1,23 @@
 {
-  "requires_dist": [
-    "cirq (==0.9.1)",
-    "sympy (==1.5)"
-  ],
-  "requires_extras": {
-    "extras": [
-      "tensorflow (==2.3.1); extra=='extras'"
+  "requires_dist": {
+    "dists": [
+      "cirq",
+      "sympy"
+    ],
+    "specifiers": [
+      "cirq (==0.9.1)",
+      "sympy (==1.5)"
     ]
+  },
+  "requires_extras": {
+    "extras": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (==2.3.1); extra=='extras'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

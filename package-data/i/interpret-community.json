@@ -1,35 +1,77 @@
 {
-  "requires_dist": [
-    "interpret-core[required] (<=0.2.1,>=0.1.20)",
-    "numpy",
-    "packaging",
-    "pandas",
-    "scikit-learn",
-    "scipy",
-    "shap (<=0.34.0,>=0.20.0)"
-  ],
-  "requires_extras": {
-    "deep": [
-      "keras; extra=='deep'",
-      "pyyaml; extra=='deep'",
-      "tensorflow; extra=='deep'"
+  "requires_dist": {
+    "dists": [
+      "interpret-core",
+      "numpy",
+      "packaging",
+      "pandas",
+      "scikit-learn",
+      "scipy",
+      "shap"
     ],
-    "lime": [
-      "lime (>=0.2.0.0); extra=='lime'"
-    ],
-    "mimic": [
-      "lightgbm; extra=='mimic'"
-    ],
-    "sample": [
-      "hdbscan; extra=='sample'"
-    ],
-    "visualization": [
-      "flask; extra=='visualization'",
-      "flask-cors; extra=='visualization'",
-      "gevent (>=1.3.6); extra=='visualization'",
-      "ipython; extra=='visualization'",
-      "jinja2; extra=='visualization'"
+    "specifiers": [
+      "interpret-core[required] (<=0.2.1,>=0.1.20)",
+      "numpy",
+      "packaging",
+      "pandas",
+      "scikit-learn",
+      "scipy",
+      "shap (<=0.34.0,>=0.20.0)"
     ]
+  },
+  "requires_extras": {
+    "deep": {
+      "dists": [
+        "keras",
+        "pyyaml",
+        "tensorflow"
+      ],
+      "specifiers": [
+        "keras; extra=='deep'",
+        "pyyaml; extra=='deep'",
+        "tensorflow; extra=='deep'"
+      ]
+    },
+    "lime": {
+      "dists": [
+        "lime"
+      ],
+      "specifiers": [
+        "lime (>=0.2.0.0); extra=='lime'"
+      ]
+    },
+    "mimic": {
+      "dists": [
+        "lightgbm"
+      ],
+      "specifiers": [
+        "lightgbm; extra=='mimic'"
+      ]
+    },
+    "sample": {
+      "dists": [
+        "hdbscan"
+      ],
+      "specifiers": [
+        "hdbscan; extra=='sample'"
+      ]
+    },
+    "visualization": {
+      "dists": [
+        "flask",
+        "flask-cors",
+        "gevent",
+        "ipython",
+        "jinja2"
+      ],
+      "specifiers": [
+        "flask; extra=='visualization'",
+        "flask-cors; extra=='visualization'",
+        "gevent (>=1.3.6); extra=='visualization'",
+        "ipython; extra=='visualization'",
+        "jinja2; extra=='visualization'"
+      ]
+    }
   },
   "requires_python": "",
   "yanked": []

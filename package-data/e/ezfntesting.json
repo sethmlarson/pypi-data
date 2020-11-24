@@ -1,7 +1,12 @@
 {
-  "requires_dist": [
-    "EZFNSetup (==4.0.8)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "ezfnsetup"
+    ],
+    "specifiers": [
+      "ezfnsetup (==4.0.8)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "==3.8.5",
   "yanked": []

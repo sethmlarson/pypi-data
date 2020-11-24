@@ -1,11 +1,20 @@
 {
-  "requires_dist": [
-    "Flask-SQLAlchemy (>=2.3)",
-    "packaging (>=14.1)",
-    "pytest (>=3.2.1)",
-    "pytest-mock (>=1.6.2)",
-    "SQLAlchemy (>=1.2.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "flask-sqlalchemy",
+      "packaging",
+      "pytest",
+      "pytest-mock",
+      "sqlalchemy"
+    ],
+    "specifiers": [
+      "flask-sqlalchemy (>=2.3)",
+      "packaging (>=14.1)",
+      "pytest (>=3.2.1)",
+      "pytest-mock (>=1.6.2)",
+      "sqlalchemy (>=1.2.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

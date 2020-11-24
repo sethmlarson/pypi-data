@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "absl-py (>=0.1.0)",
-    "numpy (>=1.10)",
-    "six",
-    "sympy (>=1.2)"
-  ],
+  "requires_dist": {
+    "dists": [
+      "absl-py",
+      "numpy",
+      "six",
+      "sympy"
+    ],
+    "specifiers": [
+      "absl-py (>=0.1.0)",
+      "numpy (>=1.10)",
+      "six",
+      "sympy (>=1.2)"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []

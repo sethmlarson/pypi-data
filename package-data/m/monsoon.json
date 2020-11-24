@@ -1,10 +1,18 @@
 {
-  "requires_dist": [
-    "libusb1",
-    "numpy",
-    "pyusb",
-    "scipy"
-  ],
+  "requires_dist": {
+    "dists": [
+      "libusb1",
+      "numpy",
+      "pyusb",
+      "scipy"
+    ],
+    "specifiers": [
+      "libusb1",
+      "numpy",
+      "pyusb",
+      "scipy"
+    ]
+  },
   "requires_extras": {},
   "requires_python": "",
   "yanked": []
