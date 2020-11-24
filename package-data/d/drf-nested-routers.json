@@ -3,14 +3,8 @@
     "alanjds"
   ],
   "requires_dist": {
-    "dists": [
-      "django",
-      "djangorestframework"
-    ],
-    "specifiers": [
-      "django (>=1.11)",
-      "djangorestframework (>=3.6.0)"
-    ]
+    "dists": [],
+    "specifiers": []
   },
   "requires_extras": {},
   "requires_python": ">=3.5",

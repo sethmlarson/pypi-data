@@ -8,7 +8,7 @@
       "semver"
     ],
     "specifiers": [
-      "cloudformation-cli (<0.2,>=0.1.2)",
+      "cloudformation-cli (>=0.1.14)",
       "semver (>=2.9.0)"
     ]
   },

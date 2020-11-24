@@ -7,7 +7,7 @@
       "cloudformation-cli"
     ],
     "specifiers": [
-      "cloudformation-cli (<0.2,>=0.1.4)"
+      "cloudformation-cli (>=0.1.14)"
     ]
   },
   "requires_extras": {},

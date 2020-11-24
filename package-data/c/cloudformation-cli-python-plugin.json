@@ -5,11 +5,13 @@
   "requires_dist": {
     "dists": [
       "cloudformation-cli",
-      "docker"
+      "docker",
+      "urllib3"
     ],
     "specifiers": [
-      "cloudformation-cli (<0.2,>=0.1.10)",
-      "docker (<5,>=3.7)"
+      "cloudformation-cli (>=0.1.14)",
+      "docker (<5,>=3.7)",
+      "urllib3 (<1.26)"
     ]
   },
   "requires_extras": {},
