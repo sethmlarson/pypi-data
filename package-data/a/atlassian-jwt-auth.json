@@ -6,14 +6,12 @@
   ],
   "requires_dist": {
     "dists": [
-      "backports.functools-lru-cache",
       "cachecontrol",
       "cryptography",
       "pyjwt",
       "requests"
     ],
     "specifiers": [
-      "backports.functools-lru-cache (==1.6.1)",
       "cachecontrol (==0.12.6)",
       "cryptography (<3.3.0,>=3.2.1)",
       "pyjwt (<2.0.0,>=1.5.2)",

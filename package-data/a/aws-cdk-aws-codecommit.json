@@ -12,9 +12,9 @@
       "publication"
     ],
     "specifiers": [
-      "aws-cdk.aws-events (==1.74.0)",
-      "aws-cdk.aws-iam (==1.74.0)",
-      "aws-cdk.core (==1.74.0)",
+      "aws-cdk.aws-events (==1.75.0)",
+      "aws-cdk.aws-iam (==1.75.0)",
+      "aws-cdk.core (==1.75.0)",
       "constructs (<4.0.0,>=3.2.0)",
       "jsii (<2.0.0,>=1.14.1)",
       "publication (>=0.0.3)"

@@ -5,8 +5,16 @@
     "njs"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "async-generator",
+      "trio",
+      "wsproto"
+    ],
+    "specifiers": [
+      "async-generator (>=1.10)",
+      "trio (>=0.11)",
+      "wsproto (>=0.14)"
+    ]
   },
   "requires_extras": {},
   "requires_python": ">=3.5",

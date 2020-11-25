@@ -6209,6 +6209,9 @@
   "cyrille.rossant": [
     "phylib"
   ],
+  "cznic": [
+    "python-openid"
+  ],
   "czpython": [
     "django-classy-tags",
     "django-cms",
@@ -15524,6 +15527,9 @@
   "obormot": [
     "dpkt"
   ],
+  "oboulant": [
+    "ruptures"
+  ],
   "ocadotechnology": [
     "aimmo"
   ],
@@ -17007,6 +17013,9 @@
   ],
   "raygun": [
     "raygun4py"
+  ],
+  "rayluo": [
+    "flask-session"
   ],
   "razorpay": [
     "razorpay"

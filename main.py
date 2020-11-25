@@ -47,6 +47,10 @@ def requires_dist_sort_key(req):
     )
 
 
+def bad_versions_from_dist(req):
+    return re.findall(r"!=([0-9][0-9.\-_a-zA-Z]*[0-9a-zA-Z])", req)
+
+
 def to_versions(items):
     vers = []
     for item in items:
@@ -75,6 +79,8 @@ def sorted_versions(items):
 with open("packages.txt") as f:
     packages = [x for x in f.read().split() if x.strip()]
     publisher_data = {}
+    bad_versions_data = {}
+    yanked_data = {}
 
     for package in tqdm(packages, unit="packages"):
         resp = http.request("GET", f"https://pypi.org/pypi/{package}/json")
@@ -111,6 +117,7 @@ with open("packages.txt") as f:
 
         for req in urequires_dist:
             extras = get_extras(req)
+            req_no_specifiers = dist_from_requires_dist(req)
             if extras:
                 for extra in extras:
                     if extra in (
@@ -126,10 +133,14 @@ with open("packages.txt") as f:
                         continue
                     requires_extras.setdefault(extra, {"specifiers": [], "dists": []})
                     requires_extras[extra]["specifiers"].append(req)
-                    requires_extras[extra]["dists"].append(dist_from_requires_dist(req))
+                    requires_extras[extra]["dists"].append(req_no_specifiers)
             else:
                 requires_dist["specifiers"].append(req)
-                requires_dist["dists"].append(dist_from_requires_dist(req))
+                requires_dist["dists"].append(req_no_specifiers)
+
+            bad_versions = bad_versions_from_dist(req)
+            if bad_versions:
+                bad_versions_data.setdefault(req_no_specifiers, []).extend(bad_versions)
 
         requires_python = resp["info"]["requires_python"] or ""
 
@@ -138,7 +149,10 @@ with open("packages.txt") as f:
                 if download["yanked"]:
                     yanked.append(relv)
                     break
+
         yanked = sorted_versions(set(yanked))
+        if yanked:
+            yanked_data[package] = yanked
 
         resp = http.request("GET", f"https://pypi.org/project/{package}")
         publishers = sorted(
@@ -170,11 +184,40 @@ with open("packages.txt") as f:
             )
 
     # Write publishers.json data
-    with open(os.path.join(package_data_dir, f"publishers.json"), "w") as f:
+    with open(os.path.join(package_data_dir, "publishers.json"), "w") as f:
         f.truncate()
         f.write(
             json.dumps(
                 {k: sorted(v) for k, v in publisher_data.items()},
+                indent=2,
+                sort_keys=True,
+            )
+        )
+
+    # Write yanked-versions.json data
+    with open(os.path.join(package_data_dir, "yanked-versions.json"), "w") as f:
+        f.truncate()
+        f.write(
+            json.dumps(
+                yanked_data,
+                indent=2,
+                sort_keys=True,
+            )
+        )
+
+    # Remove entries from 'bad_version_data' if they are yanked
+    bad_versions_data = {
+        k: sorted_versions({x for x in v if x not in yanked_data.get(k, ())})
+        for k, v in bad_versions_data.items()
+    }
+    bad_versions_data = {k: v for k, v in bad_versions_data.items() if v}
+
+    # Write bad-versions.json data
+    with open(os.path.join(package_data_dir, "bad-versions.json"), "w") as f:
+        f.truncate()
+        f.write(
+            json.dumps(
+                bad_versions_data,
                 indent=2,
                 sort_keys=True,
             )

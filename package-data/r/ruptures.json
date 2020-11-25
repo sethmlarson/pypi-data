@@ -1,27 +1,13 @@
 {
   "publishers": [
-    "ctruong"
+    "ctruong",
+    "oboulant"
   ],
   "requires_dist": {
-    "dists": [
-      "numpy",
-      "scipy"
-    ],
-    "specifiers": [
-      "numpy",
-      "scipy"
-    ]
+    "dists": [],
+    "specifiers": []
   },
-  "requires_extras": {
-    "display": {
-      "dists": [
-        "matplotlib"
-      ],
-      "specifiers": [
-        "matplotlib; extra=='display'"
-      ]
-    }
-  },
+  "requires_extras": {},
   "requires_python": ">=3",
   "yanked": []
 }

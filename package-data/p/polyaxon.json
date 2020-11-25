@@ -31,7 +31,7 @@
       "kubernetes (>=10.0.1)",
       "marshmallow (<3.10.0)",
       "nvidia-ml-py3",
-      "polyaxon-sdk (==1.4.0rc1)",
+      "polyaxon-sdk (==1.4.0rc2)",
       "psutil",
       "python-dateutil (>=2.7.3)",
       "pytz (>=2019.2)",

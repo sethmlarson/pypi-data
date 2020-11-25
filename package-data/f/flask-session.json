@@ -1,6 +1,7 @@
 {
   "publishers": [
-    "fengsp"
+    "fengsp",
+    "rayluo"
   ],
   "requires_dist": {
     "dists": [],
