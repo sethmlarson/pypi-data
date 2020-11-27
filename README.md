@@ -14,6 +14,7 @@ modify `main.py` with the desired changes.
 - Python requirements (`requires_python`)
 - Yanked versions (`yanked`)
 - Bad versions (`bad_versions`)
+- Deleted packages (`deleted`)
 
 ## License
 

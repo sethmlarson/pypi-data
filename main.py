@@ -1,3 +1,4 @@
+import datetime
 import os
 import json
 import re
@@ -76,6 +77,10 @@ def sorted_versions(items):
     ]
 
 
+with open(os.path.join(package_data_dir, "deleted.json")) as f:
+    deleted_data = json.loads(f.read())
+
+
 with open("packages.txt") as f:
     packages = [x for x in f.read().split() if x.strip()]
     publisher_data = {}
@@ -84,6 +89,17 @@ with open("packages.txt") as f:
 
     for package in tqdm(packages, unit="packages"):
         resp = http.request("GET", f"https://pypi.org/pypi/{package}/json")
+
+        if resp.status != 200:
+            # If a package is deleted it'll start 404-ing
+            if resp.status == 404:
+                deleted_data.setdefault(
+                    package, {"deleted_at": datetime.date.today().isoformat()}
+                )
+            else:
+                print("%r returned non-2XX status code: %d" % (package, resp.status))
+            continue
+
         resp = json.loads(resp.data.decode("utf-8"))
         version = Version(resp["info"]["version"])
         latest_version = max(to_versions(resp["releases"].keys()))
@@ -218,6 +234,17 @@ with open("packages.txt") as f:
         f.write(
             json.dumps(
                 bad_versions_data,
+                indent=2,
+                sort_keys=True,
+            )
+        )
+
+    # Write deleted.json data
+    with open(os.path.join(package_data_dir, "deleted.json"), "w") as f:
+        f.truncate()
+        f.write(
+            json.dumps(
+                deleted_data,
                 indent=2,
                 sort_keys=True,
             )
