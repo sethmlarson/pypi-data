@@ -9,8 +9,8 @@
       "qds-sdk"
     ],
     "specifiers": [
-      "dbnd (==0.30.6)",
-      "dbnd-spark (==0.30.6)",
+      "dbnd (==0.30.8)",
+      "dbnd-spark (==0.30.8)",
       "qds-sdk (==1.13.2)"
     ]
   },

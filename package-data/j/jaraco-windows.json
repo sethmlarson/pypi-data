@@ -9,7 +9,7 @@
       "jaraco.text",
       "jaraco.ui",
       "more-itertools",
-      "path.py",
+      "path",
       "six"
     ],
     "specifiers": [
@@ -18,7 +18,7 @@
       "jaraco.text",
       "jaraco.ui",
       "more-itertools",
-      "path.py (>=6.2)",
+      "path",
       "six"
     ]
   },

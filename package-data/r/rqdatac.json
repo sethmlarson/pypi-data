@@ -10,7 +10,6 @@
       "pandas",
       "pymysql",
       "python-dateutil",
-      "rqdatac-fund",
       "six",
       "sqlalchemy",
       "typing"
@@ -22,13 +21,37 @@
       "pandas (<0.25.0)",
       "pymysql",
       "python-dateutil",
-      "rqdatac-fund",
       "six",
       "sqlalchemy",
       "typing"
     ]
   },
-  "requires_extras": {},
+  "requires_extras": {
+    "bond": {
+      "dists": [
+        "rqdatac-bond"
+      ],
+      "specifiers": [
+        "rqdatac-bond; extra=='bond'"
+      ]
+    },
+    "fund": {
+      "dists": [
+        "rqdatac-fund"
+      ],
+      "specifiers": [
+        "rqdatac-fund; extra=='fund'"
+      ]
+    },
+    "proxy": {
+      "dists": [
+        "pysocks"
+      ],
+      "specifiers": [
+        "pysocks; extra=='proxy'"
+      ]
+    }
+  },
   "requires_python": "",
   "yanked": []
 }

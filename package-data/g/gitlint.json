@@ -9,12 +9,12 @@
       "sh"
     ],
     "specifiers": [
-      "arrow (==0.15.5)",
-      "click (==7.0)",
-      "sh (==1.12.14); sys_platform !='win32'"
+      "arrow (==0.17.0)",
+      "click (==7.1.2)",
+      "sh (==1.14.1); sys_platform !='win32'"
     ]
   },
   "requires_extras": {},
-  "requires_python": "",
+  "requires_python": ">=3.6",
   "yanked": []
 }

@@ -3,8 +3,14 @@
     "Epoch8"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "apache-airflow",
+      "prometheus-client"
+    ],
+    "specifiers": [
+      "apache-airflow (>=1.10.3)",
+      "prometheus-client (>=0.4.2)"
+    ]
   },
   "requires_extras": {},
   "requires_python": "",

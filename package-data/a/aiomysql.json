@@ -6,23 +6,10 @@
     "popravich"
   ],
   "requires_dist": {
-    "dists": [
-      "pymysql"
-    ],
-    "specifiers": [
-      "pymysql (<=0.9.2,>=0.9)"
-    ]
+    "dists": [],
+    "specifiers": []
   },
-  "requires_extras": {
-    "sa": {
-      "dists": [
-        "sqlalchemy"
-      ],
-      "specifiers": [
-        "sqlalchemy (>=1.0); extra=='sa'"
-      ]
-    }
-  },
+  "requires_extras": {},
   "requires_python": "",
   "yanked": []
 }

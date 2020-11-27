@@ -7,7 +7,7 @@
       "dbnd"
     ],
     "specifiers": [
-      "dbnd (==0.30.6)"
+      "dbnd (==0.30.8)"
     ]
   },
   "requires_extras": {},

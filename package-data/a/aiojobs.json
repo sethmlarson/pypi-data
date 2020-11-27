@@ -4,14 +4,19 @@
     "Andrew.Svetlov"
   ],
   "requires_dist": {
-    "dists": [
-      "aiohttp"
-    ],
-    "specifiers": [
-      "aiohttp>=2.3.0"
-    ]
+    "dists": [],
+    "specifiers": []
   },
-  "requires_extras": {},
+  "requires_extras": {
+    "aiohttp": {
+      "dists": [
+        "aiohttp"
+      ],
+      "specifiers": [
+        "aiohttp>=3.2.0; extra=='aiohttp'"
+      ]
+    }
+  },
   "requires_python": ">=3.5",
   "yanked": []
 }

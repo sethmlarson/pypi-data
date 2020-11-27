@@ -4,9 +4,11 @@
   ],
   "requires_dist": {
     "dists": [
+      "importlib-metadata",
       "klepto"
     ],
     "specifiers": [
+      "importlib-metadata; python_version<'3.8'",
       "klepto"
     ]
   },

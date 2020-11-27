@@ -3,8 +3,16 @@
     "datakund_test"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "getmac",
+      "pytelegrambotapi",
+      "requests"
+    ],
+    "specifiers": [
+      "getmac",
+      "pytelegrambotapi",
+      "requests"
+    ]
   },
   "requires_extras": {},
   "requires_python": "",

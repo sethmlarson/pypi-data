@@ -18,7 +18,7 @@
       "benbotasync",
       "crayons",
       "fortniteapiasync",
-      "fortnitepy",
+      "fortnitepy (==3.3.1)",
       "requests",
       "sanic (==20.9.0)",
       "uvloop"

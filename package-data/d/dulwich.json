@@ -4,49 +4,10 @@
     "jelmer"
   ],
   "requires_dist": {
-    "dists": [
-      "certifi",
-      "urllib3"
-    ],
-    "specifiers": [
-      "certifi",
-      "urllib3 (>=1.24.1)"
-    ]
+    "dists": [],
+    "specifiers": []
   },
-  "requires_extras": {
-    "fastimport": {
-      "dists": [
-        "fastimport"
-      ],
-      "specifiers": [
-        "fastimport; extra=='fastimport'"
-      ]
-    },
-    "https": {
-      "dists": [
-        "urllib3"
-      ],
-      "specifiers": [
-        "urllib3[secure] (>=1.24.1); extra=='https'"
-      ]
-    },
-    "pgp": {
-      "dists": [
-        "gpg"
-      ],
-      "specifiers": [
-        "gpg; extra=='pgp'"
-      ]
-    },
-    "watch": {
-      "dists": [
-        "pyinotify"
-      ],
-      "specifiers": [
-        "pyinotify; extra=='watch'"
-      ]
-    }
-  },
+  "requires_extras": {},
   "requires_python": ">=3.5",
   "yanked": []
 }

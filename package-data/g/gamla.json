@@ -12,26 +12,8 @@
     "uriv"
   ],
   "requires_dist": {
-    "dists": [
-      "async-timeout",
-      "dataclasses-json",
-      "heapq-max",
-      "httpx",
-      "pytest",
-      "pytest-asyncio",
-      "requests",
-      "toolz"
-    ],
-    "specifiers": [
-      "async-timeout",
-      "dataclasses-json",
-      "heapq-max",
-      "httpx",
-      "pytest",
-      "pytest-asyncio",
-      "requests",
-      "toolz"
-    ]
+    "dists": [],
+    "specifiers": []
   },
   "requires_extras": {},
   "requires_python": "",

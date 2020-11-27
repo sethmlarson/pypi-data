@@ -22,6 +22,7 @@
       "pyqt5-sip",
       "pyroma",
       "python-barcode",
+      "python-daemon",
       "pyyaml",
       "sqlalchemy",
       "sqlparse",
@@ -47,8 +48,9 @@
       "pyqt5-sip (==12.7.2)",
       "pyroma (==2.6)",
       "python-barcode",
+      "python-daemon",
       "pyyaml (==5.3.1)",
-      "sqlalchemy (==1.3.20)",
+      "sqlalchemy (==1.4.0b1)",
       "sqlparse (==0.3.1)",
       "twine (==3.1.1)",
       "watchdog (>=0.10.2)"

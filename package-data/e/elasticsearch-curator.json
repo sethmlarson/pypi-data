@@ -4,8 +4,30 @@
     "honza.kral"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "boto3",
+      "certifi",
+      "click",
+      "elasticsearch",
+      "pyyaml",
+      "requests",
+      "requests-aws4auth",
+      "six",
+      "urllib3",
+      "voluptuous"
+    ],
+    "specifiers": [
+      "boto3 (>=1.9.142)",
+      "certifi (>=2019.9.11)",
+      "click (<7.0,>=6.7)",
+      "elasticsearch (==7.1.0)",
+      "pyyaml (==3.13)",
+      "requests (>=2.20.0)",
+      "requests-aws4auth (>=0.9)",
+      "six (>=1.11.0)",
+      "urllib3 (<1.26,>=1.24.2)",
+      "voluptuous (>=0.9.3)"
+    ]
   },
   "requires_extras": {},
   "requires_python": "",

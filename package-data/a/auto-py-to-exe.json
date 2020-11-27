@@ -9,10 +9,10 @@
     ],
     "specifiers": [
       "eel (==0.12.4)",
-      "pyinstaller (>=3.4)"
+      "pyinstaller (>=4.1)"
     ]
   },
   "requires_extras": {},
-  "requires_python": ">=2.7",
+  "requires_python": ">=3.5",
   "yanked": []
 }
