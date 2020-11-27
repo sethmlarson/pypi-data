@@ -7,12 +7,10 @@
   ],
   "requires_dist": {
     "dists": [
-      "pyparsing",
-      "six"
+      "pyparsing"
     ],
     "specifiers": [
-      "pyparsing (>=2.0.2)",
-      "six"
+      "pyparsing>=2.0.2"
     ]
   },
   "requires_extras": {},
