@@ -20,7 +20,7 @@
       "fortniteapiasync",
       "fortnitepy (==3.3.1)",
       "requests",
-      "sanic",
+      "sanic (==20.9.0)",
       "uvloop"
     ]
   },

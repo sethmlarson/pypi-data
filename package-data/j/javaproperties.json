@@ -3,14 +3,10 @@
     "jwodder"
   ],
   "requires_dist": {
-    "dists": [
-      "six"
-    ],
-    "specifiers": [
-      "six (~=1.4)"
-    ]
+    "dists": [],
+    "specifiers": []
   },
   "requires_extras": {},
-  "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,<4,>=2.7",
+  "requires_python": "~=3.6",
   "yanked": []
 }
