@@ -6,7 +6,6 @@
     "dists": [
       "geojson",
       "pysocks",
-      "requests",
       "requests"
     ],
     "specifiers": [

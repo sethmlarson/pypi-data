@@ -7,7 +7,6 @@
   "requires_dist": {
     "dists": [
       "astroid",
-      "astroid",
       "jinja2",
       "pyyaml",
       "sphinx",

@@ -7,7 +7,6 @@
     "dists": [
       "cloudpickle",
       "ipykernel",
-      "ipykernel",
       "jupyter-client",
       "pyzmq",
       "wurlitzer"

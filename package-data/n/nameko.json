@@ -11,8 +11,6 @@
       "click",
       "dnspython",
       "eventlet",
-      "eventlet",
-      "eventlet",
       "kombu",
       "mock",
       "path.py",

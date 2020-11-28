@@ -19,7 +19,6 @@
       "tblib",
       "toolz",
       "tornado",
-      "tornado",
       "zict"
     ],
     "specifiers": [

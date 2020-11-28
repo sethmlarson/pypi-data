@@ -7,7 +7,6 @@
   "requires_dist": {
     "dists": [
       "apns2",
-      "apns2",
       "django",
       "pywebpush"
     ],

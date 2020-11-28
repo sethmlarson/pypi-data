@@ -13,17 +13,17 @@
   "requires_extras": {
     "all_with_integrations": {
       "dists": [
+        "allennlp",
+        "boto3",
+        "fastapi",
         "janome",
         "kytea",
-        "natto-py",
         "nagisa",
-        "boto3",
+        "natto-py",
         "sentencepiece",
-        "fastapi",
-        "uvicorn",
         "sudachidict-core",
         "sudachipy",
-        "allennlp"
+        "uvicorn"
       ],
       "specifiers": [
         "janome (>=0.3.10,<0.4.0); extra=='janome' or extra=='all' or extra=='all_with_integrations'",

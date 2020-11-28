@@ -14,7 +14,6 @@
   "requires_extras": {
     "cryptography": {
       "dists": [
-        "cryptography",
         "cryptography"
       ],
       "specifiers": [

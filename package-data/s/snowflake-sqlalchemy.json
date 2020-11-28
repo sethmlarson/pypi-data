@@ -27,7 +27,6 @@
         "more-itertools",
         "numpy",
         "pandas",
-        "pandas",
         "pexpect",
         "pytest",
         "pytest-cov",

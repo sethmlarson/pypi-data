@@ -4,9 +4,6 @@
   ],
   "requires_dist": {
     "dists": [
-      "importlib-metadata",
-      "importlib-metadata",
-      "importlib-metadata",
       "importlib-metadata"
     ],
     "specifiers": [

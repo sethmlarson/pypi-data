@@ -24,7 +24,6 @@
       "protobuf",
       "psutil",
       "pyrsistent",
-      "pyrsistent",
       "python-dateutil",
       "pytz",
       "pywin32",

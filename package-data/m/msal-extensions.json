@@ -7,7 +7,6 @@
     "dists": [
       "msal",
       "pathlib2",
-      "portalocker",
       "portalocker"
     ],
     "specifiers": [

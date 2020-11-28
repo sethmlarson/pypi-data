@@ -10,7 +10,6 @@
       "jedi",
       "pluggy",
       "python-jsonrpc-server",
-      "ujson",
       "ujson"
     ],
     "specifiers": [

@@ -13,8 +13,6 @@
       "jinja2",
       "more-itertools",
       "pathlib2",
-      "pathlib2",
-      "pygments",
       "pygments",
       "python-dateutil",
       "pytz",

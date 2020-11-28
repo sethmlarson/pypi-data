@@ -6,18 +6,6 @@
   ],
   "requires_dist": {
     "dists": [
-      "numpy",
-      "numpy",
-      "numpy",
-      "numpy",
-      "numpy",
-      "numpy",
-      "numpy",
-      "numpy",
-      "numpy",
-      "numpy",
-      "numpy",
-      "numpy",
       "numpy"
     ],
     "specifiers": [

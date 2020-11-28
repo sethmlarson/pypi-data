@@ -13,7 +13,6 @@
       "asn1crypto",
       "azure-common",
       "azure-storage-blob",
-      "azure-storage-blob",
       "boto3",
       "certifi",
       "cffi",
@@ -79,7 +78,6 @@
     },
     "pandas": {
       "dists": [
-        "pandas",
         "pandas",
         "pyarrow"
       ],

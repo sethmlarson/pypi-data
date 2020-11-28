@@ -9,7 +9,6 @@
   "requires_dist": {
     "dists": [
       "attrs",
-      "attrs",
       "mypy-extensions",
       "pip",
       "pyrsistent",

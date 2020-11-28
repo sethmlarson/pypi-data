@@ -18,8 +18,6 @@
       "html5lib",
       "importlib-metadata",
       "keyring",
-      "keyring",
-      "keyring",
       "packaging",
       "pathlib2",
       "pexpect",

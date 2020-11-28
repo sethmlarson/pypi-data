@@ -64,7 +64,6 @@
     },
     "redis": {
       "dists": [
-        "aioredis",
         "aioredis"
       ],
       "specifiers": [
@@ -74,7 +73,6 @@
     },
     "testdata": {
       "dists": [
-        "aiohttp",
         "aiohttp"
       ],
       "specifiers": [

@@ -17,7 +17,6 @@
   "requires_extras": {
     "with-fonttools": {
       "dists": [
-        "fonttools",
         "fonttools"
       ],
       "specifiers": [

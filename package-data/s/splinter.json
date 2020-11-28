@@ -19,7 +19,6 @@
       "dists": [
         "cssselect",
         "django",
-        "django",
         "lxml",
         "six"
       ],

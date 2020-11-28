@@ -4,8 +4,8 @@
   ],
   "requires_dist": {
     "dists": [
-      "requests-oauthlib",
       "requests",
+      "requests-oauthlib",
       "six"
     ],
     "specifiers": [

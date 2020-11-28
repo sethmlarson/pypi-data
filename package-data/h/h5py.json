@@ -9,9 +9,6 @@
   "requires_dist": {
     "dists": [
       "cached-property",
-      "numpy",
-      "numpy",
-      "numpy",
       "numpy"
     ],
     "specifiers": [

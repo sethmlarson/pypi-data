@@ -15,7 +15,6 @@
       "knack",
       "mock",
       "pylint",
-      "pylint",
       "pytest",
       "pytest-xdist",
       "pyyaml",

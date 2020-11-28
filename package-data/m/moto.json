@@ -30,7 +30,6 @@
       "setuptools",
       "six",
       "sshpubkeys",
-      "sshpubkeys",
       "werkzeug",
       "xmltodict",
       "zipp"
@@ -114,7 +113,6 @@
     "ec2": {
       "dists": [
         "cryptography",
-        "sshpubkeys",
         "sshpubkeys"
       ],
       "specifiers": [
@@ -159,7 +157,6 @@
         "jsondiff",
         "python-jose",
         "pyyaml",
-        "sshpubkeys",
         "sshpubkeys"
       ],
       "specifiers": [

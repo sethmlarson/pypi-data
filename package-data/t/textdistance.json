@@ -10,13 +10,13 @@
     "benchmark": {
       "dists": [
         "abydos",
+        "distance",
         "jellyfish",
         "numpy",
-        "python-levenshtein",
-        "pyxdameraulevenshtein",
-        "distance",
         "py-stringmatching",
         "pylev",
+        "python-levenshtein",
+        "pyxdameraulevenshtein",
         "tabulate"
       ],
       "specifiers": [
@@ -34,13 +34,13 @@
     "benchmarks": {
       "dists": [
         "abydos",
+        "distance",
         "jellyfish",
         "numpy",
-        "python-levenshtein",
-        "pyxdameraulevenshtein",
-        "distance",
         "py-stringmatching",
         "pylev",
+        "python-levenshtein",
+        "pyxdameraulevenshtein",
         "tabulate"
       ],
       "specifiers": [
@@ -122,13 +122,13 @@
     "hamming": {
       "dists": [
         "abydos",
+        "distance",
         "jellyfish",
         "numpy",
-        "python-levenshtein",
-        "pyxdameraulevenshtein",
-        "distance",
         "py-stringmatching",
         "pylev",
+        "python-levenshtein",
+        "pyxdameraulevenshtein",
         "tabulate"
       ],
       "specifiers": [

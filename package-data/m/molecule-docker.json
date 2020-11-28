@@ -8,7 +8,6 @@
     "dists": [
       "docker",
       "molecule",
-      "selinux",
       "selinux"
     ],
     "specifiers": [

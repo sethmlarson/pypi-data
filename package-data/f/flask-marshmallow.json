@@ -30,7 +30,6 @@
     "sqlalchemy": {
       "dists": [
         "flask-sqlalchemy",
-        "marshmallow-sqlalchemy",
         "marshmallow-sqlalchemy"
       ],
       "specifiers": [

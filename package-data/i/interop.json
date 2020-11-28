@@ -4,7 +4,6 @@
   ],
   "requires_dist": {
     "dists": [
-      "numpy",
       "numpy"
     ],
     "specifiers": [

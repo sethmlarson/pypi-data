@@ -8,8 +8,6 @@
       "attrs",
       "filelock",
       "mypy",
-      "mypy",
-      "mypy",
       "pytest"
     ],
     "specifiers": [

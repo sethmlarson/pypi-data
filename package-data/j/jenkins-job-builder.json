@@ -13,7 +13,6 @@
       "python-jenkins",
       "pyyaml",
       "six",
-      "stevedore",
       "stevedore"
     ],
     "specifiers": [

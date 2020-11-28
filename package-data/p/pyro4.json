@@ -5,7 +5,6 @@
   "requires_dist": {
     "dists": [
       "selectors34",
-      "serpent",
       "serpent"
     ],
     "specifiers": [

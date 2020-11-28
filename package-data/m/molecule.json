@@ -20,7 +20,6 @@
       "pyyaml",
       "rich",
       "selinux",
-      "selinux",
       "setuptools",
       "subprocess-tee",
       "yamllint"

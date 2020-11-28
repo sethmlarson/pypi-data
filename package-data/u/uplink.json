@@ -41,8 +41,6 @@
     },
     "twisted": {
       "dists": [
-        "twisted",
-        "twisted",
         "twisted"
       ],
       "specifiers": [

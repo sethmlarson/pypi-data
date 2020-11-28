@@ -9,7 +9,6 @@
       "cachetools",
       "pyasn1-modules",
       "rsa",
-      "rsa",
       "setuptools",
       "six"
     ],

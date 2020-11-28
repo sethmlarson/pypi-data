@@ -8,7 +8,6 @@
     "dists": [
       "pandas",
       "tables",
-      "tables",
       "toolz"
     ],
     "specifiers": [

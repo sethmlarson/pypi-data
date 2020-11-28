@@ -25,7 +25,6 @@
     "calendars": {
       "dists": [
         "convertdate",
-        "convertdate",
         "hijri-converter"
       ],
       "specifiers": [

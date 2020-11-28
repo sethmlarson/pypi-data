@@ -8,8 +8,6 @@
   "requires_dist": {
     "dists": [
       "attrs",
-      "attrs",
-      "cattrs",
       "cattrs",
       "python-dateutil",
       "requests",

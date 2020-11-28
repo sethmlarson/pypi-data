@@ -13,7 +13,6 @@
       "pyotp",
       "python-gnupg",
       "requests",
-      "requests",
       "tabulate",
       "tqdm"
     ],

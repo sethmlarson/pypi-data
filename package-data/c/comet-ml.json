@@ -9,7 +9,6 @@
       "comet-git-pure",
       "dulwich",
       "everett",
-      "everett",
       "jsonschema",
       "netifaces",
       "nvidia-ml-py3",

@@ -7,7 +7,6 @@
     "dists": [
       "attrs",
       "cattrs",
-      "cattrs",
       "importlib-resources",
       "python-dateutil",
       "typing-extensions"

@@ -11,8 +11,8 @@
       "pyopenssl",
       "pyrfc3339",
       "pytz",
-      "requests-toolbelt",
       "requests",
+      "requests-toolbelt",
       "setuptools",
       "six"
     ],

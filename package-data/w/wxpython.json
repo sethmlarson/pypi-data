@@ -5,7 +5,6 @@
   "requires_dist": {
     "dists": [
       "numpy",
-      "numpy",
       "pillow",
       "six"
     ],

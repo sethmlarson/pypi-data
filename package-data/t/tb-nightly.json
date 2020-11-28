@@ -17,7 +17,6 @@
       "six",
       "tensorboard-plugin-wit",
       "werkzeug",
-      "wheel",
       "wheel"
     ],
     "specifiers": [

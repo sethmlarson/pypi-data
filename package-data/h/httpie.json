@@ -6,8 +6,8 @@
     "dists": [
       "colorama",
       "pygments",
-      "requests-toolbelt",
-      "requests"
+      "requests",
+      "requests-toolbelt"
     ],
     "specifiers": [
       "colorama (>=0.2.4); sys_platform=='win32'",

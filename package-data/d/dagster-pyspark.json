@@ -6,7 +6,6 @@
     "dists": [
       "dagster",
       "dagster-spark",
-      "pyspark",
       "pyspark"
     ],
     "specifiers": [

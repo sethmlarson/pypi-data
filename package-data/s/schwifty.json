@@ -6,7 +6,6 @@
   "requires_dist": {
     "dists": [
       "iso3166",
-      "pycountry",
       "pycountry"
     ],
     "specifiers": [

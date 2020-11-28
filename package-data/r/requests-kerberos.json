@@ -10,7 +10,6 @@
   "requires_dist": {
     "dists": [
       "cryptography",
-      "cryptography",
       "pykerberos",
       "requests",
       "winkerberos"

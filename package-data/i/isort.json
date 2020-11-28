@@ -17,8 +17,8 @@
     },
     "pipfile_deprecated_finder": {
       "dists": [
-        "requirementslib",
-        "pipreqs"
+        "pipreqs",
+        "requirementslib"
       ],
       "specifiers": [
         "requirementslib; extra=='pipfile_deprecated_finder'",
@@ -27,8 +27,8 @@
     },
     "requirements_deprecated_finder": {
       "dists": [
-        "pipreqs",
-        "pip-api"
+        "pip-api",
+        "pipreqs"
       ],
       "specifiers": [
         "pipreqs; extra=='pipfile_deprecated_finder' or extra=='requirements_deprecated_finder'",

@@ -9,7 +9,6 @@
     "dists": [
       "cybox",
       "lxml",
-      "lxml",
       "mixbox",
       "python-dateutil"
     ],

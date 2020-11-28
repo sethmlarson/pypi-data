@@ -6,12 +6,12 @@
     "dists": [
       "boto3",
       "celery",
+      "django",
       "django-celery-beat",
       "django-celery-results",
       "django-environ",
       "django-redis",
       "django-storages",
-      "django",
       "edc",
       "gunicorn",
       "pyrabbit",

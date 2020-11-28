@@ -5,8 +5,8 @@
   ],
   "requires_dist": {
     "dists": [
-      "dask-glm",
       "dask",
+      "dask-glm",
       "distributed",
       "multipledispatch",
       "numba",

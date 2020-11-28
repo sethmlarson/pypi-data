@@ -77,7 +77,6 @@
         "google-cloud-bigquery",
         "google-cloud-storage",
         "graphviz",
-        "graphviz",
         "great-expectations",
         "gspread",
         "jinja2",

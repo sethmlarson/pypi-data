@@ -7,7 +7,6 @@
     "dists": [
       "dash",
       "dash-bootstrap-components",
-      "dash-bootstrap-components",
       "dash-colorscales",
       "dash-daq",
       "flask",
@@ -16,7 +15,6 @@
       "future",
       "itsdangerous",
       "kaleido",
-      "lz4",
       "lz4",
       "pandas",
       "plotly",
@@ -66,7 +64,6 @@
     },
     "r": {
       "dists": [
-        "rpy2",
         "rpy2"
       ],
       "specifiers": [

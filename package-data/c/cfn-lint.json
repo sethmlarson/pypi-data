@@ -6,16 +6,12 @@
     "dists": [
       "aws-sam-translator",
       "importlib-resources",
-      "importlib-resources",
-      "jsonpatch",
       "jsonpatch",
       "jsonschema",
       "junit-xml",
       "networkx",
-      "networkx",
       "pathlib2",
       "pyrsistent",
-      "pyyaml",
       "pyyaml",
       "six"
     ],

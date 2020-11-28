@@ -8,7 +8,6 @@
       "docopt",
       "openpyxl",
       "sqlalchemy",
-      "sqlalchemy",
       "tablib"
     ],
     "specifiers": [
