@@ -12,7 +12,16 @@
       "pytz"
     ]
   },
-  "requires_extras": {},
+  "requires_extras": {
+    "rest_framework": {
+      "dists": [
+        "djangorestframework"
+      ],
+      "specifiers": [
+        "djangorestframework (>=3.0.0); extra=='rest_framework'"
+      ]
+    }
+  },
   "requires_python": ">=3.5",
   "yanked": []
 }
