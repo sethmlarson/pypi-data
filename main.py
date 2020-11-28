@@ -2,6 +2,8 @@ import datetime
 import os
 import json
 import re
+import subprocess
+import tempfile
 from tqdm import tqdm
 import urllib3
 from packaging.version import Version, InvalidVersion
@@ -13,11 +15,15 @@ http = urllib3.PoolManager(
     headers=urllib3.util.make_headers(
         keep_alive=True,
         accept_encoding=True,
-        user_agent="sethmlarson/pypi-deps-tracker",
+        user_agent="sethmlarson/pypi-seismometer",
     ),
     retries=urllib3.util.Retry(status=10, backoff_factor=0.5),
 )
 wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
+
+tmp_dir = tempfile.mkdtemp()
+os.system(f"virtualenv {tmp_dir}/venv > /dev/null")
+venv_python = os.path.join(tmp_dir, "venv/bin/python")
 
 
 def get_extras(req):
@@ -77,6 +83,32 @@ def sorted_versions(items):
     ]
 
 
+def get_metadata_by_install(package, resp):
+    if (
+        os.system(
+            f"{venv_python} -m pip install {package} importlib-metadata > /dev/null"
+        )
+        != 0
+    ):
+        return None
+    package_str = f'"{package}"'
+    try:
+        package_metadata = json.loads(
+            subprocess.check_output(
+                f"{venv_python} -c 'import json; from importlib_metadata import requires, metadata; "
+                f'package={package_str}; print(json.dumps({{"requires_dist": requires(package), "requires_python": metadata(package).get("Requires-Python", "")}}))\'',
+                shell=True,
+            )
+        )
+    except subprocess.SubprocessError:
+        return resp
+
+    resp = resp.copy()
+    resp["info"]["requires_dist"] = package_metadata["requires_dist"]
+    resp["info"]["requires_python"] = package_metadata["requires_python"]
+    return resp
+
+
 with open(os.path.join(package_data_dir, "deleted.json")) as f:
     deleted_data = json.loads(f.read())
 
@@ -111,6 +143,21 @@ with open("packages.txt") as f:
                 "GET", f"https://pypi.org/pypi/{package}/{latest_version}/json"
             )
             resp = json.loads(resp.data.decode("utf-8"))
+
+        # If the previous version had requires_dist info
+        # but the new version for some reason doesn't
+        # consider building a wheel locally.
+        if resp["info"]["requires_dist"] is None:
+            old_info_path = os.path.join(
+                package_data_dir, package[0], f"{package}.json"
+            )
+            if os.path.isfile(old_info_path):
+                with open(old_info_path) as f:
+                    old_info = json.loads(f.read())
+                if old_info["requires_dist"]["dists"] or old_info["requires_extras"]:
+                    new_resp = get_metadata_by_install(package, resp)
+                    if new_resp is not None:
+                        resp = new_resp
 
         for strv in resp["releases"]:
             try:
@@ -157,6 +204,10 @@ with open("packages.txt") as f:
             bad_versions = bad_versions_from_dist(req)
             if bad_versions:
                 bad_versions_data.setdefault(req_no_specifiers, []).extend(bad_versions)
+
+        requires_dist["dists"] = sorted(set(requires_dist["dists"]))
+        for extra, extra_info in list(requires_extras.items()):
+            requires_extras[extra]["dists"] = sorted(set(extra_info["dists"]))
 
         requires_python = resp["info"]["requires_python"] or ""
 
