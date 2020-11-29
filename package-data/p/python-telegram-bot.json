@@ -13,6 +13,7 @@
       "certifi",
       "cryptography",
       "decorator",
+      "pytz",
       "tornado"
     ],
     "specifiers": [
@@ -20,6 +21,7 @@
       "certifi",
       "cryptography",
       "decorator (>=4.4.0)",
+      "pytz (>=2018.6)",
       "tornado (>=5.1)"
     ]
   },

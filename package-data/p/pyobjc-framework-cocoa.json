@@ -7,7 +7,7 @@
       "pyobjc-core"
     ],
     "specifiers": [
-      "pyobjc-core (>=6.2.2)"
+      "pyobjc-core (>=7.0)"
     ]
   },
   "requires_extras": {},

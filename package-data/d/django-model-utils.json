@@ -4,8 +4,12 @@
     "jazzband"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "django"
+    ],
+    "specifiers": [
+      "django (>=2.0.1)"
+    ]
   },
   "requires_extras": {},
   "requires_python": "",

@@ -3,10 +3,18 @@
     "jbkahn"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "flake8",
+      "pycodestyle",
+      "six"
+    ],
+    "specifiers": [
+      "flake8 (>=3.0)",
+      "pycodestyle",
+      "six"
+    ]
   },
   "requires_extras": {},
-  "requires_python": "",
+  "requires_python": ">=3.6",
   "yanked": []
 }
