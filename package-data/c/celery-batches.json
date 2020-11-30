@@ -7,10 +7,10 @@
       "celery"
     ],
     "specifiers": [
-      "celery (<5.0,>=4.0)"
+      "celery (<5.1,>=4.4)"
     ]
   },
   "requires_extras": {},
-  "requires_python": "",
+  "requires_python": ">=3.6,",
   "yanked": []
 }

@@ -19,6 +19,7 @@
       "pycryptodome",
       "pytz",
       "requests",
+      "six",
       "tinynetrc",
       "tqdm"
     ],
@@ -37,6 +38,7 @@
       "pycryptodome",
       "pytz",
       "requests",
+      "six (>=1.13)",
       "tinynetrc",
       "tqdm"
     ]

@@ -6,8 +6,12 @@
     "stevemenard"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "typing-extensions"
+    ],
+    "specifiers": [
+      "typing-extensions; python_version<'3.8'"
+    ]
   },
   "requires_extras": {},
   "requires_python": "",

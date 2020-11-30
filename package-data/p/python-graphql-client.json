@@ -9,7 +9,7 @@
       "websockets"
     ],
     "specifiers": [
-      "aiohttp (==3.6.2)",
+      "aiohttp (==3.7.3)",
       "requests (==2.22.0)",
       "websockets (==8.1)"
     ]

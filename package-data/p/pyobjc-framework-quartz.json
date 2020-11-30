@@ -8,8 +8,8 @@
       "pyobjc-framework-cocoa"
     ],
     "specifiers": [
-      "pyobjc-core (>=7.0)",
-      "pyobjc-framework-cocoa (>=7.0)"
+      "pyobjc-core (>=7.0.1)",
+      "pyobjc-framework-cocoa (>=7.0.1)"
     ]
   },
   "requires_extras": {},

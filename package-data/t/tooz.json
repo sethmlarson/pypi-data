@@ -21,7 +21,7 @@
       "futurist (>=1.2.0)",
       "msgpack (>=0.4.0)",
       "oslo.serialization (>=1.10.0)",
-      "oslo.utils (>=3.15.0)",
+      "oslo.utils (>=4.7.0)",
       "pbr (>=1.6)",
       "stevedore (>=1.16.0)",
       "tenacity (>=3.2.1)",
@@ -60,7 +60,7 @@
         "etcd3gw"
       ],
       "specifiers": [
-        "etcd3gw (>=0.1.0); extra=='etcd3gw'"
+        "etcd3gw (!=0.2.6,>=0.1.0); extra=='etcd3gw'"
       ]
     },
     "ipc": {

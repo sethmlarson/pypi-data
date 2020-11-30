@@ -17,7 +17,100 @@
       "setuptools (>=38.4)"
     ]
   },
-  "requires_extras": {},
+  "requires_extras": {
+    "accel": {
+      "dists": [
+        "bottleneck",
+        "numbagg",
+        "scipy"
+      ],
+      "specifiers": [
+        "bottleneck; extra=='accel'",
+        "numbagg; extra=='accel'",
+        "scipy; extra=='accel'"
+      ]
+    },
+    "complete": {
+      "dists": [
+        "bottleneck",
+        "cfgrib",
+        "cftime",
+        "dask",
+        "fsspec",
+        "h5netcdf",
+        "matplotlib",
+        "nc-time-axis",
+        "netcdf4",
+        "numbagg",
+        "pydap",
+        "rasterio",
+        "scipy",
+        "seaborn",
+        "zarr"
+      ],
+      "specifiers": [
+        "bottleneck; extra=='complete'",
+        "cfgrib; extra=='complete'",
+        "cftime; extra=='complete'",
+        "dask[complete]; extra=='complete'",
+        "fsspec; extra=='complete'",
+        "h5netcdf; extra=='complete'",
+        "matplotlib; extra=='complete'",
+        "nc-time-axis; extra=='complete'",
+        "netcdf4; extra=='complete'",
+        "numbagg; extra=='complete'",
+        "pydap; extra=='complete'",
+        "rasterio; extra=='complete'",
+        "scipy; extra=='complete'",
+        "seaborn; extra=='complete'",
+        "zarr; extra=='complete'"
+      ]
+    },
+    "io": {
+      "dists": [
+        "cfgrib",
+        "cftime",
+        "fsspec",
+        "h5netcdf",
+        "netcdf4",
+        "pydap",
+        "rasterio",
+        "scipy",
+        "zarr"
+      ],
+      "specifiers": [
+        "cfgrib; extra=='io'",
+        "cftime; extra=='io'",
+        "fsspec; extra=='io'",
+        "h5netcdf; extra=='io'",
+        "netcdf4; extra=='io'",
+        "pydap; extra=='io'",
+        "rasterio; extra=='io'",
+        "scipy; extra=='io'",
+        "zarr; extra=='io'"
+      ]
+    },
+    "parallel": {
+      "dists": [
+        "dask"
+      ],
+      "specifiers": [
+        "dask[complete]; extra=='parallel'"
+      ]
+    },
+    "viz": {
+      "dists": [
+        "matplotlib",
+        "nc-time-axis",
+        "seaborn"
+      ],
+      "specifiers": [
+        "matplotlib; extra=='viz'",
+        "nc-time-axis; extra=='viz'",
+        "seaborn; extra=='viz'"
+      ]
+    }
+  },
   "requires_python": ">=3.6",
   "yanked": []
 }

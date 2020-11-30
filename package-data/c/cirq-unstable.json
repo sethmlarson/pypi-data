@@ -54,6 +54,7 @@
     "dev_env": {
       "dists": [
         "autoray",
+        "black",
         "filelock",
         "freezegun",
         "grpcio-tools",
@@ -79,11 +80,11 @@
         "sphinx",
         "sphinx-markdown-tables",
         "sphinx-rtd-theme",
-        "twine",
-        "yapf"
+        "twine"
       ],
       "specifiers": [
         "autoray; extra=='dev_env'",
+        "black (==20.8b1); extra=='dev_env'",
         "filelock; extra=='dev_env'",
         "freezegun (~=0.3.15); extra=='dev_env'",
         "grpcio-tools (~=1.26); extra=='dev_env'",
@@ -109,8 +110,7 @@
         "sphinx (~=3.2.0); extra=='dev_env'",
         "sphinx-markdown-tables; extra=='dev_env'",
         "sphinx-rtd-theme; extra=='dev_env'",
-        "twine; extra=='dev_env'",
-        "yapf (~=0.27.0); extra=='dev_env'"
+        "twine; extra=='dev_env'"
       ]
     }
   },

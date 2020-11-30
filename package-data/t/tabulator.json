@@ -73,7 +73,7 @@
         "pyquery"
       ],
       "specifiers": [
-        "pyquery (<2); extra=='html'"
+        "pyquery (<1.4.2); extra=='html'"
       ]
     },
     "ods": {

@@ -10,7 +10,7 @@
     ],
     "specifiers": [
       "pillow (>=8.0.1)",
-      "pythondebugtools (>=1.7.8)",
+      "pythondebugtools (>=1.8.0)",
       "tk-html-widgets (>=0.4.0)"
     ]
   },

@@ -13,7 +13,7 @@
     "specifiers": [
       "deprecated",
       "pyjwt",
-      "requests (>=2.14.0)"
+      "requests (<2.25,>=2.14.0)"
     ]
   },
   "requires_extras": {
