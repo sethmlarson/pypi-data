@@ -12,7 +12,7 @@
       "setuptools"
     ],
     "specifiers": [
-      "llvmlite (<0.36,>=0.35.0rc3)",
+      "llvmlite (<0.36,>=0.35.0)",
       "numpy (>=1.15)",
       "setuptools"
     ]

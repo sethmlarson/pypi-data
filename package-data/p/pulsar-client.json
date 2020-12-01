@@ -26,7 +26,7 @@
       "apache-bookkeeper-client (>=4.9.2)",
       "certifi",
       "enum34 (>=1.1.9); python_version<'3.4'",
-      "fastavro",
+      "fastavro (==0.24.0)",
       "grpcio",
       "prometheus-client",
       "protobuf (>=3.6.1)",

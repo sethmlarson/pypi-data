@@ -43,7 +43,7 @@
       "six (~=1.15.0)",
       "tb-nightly (~=2.5.0.a)",
       "termcolor (~=1.1.0)",
-      "tf-estimator-nightly (~=2.4.0.dev)",
+      "tf-estimator-nightly (~=2.5.0.dev)",
       "typing-extensions (~=3.7.4)",
       "wheel (~=0.35)",
       "wrapt (~=1.12.1)"

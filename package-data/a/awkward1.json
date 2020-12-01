@@ -4,22 +4,13 @@
   ],
   "requires_dist": {
     "dists": [
-      "numpy"
+      "awkward"
     ],
     "specifiers": [
-      "numpy (>=1.13.1)"
+      "awkward (>=1.0.0rc1)"
     ]
   },
-  "requires_extras": {
-    "cuda": {
-      "dists": [
-        "awkward1-cuda-kernels"
-      ],
-      "specifiers": [
-        "awkward1-cuda-kernels (==0.4.5); extra=='cuda'"
-      ]
-    }
-  },
+  "requires_extras": {},
   "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
   "yanked": []
 }

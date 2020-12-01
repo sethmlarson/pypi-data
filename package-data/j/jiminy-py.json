@@ -15,7 +15,8 @@
       "scipy",
       "toml",
       "tqdm",
-      "trimesh"
+      "trimesh",
+      "typing-extensions"
     ],
     "specifiers": [
       "h5py",
@@ -29,7 +30,8 @@
       "scipy",
       "toml",
       "tqdm",
-      "trimesh"
+      "trimesh",
+      "typing-extensions"
     ]
   },
   "requires_extras": {

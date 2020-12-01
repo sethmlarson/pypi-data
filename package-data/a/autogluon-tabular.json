@@ -18,7 +18,7 @@
       "xgboost"
     ],
     "specifiers": [
-      "autogluon.core (==0.0.15b20201130)",
+      "autogluon.core (==0.0.15b20201201)",
       "catboost (<0.25,>=0.23.0)",
       "gluoncv (<1.0,>=0.5.0)",
       "lightgbm (<4.0,>=3.0)",

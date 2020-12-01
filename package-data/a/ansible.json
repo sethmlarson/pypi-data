@@ -2,6 +2,8 @@
   "publishers": [
     "ansible",
     "badger",
+    "deric.crago",
+    "dmsimard",
     "gmainwaring",
     "jimi",
     "mattclay",

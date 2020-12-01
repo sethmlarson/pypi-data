@@ -24,7 +24,7 @@
       "networkx (~=2.4)",
       "numpy (~=1.16)",
       "pandas",
-      "protobuf (~=3.12.0)",
+      "protobuf (~=3.13.0)",
       "requests (~=2.18)",
       "scipy",
       "sortedcontainers (~=2.0)",

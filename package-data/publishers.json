@@ -6766,6 +6766,9 @@
   "derek.gulbranson": [
     "nameparser"
   ],
+  "deric.crago": [
+    "ansible"
+  ],
   "derks": [
     "cement"
   ],
@@ -7034,6 +7037,7 @@
     "shtab"
   ],
   "dmsimard": [
+    "ansible",
     "ara"
   ],
   "dmtucker": [

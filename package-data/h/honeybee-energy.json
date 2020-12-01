@@ -8,7 +8,7 @@
       "honeybee-standards"
     ],
     "specifiers": [
-      "honeybee-core (==1.41.3)",
+      "honeybee-core (==1.41.4)",
       "honeybee-standards (==2.0.0)"
     ]
   },

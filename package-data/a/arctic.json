@@ -10,8 +10,30 @@
     "wilfredh"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "decorator",
+      "enum-compat",
+      "futures",
+      "lz4",
+      "mockextras",
+      "pandas",
+      "pymongo",
+      "python-dateutil",
+      "pytz",
+      "tzlocal"
+    ],
+    "specifiers": [
+      "decorator",
+      "enum-compat",
+      "futures; python_version=='2.7'",
+      "lz4",
+      "mockextras",
+      "pandas",
+      "pymongo (>=3.6.0)",
+      "python-dateutil",
+      "pytz",
+      "tzlocal"
+    ]
   },
   "requires_extras": {},
   "requires_python": "",
