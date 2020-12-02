@@ -16,7 +16,7 @@
       "ruamel.yaml"
     ],
     "specifiers": [
-      "azureml-core (==1.18.0)",
+      "azureml-core (==1.18.0.*)",
       "distro (==1.4.0)",
       "jsonschema (==3.0.1)",
       "more-itertools (==6.0.0)",

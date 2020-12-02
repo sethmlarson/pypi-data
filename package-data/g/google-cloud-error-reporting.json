@@ -11,7 +11,7 @@
     ],
     "specifiers": [
       "google-api-core[grpc] (<2.0.0dev,>=1.22.0)",
-      "google-cloud-logging (<2.0dev,>=1.14.0)",
+      "google-cloud-logging (<2.1,>=1.14.0)",
       "libcst (>=0.2.5)",
       "proto-plus (>=1.4.0)"
     ]

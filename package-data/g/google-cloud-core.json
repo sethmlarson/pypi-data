@@ -4,10 +4,12 @@
   ],
   "requires_dist": {
     "dists": [
-      "google-api-core"
+      "google-api-core",
+      "six"
     ],
     "specifiers": [
-      "google-api-core (<2.0.0dev,>=1.19.0)"
+      "google-api-core (<2.0.0dev,>=1.21.0)",
+      "six (>=1.12.0)"
     ]
   },
   "requires_extras": {

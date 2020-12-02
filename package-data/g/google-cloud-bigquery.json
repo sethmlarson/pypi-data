@@ -40,9 +40,9 @@
         "opentelemetry-sdk"
       ],
       "specifiers": [
-        "opentelemetry-api (==0.9b0); extra=='opentelemetry'",
-        "opentelemetry-instrumentation (==0.9b0); extra=='opentelemetry'",
-        "opentelemetry-sdk (==0.9b0); extra=='opentelemetry'"
+        "opentelemetry-api (==0.11b0); extra=='opentelemetry'",
+        "opentelemetry-instrumentation (==0.11b0); extra=='opentelemetry'",
+        "opentelemetry-sdk (==0.11b0); extra=='opentelemetry'"
       ]
     },
     "pandas": {

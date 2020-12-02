@@ -10,7 +10,7 @@
       "setuptools"
     ],
     "specifiers": [
-      "grpcio (>=1.34.0rc1)",
+      "grpcio (>=1.34.0)",
       "protobuf (<4.0dev,>=3.5.0.post1)",
       "setuptools"
     ]

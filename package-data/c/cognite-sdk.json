@@ -6,11 +6,13 @@
   "requires_dist": {
     "dists": [
       "pandas",
-      "requests"
+      "requests",
+      "requests-oauthlib"
     ],
     "specifiers": [
       "pandas",
-      "requests (<3.0.0,>=2.21.0)"
+      "requests (<3.0.0,>=2.21.0)",
+      "requests-oauthlib (==1.3.0)"
     ]
   },
   "requires_extras": {},

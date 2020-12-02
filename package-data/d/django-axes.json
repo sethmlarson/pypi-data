@@ -5,8 +5,14 @@
     "jazzband"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "django",
+      "django-ipware"
+    ],
+    "specifiers": [
+      "django (>=2.0)",
+      "django-ipware (<4,>=3)"
+    ]
   },
   "requires_extras": {},
   "requires_python": "~=3.6",

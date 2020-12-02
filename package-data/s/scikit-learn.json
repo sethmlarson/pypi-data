@@ -25,14 +25,30 @@
     ]
   },
   "requires_extras": {
-    "alldeps": {
+    "benchmark": {
       "dists": [
-        "numpy",
-        "scipy"
+        "matplotlib",
+        "memory-profiler",
+        "pandas"
       ],
       "specifiers": [
-        "numpy (>=1.13.3); extra=='alldeps'",
-        "scipy (>=0.19.1); extra=='alldeps'"
+        "matplotlib (>=2.1.1); extra=='benchmark'",
+        "memory-profiler (>=0.57.0); extra=='benchmark'",
+        "pandas (>=0.25.0); extra=='benchmark'"
+      ]
+    },
+    "examples": {
+      "dists": [
+        "matplotlib",
+        "pandas",
+        "scikit-image",
+        "seaborn"
+      ],
+      "specifiers": [
+        "matplotlib (>=2.1.1); extra=='examples'",
+        "pandas (>=0.25.0); extra=='examples'",
+        "scikit-image (>=0.13); extra=='examples'",
+        "seaborn (>=0.9.0); extra=='examples'"
       ]
     }
   },
