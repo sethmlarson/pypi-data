@@ -7,10 +7,12 @@ import tempfile
 from tqdm import tqdm
 import urllib3
 from packaging.version import Version, InvalidVersion
+import jinja2
 
 
 base_dir = os.path.dirname((os.path.abspath(__file__)))
 package_data_dir = os.path.join(base_dir, "package-data")
+docs_dir = os.path.join(base_dir, "docs")
 http = urllib3.PoolManager(
     headers=urllib3.util.make_headers(
         keep_alive=True,
@@ -20,10 +22,15 @@ http = urllib3.PoolManager(
     retries=urllib3.util.Retry(status=10, backoff_factor=0.5),
 )
 wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
+jinja_env = jinja2.Environment(lstrip_blocks=True)
+jinja_env.loader = jinja2.FileSystemLoader(os.path.join(base_dir, "templates"))
 
 tmp_dir = tempfile.mkdtemp()
 os.system(f"virtualenv {tmp_dir}/venv > /dev/null")
 venv_python = os.path.join(tmp_dir, "venv/bin/python")
+
+with open("packages.txt") as f:
+    packages = [x for x in f.read().split() if x.strip()]
 
 
 def get_extras(req):
@@ -109,12 +116,36 @@ def get_metadata_by_install(package, resp):
     return resp
 
 
-with open(os.path.join(package_data_dir, "deleted.json")) as f:
-    deleted_data = json.loads(f.read())
+def update_github_pages():
+    package_data = {}
+    for package in packages:
+        with open(os.path.join(package_data_dir, package[0], f"{package}.json")) as f:
+            package_data[package] = json.loads(f.read())
+
+    with open(os.path.join(docs_dir, "index.md"), "w") as f:
+        f.truncate()
+        f.write(jinja_env.get_template("index.md").render(packages=packages))
+
+    for package, data in package_data.items():
+        package_md_path = os.path.join(
+            docs_dir, "packages", package[0], f"{package}.md"
+        )
+        os.makedirs(os.path.dirname(package_md_path), exist_ok=True)
+        with open(package_md_path, "w") as f:
+            f.truncate()
+            f.write(
+                jinja_env.get_template("package.md").render(
+                    package=package,
+                    package_data=data,
+                    dist_from_requires_dist=dist_from_requires_dist,
+                )
+            )
 
 
-with open("packages.txt") as f:
-    packages = [x for x in f.read().split() if x.strip()]
+def update_data_from_pypi():
+    with open(os.path.join(package_data_dir, "deleted.json")) as f:
+        deleted_data = json.loads(f.read())
+
     publisher_data = {}
     bad_versions_data = {}
     yanked_data = {}
@@ -300,3 +331,7 @@ with open("packages.txt") as f:
                 sort_keys=True,
             )
         )
+
+
+update_data_from_pypi()
+update_github_pages()

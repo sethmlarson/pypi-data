@@ -2,3 +2,4 @@ urllib3
 packaging
 tqdm
 virtualenv
+jinja2

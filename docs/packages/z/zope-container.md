@@ -1,0 +1,71 @@
+# [zope-container](https://pypi.org/project/zope-container)
+
+## Dependencies
+- [btrees](packages/b/btrees.md)
+- [persistent (>=4.1.0)](packages/p/persistent.md)
+- [setuptools](packages/s/setuptools.md)
+- [six](packages/s/six.md)
+- [zope.cachedescriptors](packages/z/zope.cachedescriptors.md)
+- [zope.component](packages/z/zope.component.md)
+- [zope.dottedname](packages/z/zope.dottedname.md)
+- [zope.event](packages/z/zope.event.md)
+- [zope.filerepresentation](packages/z/zope.filerepresentation.md)
+- [zope.i18nmessageid](packages/z/zope.i18nmessageid.md)
+- [zope.interface](packages/z/zope.interface.md)
+- [zope.lifecycleevent (>=3.5.2)](packages/z/zope.lifecycleevent.md)
+- [zope.location (>=3.5.4)](packages/z/zope.location.md)
+- [zope.proxy (>=4.1.5)](packages/z/zope.proxy.md)
+- [zope.publisher](packages/z/zope.publisher.md)
+- [zope.schema](packages/z/zope.schema.md)
+- [zope.security](packages/z/zope.security.md)
+- [zope.size](packages/z/zope.size.md)
+- [zope.traversing (>=4.0.0a1)](packages/z/zope.traversing.md)
+
+
+## Extras
+
+### zcml
+- [zope.component[zcml]; extra=='zcml'](packages/z/zope.component.md)
+- [zope.configuration; extra=='zcml'](packages/z/zope.configuration.md)
+- [zope.security[zcml] (>=4.0.0a3); extra=='zcml'](packages/z/zope.security.md)
+
+### zodb
+- [zodb (>=3.10); extra=='zodb'](packages/z/zodb.md)
+
+
+## Publishers
+- [agroszer](https://pypi.org/user/agroszer)
+- [alexsmith](https://pypi.org/user/alexsmith)
+- [alga](https://pypi.org/user/alga)
+- [baijum](https://pypi.org/user/baijum)
+- [benji](https://pypi.org/user/benji)
+- [ccomb](https://pypi.org/user/ccomb)
+- [chrism](https://pypi.org/user/chrism)
+- [chrisw](https://pypi.org/user/chrisw)
+- [ctheune](https://pypi.org/user/ctheune)
+- [davisagli](https://pypi.org/user/davisagli)
+- [faassen](https://pypi.org/user/faassen)
+- [fdrake](https://pypi.org/user/fdrake)
+- [gary](https://pypi.org/user/gary)
+- [hannosch](https://pypi.org/user/hannosch)
+- [hathawsh](https://pypi.org/user/hathawsh)
+- [icemac](https://pypi.org/user/icemac)
+- [ignas](https://pypi.org/user/ignas)
+- [J1m](https://pypi.org/user/J1m)
+- [jamadden](https://pypi.org/user/jamadden)
+- [kedder](https://pypi.org/user/kedder)
+- [menesis](https://pypi.org/user/menesis)
+- [mgedmin](https://pypi.org/user/mgedmin)
+- [nadako](https://pypi.org/user/nadako)
+- [pcardune](https://pypi.org/user/pcardune)
+- [philikon](https://pypi.org/user/philikon)
+- [projekt01](https://pypi.org/user/projekt01)
+- [roymath](https://pypi.org/user/roymath)
+- [sidnei](https://pypi.org/user/sidnei)
+- [srichter](https://pypi.org/user/srichter)
+- [tlotze](https://pypi.org/user/tlotze)
+- [tseaver](https://pypi.org/user/tseaver)
+- [zagy](https://pypi.org/user/zagy)
+- [zope.wheelbuilder](https://pypi.org/user/zope.wheelbuilder)
+- [zope.wineggbuilder](https://pypi.org/user/zope.wineggbuilder)
+
