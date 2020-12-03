@@ -26,7 +26,7 @@
       "dataclasses (==0.7); python_version<'3.7'",
       "dataclasses-json (==0.5.2)",
       "deprecation",
-      "meiga (>=1.2.11)",
+      "meiga (>=1.2.12)",
       "py-healthcheck (==1.7.2)",
       "pyjwt (>=1.7.1)",
       "python-dateutil (==2.8.1)",

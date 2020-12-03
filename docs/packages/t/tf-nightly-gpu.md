@@ -11,7 +11,7 @@
 - [keras-preprocessing (~=1.1.2)](packages/k/keras-preprocessing.md)
 - [numpy (~=1.19.2)](packages/n/numpy.md)
 - [opt-einsum (~=3.3.0)](packages/o/opt-einsum.md)
-- [protobuf (~=3.9.2)](packages/p/protobuf.md)
+- [protobuf (>=3.9.2)](packages/p/protobuf.md)
 - [six (~=1.15.0)](packages/s/six.md)
 - [tb-nightly (~=2.5.0.a)](packages/t/tb-nightly.md)
 - [termcolor (~=1.1.0)](packages/t/termcolor.md)

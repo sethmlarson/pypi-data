@@ -22,3 +22,7 @@
 - [skion](https://pypi.org/user/skion)
 - [the_drow](https://pypi.org/user/the_drow)
 
+
+## Yanked Versions
+- [1.1.0](https://pypi.org/project/oauthlib/1.1.0)
+ 

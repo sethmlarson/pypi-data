@@ -12,6 +12,7 @@
       "google-auth",
       "google-cloud-storage",
       "keras-tuner",
+      "tensorboard",
       "tensorflow",
       "tensorflow-datasets"
     ],
@@ -22,6 +23,7 @@
       "google-auth",
       "google-cloud-storage",
       "keras-tuner",
+      "tensorboard (>=2.3.0)",
       "tensorflow (<3.0,>=1.15.0)",
       "tensorflow-datasets (<3.1.0)"
     ]

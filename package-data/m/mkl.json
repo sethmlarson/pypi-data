@@ -5,10 +5,12 @@
   ],
   "requires_dist": {
     "dists": [
-      "intel-openmp"
+      "intel-openmp",
+      "tbb"
     ],
     "specifiers": [
-      "intel-openmp"
+      "intel-openmp (==2021.*)",
+      "tbb (==2021.*)"
     ]
   },
   "requires_extras": {},

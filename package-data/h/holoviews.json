@@ -1,6 +1,7 @@
 {
   "publishers": [
-    "ioam"
+    "ioam",
+    "pyviz"
   ],
   "requires_dist": {
     "dists": [
@@ -101,7 +102,7 @@
         "cftime; extra=='examples'",
         "dash (>=1.16); extra=='examples'",
         "dask; extra=='examples'",
-        "datashader (==0.11.1); extra=='examples'",
+        "datashader (>=0.11.1); extra=='examples'",
         "ffmpeg; extra=='examples'",
         "ibis-framework (>=1.3); extra=='examples'",
         "ipython (>=5.4.0); extra=='examples'",
@@ -150,7 +151,7 @@
         "cftime; extra=='extras'",
         "dash (>=1.16); extra=='extras'",
         "dask; extra=='extras'",
-        "datashader (==0.11.1); extra=='extras'",
+        "datashader (>=0.11.1); extra=='extras'",
         "ffmpeg; extra=='extras'",
         "ibis-framework (>=1.3); extra=='extras'",
         "ipython (>=5.4.0); extra=='extras'",
@@ -259,7 +260,7 @@
         "coveralls; extra=='unit_tests'",
         "dash (>=1.16); extra=='unit_tests'",
         "dask; extra=='unit_tests'",
-        "datashader (==0.11.1); extra=='unit_tests'",
+        "datashader (>=0.11.1); extra=='unit_tests'",
         "ffmpeg; extra=='unit_tests'",
         "flake8 (==3.6.0); extra=='unit_tests'",
         "ibis-framework (>=1.3); extra=='unit_tests'",

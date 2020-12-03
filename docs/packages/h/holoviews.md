@@ -40,7 +40,7 @@
 - [cftime; extra=='examples'](packages/c/cftime.md)
 - [dash (>=1.16); extra=='examples'](packages/d/dash.md)
 - [dask; extra=='examples'](packages/d/dask.md)
-- [datashader (==0.11.1); extra=='examples'](packages/d/datashader.md)
+- [datashader (>=0.11.1); extra=='examples'](packages/d/datashader.md)
 - [ffmpeg; extra=='examples'](packages/f/ffmpeg.md)
 - [ibis-framework (>=1.3); extra=='examples'](packages/i/ibis-framework.md)
 - [ipython (>=5.4.0); extra=='examples'](packages/i/ipython.md)
@@ -63,7 +63,7 @@
 - [cftime; extra=='extras'](packages/c/cftime.md)
 - [dash (>=1.16); extra=='extras'](packages/d/dash.md)
 - [dask; extra=='extras'](packages/d/dask.md)
-- [datashader (==0.11.1); extra=='extras'](packages/d/datashader.md)
+- [datashader (>=0.11.1); extra=='extras'](packages/d/datashader.md)
 - [ffmpeg; extra=='extras'](packages/f/ffmpeg.md)
 - [ibis-framework (>=1.3); extra=='extras'](packages/i/ibis-framework.md)
 - [ipython (>=5.4.0); extra=='extras'](packages/i/ipython.md)
@@ -110,7 +110,7 @@
 - [coveralls; extra=='unit_tests'](packages/c/coveralls.md)
 - [dash (>=1.16); extra=='unit_tests'](packages/d/dash.md)
 - [dask; extra=='unit_tests'](packages/d/dask.md)
-- [datashader (==0.11.1); extra=='unit_tests'](packages/d/datashader.md)
+- [datashader (>=0.11.1); extra=='unit_tests'](packages/d/datashader.md)
 - [ffmpeg; extra=='unit_tests'](packages/f/ffmpeg.md)
 - [flake8 (==3.6.0); extra=='unit_tests'](packages/f/flake8.md)
 - [ibis-framework (>=1.3); extra=='unit_tests'](packages/i/ibis-framework.md)
@@ -141,4 +141,5 @@
 
 ## Publishers
 - [ioam](https://pypi.org/user/ioam)
+- [pyviz](https://pypi.org/user/pyviz)
 

@@ -2,6 +2,7 @@
   "publishers": [
     "aio-libs-bot",
     "Andrew.Svetlov",
+    "Pliner",
     "popravich"
   ],
   "requires_dist": {

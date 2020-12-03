@@ -7,7 +7,7 @@
 - [dataclasses (==0.7); python_version<'3.7'](packages/d/dataclasses.md)
 - [dataclasses-json (==0.5.2)](packages/d/dataclasses-json.md)
 - [deprecation](packages/d/deprecation.md)
-- [meiga (>=1.2.11)](packages/m/meiga.md)
+- [meiga (>=1.2.12)](packages/m/meiga.md)
 - [py-healthcheck (==1.7.2)](packages/p/py-healthcheck.md)
 - [pyjwt (>=1.7.1)](packages/p/pyjwt.md)
 - [python-dateutil (==2.8.1)](packages/p/python-dateutil.md)

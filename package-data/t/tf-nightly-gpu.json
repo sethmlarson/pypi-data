@@ -38,7 +38,7 @@
       "keras-preprocessing (~=1.1.2)",
       "numpy (~=1.19.2)",
       "opt-einsum (~=3.3.0)",
-      "protobuf (~=3.9.2)",
+      "protobuf (>=3.9.2)",
       "six (~=1.15.0)",
       "tb-nightly (~=2.5.0.a)",
       "termcolor (~=1.1.0)",

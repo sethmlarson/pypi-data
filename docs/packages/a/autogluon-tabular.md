@@ -1,7 +1,7 @@
 # [autogluon-tabular](https://pypi.org/project/autogluon-tabular)
 
 ## Dependencies
-- [autogluon.core (==0.0.15b20201202)](packages/a/autogluon.core.md)
+- [autogluon.core (==0.0.15b20201203)](packages/a/autogluon.core.md)
 - [catboost (<0.25,>=0.23.0)](packages/c/catboost.md)
 - [gluoncv (<1.0,>=0.5.0)](packages/g/gluoncv.md)
 - [lightgbm (<4.0,>=3.0)](packages/l/lightgbm.md)

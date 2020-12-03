@@ -2,8 +2,8 @@
 
 ## Dependencies
 - [aws-sam-translator (>=1.25.0)](packages/a/aws-sam-translator.md)
+- [importlib-resources (<4,>=1.4); python_version<'3.7' and python_version !='3.4'](packages/i/importlib-resources.md)
 - [importlib-resources (~=1.0.2); python_version=='3.4'](packages/i/importlib-resources.md)
-- [importlib-resources (~=1.4); python_version<'3.7' and python_version !='3.4'](packages/i/importlib-resources.md)
 - [jsonpatch (<=1.24); python_version=='3.4'](packages/j/jsonpatch.md)
 - [jsonpatch; python_version !='3.4'](packages/j/jsonpatch.md)
 - [jsonschema (~=3.0)](packages/j/jsonschema.md)

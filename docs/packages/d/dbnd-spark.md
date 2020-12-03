@@ -1,7 +1,7 @@
 # [dbnd-spark](https://pypi.org/project/dbnd-spark)
 
 ## Dependencies
-- [dbnd (==0.30.8)](packages/d/dbnd.md)
+- [dbnd (==0.31.0)](packages/d/dbnd.md)
 
 
 

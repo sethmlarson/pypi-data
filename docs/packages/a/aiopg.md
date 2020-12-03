@@ -13,5 +13,6 @@
 ## Publishers
 - [aio-libs-bot](https://pypi.org/user/aio-libs-bot)
 - [Andrew.Svetlov](https://pypi.org/user/Andrew.Svetlov)
+- [Pliner](https://pypi.org/user/Pliner)
 - [popravich](https://pypi.org/user/popravich)
 

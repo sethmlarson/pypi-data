@@ -1742,6 +1742,9 @@
     "js2py",
     "pyjsparser"
   ],
+  "Pliner": [
+    "aiopg"
+  ],
   "Pr0Ger": [
     "apns2"
   ],
@@ -16819,6 +16822,7 @@
   ],
   "pyviz": [
     "colorcet",
+    "holoviews",
     "hvplot",
     "panel",
     "param",
@@ -18373,9 +18377,6 @@
   ],
   "shreejos": [
     "amazon-dax-client"
-  ],
-  "shuof": [
-    "quandl"
   ],
   "sickrage": [
     "sickrage"

@@ -2,8 +2,9 @@
 
 ## Dependencies
 - [billiard (<4.0,>=3.6.3.0)](packages/b/billiard.md)
-- [click (>=7.0)](packages/c/click.md)
+- [click (<8.0,>=7.0)](packages/c/click.md)
 - [click-didyoumean (>=0.0.3)](packages/c/click-didyoumean.md)
+- [click-plugins (>=1.1.1)](packages/c/click-plugins.md)
 - [click-repl (>=0.1.6)](packages/c/click-repl.md)
 - [kombu (<6.0,>=5.0.0)](packages/k/kombu.md)
 - [pytz (>dev)](packages/p/pytz.md)
@@ -77,6 +78,9 @@
 
 ### pyro
 - [pyro4; extra=='pyro'](packages/p/pyro4.md)
+
+### pytest
+- [pytest-celery; extra=='pytest'](packages/p/pytest-celery.md)
 
 ### redis
 - [redis (>=3.2.0); extra=='redis'](packages/r/redis.md)

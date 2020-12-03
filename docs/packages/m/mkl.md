@@ -1,7 +1,8 @@
 # [mkl](https://pypi.org/project/mkl)
 
 ## Dependencies
-- [intel-openmp](packages/i/intel-openmp.md)
+- [intel-openmp (==2021.*)](packages/i/intel-openmp.md)
+- [tbb (==2021.*)](packages/t/tbb.md)
 
 
 

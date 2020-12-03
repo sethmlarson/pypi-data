@@ -5,8 +5,7 @@
     "eric.vautour",
     "jjmar",
     "junos",
-    "scott_quandl",
-    "shuof"
+    "scott_quandl"
   ],
   "requires_dist": {
     "dists": [

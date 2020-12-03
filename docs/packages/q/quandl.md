@@ -18,5 +18,4 @@
 - [jjmar](https://pypi.org/user/jjmar)
 - [junos](https://pypi.org/user/junos)
 - [scott_quandl](https://pypi.org/user/scott_quandl)
-- [shuof](https://pypi.org/user/shuof)
 

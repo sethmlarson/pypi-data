@@ -3,8 +3,12 @@
     "mtkennerly"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "setuptools"
+    ],
+    "specifiers": [
+      "setuptools (>=8.0)"
+    ]
   },
   "requires_extras": {},
   "requires_python": ">=3.5,<4.0",
