@@ -12,7 +12,7 @@
 - [pyyaml (~=5.3.1)](packages/p/pyyaml.md)
 - [requests (~=2.23.0)](packages/r/requests.md)
 - [rstb (>=1.2.0)](packages/r/rstb.md)
-- [xxhash (~=1.4.3)](packages/x/xxhash.md)
+- [xxhash (~=1.4)](packages/x/xxhash.md)
 
 
 

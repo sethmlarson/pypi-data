@@ -2,8 +2,8 @@
 
 ## Dependencies
 - [click (>=7.0)](packages/c/click.md)
-- [dagster (==0.9.20)](packages/d/dagster.md)
-- [dagster-graphql (==0.9.20)](packages/d/dagster-graphql.md)
+- [dagster (==0.9.21)](packages/d/dagster.md)
+- [dagster-graphql (==0.9.21)](packages/d/dagster-graphql.md)
 - [enum34; python_version<'3.4'](packages/e/enum34.md)
 - [flask (>=0.12.4)](packages/f/flask.md)
 - [flask-cors (>=3.0.6)](packages/f/flask-cors.md)
