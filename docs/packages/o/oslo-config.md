@@ -11,6 +11,12 @@
 - [stevedore (>=1.20.0)](packages/s/stevedore.md)
 
 
+## Extras
+
+### rst_generator
+- [rst2txt (>=1.1.0); extra=='rst_generator'](packages/r/rst2txt.md)
+- [sphinx (!=2.1.0,>=1.8.0); extra=='rst_generator'](packages/s/sphinx.md)
+
 
 ## Publishers
 - [markmc](https://pypi.org/user/markmc)

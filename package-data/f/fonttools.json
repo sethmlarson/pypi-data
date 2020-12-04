@@ -89,12 +89,12 @@
     "woff": {
       "dists": [
         "brotli",
-        "brotlipy",
+        "brotlicffi",
         "zopfli"
       ],
       "specifiers": [
-        "brotli (>=1.0.1); (platform_python_implementation !='pypy') and extra=='woff'",
-        "brotlipy (>=0.7.0); (platform_python_implementation=='pypy') and extra=='woff'",
+        "brotli (>=1.0.1); (platform_python_implementation=='cpython') and extra=='woff'",
+        "brotlicffi (>=0.8.0); (platform_python_implementation !='cpython') and extra=='woff'",
         "zopfli (>=0.1.4); extra=='woff'"
       ]
     }

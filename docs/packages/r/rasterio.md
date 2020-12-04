@@ -3,6 +3,7 @@
 ## Dependencies
 - [affine](packages/a/affine.md)
 - [attrs](packages/a/attrs.md)
+- [certifi](packages/c/certifi.md)
 - [click (<8,>=4.0)](packages/c/click.md)
 - [click-plugins](packages/c/click-plugins.md)
 - [cligj (>=0.5)](packages/c/cligj.md)

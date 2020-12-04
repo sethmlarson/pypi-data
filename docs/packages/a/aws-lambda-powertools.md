@@ -10,6 +10,7 @@
 ## Extras
 
 ### pydantic
+- [email-validator; extra=='pydantic'](packages/e/email-validator.md)
 - [pydantic (>=1.6.0,<2.0.0); extra=='pydantic'](packages/p/pydantic.md)
 - [typing_extensions (>=3.7.4.2,<4.0.0.0); extra=='pydantic'](packages/t/typing_extensions.md)
 

@@ -10,7 +10,7 @@
 - [oslo.log (>=3.36.0)](packages/o/oslo.log.md)
 - [oslo.messaging (>=5.29.0)](packages/o/oslo.messaging.md)
 - [oslo.serialization (!=2.19.1,>=2.18.0)](packages/o/oslo.serialization.md)
-- [oslo.utils (>=3.33.0)](packages/o/oslo.utils.md)
+- [oslo.utils (>=4.7.0)](packages/o/oslo.utils.md)
 - [webob (>=1.7.1)](packages/w/webob.md)
 
 

@@ -11,7 +11,7 @@
 - [keras-preprocessing (~=1.1.2)](packages/k/keras-preprocessing.md)
 - [numpy (~=1.19.2)](packages/n/numpy.md)
 - [opt-einsum (~=3.3.0)](packages/o/opt-einsum.md)
-- [protobuf (~=3.13.0)](packages/p/protobuf.md)
+- [protobuf (>=3.9.2)](packages/p/protobuf.md)
 - [six (~=1.15.0)](packages/s/six.md)
 - [tensorboard (~=2.4)](packages/t/tensorboard.md)
 - [tensorflow-estimator (<2.5.0,>=2.4.0rc0)](packages/t/tensorflow-estimator.md)

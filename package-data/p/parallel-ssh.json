@@ -16,5 +16,7 @@
   },
   "requires_extras": {},
   "requires_python": "",
-  "yanked": []
+  "yanked": [
+    "2.3.0"
+  ]
 }

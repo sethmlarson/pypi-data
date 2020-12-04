@@ -6,6 +6,7 @@
 - [grpc-google-iam-v1 (<0.13dev,>=0.12.3)](packages/g/grpc-google-iam-v1.md)
 - [libcst (>=0.2.5)](packages/l/libcst.md)
 - [proto-plus (==1.11.0)](packages/p/proto-plus.md)
+- [sqlparse (>=0.3.0)](packages/s/sqlparse.md)
 
 
 ## Extras

@@ -10,3 +10,7 @@
 ## Publishers
 - [pkittenis](https://pypi.org/user/pkittenis)
 
+
+## Yanked Versions
+- [2.3.0](https://pypi.org/project/parallel-ssh/2.3.0)
+ 

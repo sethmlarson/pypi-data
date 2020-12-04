@@ -21,6 +21,7 @@
       "pyyaml",
       "setuptools",
       "uvicorn",
+      "websockets",
       "zope.interface"
     ],
     "specifiers": [
@@ -33,13 +34,14 @@
       "lru-dict",
       "multidict",
       "mypy-extensions",
-      "orjson",
+      "orjson (==2.6.0)",
       "pycryptodome",
       "pyjwt",
       "python-dateutil",
       "pyyaml (>=5.1)",
       "setuptools",
       "uvicorn",
+      "websockets",
       "zope.interface"
     ]
   },
@@ -78,6 +80,14 @@
       "specifiers": [
         "aiohttp (<3.6.0,>=3.0.0); (python_version<'3.8') and extra=='testdata'",
         "aiohttp (<4.0.0,>=3.6.0); (python_version>='3.8') and extra=='testdata'"
+      ]
+    },
+    "validation": {
+      "dists": [
+        "pytz"
+      ],
+      "specifiers": [
+        "pytz (==2020.1); extra=='validation'"
       ]
     }
   },

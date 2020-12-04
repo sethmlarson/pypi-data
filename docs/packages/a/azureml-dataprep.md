@@ -2,8 +2,8 @@
 
 ## Dependencies
 - [azure-identity (<1.5.0,>=1.2.0)](packages/a/azure-identity.md)
-- [azureml-dataprep-native (<27.0.0,>=26.0.0)](packages/a/azureml-dataprep-native.md)
-- [azureml-dataprep-rslex (<1.5.0a,>=1.4.0dev0)](packages/a/azureml-dataprep-rslex.md)
+- [azureml-dataprep-native (<28.0.0,>=27.0.0)](packages/a/azureml-dataprep-native.md)
+- [azureml-dataprep-rslex (<1.6.0a,>=1.5.0dev0)](packages/a/azureml-dataprep-rslex.md)
 - [cloudpickle (<2.0.0,>=1.1.0)](packages/c/cloudpickle.md)
 - [dotnetcore2 (<3.0.0,>=2.1.14)](packages/d/dotnetcore2.md)
 

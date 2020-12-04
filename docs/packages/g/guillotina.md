@@ -10,13 +10,14 @@
 - [lru-dict](packages/l/lru-dict.md)
 - [multidict](packages/m/multidict.md)
 - [mypy-extensions](packages/m/mypy-extensions.md)
-- [orjson](packages/o/orjson.md)
+- [orjson (==2.6.0)](packages/o/orjson.md)
 - [pycryptodome](packages/p/pycryptodome.md)
 - [pyjwt](packages/p/pyjwt.md)
 - [python-dateutil](packages/p/python-dateutil.md)
 - [pyyaml (>=5.1)](packages/p/pyyaml.md)
 - [setuptools](packages/s/setuptools.md)
 - [uvicorn](packages/u/uvicorn.md)
+- [websockets](packages/w/websockets.md)
 - [zope.interface](packages/z/zope.interface.md)
 
 
@@ -36,6 +37,9 @@
 ### testdata
 - [aiohttp (<3.6.0,>=3.0.0); (python_version<'3.8') and extra=='testdata'](packages/a/aiohttp.md)
 - [aiohttp (<4.0.0,>=3.6.0); (python_version>='3.8') and extra=='testdata'](packages/a/aiohttp.md)
+
+### validation
+- [pytz (==2020.1); extra=='validation'](packages/p/pytz.md)
 
 
 ## Publishers

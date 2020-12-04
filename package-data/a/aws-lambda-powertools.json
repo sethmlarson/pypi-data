@@ -19,10 +19,12 @@
   "requires_extras": {
     "pydantic": {
       "dists": [
+        "email-validator",
         "pydantic",
         "typing_extensions"
       ],
       "specifiers": [
+        "email-validator; extra=='pydantic'",
         "pydantic (>=1.6.0,<2.0.0); extra=='pydantic'",
         "typing_extensions (>=3.7.4.2,<4.0.0.0); extra=='pydantic'"
       ]

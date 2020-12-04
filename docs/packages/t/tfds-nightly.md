@@ -9,7 +9,7 @@
 - [importlib-resources; python_version<'3.9'](packages/i/importlib-resources.md)
 - [numpy](packages/n/numpy.md)
 - [promise](packages/p/promise.md)
-- [protobuf (>=3.6.1)](packages/p/protobuf.md)
+- [protobuf (>=3.12.2)](packages/p/protobuf.md)
 - [requests (>=2.19.0)](packages/r/requests.md)
 - [six](packages/s/six.md)
 - [tensorflow-metadata](packages/t/tensorflow-metadata.md)

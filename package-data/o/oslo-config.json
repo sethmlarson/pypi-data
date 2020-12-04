@@ -25,7 +25,18 @@
       "stevedore (>=1.20.0)"
     ]
   },
-  "requires_extras": {},
+  "requires_extras": {
+    "rst_generator": {
+      "dists": [
+        "rst2txt",
+        "sphinx"
+      ],
+      "specifiers": [
+        "rst2txt (>=1.1.0); extra=='rst_generator'",
+        "sphinx (!=2.1.0,>=1.8.0); extra=='rst_generator'"
+      ]
+    }
+  },
   "requires_python": ">=3.6",
   "yanked": []
 }

@@ -32,8 +32,8 @@
 - [unicodedata2 (>=13.0.0); (python_version<'3.9' and platform_python_implementation !='pypy') and extra=='unicode'](packages/u/unicodedata2.md)
 
 ### woff
-- [brotli (>=1.0.1); (platform_python_implementation !='pypy') and extra=='woff'](packages/b/brotli.md)
-- [brotlipy (>=0.7.0); (platform_python_implementation=='pypy') and extra=='woff'](packages/b/brotlipy.md)
+- [brotli (>=1.0.1); (platform_python_implementation=='cpython') and extra=='woff'](packages/b/brotli.md)
+- [brotlicffi (>=0.8.0); (platform_python_implementation !='cpython') and extra=='woff'](packages/b/brotlicffi.md)
 - [zopfli (>=0.1.4); extra=='woff'](packages/z/zopfli.md)
 
 

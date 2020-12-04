@@ -20,7 +20,6 @@
 - [kafka-python (>=1.4,<3.0)](packages/k/kafka-python.md)
 - [matplotlib (>=3.1,<3.4)](packages/m/matplotlib.md)
 - [mattermostwrapper (>=2.2,<2.3)](packages/m/mattermostwrapper.md)
-- [multidict (>=4.6,<5.0)](packages/m/multidict.md)
 - [networkx (>=2.4,<2.6)](packages/n/networkx.md)
 - [numpy (>=1.16,<2.0)](packages/n/numpy.md)
 - [oauth2client (==4.1.3)](packages/o/oauth2client.md)

@@ -37,7 +37,7 @@
 - [pillow (==6.2.2); python_version<'3.5'](packages/p/pillow.md)
 - [pillow (==7.2.0); python_version>='3.5' and python_version<'3.6'](packages/p/pillow.md)
 - [pillow (==8.0.1); python_version>='3.6'](packages/p/pillow.md)
-- [pip (>=20.3)](packages/p/pip.md)
+- [pip (>=20.3.1)](packages/p/pip.md)
 - [pluggy (==0.13.1)](packages/p/pluggy.md)
 - [prompt-toolkit (==1.0.18); python_version<'3.6'](packages/p/prompt-toolkit.md)
 - [prompt-toolkit (==3.0.8); python_version>='3.6'](packages/p/prompt-toolkit.md)

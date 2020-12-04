@@ -27,7 +27,7 @@
       "oslo.log (>=3.36.0)",
       "oslo.messaging (>=5.29.0)",
       "oslo.serialization (!=2.19.1,>=2.18.0)",
-      "oslo.utils (>=3.33.0)",
+      "oslo.utils (>=4.7.0)",
       "webob (>=1.7.1)"
     ]
   },

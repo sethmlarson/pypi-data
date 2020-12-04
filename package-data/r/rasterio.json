@@ -6,6 +6,7 @@
     "dists": [
       "affine",
       "attrs",
+      "certifi",
       "click",
       "click-plugins",
       "cligj",
@@ -16,6 +17,7 @@
     "specifiers": [
       "affine",
       "attrs",
+      "certifi",
       "click (<8,>=4.0)",
       "click-plugins",
       "cligj (>=0.5)",

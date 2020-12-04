@@ -7,7 +7,7 @@
 ## Extras
 
 ### cuda
-- [awkward-cuda-kernels (==1.0.0rc1); extra=='cuda'](packages/a/awkward-cuda-kernels.md)
+- [awkward-cuda-kernels (==1.0.0rc2); extra=='cuda'](packages/a/awkward-cuda-kernels.md)
 
 
 ## Publishers
