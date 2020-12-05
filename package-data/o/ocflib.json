@@ -36,7 +36,7 @@
       "pysnmp",
       "pyyaml",
       "redis",
-      "requests",
+      "requests (<2.25)",
       "sqlalchemy"
     ]
   },

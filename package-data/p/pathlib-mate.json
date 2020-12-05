@@ -4,11 +4,13 @@
   ],
   "requires_dist": {
     "dists": [
+      "atomicwrites",
       "autopep8",
       "scandir",
       "six"
     ],
     "specifiers": [
+      "atomicwrites",
       "autopep8",
       "scandir; python_version<'3.5'",
       "six"

@@ -20,10 +20,10 @@
       "requests"
     ],
     "specifiers": [
-      "annofabapi (>=0.39.0)",
-      "bokeh (>=2.2.3,<3.0.0)",
+      "annofabapi (>=0.40,<0.41)",
+      "bokeh (>=2.2,<3.0)",
       "dictdiffer",
-      "holoviews (>=1.13.5,<2.0.0)",
+      "holoviews (>=1.14,<2.0)",
       "isodate",
       "jmespath",
       "more-itertools",

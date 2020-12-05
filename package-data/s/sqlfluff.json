@@ -1,6 +1,7 @@
 {
   "publishers": [
-    "alanmcruickshank"
+    "alanmcruickshank",
+    "nolanbconaway"
   ],
   "requires_dist": {
     "dists": [],

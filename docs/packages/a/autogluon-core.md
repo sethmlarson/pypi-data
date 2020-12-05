@@ -16,7 +16,7 @@
 - [requests](packages/r/requests.md)
 - [scikit-learn (<0.24,>=0.22.0)](packages/s/scikit-learn.md)
 - [scikit-optimize](packages/s/scikit-optimize.md)
-- [scipy (>=1.3.3)](packages/s/scipy.md)
+- [scipy (<1.5.0,>=1.3.3)](packages/s/scipy.md)
 - [tornado (>=5.0.1)](packages/t/tornado.md)
 - [tqdm (>=4.38.0)](packages/t/tqdm.md)
 

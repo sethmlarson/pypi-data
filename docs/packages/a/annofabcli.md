@@ -1,10 +1,10 @@
 # [annofabcli](https://pypi.org/project/annofabcli)
 
 ## Dependencies
-- [annofabapi (>=0.39.0)](packages/a/annofabapi.md)
-- [bokeh (>=2.2.3,<3.0.0)](packages/b/bokeh.md)
+- [annofabapi (>=0.40,<0.41)](packages/a/annofabapi.md)
+- [bokeh (>=2.2,<3.0)](packages/b/bokeh.md)
 - [dictdiffer](packages/d/dictdiffer.md)
-- [holoviews (>=1.13.5,<2.0.0)](packages/h/holoviews.md)
+- [holoviews (>=1.14,<2.0)](packages/h/holoviews.md)
 - [isodate](packages/i/isodate.md)
 - [jmespath](packages/j/jmespath.md)
 - [more-itertools](packages/m/more-itertools.md)

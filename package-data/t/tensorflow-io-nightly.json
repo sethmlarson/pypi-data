@@ -11,7 +11,7 @@
       "tensorflow"
     ],
     "specifiers": [
-      "tensorflow (<2.5.0,>=2.4.0rc3)"
+      "tensorflow (<2.5.0,>=2.4.0rc4)"
     ]
   },
   "requires_extras": {},

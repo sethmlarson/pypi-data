@@ -16,6 +16,7 @@
 - [lz4; python_version>'3.0'](packages/l/lz4.md)
 - [pandas](packages/p/pandas.md)
 - [plotly (>=4.9.0)](packages/p/plotly.md)
+- [ppscore; python_version>='3.6'](packages/p/ppscore.md)
 - [requests](packages/r/requests.md)
 - [scikit-learn (>='0.21.0)](packages/s/scikit-learn.md)
 - [scipy](packages/s/scipy.md)

@@ -80,7 +80,7 @@
 - [traitlets (==5.0.5); python_version>='3.7'](packages/t/traitlets.md)
 - [urllib3 (==1.26.2)](packages/u/urllib3.md)
 - [virtualenv (>=20.2.1)](packages/v/virtualenv.md)
-- [wheel (>=0.36.0)](packages/w/wheel.md)
+- [wheel (>=0.36.1)](packages/w/wheel.md)
 - [zipp (==1.2.0); python_version<'3.6'](packages/z/zipp.md)
 - [zipp (==3.4.0); python_version>='3.6'](packages/z/zipp.md)
 

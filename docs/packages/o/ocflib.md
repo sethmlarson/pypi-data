@@ -14,7 +14,7 @@
 - [pysnmp](packages/p/pysnmp.md)
 - [pyyaml](packages/p/pyyaml.md)
 - [redis](packages/r/redis.md)
-- [requests](packages/r/requests.md)
+- [requests (<2.25)](packages/r/requests.md)
 - [sqlalchemy](packages/s/sqlalchemy.md)
 
 

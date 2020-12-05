@@ -8,6 +8,7 @@
 - [itsdangerous](packages/i/itsdangerous.md)
 - [jinja2](packages/j/jinja2.md)
 - [toml](packages/t/toml.md)
+- [typing-extensions; python_version<'3.8'](packages/t/typing-extensions.md)
 - [werkzeug (>=1.0.0)](packages/w/werkzeug.md)
 
 

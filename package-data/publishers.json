@@ -15421,6 +15421,9 @@
     "flask-restplus",
     "udata"
   ],
+  "nolanbconaway": [
+    "sqlfluff"
+  ],
   "norman": [
     "python-nmap"
   ],

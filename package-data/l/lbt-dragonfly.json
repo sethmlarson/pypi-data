@@ -9,7 +9,7 @@
     ],
     "specifiers": [
       "dragonfly-energy (==1.10.74)",
-      "lbt-honeybee (==0.2.253)"
+      "lbt-honeybee (==0.2.256)"
     ]
   },
   "requires_extras": {
@@ -20,7 +20,7 @@
       ],
       "specifiers": [
         "click (==7.1.2); extra=='cli'",
-        "dragonfly-schema (==1.6.19); (python_version>='3.6') and extra=='cli'"
+        "dragonfly-schema (==1.6.20); (python_version>='3.6') and extra=='cli'"
       ]
     }
   },

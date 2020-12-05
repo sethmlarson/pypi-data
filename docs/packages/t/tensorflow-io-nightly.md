@@ -1,7 +1,7 @@
 # [tensorflow-io-nightly](https://pypi.org/project/tensorflow-io-nightly)
 
 ## Dependencies
-- [tensorflow (<2.5.0,>=2.4.0rc3)](packages/t/tensorflow.md)
+- [tensorflow (<2.5.0,>=2.4.0rc4)](packages/t/tensorflow.md)
 
 
 
