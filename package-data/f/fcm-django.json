@@ -9,7 +9,7 @@
     ],
     "specifiers": [
       "django",
-      "pyfcm (==1.4.7)"
+      "pyfcm (==1.4.9)"
     ]
   },
   "requires_extras": {},

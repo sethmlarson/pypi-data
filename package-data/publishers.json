@@ -3072,7 +3072,8 @@
   "altendky": [
     "pyqt5-plugins",
     "pyqt5-tools",
-    "qt5-applications"
+    "qt5-applications",
+    "towncrier"
   ],
   "althonos": [
     "property-cached"
@@ -7972,6 +7973,7 @@
   "exarkun": [
     "klein",
     "pyopenssl",
+    "towncrier",
     "twisted",
     "txaws",
     "zfec"
@@ -9034,6 +9036,7 @@
     "publication",
     "pypiwin32",
     "pywin32",
+    "towncrier",
     "treq",
     "twisted"
   ],
@@ -18717,6 +18720,9 @@
   "sovrin_packaging": [
     "indy-node-dev",
     "indy-plenum-dev"
+  ],
+  "spacegaier": [
+    "voluptuous"
   ],
   "spark-upload": [
     "pyspark"

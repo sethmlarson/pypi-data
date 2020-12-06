@@ -10,7 +10,7 @@
       "psycopg2-binary"
     ],
     "specifiers": [
-      "psycopg2-binary (>=2.7.0)"
+      "psycopg2-binary (>=2.8.4)"
     ]
   },
   "requires_extras": {
@@ -23,6 +23,6 @@
       ]
     }
   },
-  "requires_python": ">=3.5.3",
+  "requires_python": ">=3.6",
   "yanked": []
 }

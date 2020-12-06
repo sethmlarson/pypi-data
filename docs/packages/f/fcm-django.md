@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [django](packages/d/django.md)
-- [pyfcm (==1.4.7)](packages/p/pyfcm.md)
+- [pyfcm (==1.4.9)](packages/p/pyfcm.md)
 
 
 

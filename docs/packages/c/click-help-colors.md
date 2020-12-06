@@ -1,7 +1,7 @@
 # [click-help-colors](https://pypi.org/project/click-help-colors)
 
 ## Dependencies
-- [click (<8,>=7.0)](packages/c/click.md)
+- [click (<9,>=7.0)](packages/c/click.md)
 
 
 

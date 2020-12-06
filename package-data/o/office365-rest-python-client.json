@@ -15,12 +15,12 @@
     ]
   },
   "requires_extras": {
-    "ntlmauthentication": {
+    "ntlmprovider": {
       "dists": [
         "requests-ntlm"
       ],
       "specifiers": [
-        "requests-ntlm; extra=='ntlmauthentication'"
+        "requests-ntlm; extra=='ntlmprovider'"
       ]
     }
   },

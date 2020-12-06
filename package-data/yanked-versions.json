@@ -93,6 +93,9 @@
   "datarobot": [
     "2.22.0"
   ],
+  "decorator": [
+    "4.0.7"
+  ],
   "diff-cover": [
     "4.0.0"
   ],

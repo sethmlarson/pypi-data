@@ -6,6 +6,7 @@
 - [configspace (<=0.4.16)](packages/c/configspace.md)
 - [cython](packages/c/cython.md)
 - [dask (>=2.6.0)](packages/d/dask.md)
+- [dill (==0.3.3)](packages/d/dill.md)
 - [distributed (>=2.6.0)](packages/d/distributed.md)
 - [graphviz (<0.9.0,>=0.8.1)](packages/g/graphviz.md)
 - [matplotlib](packages/m/matplotlib.md)

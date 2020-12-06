@@ -1,5 +1,8 @@
 {
   "publishers": [
+    "altendky",
+    "exarkun",
+    "glyph",
     "hawkowl"
   ],
   "requires_dist": {

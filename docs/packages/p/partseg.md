@@ -2,7 +2,6 @@
 
 ## Dependencies
 - [appdirs (>=1.4.3)](packages/a/appdirs.md)
-- [cython (>=0.29.13)](packages/c/cython.md)
 - [czifile (>=2019.5.22)](packages/c/czifile.md)
 - [dataclasses (>=0.7); python_version<'3.7'](packages/d/dataclasses.md)
 - [defusedxml (>=0.6.0)](packages/d/defusedxml.md)
@@ -22,11 +21,11 @@
 - [requests (>=2.18.0)](packages/r/requests.md)
 - [scipy (>=0.19.1)](packages/s/scipy.md)
 - [sentry-sdk (>=0.14.3)](packages/s/sentry-sdk.md)
-- [simpleitk (<2.0.0,>=1.1.0)](packages/s/simpleitk.md)
+- [simpleitk (>=1.1.0)](packages/s/simpleitk.md)
 - [six (>=1.11.0)](packages/s/six.md)
 - [sympy (>=1.1.1)](packages/s/sympy.md)
 - [tifffile (>=2019.7.26)](packages/t/tifffile.md)
-- [typing-extensions (>=3.7.2); python_version<'3.8'](packages/t/typing-extensions.md)
+- [typing-extensions (>=3.7.4); python_version<'3.8'](packages/t/typing-extensions.md)
 - [xlrd (>=1.1.0)](packages/x/xlrd.md)
 - [xlsxwriter](packages/x/xlsxwriter.md)
 

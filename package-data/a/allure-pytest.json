@@ -9,7 +9,7 @@
       "six"
     ],
     "specifiers": [
-      "allure-python-commons (==2.8.22)",
+      "allure-python-commons (==2.8.23)",
       "pytest (>=4.5.0)",
       "six (>=1.9.0)"
     ]

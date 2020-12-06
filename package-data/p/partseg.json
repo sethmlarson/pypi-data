@@ -5,7 +5,6 @@
   "requires_dist": {
     "dists": [
       "appdirs",
-      "cython",
       "czifile",
       "dataclasses",
       "defusedxml",
@@ -35,7 +34,6 @@
     ],
     "specifiers": [
       "appdirs (>=1.4.3)",
-      "cython (>=0.29.13)",
       "czifile (>=2019.5.22)",
       "dataclasses (>=0.7); python_version<'3.7'",
       "defusedxml (>=0.6.0)",
@@ -55,11 +53,11 @@
       "requests (>=2.18.0)",
       "scipy (>=0.19.1)",
       "sentry-sdk (>=0.14.3)",
-      "simpleitk (<2.0.0,>=1.1.0)",
+      "simpleitk (>=1.1.0)",
       "six (>=1.11.0)",
       "sympy (>=1.1.1)",
       "tifffile (>=2019.7.26)",
-      "typing-extensions (>=3.7.2); python_version<'3.8'",
+      "typing-extensions (>=3.7.4); python_version<'3.8'",
       "xlrd (>=1.1.0)",
       "xlsxwriter"
     ]

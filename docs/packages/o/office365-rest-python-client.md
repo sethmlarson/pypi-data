@@ -7,8 +7,8 @@
 
 ## Extras
 
-### ntlmauthentication
-- [requests-ntlm; extra=='ntlmauthentication'](packages/r/requests-ntlm.md)
+### ntlmprovider
+- [requests-ntlm; extra=='ntlmprovider'](packages/r/requests-ntlm.md)
 
 
 ## Publishers

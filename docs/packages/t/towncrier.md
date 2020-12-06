@@ -10,5 +10,8 @@
 
 
 ## Publishers
+- [altendky](https://pypi.org/user/altendky)
+- [exarkun](https://pypi.org/user/exarkun)
+- [glyph](https://pypi.org/user/glyph)
 - [hawkowl](https://pypi.org/user/hawkowl)
 

@@ -9,10 +9,16 @@
     "takowl"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "pyelftools",
+      "wheel"
+    ],
+    "specifiers": [
+      "pyelftools (>=0.24)",
+      "wheel (==0.36.1)"
+    ]
   },
   "requires_extras": {},
-  "requires_python": ">=3.5",
+  "requires_python": ">=3.6",
   "yanked": []
 }

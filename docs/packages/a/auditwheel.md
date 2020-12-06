@@ -1,5 +1,9 @@
 # [auditwheel](https://pypi.org/project/auditwheel)
 
+## Dependencies
+- [pyelftools (>=0.24)](packages/p/pyelftools.md)
+- [wheel (==0.36.1)](packages/w/wheel.md)
+
 
 
 ## Publishers

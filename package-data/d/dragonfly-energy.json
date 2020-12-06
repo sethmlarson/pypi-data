@@ -8,8 +8,8 @@
       "honeybee-energy"
     ],
     "specifiers": [
-      "dragonfly-core (==1.25.55)",
-      "honeybee-energy (==1.62.2)"
+      "dragonfly-core (==1.25.58)",
+      "honeybee-energy (==1.62.5)"
     ]
   },
   "requires_extras": {
@@ -20,7 +20,7 @@
       ],
       "specifiers": [
         "click (==7.1.2); extra=='cli'",
-        "dragonfly-core[cli] (==1.25.55); extra=='cli'"
+        "dragonfly-core[cli] (==1.25.56); extra=='cli'"
       ]
     }
   },

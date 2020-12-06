@@ -1,6 +1,7 @@
 {
   "publishers": [
     "alecthomas",
+    "spacegaier",
     "tusharmakkar08"
   ],
   "requires_dist": {

@@ -4,10 +4,43 @@
     "nolanbconaway"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "appdirs",
+      "bench-it",
+      "cached-property",
+      "click",
+      "colorama",
+      "configparser",
+      "dataclasses",
+      "diff-cover",
+      "jinja2",
+      "oyaml",
+      "pathspec"
+    ],
+    "specifiers": [
+      "appdirs",
+      "bench-it",
+      "cached-property",
+      "click (>=2.0)",
+      "colorama (>=0.3)",
+      "configparser",
+      "dataclasses",
+      "diff-cover (<3.0,>=2.5.0)",
+      "jinja2",
+      "oyaml",
+      "pathspec"
+    ]
   },
-  "requires_extras": {},
+  "requires_extras": {
+    "dbt": {
+      "dists": [
+        "dbt"
+      ],
+      "specifiers": [
+        "dbt (>=0.17); extra=='dbt'"
+      ]
+    }
+  },
   "requires_python": ">=3.6",
   "yanked": []
 }

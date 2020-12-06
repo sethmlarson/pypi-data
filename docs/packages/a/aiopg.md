@@ -1,7 +1,7 @@
 # [aiopg](https://pypi.org/project/aiopg)
 
 ## Dependencies
-- [psycopg2-binary (>=2.7.0)](packages/p/psycopg2-binary.md)
+- [psycopg2-binary (>=2.8.4)](packages/p/psycopg2-binary.md)
 
 
 ## Extras
