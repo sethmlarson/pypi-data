@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [applicationinsights](packages/a/applicationinsights.md)
-- [azureml-core (~=1.18.0)](packages/a/azureml-core.md)
+- [azureml-core (~=1.19.0)](packages/a/azureml-core.md)
 
 
 

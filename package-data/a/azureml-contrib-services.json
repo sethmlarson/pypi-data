@@ -8,7 +8,7 @@
       "flask"
     ],
     "specifiers": [
-      "azureml-core (~=1.18.0)",
+      "azureml-core (~=1.19.0)",
       "flask (<2.0,>=1.0)"
     ]
   },

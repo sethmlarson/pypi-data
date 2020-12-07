@@ -1,8 +1,8 @@
 # [azureml-automl-runtime](https://pypi.org/project/azureml-automl-runtime)
 
 ## Dependencies
-- [azureml-automl-core (~=1.18.0)](packages/a/azureml-automl-core.md)
-- [azureml-dataset-runtime[pandas,fuse] (~=1.18.0)](packages/a/azureml-dataset-runtime.md)
+- [azureml-automl-core (~=1.19.0)](packages/a/azureml-automl-core.md)
+- [azureml-dataset-runtime[fuse,pandas] (~=1.19.0)](packages/a/azureml-dataset-runtime.md)
 - [boto3 (<=1.15.18)](packages/b/boto3.md)
 - [botocore (<=1.18.18)](packages/b/botocore.md)
 - [dill (<0.4.0,>=0.2.8)](packages/d/dill.md)

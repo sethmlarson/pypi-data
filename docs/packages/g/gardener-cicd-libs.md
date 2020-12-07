@@ -16,6 +16,7 @@
 - [flake8 (==3.8.0a2)](packages/f/flake8.md)
 - [gardener-cicd-base](packages/g/gardener-cicd-base.md)
 - [gardener-component-model (==0.0.20)](packages/g/gardener-component-model.md)
+- [gardener-oci](packages/g/gardener-oci.md)
 - [github3.py (<2.0.0)](packages/g/github3.py.md)
 - [gitpython (<3.0.0)](packages/g/gitpython.md)
 - [google-api-core (==1.22.1)](packages/g/google-api-core.md)

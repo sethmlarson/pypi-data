@@ -4,6 +4,7 @@
 - [fastapi[all]](packages/f/fastapi.md)
 - [meutils](packages/m/meutils.md)
 - [streamlit](packages/s/streamlit.md)
+- [thriftpy2](packages/t/thriftpy2.md)
 - [uvicorn](packages/u/uvicorn.md)
 
 

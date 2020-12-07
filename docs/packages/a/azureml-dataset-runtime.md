@@ -1,7 +1,7 @@
 # [azureml-dataset-runtime](https://pypi.org/project/azureml-dataset-runtime)
 
 ## Dependencies
-- [azureml-dataprep (<2.5.0a,>=2.4.0a)](packages/a/azureml-dataprep.md)
+- [azureml-dataprep (<2.7.0a,>=2.6.0a)](packages/a/azureml-dataprep.md)
 - [pyarrow (<2.0.0,>=0.17.0)](packages/p/pyarrow.md)
 
 

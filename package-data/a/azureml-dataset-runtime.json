@@ -8,7 +8,7 @@
       "pyarrow"
     ],
     "specifiers": [
-      "azureml-dataprep (<2.5.0a,>=2.4.0a)",
+      "azureml-dataprep (<2.7.0a,>=2.6.0a)",
       "pyarrow (<2.0.0,>=0.17.0)"
     ]
   },

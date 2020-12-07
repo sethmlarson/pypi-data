@@ -16,12 +16,12 @@
       "pytest"
     ],
     "specifiers": [
-      "autogluon.core (==0.0.15b20201206)",
-      "autogluon.extra (==0.0.15b20201206)",
-      "autogluon.mxnet (==0.0.15b20201206)",
-      "autogluon.tabular (==0.0.15b20201206)",
-      "autogluon.text (==0.0.15b20201206)",
-      "autogluon.vision (==0.0.15b20201206)",
+      "autogluon.core (==0.0.15b20201207)",
+      "autogluon.extra (==0.0.15b20201207)",
+      "autogluon.mxnet (==0.0.15b20201207)",
+      "autogluon.tabular (==0.0.15b20201207)",
+      "autogluon.text (==0.0.15b20201207)",
+      "autogluon.vision (==0.0.15b20201207)",
       "pytest"
     ]
   },

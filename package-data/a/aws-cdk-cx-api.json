@@ -9,8 +9,8 @@
       "publication"
     ],
     "specifiers": [
-      "aws-cdk.cloud-assembly-schema (==1.76.0)",
-      "jsii (<2.0.0,>=1.14.1)",
+      "aws-cdk.cloud-assembly-schema (==1.77.0)",
+      "jsii (<2.0.0,>=1.15.0)",
       "publication (>=0.0.3)"
     ]
   },

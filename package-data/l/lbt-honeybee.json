@@ -12,8 +12,8 @@
     "specifiers": [
       "honeybee-energy (==1.62.5)",
       "honeybee-energy-standards (==2.0.3)",
-      "honeybee-radiance (==1.27.57)",
-      "lbt-ladybug (==0.25.39)"
+      "honeybee-radiance (==1.27.58)",
+      "lbt-ladybug (==0.25.40)"
     ]
   },
   "requires_extras": {

@@ -28,7 +28,7 @@
       "cached-property (<2,>=1.2.0)",
       "colorama (<1,>=0.4); sys_platform=='win32'",
       "distro (<2,>=1.5.0)",
-      "docker[ssh] (<5,>=4.3.1)",
+      "docker[ssh] (<5,>=4.4.0)",
       "dockerpty (<1,>=0.4.1)",
       "docopt (<1,>=0.6.1)",
       "jsonschema (<4,>=2.5.1)",

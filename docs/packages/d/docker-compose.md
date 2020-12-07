@@ -5,7 +5,7 @@
 - [cached-property (<2,>=1.2.0)](packages/c/cached-property.md)
 - [colorama (<1,>=0.4); sys_platform=='win32'](packages/c/colorama.md)
 - [distro (<2,>=1.5.0)](packages/d/distro.md)
-- [docker[ssh] (<5,>=4.3.1)](packages/d/docker.md)
+- [docker[ssh] (<5,>=4.4.0)](packages/d/docker.md)
 - [dockerpty (<1,>=0.4.1)](packages/d/dockerpty.md)
 - [docopt (<1,>=0.6.1)](packages/d/docopt.md)
 - [jsonschema (<4,>=2.5.1)](packages/j/jsonschema.md)

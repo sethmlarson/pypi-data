@@ -34,14 +34,14 @@
     ],
     "specifiers": [
       "azure-storage-queue (~=12.1)",
-      "azureml-automl-core (~=1.18.0)",
-      "azureml-automl-runtime (~=1.18.0)",
-      "azureml-core (~=1.18.0)",
-      "azureml-dataset-runtime[fuse,pandas] (~=1.18.0)",
-      "azureml-defaults (~=1.18.0)",
-      "azureml-interpret (~=1.18.0)",
-      "azureml-telemetry (~=1.18.0)",
-      "azureml-train-automl-client (~=1.18.0)",
+      "azureml-automl-core (~=1.19.0)",
+      "azureml-automl-runtime (~=1.19.0)",
+      "azureml-core (~=1.19.0)",
+      "azureml-dataset-runtime[pandas,fuse] (~=1.19.0)",
+      "azureml-defaults (~=1.19.0)",
+      "azureml-interpret (~=1.19.0)",
+      "azureml-telemetry (~=1.19.0)",
+      "azureml-train-automl-client (~=1.19.0)",
       "boto3 (<=1.15.18)",
       "botocore (<=1.18.18)",
       "gensim (<3.9.0)",
@@ -63,6 +63,6 @@
     ]
   },
   "requires_extras": {},
-  "requires_python": ">=3.5,<4",
+  "requires_python": ">=3.5,<3.8",
   "yanked": []
 }

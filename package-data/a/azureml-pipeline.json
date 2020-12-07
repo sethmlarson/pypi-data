@@ -8,8 +8,8 @@
       "azureml-pipeline-steps"
     ],
     "specifiers": [
-      "azureml-pipeline-core (~=1.18.0)",
-      "azureml-pipeline-steps (~=1.18.0)"
+      "azureml-pipeline-core (~=1.19.0)",
+      "azureml-pipeline-steps (~=1.19.0)"
     ]
   },
   "requires_extras": {},

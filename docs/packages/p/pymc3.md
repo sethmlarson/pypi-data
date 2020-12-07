@@ -4,13 +4,13 @@
 - [arviz (>=0.9.0)](packages/a/arviz.md)
 - [contextvars; python_version<'3.7'](packages/c/contextvars.md)
 - [dataclasses; python_version<'3.7'](packages/d/dataclasses.md)
+- [dill](packages/d/dill.md)
 - [fastprogress (>=0.2.0)](packages/f/fastprogress.md)
-- [h5py (>=2.7.0)](packages/h/h5py.md)
 - [numpy (>=1.13.0)](packages/n/numpy.md)
 - [pandas (>=0.18.0)](packages/p/pandas.md)
 - [patsy (>=0.5.1)](packages/p/patsy.md)
 - [scipy (>=0.18.1)](packages/s/scipy.md)
-- [theano (>=1.0.5)](packages/t/theano.md)
+- [theano-pymc (==1.0.11)](packages/t/theano-pymc.md)
 - [typing-extensions (>=3.7.4)](packages/t/typing-extensions.md)
 
 

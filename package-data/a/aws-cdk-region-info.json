@@ -8,7 +8,7 @@
       "publication"
     ],
     "specifiers": [
-      "jsii (<2.0.0,>=1.14.1)",
+      "jsii (<2.0.0,>=1.15.0)",
       "publication (>=0.0.3)"
     ]
   },

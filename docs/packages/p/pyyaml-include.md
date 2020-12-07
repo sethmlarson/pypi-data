@@ -1,7 +1,7 @@
 # [pyyaml-include](https://pypi.org/project/pyyaml-include)
 
 ## Dependencies
-- [pyyaml (!=4.*,<6.0,>=3.12)](packages/p/pyyaml.md)
+- [pyyaml (<6.0,>=5.3.1)](packages/p/pyyaml.md)
 
 
 ## Extras

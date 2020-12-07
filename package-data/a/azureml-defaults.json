@@ -16,8 +16,8 @@
     ],
     "specifiers": [
       "applicationinsights (>=0.11.7)",
-      "azureml-core (~=1.18.0)",
-      "azureml-dataset-runtime[fuse] (~=1.18.0)",
+      "azureml-core (~=1.19.0)",
+      "azureml-dataset-runtime[fuse] (~=1.19.0)",
       "azureml-model-management-sdk (==1.0.1b6.post1)",
       "configparser (==3.7.4)",
       "flask (==1.0.3)",
@@ -29,12 +29,16 @@
   "requires_extras": {
     "async": {
       "dists": [
-        "hypercorn",
-        "quart"
+        "httptools",
+        "quart",
+        "uvicorn",
+        "uvloop"
       ],
       "specifiers": [
-        "hypercorn[uvloop] (==0.11.1); extra=='async'",
-        "quart (<=0.13.1); extra=='async'"
+        "httptools (==0.1.1); extra=='async'",
+        "quart (<=0.13.1); extra=='async'",
+        "uvicorn (==0.12.3); extra=='async'",
+        "uvloop (==0.14.0); extra=='async'"
       ]
     }
   },

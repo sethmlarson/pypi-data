@@ -9,7 +9,7 @@
     ],
     "specifiers": [
       "applicationinsights",
-      "azureml-core (~=1.18.0)"
+      "azureml-core (~=1.19.0)"
     ]
   },
   "requires_extras": {},

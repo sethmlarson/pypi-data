@@ -9,8 +9,8 @@
       "ipywidgets"
     ],
     "specifiers": [
-      "azureml-core (~=1.18.0)",
-      "azureml-telemetry (~=1.18.0)",
+      "azureml-core (~=1.19.0)",
+      "azureml-telemetry (~=1.19.0)",
       "ipywidgets (>=7.0.0)"
     ]
   },

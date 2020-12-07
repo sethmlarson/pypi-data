@@ -8,11 +8,11 @@
       "azureml-telemetry"
     ],
     "specifiers": [
-      "azureml-dataset-runtime (~=1.18.0)",
-      "azureml-telemetry (~=1.18.0)"
+      "azureml-dataset-runtime (~=1.19.0)",
+      "azureml-telemetry (~=1.19.0)"
     ]
   },
   "requires_extras": {},
-  "requires_python": ">=3.5,<4",
+  "requires_python": ">=3.5,<3.9",
   "yanked": []
 }

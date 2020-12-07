@@ -2,13 +2,13 @@
 
 ## Dependencies
 - [adr (==0.19.4)](packages/a/adr.md)
-- [boto3 (==1.16.28)](packages/b/boto3.md)
+- [boto3 (==1.16.30)](packages/b/boto3.md)
 - [imbalanced-learn (==0.7.0)](packages/i/imbalanced-learn.md)
 - [joblib (==0.17.0)](packages/j/joblib.md)
 - [libmozdata (==0.1.68)](packages/l/libmozdata.md)
 - [lmdb (==0.99)](packages/l/lmdb.md)
 - [matplotlib (==3.3.3)](packages/m/matplotlib.md)
-- [mercurial (==5.6)](packages/m/mercurial.md)
+- [mercurial (==5.6.1)](packages/m/mercurial.md)
 - [microannotate (==0.0.23)](packages/m/microannotate.md)
 - [mozci (==1.11.3)](packages/m/mozci.md)
 - [numpy (==1.19.4)](packages/n/numpy.md)
@@ -28,9 +28,9 @@
 - [tabulate (==0.8.7)](packages/t/tabulate.md)
 - [taskcluster (==38.0.6)](packages/t/taskcluster.md)
 - [tenacity (==6.2.0)](packages/t/tenacity.md)
-- [tqdm (==4.54.0)](packages/t/tqdm.md)
+- [tqdm (==4.54.1)](packages/t/tqdm.md)
 - [xgboost (==1.2.1)](packages/x/xgboost.md)
-- [zstandard (==0.14.0)](packages/z/zstandard.md)
+- [zstandard (==0.14.1)](packages/z/zstandard.md)
 
 
 ## Extras

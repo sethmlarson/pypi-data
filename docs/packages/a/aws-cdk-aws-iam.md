@@ -1,10 +1,10 @@
 # [aws-cdk-aws-iam](https://pypi.org/project/aws-cdk-aws-iam)
 
 ## Dependencies
-- [aws-cdk.core (==1.76.0)](packages/a/aws-cdk.core.md)
-- [aws-cdk.region-info (==1.76.0)](packages/a/aws-cdk.region-info.md)
+- [aws-cdk.core (==1.77.0)](packages/a/aws-cdk.core.md)
+- [aws-cdk.region-info (==1.77.0)](packages/a/aws-cdk.region-info.md)
 - [constructs (<4.0.0,>=3.2.0)](packages/c/constructs.md)
-- [jsii (<2.0.0,>=1.14.1)](packages/j/jsii.md)
+- [jsii (<2.0.0,>=1.15.0)](packages/j/jsii.md)
 - [publication (>=0.0.3)](packages/p/publication.md)
 
 

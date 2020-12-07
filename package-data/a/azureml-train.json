@@ -7,7 +7,7 @@
       "azureml-train-core"
     ],
     "specifiers": [
-      "azureml-train-core (~=1.18.0)"
+      "azureml-train-core (~=1.19.0)"
     ]
   },
   "requires_extras": {},

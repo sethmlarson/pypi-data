@@ -1,7 +1,7 @@
 # [azureml-explain-model](https://pypi.org/project/azureml-explain-model)
 
 ## Dependencies
-- [azureml-interpret (~=1.18.0)](packages/a/azureml-interpret.md)
+- [azureml-interpret (~=1.19.0)](packages/a/azureml-interpret.md)
 
 
 ## Extras

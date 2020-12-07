@@ -8,7 +8,7 @@
 - [kubernetes (>=10.0.1)](packages/k/kubernetes.md)
 - [marshmallow (<3.10.0)](packages/m/marshmallow.md)
 - [nvidia-ml-py3](packages/n/nvidia-ml-py3.md)
-- [polyaxon-sdk (==1.4.0rc4)](packages/p/polyaxon-sdk.md)
+- [polyaxon-sdk (==1.4.0rc5)](packages/p/polyaxon-sdk.md)
 - [psutil](packages/p/psutil.md)
 - [python-dateutil (>=2.7.3)](packages/p/python-dateutil.md)
 - [pytz (>=2019.2)](packages/p/pytz.md)

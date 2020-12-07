@@ -7,12 +7,14 @@
       "fastapi",
       "meutils",
       "streamlit",
+      "thriftpy2",
       "uvicorn"
     ],
     "specifiers": [
       "fastapi[all]",
       "meutils",
       "streamlit",
+      "thriftpy2",
       "uvicorn"
     ]
   },

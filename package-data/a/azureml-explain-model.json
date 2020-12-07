@@ -7,7 +7,7 @@
       "azureml-interpret"
     ],
     "specifiers": [
-      "azureml-interpret (~=1.18.0)"
+      "azureml-interpret (~=1.19.0)"
     ]
   },
   "requires_extras": {

@@ -10,7 +10,7 @@
 - [oslo.privsep (>=1.32.0)](packages/o/oslo.privsep.md)
 - [oslo.serialization (>=2.29.0)](packages/o/oslo.serialization.md)
 - [oslo.service (!=1.28.1,>=1.24.0)](packages/o/oslo.service.md)
-- [oslo.utils (>=3.34.0)](packages/o/oslo.utils.md)
+- [oslo.utils (>=4.7.0)](packages/o/oslo.utils.md)
 - [pbr (!=2.1.0,>=5.4.1)](packages/p/pbr.md)
 - [requests (>=2.14.2)](packages/r/requests.md)
 - [six (>=1.10.0)](packages/s/six.md)
