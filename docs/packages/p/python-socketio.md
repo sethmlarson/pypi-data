@@ -1,8 +1,8 @@
 # [python-socketio](https://pypi.org/project/python-socketio)
 
 ## Dependencies
-- [python-engineio (<4,>=3.13.0)](packages/p/python-engineio.md)
-- [six (>=1.9.0)](packages/s/six.md)
+- [bidict (>=0.21.0)](packages/b/bidict.md)
+- [python-engineio (>=4)](packages/p/python-engineio.md)
 
 
 ## Extras

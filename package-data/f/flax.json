@@ -15,7 +15,7 @@
     ],
     "specifiers": [
       "dataclasses; python_version<'3.7'",
-      "jax (>=0.1.59)",
+      "jax (>=0.2.6)",
       "matplotlib",
       "msgpack",
       "numpy (>=1.12)"

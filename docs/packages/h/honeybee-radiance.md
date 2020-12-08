@@ -1,7 +1,7 @@
 # [honeybee-radiance](https://pypi.org/project/honeybee-radiance)
 
 ## Dependencies
-- [honeybee-core (==1.41.6)](packages/h/honeybee-core.md)
+- [honeybee-core (==1.41.7)](packages/h/honeybee-core.md)
 - [honeybee-radiance-command (==1.1.8)](packages/h/honeybee-radiance-command.md)
 - [honeybee-radiance-folder (==2.3.3)](packages/h/honeybee-radiance-folder.md)
 - [honeybee-standards (==2.0.0)](packages/h/honeybee-standards.md)

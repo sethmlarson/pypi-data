@@ -12,7 +12,7 @@
 - [pyzmq (>=17)](packages/p/pyzmq.md)
 - [send2trash](packages/s/send2trash.md)
 - [terminado (>=0.8.3)](packages/t/terminado.md)
-- [tornado (>=5.0)](packages/t/tornado.md)
+- [tornado (>=6.1.0)](packages/t/tornado.md)
 - [traitlets (>=4.2.1)](packages/t/traitlets.md)
 
 

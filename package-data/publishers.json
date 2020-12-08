@@ -11583,9 +11583,7 @@
     "pyusb"
   ],
   "jonasschneider": [
-    "atari-py",
-    "box2d-py",
-    "gym"
+    "atari-py"
   ],
   "jonathan.holvey": [
     "sharepy"
@@ -16836,9 +16834,7 @@
     "pyviz-comms"
   ],
   "pzhokhov": [
-    "atari-py",
-    "box2d-py",
-    "gym"
+    "atari-py"
   ],
   "qameta": [
     "allure-behave",
@@ -18492,6 +18488,9 @@
     "bravado-core",
     "py-zipkin",
     "swagger-spec-validator"
+  ],
+  "sjayakar": [
+    "plaid-python"
   ],
   "sjmachin": [
     "xlrd",

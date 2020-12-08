@@ -5,6 +5,7 @@
 - [numpy (<2.0.0,>1.16.0)](packages/n/numpy.md)
 - [packaging](packages/p/packaging.md)
 - [protobuf (>=3.6.0)](packages/p/protobuf.md)
+- [pyinstrument (>=3.1.3)](packages/p/pyinstrument.md)
 
 
 

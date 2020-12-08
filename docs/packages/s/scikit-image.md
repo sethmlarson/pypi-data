@@ -13,11 +13,14 @@
 
 ## Extras
 
+### data
+- [pooch (>=1.3.0); extra=='data'](packages/p/pooch.md)
+
 ### optional
 - [astropy (>=3.1.2); extra=='optional'](packages/a/astropy.md)
 - [cloudpickle (>=0.2.1); extra=='optional'](packages/c/cloudpickle.md)
 - [dask[array] (!=2.17.0,>=1.0.0); extra=='optional'](packages/d/dask.md)
-- [pooch (>=0.5.2); extra=='optional'](packages/p/pooch.md)
+- [pooch (>=1.3.0); extra=='optional'](packages/p/pooch.md)
 - [pyamg; extra=='optional'](packages/p/pyamg.md)
 - [qtpy; extra=='optional'](packages/q/qtpy.md)
 - [simpleitk; extra=='optional'](packages/s/simpleitk.md)

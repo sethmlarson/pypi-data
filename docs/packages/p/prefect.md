@@ -2,10 +2,10 @@
 
 ## Dependencies
 - [click (>=7.0)](packages/c/click.md)
-- [cloudpickle (>=0.6.0)](packages/c/cloudpickle.md)
+- [cloudpickle (>=1.3.0)](packages/c/cloudpickle.md)
 - [croniter (<1.0,>=0.3.24)](packages/c/croniter.md)
-- [dask (>=2.15.0)](packages/d/dask.md)
-- [distributed (>=2.15.0)](packages/d/distributed.md)
+- [dask (>=2.17.0)](packages/d/dask.md)
+- [distributed (>=2.17.0)](packages/d/distributed.md)
 - [docker (>=3.4.1)](packages/d/docker.md)
 - [importlib-resources (>=3.0.0); python_version<'3.9'](packages/i/importlib-resources.md)
 - [marshmallow (>=3.0.0b19)](packages/m/marshmallow.md)
@@ -31,6 +31,7 @@
 
 ### all_extras
 - [airtable-python-wrapper (<0.12,>=0.11); extra=='all_extras'](packages/a/airtable-python-wrapper.md)
+- [atlassian-python-api (>=2.0.1); extra=='all_extras'](packages/a/atlassian-python-api.md)
 - [azure-cosmos (<3.2,>=3.1.1); extra=='all_extras'](packages/a/azure-cosmos.md)
 - [azure-storage-blob (<13.0,>=12.1.0); extra=='all_extras'](packages/a/azure-storage-blob.md)
 - [azureml-sdk (<1.1,>=1.0.65); extra=='all_extras'](packages/a/azureml-sdk.md)
@@ -55,6 +56,7 @@
 - [papermill (>=2.2.0); extra=='all_extras'](packages/p/papermill.md)
 - [psycopg2-binary (>=2.8.2); extra=='all_extras'](packages/p/psycopg2-binary.md)
 - [pushbullet.py (>=0.11.0); extra=='all_extras'](packages/p/pushbullet.py.md)
+- [pyarrow (>=0.15.1); extra=='all_extras'](packages/p/pyarrow.md)
 - [pygithub (<2.0,>=1.51); extra=='all_extras'](packages/p/pygithub.md)
 - [pygments (<3.0,>=2.2); extra=='all_extras'](packages/p/pygments.md)
 - [pymysql (>=0.9.3); extra=='all_extras'](packages/p/pymysql.md)
@@ -77,8 +79,14 @@
 - [azure-storage-blob (<13.0,>=12.1.0); extra=='azure'](packages/a/azure-storage-blob.md)
 - [azureml-sdk (<1.1,>=1.0.65); extra=='azure'](packages/a/azureml-sdk.md)
 
+### bitbucket
+- [atlassian-python-api (>=2.0.1); extra=='bitbucket'](packages/a/atlassian-python-api.md)
+
 ### dask_cloudprovider
 - [dask-cloudprovider[aws] (<1.0,>=0.2.0); extra=='dask_cloudprovider'](packages/d/dask-cloudprovider.md)
+
+### dremio
+- [pyarrow (>=0.15.1); extra=='dremio'](packages/p/pyarrow.md)
 
 ### dropbox
 - [dropbox (~=9.0); extra=='dropbox'](packages/d/dropbox.md)
@@ -143,6 +151,7 @@
 
 ### test_ci
 - [airtable-python-wrapper (<0.12,>=0.11); extra=='test_ci'](packages/a/airtable-python-wrapper.md)
+- [atlassian-python-api (>=2.0.1); extra=='test_ci'](packages/a/atlassian-python-api.md)
 - [azure-cosmos (<3.2,>=3.1.1); extra=='test_ci'](packages/a/azure-cosmos.md)
 - [azure-storage-blob (<13.0,>=12.1.0); extra=='test_ci'](packages/a/azure-storage-blob.md)
 - [azureml-sdk (<1.1,>=1.0.65); extra=='test_ci'](packages/a/azureml-sdk.md)
@@ -166,6 +175,7 @@
 - [papermill (>=2.2.0); extra=='test_ci'](packages/p/papermill.md)
 - [psycopg2-binary (>=2.8.2); extra=='test_ci'](packages/p/psycopg2-binary.md)
 - [pushbullet.py (>=0.11.0); extra=='test_ci'](packages/p/pushbullet.py.md)
+- [pyarrow (>=0.15.1); extra=='test_ci'](packages/p/pyarrow.md)
 - [pygithub (<2.0,>=1.51); extra=='test_ci'](packages/p/pygithub.md)
 - [pygments (<3.0,>=2.2); extra=='test_ci'](packages/p/pygments.md)
 - [pymysql (>=0.9.3); extra=='test_ci'](packages/p/pymysql.md)

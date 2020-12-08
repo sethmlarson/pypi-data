@@ -11,3 +11,8 @@
 - [goanpeca](https://pypi.org/user/goanpeca)
 - [Sylvain.Corlay](https://pypi.org/user/Sylvain.Corlay)
 
+
+## Yanked Versions
+- [1.0.0](https://pypi.org/project/qtawesome/1.0.0)
+- [1.0.1](https://pypi.org/project/qtawesome/1.0.1)
+ 

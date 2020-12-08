@@ -22,7 +22,7 @@
 - [requests (==2.22.0)](packages/r/requests.md)
 - [requests-oauthlib (==1.3.0)](packages/r/requests-oauthlib.md)
 - [requests-toolbelt (==0.9.1)](packages/r/requests-toolbelt.md)
-- [selenium (==4.0.0a1)](packages/s/selenium.md)
+- [selenium (==4.0.0a6)](packages/s/selenium.md)
 - [urllib3 (==1.25.3)](packages/u/urllib3.md)
 - [webdriver-manager (==2.3.0)](packages/w/webdriver-manager.md)
 - [xlrd (==1.2.0)](packages/x/xlrd.md)

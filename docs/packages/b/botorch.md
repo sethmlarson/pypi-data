@@ -1,9 +1,9 @@
 # [botorch](https://pypi.org/project/botorch)
 
 ## Dependencies
-- [gpytorch (>=1.2)](packages/g/gpytorch.md)
+- [gpytorch (>=1.3)](packages/g/gpytorch.md)
 - [scipy](packages/s/scipy.md)
-- [torch (>=1.6)](packages/t/torch.md)
+- [torch (>=1.7)](packages/t/torch.md)
 
 
 ## Extras

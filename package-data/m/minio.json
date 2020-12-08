@@ -6,17 +6,11 @@
     "dists": [
       "certifi",
       "configparser",
-      "future",
-      "python-dateutil",
-      "pytz",
       "urllib3"
     ],
     "specifiers": [
       "certifi",
       "configparser",
-      "future; python_version<'3.0'",
-      "python-dateutil",
-      "pytz",
       "urllib3"
     ]
   },

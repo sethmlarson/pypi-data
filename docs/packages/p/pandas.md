@@ -1,9 +1,9 @@
 # [pandas](https://pypi.org/project/pandas)
 
 ## Dependencies
-- [numpy (>=1.15.4)](packages/n/numpy.md)
+- [numpy (>=1.16.5)](packages/n/numpy.md)
 - [python-dateutil (>=2.7.3)](packages/p/python-dateutil.md)
-- [pytz (>=2017.2)](packages/p/pytz.md)
+- [pytz (>=2017.3)](packages/p/pytz.md)
 
 
 

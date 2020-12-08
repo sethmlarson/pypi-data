@@ -32,6 +32,14 @@
     ]
   },
   "requires_extras": {
+    "data": {
+      "dists": [
+        "pooch"
+      ],
+      "specifiers": [
+        "pooch (>=1.3.0); extra=='data'"
+      ]
+    },
     "optional": {
       "dists": [
         "astropy",
@@ -46,7 +54,7 @@
         "astropy (>=3.1.2); extra=='optional'",
         "cloudpickle (>=0.2.1); extra=='optional'",
         "dask[array] (!=2.17.0,>=1.0.0); extra=='optional'",
-        "pooch (>=0.5.2); extra=='optional'",
+        "pooch (>=1.3.0); extra=='optional'",
         "pyamg; extra=='optional'",
         "qtpy; extra=='optional'",
         "simpleitk; extra=='optional'"

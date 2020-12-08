@@ -3,12 +3,8 @@
     "miguelgrinberg"
   ],
   "requires_dist": {
-    "dists": [
-      "six"
-    ],
-    "specifiers": [
-      "six (>=1.9.0)"
-    ]
+    "dists": [],
+    "specifiers": []
   },
   "requires_extras": {
     "asyncio_client": {

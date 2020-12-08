@@ -7,12 +7,14 @@
     "dists": [
       "numpy",
       "scikit-learn",
-      "scipy"
+      "scipy",
+      "wheel"
     ],
     "specifiers": [
       "numpy",
       "scikit-learn (!=0.22.0)",
-      "scipy"
+      "scipy",
+      "wheel"
     ]
   },
   "requires_extras": {},

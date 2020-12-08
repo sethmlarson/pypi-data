@@ -7,6 +7,7 @@
 - [requests](packages/r/requests.md)
 - [scikit-learn](packages/s/scikit-learn.md)
 - [scipy](packages/s/scipy.md)
+- [sentencepiece](packages/s/sentencepiece.md)
 - [seqeval](packages/s/seqeval.md)
 - [streamlit](packages/s/streamlit.md)
 - [tensorboardx](packages/t/tensorboardx.md)

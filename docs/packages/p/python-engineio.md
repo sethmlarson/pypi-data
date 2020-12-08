@@ -1,8 +1,5 @@
 # [python-engineio](https://pypi.org/project/python-engineio)
 
-## Dependencies
-- [six (>=1.9.0)](packages/s/six.md)
-
 
 ## Extras
 

@@ -7,7 +7,7 @@
 - [configparser (==4.0.2)](packages/c/configparser.md)
 - [cryptography (==3.2.1)](packages/c/cryptography.md)
 - [jmespath (==0.10.0)](packages/j/jmespath.md)
-- [oci (==2.25.0)](packages/o/oci.md)
+- [oci (==2.25.1)](packages/o/oci.md)
 - [pyopenssl (==19.1.0)](packages/p/pyopenssl.md)
 - [python-dateutil (<3.0.0,>=2.5.3)](packages/p/python-dateutil.md)
 - [pytz (>=2016.10)](packages/p/pytz.md)

@@ -13,3 +13,7 @@
 - [heyman](https://pypi.org/user/heyman)
 - [northisup](https://pypi.org/user/northisup)
 
+
+## Yanked Versions
+- [1.4.5](https://pypi.org/project/geventhttpclient/1.4.5)
+ 

@@ -4,12 +4,12 @@
   ],
   "requires_dist": {
     "dists": [
-      "python-engineio",
-      "six"
+      "bidict",
+      "python-engineio"
     ],
     "specifiers": [
-      "python-engineio (<4,>=3.13.0)",
-      "six (>=1.9.0)"
+      "bidict (>=0.21.0)",
+      "python-engineio (>=4)"
     ]
   },
   "requires_extras": {

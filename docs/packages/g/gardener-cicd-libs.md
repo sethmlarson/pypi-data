@@ -46,6 +46,7 @@
 - [termcolor (<2.0.0)](packages/t/termcolor.md)
 - [toposort](packages/t/toposort.md)
 - [urllib3 (<2.0.0)](packages/u/urllib3.md)
+- [www-authenticate](packages/w/www-authenticate.md)
 - [yamllint (<2)](packages/y/yamllint.md)
 
 

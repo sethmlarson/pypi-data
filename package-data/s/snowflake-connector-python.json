@@ -28,16 +28,15 @@
     "specifiers": [
       "asn1crypto (<2.0.0,>0.24.0)",
       "azure-common (<2.0.0)",
-      "azure-storage-blob (<12.0.0); python_version<='3.5.1'",
-      "azure-storage-blob (<13.0.0,>=12.0.0); python_version>='3.5.2'",
-      "boto3 (<1.16,>=1.4.4)",
+      "azure-storage-blob (<13.0.0,>=12.0.0)",
+      "boto3 (<2.0.0,>=1.4.4)",
       "certifi (<2021.0.0)",
-      "cffi (<1.15,>=1.9)",
+      "cffi (<2.0.0,>=1.9)",
       "cryptography (<4.0.0,>=2.5.0)",
       "oscrypto (<2.0.0)",
       "pycryptodomex (!=3.5.0,<4.0.0,>=3.2)",
       "pyjwt (<2.0.0)",
-      "pyopenssl (<21.0.0,>=16.2.0)",
+      "pyopenssl (<20.0.0,>=16.2.0)",
       "pytz (<2021.0)",
       "requests (<2.24.0)",
       "urllib3 (<1.26.0,>=1.20)"
@@ -82,8 +81,7 @@
         "pyarrow"
       ],
       "specifiers": [
-        "pandas (<1.2.0,>=1.0.0); (python_version>'3.5') and extra=='pandas'",
-        "pandas (==0.24.2); (python_version=='3.5') and extra=='pandas'",
+        "pandas (<1.2.0,>=1.0.0); extra=='pandas'",
         "pyarrow (<0.18.0,>=0.17.0); extra=='pandas'"
       ]
     },
@@ -96,6 +94,6 @@
       ]
     }
   },
-  "requires_python": ">=3.5",
+  "requires_python": ">=3.6",
   "yanked": []
 }

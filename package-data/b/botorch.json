@@ -12,9 +12,9 @@
       "torch"
     ],
     "specifiers": [
-      "gpytorch (>=1.2)",
+      "gpytorch (>=1.3)",
       "scipy",
-      "torch (>=1.6)"
+      "torch (>=1.7)"
     ]
   },
   "requires_extras": {
