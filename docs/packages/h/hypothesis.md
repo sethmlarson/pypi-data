@@ -42,6 +42,11 @@
 ### redis
 - [redis (>=3.0.0); extra=='redis'](packages/r/redis.md)
 
+### zoneinfo
+- [backports.zoneinfo (>=0.2.1); (python_version<'3.9') and extra=='zoneinfo'](packages/b/backports.zoneinfo.md)
+- [importlib-resources (>=3.3.0); (python_version<'3.7') and extra=='zoneinfo'](packages/i/importlib-resources.md)
+- [tzdata (>=2020.4); (sys_platform=='win32') and extra=='zoneinfo'](packages/t/tzdata.md)
+
 
 ## Publishers
 - [DRMacIver](https://pypi.org/user/DRMacIver)

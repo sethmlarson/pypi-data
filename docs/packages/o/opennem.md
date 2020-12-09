@@ -15,6 +15,7 @@
 - [openpyxl (>=3.0.4,<4.0.0)](packages/o/openpyxl.md)
 - [pillow (>=8.0.1,<9.0.0)](packages/p/pillow.md)
 - [pint (>=0.16.1,<0.17.0)](packages/p/pint.md)
+- [prometheus-fastapi-instrumentator (>=5.6.0,<6.0.0)](packages/p/prometheus-fastapi-instrumentator.md)
 - [pydantic (>=1.5.1,<2.0.0)](packages/p/pydantic.md)
 - [python-dateutil (>=2.8.1,<3.0.0)](packages/p/python-dateutil.md)
 - [python-dotenv (>=0.15.0,<0.16.0)](packages/p/python-dotenv.md)

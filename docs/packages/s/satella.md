@@ -9,8 +9,8 @@
 ### cassandra
 - [cassandra-driver; extra=='cassandra'](packages/c/cassandra-driver.md)
 
-### fasterjsonsource
-- [ujson; extra=='fasterjsonsource'](packages/u/ujson.md)
+### fasterjson
+- [ujson; extra=='fasterjson'](packages/u/ujson.md)
 
 ### httpjsonsource
 - [requests; extra=='httpjsonsource'](packages/r/requests.md)

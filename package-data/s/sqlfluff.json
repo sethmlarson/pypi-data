@@ -15,7 +15,8 @@
       "diff-cover",
       "jinja2",
       "oyaml",
-      "pathspec"
+      "pathspec",
+      "typing-extensions"
     ],
     "specifiers": [
       "appdirs",
@@ -28,7 +29,8 @@
       "diff-cover (<3.0,>=2.5.0)",
       "jinja2",
       "oyaml",
-      "pathspec"
+      "pathspec",
+      "typing-extensions"
     ]
   },
   "requires_extras": {

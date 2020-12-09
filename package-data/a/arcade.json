@@ -4,23 +4,36 @@
   ],
   "requires_dist": {
     "dists": [
+      "dataclasses",
       "numpy",
       "pillow",
       "pyglet",
       "pymunk",
       "pytiled-parser",
-      "pyyaml"
+      "pyyaml",
+      "shapely"
     ],
     "specifiers": [
-      "numpy",
-      "pillow",
-      "pyglet",
-      "pymunk",
+      "dataclasses; python_version<'3.7'",
+      "numpy (==1.19.2)",
+      "pillow (~=8.0)",
+      "pyglet (<2,>=1.5.11)",
+      "pymunk (~=5.7)",
       "pytiled-parser (==0.9.4a3)",
-      "pyyaml"
+      "pyyaml (~=5.3)",
+      "shapely (~=1.7)"
     ]
   },
-  "requires_extras": {},
-  "requires_python": ">=3.6",
+  "requires_extras": {
+    "build": {
+      "dists": [
+        "pep517"
+      ],
+      "specifiers": [
+        "pep517; extra=='build'"
+      ]
+    }
+  },
+  "requires_python": ">=3.6,<3.10",
   "yanked": []
 }

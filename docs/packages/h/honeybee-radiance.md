@@ -12,7 +12,7 @@
 ### cli
 - [click (==7.1.2); extra=='cli'](packages/c/click.md)
 - [click-plugins (==1.1.1); extra=='cli'](packages/c/click-plugins.md)
-- [honeybee-core[cli] (==1.41.6); extra=='cli'](packages/h/honeybee-core.md)
+- [honeybee-core[cli] (==1.41.7); extra=='cli'](packages/h/honeybee-core.md)
 
 
 ## Publishers

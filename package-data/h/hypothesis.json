@@ -104,6 +104,18 @@
       "specifiers": [
         "redis (>=3.0.0); extra=='redis'"
       ]
+    },
+    "zoneinfo": {
+      "dists": [
+        "backports.zoneinfo",
+        "importlib-resources",
+        "tzdata"
+      ],
+      "specifiers": [
+        "backports.zoneinfo (>=0.2.1); (python_version<'3.9') and extra=='zoneinfo'",
+        "importlib-resources (>=3.3.0); (python_version<'3.7') and extra=='zoneinfo'",
+        "tzdata (>=2020.4); (sys_platform=='win32') and extra=='zoneinfo'"
+      ]
     }
   },
   "requires_python": ">=3.6",

@@ -1,8 +1,7 @@
 # [oso](https://pypi.org/project/oso)
 
 ## Dependencies
-- [cffi (==1.14.0)](packages/c/cffi.md)
-- [dataclasses; python_version<'3.7'](packages/d/dataclasses.md)
+- [cffi (~=1.14)](packages/c/cffi.md)
 
 
 ## Extras

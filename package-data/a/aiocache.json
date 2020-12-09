@@ -1,5 +1,6 @@
 {
   "publishers": [
+    "Andrew.Svetlov",
     "blck"
   ],
   "requires_dist": {

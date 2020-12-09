@@ -26,6 +26,16 @@
     ]
   },
   "requires_extras": {
+    "angle": {
+      "dists": [
+        "kivy-deps.angle",
+        "sys-platform"
+      ],
+      "specifiers": [
+        "kivy-deps.angle (~=0.3.0); extra=='angle'",
+        "sys-platform (=='win32'); extra=='angle'"
+      ]
+    },
     "base": {
       "dists": [
         "docutils",
@@ -49,6 +59,7 @@
     "full": {
       "dists": [
         "docutils",
+        "ffpyplayer",
         "kivy-deps.angle",
         "kivy-deps.glew",
         "kivy-deps.gstreamer",
@@ -59,6 +70,7 @@
       ],
       "specifiers": [
         "docutils; extra=='full'",
+        "ffpyplayer; (sys_platform=='linux' or sys_platform=='darwin') and extra=='full'",
         "kivy-deps.angle (~=0.3.0); (sys_platform=='win32') and extra=='full'",
         "kivy-deps.glew (~=0.3.0); (sys_platform=='win32') and extra=='full'",
         "kivy-deps.gstreamer (~=0.3.1); (sys_platform=='win32') and extra=='full'",
@@ -66,6 +78,46 @@
         "pillow; extra=='full'",
         "pygments; extra=='full'",
         "pypiwin32; (sys_platform=='win32') and extra=='full'"
+      ]
+    },
+    "glew": {
+      "dists": [
+        "kivy-deps.glew",
+        "sys-platform"
+      ],
+      "specifiers": [
+        "kivy-deps.glew (~=0.3.0); extra=='glew'",
+        "sys-platform (=='win32'); extra=='glew'"
+      ]
+    },
+    "gstreamer": {
+      "dists": [
+        "kivy-deps.gstreamer",
+        "sys-platform"
+      ],
+      "specifiers": [
+        "kivy-deps.gstreamer (~=0.3.1); extra=='gstreamer'",
+        "sys-platform (=='win32'); extra=='gstreamer'"
+      ]
+    },
+    "media": {
+      "dists": [
+        "ffpyplayer",
+        "kivy-deps.gstreamer"
+      ],
+      "specifiers": [
+        "ffpyplayer; (sys_platform=='linux' or sys_platform=='darwin') and extra=='media'",
+        "kivy-deps.gstreamer (~=0.3.1); (sys_platform=='win32') and extra=='media'"
+      ]
+    },
+    "sdl2": {
+      "dists": [
+        "kivy-deps.sdl2",
+        "sys-platform"
+      ],
+      "specifiers": [
+        "kivy-deps.sdl2 (~=0.3.1); extra=='sdl2'",
+        "sys-platform (=='win32'); extra=='sdl2'"
       ]
     },
     "tuio": {

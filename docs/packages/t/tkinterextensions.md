@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [pillow (>=8.0.1)](packages/p/pillow.md)
-- [pythondebugtools (>=2.0.0)](packages/p/pythondebugtools.md)
+- [pythondebugtools (>=2.1.3)](packages/p/pythondebugtools.md)
 - [tk-html-widgets (>=0.4.0)](packages/t/tk-html-widgets.md)
 
 

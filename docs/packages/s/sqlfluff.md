@@ -12,6 +12,7 @@
 - [jinja2](packages/j/jinja2.md)
 - [oyaml](packages/o/oyaml.md)
 - [pathspec](packages/p/pathspec.md)
+- [typing-extensions](packages/t/typing-extensions.md)
 
 
 ## Extras

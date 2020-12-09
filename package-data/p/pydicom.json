@@ -7,6 +7,6 @@
     "specifiers": []
   },
   "requires_extras": {},
-  "requires_python": ">=3.6",
+  "requires_python": ">=3.6.1",
   "yanked": []
 }

@@ -49,7 +49,6 @@
       "termcolor",
       "toposort",
       "urllib3",
-      "www-authenticate",
       "yamllint"
     ],
     "specifiers": [
@@ -98,7 +97,6 @@
       "termcolor (<2.0.0)",
       "toposort",
       "urllib3 (<2.0.0)",
-      "www-authenticate",
       "yamllint (<2)"
     ]
   },

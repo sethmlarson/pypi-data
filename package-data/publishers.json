@@ -173,6 +173,7 @@
   ],
   "Andrew.Svetlov": [
     "aiobotocore",
+    "aiocache",
     "aiodocker",
     "aioelasticsearch",
     "aiohttp",

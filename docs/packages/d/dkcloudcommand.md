@@ -9,7 +9,7 @@
 - [mixpanel (==4.6.0)](packages/m/mixpanel.md)
 - [prettytable (==0.7.2)](packages/p/prettytable.md)
 - [pyjwt (==1.6.1)](packages/p/pyjwt.md)
-- [pyopenssl (==18.0.0)](packages/p/pyopenssl.md)
+- [pyopenssl (==20.0.0)](packages/p/pyopenssl.md)
 - [pytz (==2017.2)](packages/p/pytz.md)
 - [requests (==2.22.0)](packages/r/requests.md)
 - [six (==1.12.0)](packages/s/six.md)

@@ -26,6 +26,7 @@
 - [isort (>=5.6.4); extra=='cpu'](packages/i/isort.md)
 - [matplotlib (>3.1); extra=='cpu'](packages/m/matplotlib.md)
 - [mlflow (>=1.0.0); extra=='cpu'](packages/m/mlflow.md)
+- [mypy (>=0.720); extra=='cpu'](packages/m/mypy.md)
 - [neptune-client (>=0.4.109); extra=='cpu'](packages/n/neptune-client.md)
 - [nltk (>=3.3); extra=='cpu'](packages/n/nltk.md)
 - [omegaconf (>=2.0.1); extra=='cpu'](packages/o/omegaconf.md)

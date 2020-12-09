@@ -19,12 +19,12 @@
         "cassandra-driver; extra=='cassandra'"
       ]
     },
-    "fasterjsonsource": {
+    "fasterjson": {
       "dists": [
         "ujson"
       ],
       "specifiers": [
-        "ujson; extra=='fasterjsonsource'"
+        "ujson; extra=='fasterjson'"
       ]
     },
     "httpjsonsource": {

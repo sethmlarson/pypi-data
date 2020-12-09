@@ -27,7 +27,7 @@
       "mixpanel (==4.6.0)",
       "prettytable (==0.7.2)",
       "pyjwt (==1.6.1)",
-      "pyopenssl (==18.0.0)",
+      "pyopenssl (==20.0.0)",
       "pytz (==2017.2)",
       "requests (==2.22.0)",
       "six (==1.12.0)",

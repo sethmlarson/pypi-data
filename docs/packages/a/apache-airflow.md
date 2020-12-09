@@ -2,6 +2,10 @@
 
 ## Dependencies
 - [alembic (<2.0,>=1.2)](packages/a/alembic.md)
+- [apache-airflow-providers-ftp](packages/a/apache-airflow-providers-ftp.md)
+- [apache-airflow-providers-http](packages/a/apache-airflow-providers-http.md)
+- [apache-airflow-providers-imap](packages/a/apache-airflow-providers-imap.md)
+- [apache-airflow-providers-sqlite](packages/a/apache-airflow-providers-sqlite.md)
 - [argcomplete (~=1.10)](packages/a/argcomplete.md)
 - [attrs (<21.0,>=20.0)](packages/a/attrs.md)
 - [cached-property (~=1.5)](packages/c/cached-property.md)
@@ -21,11 +25,14 @@
 - [funcsigs (<2.0.0,>=1.0.0)](packages/f/funcsigs.md)
 - [graphviz (>=0.12)](packages/g/graphviz.md)
 - [gunicorn (<20.0,>=19.5.0)](packages/g/gunicorn.md)
+- [importlib-metadata (~=1.7); python_version<'3.9'](packages/i/importlib-metadata.md)
+- [importlib-resources (~=1.4)](packages/i/importlib-resources.md)
 - [iso8601 (>=0.1.12)](packages/i/iso8601.md)
+- [itsdangerous (>=1.1.0)](packages/i/itsdangerous.md)
 - [jinja2 (<2.12.0,>=2.10.1)](packages/j/jinja2.md)
 - [json-merge-patch (==0.2)](packages/j/json-merge-patch.md)
 - [jsonschema (~=3.0)](packages/j/jsonschema.md)
-- [lazy-object-proxy (~=1.3)](packages/l/lazy-object-proxy.md)
+- [lazy-object-proxy (<1.5.0)](packages/l/lazy-object-proxy.md)
 - [lockfile (>=0.12.2)](packages/l/lockfile.md)
 - [markdown (<4.0,>=2.5.2)](packages/m/markdown.md)
 - [markupsafe (<2.0,>=1.1.1)](packages/m/markupsafe.md)
@@ -39,7 +46,7 @@
 - [python-dateutil (<3,>=2.3)](packages/p/python-dateutil.md)
 - [python-nvd3 (~=0.15.0)](packages/p/python-nvd3.md)
 - [python-slugify (<5.0,>=3.0.0)](packages/p/python-slugify.md)
-- [requests (<3,>=2.20.0)](packages/r/requests.md)
+- [requests (<2.24.0,>=2.20.0)](packages/r/requests.md)
 - [rich (==9.2.0)](packages/r/rich.md)
 - [setproctitle (<2,>=1.1.8)](packages/s/setproctitle.md)
 - [sqlalchemy (<2,>=1.3.18)](packages/s/sqlalchemy.md)
@@ -52,6 +59,7 @@
 - [typing-extensions (>=3.7.4); python_version<'3.8'](packages/t/typing-extensions.md)
 - [tzlocal (<2.0.0,>=1.4)](packages/t/tzlocal.md)
 - [unicodecsv (>=0.14.1)](packages/u/unicodecsv.md)
+- [urllib3 (<1.26)](packages/u/urllib3.md)
 - [werkzeug (>=1.0.1,~=1.0)](packages/w/werkzeug.md)
 
 
@@ -90,7 +98,8 @@
 
 ### amazon
 - [apache-airflow-providers-amazon; extra=='amazon'](packages/a/apache-airflow-providers-amazon.md)
-- [boto3 (<2.0.0,>=1.12.0); extra=='amazon'](packages/b/boto3.md)
+- [boto3 (<1.16.0,>=1.15.0); extra=='amazon'](packages/b/boto3.md)
+- [botocore (<1.19.0,>=1.18.0); extra=='amazon'](packages/b/botocore.md)
 - [watchtower (~=0.7.3); extra=='amazon'](packages/w/watchtower.md)
 
 ### apache.atlas
@@ -120,6 +129,12 @@
 - [apache-airflow-providers-apache-kylin; extra=='apache.kylin'](packages/a/apache-airflow-providers-apache-kylin.md)
 - [kylinpy (>=2.6); extra=='apache.kylin'](packages/k/kylinpy.md)
 
+### apache.livy
+- [apache-airflow-providers-apache-livy; extra=='apache.livy'](packages/a/apache-airflow-providers-apache-livy.md)
+
+### apache.pig
+- [apache-airflow-providers-apache-pig; extra=='apache.pig'](packages/a/apache-airflow-providers-apache-pig.md)
+
 ### apache.pinot
 - [apache-airflow-providers-apache-pinot; extra=='apache.pinot'](packages/a/apache-airflow-providers-apache-pinot.md)
 - [pinotdb (==0.1.1); extra=='apache.pinot'](packages/p/pinotdb.md)
@@ -127,6 +142,9 @@
 ### apache.spark
 - [apache-airflow-providers-apache-spark; extra=='apache.spark'](packages/a/apache-airflow-providers-apache-spark.md)
 - [pyspark; extra=='apache.spark'](packages/p/pyspark.md)
+
+### apache.sqoop
+- [apache-airflow-providers-apache-sqoop; extra=='apache.sqoop'](packages/a/apache-airflow-providers-apache-sqoop.md)
 
 ### apache.webhdfs
 - [apache-airflow-providers-apache-hdfs; extra=='apache.webhdfs'](packages/a/apache-airflow-providers-apache-hdfs.md)
@@ -142,7 +160,8 @@
 
 ### aws
 - [apache-airflow-providers-amazon; extra=='aws'](packages/a/apache-airflow-providers-amazon.md)
-- [boto3 (<2.0.0,>=1.12.0); extra=='aws'](packages/b/boto3.md)
+- [boto3 (<1.16.0,>=1.15.0); extra=='aws'](packages/b/boto3.md)
+- [botocore (<1.19.0,>=1.18.0); extra=='aws'](packages/b/botocore.md)
 - [watchtower (~=0.7.3); extra=='aws'](packages/w/watchtower.md)
 
 ### azure
@@ -157,7 +176,6 @@
 - [azure-mgmt-datalake-store (>=0.5.0); extra=='azure'](packages/a/azure-mgmt-datalake-store.md)
 - [azure-mgmt-resource (>=2.2.0); extra=='azure'](packages/a/azure-mgmt-resource.md)
 - [azure-storage (<0.37.0,>=0.34.0); extra=='azure'](packages/a/azure-storage.md)
-- [azure-storage-blob (<12.0); extra=='azure'](packages/a/azure-storage-blob.md)
 
 ### cassandra
 - [apache-airflow-providers-apache-cassandra; extra=='cassandra'](packages/a/apache-airflow-providers-apache-cassandra.md)
@@ -193,8 +211,248 @@
 - [apache-airflow-providers-datadog; extra=='datadog'](packages/a/apache-airflow-providers-datadog.md)
 - [datadog (>=0.14.0); extra=='datadog'](packages/d/datadog.md)
 
+### devel_all
+- [amqp (<5.0.0); extra=='devel_all'](packages/a/amqp.md)
+- [analytics-python (>=1.2.9); extra=='devel_all'](packages/a/analytics-python.md)
+- [apache-airflow-providers-amazon; extra=='devel_all'](packages/a/apache-airflow-providers-amazon.md)
+- [apache-airflow-providers-apache-cassandra; extra=='devel_all'](packages/a/apache-airflow-providers-apache-cassandra.md)
+- [apache-airflow-providers-apache-druid; extra=='devel_all'](packages/a/apache-airflow-providers-apache-druid.md)
+- [apache-airflow-providers-apache-hdfs; extra=='devel_all'](packages/a/apache-airflow-providers-apache-hdfs.md)
+- [apache-airflow-providers-apache-hive; extra=='devel_all'](packages/a/apache-airflow-providers-apache-hive.md)
+- [apache-airflow-providers-apache-kylin; extra=='devel_all'](packages/a/apache-airflow-providers-apache-kylin.md)
+- [apache-airflow-providers-apache-livy; extra=='devel_all'](packages/a/apache-airflow-providers-apache-livy.md)
+- [apache-airflow-providers-apache-pig; extra=='devel_all'](packages/a/apache-airflow-providers-apache-pig.md)
+- [apache-airflow-providers-apache-pinot; extra=='devel_all'](packages/a/apache-airflow-providers-apache-pinot.md)
+- [apache-airflow-providers-apache-spark; extra=='devel_all'](packages/a/apache-airflow-providers-apache-spark.md)
+- [apache-airflow-providers-apache-sqoop; extra=='devel_all'](packages/a/apache-airflow-providers-apache-sqoop.md)
+- [apache-airflow-providers-celery; extra=='devel_all'](packages/a/apache-airflow-providers-celery.md)
+- [apache-airflow-providers-cloudant; extra=='devel_all'](packages/a/apache-airflow-providers-cloudant.md)
+- [apache-airflow-providers-cncf-kubernetes; extra=='devel_all'](packages/a/apache-airflow-providers-cncf-kubernetes.md)
+- [apache-airflow-providers-databricks; extra=='devel_all'](packages/a/apache-airflow-providers-databricks.md)
+- [apache-airflow-providers-datadog; extra=='devel_all'](packages/a/apache-airflow-providers-datadog.md)
+- [apache-airflow-providers-dingding; extra=='devel_all'](packages/a/apache-airflow-providers-dingding.md)
+- [apache-airflow-providers-discord; extra=='devel_all'](packages/a/apache-airflow-providers-discord.md)
+- [apache-airflow-providers-docker; extra=='devel_all'](packages/a/apache-airflow-providers-docker.md)
+- [apache-airflow-providers-elasticsearch; extra=='devel_all'](packages/a/apache-airflow-providers-elasticsearch.md)
+- [apache-airflow-providers-exasol; extra=='devel_all'](packages/a/apache-airflow-providers-exasol.md)
+- [apache-airflow-providers-facebook; extra=='devel_all'](packages/a/apache-airflow-providers-facebook.md)
+- [apache-airflow-providers-ftp; extra=='devel_all'](packages/a/apache-airflow-providers-ftp.md)
+- [apache-airflow-providers-google; extra=='devel_all'](packages/a/apache-airflow-providers-google.md)
+- [apache-airflow-providers-grpc; extra=='devel_all'](packages/a/apache-airflow-providers-grpc.md)
+- [apache-airflow-providers-hashicorp; extra=='devel_all'](packages/a/apache-airflow-providers-hashicorp.md)
+- [apache-airflow-providers-http; extra=='devel_all'](packages/a/apache-airflow-providers-http.md)
+- [apache-airflow-providers-imap; extra=='devel_all'](packages/a/apache-airflow-providers-imap.md)
+- [apache-airflow-providers-jdbc; extra=='devel_all'](packages/a/apache-airflow-providers-jdbc.md)
+- [apache-airflow-providers-jenkins; extra=='devel_all'](packages/a/apache-airflow-providers-jenkins.md)
+- [apache-airflow-providers-jira; extra=='devel_all'](packages/a/apache-airflow-providers-jira.md)
+- [apache-airflow-providers-microsoft-azure; extra=='devel_all'](packages/a/apache-airflow-providers-microsoft-azure.md)
+- [apache-airflow-providers-microsoft-mssql; extra=='devel_all'](packages/a/apache-airflow-providers-microsoft-mssql.md)
+- [apache-airflow-providers-microsoft-winrm; extra=='devel_all'](packages/a/apache-airflow-providers-microsoft-winrm.md)
+- [apache-airflow-providers-mongo; extra=='devel_all'](packages/a/apache-airflow-providers-mongo.md)
+- [apache-airflow-providers-mysql; extra=='devel_all'](packages/a/apache-airflow-providers-mysql.md)
+- [apache-airflow-providers-odbc; extra=='devel_all'](packages/a/apache-airflow-providers-odbc.md)
+- [apache-airflow-providers-openfaas; extra=='devel_all'](packages/a/apache-airflow-providers-openfaas.md)
+- [apache-airflow-providers-opsgenie; extra=='devel_all'](packages/a/apache-airflow-providers-opsgenie.md)
+- [apache-airflow-providers-oracle; extra=='devel_all'](packages/a/apache-airflow-providers-oracle.md)
+- [apache-airflow-providers-pagerduty; extra=='devel_all'](packages/a/apache-airflow-providers-pagerduty.md)
+- [apache-airflow-providers-papermill; extra=='devel_all'](packages/a/apache-airflow-providers-papermill.md)
+- [apache-airflow-providers-plexus; extra=='devel_all'](packages/a/apache-airflow-providers-plexus.md)
+- [apache-airflow-providers-postgres; extra=='devel_all'](packages/a/apache-airflow-providers-postgres.md)
+- [apache-airflow-providers-presto; extra=='devel_all'](packages/a/apache-airflow-providers-presto.md)
+- [apache-airflow-providers-qubole; extra=='devel_all'](packages/a/apache-airflow-providers-qubole.md)
+- [apache-airflow-providers-redis; extra=='devel_all'](packages/a/apache-airflow-providers-redis.md)
+- [apache-airflow-providers-salesforce; extra=='devel_all'](packages/a/apache-airflow-providers-salesforce.md)
+- [apache-airflow-providers-samba; extra=='devel_all'](packages/a/apache-airflow-providers-samba.md)
+- [apache-airflow-providers-segment; extra=='devel_all'](packages/a/apache-airflow-providers-segment.md)
+- [apache-airflow-providers-sendgrid; extra=='devel_all'](packages/a/apache-airflow-providers-sendgrid.md)
+- [apache-airflow-providers-sftp; extra=='devel_all'](packages/a/apache-airflow-providers-sftp.md)
+- [apache-airflow-providers-singularity; extra=='devel_all'](packages/a/apache-airflow-providers-singularity.md)
+- [apache-airflow-providers-slack; extra=='devel_all'](packages/a/apache-airflow-providers-slack.md)
+- [apache-airflow-providers-snowflake; extra=='devel_all'](packages/a/apache-airflow-providers-snowflake.md)
+- [apache-airflow-providers-sqlite; extra=='devel_all'](packages/a/apache-airflow-providers-sqlite.md)
+- [apache-airflow-providers-ssh; extra=='devel_all'](packages/a/apache-airflow-providers-ssh.md)
+- [apache-airflow-providers-telegram; extra=='devel_all'](packages/a/apache-airflow-providers-telegram.md)
+- [apache-airflow-providers-vertica; extra=='devel_all'](packages/a/apache-airflow-providers-vertica.md)
+- [apache-airflow-providers-yandex; extra=='devel_all'](packages/a/apache-airflow-providers-yandex.md)
+- [apache-airflow-providers-zendesk; extra=='devel_all'](packages/a/apache-airflow-providers-zendesk.md)
+- [apache-beam[gcp]; extra=='devel_all'](packages/a/apache-beam.md)
+- [arrow (>=0.16.0); extra=='devel_all'](packages/a/arrow.md)
+- [atlasclient (>=0.1.2); extra=='devel_all'](packages/a/atlasclient.md)
+- [azure-batch (>=8.0.0); extra=='devel_all'](packages/a/azure-batch.md)
+- [azure-cosmos (<4,>=3.0.1); extra=='devel_all'](packages/a/azure-cosmos.md)
+- [azure-datalake-store (>=0.0.45); extra=='devel_all'](packages/a/azure-datalake-store.md)
+- [azure-identity (>=1.3.1); extra=='devel_all'](packages/a/azure-identity.md)
+- [azure-keyvault (>=4.1.0); extra=='devel_all'](packages/a/azure-keyvault.md)
+- [azure-kusto-data (<0.1,>=0.0.43); extra=='devel_all'](packages/a/azure-kusto-data.md)
+- [azure-mgmt-containerinstance (<2.0,>=1.5.0); extra=='devel_all'](packages/a/azure-mgmt-containerinstance.md)
+- [azure-mgmt-datalake-store (>=0.5.0); extra=='devel_all'](packages/a/azure-mgmt-datalake-store.md)
+- [azure-mgmt-resource (>=2.2.0); extra=='devel_all'](packages/a/azure-mgmt-resource.md)
+- [azure-storage (<0.37.0,>=0.34.0); extra=='devel_all'](packages/a/azure-storage.md)
+- [azure-storage-blob; extra=='devel_all'](packages/a/azure-storage-blob.md)
+- [azure-storage-common; extra=='devel_all'](packages/a/azure-storage-common.md)
+- [bcrypt (>=2.0.0); extra=='devel_all'](packages/b/bcrypt.md)
+- [beautifulsoup4 (~=4.7.1); extra=='devel_all'](packages/b/beautifulsoup4.md)
+- [black; extra=='devel_all'](packages/b/black.md)
+- [blinker (>=1.1); extra=='devel_all'](packages/b/blinker.md)
+- [blinker; extra=='devel_all'](packages/b/blinker.md)
+- [boto3 (<1.16.0,>=1.15.0); extra=='devel_all'](packages/b/boto3.md)
+- [botocore (<1.19.0,>=1.18.0); extra=='devel_all'](packages/b/botocore.md)
+- [bowler; extra=='devel_all'](packages/b/bowler.md)
+- [cassandra-driver (<3.21.0,>=3.13.0); extra=='devel_all'](packages/c/cassandra-driver.md)
+- [celery (~=4.4.2); extra=='devel_all'](packages/c/celery.md)
+- [cgroupspy (>=0.1.4); extra=='devel_all'](packages/c/cgroupspy.md)
+- [click (~=7.1); extra=='devel_all'](packages/c/click.md)
+- [cloudant (>=2.0); extra=='devel_all'](packages/c/cloudant.md)
+- [cloudpickle (<1.5.0,>=1.4.1); extra=='devel_all'](packages/c/cloudpickle.md)
+- [contextdecorator; (python_version<'3.4') and extra=='devel_all'](packages/c/contextdecorator.md)
+- [coverage; extra=='devel_all'](packages/c/coverage.md)
+- [cryptography (>=2.0.0); extra=='devel_all'](packages/c/cryptography.md)
+- [cx-oracle (>=5.1.2); extra=='devel_all'](packages/c/cx-oracle.md)
+- [datadog (>=0.14.0); extra=='devel_all'](packages/d/datadog.md)
+- [distributed (<2.20,>=2.11.1); extra=='devel_all'](packages/d/distributed.md)
+- [dnspython (<2.0.0,>=1.13.0); extra=='devel_all'](packages/d/dnspython.md)
+- [docker (~=3.0); extra=='devel_all'](packages/d/docker.md)
+- [docutils; extra=='devel_all'](packages/d/docutils.md)
+- [elasticsearch (<7.6.0,>7); extra=='devel_all'](packages/e/elasticsearch.md)
+- [elasticsearch-dbapi (==0.1.0); extra=='devel_all'](packages/e/elasticsearch-dbapi.md)
+- [elasticsearch-dsl (>=5.0.0); extra=='devel_all'](packages/e/elasticsearch-dsl.md)
+- [eventlet (>=0.9.7); extra=='devel_all'](packages/e/eventlet.md)
+- [facebook-business (>=6.0.2); extra=='devel_all'](packages/f/facebook-business.md)
+- [flake8 (>=3.6.0); extra=='devel_all'](packages/f/flake8.md)
+- [flake8-colors; extra=='devel_all'](packages/f/flake8-colors.md)
+- [flaky; extra=='devel_all'](packages/f/flaky.md)
+- [flask-bcrypt (>=0.7.1); extra=='devel_all'](packages/f/flask-bcrypt.md)
+- [flask-oauthlib (<0.9.6,>=0.9.1); extra=='devel_all'](packages/f/flask-oauthlib.md)
+- [flower (<1.0,>=0.7.3); extra=='devel_all'](packages/f/flower.md)
+- [freezegun; extra=='devel_all'](packages/f/freezegun.md)
+- [gevent (>=0.13); extra=='devel_all'](packages/g/gevent.md)
+- [github3.py; extra=='devel_all'](packages/g/github3.py.md)
+- [gitpython; extra=='devel_all'](packages/g/gitpython.md)
+- [google-ads (<8.0.0,>=4.0.0); extra=='devel_all'](packages/g/google-ads.md)
+- [google-api-python-client (<2.0.0,>=1.6.0); extra=='devel_all'](packages/g/google-api-python-client.md)
+- [google-auth (<2.0.0,>=1.0.0); extra=='devel_all'](packages/g/google-auth.md)
+- [google-auth (<2.0.0dev,>=1.0.0); extra=='devel_all'](packages/g/google-auth.md)
+- [google-auth-httplib2 (>=0.0.1); extra=='devel_all'](packages/g/google-auth-httplib2.md)
+- [google-cloud-automl (<2.0.0,>=0.4.0); extra=='devel_all'](packages/g/google-cloud-automl.md)
+- [google-cloud-bigquery-datatransfer (<2.0.0,>=0.4.0); extra=='devel_all'](packages/g/google-cloud-bigquery-datatransfer.md)
+- [google-cloud-bigtable (<2.0.0,>=1.0.0); extra=='devel_all'](packages/g/google-cloud-bigtable.md)
+- [google-cloud-container (<2.0.0,>=0.1.1); extra=='devel_all'](packages/g/google-cloud-container.md)
+- [google-cloud-datacatalog (<0.8,>=0.5.0); extra=='devel_all'](packages/g/google-cloud-datacatalog.md)
+- [google-cloud-dataproc (<2.0.0,>=1.0.1); extra=='devel_all'](packages/g/google-cloud-dataproc.md)
+- [google-cloud-dlp (<2.0.0,>=0.11.0); extra=='devel_all'](packages/g/google-cloud-dlp.md)
+- [google-cloud-kms (<2.0.0,>=1.2.1); extra=='devel_all'](packages/g/google-cloud-kms.md)
+- [google-cloud-language (<2.0.0,>=1.1.1); extra=='devel_all'](packages/g/google-cloud-language.md)
+- [google-cloud-logging (<2.0.0,>=1.14.0); extra=='devel_all'](packages/g/google-cloud-logging.md)
+- [google-cloud-memcache (>=0.2.0); extra=='devel_all'](packages/g/google-cloud-memcache.md)
+- [google-cloud-monitoring (<2.0.0,>=0.34.0); extra=='devel_all'](packages/g/google-cloud-monitoring.md)
+- [google-cloud-os-login (<2.0.0,>=1.0.0); extra=='devel_all'](packages/g/google-cloud-os-login.md)
+- [google-cloud-pubsub (<2.0.0,>=1.0.0); extra=='devel_all'](packages/g/google-cloud-pubsub.md)
+- [google-cloud-redis (<2.0.0,>=0.3.0); extra=='devel_all'](packages/g/google-cloud-redis.md)
+- [google-cloud-secret-manager (<2.0.0,>=0.2.0); extra=='devel_all'](packages/g/google-cloud-secret-manager.md)
+- [google-cloud-spanner (<2.0.0,>=1.10.0); extra=='devel_all'](packages/g/google-cloud-spanner.md)
+- [google-cloud-speech (<2.0.0,>=0.36.3); extra=='devel_all'](packages/g/google-cloud-speech.md)
+- [google-cloud-storage (<2.0.0,>=1.16); extra=='devel_all'](packages/g/google-cloud-storage.md)
+- [google-cloud-tasks (<2.0.0,>=1.2.1); extra=='devel_all'](packages/g/google-cloud-tasks.md)
+- [google-cloud-texttospeech (<2.0.0,>=0.4.0); extra=='devel_all'](packages/g/google-cloud-texttospeech.md)
+- [google-cloud-translate (<2.0.0,>=1.5.0); extra=='devel_all'](packages/g/google-cloud-translate.md)
+- [google-cloud-videointelligence (<2.0.0,>=1.7.0); extra=='devel_all'](packages/g/google-cloud-videointelligence.md)
+- [google-cloud-vision (<2.0.0,>=0.35.2); extra=='devel_all'](packages/g/google-cloud-vision.md)
+- [greenlet (>=0.4.9); extra=='devel_all'](packages/g/greenlet.md)
+- [grpcio (>=1.15.0); extra=='devel_all'](packages/g/grpcio.md)
+- [grpcio-gcp (>=0.2.2); extra=='devel_all'](packages/g/grpcio-gcp.md)
+- [hdfs[avro,dataframe,kerberos] (>=2.0.4); extra=='devel_all'](packages/h/hdfs.md)
+- [hmsclient (>=0.1.0); extra=='devel_all'](packages/h/hmsclient.md)
+- [hvac (~=0.10); extra=='devel_all'](packages/h/hvac.md)
+- [importlib-resources (~=1.4); extra=='devel_all'](packages/i/importlib-resources.md)
+- [ipdb; extra=='devel_all'](packages/i/ipdb.md)
+- [jaydebeapi (>=1.1.1); extra=='devel_all'](packages/j/jaydebeapi.md)
+- [jira (>1.0.7); extra=='devel_all'](packages/j/jira.md)
+- [jira; extra=='devel_all'](packages/j/jira.md)
+- [kubernetes (<12.0.0,>=3.0.0); extra=='devel_all'](packages/k/kubernetes.md)
+- [kylinpy (>=2.6); extra=='devel_all'](packages/k/kylinpy.md)
+- [ldap3 (>=2.5.1); extra=='devel_all'](packages/l/ldap3.md)
+- [mongomock; extra=='devel_all'](packages/m/mongomock.md)
+- [moto; extra=='devel_all'](packages/m/moto.md)
+- [mypy (==0.770); extra=='devel_all'](packages/m/mypy.md)
+- [mysql-connector-python (<=8.0.18,>=8.0.11); extra=='devel_all'](packages/m/mysql-connector-python.md)
+- [mysqlclient (<1.4,>=1.3.6); extra=='devel_all'](packages/m/mysqlclient.md)
+- [nteract-scrapbook[all] (>=0.3.1); extra=='devel_all'](packages/n/nteract-scrapbook.md)
+- [oauthlib (!=2.0.3,!=2.0.4,!=2.0.5,<3.0.0,>=1.1.2); extra=='devel_all'](packages/o/oauthlib.md)
+- [pandas-gbq; extra=='devel_all'](packages/p/pandas-gbq.md)
+- [papermill[all] (>=1.2.1); extra=='devel_all'](packages/p/papermill.md)
+- [parameterized; extra=='devel_all'](packages/p/parameterized.md)
+- [paramiko (>=2.6.0); extra=='devel_all'](packages/p/paramiko.md)
+- [paramiko; extra=='devel_all'](packages/p/paramiko.md)
+- [pdpyras (<5,>=4.1.2); extra=='devel_all'](packages/p/pdpyras.md)
+- [pinotdb (==0.1.1); extra=='devel_all'](packages/p/pinotdb.md)
+- [pipdeptree; extra=='devel_all'](packages/p/pipdeptree.md)
+- [pre-commit; extra=='devel_all'](packages/p/pre-commit.md)
+- [presto-python-client (<0.8,>=0.7.0); extra=='devel_all'](packages/p/presto-python-client.md)
+- [psycopg2-binary (>=2.7.4); extra=='devel_all'](packages/p/psycopg2-binary.md)
+- [pydruid (>=0.4.1); extra=='devel_all'](packages/p/pydruid.md)
+- [pyexasol (<1.0.0,>=0.5.1); extra=='devel_all'](packages/p/pyexasol.md)
+- [pyhive[hive] (>=0.6.0); extra=='devel_all'](packages/p/pyhive.md)
+- [pykerberos (>=1.1.13); extra=='devel_all'](packages/p/pykerberos.md)
+- [pylint (==2.5.3); extra=='devel_all'](packages/p/pylint.md)
+- [pymongo (>=3.6.0); extra=='devel_all'](packages/p/pymongo.md)
+- [pymssql (>=2.1.5,~=2.1); extra=='devel_all'](packages/p/pymssql.md)
+- [pyodbc; extra=='devel_all'](packages/p/pyodbc.md)
+- [pyopenssl; extra=='devel_all'](packages/p/pyopenssl.md)
+- [pysftp (>=0.2.9); extra=='devel_all'](packages/p/pysftp.md)
+- [pysftp; extra=='devel_all'](packages/p/pysftp.md)
+- [pysmbclient (>=0.1.3); extra=='devel_all'](packages/p/pysmbclient.md)
+- [pyspark; extra=='devel_all'](packages/p/pyspark.md)
+- [pytest; extra=='devel_all'](packages/p/pytest.md)
+- [pytest-cov; extra=='devel_all'](packages/p/pytest-cov.md)
+- [pytest-instafail; extra=='devel_all'](packages/p/pytest-instafail.md)
+- [pytest-rerunfailures; extra=='devel_all'](packages/p/pytest-rerunfailures.md)
+- [pytest-timeouts; extra=='devel_all'](packages/p/pytest-timeouts.md)
+- [pytest-xdist; extra=='devel_all'](packages/p/pytest-xdist.md)
+- [python-jenkins (>=1.0.0); extra=='devel_all'](packages/p/python-jenkins.md)
+- [python-telegram-bot (==13.0); extra=='devel_all'](packages/p/python-telegram-bot.md)
+- [pywinrm (~=0.4); extra=='devel_all'](packages/p/pywinrm.md)
+- [pywinrm; extra=='devel_all'](packages/p/pywinrm.md)
+- [qds-sdk (>=1.10.4); extra=='devel_all'](packages/q/qds-sdk.md)
+- [qds-sdk (>=1.9.6); extra=='devel_all'](packages/q/qds-sdk.md)
+- [redis (~=3.2); extra=='devel_all'](packages/r/redis.md)
+- [requests (<2.24.0); extra=='devel_all'](packages/r/requests.md)
+- [requests (<3,>=2.20.0); extra=='devel_all'](packages/r/requests.md)
+- [requests-kerberos (>=0.10.0); extra=='devel_all'](packages/r/requests-kerberos.md)
+- [requests-mock; extra=='devel_all'](packages/r/requests-mock.md)
+- [requests-oauthlib (<1.2.0); extra=='devel_all'](packages/r/requests-oauthlib.md)
+- [sendgrid (<7,>=6.0.0); extra=='devel_all'](packages/s/sendgrid.md)
+- [sentry-sdk (>=0.8.0); extra=='devel_all'](packages/s/sentry-sdk.md)
+- [simple-salesforce (>=1.0.0); extra=='devel_all'](packages/s/simple-salesforce.md)
+- [slackclient (<3.0.0,>=2.0.0); extra=='devel_all'](packages/s/slackclient.md)
+- [snowflake-connector-python (>=1.5.2); extra=='devel_all'](packages/s/snowflake-connector-python.md)
+- [snowflake-sqlalchemy (>=1.1.0); extra=='devel_all'](packages/s/snowflake-sqlalchemy.md)
+- [sphinx (>=2.1.2); extra=='devel_all'](packages/s/sphinx.md)
+- [sphinx-airflow-theme; extra=='devel_all'](packages/s/sphinx-airflow-theme.md)
+- [sphinx-argparse (>=0.1.13); extra=='devel_all'](packages/s/sphinx-argparse.md)
+- [sphinx-autoapi (==1.0.0); extra=='devel_all'](packages/s/sphinx-autoapi.md)
+- [sphinx-copybutton; extra=='devel_all'](packages/s/sphinx-copybutton.md)
+- [sphinx-jinja (~=1.1); extra=='devel_all'](packages/s/sphinx-jinja.md)
+- [sphinx-rtd-theme (>=0.1.6); extra=='devel_all'](packages/s/sphinx-rtd-theme.md)
+- [sphinxcontrib-httpdomain (>=1.7.0); extra=='devel_all'](packages/s/sphinxcontrib-httpdomain.md)
+- [sphinxcontrib-redoc (>=1.6.0); extra=='devel_all'](packages/s/sphinxcontrib-redoc.md)
+- [sphinxcontrib-spelling (==5.2.1); extra=='devel_all'](packages/s/sphinxcontrib-spelling.md)
+- [spython (>=0.0.56); extra=='devel_all'](packages/s/spython.md)
+- [sshtunnel (<0.2,>=0.1.4); extra=='devel_all'](packages/s/sshtunnel.md)
+- [statsd (<4.0,>=3.3.0); extra=='devel_all'](packages/s/statsd.md)
+- [tableauserverclient (~=0.12); extra=='devel_all'](packages/t/tableauserverclient.md)
+- [testfixtures; extra=='devel_all'](packages/t/testfixtures.md)
+- [thrift-sasl (>=0.2.0); extra=='devel_all'](packages/t/thrift-sasl.md)
+- [vertica-python (>=0.5.1); extra=='devel_all'](packages/v/vertica-python.md)
+- [vine (~=1.3); extra=='devel_all'](packages/v/vine.md)
+- [virtualenv; extra=='devel_all'](packages/v/virtualenv.md)
+- [watchtower (~=0.7.3); extra=='devel_all'](packages/w/watchtower.md)
+- [wheel; extra=='devel_all'](packages/w/wheel.md)
+- [yamllint; extra=='devel_all'](packages/y/yamllint.md)
+- [yandexcloud (>=0.22.0); extra=='devel_all'](packages/y/yandexcloud.md)
+- [zdesk; extra=='devel_all'](packages/z/zdesk.md)
+
 ### devel_ci
-- [amqp; extra=='devel_ci'](packages/a/amqp.md)
+- [amqp (<5.0.0); extra=='devel_ci'](packages/a/amqp.md)
 - [analytics-python (>=1.2.9); extra=='devel_ci'](packages/a/analytics-python.md)
 - [apache-airflow-providers-amazon; extra=='devel_ci'](packages/a/apache-airflow-providers-amazon.md)
 - [apache-airflow-providers-apache-cassandra; extra=='devel_ci'](packages/a/apache-airflow-providers-apache-cassandra.md)
@@ -253,6 +511,7 @@
 - [apache-airflow-providers-snowflake; extra=='devel_ci'](packages/a/apache-airflow-providers-snowflake.md)
 - [apache-airflow-providers-sqlite; extra=='devel_ci'](packages/a/apache-airflow-providers-sqlite.md)
 - [apache-airflow-providers-ssh; extra=='devel_ci'](packages/a/apache-airflow-providers-ssh.md)
+- [apache-airflow-providers-telegram; extra=='devel_ci'](packages/a/apache-airflow-providers-telegram.md)
 - [apache-airflow-providers-vertica; extra=='devel_ci'](packages/a/apache-airflow-providers-vertica.md)
 - [apache-airflow-providers-yandex; extra=='devel_ci'](packages/a/apache-airflow-providers-yandex.md)
 - [apache-airflow-providers-zendesk; extra=='devel_ci'](packages/a/apache-airflow-providers-zendesk.md)
@@ -268,13 +527,15 @@
 - [azure-mgmt-datalake-store (>=0.5.0); extra=='devel_ci'](packages/a/azure-mgmt-datalake-store.md)
 - [azure-mgmt-resource (>=2.2.0); extra=='devel_ci'](packages/a/azure-mgmt-resource.md)
 - [azure-storage (<0.37.0,>=0.34.0); extra=='devel_ci'](packages/a/azure-storage.md)
-- [azure-storage-blob (<12.0); extra=='devel_ci'](packages/a/azure-storage-blob.md)
+- [azure-storage-blob; extra=='devel_ci'](packages/a/azure-storage-blob.md)
+- [azure-storage-common; extra=='devel_ci'](packages/a/azure-storage-common.md)
 - [bcrypt (>=2.0.0); extra=='devel_ci'](packages/b/bcrypt.md)
 - [beautifulsoup4 (~=4.7.1); extra=='devel_ci'](packages/b/beautifulsoup4.md)
 - [black; extra=='devel_ci'](packages/b/black.md)
 - [blinker (>=1.1); extra=='devel_ci'](packages/b/blinker.md)
 - [blinker; extra=='devel_ci'](packages/b/blinker.md)
-- [boto3 (<2.0.0,>=1.12.0); extra=='devel_ci'](packages/b/boto3.md)
+- [boto3 (<1.16.0,>=1.15.0); extra=='devel_ci'](packages/b/boto3.md)
+- [botocore (<1.19.0,>=1.18.0); extra=='devel_ci'](packages/b/botocore.md)
 - [bowler; extra=='devel_ci'](packages/b/bowler.md)
 - [cassandra-driver (<3.21.0,>=3.13.0); extra=='devel_ci'](packages/c/cassandra-driver.md)
 - [celery (~=4.4.2); extra=='devel_ci'](packages/c/celery.md)
@@ -306,7 +567,7 @@
 - [gevent (>=0.13); extra=='devel_ci'](packages/g/gevent.md)
 - [github3.py; extra=='devel_ci'](packages/g/github3.py.md)
 - [gitpython; extra=='devel_ci'](packages/g/gitpython.md)
-- [google-ads (>=4.0.0); extra=='devel_ci'](packages/g/google-ads.md)
+- [google-ads (<8.0.0,>=4.0.0); extra=='devel_ci'](packages/g/google-ads.md)
 - [google-api-python-client (<2.0.0,>=1.6.0); extra=='devel_ci'](packages/g/google-api-python-client.md)
 - [google-auth (<2.0.0,>=1.0.0); extra=='devel_ci'](packages/g/google-auth.md)
 - [google-auth (<2.0.0dev,>=1.0.0); extra=='devel_ci'](packages/g/google-auth.md)
@@ -341,6 +602,7 @@
 - [hdfs[avro,dataframe,kerberos] (>=2.0.4); extra=='devel_ci'](packages/h/hdfs.md)
 - [hmsclient (>=0.1.0); extra=='devel_ci'](packages/h/hmsclient.md)
 - [hvac (~=0.10); extra=='devel_ci'](packages/h/hvac.md)
+- [importlib-resources (~=1.4); extra=='devel_ci'](packages/i/importlib-resources.md)
 - [ipdb; extra=='devel_ci'](packages/i/ipdb.md)
 - [jaydebeapi (>=1.1.1); extra=='devel_ci'](packages/j/jaydebeapi.md)
 - [jira (>1.0.7); extra=='devel_ci'](packages/j/jira.md)
@@ -349,7 +611,7 @@
 - [kylinpy (>=2.6); extra=='devel_ci'](packages/k/kylinpy.md)
 - [ldap3 (>=2.5.1); extra=='devel_ci'](packages/l/ldap3.md)
 - [mongomock; extra=='devel_ci'](packages/m/mongomock.md)
-- [moto (==1.3.14); extra=='devel_ci'](packages/m/moto.md)
+- [moto; extra=='devel_ci'](packages/m/moto.md)
 - [mypy (==0.770); extra=='devel_ci'](packages/m/mypy.md)
 - [mysql-connector-python (<=8.0.18,>=8.0.11); extra=='devel_ci'](packages/m/mysql-connector-python.md)
 - [mysqlclient (<1.4,>=1.3.6); extra=='devel_ci'](packages/m/mysqlclient.md)
@@ -386,6 +648,7 @@
 - [pytest-timeouts; extra=='devel_ci'](packages/p/pytest-timeouts.md)
 - [pytest-xdist; extra=='devel_ci'](packages/p/pytest-xdist.md)
 - [python-jenkins (>=1.0.0); extra=='devel_ci'](packages/p/python-jenkins.md)
+- [python-telegram-bot (==13.0); extra=='devel_ci'](packages/p/python-telegram-bot.md)
 - [pywinrm (~=0.4); extra=='devel_ci'](packages/p/pywinrm.md)
 - [pywinrm; extra=='devel_ci'](packages/p/pywinrm.md)
 - [qds-sdk (>=1.10.4); extra=='devel_ci'](packages/q/qds-sdk.md)
@@ -395,15 +658,15 @@
 - [requests (<3,>=2.20.0); extra=='devel_ci'](packages/r/requests.md)
 - [requests-kerberos (>=0.10.0); extra=='devel_ci'](packages/r/requests-kerberos.md)
 - [requests-mock; extra=='devel_ci'](packages/r/requests-mock.md)
-- [requests-oauthlib (==1.1.0); extra=='devel_ci'](packages/r/requests-oauthlib.md)
+- [requests-oauthlib (<1.2.0); extra=='devel_ci'](packages/r/requests-oauthlib.md)
 - [sendgrid (<7,>=6.0.0); extra=='devel_ci'](packages/s/sendgrid.md)
 - [sentry-sdk (>=0.8.0); extra=='devel_ci'](packages/s/sentry-sdk.md)
-- [setuptools; extra=='devel_ci'](packages/s/setuptools.md)
 - [simple-salesforce (>=1.0.0); extra=='devel_ci'](packages/s/simple-salesforce.md)
 - [slackclient (<3.0.0,>=2.0.0); extra=='devel_ci'](packages/s/slackclient.md)
 - [snowflake-connector-python (>=1.5.2); extra=='devel_ci'](packages/s/snowflake-connector-python.md)
 - [snowflake-sqlalchemy (>=1.1.0); extra=='devel_ci'](packages/s/snowflake-sqlalchemy.md)
 - [sphinx (>=2.1.2); extra=='devel_ci'](packages/s/sphinx.md)
+- [sphinx-airflow-theme; extra=='devel_ci'](packages/s/sphinx-airflow-theme.md)
 - [sphinx-argparse (>=0.1.13); extra=='devel_ci'](packages/s/sphinx-argparse.md)
 - [sphinx-autoapi (==1.0.0); extra=='devel_ci'](packages/s/sphinx-autoapi.md)
 - [sphinx-copybutton; extra=='devel_ci'](packages/s/sphinx-copybutton.md)
@@ -451,11 +714,12 @@
 - [gitpython; extra=='devel_hadoop'](packages/g/gitpython.md)
 - [hdfs[avro,dataframe,kerberos] (>=2.0.4); extra=='devel_hadoop'](packages/h/hdfs.md)
 - [hmsclient (>=0.1.0); extra=='devel_hadoop'](packages/h/hmsclient.md)
+- [importlib-resources (~=1.4); extra=='devel_hadoop'](packages/i/importlib-resources.md)
 - [ipdb; extra=='devel_hadoop'](packages/i/ipdb.md)
 - [jira; extra=='devel_hadoop'](packages/j/jira.md)
 - [kubernetes (<12.0.0,>=3.0.0); extra=='devel_hadoop'](packages/k/kubernetes.md)
 - [mongomock; extra=='devel_hadoop'](packages/m/mongomock.md)
-- [moto (==1.3.14); extra=='devel_hadoop'](packages/m/moto.md)
+- [moto; extra=='devel_hadoop'](packages/m/moto.md)
 - [mypy (==0.770); extra=='devel_hadoop'](packages/m/mypy.md)
 - [mysql-connector-python (<=8.0.18,>=8.0.11); extra=='devel_hadoop'](packages/m/mysql-connector-python.md)
 - [mysqlclient (<1.4,>=1.3.6); extra=='devel_hadoop'](packages/m/mysqlclient.md)
@@ -478,9 +742,9 @@
 - [qds-sdk (>=1.9.6); extra=='devel_hadoop'](packages/q/qds-sdk.md)
 - [requests-kerberos (>=0.10.0); extra=='devel_hadoop'](packages/r/requests-kerberos.md)
 - [requests-mock; extra=='devel_hadoop'](packages/r/requests-mock.md)
-- [setuptools; extra=='devel_hadoop'](packages/s/setuptools.md)
 - [snakebite-py3; extra=='devel_hadoop'](packages/s/snakebite-py3.md)
 - [sphinx (>=2.1.2); extra=='devel_hadoop'](packages/s/sphinx.md)
+- [sphinx-airflow-theme; extra=='devel_hadoop'](packages/s/sphinx-airflow-theme.md)
 - [sphinx-argparse (>=0.1.13); extra=='devel_hadoop'](packages/s/sphinx-argparse.md)
 - [sphinx-autoapi (==1.0.0); extra=='devel_hadoop'](packages/s/sphinx-autoapi.md)
 - [sphinx-copybutton; extra=='devel_hadoop'](packages/s/sphinx-copybutton.md)
@@ -493,6 +757,12 @@
 - [thrift-sasl (>=0.2.0); extra=='devel_hadoop'](packages/t/thrift-sasl.md)
 - [wheel; extra=='devel_hadoop'](packages/w/wheel.md)
 - [yamllint; extra=='devel_hadoop'](packages/y/yamllint.md)
+
+### dingding
+- [apache-airflow-providers-dingding; extra=='dingding'](packages/a/apache-airflow-providers-dingding.md)
+
+### discord
+- [apache-airflow-providers-discord; extra=='discord'](packages/a/apache-airflow-providers-discord.md)
 
 ### docker
 - [apache-airflow-providers-docker; extra=='docker'](packages/a/apache-airflow-providers-docker.md)
@@ -516,9 +786,12 @@
 - [apache-airflow-providers-facebook; extra=='facebook'](packages/a/apache-airflow-providers-facebook.md)
 - [facebook-business (>=6.0.2); extra=='facebook'](packages/f/facebook-business.md)
 
+### ftp
+- [apache-airflow-providers-ftp; extra=='ftp'](packages/a/apache-airflow-providers-ftp.md)
+
 ### gcp
 - [apache-airflow-providers-google; extra=='gcp'](packages/a/apache-airflow-providers-google.md)
-- [google-ads (>=4.0.0); extra=='gcp'](packages/g/google-ads.md)
+- [google-ads (<8.0.0,>=4.0.0); extra=='gcp'](packages/g/google-ads.md)
 - [google-api-python-client (<2.0.0,>=1.6.0); extra=='gcp'](packages/g/google-api-python-client.md)
 - [google-auth (<2.0.0,>=1.0.0); extra=='gcp'](packages/g/google-auth.md)
 - [google-auth-httplib2 (>=0.0.1); extra=='gcp'](packages/g/google-auth-httplib2.md)
@@ -552,7 +825,7 @@
 
 ### gcp_api
 - [apache-airflow-providers-google; extra=='gcp_api'](packages/a/apache-airflow-providers-google.md)
-- [google-ads (>=4.0.0); extra=='gcp_api'](packages/g/google-ads.md)
+- [google-ads (<8.0.0,>=4.0.0); extra=='gcp_api'](packages/g/google-ads.md)
 - [google-api-python-client (<2.0.0,>=1.6.0); extra=='gcp_api'](packages/g/google-api-python-client.md)
 - [google-auth (<2.0.0,>=1.0.0); extra=='gcp_api'](packages/g/google-auth.md)
 - [google-auth-httplib2 (>=0.0.1); extra=='gcp_api'](packages/g/google-auth-httplib2.md)
@@ -587,11 +860,11 @@
 ### github_enterprise
 - [flask-oauthlib (<0.9.6,>=0.9.1); extra=='github_enterprise'](packages/f/flask-oauthlib.md)
 - [oauthlib (!=2.0.3,!=2.0.4,!=2.0.5,<3.0.0,>=1.1.2); extra=='github_enterprise'](packages/o/oauthlib.md)
-- [requests-oauthlib (==1.1.0); extra=='github_enterprise'](packages/r/requests-oauthlib.md)
+- [requests-oauthlib (<1.2.0); extra=='github_enterprise'](packages/r/requests-oauthlib.md)
 
 ### google
 - [apache-airflow-providers-google; extra=='google'](packages/a/apache-airflow-providers-google.md)
-- [google-ads (>=4.0.0); extra=='google'](packages/g/google-ads.md)
+- [google-ads (<8.0.0,>=4.0.0); extra=='google'](packages/g/google-ads.md)
 - [google-api-python-client (<2.0.0,>=1.6.0); extra=='google'](packages/g/google-api-python-client.md)
 - [google-auth (<2.0.0,>=1.0.0); extra=='google'](packages/g/google-auth.md)
 - [google-auth-httplib2 (>=0.0.1); extra=='google'](packages/g/google-auth-httplib2.md)
@@ -626,7 +899,7 @@
 ### google_auth
 - [flask-oauthlib (<0.9.6,>=0.9.1); extra=='google_auth'](packages/f/flask-oauthlib.md)
 - [oauthlib (!=2.0.3,!=2.0.4,!=2.0.5,<3.0.0,>=1.1.2); extra=='google_auth'](packages/o/oauthlib.md)
-- [requests-oauthlib (==1.1.0); extra=='google_auth'](packages/r/requests-oauthlib.md)
+- [requests-oauthlib (<1.2.0); extra=='google_auth'](packages/r/requests-oauthlib.md)
 
 ### grpc
 - [apache-airflow-providers-grpc; extra=='grpc'](packages/a/apache-airflow-providers-grpc.md)
@@ -647,9 +920,18 @@
 - [hmsclient (>=0.1.0); extra=='hive'](packages/h/hmsclient.md)
 - [pyhive[hive] (>=0.6.0); extra=='hive'](packages/p/pyhive.md)
 
+### http
+- [apache-airflow-providers-http; extra=='http'](packages/a/apache-airflow-providers-http.md)
+
+### imap
+- [apache-airflow-providers-imap; extra=='imap'](packages/a/apache-airflow-providers-imap.md)
+
 ### jdbc
 - [apache-airflow-providers-jdbc; extra=='jdbc'](packages/a/apache-airflow-providers-jdbc.md)
 - [jaydebeapi (>=1.1.1); extra=='jdbc'](packages/j/jaydebeapi.md)
+
+### jenkins
+- [apache-airflow-providers-jenkins; extra=='jenkins'](packages/a/apache-airflow-providers-jenkins.md)
 
 ### jira
 - [apache-airflow-providers-jira; extra=='jira'](packages/a/apache-airflow-providers-jira.md)
@@ -680,7 +962,6 @@
 - [azure-mgmt-datalake-store (>=0.5.0); extra=='microsoft.azure'](packages/a/azure-mgmt-datalake-store.md)
 - [azure-mgmt-resource (>=2.2.0); extra=='microsoft.azure'](packages/a/azure-mgmt-resource.md)
 - [azure-storage (<0.37.0,>=0.34.0); extra=='microsoft.azure'](packages/a/azure-storage.md)
-- [azure-storage-blob (<12.0); extra=='microsoft.azure'](packages/a/azure-storage-blob.md)
 
 ### microsoft.mssql
 - [apache-airflow-providers-microsoft-mssql; extra=='microsoft.mssql'](packages/a/apache-airflow-providers-microsoft-mssql.md)
@@ -700,13 +981,19 @@
 - [pymssql (>=2.1.5,~=2.1); extra=='mssql'](packages/p/pymssql.md)
 
 ### mysql
-- [apache-airflow-providers-microsoft-mssql; extra=='mysql'](packages/a/apache-airflow-providers-microsoft-mssql.md)
+- [apache-airflow-providers-mysql; extra=='mysql'](packages/a/apache-airflow-providers-mysql.md)
 - [mysql-connector-python (<=8.0.18,>=8.0.11); extra=='mysql'](packages/m/mysql-connector-python.md)
 - [mysqlclient (<1.4,>=1.3.6); extra=='mysql'](packages/m/mysqlclient.md)
 
 ### odbc
 - [apache-airflow-providers-odbc; extra=='odbc'](packages/a/apache-airflow-providers-odbc.md)
 - [pyodbc; extra=='odbc'](packages/p/pyodbc.md)
+
+### openfaas
+- [apache-airflow-providers-openfaas; extra=='openfaas'](packages/a/apache-airflow-providers-openfaas.md)
+
+### opsgenie
+- [apache-airflow-providers-opsgenie; extra=='opsgenie'](packages/a/apache-airflow-providers-opsgenie.md)
 
 ### oracle
 - [apache-airflow-providers-oracle; extra=='oracle'](packages/a/apache-airflow-providers-oracle.md)
@@ -750,11 +1037,17 @@
 - [qds-sdk (>=1.10.4); extra=='qubole'](packages/q/qds-sdk.md)
 
 ### rabbitmq
-- [amqp; extra=='rabbitmq'](packages/a/amqp.md)
+- [amqp (<5.0.0); extra=='rabbitmq'](packages/a/amqp.md)
 
 ### redis
 - [apache-airflow-providers-redis; extra=='redis'](packages/a/apache-airflow-providers-redis.md)
 - [redis (~=3.2); extra=='redis'](packages/r/redis.md)
+
+### s3
+- [apache-airflow-providers-amazon; extra=='s3'](packages/a/apache-airflow-providers-amazon.md)
+- [boto3 (<1.16.0,>=1.15.0); extra=='s3'](packages/b/boto3.md)
+- [botocore (<1.19.0,>=1.18.0); extra=='s3'](packages/b/botocore.md)
+- [watchtower (~=0.7.3); extra=='s3'](packages/w/watchtower.md)
 
 ### salesforce
 - [apache-airflow-providers-salesforce; extra=='salesforce'](packages/a/apache-airflow-providers-salesforce.md)
@@ -776,6 +1069,9 @@
 - [blinker (>=1.1); extra=='sentry'](packages/b/blinker.md)
 - [sentry-sdk (>=0.8.0); extra=='sentry'](packages/s/sentry-sdk.md)
 
+### sftp
+- [apache-airflow-providers-sftp; extra=='sftp'](packages/a/apache-airflow-providers-sftp.md)
+
 ### singularity
 - [apache-airflow-providers-singularity; extra=='singularity'](packages/a/apache-airflow-providers-singularity.md)
 - [spython (>=0.0.56); extra=='singularity'](packages/s/spython.md)
@@ -786,6 +1082,8 @@
 
 ### snowflake
 - [apache-airflow-providers-snowflake; extra=='snowflake'](packages/a/apache-airflow-providers-snowflake.md)
+- [azure-storage-blob; extra=='snowflake'](packages/a/azure-storage-blob.md)
+- [azure-storage-common; extra=='snowflake'](packages/a/azure-storage-common.md)
 - [requests (<2.24.0); extra=='snowflake'](packages/r/requests.md)
 - [snowflake-connector-python (>=1.5.2); extra=='snowflake'](packages/s/snowflake-connector-python.md)
 - [snowflake-sqlalchemy (>=1.1.0); extra=='snowflake'](packages/s/snowflake-sqlalchemy.md)
@@ -793,6 +1091,9 @@
 ### spark
 - [apache-airflow-providers-apache-spark; extra=='spark'](packages/a/apache-airflow-providers-apache-spark.md)
 - [pyspark; extra=='spark'](packages/p/pyspark.md)
+
+### sqlite
+- [apache-airflow-providers-sqlite; extra=='sqlite'](packages/a/apache-airflow-providers-sqlite.md)
 
 ### ssh
 - [apache-airflow-providers-ssh; extra=='ssh'](packages/a/apache-airflow-providers-ssh.md)
@@ -805,6 +1106,10 @@
 
 ### tableau
 - [tableauserverclient (~=0.12); extra=='tableau'](packages/t/tableauserverclient.md)
+
+### telegram
+- [apache-airflow-providers-telegram; extra=='telegram'](packages/a/apache-airflow-providers-telegram.md)
+- [python-telegram-bot (==13.0); extra=='telegram'](packages/p/python-telegram-bot.md)
 
 ### vertica
 - [apache-airflow-providers-vertica; extra=='vertica'](packages/a/apache-airflow-providers-vertica.md)
@@ -825,9 +1130,8 @@
 - [apache-airflow-providers-yandex; extra=='yandex'](packages/a/apache-airflow-providers-yandex.md)
 - [yandexcloud (>=0.22.0); extra=='yandex'](packages/y/yandexcloud.md)
 
-### yandexcloud
-- [apache-airflow-providers-yandex; extra=='yandexcloud'](packages/a/apache-airflow-providers-yandex.md)
-- [yandexcloud (>=0.22.0); extra=='yandexcloud'](packages/y/yandexcloud.md)
+### zendesk
+- [apache-airflow-providers-zendesk; extra=='zendesk'](packages/a/apache-airflow-providers-zendesk.md)
 
 
 ## Publishers
