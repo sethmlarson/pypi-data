@@ -14,7 +14,6 @@
 - [flask (>=0.12.5); extra=='frameworks'](packages/f/flask.md)
 - [pyramid (>=1.9.1); extra=='frameworks'](packages/p/pyramid.md)
 - [tornado (>=4.5.2); extra=='frameworks'](packages/t/tornado.md)
-- [webapp2 (>=3.0.0b1); extra=='frameworks'](packages/w/webapp2.md)
 
 ### lint
 - [flake8 (==3.8.4); extra=='lint'](packages/f/flake8.md)

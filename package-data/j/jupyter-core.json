@@ -1,6 +1,7 @@
 {
   "publishers": [
     "bgranger",
+    "blink1073",
     "davidbrochart",
     "fperez",
     "kevin-bates",
@@ -10,7 +11,8 @@
     "mpacer",
     "MSeal",
     "takowl",
-    "willingc"
+    "willingc",
+    "zsailer"
   ],
   "requires_dist": {
     "dists": [

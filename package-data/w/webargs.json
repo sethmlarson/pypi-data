@@ -20,8 +20,7 @@
         "falcon",
         "flask",
         "pyramid",
-        "tornado",
-        "webapp2"
+        "tornado"
       ],
       "specifiers": [
         "aiohttp (>=3.0.8); extra=='frameworks'",
@@ -30,8 +29,7 @@
         "falcon (>=2.0.0); extra=='frameworks'",
         "flask (>=0.12.5); extra=='frameworks'",
         "pyramid (>=1.9.1); extra=='frameworks'",
-        "tornado (>=4.5.2); extra=='frameworks'",
-        "webapp2 (>=3.0.0b1); extra=='frameworks'"
+        "tornado (>=4.5.2); extra=='frameworks'"
       ]
     },
     "lint": {

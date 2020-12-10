@@ -11,9 +11,9 @@
       "ladybug-grasshopper"
     ],
     "specifiers": [
-      "dragonfly-grasshopper (==1.16.4)",
+      "dragonfly-grasshopper (==1.16.5)",
       "honeybee-grasshopper-core (==1.19.3)",
-      "honeybee-grasshopper-energy (==1.21.5)",
+      "honeybee-grasshopper-energy (==1.22.0)",
       "honeybee-grasshopper-radiance (==1.6.1)",
       "ladybug-grasshopper (==1.29.0)"
     ]

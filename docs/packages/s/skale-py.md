@@ -3,7 +3,7 @@
 ## Dependencies
 - [asyncio (==3.4.3)](packages/a/asyncio.md)
 - [pyyaml (==5.3.1)](packages/p/pyyaml.md)
-- [sgx.py (==0.6.dev13)](packages/s/sgx.py.md)
+- [sgx.py (==0.6.dev14)](packages/s/sgx.py.md)
 - [web3 (==5.6.0)](packages/w/web3.md)
 
 

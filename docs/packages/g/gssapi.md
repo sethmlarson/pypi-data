@@ -1,5 +1,8 @@
 # [gssapi](https://pypi.org/project/gssapi)
 
+## Dependencies
+- [decorator](packages/d/decorator.md)
+
 
 
 ## Publishers

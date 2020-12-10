@@ -7,6 +7,7 @@
 
 
 ## Publishers
+- [francoisfreitag](https://pypi.org/user/francoisfreitag)
 - [jdufresne](https://pypi.org/user/jdufresne)
 - [psagers](https://pypi.org/user/psagers)
 

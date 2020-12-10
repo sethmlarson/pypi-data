@@ -5,8 +5,12 @@
     "sigmaris"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "decorator"
+    ],
+    "specifiers": [
+      "decorator"
+    ]
   },
   "requires_extras": {},
   "requires_python": ">=3.6.*",

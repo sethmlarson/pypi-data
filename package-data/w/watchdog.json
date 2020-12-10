@@ -11,6 +11,9 @@
     "specifiers": []
   },
   "requires_extras": {},
-  "requires_python": "",
-  "yanked": []
+  "requires_python": ">=3.6",
+  "yanked": [
+    "0.10.5",
+    "1.0.0"
+  ]
 }

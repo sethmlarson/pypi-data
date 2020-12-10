@@ -1,8 +1,7 @@
 # [torch](https://pypi.org/project/torch)
 
 ## Dependencies
-- [dataclasses](packages/d/dataclasses.md)
-- [future](packages/f/future.md)
+- [dataclasses; python_version<'3.7'](packages/d/dataclasses.md)
 - [numpy](packages/n/numpy.md)
 - [typing-extensions](packages/t/typing-extensions.md)
 

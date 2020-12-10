@@ -7,18 +7,16 @@
   "requires_dist": {
     "dists": [
       "dataclasses",
-      "future",
       "numpy",
       "typing-extensions"
     ],
     "specifiers": [
-      "dataclasses",
-      "future",
+      "dataclasses; python_version<'3.7'",
       "numpy",
       "typing-extensions"
     ]
   },
   "requires_extras": {},
-  "requires_python": ">=3.6.1",
+  "requires_python": ">=3.6.2",
   "yanked": []
 }

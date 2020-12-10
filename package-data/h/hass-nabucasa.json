@@ -18,7 +18,7 @@
       "acme (==1.9.0)",
       "aiohttp (>=3.6.1)",
       "atomicwrites (==1.4.0)",
-      "attrs (<20.3,>=19.3)",
+      "attrs (>=19.3)",
       "cryptography (<4.0,>=2.8)",
       "pycognito (==0.1.4)",
       "pytz (>=2019.3)",

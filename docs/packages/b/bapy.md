@@ -32,6 +32,7 @@
 - [twine](packages/t/twine.md)
 - [typer[all]](packages/t/typer.md)
 - [verboselogs](packages/v/verboselogs.md)
+- [wakatime](packages/w/wakatime.md)
 - [wheel](packages/w/wheel.md)
 
 

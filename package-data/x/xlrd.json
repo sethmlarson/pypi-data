@@ -1,5 +1,6 @@
 {
   "publishers": [
+    "carthorse-python-excel",
     "chrisw",
     "sjmachin"
   ],

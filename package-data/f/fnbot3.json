@@ -14,13 +14,13 @@
       "uvloop"
     ],
     "specifiers": [
-      "aiohttp (==3.6.3)",
+      "aiohttp",
       "benbotasync",
       "crayons",
       "fortniteapiasync",
       "fortnitepy",
       "requests",
-      "sanic (==20.6.3)",
+      "sanic",
       "uvloop"
     ]
   },

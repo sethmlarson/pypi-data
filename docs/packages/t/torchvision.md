@@ -3,7 +3,7 @@
 ## Dependencies
 - [numpy](packages/n/numpy.md)
 - [pillow (>=4.1.1)](packages/p/pillow.md)
-- [torch (==1.7.0)](packages/t/torch.md)
+- [torch (==1.7.1)](packages/t/torch.md)
 
 
 ## Extras

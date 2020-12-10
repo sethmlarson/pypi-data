@@ -6,12 +6,12 @@
   ],
   "requires_dist": {
     "dists": [
-      "protobuf",
-      "six"
+      "absl-py",
+      "protobuf"
     ],
     "specifiers": [
-      "protobuf (>=3.13.0)",
-      "six (>=1.10)"
+      "absl-py (>=0.11)",
+      "protobuf (>=3.14.0)"
     ]
   },
   "requires_extras": {},

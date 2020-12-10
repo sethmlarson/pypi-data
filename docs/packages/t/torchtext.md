@@ -3,7 +3,7 @@
 ## Dependencies
 - [numpy](packages/n/numpy.md)
 - [requests](packages/r/requests.md)
-- [torch](packages/t/torch.md)
+- [torch (==1.7.1)](packages/t/torch.md)
 - [tqdm](packages/t/tqdm.md)
 
 

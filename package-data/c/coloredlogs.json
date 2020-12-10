@@ -7,7 +7,7 @@
       "humanfriendly"
     ],
     "specifiers": [
-      "humanfriendly (>=7.1)"
+      "humanfriendly (>=9.1)"
     ]
   },
   "requires_extras": {

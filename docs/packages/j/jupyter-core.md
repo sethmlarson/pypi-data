@@ -8,6 +8,7 @@
 
 ## Publishers
 - [bgranger](https://pypi.org/user/bgranger)
+- [blink1073](https://pypi.org/user/blink1073)
 - [davidbrochart](https://pypi.org/user/davidbrochart)
 - [fperez](https://pypi.org/user/fperez)
 - [kevin-bates](https://pypi.org/user/kevin-bates)
@@ -18,4 +19,5 @@
 - [MSeal](https://pypi.org/user/MSeal)
 - [takowl](https://pypi.org/user/takowl)
 - [willingc](https://pypi.org/user/willingc)
+- [zsailer](https://pypi.org/user/zsailer)
 

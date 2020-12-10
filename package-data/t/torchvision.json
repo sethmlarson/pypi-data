@@ -15,7 +15,7 @@
     "specifiers": [
       "numpy",
       "pillow (>=4.1.1)",
-      "torch (==1.7.0)"
+      "torch (==1.7.1)"
     ]
   },
   "requires_extras": {

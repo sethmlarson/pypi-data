@@ -33,6 +33,9 @@
     "beagle",
     "niet"
   ],
+  "7imbrook": [
+    "libcst"
+  ],
   "AWhetter": [
     "astroid",
     "pylint",
@@ -1465,6 +1468,9 @@
   ],
   "Maksymilian.Erazmus": [
     "watson-machine-learning-client"
+  ],
+  "Manuel.Barkhau": [
+    "cmarkgfm"
   ],
   "MaratDukhan": [
     "ninja"
@@ -4689,6 +4695,7 @@
     "ipykernel",
     "ipympl",
     "jupyter-console",
+    "jupyter-core",
     "jupyter-server",
     "jupyter-telemetry",
     "jupyterlab",
@@ -5225,6 +5232,9 @@
   ],
   "carthorse-mock": [
     "mock"
+  ],
+  "carthorse-python-excel": [
+    "xlrd"
   ],
   "carver": [
     "eth-abi",
@@ -8501,6 +8511,9 @@
   ],
   "francisco.gamino": [
     "azure-functions-devops-build"
+  ],
+  "francoisfreitag": [
+    "django-auth-ldap"
   ],
   "frankreno-sumo": [
     "sumologic-sdk"
@@ -21626,6 +21639,7 @@
     "configargparse"
   ],
   "zsailer": [
+    "jupyter-core",
     "jupyter-server",
     "jupyter-telemetry",
     "jupyterlab",

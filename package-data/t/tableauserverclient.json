@@ -3,8 +3,12 @@
     "tableau"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "requests"
+    ],
+    "specifiers": [
+      "requests (<3.0,>=2.11)"
+    ]
   },
   "requires_extras": {},
   "requires_python": "",

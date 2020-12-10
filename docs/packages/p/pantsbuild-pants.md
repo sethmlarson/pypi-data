@@ -7,7 +7,7 @@
 - [pex (==2.1.21)](packages/p/pex.md)
 - [psutil (==5.7.0)](packages/p/psutil.md)
 - [pyyaml (<5.4,>=5.3.1)](packages/p/pyyaml.md)
-- [setproctitle (==1.1.10)](packages/s/setproctitle.md)
+- [setproctitle (==1.2)](packages/s/setproctitle.md)
 - [setuptools (<50.4,>=50.3.0)](packages/s/setuptools.md)
 - [toml (==0.10.2)](packages/t/toml.md)
 - [typing-extensions (==3.7.4.2)](packages/t/typing-extensions.md)

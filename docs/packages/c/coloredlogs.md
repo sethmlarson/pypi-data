@@ -1,7 +1,7 @@
 # [coloredlogs](https://pypi.org/project/coloredlogs)
 
 ## Dependencies
-- [humanfriendly (>=7.1)](packages/h/humanfriendly.md)
+- [humanfriendly (>=9.1)](packages/h/humanfriendly.md)
 
 
 ## Extras
