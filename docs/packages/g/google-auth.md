@@ -3,8 +3,8 @@
 ## Dependencies
 - [cachetools (<5.0,>=2.0.0)](packages/c/cachetools.md)
 - [pyasn1-modules (>=0.2.1)](packages/p/pyasn1-modules.md)
-- [rsa (<4.6); python_version<'3.5'](packages/r/rsa.md)
-- [rsa (<5,>=3.1.4); python_version>='3.5'](packages/r/rsa.md)
+- [rsa (<4.6); python_version<'3.6'](packages/r/rsa.md)
+- [rsa (<5,>=3.1.4); python_version>='3.6'](packages/r/rsa.md)
 - [setuptools (>=40.3.0)](packages/s/setuptools.md)
 - [six (>=1.9.0)](packages/s/six.md)
 

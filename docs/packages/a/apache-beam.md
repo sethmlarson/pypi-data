@@ -1,14 +1,11 @@
 # [apache-beam](https://pypi.org/project/apache-beam)
 
 ## Dependencies
-- [avro (<1.10.0,>=1.8.1); python_version<'3.0'](packages/a/avro.md)
-- [avro-python3 (!=1.9.2,<1.10.0,>=1.8.1); python_version>='3.0'](packages/a/avro-python3.md)
+- [avro-python3 (!=1.9.2,<1.10.0,>=1.8.1)](packages/a/avro-python3.md)
 - [crcmod (<2.0,>=1.7)](packages/c/crcmod.md)
 - [dill (<0.3.2,>=0.3.1.1)](packages/d/dill.md)
 - [fastavro (<2,>=0.21.4)](packages/f/fastavro.md)
-- [funcsigs (<2,>=1.0.2); python_version<'3.0'](packages/f/funcsigs.md)
 - [future (<1.0.0,>=0.18.2)](packages/f/future.md)
-- [futures (<4.0.0,>=3.2.0); python_version<'3.0'](packages/f/futures.md)
 - [grpcio (<2,>=1.29.0)](packages/g/grpcio.md)
 - [hdfs (<3.0.0,>=2.1.0)](packages/h/hdfs.md)
 - [httplib2 (<0.18.0,>=0.8)](packages/h/httplib2.md)
@@ -16,14 +13,12 @@
 - [numpy (<2,>=1.14.3)](packages/n/numpy.md)
 - [oauth2client (<5,>=2.0.1)](packages/o/oauth2client.md)
 - [protobuf (<4,>=3.12.2)](packages/p/protobuf.md)
-- [pyarrow (<0.18.0,>=0.15.1); python_version>='3.0' or platform_system !='windows'](packages/p/pyarrow.md)
+- [pyarrow (<0.18.0,>=0.15.1)](packages/p/pyarrow.md)
 - [pydot (<2,>=1.2.0)](packages/p/pydot.md)
 - [pymongo (<4.0.0,>=3.8.0)](packages/p/pymongo.md)
 - [python-dateutil (<3,>=2.8.0)](packages/p/python-dateutil.md)
 - [pytz (>=2018.3)](packages/p/pytz.md)
-- [pyvcf (<0.7.0,>=0.6.8); python_version<'3.0'](packages/p/pyvcf.md)
 - [requests (<3.0.0,>=2.24.0)](packages/r/requests.md)
-- [typing (<3.8.0,>=3.7.0); python_full_version<'3.5.3'](packages/t/typing.md)
 - [typing-extensions (<3.8.0,>=3.7.0)](packages/t/typing-extensions.md)
 
 
@@ -42,7 +37,7 @@
 - [google-auth (<2,>=1.18.0); extra=='gcp'](packages/g/google-auth.md)
 - [google-cloud-bigquery (<2,>=1.6.0); extra=='gcp'](packages/g/google-cloud-bigquery.md)
 - [google-cloud-bigtable (<2,>=0.31.1); extra=='gcp'](packages/g/google-cloud-bigtable.md)
-- [google-cloud-build (<3,>=2.0.0); (python_version>='3.6') and extra=='gcp'](packages/g/google-cloud-build.md)
+- [google-cloud-build (<3,>=2.0.0); extra=='gcp'](packages/g/google-cloud-build.md)
 - [google-cloud-core (<2,>=0.28.1); extra=='gcp'](packages/g/google-cloud-core.md)
 - [google-cloud-datastore (<2,>=1.7.1); extra=='gcp'](packages/g/google-cloud-datastore.md)
 - [google-cloud-dlp (<2,>=0.12.0); extra=='gcp'](packages/g/google-cloud-dlp.md)
@@ -60,7 +55,7 @@
 - [timeloop (<2,>=1.0.2); extra=='interactive'](packages/t/timeloop.md)
 
 ### interactive_test
-- [chromedriver-binary (<84,>=83); extra=='interactive_test'](packages/c/chromedriver-binary.md)
+- [chromedriver-binary (<87,>=86); extra=='interactive_test'](packages/c/chromedriver-binary.md)
 - [jupyter-client (<7,>=6.1.2); extra=='interactive_test'](packages/j/jupyter-client.md)
 - [nbconvert (<6,>=5.6.1); extra=='interactive_test'](packages/n/nbconvert.md)
 - [nbformat (<6,>=5.0.5); extra=='interactive_test'](packages/n/nbformat.md)

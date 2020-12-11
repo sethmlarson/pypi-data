@@ -1,5 +1,8 @@
 # [pytest-shard](https://pypi.org/project/pytest-shard)
 
+## Dependencies
+- [pytest](packages/p/pytest.md)
+
 
 
 ## Publishers

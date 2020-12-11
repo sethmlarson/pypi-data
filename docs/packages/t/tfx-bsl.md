@@ -9,7 +9,7 @@
 - [protobuf (<4,>=3.9.2)](packages/p/protobuf.md)
 - [pyarrow (<0.18,>=0.17)](packages/p/pyarrow.md)
 - [tensorflow (!=2.0.*,!=2.1.*,!=2.2.*,<3,>=1.15.2)](packages/t/tensorflow.md)
-- [tensorflow-metadata (<0.26,>=0.25)](packages/t/tensorflow-metadata.md)
+- [tensorflow-metadata (<0.27,>=0.26)](packages/t/tensorflow-metadata.md)
 - [tensorflow-serving-api (!=2.0.*,!=2.1.*,!=2.2.*,<3,>=1.15)](packages/t/tensorflow-serving-api.md)
 
 

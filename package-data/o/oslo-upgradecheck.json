@@ -7,12 +7,14 @@
     "dists": [
       "oslo.config",
       "oslo.i18n",
+      "oslo.policy",
       "oslo.utils",
       "prettytable"
     ],
     "specifiers": [
       "oslo.config (>=5.2.0)",
       "oslo.i18n (>=3.15.3)",
+      "oslo.policy (>=2.0.0)",
       "oslo.utils (>=4.5.0)",
       "prettytable (<0.8,>=0.7.1)"
     ]

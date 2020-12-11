@@ -11,11 +11,13 @@
 
 
 ## Publishers
+- [ansible-community](https://pypi.org/user/ansible-community)
 - [ansible-lint](https://pypi.org/user/ansible-lint)
 - [badger](https://pypi.org/user/badger)
 - [gmainwaring](https://pypi.org/user/gmainwaring)
 - [gundalow](https://pypi.org/user/gundalow)
 - [James.Laska](https://pypi.org/user/James.Laska)
 - [jimi](https://pypi.org/user/jimi)
+- [ssbarnea](https://pypi.org/user/ssbarnea)
 - [willthames](https://pypi.org/user/willthames)
 

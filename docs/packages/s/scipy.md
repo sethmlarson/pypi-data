@@ -1,7 +1,7 @@
 # [scipy](https://pypi.org/project/scipy)
 
 ## Dependencies
-- [numpy (>=1.14.5)](packages/n/numpy.md)
+- [numpy (>=1.16.5)](packages/n/numpy.md)
 
 
 

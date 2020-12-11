@@ -5,7 +5,7 @@
 - [paho-mqtt (<=1.5.1,>=1.3.1)](packages/p/paho-mqtt.md)
 - [pyjwt (<2,>=1.7.1)](packages/p/pyjwt.md)
 - [pykwalify (<2,>=1.7.0)](packages/p/pykwalify.md)
-- [pytest (<7,>=5.4.3)](packages/p/pytest.md)
+- [pytest (<7,>=6)](packages/p/pytest.md)
 - [python-box (<6,>4)](packages/p/python-box.md)
 - [pyyaml (<6,>=5.3.1)](packages/p/pyyaml.md)
 - [requests (<3,>=2.22.0)](packages/r/requests.md)

@@ -1,8 +1,7 @@
 # [spacy](https://pypi.org/project/spacy)
 
 ## Dependencies
-- [blis (<0.5.0,>=0.4.0); python_version<'3.6'](packages/b/blis.md)
-- [blis (<0.8.0,>=0.4.0); python_version>='3.6'](packages/b/blis.md)
+- [blis (<0.8.0,>=0.4.0)](packages/b/blis.md)
 - [catalogue (<1.1.0,>=0.0.7)](packages/c/catalogue.md)
 - [cymem (<2.1.0,>=2.0.2)](packages/c/cymem.md)
 - [murmurhash (<1.1.0,>=0.28.0)](packages/m/murmurhash.md)
@@ -21,28 +20,34 @@
 ## Extras
 
 ### cuda
-- [cupy (<8.0.0,>=5.0.0b4); extra=='cuda'](packages/c/cupy.md)
+- [cupy (>=5.0.0b4); extra=='cuda'](packages/c/cupy.md)
 
 ### cuda100
-- [cupy-cuda100 (<8.0.0,>=5.0.0b4); extra=='cuda100'](packages/c/cupy-cuda100.md)
+- [cupy-cuda100 (>=5.0.0b4); extra=='cuda100'](packages/c/cupy-cuda100.md)
 
 ### cuda101
-- [cupy-cuda101 (<8.0.0,>=5.0.0b4); extra=='cuda101'](packages/c/cupy-cuda101.md)
+- [cupy-cuda101 (>=5.0.0b4); extra=='cuda101'](packages/c/cupy-cuda101.md)
 
 ### cuda102
-- [cupy-cuda102 (<8.0.0,>=5.0.0b4); extra=='cuda102'](packages/c/cupy-cuda102.md)
+- [cupy-cuda102 (>=5.0.0b4); extra=='cuda102'](packages/c/cupy-cuda102.md)
+
+### cuda110
+- [cupy-cuda110 (>=5.0.0b4); extra=='cuda110'](packages/c/cupy-cuda110.md)
+
+### cuda111
+- [cupy-cuda111 (>=5.0.0b4); extra=='cuda111'](packages/c/cupy-cuda111.md)
 
 ### cuda80
-- [cupy-cuda80 (<8.0.0,>=5.0.0b4); extra=='cuda80'](packages/c/cupy-cuda80.md)
+- [cupy-cuda80 (>=5.0.0b4); extra=='cuda80'](packages/c/cupy-cuda80.md)
 
 ### cuda90
-- [cupy-cuda90 (<8.0.0,>=5.0.0b4); extra=='cuda90'](packages/c/cupy-cuda90.md)
+- [cupy-cuda90 (>=5.0.0b4); extra=='cuda90'](packages/c/cupy-cuda90.md)
 
 ### cuda91
-- [cupy-cuda91 (<8.0.0,>=5.0.0b4); extra=='cuda91'](packages/c/cupy-cuda91.md)
+- [cupy-cuda91 (>=5.0.0b4); extra=='cuda91'](packages/c/cupy-cuda91.md)
 
 ### cuda92
-- [cupy-cuda92 (<8.0.0,>=5.0.0b4); extra=='cuda92'](packages/c/cupy-cuda92.md)
+- [cupy-cuda92 (>=5.0.0b4); extra=='cuda92'](packages/c/cupy-cuda92.md)
 
 ### ja
 - [sudachidict-core (>=20200330); extra=='ja'](packages/s/sudachidict-core.md)

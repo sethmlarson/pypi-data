@@ -20,8 +20,11 @@
       "inflect",
       "jinja2",
       "motor",
+      "nested-lookup",
+      "paramiko",
       "pip",
       "psutil",
+      "pymetasploit3",
       "pymongo",
       "python-box",
       "pyyaml",
@@ -36,7 +39,8 @@
       "typer",
       "verboselogs",
       "wakatime",
-      "wheel"
+      "wheel",
+      "xmltodict"
     ],
     "specifiers": [
       "asgiref",
@@ -55,8 +59,11 @@
       "inflect",
       "jinja2",
       "motor",
+      "nested-lookup",
+      "paramiko",
       "pip",
       "psutil",
+      "pymetasploit3",
       "pymongo[tls]",
       "python-box[all]",
       "pyyaml",
@@ -71,10 +78,11 @@
       "typer[all]",
       "verboselogs",
       "wakatime",
-      "wheel"
+      "wheel",
+      "xmltodict"
     ]
   },
   "requires_extras": {},
-  "requires_python": ">=3.8,<4",
+  "requires_python": ">=3.9,<4",
   "yanked": []
 }

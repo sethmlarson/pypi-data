@@ -3,8 +3,12 @@
     "AdamGleave"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "pytest"
+    ],
+    "specifiers": [
+      "pytest"
+    ]
   },
   "requires_extras": {},
   "requires_python": ">=3.6",

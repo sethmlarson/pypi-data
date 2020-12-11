@@ -14,6 +14,7 @@
 - [faassen](https://pypi.org/user/faassen)
 - [gary](https://pypi.org/user/gary)
 - [hannosch](https://pypi.org/user/hannosch)
+- [icemac](https://pypi.org/user/icemac)
 - [J1m](https://pypi.org/user/J1m)
 - [jamadden](https://pypi.org/user/jamadden)
 - [menesis](https://pypi.org/user/menesis)

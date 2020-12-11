@@ -6,7 +6,6 @@
 - [crayons](packages/c/crayons.md)
 - [fortniteapiasync](packages/f/fortniteapiasync.md)
 - [fortnitepy](packages/f/fortnitepy.md)
-- [requests](packages/r/requests.md)
 - [sanic](packages/s/sanic.md)
 - [uvloop](packages/u/uvloop.md)
 

@@ -17,8 +17,11 @@
 - [inflect](packages/i/inflect.md)
 - [jinja2](packages/j/jinja2.md)
 - [motor](packages/m/motor.md)
+- [nested-lookup](packages/n/nested-lookup.md)
+- [paramiko](packages/p/paramiko.md)
 - [pip](packages/p/pip.md)
 - [psutil](packages/p/psutil.md)
+- [pymetasploit3](packages/p/pymetasploit3.md)
 - [pymongo[tls]](packages/p/pymongo.md)
 - [python-box[all]](packages/p/python-box.md)
 - [pyyaml](packages/p/pyyaml.md)
@@ -34,6 +37,7 @@
 - [verboselogs](packages/v/verboselogs.md)
 - [wakatime](packages/w/wakatime.md)
 - [wheel](packages/w/wheel.md)
+- [xmltodict](packages/x/xmltodict.md)
 
 
 

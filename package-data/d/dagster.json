@@ -42,7 +42,7 @@
       "alembic (>=1.2.1)",
       "backports.tempfile; python_version<'3'",
       "click (>=5.0)",
-      "coloredlogs (>=6.1)",
+      "coloredlogs (<=14.0,>=6.1)",
       "contextlib2 (>=0.5.4)",
       "croniter (>=0.3.34)",
       "docstring-parser (==0.7.1); python_version>='3.6'",

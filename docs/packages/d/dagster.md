@@ -4,7 +4,7 @@
 - [alembic (>=1.2.1)](packages/a/alembic.md)
 - [backports.tempfile; python_version<'3'](packages/b/backports.tempfile.md)
 - [click (>=5.0)](packages/c/click.md)
-- [coloredlogs (>=6.1)](packages/c/coloredlogs.md)
+- [coloredlogs (<=14.0,>=6.1)](packages/c/coloredlogs.md)
 - [contextlib2 (>=0.5.4)](packages/c/contextlib2.md)
 - [croniter (>=0.3.34)](packages/c/croniter.md)
 - [docstring-parser (==0.7.1); python_version>='3.6'](packages/d/docstring-parser.md)

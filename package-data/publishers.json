@@ -3361,6 +3361,7 @@
     "ansible-tower-cli"
   ],
   "ansible-community": [
+    "ansible-lint",
     "molecule",
     "molecule-docker"
   ],
@@ -10056,6 +10057,7 @@
     "python-gettext",
     "restrictedpython",
     "roman",
+    "transaction",
     "z3c-flashmessage",
     "z3c-pt",
     "zc-buildout",
@@ -10521,7 +10523,6 @@
     "autograd"
   ],
   "j0ffrey": [
-    "docker",
     "docker-py",
     "docker-pycreds"
   ],
@@ -18895,6 +18896,7 @@
   ],
   "ssbarnea": [
     "ansi2html",
+    "ansible-lint",
     "doc8",
     "jira",
     "molecule",

@@ -19,14 +19,14 @@
       "wheel"
     ],
     "specifiers": [
-      "attrs (<20.3.0,>=19.3.0)",
+      "attrs (>=19.3.0,<20.3.0)",
       "botocore (<2.0.0,>=1.12.86)",
       "click (<8.0,>=7)",
       "enum-compat (>=0.0.2)",
-      "jmespath (<1.0.0,>=0.9.3)",
+      "jmespath (>=0.9.3,<1.0.0)",
       "mypy-extensions (==0.4.3)",
-      "pip (>=9,<20.4)",
-      "pyyaml (>=5.3.1,<6.0.0)",
+      "pip (<20.4,>=9)",
+      "pyyaml (<6.0.0,>=5.3.1)",
       "setuptools",
       "six (<2.0.0,>=1.10.0)",
       "typing (==3.6.4); python_version<'3.7'",

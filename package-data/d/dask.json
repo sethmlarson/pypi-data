@@ -21,7 +21,7 @@
         "toolz"
       ],
       "specifiers": [
-        "numpy (>=1.13.0); extra=='array'",
+        "numpy (>=1.15.1); extra=='array'",
         "toolz (>=0.8.2); extra=='array'"
       ]
     },
@@ -55,8 +55,8 @@
         "cloudpickle (>=0.2.2); extra=='complete'",
         "distributed (>=2.0); extra=='complete'",
         "fsspec (>=0.6.0); extra=='complete'",
-        "numpy (>=1.13.0); extra=='complete'",
-        "pandas (>=0.23.0); extra=='complete'",
+        "numpy (>=1.15.1); extra=='complete'",
+        "pandas (>=0.25.0); extra=='complete'",
         "partd (>=0.3.10); extra=='complete'",
         "toolz (>=0.8.2); extra=='complete'"
       ]
@@ -71,8 +71,8 @@
       ],
       "specifiers": [
         "fsspec (>=0.6.0); extra=='dataframe'",
-        "numpy (>=1.13.0); extra=='dataframe'",
-        "pandas (>=0.23.0); extra=='dataframe'",
+        "numpy (>=1.15.1); extra=='dataframe'",
+        "pandas (>=0.25.0); extra=='dataframe'",
         "partd (>=0.3.10); extra=='dataframe'",
         "toolz (>=0.8.2); extra=='dataframe'"
       ]

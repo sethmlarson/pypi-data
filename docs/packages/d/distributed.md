@@ -4,7 +4,7 @@
 - [click (>=6.6)](packages/c/click.md)
 - [cloudpickle (>=1.5.0)](packages/c/cloudpickle.md)
 - [contextvars; python_version<'3.7'](packages/c/contextvars.md)
-- [dask (>=2.9.0)](packages/d/dask.md)
+- [dask (>=2020.12.0)](packages/d/dask.md)
 - [msgpack (>=0.6.0)](packages/m/msgpack.md)
 - [psutil (>=5.0)](packages/p/psutil.md)
 - [pyyaml](packages/p/pyyaml.md)

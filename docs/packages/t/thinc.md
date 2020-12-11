@@ -57,3 +57,7 @@
 - [honnibal](https://pypi.org/user/honnibal)
 - [inesmontani](https://pypi.org/user/inesmontani)
 
+
+## Yanked Versions
+- [7.4.4](https://pypi.org/project/thinc/7.4.4)
+ 

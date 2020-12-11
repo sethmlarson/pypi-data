@@ -24,8 +24,8 @@
     ],
     "specifiers": [
       "click (>=7.0)",
-      "dagster (==0.9.21)",
-      "dagster-graphql (==0.9.21)",
+      "dagster (==0.9.22.post0)",
+      "dagster-graphql (==0.9.22.post0)",
       "enum34; python_version<'3.4'",
       "flask (>=0.12.4)",
       "flask-cors (>=3.0.6)",

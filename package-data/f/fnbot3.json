@@ -9,7 +9,6 @@
       "crayons",
       "fortniteapiasync",
       "fortnitepy",
-      "requests",
       "sanic",
       "uvloop"
     ],
@@ -19,7 +18,6 @@
       "crayons",
       "fortniteapiasync",
       "fortnitepy",
-      "requests",
       "sanic",
       "uvloop"
     ]

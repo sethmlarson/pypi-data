@@ -7,7 +7,7 @@
       "gardener-cicd-libs"
     ],
     "specifiers": [
-      "gardener-cicd-libs (==1.953.0)"
+      "gardener-cicd-libs (==1.957.0)"
     ]
   },
   "requires_extras": {},

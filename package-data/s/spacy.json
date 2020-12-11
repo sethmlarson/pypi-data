@@ -22,8 +22,7 @@
       "wasabi"
     ],
     "specifiers": [
-      "blis (<0.5.0,>=0.4.0); python_version<'3.6'",
-      "blis (<0.8.0,>=0.4.0); python_version>='3.6'",
+      "blis (<0.8.0,>=0.4.0)",
       "catalogue (<1.1.0,>=0.0.7)",
       "cymem (<2.1.0,>=2.0.2)",
       "murmurhash (<1.1.0,>=0.28.0)",
@@ -45,7 +44,7 @@
         "cupy"
       ],
       "specifiers": [
-        "cupy (<8.0.0,>=5.0.0b4); extra=='cuda'"
+        "cupy (>=5.0.0b4); extra=='cuda'"
       ]
     },
     "cuda100": {
@@ -53,7 +52,7 @@
         "cupy-cuda100"
       ],
       "specifiers": [
-        "cupy-cuda100 (<8.0.0,>=5.0.0b4); extra=='cuda100'"
+        "cupy-cuda100 (>=5.0.0b4); extra=='cuda100'"
       ]
     },
     "cuda101": {
@@ -61,7 +60,7 @@
         "cupy-cuda101"
       ],
       "specifiers": [
-        "cupy-cuda101 (<8.0.0,>=5.0.0b4); extra=='cuda101'"
+        "cupy-cuda101 (>=5.0.0b4); extra=='cuda101'"
       ]
     },
     "cuda102": {
@@ -69,7 +68,23 @@
         "cupy-cuda102"
       ],
       "specifiers": [
-        "cupy-cuda102 (<8.0.0,>=5.0.0b4); extra=='cuda102'"
+        "cupy-cuda102 (>=5.0.0b4); extra=='cuda102'"
+      ]
+    },
+    "cuda110": {
+      "dists": [
+        "cupy-cuda110"
+      ],
+      "specifiers": [
+        "cupy-cuda110 (>=5.0.0b4); extra=='cuda110'"
+      ]
+    },
+    "cuda111": {
+      "dists": [
+        "cupy-cuda111"
+      ],
+      "specifiers": [
+        "cupy-cuda111 (>=5.0.0b4); extra=='cuda111'"
       ]
     },
     "cuda80": {
@@ -77,7 +92,7 @@
         "cupy-cuda80"
       ],
       "specifiers": [
-        "cupy-cuda80 (<8.0.0,>=5.0.0b4); extra=='cuda80'"
+        "cupy-cuda80 (>=5.0.0b4); extra=='cuda80'"
       ]
     },
     "cuda90": {
@@ -85,7 +100,7 @@
         "cupy-cuda90"
       ],
       "specifiers": [
-        "cupy-cuda90 (<8.0.0,>=5.0.0b4); extra=='cuda90'"
+        "cupy-cuda90 (>=5.0.0b4); extra=='cuda90'"
       ]
     },
     "cuda91": {
@@ -93,7 +108,7 @@
         "cupy-cuda91"
       ],
       "specifiers": [
-        "cupy-cuda91 (<8.0.0,>=5.0.0b4); extra=='cuda91'"
+        "cupy-cuda91 (>=5.0.0b4); extra=='cuda91'"
       ]
     },
     "cuda92": {
@@ -101,7 +116,7 @@
         "cupy-cuda92"
       ],
       "specifiers": [
-        "cupy-cuda92 (<8.0.0,>=5.0.0b4); extra=='cuda92'"
+        "cupy-cuda92 (>=5.0.0b4); extra=='cuda92'"
       ]
     },
     "ja": {

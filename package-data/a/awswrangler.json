@@ -19,10 +19,10 @@
       "botocore (<2.0.0,>=1.15.49)",
       "numpy (<1.20.0,>=1.18.0)",
       "pandas (<1.2.0,>=1.1.0)",
-      "pg8000 (~=1.16.6)",
+      "pg8000 (~=1.16.0)",
       "pyarrow (~=2.0.0)",
       "pymysql (<0.11.0,>=0.9.0)",
-      "redshift-connector (~=2.0.711)"
+      "redshift-connector (~=2.0.0)"
     ]
   },
   "requires_extras": {},

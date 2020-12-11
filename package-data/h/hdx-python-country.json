@@ -5,12 +5,14 @@
   "requires_dist": {
     "dists": [
       "hdx-python-utilities",
-      "libhxl"
+      "libhxl",
+      "pyphonetics"
     ],
     "specifiers": [
       "hdx-python-utilities (>=2.5.1)",
       "libhxl (==4.5.1); python_version<'3'",
-      "libhxl (>=4.21.2); python_version>='3'"
+      "libhxl (>=4.21.2); python_version>='3'",
+      "pyphonetics"
     ]
   },
   "requires_extras": {},

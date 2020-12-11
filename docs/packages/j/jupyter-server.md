@@ -1,6 +1,7 @@
 # [jupyter-server](https://pypi.org/project/jupyter-server)
 
 ## Dependencies
+- [anyio (>=2.0.2)](packages/a/anyio.md)
 - [ipython-genutils](packages/i/ipython-genutils.md)
 - [jinja2](packages/j/jinja2.md)
 - [jupyter-client (>=6.1.1)](packages/j/jupyter-client.md)

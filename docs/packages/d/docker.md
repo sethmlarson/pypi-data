@@ -25,7 +25,6 @@
 - [ccrone](https://pypi.org/user/ccrone)
 - [dev-tooling-team](https://pypi.org/user/dev-tooling-team)
 - [docker](https://pypi.org/user/docker)
-- [j0ffrey](https://pypi.org/user/j0ffrey)
 - [rumpl](https://pypi.org/user/rumpl)
 - [ulyssessouza](https://pypi.org/user/ulyssessouza)
 

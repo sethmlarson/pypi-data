@@ -1,11 +1,13 @@
 {
   "publishers": [
+    "ansible-community",
     "ansible-lint",
     "badger",
     "gmainwaring",
     "gundalow",
     "James.Laska",
     "jimi",
+    "ssbarnea",
     "willthames"
   ],
   "requires_dist": {
