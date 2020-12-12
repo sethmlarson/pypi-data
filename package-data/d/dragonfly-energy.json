@@ -8,7 +8,7 @@
       "honeybee-energy"
     ],
     "specifiers": [
-      "dragonfly-core (==1.25.59)",
+      "dragonfly-core (==1.26.0)",
       "honeybee-energy (==1.63.1)"
     ]
   },

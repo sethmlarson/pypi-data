@@ -21,12 +21,12 @@
     ],
     "specifiers": [
       "construct (==2.9.33)",
-      "numpy (~=1.18)",
-      "pybase64",
+      "numpy (~=1.18); python_version>='3.0'",
+      "pybase64; python_version>='3.0'",
       "pyftdi (==0.13.*)",
       "pylibftdi",
       "pyserial",
-      "python-rapidjson (==0.9.1)",
+      "python-rapidjson (==0.9.1); python_version>='3.0'",
       "requests (==2.20.*)"
     ]
   },

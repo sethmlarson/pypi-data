@@ -1,7 +1,7 @@
 # [packaging](https://pypi.org/project/packaging)
 
 ## Dependencies
-- [pyparsing>=2.0.2](packages/p/pyparsing.md)
+- [pyparsing (>=2.0.2)](packages/p/pyparsing.md)
 
 
 

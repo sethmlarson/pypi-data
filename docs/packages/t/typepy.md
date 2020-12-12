@@ -2,7 +2,6 @@
 
 ## Dependencies
 - [mbstrdecoder (<2,>=1.0.0)](packages/m/mbstrdecoder.md)
-- [setuptools (>=38.3.0)](packages/s/setuptools.md)
 
 
 ## Extras

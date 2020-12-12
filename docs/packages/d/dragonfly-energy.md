@@ -1,7 +1,7 @@
 # [dragonfly-energy](https://pypi.org/project/dragonfly-energy)
 
 ## Dependencies
-- [dragonfly-core (==1.25.59)](packages/d/dragonfly-core.md)
+- [dragonfly-core (==1.26.0)](packages/d/dragonfly-core.md)
 - [honeybee-energy (==1.63.1)](packages/h/honeybee-energy.md)
 
 

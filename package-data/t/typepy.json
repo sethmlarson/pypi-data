@@ -4,12 +4,10 @@
   ],
   "requires_dist": {
     "dists": [
-      "mbstrdecoder",
-      "setuptools"
+      "mbstrdecoder"
     ],
     "specifiers": [
-      "mbstrdecoder (<2,>=1.0.0)",
-      "setuptools (>=38.3.0)"
+      "mbstrdecoder (<2,>=1.0.0)"
     ]
   },
   "requires_extras": {

@@ -50,7 +50,7 @@
 - [rich (==9.2.0)](packages/r/rich.md)
 - [setproctitle (<2,>=1.1.8)](packages/s/setproctitle.md)
 - [sqlalchemy (<2,>=1.3.18)](packages/s/sqlalchemy.md)
-- [sqlalchemy-jsonfield (~=0.9)](packages/s/sqlalchemy-jsonfield.md)
+- [sqlalchemy-jsonfield (~=1.0)](packages/s/sqlalchemy-jsonfield.md)
 - [tabulate (<0.9,>=0.7.5)](packages/t/tabulate.md)
 - [tenacity (~=6.2.0)](packages/t/tenacity.md)
 - [termcolor (>=1.1.0)](packages/t/termcolor.md)

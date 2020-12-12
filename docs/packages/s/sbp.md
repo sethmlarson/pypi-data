@@ -2,12 +2,12 @@
 
 ## Dependencies
 - [construct (==2.9.33)](packages/c/construct.md)
-- [numpy (~=1.18)](packages/n/numpy.md)
-- [pybase64](packages/p/pybase64.md)
+- [numpy (~=1.18); python_version>='3.0'](packages/n/numpy.md)
+- [pybase64; python_version>='3.0'](packages/p/pybase64.md)
 - [pyftdi (==0.13.*)](packages/p/pyftdi.md)
 - [pylibftdi](packages/p/pylibftdi.md)
 - [pyserial](packages/p/pyserial.md)
-- [python-rapidjson (==0.9.1)](packages/p/python-rapidjson.md)
+- [python-rapidjson (==0.9.1); python_version>='3.0'](packages/p/python-rapidjson.md)
 - [requests (==2.20.*)](packages/r/requests.md)
 
 

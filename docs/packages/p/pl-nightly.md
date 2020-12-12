@@ -2,6 +2,7 @@
 
 ## Dependencies
 - [asgiref (>=3.2.10)](packages/a/asgiref.md)
+- [asgiref (>=3.2.7)](packages/a/asgiref.md)
 - [astor (>=0.8.0)](packages/a/astor.md)
 - [azure-eventhub (==5.1.0)](packages/a/azure-eventhub.md)
 - [azure-storage (==0.36.0)](packages/a/azure-storage.md)
@@ -15,8 +16,8 @@
 - [colorama (==0.4.3); platform_system=='windows'](packages/c/colorama.md)
 - [cryptography (>=2.8)](packages/c/cryptography.md)
 - [curtsies (>=0.3.1)](packages/c/curtsies.md)
-- [dask[array] (>=2.6.0)](packages/d/dask.md)
-- [dask[dataframe] (>=2.6.0)](packages/d/dask.md)
+- [dask[array] (==2.6.0)](packages/d/dask.md)
+- [dask[dataframe] (==2.6.0)](packages/d/dask.md)
 - [deprecated (>=1.2.10)](packages/d/deprecated.md)
 - [django (>=3.0.5)](packages/d/django.md)
 - [django (>=3.1)](packages/d/django.md)
@@ -43,7 +44,7 @@
 - [markdown (>=3.2.1)](packages/m/markdown.md)
 - [mixpanel (==4.7.0)](packages/m/mixpanel.md)
 - [mlagents (>=0.20.0)](packages/m/mlagents.md)
-- [mlagents-envs (>=0.18.0asgiref>=3.2.7)](packages/m/mlagents-envs.md)
+- [mlagents-envs (>=0.18.0)](packages/m/mlagents-envs.md)
 - [numpy (<1.19.0,>=1.18.5)](packages/n/numpy.md)
 - [oauthlib (>=3.0.2)](packages/o/oauthlib.md)
 - [onnx (==1.8.0)](packages/o/onnx.md)

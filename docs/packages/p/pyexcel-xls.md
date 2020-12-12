@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [pyexcel-io (>=0.6.2)](packages/p/pyexcel-io.md)
-- [xlrd](packages/x/xlrd.md)
+- [xlrd (<2)](packages/x/xlrd.md)
 - [xlwt](packages/x/xlwt.md)
 
 

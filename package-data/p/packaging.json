@@ -10,7 +10,7 @@
       "pyparsing"
     ],
     "specifiers": [
-      "pyparsing>=2.0.2"
+      "pyparsing (>=2.0.2)"
     ]
   },
   "requires_extras": {},

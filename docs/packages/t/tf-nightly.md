@@ -7,7 +7,7 @@
 - [gast (==0.3.3)](packages/g/gast.md)
 - [google-pasta (~=0.2)](packages/g/google-pasta.md)
 - [grpcio (~=1.32.0)](packages/g/grpcio.md)
-- [h5py (~=2.10.0)](packages/h/h5py.md)
+- [h5py (~=3.1.0)](packages/h/h5py.md)
 - [keras-preprocessing (~=1.1.2)](packages/k/keras-preprocessing.md)
 - [numpy (~=1.19.2)](packages/n/numpy.md)
 - [opt-einsum (~=3.3.0)](packages/o/opt-einsum.md)

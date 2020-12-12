@@ -1,7 +1,7 @@
 # [lbt-dragonfly](https://pypi.org/project/lbt-dragonfly)
 
 ## Dependencies
-- [dragonfly-energy (==1.10.80)](packages/d/dragonfly-energy.md)
+- [dragonfly-energy (==1.10.81)](packages/d/dragonfly-energy.md)
 - [lbt-honeybee (==0.2.268)](packages/l/lbt-honeybee.md)
 
 
@@ -9,7 +9,7 @@
 
 ### cli
 - [click (==7.1.2); extra=='cli'](packages/c/click.md)
-- [dragonfly-schema (==1.6.22); (python_version>='3.6') and extra=='cli'](packages/d/dragonfly-schema.md)
+- [dragonfly-schema (==1.6.23); (python_version>='3.6') and extra=='cli'](packages/d/dragonfly-schema.md)
 
 
 ## Publishers

@@ -10,7 +10,7 @@
     ],
     "specifiers": [
       "pyexcel-io (>=0.6.2)",
-      "xlrd",
+      "xlrd (<2)",
       "xlwt"
     ]
   },

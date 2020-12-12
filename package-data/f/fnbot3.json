@@ -6,6 +6,7 @@
     "dists": [
       "aiohttp",
       "benbotasync",
+      "colorama",
       "crayons",
       "fortniteapiasync",
       "fortnitepy",
@@ -15,9 +16,10 @@
     "specifiers": [
       "aiohttp",
       "benbotasync",
+      "colorama",
       "crayons",
       "fortniteapiasync",
-      "fortnitepy",
+      "fortnitepy (==3.3.0)",
       "sanic",
       "uvloop"
     ]
