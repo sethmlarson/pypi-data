@@ -36,6 +36,14 @@
         "panflute (~=1.12); extra=='compare'"
       ]
     },
+    "linkify": {
+      "dists": [
+        "linkify-it-py"
+      ],
+      "specifiers": [
+        "linkify-it-py (~=1.0); extra=='linkify'"
+      ]
+    },
     "rtd": {
       "dists": [
         "myst-nb",

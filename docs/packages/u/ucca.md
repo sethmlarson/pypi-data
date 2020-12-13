@@ -3,7 +3,7 @@
 ## Dependencies
 - [numpy (>=1.15.0)](packages/n/numpy.md)
 - [requests (>=2.18.4)](packages/r/requests.md)
-- [spacy (==2.3.0)](packages/s/spacy.md)
+- [spacy (==2.3.5)](packages/s/spacy.md)
 - [tqdm (>=4.23.3)](packages/t/tqdm.md)
 
 
@@ -15,7 +15,7 @@
 - [zss (>=1.2); extra=='distances'](packages/z/zss.md)
 
 ### visualize
-- [matplotlib (==3.2.2); extra=='visualize'](packages/m/matplotlib.md)
+- [matplotlib (==3.3.3); extra=='visualize'](packages/m/matplotlib.md)
 - [networkx (>=2.0); extra=='visualize'](packages/n/networkx.md)
 
 

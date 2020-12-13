@@ -12,7 +12,7 @@
     "specifiers": [
       "numpy (>=1.15.0)",
       "requests (>=2.18.4)",
-      "spacy (==2.3.0)",
+      "spacy (==2.3.5)",
       "tqdm (>=4.23.3)"
     ]
   },
@@ -35,7 +35,7 @@
         "networkx"
       ],
       "specifiers": [
-        "matplotlib (==3.2.2); extra=='visualize'",
+        "matplotlib (==3.3.3); extra=='visualize'",
         "networkx (>=2.0); extra=='visualize'"
       ]
     }

@@ -6,7 +6,7 @@
 - [matplotlib](packages/m/matplotlib.md)
 - [packaging](packages/p/packaging.md)
 - [pandas](packages/p/pandas.md)
-- [pillow](packages/p/pillow.md)
+- [pillow (>6.0.0)](packages/p/pillow.md)
 - [pip](packages/p/pip.md)
 - [pyyaml](packages/p/pyyaml.md)
 - [requests](packages/r/requests.md)

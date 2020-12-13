@@ -9,7 +9,7 @@
     ],
     "specifiers": [
       "flask (>=0.9)",
-      "python-socketio (<5,>=4.3.0)"
+      "python-socketio (>=5.0.2)"
     ]
   },
   "requires_extras": {},

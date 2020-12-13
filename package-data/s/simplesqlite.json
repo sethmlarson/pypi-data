@@ -17,7 +17,7 @@
       "mbstrdecoder (<2,>=1.0.0)",
       "pathvalidate (<3)",
       "setuptools (>=38.3.0)",
-      "sqliteschema (<2,>=1.0.1)",
+      "sqliteschema (<2,>=1.0.5)",
       "tabledata (<2,>=1.1.3)",
       "typepy (<2,>=1.1.1)"
     ]

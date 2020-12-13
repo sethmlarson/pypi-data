@@ -10,8 +10,8 @@
       "txaio"
     ],
     "specifiers": [
-      "cryptography (>=2.7)",
-      "txaio (>=20.3.1)"
+      "cryptography (>=2.9.2)",
+      "txaio (>=20.4.1)"
     ]
   },
   "requires_extras": {
@@ -108,6 +108,7 @@
         "py-ecc",
         "py-eth-sig-utils",
         "py-multihash",
+        "rlp",
         "twisted",
         "web3",
         "zlmdb"
@@ -122,12 +123,13 @@
         "py-ecc (>=1.7.1); extra=='xbr'",
         "py-eth-sig-utils (>=0.4.0); extra=='xbr'",
         "py-multihash (>=0.2.3); extra=='xbr'",
+        "rlp (>=2.0.1); extra=='xbr'",
         "twisted (>=20.3.0); extra=='xbr'",
         "web3 (>=4.8.1); extra=='xbr'",
         "zlmdb (>=20.4.1); extra=='xbr'"
       ]
     }
   },
-  "requires_python": ">=3.5",
+  "requires_python": ">=3.6",
   "yanked": []
 }

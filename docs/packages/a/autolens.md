@@ -2,10 +2,10 @@
 
 ## Dependencies
 - [astropy (>=3.0.0)](packages/a/astropy.md)
-- [autoarray (==0.16.1)](packages/a/autoarray.md)
+- [autoarray (==0.16.2)](packages/a/autoarray.md)
 - [autoconf (==0.7.3)](packages/a/autoconf.md)
-- [autofit (==0.70.4)](packages/a/autofit.md)
-- [autogalaxy (==0.16.5)](packages/a/autogalaxy.md)
+- [autofit (==0.71.0)](packages/a/autofit.md)
+- [autogalaxy (==0.16.6)](packages/a/autogalaxy.md)
 - [matplotlib (>=3.0.3)](packages/m/matplotlib.md)
 - [numpy (>=1.17.2)](packages/n/numpy.md)
 - [numpydoc (>=1.0.0)](packages/n/numpydoc.md)

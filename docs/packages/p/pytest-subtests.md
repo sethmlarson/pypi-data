@@ -1,7 +1,7 @@
 # [pytest-subtests](https://pypi.org/project/pytest-subtests)
 
 ## Dependencies
-- [pytest (>=4.4.0)](packages/p/pytest.md)
+- [pytest (>=5.3.0)](packages/p/pytest.md)
 
 
 

@@ -6,9 +6,11 @@
   ],
   "requires_dist": {
     "dists": [
+      "typing-extensions",
       "zipp"
     ],
     "specifiers": [
+      "typing-extensions (>=3.6.4); python_version<'3.8'",
       "zipp (>=0.5)"
     ]
   },

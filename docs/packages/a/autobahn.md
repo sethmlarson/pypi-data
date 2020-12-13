@@ -1,8 +1,8 @@
 # [autobahn](https://pypi.org/project/autobahn)
 
 ## Dependencies
-- [cryptography (>=2.7)](packages/c/cryptography.md)
-- [txaio (>=20.3.1)](packages/t/txaio.md)
+- [cryptography (>=2.9.2)](packages/c/cryptography.md)
+- [txaio (>=20.4.1)](packages/t/txaio.md)
 
 
 ## Extras
@@ -51,6 +51,7 @@
 - [py-ecc (>=1.7.1); extra=='xbr'](packages/p/py-ecc.md)
 - [py-eth-sig-utils (>=0.4.0); extra=='xbr'](packages/p/py-eth-sig-utils.md)
 - [py-multihash (>=0.2.3); extra=='xbr'](packages/p/py-multihash.md)
+- [rlp (>=2.0.1); extra=='xbr'](packages/r/rlp.md)
 - [twisted (>=20.3.0); extra=='xbr'](packages/t/twisted.md)
 - [web3 (>=4.8.1); extra=='xbr'](packages/w/web3.md)
 - [zlmdb (>=20.4.1); extra=='xbr'](packages/z/zlmdb.md)

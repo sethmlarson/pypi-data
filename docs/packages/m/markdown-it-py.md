@@ -16,6 +16,9 @@
 - [mistune (~=0.8.4); extra=='compare'](packages/m/mistune.md)
 - [panflute (~=1.12); extra=='compare'](packages/p/panflute.md)
 
+### linkify
+- [linkify-it-py (~=1.0); extra=='linkify'](packages/l/linkify-it-py.md)
+
 ### rtd
 - [myst-nb (~=0.10.0); extra=='rtd'](packages/m/myst-nb.md)
 - [pyyaml; extra=='rtd'](packages/p/pyyaml.md)

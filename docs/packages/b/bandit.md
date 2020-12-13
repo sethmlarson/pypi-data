@@ -10,3 +10,7 @@
 - [tkelsey](https://pypi.org/user/tkelsey)
 - [tmcpeak](https://pypi.org/user/tmcpeak)
 
+
+## Yanked Versions
+- [1.6.3](https://pypi.org/project/bandit/1.6.3)
+ 

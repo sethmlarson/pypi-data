@@ -3,8 +3,12 @@
     "jstasiak"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "ifaddr"
+    ],
+    "specifiers": [
+      "ifaddr (>=0.1.7)"
+    ]
   },
   "requires_extras": {},
   "requires_python": "",

@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [flask (>=0.9)](packages/f/flask.md)
-- [python-socketio (<5,>=4.3.0)](packages/p/python-socketio.md)
+- [python-socketio (>=5.0.2)](packages/p/python-socketio.md)
 
 
 
