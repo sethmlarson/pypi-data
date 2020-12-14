@@ -11,7 +11,7 @@
     ],
     "specifiers": [
       "bc-python-hcl2 (>=0.3.10)",
-      "checkov (>=1.0.669)",
+      "checkov (>=1.0.672)",
       "jschema-to-python (>=1.2.3)",
       "sarif-om (>=1.0.4)"
     ]

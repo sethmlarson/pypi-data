@@ -2,7 +2,8 @@
   "publishers": [
     "bsipocz",
     "pllim",
-    "robitaille"
+    "robitaille",
+    "saimon"
   ],
   "requires_dist": {
     "dists": [],

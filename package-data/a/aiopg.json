@@ -7,9 +7,11 @@
   ],
   "requires_dist": {
     "dists": [
+      "async-timeout",
       "psycopg2-binary"
     ],
     "specifiers": [
+      "async-timeout (<4.0,>=3.0)",
       "psycopg2-binary (>=2.8.4)"
     ]
   },

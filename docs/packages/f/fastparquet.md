@@ -4,7 +4,7 @@
 - [numba (>=0.28)](packages/n/numba.md)
 - [numpy (>=1.11)](packages/n/numpy.md)
 - [packaging](packages/p/packaging.md)
-- [pandas (>=0.19)](packages/p/pandas.md)
+- [pandas (>=1.0.0)](packages/p/pandas.md)
 - [six](packages/s/six.md)
 - [thrift (>=0.11.0)](packages/t/thrift.md)
 
@@ -34,3 +34,7 @@
 - [mdurant](https://pypi.org/user/mdurant)
 - [tomaugspurger](https://pypi.org/user/tomaugspurger)
 
+
+## Yanked Versions
+- [0.4.2](https://pypi.org/project/fastparquet/0.4.2)
+ 

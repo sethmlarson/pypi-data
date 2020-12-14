@@ -3,7 +3,7 @@
 ## Dependencies
 - [dpath (<2.0.0,>=1.5.0)](packages/d/dpath.md)
 - [numexpr (<=3.0,>=2.7.0)](packages/n/numexpr.md)
-- [numpy (<1.18,>=1.11)](packages/n/numpy.md)
+- [numpy (<1.19,>=1.11)](packages/n/numpy.md)
 - [psutil (<6.0.0,>=5.4.7)](packages/p/psutil.md)
 - [pytest (<6.0.0,>=4.4.1)](packages/p/pytest.md)
 - [pyyaml (>=3.10)](packages/p/pyyaml.md)

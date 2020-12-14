@@ -7516,7 +7516,8 @@
   ],
   "edgedb-ci": [
     "httptools",
-    "immutables"
+    "immutables",
+    "uvloop"
   ],
   "edgedevtools": [
     "msedge-selenium-tools"
@@ -13689,6 +13690,9 @@
     "raven",
     "ua-parser"
   ],
+  "mattsoulanille": [
+    "tensorflowjs"
+  ],
   "mattupstate": [
     "flask-jwt",
     "flask-mail",
@@ -16472,7 +16476,8 @@
     "structlog-sentry"
   ],
   "pllim": [
-    "pytest-doctestplus"
+    "pytest-doctestplus",
+    "sphinx-automodapi"
   ],
   "plone": [
     "icalendar",
@@ -17848,6 +17853,10 @@
   ],
   "sailthru": [
     "sailthru-client"
+  ],
+  "saimon": [
+    "pytest-doctestplus",
+    "sphinx-automodapi"
   ],
   "sajith": [
     "zfec"

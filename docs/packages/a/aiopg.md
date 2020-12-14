@@ -1,6 +1,7 @@
 # [aiopg](https://pypi.org/project/aiopg)
 
 ## Dependencies
+- [async-timeout (<4.0,>=3.0)](packages/a/async-timeout.md)
 - [psycopg2-binary (>=2.8.4)](packages/p/psycopg2-binary.md)
 
 

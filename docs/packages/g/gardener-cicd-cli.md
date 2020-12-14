@@ -1,7 +1,7 @@
 # [gardener-cicd-cli](https://pypi.org/project/gardener-cicd-cli)
 
 ## Dependencies
-- [gardener-cicd-libs (==1.957.0)](packages/g/gardener-cicd-libs.md)
+- [gardener-cicd-libs (==1.958.0)](packages/g/gardener-cicd-libs.md)
 
 
 

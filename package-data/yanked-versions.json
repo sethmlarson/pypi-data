@@ -146,6 +146,9 @@
   "fastavro": [
     "1.0.0"
   ],
+  "fastparquet": [
+    "0.4.2"
+  ],
   "faulthandler": [
     "1.0",
     "1.1",

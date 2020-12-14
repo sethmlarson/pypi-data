@@ -1,7 +1,7 @@
 # [pytest-check](https://pypi.org/project/pytest-check)
 
 ## Dependencies
-- [pytest>=3.1.1](packages/p/pytest.md)
+- [pytest>=6.0.0](packages/p/pytest.md)
 
 
 

@@ -16,7 +16,7 @@
         "awkward-cuda-kernels"
       ],
       "specifiers": [
-        "awkward-cuda-kernels (==1.0.1rc2); extra=='cuda'"
+        "awkward-cuda-kernels (==1.0.1); extra=='cuda'"
       ]
     }
   },

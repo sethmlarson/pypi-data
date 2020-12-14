@@ -2,7 +2,9 @@
   "publishers": [
     "bsipocz",
     "Erik.Tollerud",
-    "robitaille"
+    "pllim",
+    "robitaille",
+    "saimon"
   ],
   "requires_dist": {
     "dists": [

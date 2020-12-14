@@ -27,7 +27,7 @@
       "stopit (>=1.1.1)",
       "tqdm (>=4.36.1)",
       "update-checker (>=0.16)",
-      "xgboost (>=0.90)"
+      "xgboost (>=1.1.0)"
     ]
   },
   "requires_extras": {

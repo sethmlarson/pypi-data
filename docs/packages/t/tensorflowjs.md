@@ -22,6 +22,7 @@
 - [davidsoergel](https://pypi.org/user/davidsoergel)
 - [dsmilkov](https://pypi.org/user/dsmilkov)
 - [lina128](https://pypi.org/user/lina128)
+- [mattsoulanille](https://pypi.org/user/mattsoulanille)
 - [nsthorat](https://pypi.org/user/nsthorat)
 - [pyu10055](https://pypi.org/user/pyu10055)
 - [tafsiri](https://pypi.org/user/tafsiri)

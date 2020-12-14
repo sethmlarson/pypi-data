@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [adr (==0.19.4)](packages/a/adr.md)
-- [boto3 (==1.16.30)](packages/b/boto3.md)
+- [boto3 (==1.16.35)](packages/b/boto3.md)
 - [imbalanced-learn (==0.7.0)](packages/i/imbalanced-learn.md)
 - [joblib (==0.17.0)](packages/j/joblib.md)
 - [libmozdata (==0.1.68)](packages/l/libmozdata.md)
@@ -12,9 +12,9 @@
 - [microannotate (==0.0.23)](packages/m/microannotate.md)
 - [mozci (==1.11.3)](packages/m/mozci.md)
 - [numpy (==1.19.4)](packages/n/numpy.md)
-- [orjson (==3.4.5)](packages/o/orjson.md)
-- [ortools (==8.0.8283)](packages/o/ortools.md)
-- [pandas (==1.1.4)](packages/p/pandas.md)
+- [orjson (==3.4.6)](packages/o/orjson.md)
+- [ortools (==8.1.8487)](packages/o/ortools.md)
+- [pandas (==1.1.5)](packages/p/pandas.md)
 - [psutil (==5.7.3)](packages/p/psutil.md)
 - [pydriller (==1.12)](packages/p/pydriller.md)
 - [pyopenssl (>=0.14)](packages/p/pyopenssl.md)
@@ -36,11 +36,11 @@
 ## Extras
 
 ### nlp
-- [elasticsearch (==7.10.0); extra=='nlp'](packages/e/elasticsearch.md)
+- [elasticsearch (==7.10.1); extra=='nlp'](packages/e/elasticsearch.md)
 - [gensim (==3.8.3); extra=='nlp'](packages/g/gensim.md)
 - [nltk (==3.5); extra=='nlp'](packages/n/nltk.md)
 - [pyemd (==0.5.1); extra=='nlp'](packages/p/pyemd.md)
-- [spacy (==2.3.4); extra=='nlp'](packages/s/spacy.md)
+- [spacy (==2.3.5); extra=='nlp'](packages/s/spacy.md)
 - [wmd (==1.3.2); extra=='nlp'](packages/w/wmd.md)
 
 ### nn

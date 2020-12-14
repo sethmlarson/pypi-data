@@ -1,5 +1,6 @@
 {
   "publishers": [
+    "edgedb-ci",
     "Elvis.Pranskevichus",
     "magicstack-ci",
     "yselivanov"

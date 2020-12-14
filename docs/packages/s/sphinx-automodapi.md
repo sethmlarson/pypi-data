@@ -8,5 +8,7 @@
 ## Publishers
 - [bsipocz](https://pypi.org/user/bsipocz)
 - [Erik.Tollerud](https://pypi.org/user/Erik.Tollerud)
+- [pllim](https://pypi.org/user/pllim)
 - [robitaille](https://pypi.org/user/robitaille)
+- [saimon](https://pypi.org/user/saimon)
 

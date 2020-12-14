@@ -10,7 +10,7 @@
 - [stopit (>=1.1.1)](packages/s/stopit.md)
 - [tqdm (>=4.36.1)](packages/t/tqdm.md)
 - [update-checker (>=0.16)](packages/u/update-checker.md)
-- [xgboost (>=0.90)](packages/x/xgboost.md)
+- [xgboost (>=1.1.0)](packages/x/xgboost.md)
 
 
 ## Extras

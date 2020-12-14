@@ -1,7 +1,7 @@
 # [azureml-designer-core](https://pypi.org/project/azureml-designer-core)
 
 ## Dependencies
-- [azureml-core (==1.18.0.*)](packages/a/azureml-core.md)
+- [azureml-core (==1.19.0.*)](packages/a/azureml-core.md)
 - [distro (==1.4.0)](packages/d/distro.md)
 - [jsonschema (==3.0.1)](packages/j/jsonschema.md)
 - [more-itertools (==6.0.0)](packages/m/more-itertools.md)
