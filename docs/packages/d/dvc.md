@@ -16,7 +16,7 @@
 - [grandalf (==0.6)](packages/g/grandalf.md)
 - [jsonpath-ng (>=1.5.1)](packages/j/jsonpath-ng.md)
 - [nanotime (>=0.5.2)](packages/n/nanotime.md)
-- [networkx (<2.5,>=2.1)](packages/n/networkx.md)
+- [networkx (>=2.1)](packages/n/networkx.md)
 - [packaging (>=19.0)](packages/p/packaging.md)
 - [pathspec (>=0.6.0)](packages/p/pathspec.md)
 - [ply (>=3.9)](packages/p/ply.md)

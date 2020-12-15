@@ -37,6 +37,14 @@
     ]
   },
   "requires_extras": {
+    "elastic": {
+      "dists": [
+        "elasticsearch"
+      ],
+      "specifiers": [
+        "elasticsearch (<8.0.0,>=7.0.0); extra=='elastic'"
+      ]
+    },
     "fixtures": {
       "dists": [
         "pytest"

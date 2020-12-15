@@ -8,3 +8,7 @@
 ## Publishers
 - [xuhdev](https://pypi.org/user/xuhdev)
 
+
+## Yanked Versions
+- [2.1.0](https://pypi.org/project/flake8-executable/2.1.0)
+ 

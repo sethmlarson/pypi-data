@@ -12,5 +12,7 @@
   },
   "requires_extras": {},
   "requires_python": ">=3.6",
-  "yanked": []
+  "yanked": [
+    "2.1.0"
+  ]
 }

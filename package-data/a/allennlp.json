@@ -19,6 +19,7 @@
       "requests",
       "scikit-learn",
       "scipy",
+      "sentencepiece",
       "spacy",
       "tensorboardx",
       "torch",
@@ -39,11 +40,12 @@
       "requests (>=2.18)",
       "scikit-learn",
       "scipy",
+      "sentencepiece",
       "spacy (<2.4,>=2.1.0)",
       "tensorboardx (>=1.2)",
       "torch (<1.8.0,>=1.6.0)",
       "tqdm (>=4.19)",
-      "transformers (<3.6,>=3.4)"
+      "transformers (<4.1,>=4.0)"
     ]
   },
   "requires_extras": {},

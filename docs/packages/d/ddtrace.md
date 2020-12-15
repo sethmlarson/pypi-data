@@ -6,6 +6,7 @@
 - [intervaltree](packages/i/intervaltree.md)
 - [protobuf (>=3)](packages/p/protobuf.md)
 - [tenacity (>=5)](packages/t/tenacity.md)
+- [typing; python_version<'3.5'](packages/t/typing.md)
 
 
 ## Extras

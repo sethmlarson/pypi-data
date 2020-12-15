@@ -29,7 +29,7 @@
       "pyrsistent (<=0.16.0); python_version<'3.5'",
       "pyyaml (<=5.2); python_version=='3.4'",
       "pyyaml; python_version !='3.4'",
-      "six (~=1.11)"
+      "six (>=1.11)"
     ]
   },
   "requires_extras": {},

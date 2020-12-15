@@ -1,13 +1,16 @@
 # [djangoldp](https://pypi.org/project/djangoldp)
 
 ## Dependencies
+- [click (==7.1.1)](packages/c/click.md)
 - [django (~=2.2)](packages/d/django.md)
-- [django-brotli](packages/d/django-brotli.md)
+- [django-brotli (~=0.2.0)](packages/d/django-brotli.md)
+- [django-cookies-samesite (~=0.8.0)](packages/d/django-cookies-samesite.md)
 - [django-guardian (==2.3.0)](packages/d/django-guardian.md)
-- [django-rest-framework](packages/d/django-rest-framework.md)
-- [djangorestframework-guardian](packages/d/djangorestframework-guardian.md)
+- [djangorestframework (~=3.12)](packages/d/djangorestframework.md)
+- [djangorestframework-guardian (~=0.3.0)](packages/d/djangorestframework-guardian.md)
 - [pyld (==1.0.5)](packages/p/pyld.md)
-- [requests](packages/r/requests.md)
+- [pyyaml (==5.3.1)](packages/p/pyyaml.md)
+- [requests (==2.23.0)](packages/r/requests.md)
 - [validators (~=0.12)](packages/v/validators.md)
 
 

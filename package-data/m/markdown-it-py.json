@@ -5,10 +5,12 @@
   ],
   "requires_dist": {
     "dists": [
-      "attrs"
+      "attrs",
+      "mdit-py-plugins"
     ],
     "specifiers": [
-      "attrs (<21,>=19)"
+      "attrs (<21,>=19)",
+      "mdit-py-plugins (~=0.2.1)"
     ]
   },
   "requires_extras": {

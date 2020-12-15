@@ -6,7 +6,6 @@
 - [click](packages/c/click.md)
 - [deepdiff](packages/d/deepdiff.md)
 - [jinja2](packages/j/jinja2.md)
-- [jq](packages/j/jq.md)
 - [jsonpickle](packages/j/jsonpickle.md)
 - [msgpack (==1.0.0)](packages/m/msgpack.md)
 - [ply](packages/p/ply.md)

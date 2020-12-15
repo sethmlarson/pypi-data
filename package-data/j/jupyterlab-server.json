@@ -22,7 +22,7 @@
       "jinja2 (>=2.10)",
       "json5",
       "jsonschema (>=3.0.1)",
-      "jupyter-server (~=1.0.1)",
+      "jupyter-server (~=1.1.0)",
       "packaging",
       "requests"
     ]

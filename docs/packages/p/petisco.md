@@ -19,6 +19,9 @@
 
 ## Extras
 
+### elastic
+- [elasticsearch (<8.0.0,>=7.0.0); extra=='elastic'](packages/e/elasticsearch.md)
+
 ### fixtures
 - [pytest; extra=='fixtures'](packages/p/pytest.md)
 

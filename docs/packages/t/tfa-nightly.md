@@ -7,13 +7,13 @@
 ## Extras
 
 ### tensorflow
-- [tensorflow (<2.4.0,>=2.2.0); extra=='tensorflow'](packages/t/tensorflow.md)
+- [tensorflow (<2.5.0,>=2.3.0); extra=='tensorflow'](packages/t/tensorflow.md)
 
 ### tensorflow-cpu
-- [tensorflow-cpu (<2.4.0,>=2.2.0); extra=='tensorflow-cpu'](packages/t/tensorflow-cpu.md)
+- [tensorflow-cpu (<2.5.0,>=2.3.0); extra=='tensorflow-cpu'](packages/t/tensorflow-cpu.md)
 
 ### tensorflow-gpu
-- [tensorflow-gpu (<2.4.0,>=2.2.0); extra=='tensorflow-gpu'](packages/t/tensorflow-gpu.md)
+- [tensorflow-gpu (<2.5.0,>=2.3.0); extra=='tensorflow-gpu'](packages/t/tensorflow-gpu.md)
 
 
 ## Publishers

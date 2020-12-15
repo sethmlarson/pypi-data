@@ -14,7 +14,7 @@
 - [pyrsistent (<=0.16.0); python_version<'3.5'](packages/p/pyrsistent.md)
 - [pyyaml (<=5.2); python_version=='3.4'](packages/p/pyyaml.md)
 - [pyyaml; python_version !='3.4'](packages/p/pyyaml.md)
-- [six (~=1.11)](packages/s/six.md)
+- [six (>=1.11)](packages/s/six.md)
 
 
 

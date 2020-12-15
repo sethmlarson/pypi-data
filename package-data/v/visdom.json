@@ -1,6 +1,7 @@
 {
   "publishers": [
     "ajabri",
+    "fossasia",
     "jju"
   ],
   "requires_dist": {

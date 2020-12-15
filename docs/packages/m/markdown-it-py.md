@@ -2,6 +2,7 @@
 
 ## Dependencies
 - [attrs (<21,>=19)](packages/a/attrs.md)
+- [mdit-py-plugins (~=0.2.1)](packages/m/mdit-py-plugins.md)
 
 
 ## Extras

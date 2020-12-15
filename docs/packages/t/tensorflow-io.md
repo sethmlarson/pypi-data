@@ -1,7 +1,7 @@
 # [tensorflow-io](https://pypi.org/project/tensorflow-io)
 
 ## Dependencies
-- [tensorflow (<2.4.0,>=2.3.0)](packages/t/tensorflow.md)
+- [tensorflow (<2.5.0,>=2.4.0)](packages/t/tensorflow.md)
 
 
 

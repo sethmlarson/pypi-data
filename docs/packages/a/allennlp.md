@@ -14,11 +14,12 @@
 - [requests (>=2.18)](packages/r/requests.md)
 - [scikit-learn](packages/s/scikit-learn.md)
 - [scipy](packages/s/scipy.md)
+- [sentencepiece](packages/s/sentencepiece.md)
 - [spacy (<2.4,>=2.1.0)](packages/s/spacy.md)
 - [tensorboardx (>=1.2)](packages/t/tensorboardx.md)
 - [torch (<1.8.0,>=1.6.0)](packages/t/torch.md)
 - [tqdm (>=4.19)](packages/t/tqdm.md)
-- [transformers (<3.6,>=3.4)](packages/t/transformers.md)
+- [transformers (<4.1,>=4.0)](packages/t/transformers.md)
 
 
 

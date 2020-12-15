@@ -12,4 +12,5 @@
 
 ## Yanked Versions
 - [20.0](https://pypi.org/project/pip/20.0)
+- [20.3.2](https://pypi.org/project/pip/20.3.2)
  

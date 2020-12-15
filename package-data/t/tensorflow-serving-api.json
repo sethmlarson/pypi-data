@@ -11,7 +11,7 @@
     "specifiers": [
       "grpcio (>=1.0<2)",
       "protobuf (>=3.6.0)",
-      "tensorflow (<3,>=2.4.0rc4)"
+      "tensorflow (<3,>=2.4.0)"
     ]
   },
   "requires_extras": {},

@@ -1,7 +1,7 @@
 # [openfisca-france](https://pypi.org/project/openfisca-france)
 
 ## Dependencies
-- [openfisca-core (<35.0,>=34.6)](packages/o/openfisca-core.md)
+- [openfisca-core (<36.0,>=34.6)](packages/o/openfisca-core.md)
 
 
 ## Extras

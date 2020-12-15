@@ -15,7 +15,7 @@
       "openfisca-core"
     ],
     "specifiers": [
-      "openfisca-core (<35.0,>=34.6)"
+      "openfisca-core (<36.0,>=34.6)"
     ]
   },
   "requires_extras": {
