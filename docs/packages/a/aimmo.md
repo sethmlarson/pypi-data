@@ -2,13 +2,12 @@
 
 ## Dependencies
 - [cfl-common](packages/c/cfl-common.md)
-- [django (<=1.11.24,>=1.10.8)](packages/d/django.md)
-- [django-autoconfig (<1.0.0,>=0.3.6)](packages/d/django-autoconfig.md)
-- [django-js-reverse](packages/d/django-js-reverse.md)
-- [djangorestframework (<3.9.0,>=3.8.2)](packages/d/djangorestframework.md)
-- [eventlet](packages/e/eventlet.md)
-- [hypothesis](packages/h/hypothesis.md)
-- [requests](packages/r/requests.md)
+- [django (==2.2.17)](packages/d/django.md)
+- [django-js-reverse (==0.9.1)](packages/d/django-js-reverse.md)
+- [djangorestframework (==3.12.2)](packages/d/djangorestframework.md)
+- [eventlet (==0.29.1)](packages/e/eventlet.md)
+- [hypothesis (==5.41.3)](packages/h/hypothesis.md)
+- [requests (==2.25.0)](packages/r/requests.md)
 
 
 

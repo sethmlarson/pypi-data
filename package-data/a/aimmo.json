@@ -8,7 +8,6 @@
     "dists": [
       "cfl-common",
       "django",
-      "django-autoconfig",
       "django-js-reverse",
       "djangorestframework",
       "eventlet",
@@ -17,13 +16,12 @@
     ],
     "specifiers": [
       "cfl-common",
-      "django (<=1.11.24,>=1.10.8)",
-      "django-autoconfig (<1.0.0,>=0.3.6)",
-      "django-js-reverse",
-      "djangorestframework (<3.9.0,>=3.8.2)",
-      "eventlet",
-      "hypothesis",
-      "requests"
+      "django (==2.2.17)",
+      "django-js-reverse (==0.9.1)",
+      "djangorestframework (==3.12.2)",
+      "eventlet (==0.29.1)",
+      "hypothesis (==5.41.3)",
+      "requests (==2.25.0)"
     ]
   },
   "requires_extras": {},

@@ -1,6 +1,7 @@
 {
   "publishers": [
-    "Joshua.Harlow"
+    "Joshua.Harlow",
+    "psarka"
   ],
   "requires_dist": {
     "dists": [
@@ -8,7 +9,7 @@
       "six"
     ],
     "specifiers": [
-      "monotonic (>=0.1)",
+      "monotonic (>=0.1); python_version<'3.4'",
       "six"
     ]
   },

@@ -3,8 +3,32 @@
     "arnaud-morvan"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "alembic",
+      "beaker-redis",
+      "c2c.template",
+      "c2cgeoform",
+      "deform",
+      "plaster-pastedeploy",
+      "psycopg2-binary",
+      "pyramid-tm",
+      "sqlalchemy",
+      "transaction",
+      "waitress"
+    ],
+    "specifiers": [
+      "alembic",
+      "beaker-redis",
+      "c2c.template",
+      "c2cgeoform (>=2.1.17)",
+      "deform (>=2.0.10)",
+      "plaster-pastedeploy",
+      "psycopg2-binary",
+      "pyramid-tm",
+      "sqlalchemy (>=1.1.13)",
+      "transaction",
+      "waitress"
+    ]
   },
   "requires_extras": {},
   "requires_python": "",

@@ -6,7 +6,7 @@
 - [authlib](packages/a/authlib.md)
 - [fido2](packages/f/fido2.md)
 - [flask](packages/f/flask.md)
-- [flask-socketio](packages/f/flask-socketio.md)
+- [flask-socketio (<5.0.0)](packages/f/flask-socketio.md)
 - [gevent](packages/g/gevent.md)
 - [gevent-websocket](packages/g/gevent-websocket.md)
 - [greenlet](packages/g/greenlet.md)
@@ -14,7 +14,7 @@
 - [markdown](packages/m/markdown.md)
 - [pyqrcode](packages/p/pyqrcode.md)
 - [python-ldap](packages/p/python-ldap.md)
-- [python-socketio](packages/p/python-socketio.md)
+- [python-socketio (<5.0.0)](packages/p/python-socketio.md)
 - [werkzeug](packages/w/werkzeug.md)
 
 

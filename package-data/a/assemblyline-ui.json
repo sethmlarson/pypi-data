@@ -27,7 +27,7 @@
       "authlib",
       "fido2",
       "flask",
-      "flask-socketio",
+      "flask-socketio (<5.0.0)",
       "gevent",
       "gevent-websocket",
       "greenlet",
@@ -35,7 +35,7 @@
       "markdown",
       "pyqrcode",
       "python-ldap",
-      "python-socketio",
+      "python-socketio (<5.0.0)",
       "werkzeug"
     ]
   },

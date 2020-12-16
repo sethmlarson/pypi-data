@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [certifi (>=2017.4.17)](packages/c/certifi.md)
-- [chardet (<4,>=3.0.2)](packages/c/chardet.md)
+- [chardet (<5,>=3.0.2)](packages/c/chardet.md)
 - [idna (<3,>=2.5)](packages/i/idna.md)
 - [urllib3 (<1.27,>=1.21.1)](packages/u/urllib3.md)
 

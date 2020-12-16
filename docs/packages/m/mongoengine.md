@@ -6,6 +6,7 @@
 
 
 ## Publishers
+- [bagerard](https://pypi.org/user/bagerard)
 - [rozza](https://pypi.org/user/rozza)
 - [the_drow](https://pypi.org/user/the_drow)
 - [wojcikstefan](https://pypi.org/user/wojcikstefan)

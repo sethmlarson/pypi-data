@@ -1,7 +1,7 @@
 # [pytest-splunk-addon](https://pypi.org/project/pytest-splunk-addon)
 
 ## Dependencies
-- [faker (>=4.1,<5.0)](packages/f/faker.md)
+- [faker (>=4.1,<6.0)](packages/f/faker.md)
 - [filelock (>=3.0,<4.0)](packages/f/filelock.md)
 - [httplib2](packages/h/httplib2.md)
 - [jsonschema (>=3.2,<4.0)](packages/j/jsonschema.md)

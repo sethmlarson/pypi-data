@@ -7,12 +7,14 @@
   "requires_dist": {
     "dists": [
       "delayed-assert",
+      "enum34",
       "pytest",
       "requests",
       "six"
     ],
     "specifiers": [
       "delayed-assert",
+      "enum34",
       "pytest",
       "requests (>=2.23.0)",
       "six (>=1.15.0)"

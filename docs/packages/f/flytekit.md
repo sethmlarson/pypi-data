@@ -5,6 +5,7 @@
 - [boto3 (<2.0,>=1.4.4)](packages/b/boto3.md)
 - [click (<8.0,>=6.6)](packages/c/click.md)
 - [croniter (<4.0.0,>=0.3.20)](packages/c/croniter.md)
+- [dataclasses-json (>=0.5.2)](packages/d/dataclasses-json.md)
 - [deprecated (<2.0,>=1.0)](packages/d/deprecated.md)
 - [flyteidl (<1.0.0,>=0.18.9)](packages/f/flyteidl.md)
 - [grpcio (<2.0,>=1.3.0)](packages/g/grpcio.md)

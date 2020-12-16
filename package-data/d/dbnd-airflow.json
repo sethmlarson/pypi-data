@@ -9,7 +9,7 @@
       "psycopg2"
     ],
     "specifiers": [
-      "dbnd (==0.31.1)",
+      "dbnd (==0.31.2)",
       "packaging",
       "psycopg2 (<2.8,>=2.7.4)"
     ]

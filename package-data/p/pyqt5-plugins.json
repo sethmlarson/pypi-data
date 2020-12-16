@@ -10,8 +10,8 @@
     ],
     "specifiers": [
       "click",
-      "pyqt5 (==5.15.1)",
-      "qt5-tools (<5.15.1.2,>=5.15.1.1)"
+      "pyqt5 (==5.15.2)",
+      "qt5-tools (<5.15.2.2,>=5.15.2.1)"
     ]
   },
   "requires_extras": {},

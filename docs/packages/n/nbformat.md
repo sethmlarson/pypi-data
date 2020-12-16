@@ -16,6 +16,7 @@
 ## Publishers
 - [bgranger](https://pypi.org/user/bgranger)
 - [fperez](https://pypi.org/user/fperez)
+- [goanpeca](https://pypi.org/user/goanpeca)
 - [ivanov](https://pypi.org/user/ivanov)
 - [jhamrick](https://pypi.org/user/jhamrick)
 - [Kyle.Kelley](https://pypi.org/user/Kyle.Kelley)

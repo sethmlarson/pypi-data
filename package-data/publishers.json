@@ -4143,6 +4143,9 @@
   "badrogger": [
     "skale-py"
   ],
+  "bagerard": [
+    "mongoengine"
+  ],
   "baijum": [
     "pysaml2",
     "roman",
@@ -9089,6 +9092,7 @@
     "os-xenapi"
   ],
   "goanpeca": [
+    "nbformat",
     "qtawesome",
     "qtpy"
   ],
@@ -16682,6 +16686,9 @@
     "django-auth-ldap",
     "django-otp",
     "django-otp-twilio"
+  ],
+  "psarka": [
+    "fasteners"
   ],
   "pseudomuto": [
     "kazurator"

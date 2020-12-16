@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [dragonfly-core (==1.27.0)](packages/d/dragonfly-core.md)
-- [honeybee-energy (==1.64.0)](packages/h/honeybee-energy.md)
+- [honeybee-energy (==1.64.1)](packages/h/honeybee-energy.md)
 
 
 ## Extras

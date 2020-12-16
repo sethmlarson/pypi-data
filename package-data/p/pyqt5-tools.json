@@ -12,8 +12,8 @@
     ],
     "specifiers": [
       "click",
-      "pyqt5 (==5.15.1)",
-      "pyqt5-plugins (<5.15.1.3,>=5.15.1.2)",
+      "pyqt5 (==5.15.2)",
+      "pyqt5-plugins (<5.15.2.3,>=5.15.2.2)",
       "python-dotenv"
     ]
   },

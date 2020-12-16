@@ -1,7 +1,7 @@
 # [lbt-grasshopper](https://pypi.org/project/lbt-grasshopper)
 
 ## Dependencies
-- [dragonfly-grasshopper (==1.17.0)](packages/d/dragonfly-grasshopper.md)
+- [dragonfly-grasshopper (==1.17.1)](packages/d/dragonfly-grasshopper.md)
 - [honeybee-grasshopper-core (==1.19.3)](packages/h/honeybee-grasshopper-core.md)
 - [honeybee-grasshopper-energy (==1.22.0)](packages/h/honeybee-grasshopper-energy.md)
 - [honeybee-grasshopper-radiance (==1.6.1)](packages/h/honeybee-grasshopper-radiance.md)

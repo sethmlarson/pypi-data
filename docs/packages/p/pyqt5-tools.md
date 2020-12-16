@@ -2,8 +2,8 @@
 
 ## Dependencies
 - [click](packages/c/click.md)
-- [pyqt5 (==5.15.1)](packages/p/pyqt5.md)
-- [pyqt5-plugins (<5.15.1.3,>=5.15.1.2)](packages/p/pyqt5-plugins.md)
+- [pyqt5 (==5.15.2)](packages/p/pyqt5.md)
+- [pyqt5-plugins (<5.15.2.3,>=5.15.2.2)](packages/p/pyqt5-plugins.md)
 - [python-dotenv](packages/p/python-dotenv.md)
 
 

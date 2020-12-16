@@ -2,8 +2,8 @@
 
 ## Dependencies
 - [click](packages/c/click.md)
-- [pyqt5 (==5.15.1)](packages/p/pyqt5.md)
-- [qt5-tools (<5.15.1.2,>=5.15.1.1)](packages/q/qt5-tools.md)
+- [pyqt5 (==5.15.2)](packages/p/pyqt5.md)
+- [qt5-tools (<5.15.2.2,>=5.15.2.1)](packages/q/qt5-tools.md)
 
 
 
