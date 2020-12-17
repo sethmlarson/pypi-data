@@ -13,7 +13,7 @@
       "enum34; python_version<'3.4'",
       "ipaddress; python_version<'3.4'",
       "pytz",
-      "tzlocal"
+      "tzlocal (<3.0)"
     ]
   },
   "requires_extras": {
@@ -25,6 +25,16 @@
       "specifiers": [
         "clickhouse-cityhash (>=1.0.2.1); extra=='lz4'",
         "lz4 (<=3.0.1); extra=='lz4'"
+      ]
+    },
+    "numpy": {
+      "dists": [
+        "numpy",
+        "pandas"
+      ],
+      "specifiers": [
+        "numpy (>=1.12.0); extra=='numpy'",
+        "pandas (>=0.24.0); extra=='numpy'"
       ]
     },
     "zstd": {

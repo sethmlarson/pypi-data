@@ -37,7 +37,7 @@
 - [python-telegram-bot (>=11.1,<13.0)](packages/p/python-telegram-bot.md)
 - [pytz (>=2019.1,<2021.0)](packages/p/pytz.md)
 - [questionary (>=1.5.1,<1.6.0)](packages/q/questionary.md)
-- [rasa-sdk (>=2.2.0a1,<3.0.0)](packages/r/rasa-sdk.md)
+- [rasa-sdk (>=2.2.0,<3.0.0)](packages/r/rasa-sdk.md)
 - [redis (>=3.4,<4.0)](packages/r/redis.md)
 - [regex (>=2020.6,<2020.10)](packages/r/regex.md)
 - [requests (>=2.23,<3.0)](packages/r/requests.md)

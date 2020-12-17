@@ -36,7 +36,7 @@
         "jaxlib"
       ],
       "specifiers": [
-        "flax (==0.2.2); extra=='flax'",
+        "flax (>=0.2.2); extra=='flax'",
         "jax (>=0.2.0); extra=='flax'",
         "jaxlib (==0.1.55); extra=='flax'"
       ]

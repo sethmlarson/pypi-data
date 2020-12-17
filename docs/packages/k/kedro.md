@@ -4,8 +4,9 @@
 - [anyconfig (~=0.9.7)](packages/a/anyconfig.md)
 - [cachetools (~=4.1)](packages/c/cachetools.md)
 - [click (<8.0)](packages/c/click.md)
-- [cookiecutter (<1.7.0,>=1.6.0)](packages/c/cookiecutter.md)
-- [fsspec (<0.7.0,>=0.5.1)](packages/f/fsspec.md)
+- [cookiecutter (~=1.7.0)](packages/c/cookiecutter.md)
+- [fsspec (<0.9,>=0.5.1)](packages/f/fsspec.md)
+- [gitpython (~=3.0)](packages/g/gitpython.md)
 - [jmespath (<1.0,>=0.9.5)](packages/j/jmespath.md)
 - [jupyter-client (<7.0,>=5.1)](packages/j/jupyter-client.md)
 - [pip-tools (~=5.0)](packages/p/pip-tools.md)
@@ -13,6 +14,7 @@
 - [python-json-logger (~=0.1.9)](packages/p/python-json-logger.md)
 - [pyyaml (<6.0,>=4.2)](packages/p/pyyaml.md)
 - [setuptools (>=38.0)](packages/s/setuptools.md)
+- [toml (~=0.10)](packages/t/toml.md)
 - [toposort (~=1.5)](packages/t/toposort.md)
 
 
@@ -38,15 +40,20 @@
 
 ### geopandas
 - [geopandas (<1.0,>=0.6.0); extra=='geopandas'](packages/g/geopandas.md)
+- [pyproj (<3.0,>=2.2.0); extra=='geopandas'](packages/p/pyproj.md)
 
 ### geopandas.geojsondataset
 - [geopandas (<1.0,>=0.6.0); extra=='geopandas.geojsondataset'](packages/g/geopandas.md)
+- [pyproj (<3.0,>=2.2.0); extra=='geopandas.geojsondataset'](packages/p/pyproj.md)
 
 ### holoviews
 - [holoviews (~=1.13.0); extra=='holoviews'](packages/h/holoviews.md)
 
 ### holoviews.holoviewswriter
 - [holoviews (~=1.13.0); extra=='holoviews.holoviewswriter'](packages/h/holoviews.md)
+
+### ipython
+- [ipython (==7.10); extra=='ipython'](packages/i/ipython.md)
 
 ### matplotlib
 - [matplotlib (<4.0,>=3.0.3); extra=='matplotlib'](packages/m/matplotlib.md)
@@ -119,23 +126,23 @@
 
 ### spark
 - [hdfs (<3.0,>=2.5.8); extra=='spark'](packages/h/hdfs.md)
-- [pyspark (~=2.2); extra=='spark'](packages/p/pyspark.md)
-- [s3fs (<0.4.1,>=0.3.0); extra=='spark'](packages/s/s3fs.md)
+- [pyspark (<4.0,>=2.2); extra=='spark'](packages/p/pyspark.md)
+- [s3fs (<0.5,>=0.3.0); extra=='spark'](packages/s/s3fs.md)
 
 ### spark.sparkdataset
 - [hdfs (<3.0,>=2.5.8); extra=='spark.sparkdataset'](packages/h/hdfs.md)
-- [pyspark (~=2.2); extra=='spark.sparkdataset'](packages/p/pyspark.md)
-- [s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkdataset'](packages/s/s3fs.md)
+- [pyspark (<4.0,>=2.2); extra=='spark.sparkdataset'](packages/p/pyspark.md)
+- [s3fs (<0.5,>=0.3.0); extra=='spark.sparkdataset'](packages/s/s3fs.md)
 
 ### spark.sparkhivedataset
 - [hdfs (<3.0,>=2.5.8); extra=='spark.sparkhivedataset'](packages/h/hdfs.md)
-- [pyspark (~=2.2); extra=='spark.sparkhivedataset'](packages/p/pyspark.md)
-- [s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkhivedataset'](packages/s/s3fs.md)
+- [pyspark (<4.0,>=2.2); extra=='spark.sparkhivedataset'](packages/p/pyspark.md)
+- [s3fs (<0.5,>=0.3.0); extra=='spark.sparkhivedataset'](packages/s/s3fs.md)
 
 ### spark.sparkjdbcdataset
 - [hdfs (<3.0,>=2.5.8); extra=='spark.sparkjdbcdataset'](packages/h/hdfs.md)
-- [pyspark (~=2.2); extra=='spark.sparkjdbcdataset'](packages/p/pyspark.md)
-- [s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkjdbcdataset'](packages/s/s3fs.md)
+- [pyspark (<4.0,>=2.2); extra=='spark.sparkjdbcdataset'](packages/p/pyspark.md)
+- [s3fs (<0.5,>=0.3.0); extra=='spark.sparkjdbcdataset'](packages/s/s3fs.md)
 
 ### tensorflow
 - [tensorflow (~=2.0); extra=='tensorflow'](packages/t/tensorflow.md)

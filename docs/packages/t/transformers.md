@@ -15,7 +15,7 @@
 ## Extras
 
 ### flax
-- [flax (==0.2.2); extra=='flax'](packages/f/flax.md)
+- [flax (>=0.2.2); extra=='flax'](packages/f/flax.md)
 - [jax (>=0.2.0); extra=='flax'](packages/j/jax.md)
 - [jaxlib (==0.1.55); extra=='flax'](packages/j/jaxlib.md)
 

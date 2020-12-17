@@ -4,7 +4,7 @@
 - [argus-api (>=1.7.1,<2.0.0)](packages/a/argus-api.md)
 - [colorama (>=0.4.3,<0.5.0)](packages/c/colorama.md)
 - [colorlog (>=4.6,<5.0)](packages/c/colorlog.md)
-- [dateparser (>=0.7.2,<0.8.0)](packages/d/dateparser.md)
+- [dateparser (>=1.0.0,<2.0.0)](packages/d/dateparser.md)
 - [importlib_metadata (>=2.0.0,<3.0.0); python_version<'3.8'](packages/i/importlib_metadata.md)
 - [jinja2 (>=2.10,<3.0)](packages/j/jinja2.md)
 - [pyyaml (>=5.3.1,<6.0.0)](packages/p/pyyaml.md)

@@ -20,17 +20,17 @@
     ],
     "specifiers": [
       "absl-py (<0.11,>=0.9)",
-      "apache-beam[gcp] (<3,>=2.25)",
+      "apache-beam[gcp] (!=2.26.*,<3,>=2.25)",
       "joblib (<0.15,>=0.12)",
       "numpy (<2,>=1.16)",
       "pandas (<2,>=1.0)",
       "protobuf (<4,>=3.9.2)",
       "pyarrow (<0.18,>=0.17)",
       "six (<2,>=1.12)",
-      "tensorflow (!=2.0.*,!=2.1.*,!=2.2.*,<3,>=1.15.2)",
-      "tensorflow-metadata (<0.26,>=0.25)",
-      "tensorflow-transform (<0.26,>=0.25)",
-      "tfx-bsl (<0.26,>=0.25)"
+      "tensorflow (!=2.0.*,!=2.1.*,!=2.2.*,!=2.4.*,<3,>=1.15.2)",
+      "tensorflow-metadata (<0.27,>=0.26)",
+      "tensorflow-transform (<0.27,>=0.26)",
+      "tfx-bsl (<0.27,>=0.26)"
     ]
   },
   "requires_extras": {

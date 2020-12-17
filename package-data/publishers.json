@@ -14996,6 +14996,9 @@
     "addict",
     "pyudorandom"
   ],
+  "mxmehl": [
+    "reuse"
+  ],
   "mxmzdlv": [
     "pybigquery"
   ],
@@ -19514,6 +19517,9 @@
     "tf-nightly",
     "tf-nightly-cpu",
     "tf-nightly-gpu"
+  ],
+  "tf-text-pypi-opensource": [
+    "tensorflow-text"
   ],
   "tfgan-release": [
     "tensorflow-gan"

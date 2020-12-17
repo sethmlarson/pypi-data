@@ -1,7 +1,7 @@
 # [pantsbuild-pants-contrib-scrooge](https://pypi.org/project/pantsbuild-pants-contrib-scrooge)
 
 ## Dependencies
-- [pantsbuild.pants (==1.30.2rc2)](packages/p/pantsbuild.pants.md)
+- [pantsbuild.pants (==1.30.2rc3)](packages/p/pantsbuild.pants.md)
 
 
 

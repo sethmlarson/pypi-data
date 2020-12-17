@@ -20,15 +20,15 @@
     ],
     "specifiers": [
       "absl-py (<0.11,>=0.9)",
-      "apache-beam[gcp] (<3,>=2.25)",
+      "apache-beam[gcp] (!=2.26.*,<3,>=2.25)",
       "google-api-python-client (<2,>=1.7.11)",
       "numpy (<2,>=1.16)",
       "pandas (<2,>=1.0)",
       "protobuf (<4,>=3.9.2)",
       "pyarrow (<0.18,>=0.17)",
-      "tensorflow (!=2.0.*,!=2.1.*,!=2.2.*,<3,>=1.15.2)",
+      "tensorflow (!=2.0.*,!=2.1.*,!=2.2.*,!=2.4.*,<3,>=1.15.2)",
       "tensorflow-metadata (<0.27,>=0.26)",
-      "tensorflow-serving-api (!=2.0.*,!=2.1.*,!=2.2.*,<3,>=1.15)"
+      "tensorflow-serving-api (!=2.0.*,!=2.1.*,!=2.2.*,!=2.4.*,<3,>=1.15)"
     ]
   },
   "requires_extras": {},

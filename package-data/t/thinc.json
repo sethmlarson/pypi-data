@@ -21,15 +21,15 @@
       "wasabi"
     ],
     "specifiers": [
-      "blis (<0.8,>=0.4.1)",
+      "blis (<0.8.0,>=0.4.0)",
       "catalogue (<3.0.0,>=0.2.0)",
       "contextvars (<3,>=2.4); python_version<'3.7'",
       "cymem (<2.1.0,>=2.0.2)",
       "dataclasses (<1.0,>=0.6); python_version<'3.7'",
       "murmurhash (<1.1.0,>=0.28.0)",
-      "numpy (>=1.7.0)",
+      "numpy (>=1.15.0)",
       "preshed (<3.1.0,>=3.0.2)",
-      "pydantic (<1.7.0,>=1.5.0)",
+      "pydantic (<1.8.0,>=1.7.1)",
       "setuptools",
       "srsly (<3.0.0,>=2.0.0)",
       "typing-extensions (<4.0.0.0,>=3.7.4.1); python_version<'3.8'",
@@ -59,6 +59,30 @@
       ],
       "specifiers": [
         "cupy-cuda101 (>=5.0.0b4); extra=='cuda101'"
+      ]
+    },
+    "cuda102": {
+      "dists": [
+        "cupy-cuda102"
+      ],
+      "specifiers": [
+        "cupy-cuda102 (>=5.0.0b4); extra=='cuda102'"
+      ]
+    },
+    "cuda110": {
+      "dists": [
+        "cupy-cuda110"
+      ],
+      "specifiers": [
+        "cupy-cuda110 (>=5.0.0b4); extra=='cuda110'"
+      ]
+    },
+    "cuda111": {
+      "dists": [
+        "cupy-cuda111"
+      ],
+      "specifiers": [
+        "cupy-cuda111 (>=5.0.0b4); extra=='cuda111'"
       ]
     },
     "cuda80": {
@@ -122,7 +146,7 @@
         "torch"
       ],
       "specifiers": [
-        "torch (<1.7.0,>=1.5.0); extra=='torch'"
+        "torch (>=1.5.0); extra=='torch'"
       ]
     }
   },

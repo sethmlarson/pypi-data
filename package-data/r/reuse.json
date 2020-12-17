@@ -2,7 +2,8 @@
   "publishers": [
     "carmenbianca",
     "comzeradd",
-    "kirschner"
+    "kirschner",
+    "mxmehl"
   ],
   "requires_dist": {
     "dists": [

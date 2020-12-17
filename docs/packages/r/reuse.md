@@ -14,4 +14,5 @@
 - [carmenbianca](https://pypi.org/user/carmenbianca)
 - [comzeradd](https://pypi.org/user/comzeradd)
 - [kirschner](https://pypi.org/user/kirschner)
+- [mxmehl](https://pypi.org/user/mxmehl)
 

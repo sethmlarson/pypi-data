@@ -13,7 +13,7 @@
 - [pandas (>=0.21.0)](packages/p/pandas.md)
 - [pillow (>=6.2.0)](packages/p/pillow.md)
 - [protobuf (!=3.11,>=3.6.0)](packages/p/protobuf.md)
-- [pyarrow](packages/p/pyarrow.md)
+- [pyarrow; python_version<'3.9'](packages/p/pyarrow.md)
 - [pydeck (>=0.1.dev5)](packages/p/pydeck.md)
 - [python-dateutil](packages/p/python-dateutil.md)
 - [requests](packages/r/requests.md)

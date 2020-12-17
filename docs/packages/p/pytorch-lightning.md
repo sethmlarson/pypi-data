@@ -32,6 +32,7 @@
 - [omegaconf (>=2.0.1); extra=='cpu'](packages/o/omegaconf.md)
 - [onnx (>=1.7.0); extra=='cpu'](packages/o/onnx.md)
 - [onnxruntime (>=1.3.0); extra=='cpu'](packages/o/onnxruntime.md)
+- [pandas; extra=='cpu'](packages/p/pandas.md)
 - [pre-commit (>=1.0); extra=='cpu'](packages/p/pre-commit.md)
 - [pytest (>=5.0); extra=='cpu'](packages/p/pytest.md)
 - [scikit-image (>=0.17.2); extra=='cpu'](packages/s/scikit-image.md)

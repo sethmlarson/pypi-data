@@ -23,7 +23,7 @@
       "pantsbuild.pants"
     ],
     "specifiers": [
-      "pantsbuild.pants (==1.30.2rc2)"
+      "pantsbuild.pants (==1.30.2rc3)"
     ]
   },
   "requires_extras": {},

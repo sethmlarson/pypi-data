@@ -34,7 +34,7 @@
       "lru-dict",
       "multidict",
       "mypy-extensions",
-      "orjson (==2.6.0)",
+      "orjson (<4,>=3)",
       "pycryptodome",
       "pyjwt",
       "python-dateutil",

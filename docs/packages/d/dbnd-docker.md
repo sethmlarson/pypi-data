@@ -2,8 +2,8 @@
 
 ## Dependencies
 - [cryptography (>=2.0.0)](packages/c/cryptography.md)
-- [dbnd (==0.31.2)](packages/d/dbnd.md)
-- [dbnd-airflow (==0.31.2)](packages/d/dbnd-airflow.md)
+- [dbnd (==0.32.0)](packages/d/dbnd.md)
+- [dbnd-airflow (==0.32.0)](packages/d/dbnd-airflow.md)
 - [docker (~=3.0)](packages/d/docker.md)
 - [kubernetes (==9.0.0)](packages/k/kubernetes.md)
 

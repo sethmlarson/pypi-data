@@ -1,15 +1,15 @@
 # [thinc](https://pypi.org/project/thinc)
 
 ## Dependencies
-- [blis (<0.8,>=0.4.1)](packages/b/blis.md)
+- [blis (<0.8.0,>=0.4.0)](packages/b/blis.md)
 - [catalogue (<3.0.0,>=0.2.0)](packages/c/catalogue.md)
 - [contextvars (<3,>=2.4); python_version<'3.7'](packages/c/contextvars.md)
 - [cymem (<2.1.0,>=2.0.2)](packages/c/cymem.md)
 - [dataclasses (<1.0,>=0.6); python_version<'3.7'](packages/d/dataclasses.md)
 - [murmurhash (<1.1.0,>=0.28.0)](packages/m/murmurhash.md)
-- [numpy (>=1.7.0)](packages/n/numpy.md)
+- [numpy (>=1.15.0)](packages/n/numpy.md)
 - [preshed (<3.1.0,>=3.0.2)](packages/p/preshed.md)
-- [pydantic (<1.7.0,>=1.5.0)](packages/p/pydantic.md)
+- [pydantic (<1.8.0,>=1.7.1)](packages/p/pydantic.md)
 - [setuptools](packages/s/setuptools.md)
 - [srsly (<3.0.0,>=2.0.0)](packages/s/srsly.md)
 - [typing-extensions (<4.0.0.0,>=3.7.4.1); python_version<'3.8'](packages/t/typing-extensions.md)
@@ -26,6 +26,15 @@
 
 ### cuda101
 - [cupy-cuda101 (>=5.0.0b4); extra=='cuda101'](packages/c/cupy-cuda101.md)
+
+### cuda102
+- [cupy-cuda102 (>=5.0.0b4); extra=='cuda102'](packages/c/cupy-cuda102.md)
+
+### cuda110
+- [cupy-cuda110 (>=5.0.0b4); extra=='cuda110'](packages/c/cupy-cuda110.md)
+
+### cuda111
+- [cupy-cuda111 (>=5.0.0b4); extra=='cuda111'](packages/c/cupy-cuda111.md)
 
 ### cuda80
 - [cupy-cuda80 (>=5.0.0b4); extra=='cuda80'](packages/c/cupy-cuda80.md)
@@ -49,7 +58,7 @@
 - [tensorflow (<2.3.0,>=2.0.0); extra=='tensorflow'](packages/t/tensorflow.md)
 
 ### torch
-- [torch (<1.7.0,>=1.5.0); extra=='torch'](packages/t/torch.md)
+- [torch (>=1.5.0); extra=='torch'](packages/t/torch.md)
 
 
 ## Publishers

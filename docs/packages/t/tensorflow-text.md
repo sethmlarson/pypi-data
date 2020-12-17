@@ -13,4 +13,5 @@
 
 ## Publishers
 - [google_opensource](https://pypi.org/user/google_opensource)
+- [tf-text-pypi-opensource](https://pypi.org/user/tf-text-pypi-opensource)
 

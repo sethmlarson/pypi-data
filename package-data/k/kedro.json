@@ -9,6 +9,7 @@
       "click",
       "cookiecutter",
       "fsspec",
+      "gitpython",
       "jmespath",
       "jupyter-client",
       "pip-tools",
@@ -16,14 +17,16 @@
       "python-json-logger",
       "pyyaml",
       "setuptools",
+      "toml",
       "toposort"
     ],
     "specifiers": [
       "anyconfig (~=0.9.7)",
       "cachetools (~=4.1)",
       "click (<8.0)",
-      "cookiecutter (<1.7.0,>=1.6.0)",
-      "fsspec (<0.7.0,>=0.5.1)",
+      "cookiecutter (~=1.7.0)",
+      "fsspec (<0.9,>=0.5.1)",
+      "gitpython (~=3.0)",
       "jmespath (<1.0,>=0.9.5)",
       "jupyter-client (<7.0,>=5.1)",
       "pip-tools (~=5.0)",
@@ -31,6 +34,7 @@
       "python-json-logger (~=0.1.9)",
       "pyyaml (<6.0,>=4.2)",
       "setuptools (>=38.0)",
+      "toml (~=0.10)",
       "toposort (~=1.5)"
     ]
   },
@@ -85,18 +89,22 @@
     },
     "geopandas": {
       "dists": [
-        "geopandas"
+        "geopandas",
+        "pyproj"
       ],
       "specifiers": [
-        "geopandas (<1.0,>=0.6.0); extra=='geopandas'"
+        "geopandas (<1.0,>=0.6.0); extra=='geopandas'",
+        "pyproj (<3.0,>=2.2.0); extra=='geopandas'"
       ]
     },
     "geopandas.geojsondataset": {
       "dists": [
-        "geopandas"
+        "geopandas",
+        "pyproj"
       ],
       "specifiers": [
-        "geopandas (<1.0,>=0.6.0); extra=='geopandas.geojsondataset'"
+        "geopandas (<1.0,>=0.6.0); extra=='geopandas.geojsondataset'",
+        "pyproj (<3.0,>=2.2.0); extra=='geopandas.geojsondataset'"
       ]
     },
     "holoviews": {
@@ -113,6 +121,14 @@
       ],
       "specifiers": [
         "holoviews (~=1.13.0); extra=='holoviews.holoviewswriter'"
+      ]
+    },
+    "ipython": {
+      "dists": [
+        "ipython"
+      ],
+      "specifiers": [
+        "ipython (==7.10); extra=='ipython'"
       ]
     },
     "matplotlib": {
@@ -297,8 +313,8 @@
       ],
       "specifiers": [
         "hdfs (<3.0,>=2.5.8); extra=='spark'",
-        "pyspark (~=2.2); extra=='spark'",
-        "s3fs (<0.4.1,>=0.3.0); extra=='spark'"
+        "pyspark (<4.0,>=2.2); extra=='spark'",
+        "s3fs (<0.5,>=0.3.0); extra=='spark'"
       ]
     },
     "spark.sparkdataset": {
@@ -309,8 +325,8 @@
       ],
       "specifiers": [
         "hdfs (<3.0,>=2.5.8); extra=='spark.sparkdataset'",
-        "pyspark (~=2.2); extra=='spark.sparkdataset'",
-        "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkdataset'"
+        "pyspark (<4.0,>=2.2); extra=='spark.sparkdataset'",
+        "s3fs (<0.5,>=0.3.0); extra=='spark.sparkdataset'"
       ]
     },
     "spark.sparkhivedataset": {
@@ -321,8 +337,8 @@
       ],
       "specifiers": [
         "hdfs (<3.0,>=2.5.8); extra=='spark.sparkhivedataset'",
-        "pyspark (~=2.2); extra=='spark.sparkhivedataset'",
-        "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkhivedataset'"
+        "pyspark (<4.0,>=2.2); extra=='spark.sparkhivedataset'",
+        "s3fs (<0.5,>=0.3.0); extra=='spark.sparkhivedataset'"
       ]
     },
     "spark.sparkjdbcdataset": {
@@ -333,8 +349,8 @@
       ],
       "specifiers": [
         "hdfs (<3.0,>=2.5.8); extra=='spark.sparkjdbcdataset'",
-        "pyspark (~=2.2); extra=='spark.sparkjdbcdataset'",
-        "s3fs (<0.4.1,>=0.3.0); extra=='spark.sparkjdbcdataset'"
+        "pyspark (<4.0,>=2.2); extra=='spark.sparkjdbcdataset'",
+        "s3fs (<0.5,>=0.3.0); extra=='spark.sparkjdbcdataset'"
       ]
     },
     "tensorflow": {

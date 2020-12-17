@@ -10,7 +10,7 @@
 - [lru-dict](packages/l/lru-dict.md)
 - [multidict](packages/m/multidict.md)
 - [mypy-extensions](packages/m/mypy-extensions.md)
-- [orjson (==2.6.0)](packages/o/orjson.md)
+- [orjson (<4,>=3)](packages/o/orjson.md)
 - [pycryptodome](packages/p/pycryptodome.md)
 - [pyjwt](packages/p/pyjwt.md)
 - [python-dateutil](packages/p/python-dateutil.md)

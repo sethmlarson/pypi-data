@@ -18,7 +18,8 @@
       "pyyaml",
       "requests",
       "serverlessrepo",
-      "tomlkit"
+      "tomlkit",
+      "watchdog"
     ],
     "specifiers": [
       "aws-lambda-builders (==1.1.0)",
@@ -35,7 +36,8 @@
       "pyyaml (~=5.3)",
       "requests (==2.23.0)",
       "serverlessrepo (==0.1.10)",
-      "tomlkit (==0.7.0)"
+      "tomlkit (==0.7.0)",
+      "watchdog (==0.10.3)"
     ]
   },
   "requires_extras": {},

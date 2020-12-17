@@ -16,6 +16,7 @@
 - [requests (==2.23.0)](packages/r/requests.md)
 - [serverlessrepo (==0.1.10)](packages/s/serverlessrepo.md)
 - [tomlkit (==0.7.0)](packages/t/tomlkit.md)
+- [watchdog (==0.10.3)](packages/w/watchdog.md)
 
 
 
