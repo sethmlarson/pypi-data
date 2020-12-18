@@ -30,11 +30,11 @@
       "ipython",
       "jinja2 (>=2.10)",
       "jupyter-core",
-      "jupyter-server (~=1.0.1)",
-      "jupyterlab-server (~=2.0.0rc5)",
-      "nbclassic (~=0.2.0)",
+      "jupyter-server (~=1.1)",
+      "jupyterlab-server (~=2.0.0rc9)",
+      "nbclassic (~=0.2)",
       "packaging",
-      "tornado (!=6.0.0,!=6.0.1,!=6.0.2)"
+      "tornado (>=6.1.0)"
     ]
   },
   "requires_extras": {},

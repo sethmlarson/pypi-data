@@ -10,7 +10,18 @@
     "dists": [],
     "specifiers": []
   },
-  "requires_extras": {},
+  "requires_extras": {
+    "watchmedo": {
+      "dists": [
+        "argh",
+        "pyyaml"
+      ],
+      "specifiers": [
+        "argh (>=0.24.1); extra=='watchmedo'",
+        "pyyaml (>=3.10); extra=='watchmedo'"
+      ]
+    }
+  },
   "requires_python": ">=3.6",
   "yanked": [
     "0.10.5",

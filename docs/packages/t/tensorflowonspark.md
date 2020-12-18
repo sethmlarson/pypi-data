@@ -1,7 +1,7 @@
 # [tensorflowonspark](https://pypi.org/project/tensorflowonspark)
 
 ## Dependencies
-- [packaging](packages/p/packaging.md)
+- [setuptools (>38.0)](packages/s/setuptools.md)
 
 
 

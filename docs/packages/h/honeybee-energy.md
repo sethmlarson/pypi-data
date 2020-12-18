@@ -1,7 +1,7 @@
 # [honeybee-energy](https://pypi.org/project/honeybee-energy)
 
 ## Dependencies
-- [honeybee-core (==1.41.7)](packages/h/honeybee-core.md)
+- [honeybee-core (==1.41.8)](packages/h/honeybee-core.md)
 - [honeybee-standards (==2.0.0)](packages/h/honeybee-standards.md)
 
 

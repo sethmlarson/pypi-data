@@ -6,13 +6,17 @@
   "requires_dist": {
     "dists": [
       "docutils",
+      "jinja2",
       "markdown-it-py",
+      "mdit-py-plugins",
       "pyyaml",
       "sphinx"
     ],
     "specifiers": [
       "docutils (>=0.15)",
-      "markdown-it-py (~=0.5.4)",
+      "jinja2",
+      "markdown-it-py (~=0.6.0)",
+      "mdit-py-plugins (~=0.2.4)",
       "pyyaml",
       "sphinx (<4,>=2)"
     ]
@@ -30,20 +34,26 @@
         "pre-commit (==1.17.0); extra=='code_style'"
       ]
     },
+    "linkify": {
+      "dists": [
+        "linkify-it-py"
+      ],
+      "specifiers": [
+        "linkify-it-py (~=1.0); extra=='linkify'"
+      ]
+    },
     "rtd": {
       "dists": [
         "ipython",
         "sphinx-book-theme",
         "sphinx-panels",
-        "sphinx-tabs",
         "sphinxcontrib-bibtex"
       ],
       "specifiers": [
         "ipython; extra=='rtd'",
         "sphinx-book-theme (>=0.0.36); extra=='rtd'",
-        "sphinx-panels (~=0.4.1); extra=='rtd'",
-        "sphinx-tabs; extra=='rtd'",
-        "sphinxcontrib-bibtex; extra=='rtd'"
+        "sphinx-panels (~=0.5.2); extra=='rtd'",
+        "sphinxcontrib-bibtex (<2.0.0); extra=='rtd'"
       ]
     }
   },

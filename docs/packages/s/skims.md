@@ -30,5 +30,4 @@
 
 ## Publishers
 - [fluidattacks](https://pypi.org/user/fluidattacks)
-- [kamadorueda](https://pypi.org/user/kamadorueda)
 

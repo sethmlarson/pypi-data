@@ -14,7 +14,7 @@
     "specifiers": [
       "enum34; python_version<'3.4'",
       "ply",
-      "pyutilib (>=6.0)",
+      "pyutilib (>=6.0.0)",
       "six (>=1.4)"
     ]
   },

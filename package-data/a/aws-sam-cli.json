@@ -23,7 +23,7 @@
     ],
     "specifiers": [
       "aws-lambda-builders (==1.1.0)",
-      "aws-sam-translator (==1.32.0)",
+      "aws-sam-translator (==1.33.0)",
       "boto3 (~=1.14.23)",
       "chevron (~=0.12)",
       "click (~=7.1)",

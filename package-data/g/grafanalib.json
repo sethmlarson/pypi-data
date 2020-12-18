@@ -7,7 +7,7 @@
       "attrs"
     ],
     "specifiers": [
-      "attrs (==19.2)"
+      "attrs (==20.3.0)"
     ]
   },
   "requires_extras": {},

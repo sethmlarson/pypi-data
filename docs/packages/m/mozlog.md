@@ -4,7 +4,7 @@
 - [blessings (>=1.3)](packages/b/blessings.md)
 - [mozfile](packages/m/mozfile.md)
 - [mozterm](packages/m/mozterm.md)
-- [six (>=1.10.0)](packages/s/six.md)
+- [six (>=1.13.0)](packages/s/six.md)
 
 
 

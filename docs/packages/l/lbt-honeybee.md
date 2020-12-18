@@ -1,10 +1,10 @@
 # [lbt-honeybee](https://pypi.org/project/lbt-honeybee)
 
 ## Dependencies
-- [honeybee-energy (==1.64.1)](packages/h/honeybee-energy.md)
+- [honeybee-energy (==1.64.2)](packages/h/honeybee-energy.md)
 - [honeybee-energy-standards (==2.0.3)](packages/h/honeybee-energy-standards.md)
-- [honeybee-radiance (==1.27.60)](packages/h/honeybee-radiance.md)
-- [lbt-ladybug (==0.25.41)](packages/l/lbt-ladybug.md)
+- [honeybee-radiance (==1.27.62)](packages/h/honeybee-radiance.md)
+- [lbt-ladybug (==0.25.42)](packages/l/lbt-ladybug.md)
 
 
 ## Extras

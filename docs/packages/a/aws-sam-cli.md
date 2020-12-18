@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [aws-lambda-builders (==1.1.0)](packages/a/aws-lambda-builders.md)
-- [aws-sam-translator (==1.32.0)](packages/a/aws-sam-translator.md)
+- [aws-sam-translator (==1.33.0)](packages/a/aws-sam-translator.md)
 - [boto3 (~=1.14.23)](packages/b/boto3.md)
 - [chevron (~=0.12)](packages/c/chevron.md)
 - [click (~=7.1)](packages/c/click.md)

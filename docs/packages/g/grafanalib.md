@@ -1,7 +1,7 @@
 # [grafanalib](https://pypi.org/project/grafanalib)
 
 ## Dependencies
-- [attrs (==19.2)](packages/a/attrs.md)
+- [attrs (==20.3.0)](packages/a/attrs.md)
 
 
 

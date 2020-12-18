@@ -10,7 +10,7 @@
       "honeybee-standards"
     ],
     "specifiers": [
-      "honeybee-core (==1.41.7)",
+      "honeybee-core (==1.41.8)",
       "honeybee-radiance-command (==1.1.8)",
       "honeybee-radiance-folder (==2.3.3)",
       "honeybee-standards (==2.0.0)"
@@ -26,7 +26,7 @@
       "specifiers": [
         "click (==7.1.2); extra=='cli'",
         "click-plugins (==1.1.1); extra=='cli'",
-        "honeybee-core[cli] (==1.41.7); extra=='cli'"
+        "honeybee-core[cli] (==1.41.8); extra=='cli'"
       ]
     }
   },

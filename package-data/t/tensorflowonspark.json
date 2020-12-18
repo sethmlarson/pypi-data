@@ -4,13 +4,13 @@
   ],
   "requires_dist": {
     "dists": [
-      "packaging"
+      "setuptools"
     ],
     "specifiers": [
-      "packaging"
+      "setuptools (>38.0)"
     ]
   },
   "requires_extras": {},
-  "requires_python": "",
+  "requires_python": ">=\"3.6\"",
   "yanked": []
 }

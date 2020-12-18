@@ -8,7 +8,6 @@
       "adr",
       "boto3",
       "imbalanced-learn",
-      "joblib",
       "libmozdata",
       "lmdb",
       "matplotlib",
@@ -38,9 +37,8 @@
     ],
     "specifiers": [
       "adr (==0.19.4)",
-      "boto3 (==1.16.35)",
+      "boto3 (==1.16.38)",
       "imbalanced-learn (==0.7.0)",
-      "joblib (==0.17.0)",
       "libmozdata (==0.1.68)",
       "lmdb (==0.99)",
       "matplotlib (==3.3.3)",
@@ -56,14 +54,14 @@
       "pyopenssl (>=0.14)",
       "python-dateutil (==2.8.1)",
       "python-hglib (==2.6.2)",
-      "requests (==2.25.0)",
+      "requests (==2.25.1)",
       "rs-parsepatch (==0.3.3)",
       "scikit-learn (==0.23.2)",
       "scipy (==1.5.4)",
       "shap[plots] (==0.37.0)",
       "tabulate (==0.8.7)",
       "taskcluster (==38.0.6)",
-      "tenacity (==6.2.0)",
+      "tenacity (==6.3.1)",
       "tqdm (==4.54.1)",
       "xgboost (==1.2.1)",
       "zstandard (==0.14.1)"
@@ -93,7 +91,7 @@
         "tensorflow"
       ],
       "specifiers": [
-        "tensorflow (==2.3.1); extra=='nn'"
+        "tensorflow (==2.4.0); extra=='nn'"
       ]
     }
   },

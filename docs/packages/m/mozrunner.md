@@ -7,7 +7,7 @@
 - [mozlog (>=6.0)](packages/m/mozlog.md)
 - [mozprocess (<2,>=1.2.0)](packages/m/mozprocess.md)
 - [mozprofile (~=2.3)](packages/m/mozprofile.md)
-- [six (<2,>=1.10.0)](packages/s/six.md)
+- [six (<2,>=1.13.0)](packages/s/six.md)
 
 
 ## Extras

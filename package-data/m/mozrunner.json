@@ -25,7 +25,7 @@
       "mozlog (>=6.0)",
       "mozprocess (<2,>=1.2.0)",
       "mozprofile (~=2.3)",
-      "six (<2,>=1.10.0)"
+      "six (<2,>=1.13.0)"
     ]
   },
   "requires_extras": {

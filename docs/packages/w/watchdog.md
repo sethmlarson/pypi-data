@@ -1,6 +1,12 @@
 # [watchdog](https://pypi.org/project/watchdog)
 
 
+## Extras
+
+### watchmedo
+- [argh (>=0.24.1); extra=='watchmedo'](packages/a/argh.md)
+- [pyyaml (>=3.10); extra=='watchmedo'](packages/p/pyyaml.md)
+
 
 ## Publishers
 - [blag](https://pypi.org/user/blag)

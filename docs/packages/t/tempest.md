@@ -11,7 +11,7 @@
 - [oslo.log (>=3.36.0)](packages/o/oslo.log.md)
 - [oslo.serialization (!=2.19.1,>=2.18.0)](packages/o/oslo.serialization.md)
 - [oslo.utils (>=3.33.0)](packages/o/oslo.utils.md)
-- [paramiko (>=2.0.0)](packages/p/paramiko.md)
+- [paramiko (>=2.7.0)](packages/p/paramiko.md)
 - [pbr (!=2.1.0,>=2.0.0)](packages/p/pbr.md)
 - [prettytable (<0.8,>=0.7.1)](packages/p/prettytable.md)
 - [python-subunit (>=1.0.0)](packages/p/python-subunit.md)

@@ -2,9 +2,8 @@
 
 ## Dependencies
 - [adr (==0.19.4)](packages/a/adr.md)
-- [boto3 (==1.16.35)](packages/b/boto3.md)
+- [boto3 (==1.16.38)](packages/b/boto3.md)
 - [imbalanced-learn (==0.7.0)](packages/i/imbalanced-learn.md)
-- [joblib (==0.17.0)](packages/j/joblib.md)
 - [libmozdata (==0.1.68)](packages/l/libmozdata.md)
 - [lmdb (==0.99)](packages/l/lmdb.md)
 - [matplotlib (==3.3.3)](packages/m/matplotlib.md)
@@ -20,14 +19,14 @@
 - [pyopenssl (>=0.14)](packages/p/pyopenssl.md)
 - [python-dateutil (==2.8.1)](packages/p/python-dateutil.md)
 - [python-hglib (==2.6.2)](packages/p/python-hglib.md)
-- [requests (==2.25.0)](packages/r/requests.md)
+- [requests (==2.25.1)](packages/r/requests.md)
 - [rs-parsepatch (==0.3.3)](packages/r/rs-parsepatch.md)
 - [scikit-learn (==0.23.2)](packages/s/scikit-learn.md)
 - [scipy (==1.5.4)](packages/s/scipy.md)
 - [shap[plots] (==0.37.0)](packages/s/shap.md)
 - [tabulate (==0.8.7)](packages/t/tabulate.md)
 - [taskcluster (==38.0.6)](packages/t/taskcluster.md)
-- [tenacity (==6.2.0)](packages/t/tenacity.md)
+- [tenacity (==6.3.1)](packages/t/tenacity.md)
 - [tqdm (==4.54.1)](packages/t/tqdm.md)
 - [xgboost (==1.2.1)](packages/x/xgboost.md)
 - [zstandard (==0.14.1)](packages/z/zstandard.md)
@@ -44,7 +43,7 @@
 - [wmd (==1.3.2); extra=='nlp'](packages/w/wmd.md)
 
 ### nn
-- [tensorflow (==2.3.1); extra=='nn'](packages/t/tensorflow.md)
+- [tensorflow (==2.4.0); extra=='nn'](packages/t/tensorflow.md)
 
 
 ## Publishers

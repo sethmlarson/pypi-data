@@ -12100,8 +12100,7 @@
     "singer-python"
   ],
   "kamadorueda": [
-    "aioextensions",
-    "skims"
+    "aioextensions"
   ],
   "kammeyer": [
     "pycocotools"

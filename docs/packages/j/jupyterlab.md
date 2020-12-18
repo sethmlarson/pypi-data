@@ -4,11 +4,11 @@
 - [ipython](packages/i/ipython.md)
 - [jinja2 (>=2.10)](packages/j/jinja2.md)
 - [jupyter-core](packages/j/jupyter-core.md)
-- [jupyter-server (~=1.0.1)](packages/j/jupyter-server.md)
-- [jupyterlab-server (~=2.0.0rc5)](packages/j/jupyterlab-server.md)
-- [nbclassic (~=0.2.0)](packages/n/nbclassic.md)
+- [jupyter-server (~=1.1)](packages/j/jupyter-server.md)
+- [jupyterlab-server (~=2.0.0rc9)](packages/j/jupyterlab-server.md)
+- [nbclassic (~=0.2)](packages/n/nbclassic.md)
 - [packaging](packages/p/packaging.md)
-- [tornado (!=6.0.0,!=6.0.1,!=6.0.2)](packages/t/tornado.md)
+- [tornado (>=6.1.0)](packages/t/tornado.md)
 
 
 

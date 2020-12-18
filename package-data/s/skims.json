@@ -1,7 +1,6 @@
 {
   "publishers": [
-    "fluidattacks",
-    "kamadorueda"
+    "fluidattacks"
   ],
   "requires_dist": {
     "dists": [
