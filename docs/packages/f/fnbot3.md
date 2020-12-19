@@ -13,5 +13,5 @@
 
 
 ## Publishers
-- [TCYT](https://pypi.org/user/TCYT)
+- [TwitchC2](https://pypi.org/user/TwitchC2)
 

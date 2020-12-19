@@ -8,6 +8,6 @@
 
 ## Publishers
 - [bsipocz](https://pypi.org/user/bsipocz)
-- [drdavella](https://pypi.org/user/drdavella)
+- [pllim](https://pypi.org/user/pllim)
 - [robitaille](https://pypi.org/user/robitaille)
 

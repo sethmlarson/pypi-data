@@ -16,7 +16,7 @@
       ],
       "specifiers": [
         "flake8 (==3.8.4); extra=='lint'",
-        "flake8-bugbear (==20.1.4); extra=='lint'",
+        "flake8-bugbear (==20.11.1); extra=='lint'",
         "mypy (==0.790); extra=='lint'",
         "pre-commit (~=2.4); extra=='lint'"
       ]

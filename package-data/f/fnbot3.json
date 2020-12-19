@@ -1,6 +1,6 @@
 {
   "publishers": [
-    "TCYT"
+    "TwitchC2"
   ],
   "requires_dist": {
     "dists": [

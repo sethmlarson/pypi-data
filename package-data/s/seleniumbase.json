@@ -131,7 +131,7 @@
       "pytest-xdist (==1.34.0); python_version<'3.5'",
       "pytest-xdist (==2.2.0); python_version>='3.5'",
       "requests (==2.25.1)",
-      "rich (==9.4.0); python_version>='3.6' and python_version<'4.0'",
+      "rich (==9.5.1); python_version>='3.6' and python_version<'4.0'",
       "selenium (==3.141.0)",
       "setuptools (>=44.1.1); python_version<'3.5'",
       "setuptools (>=50.3.2); python_version>='3.5' and python_version<'3.6'",

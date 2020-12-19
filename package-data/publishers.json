@@ -2087,9 +2087,6 @@
     "mss",
     "watchdog"
   ],
-  "TCYT": [
-    "fnbot3"
-  ],
   "TMiguelT": [
     "pandas-schema"
   ],
@@ -2247,6 +2244,9 @@
   ],
   "TotallyNotChase": [
     "glitch-this"
+  ],
+  "TwitchC2": [
+    "fnbot3"
   ],
   "TypeMyType": [
     "pyclipper"
@@ -5024,7 +5024,9 @@
     "extension-helpers",
     "pytest-arraydiff",
     "pytest-astropy",
+    "pytest-astropy-header",
     "pytest-doctestplus",
+    "pytest-filter-subpackage",
     "pytest-openfiles",
     "pytest-remotedata",
     "sphinx-automodapi"
@@ -7210,9 +7212,7 @@
     "apnswrapper"
   ],
   "drdavella": [
-    "pytest-astropy",
-    "pytest-openfiles",
-    "pytest-remotedata"
+    "pytest-astropy"
   ],
   "dre": [
     "kerberos"
@@ -16485,7 +16485,12 @@
     "structlog-sentry"
   ],
   "pllim": [
+    "pytest-arraydiff",
+    "pytest-astropy-header",
     "pytest-doctestplus",
+    "pytest-filter-subpackage",
+    "pytest-openfiles",
+    "pytest-remotedata",
     "sphinx-automodapi"
   ],
   "plone": [

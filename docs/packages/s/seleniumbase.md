@@ -68,7 +68,7 @@
 - [pytest-xdist (==1.34.0); python_version<'3.5'](packages/p/pytest-xdist.md)
 - [pytest-xdist (==2.2.0); python_version>='3.5'](packages/p/pytest-xdist.md)
 - [requests (==2.25.1)](packages/r/requests.md)
-- [rich (==9.4.0); python_version>='3.6' and python_version<'4.0'](packages/r/rich.md)
+- [rich (==9.5.1); python_version>='3.6' and python_version<'4.0'](packages/r/rich.md)
 - [selenium (==3.141.0)](packages/s/selenium.md)
 - [setuptools (>=44.1.1); python_version<'3.5'](packages/s/setuptools.md)
 - [setuptools (>=50.3.2); python_version>='3.5' and python_version<'3.6'](packages/s/setuptools.md)

@@ -20,6 +20,6 @@
       ]
     }
   },
-  "requires_python": ">=3.5",
+  "requires_python": ">=3.6",
   "yanked": []
 }
