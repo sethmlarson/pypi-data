@@ -7,7 +7,7 @@
       "chardet"
     ],
     "specifiers": [
-      "chardet (<4,>=3.0.4)"
+      "chardet (<5,>=3.0.4)"
     ]
   },
   "requires_extras": {},

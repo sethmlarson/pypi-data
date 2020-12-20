@@ -14,16 +14,8 @@
       "specifiers": [
         "cryptography (<4.0.0,>=2.6); extra=='crypto'"
       ]
-    },
-    "jwks_client": {
-      "dists": [
-        "requests"
-      ],
-      "specifiers": [
-        "requests; extra=='jwks_client'"
-      ]
     }
   },
-  "requires_python": ">=3.5",
+  "requires_python": ">=3.6",
   "yanked": []
 }

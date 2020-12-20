@@ -6,12 +6,10 @@
   ],
   "requires_dist": {
     "dists": [
-      "django",
-      "six"
+      "django"
     ],
     "specifiers": [
-      "django (>=1.11)",
-      "six"
+      "django (>=1.11)"
     ]
   },
   "requires_extras": {},

@@ -2,6 +2,7 @@
 
 ## Dependencies
 - [cryptography (>=2.9.2)](packages/c/cryptography.md)
+- [hyperlink (>=20.0.1)](packages/h/hyperlink.md)
 - [txaio (>=20.4.1)](packages/t/txaio.md)
 
 

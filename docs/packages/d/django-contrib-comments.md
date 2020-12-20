@@ -2,7 +2,6 @@
 
 ## Dependencies
 - [django (>=1.11)](packages/d/django.md)
-- [six](packages/s/six.md)
 
 
 

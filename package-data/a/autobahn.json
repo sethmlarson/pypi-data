@@ -7,10 +7,12 @@
   "requires_dist": {
     "dists": [
       "cryptography",
+      "hyperlink",
       "txaio"
     ],
     "specifiers": [
       "cryptography (>=2.9.2)",
+      "hyperlink (>=20.0.1)",
       "txaio (>=20.4.1)"
     ]
   },

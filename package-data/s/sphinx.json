@@ -49,13 +49,13 @@
       "dists": [
         "docutils-stubs",
         "flake8",
-        "flake8-import-order",
+        "isort",
         "mypy"
       ],
       "specifiers": [
         "docutils-stubs; extra=='lint'",
         "flake8 (>=3.5.0); extra=='lint'",
-        "flake8-import-order; extra=='lint'",
+        "isort; extra=='lint'",
         "mypy (>=0.790); extra=='lint'"
       ]
     }

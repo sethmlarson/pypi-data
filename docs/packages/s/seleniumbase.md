@@ -12,7 +12,7 @@
 - [chardet (==3.0.4); python_version<'3.6'](packages/c/chardet.md)
 - [chardet (==4.0.0); python_version>='3.6'](packages/c/chardet.md)
 - [colorama (==0.4.4)](packages/c/colorama.md)
-- [coverage (==5.3)](packages/c/coverage.md)
+- [coverage (==5.3.1)](packages/c/coverage.md)
 - [cryptography (==3.0); python_version<'3.6'](packages/c/cryptography.md)
 - [cryptography (==3.3.1); python_version>='3.6'](packages/c/cryptography.md)
 - [cssselect (==1.1.0)](packages/c/cssselect.md)

@@ -25,7 +25,7 @@
 ### lint
 - [docutils-stubs; extra=='lint'](packages/d/docutils-stubs.md)
 - [flake8 (>=3.5.0); extra=='lint'](packages/f/flake8.md)
-- [flake8-import-order; extra=='lint'](packages/f/flake8-import-order.md)
+- [isort; extra=='lint'](packages/i/isort.md)
 - [mypy (>=0.790); extra=='lint'](packages/m/mypy.md)
 
 

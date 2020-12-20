@@ -578,7 +578,10 @@
     "win32-setctime"
   ],
   "Derek.Eder": [
-    "dedupe"
+    "affinegap",
+    "dedupe",
+    "dedupe-hcluster",
+    "pyhacrf-datamade"
   ],
   "Dimitri.Merejkowsky": [
     "pyenchant"
@@ -17872,7 +17875,12 @@
     "sailthru-client"
   ],
   "saimon": [
+    "pytest-arraydiff",
+    "pytest-astropy-header",
     "pytest-doctestplus",
+    "pytest-filter-subpackage",
+    "pytest-openfiles",
+    "pytest-remotedata",
     "sphinx-automodapi"
   ],
   "sajith": [
