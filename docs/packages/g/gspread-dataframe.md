@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [gspread (>=3.0.0)](packages/g/gspread.md)
-- [pandas (>=0.14.0)](packages/p/pandas.md)
+- [pandas (>=0.24.0)](packages/p/pandas.md)
 - [six (>=1.12.0)](packages/s/six.md)
 
 

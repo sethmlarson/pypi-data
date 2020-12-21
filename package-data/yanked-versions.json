@@ -407,6 +407,9 @@
   "sentencepiece": [
     "0.1.92"
   ],
+  "setuptools": [
+    "51.1.0.post20201221"
+  ],
   "sphinx-markdown-tables": [
     "0.0.13"
   ],

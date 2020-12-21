@@ -1,8 +1,7 @@
 {
   "publishers": [
     "nficano",
-    "ronncc",
-    "savant"
+    "ronncc"
   ],
   "requires_dist": {
     "dists": [

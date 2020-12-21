@@ -2,34 +2,35 @@
 
 ## Dependencies
 - [absl-py (<0.11,>=0.9)](packages/a/absl-py.md)
-- [apache-beam[gcp] (<3,>=2.25)](packages/a/apache-beam.md)
+- [apache-beam[gcp] (!=2.26.*,<3,>=2.25)](packages/a/apache-beam.md)
 - [attrs (<21,>=19.3.0)](packages/a/attrs.md)
 - [click (<8,>=7)](packages/c/click.md)
 - [docker (<5,>=4.1)](packages/d/docker.md)
 - [google-api-python-client (<2,>=1.7.8)](packages/g/google-api-python-client.md)
 - [grpcio (<2,>=1.28.1)](packages/g/grpcio.md)
 - [jinja2 (<3,>=2.7.3)](packages/j/jinja2.md)
-- [keras-tuner (<2,>=1)](packages/k/keras-tuner.md)
+- [keras-tuner (<1.0.2,>=1)](packages/k/keras-tuner.md)
 - [kubernetes (<12,>=10.0.1)](packages/k/kubernetes.md)
-- [ml-metadata (<0.26,>=0.25)](packages/m/ml-metadata.md)
+- [ml-metadata (<0.27,>=0.26)](packages/m/ml-metadata.md)
+- [ml-pipelines-sdk (==0.26.0-rc0)](packages/m/ml-pipelines-sdk.md)
 - [protobuf (<4,>=3.12.2)](packages/p/protobuf.md)
 - [pyarrow (<0.18,>=0.17)](packages/p/pyarrow.md)
 - [pyyaml (<6,>=3.12)](packages/p/pyyaml.md)
 - [six (<2,>=1.10)](packages/s/six.md)
-- [tensorflow (!=2.0.*,!=2.1.*,!=2.2.*,<3,>=1.15.2)](packages/t/tensorflow.md)
+- [tensorflow (!=2.0.*,!=2.1.*,!=2.2.*,!=2.4.*,<3,>=1.15.2)](packages/t/tensorflow.md)
 - [tensorflow-cloud (<0.2,>=0.1)](packages/t/tensorflow-cloud.md)
-- [tensorflow-data-validation (<0.26,>=0.25)](packages/t/tensorflow-data-validation.md)
+- [tensorflow-data-validation (<0.27,>=0.26)](packages/t/tensorflow-data-validation.md)
 - [tensorflow-hub (<0.10,>=0.9.0)](packages/t/tensorflow-hub.md)
-- [tensorflow-model-analysis (<0.26,>=0.25)](packages/t/tensorflow-model-analysis.md)
-- [tensorflow-serving-api (!=2.0.*,!=2.1.*,!=2.2.*,<3,>=1.15)](packages/t/tensorflow-serving-api.md)
-- [tensorflow-transform (<0.26,>=0.25)](packages/t/tensorflow-transform.md)
-- [tfx-bsl (<0.26,>=0.25)](packages/t/tfx-bsl.md)
+- [tensorflow-model-analysis (<0.27,>=0.26)](packages/t/tensorflow-model-analysis.md)
+- [tensorflow-serving-api (!=2.0.*,!=2.1.*,!=2.2.*,!=2.4.*,<3,>=1.15)](packages/t/tensorflow-serving-api.md)
+- [tensorflow-transform (<0.27,>=0.26)](packages/t/tensorflow-transform.md)
+- [tfx-bsl (<0.27,>=0.26.1)](packages/t/tfx-bsl.md)
 
 
 ## Extras
 
 ### docker-image
-- [kfp-pipeline-spec (<0.2,>=0.1.2); extra=='docker-image'](packages/k/kfp-pipeline-spec.md)
+- [kfp-pipeline-spec (<0.2,>=0.1.3); extra=='docker-image'](packages/k/kfp-pipeline-spec.md)
 - [mmh (<3,>=2.2); extra=='docker-image'](packages/m/mmh.md)
 - [python-snappy (<0.6,>=0.5); extra=='docker-image'](packages/p/python-snappy.md)
 

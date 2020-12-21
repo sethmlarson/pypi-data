@@ -1,7 +1,6 @@
 {
   "publishers": [
     "mapboxci",
-    "perrygeo",
     "seang"
   ],
   "requires_dist": {

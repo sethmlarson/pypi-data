@@ -1,5 +1,9 @@
 # [alpha-vantage](https://pypi.org/project/alpha-vantage)
 
+## Dependencies
+- [aiohttp](packages/a/aiohttp.md)
+- [requests](packages/r/requests.md)
+
 
 
 ## Publishers

@@ -30,5 +30,7 @@
     }
   },
   "requires_python": ">=3.6",
-  "yanked": []
+  "yanked": [
+    "51.1.0.post20201221"
+  ]
 }

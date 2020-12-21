@@ -1,9 +1,9 @@
 # [p4p](https://pypi.org/project/p4p)
 
 ## Dependencies
-- [epicscorelibs (<7.0.3.99.5,>=7.0.3.99.4.0)](packages/e/epicscorelibs.md)
+- [epicscorelibs (<7.0.4.99.1,>=7.0.4.99.0.0a1)](packages/e/epicscorelibs.md)
 - [nose (>=1.1.2)](packages/n/nose.md)
-- [numpy (>=1.11.3)](packages/n/numpy.md)
+- [numpy (>=1.16.2)](packages/n/numpy.md)
 - [ply](packages/p/ply.md)
 
 

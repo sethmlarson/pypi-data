@@ -3,7 +3,7 @@
 ## Dependencies
 - [ansicolors (==1.1.8)](packages/a/ansicolors.md)
 - [dataclasses (==0.6)](packages/d/dataclasses.md)
-- [pantsbuild.pants (==1.30.2rc3)](packages/p/pantsbuild.pants.md)
+- [pantsbuild.pants (==1.30.2)](packages/p/pantsbuild.pants.md)
 - [requests[security] (>=2.20.1)](packages/r/requests.md)
 
 

@@ -7,6 +7,5 @@
 
 ## Publishers
 - [mapboxci](https://pypi.org/user/mapboxci)
-- [perrygeo](https://pypi.org/user/perrygeo)
 - [seang](https://pypi.org/user/seang)
 

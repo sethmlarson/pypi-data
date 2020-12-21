@@ -8,7 +8,7 @@
       "behave"
     ],
     "specifiers": [
-      "allure-python-commons (==2.8.24)",
+      "allure-python-commons (==2.8.29)",
       "behave (>=1.2.5)"
     ]
   },

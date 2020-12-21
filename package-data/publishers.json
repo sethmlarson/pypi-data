@@ -579,9 +579,19 @@
   ],
   "Derek.Eder": [
     "affinegap",
+    "categorical-distance",
+    "datetime-distance",
     "dedupe",
     "dedupe-hcluster",
-    "pyhacrf-datamade"
+    "dedupe-variable-datetime",
+    "doublemetaphone",
+    "highered",
+    "probableparsing",
+    "pyhacrf-datamade",
+    "pylbfgs",
+    "rlr",
+    "simplecosine",
+    "usaddress"
   ],
   "Dimitri.Merejkowsky": [
     "pyenchant"
@@ -7521,6 +7531,7 @@
     "kornia"
   ],
   "edgedb-ci": [
+    "asyncpg",
     "httptools",
     "immutables",
     "uvloop"
@@ -16168,10 +16179,6 @@
   "perrinjerome": [
     "erp5-util"
   ],
-  "perrygeo": [
-    "cligj",
-    "mercantile"
-  ],
   "peter-hamilton": [
     "pykmip"
   ],
@@ -17983,8 +17990,7 @@
   ],
   "savant": [
     "diamond",
-    "kappa",
-    "pytube"
+    "kappa"
   ],
   "savingoyal": [
     "metaflow"

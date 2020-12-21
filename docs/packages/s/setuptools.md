@@ -18,3 +18,7 @@
 - [jezdez](https://pypi.org/user/jezdez)
 - [pje](https://pypi.org/user/pje)
 
+
+## Yanked Versions
+- [51.1.0.post20201221](https://pypi.org/project/setuptools/51.1.0.post20201221)
+ 

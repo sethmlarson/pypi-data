@@ -4,8 +4,14 @@
     "rtorres"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "aiohttp",
+      "requests"
+    ],
+    "specifiers": [
+      "aiohttp",
+      "requests"
+    ]
   },
   "requires_extras": {},
   "requires_python": "",
