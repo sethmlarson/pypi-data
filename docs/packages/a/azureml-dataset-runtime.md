@@ -2,6 +2,8 @@
 
 ## Dependencies
 - [azureml-dataprep (<2.7.0a,>=2.6.0a)](packages/a/azureml-dataprep.md)
+- [numpy (!=1.19.3); sys_platform=='linux'](packages/n/numpy.md)
+- [numpy (<=1.19.3); sys_platform=='win32'](packages/n/numpy.md)
 - [pyarrow (<2.0.0,>=0.17.0)](packages/p/pyarrow.md)
 
 

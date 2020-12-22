@@ -16,6 +16,7 @@
 - [python-dateutil](packages/p/python-dateutil.md)
 - [pyyaml (>=5.1)](packages/p/pyyaml.md)
 - [setuptools](packages/s/setuptools.md)
+- [typing-extensions](packages/t/typing-extensions.md)
 - [uvicorn](packages/u/uvicorn.md)
 - [websockets](packages/w/websockets.md)
 - [zope.interface](packages/z/zope.interface.md)

@@ -5,10 +5,13 @@
   "requires_dist": {
     "dists": [
       "azureml-dataprep",
+      "numpy",
       "pyarrow"
     ],
     "specifiers": [
       "azureml-dataprep (<2.7.0a,>=2.6.0a)",
+      "numpy (!=1.19.3); sys_platform=='linux'",
+      "numpy (<=1.19.3); sys_platform=='win32'",
       "pyarrow (<2.0.0,>=0.17.0)"
     ]
   },

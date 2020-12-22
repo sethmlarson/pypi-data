@@ -4,10 +4,12 @@
   ],
   "requires_dist": {
     "dists": [
-      "numpy"
+      "numpy",
+      "setuptools"
     ],
     "specifiers": [
-      "numpy (>=1.13.1)"
+      "numpy (>=1.13.1)",
+      "setuptools"
     ]
   },
   "requires_extras": {
@@ -16,7 +18,7 @@
         "awkward-cuda-kernels"
       ],
       "specifiers": [
-        "awkward-cuda-kernels (==1.0.2rc2); extra=='cuda'"
+        "awkward-cuda-kernels (==1.0.2rc3); extra=='cuda'"
       ]
     }
   },

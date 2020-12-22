@@ -1,8 +1,7 @@
 # [jupytext](https://pypi.org/project/jupytext)
 
 ## Dependencies
-- [markdown-it-py (~=0.5.2); python_version>='3.6'](packages/m/markdown-it-py.md)
-- [mock; python_version<'3'](packages/m/mock.md)
+- [markdown-it-py (~=0.6.0)](packages/m/markdown-it-py.md)
 - [nbformat (>=4.0.0)](packages/n/nbformat.md)
 - [pyyaml](packages/p/pyyaml.md)
 - [toml](packages/t/toml.md)

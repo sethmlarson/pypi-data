@@ -37,7 +37,7 @@
     ],
     "specifiers": [
       "adr (==0.19.4)",
-      "boto3 (==1.16.38)",
+      "boto3 (==1.16.40)",
       "imbalanced-learn (==0.7.0)",
       "libmozdata (==0.1.68)",
       "lmdb (==0.99)",
@@ -49,7 +49,7 @@
       "orjson (==3.4.6)",
       "ortools (==8.1.8487)",
       "pandas (==1.1.5)",
-      "psutil (==5.7.3)",
+      "psutil (==5.8.0)",
       "pydriller (==1.12)",
       "pyopenssl (>=0.14)",
       "python-dateutil (==2.8.1)",

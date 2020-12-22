@@ -7,6 +7,7 @@
       "certifi",
       "funcsigs",
       "protobuf",
+      "psutil",
       "six",
       "websocket-client"
     ],
@@ -14,6 +15,7 @@
       "certifi",
       "funcsigs",
       "protobuf (<=4.0.0,>=3.7.1)",
+      "psutil (>=5.8.0)",
       "six (>=1.11)",
       "websocket-client (>=0.56.0)"
     ]

@@ -7,7 +7,7 @@
       "dbnd"
     ],
     "specifiers": [
-      "dbnd (==0.32.0)"
+      "dbnd (==0.32.1)"
     ]
   },
   "requires_extras": {
@@ -16,7 +16,7 @@
         "dbnd-airflow"
       ],
       "specifiers": [
-        "dbnd-airflow (==0.32.0); extra=='airflow'"
+        "dbnd-airflow (==0.32.1); extra=='airflow'"
       ]
     },
     "airflow-auto-tracking": {
@@ -24,7 +24,7 @@
         "dbnd-airflow-auto-tracking"
       ],
       "specifiers": [
-        "dbnd-airflow-auto-tracking (==0.32.0); extra=='airflow-auto-tracking'"
+        "dbnd-airflow-auto-tracking (==0.32.1); extra=='airflow-auto-tracking'"
       ]
     },
     "airflow-export": {
@@ -32,7 +32,7 @@
         "dbnd-airflow-export"
       ],
       "specifiers": [
-        "dbnd-airflow-export (==0.32.0); extra=='airflow-export'"
+        "dbnd-airflow-export (==0.32.1); extra=='airflow-export'"
       ]
     },
     "airflow-operator": {
@@ -40,7 +40,7 @@
         "dbnd-airflow-operator"
       ],
       "specifiers": [
-        "dbnd-airflow-operator (==0.32.0); extra=='airflow-operator'"
+        "dbnd-airflow-operator (==0.32.1); extra=='airflow-operator'"
       ]
     },
     "airflow-versioned-dag": {
@@ -48,7 +48,7 @@
         "dbnd-airflow-versioned-dag"
       ],
       "specifiers": [
-        "dbnd-airflow-versioned-dag (==0.32.0); extra=='airflow-versioned-dag'"
+        "dbnd-airflow-versioned-dag (==0.32.1); extra=='airflow-versioned-dag'"
       ]
     },
     "airflow_1_10_10": {
@@ -56,7 +56,7 @@
         "dbnd-airflow"
       ],
       "specifiers": [
-        "dbnd-airflow[airflow_1_10_10] (==0.32.0); extra=='airflow_1_10_10'"
+        "dbnd-airflow[airflow_1_10_10] (==0.32.1); extra=='airflow_1_10_10'"
       ]
     },
     "airflow_1_10_11": {
@@ -64,7 +64,7 @@
         "dbnd-airflow"
       ],
       "specifiers": [
-        "dbnd-airflow[airflow_1_10_11] (==0.32.0); extra=='airflow_1_10_11'"
+        "dbnd-airflow[airflow_1_10_11] (==0.32.1); extra=='airflow_1_10_11'"
       ]
     },
     "airflow_1_10_12": {
@@ -72,7 +72,7 @@
         "dbnd-airflow"
       ],
       "specifiers": [
-        "dbnd-airflow[airflow_1_10_12] (==0.32.0); extra=='airflow_1_10_12'"
+        "dbnd-airflow[airflow_1_10_12] (==0.32.1); extra=='airflow_1_10_12'"
       ]
     },
     "airflow_1_10_7": {
@@ -80,7 +80,7 @@
         "dbnd-airflow"
       ],
       "specifiers": [
-        "dbnd-airflow[airflow_1_10_7] (==0.32.0); extra=='airflow_1_10_7'"
+        "dbnd-airflow[airflow_1_10_7] (==0.32.1); extra=='airflow_1_10_7'"
       ]
     },
     "airflow_1_10_8": {
@@ -88,7 +88,7 @@
         "dbnd-airflow"
       ],
       "specifiers": [
-        "dbnd-airflow[airflow_1_10_8] (==0.32.0); extra=='airflow_1_10_8'"
+        "dbnd-airflow[airflow_1_10_8] (==0.32.1); extra=='airflow_1_10_8'"
       ]
     },
     "airflow_1_10_9": {
@@ -96,7 +96,7 @@
         "dbnd-airflow"
       ],
       "specifiers": [
-        "dbnd-airflow[airflow_1_10_9] (==0.32.0); extra=='airflow_1_10_9'"
+        "dbnd-airflow[airflow_1_10_9] (==0.32.1); extra=='airflow_1_10_9'"
       ]
     },
     "airflow_bundle": {
@@ -104,7 +104,7 @@
         "dbnd-airflow"
       ],
       "specifiers": [
-        "dbnd-airflow[airflow] (==0.32.0); extra=='airflow_bundle'"
+        "dbnd-airflow[airflow] (==0.32.1); extra=='airflow_bundle'"
       ]
     },
     "aws": {
@@ -112,7 +112,7 @@
         "dbnd-aws"
       ],
       "specifiers": [
-        "dbnd-aws (==0.32.0); extra=='aws'"
+        "dbnd-aws (==0.32.1); extra=='aws'"
       ]
     },
     "azure": {
@@ -120,7 +120,7 @@
         "dbnd-azure"
       ],
       "specifiers": [
-        "dbnd-azure (==0.32.0); extra=='azure'"
+        "dbnd-azure (==0.32.1); extra=='azure'"
       ]
     },
     "databricks": {
@@ -128,7 +128,7 @@
         "dbnd-databricks"
       ],
       "specifiers": [
-        "dbnd-databricks (==0.32.0); extra=='databricks'"
+        "dbnd-databricks (==0.32.1); extra=='databricks'"
       ]
     },
     "docker": {
@@ -136,7 +136,7 @@
         "dbnd-docker"
       ],
       "specifiers": [
-        "dbnd-docker (==0.32.0); extra=='docker'"
+        "dbnd-docker (==0.32.1); extra=='docker'"
       ]
     },
     "gcp": {
@@ -144,7 +144,7 @@
         "dbnd-gcp"
       ],
       "specifiers": [
-        "dbnd-gcp (==0.32.0); extra=='gcp'"
+        "dbnd-gcp (==0.32.1); extra=='gcp'"
       ]
     },
     "hdfs": {
@@ -152,7 +152,7 @@
         "dbnd-hdfs"
       ],
       "specifiers": [
-        "dbnd-hdfs (==0.32.0); extra=='hdfs'"
+        "dbnd-hdfs (==0.32.1); extra=='hdfs'"
       ]
     },
     "k8s": {
@@ -160,7 +160,7 @@
         "dbnd-docker"
       ],
       "specifiers": [
-        "dbnd-docker (==0.32.0); extra=='k8s'"
+        "dbnd-docker (==0.32.1); extra=='k8s'"
       ]
     },
     "luigi": {
@@ -168,7 +168,7 @@
         "dbnd-luigi"
       ],
       "specifiers": [
-        "dbnd-luigi (==0.32.0); extra=='luigi'"
+        "dbnd-luigi (==0.32.1); extra=='luigi'"
       ]
     },
     "mlflow": {
@@ -176,7 +176,7 @@
         "dbnd-mlflow"
       ],
       "specifiers": [
-        "dbnd-mlflow (==0.32.0); extra=='mlflow'"
+        "dbnd-mlflow (==0.32.1); extra=='mlflow'"
       ]
     },
     "postgres": {
@@ -184,7 +184,7 @@
         "dbnd-postgres"
       ],
       "specifiers": [
-        "dbnd-postgres (==0.32.0); extra=='postgres'"
+        "dbnd-postgres (==0.32.1); extra=='postgres'"
       ]
     },
     "qubole": {
@@ -192,7 +192,7 @@
         "dbnd-qubole"
       ],
       "specifiers": [
-        "dbnd-qubole (==0.32.0); extra=='qubole'"
+        "dbnd-qubole (==0.32.1); extra=='qubole'"
       ]
     },
     "redshift": {
@@ -200,7 +200,7 @@
         "dbnd-redshift"
       ],
       "specifiers": [
-        "dbnd-redshift (==0.32.0); extra=='redshift'"
+        "dbnd-redshift (==0.32.1); extra=='redshift'"
       ]
     },
     "snowflake": {
@@ -208,7 +208,7 @@
         "dbnd-snowflake"
       ],
       "specifiers": [
-        "dbnd-snowflake (==0.32.0); extra=='snowflake'"
+        "dbnd-snowflake (==0.32.1); extra=='snowflake'"
       ]
     },
     "spark": {
@@ -216,7 +216,7 @@
         "dbnd-spark"
       ],
       "specifiers": [
-        "dbnd-spark (==0.32.0); extra=='spark'"
+        "dbnd-spark (==0.32.1); extra=='spark'"
       ]
     },
     "tensorflow": {
@@ -224,7 +224,7 @@
         "dbnd-tensorflow"
       ],
       "specifiers": [
-        "dbnd-tensorflow (==0.32.0); extra=='tensorflow'"
+        "dbnd-tensorflow (==0.32.1); extra=='tensorflow'"
       ]
     }
   },

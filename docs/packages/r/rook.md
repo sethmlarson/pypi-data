@@ -4,6 +4,7 @@
 - [certifi](packages/c/certifi.md)
 - [funcsigs](packages/f/funcsigs.md)
 - [protobuf (<=4.0.0,>=3.7.1)](packages/p/protobuf.md)
+- [psutil (>=5.8.0)](packages/p/psutil.md)
 - [six (>=1.11)](packages/s/six.md)
 - [websocket-client (>=0.56.0)](packages/w/websocket-client.md)
 

@@ -54,7 +54,7 @@
       "plotly (>=4.4.1)",
       "pyldavis",
       "pyod",
-      "scikit-learn (>=0.23.2)",
+      "scikit-learn (==0.23.2)",
       "scikit-plot",
       "seaborn",
       "spacy",

@@ -22,4 +22,5 @@
 ## Publishers
 - [abravalheri](https://pypi.org/user/abravalheri)
 - [Florian.Wilhelm](https://pypi.org/user/Florian.Wilhelm)
+- [PyScaffold_Github](https://pypi.org/user/PyScaffold_Github)
 

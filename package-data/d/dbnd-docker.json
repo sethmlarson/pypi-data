@@ -12,8 +12,8 @@
     ],
     "specifiers": [
       "cryptography (>=2.0.0)",
-      "dbnd (==0.32.0)",
-      "dbnd-airflow (==0.32.0)",
+      "dbnd (==0.32.1)",
+      "dbnd-airflow (==0.32.1)",
       "docker (~=3.0)",
       "kubernetes (==9.0.0)"
     ]

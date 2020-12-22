@@ -20,7 +20,7 @@
 - [plotly (>=4.4.1)](packages/p/plotly.md)
 - [pyldavis](packages/p/pyldavis.md)
 - [pyod](packages/p/pyod.md)
-- [scikit-learn (>=0.23.2)](packages/s/scikit-learn.md)
+- [scikit-learn (==0.23.2)](packages/s/scikit-learn.md)
 - [scikit-plot](packages/s/scikit-plot.md)
 - [seaborn](packages/s/seaborn.md)
 - [spacy](packages/s/spacy.md)

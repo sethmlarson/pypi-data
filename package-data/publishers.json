@@ -1778,6 +1778,9 @@
   "PsmitAalto": [
     "morfessor"
   ],
+  "PyScaffold_Github": [
+    "pyscaffold"
+  ],
   "PyYoshi": [
     "cchardet"
   ],

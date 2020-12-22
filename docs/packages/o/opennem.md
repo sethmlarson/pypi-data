@@ -3,11 +3,11 @@
 ## Dependencies
 - [aiofiles (>=0.6.0,<0.7.0)](packages/a/aiofiles.md)
 - [alembic (>=1.4.2,<2.0.0)](packages/a/alembic.md)
+- [cachetools (>=4.2.0,<5.0.0)](packages/c/cachetools.md)
 - [click (>=7.1.2,<8.0.0)](packages/c/click.md)
 - [coloredlogs (>=14.0,<15.0)](packages/c/coloredlogs.md)
 - [databases[postgresql] (>=0.4.1,<0.5.0)](packages/d/databases.md)
 - [dictalchemy (>=0.1.2,<0.2.0)](packages/d/dictalchemy.md)
-- [expiringdict (>=1.2.1,<2.0.0)](packages/e/expiringdict.md)
 - [geoalchemy2 (>=0.8.4,<0.9.0)](packages/g/geoalchemy2.md)
 - [geojson (>=2.5.0,<3.0.0)](packages/g/geojson.md)
 - [geojson-pydantic (>=0.2.1,<0.3.0)](packages/g/geojson-pydantic.md)

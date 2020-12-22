@@ -13,7 +13,7 @@
     ],
     "specifiers": [
       "cffi (>=1.12.2); platform_python_implementation=='cpython' and sys_platform=='win32'",
-      "greenlet (>=0.4.17); platform_python_implementation=='cpython'",
+      "greenlet (<2.0,>=0.4.17); platform_python_implementation=='cpython'",
       "setuptools",
       "zope.event",
       "zope.interface"

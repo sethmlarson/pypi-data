@@ -4,7 +4,7 @@
 ## Extras
 
 ### crypto
-- [cryptography (<4.0.0,>=2.6); extra=='crypto'](packages/c/cryptography.md)
+- [cryptography (<4.0.0,>=3.3.1); extra=='crypto'](packages/c/cryptography.md)
 
 
 ## Publishers

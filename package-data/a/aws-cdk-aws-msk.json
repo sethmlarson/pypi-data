@@ -10,7 +10,7 @@
       "publication"
     ],
     "specifiers": [
-      "aws-cdk.core (==1.79.0)",
+      "aws-cdk.core (==1.80.0)",
       "constructs (<4.0.0,>=3.2.0)",
       "jsii (<2.0.0,>=1.15.0)",
       "publication (>=0.0.3)"

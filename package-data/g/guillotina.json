@@ -20,6 +20,7 @@
       "python-dateutil",
       "pyyaml",
       "setuptools",
+      "typing-extensions",
       "uvicorn",
       "websockets",
       "zope.interface"
@@ -40,6 +41,7 @@
       "python-dateutil",
       "pyyaml (>=5.1)",
       "setuptools",
+      "typing-extensions",
       "uvicorn",
       "websockets",
       "zope.interface"

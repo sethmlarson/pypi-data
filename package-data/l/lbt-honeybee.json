@@ -10,7 +10,7 @@
       "lbt-ladybug"
     ],
     "specifiers": [
-      "honeybee-energy (==1.64.2)",
+      "honeybee-energy (==1.65.0)",
       "honeybee-energy-standards (==2.0.3)",
       "honeybee-radiance (==1.27.62)",
       "lbt-ladybug (==0.25.42)"
@@ -24,7 +24,7 @@
       ],
       "specifiers": [
         "click (==7.1.2); extra=='cli'",
-        "honeybee-schema (==1.39.14); (python_version>='3.6') and extra=='cli'"
+        "honeybee-schema (==1.40.0); (python_version>='3.6') and extra=='cli'"
       ]
     }
   },

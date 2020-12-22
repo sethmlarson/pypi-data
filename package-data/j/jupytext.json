@@ -5,14 +5,12 @@
   "requires_dist": {
     "dists": [
       "markdown-it-py",
-      "mock",
       "nbformat",
       "pyyaml",
       "toml"
     ],
     "specifiers": [
-      "markdown-it-py (~=0.5.2); python_version>='3.6'",
-      "mock; python_version<'3'",
+      "markdown-it-py (~=0.6.0)",
       "nbformat (>=4.0.0)",
       "pyyaml",
       "toml"

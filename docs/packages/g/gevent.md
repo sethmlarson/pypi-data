@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [cffi (>=1.12.2); platform_python_implementation=='cpython' and sys_platform=='win32'](packages/c/cffi.md)
-- [greenlet (>=0.4.17); platform_python_implementation=='cpython'](packages/g/greenlet.md)
+- [greenlet (<2.0,>=0.4.17); platform_python_implementation=='cpython'](packages/g/greenlet.md)
 - [setuptools](packages/s/setuptools.md)
 - [zope.event](packages/z/zope.event.md)
 - [zope.interface](packages/z/zope.interface.md)

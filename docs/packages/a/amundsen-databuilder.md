@@ -10,14 +10,16 @@
 - [requests (<3.0,>=2.23.0)](packages/r/requests.md)
 - [retrying (>=1.3.3)](packages/r/retrying.md)
 - [statsd (>=3.2.1)](packages/s/statsd.md)
-- [typing (>=3.6); python_version=='2.7'](packages/t/typing.md)
 - [unidecode](packages/u/unidecode.md)
 
 
 ## Extras
 
 ### athena
-- [pyathena[sqlalchemy] (>=1.0.0); extra=='athena'](packages/p/pyathena.md)
+- [pyathena[sqlalchemy] (<2.0.0,>=1.0.0); extra=='athena'](packages/p/pyathena.md)
+
+### atlas
+- [pyatlasclient (==1.1.2); extra=='atlas'](packages/p/pyatlasclient.md)
 
 ### bigquery
 - [google-api-python-client (<2.0.0dev,>=1.6.0); extra=='bigquery'](packages/g/google-api-python-client.md)
@@ -30,14 +32,17 @@
 - [ibm-db (==3.0.1); extra=='db2'](packages/i/ibm-db.md)
 - [ibm-db-sa-py3 (==0.3.1-1); extra=='db2'](packages/i/ibm-db-sa-py3.md)
 
-### delta-lake
-- [pyspark (==3.0.1); extra=='delta-lake'](packages/p/pyspark.md)
+### delta
+- [pyspark (==3.0.1); extra=='delta'](packages/p/pyspark.md)
 
 ### dremio
 - [pyodbc (==4.0.30); extra=='dremio'](packages/p/pyodbc.md)
 
 ### druid
 - [pydruid; extra=='druid'](packages/p/pydruid.md)
+
+### feast
+- [feast (==0.8.0); extra=='feast'](packages/f/feast.md)
 
 ### glue
 - [boto3 (==1.10.1); extra=='glue'](packages/b/boto3.md)

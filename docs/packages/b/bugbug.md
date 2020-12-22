@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [adr (==0.19.4)](packages/a/adr.md)
-- [boto3 (==1.16.38)](packages/b/boto3.md)
+- [boto3 (==1.16.40)](packages/b/boto3.md)
 - [imbalanced-learn (==0.7.0)](packages/i/imbalanced-learn.md)
 - [libmozdata (==0.1.68)](packages/l/libmozdata.md)
 - [lmdb (==0.99)](packages/l/lmdb.md)
@@ -14,7 +14,7 @@
 - [orjson (==3.4.6)](packages/o/orjson.md)
 - [ortools (==8.1.8487)](packages/o/ortools.md)
 - [pandas (==1.1.5)](packages/p/pandas.md)
-- [psutil (==5.7.3)](packages/p/psutil.md)
+- [psutil (==5.8.0)](packages/p/psutil.md)
 - [pydriller (==1.12)](packages/p/pydriller.md)
 - [pyopenssl (>=0.14)](packages/p/pyopenssl.md)
 - [python-dateutil (==2.8.1)](packages/p/python-dateutil.md)

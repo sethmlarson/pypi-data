@@ -1,7 +1,8 @@
 {
   "publishers": [
     "abravalheri",
-    "Florian.Wilhelm"
+    "Florian.Wilhelm",
+    "PyScaffold_Github"
   ],
   "requires_dist": {
     "dists": [
