@@ -3718,9 +3718,6 @@
     "cx-freeze",
     "cx-oracle"
   ],
-  "atumanov": [
-    "ray"
-  ],
   "atztogo": [
     "phonopy"
   ],
@@ -8622,6 +8619,9 @@
   "fumanchu": [
     "cheroot",
     "cherrypy"
+  ],
+  "functions-framework-team": [
+    "functions-framework"
   ],
   "funilrys": [
     "domain2idna",
@@ -14086,6 +14086,9 @@
   "mfinger": [
     "optional-django"
   ],
+  "mfitton": [
+    "ray"
+  ],
   "mfogel": [
     "django-timezone-field"
   ],
@@ -16843,6 +16846,9 @@
   ],
   "pyr": [
     "logstash-formatter"
+  ],
+  "pyre": [
+    "pyre-check"
   ],
   "pyrtc": [
     "aioice",
@@ -21312,6 +21318,7 @@
     "fcm-django"
   ],
   "xuhdev": [
+    "editorconfig",
     "flake8-executable"
   ],
   "xvrl": [
@@ -21692,6 +21699,7 @@
     "jupyter-telemetry",
     "jupyterlab",
     "jupyterlab-server",
+    "notebook",
     "traitlets"
   ],
   "zsimic": [

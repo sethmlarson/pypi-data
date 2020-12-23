@@ -9,7 +9,7 @@
 - [deprecation](packages/d/deprecation.md)
 - [meiga (>=1.2.12)](packages/m/meiga.md)
 - [py-healthcheck (==1.7.2)](packages/p/py-healthcheck.md)
-- [pyjwt (>=1.7.1)](packages/p/pyjwt.md)
+- [pyjwt (==2.0.0)](packages/p/pyjwt.md)
 - [python-dateutil (==2.8.1)](packages/p/python-dateutil.md)
 - [pyyaml](packages/p/pyyaml.md)
 - [requests (==2.24.0)](packages/r/requests.md)

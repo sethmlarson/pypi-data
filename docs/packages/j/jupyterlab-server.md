@@ -5,7 +5,7 @@
 - [jinja2 (>=2.10)](packages/j/jinja2.md)
 - [json5](packages/j/json5.md)
 - [jsonschema (>=3.0.1)](packages/j/jsonschema.md)
-- [jupyter-server (~=1.1.0)](packages/j/jupyter-server.md)
+- [jupyter-server (~=1.1)](packages/j/jupyter-server.md)
 - [packaging](packages/p/packaging.md)
 - [requests](packages/r/requests.md)
 

@@ -1,6 +1,7 @@
 # [sickrage](https://pypi.org/project/sickrage)
 
 ## Dependencies
+- [aenum (==2.2.4)](packages/a/aenum.md)
 - [alembic (==1.4.2)](packages/a/alembic.md)
 - [appdirs (==1.4.4)](packages/a/appdirs.md)
 - [apscheduler (==3.6.3)](packages/a/apscheduler.md)
@@ -42,6 +43,7 @@
 - [markdown2 (==2.3.9)](packages/m/markdown2.md)
 - [markupsafe (==1.1.1)](packages/m/markupsafe.md)
 - [marshmallow (==3.8.0)](packages/m/marshmallow.md)
+- [marshmallow-enum (==1.5.1)](packages/m/marshmallow-enum.md)
 - [marshmallow-sqlalchemy (==0.23.1)](packages/m/marshmallow-sqlalchemy.md)
 - [msgpack (==1.0.0)](packages/m/msgpack.md)
 - [multipartposthandler (==0.1.0)](packages/m/multipartposthandler.md)
@@ -82,6 +84,7 @@
 - [six (==1.15.0)](packages/s/six.md)
 - [soupsieve (==2.0.1)](packages/s/soupsieve.md)
 - [sqlalchemy (==1.3.18)](packages/s/sqlalchemy.md)
+- [sqlalchemy-utils (==0.36.8)](packages/s/sqlalchemy-utils.md)
 - [stevedore (==3.2.0)](packages/s/stevedore.md)
 - [subliminal (==2.1.0)](packages/s/subliminal.md)
 - [tornado (==6.0.4)](packages/t/tornado.md)

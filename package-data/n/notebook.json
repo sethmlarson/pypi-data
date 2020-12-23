@@ -12,7 +12,8 @@
     "mbussonn",
     "minrk",
     "mpacer",
-    "takowl"
+    "takowl",
+    "zsailer"
   ],
   "requires_dist": {
     "dists": [
@@ -48,7 +49,16 @@
       "traitlets (>=4.2.1)"
     ]
   },
-  "requires_extras": {},
+  "requires_extras": {
+    "json-logging": {
+      "dists": [
+        "json-logging"
+      ],
+      "specifiers": [
+        "json-logging; extra=='json-logging'"
+      ]
+    }
+  },
   "requires_python": ">=3.5",
   "yanked": []
 }

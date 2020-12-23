@@ -38,6 +38,7 @@
 - [markmendoza](https://pypi.org/user/markmendoza)
 - [maxime.arthaud](https://pypi.org/user/maxime.arthaud)
 - [pradeepkumar](https://pypi.org/user/pradeepkumar)
+- [pyre](https://pypi.org/user/pyre)
 - [shannonzhu](https://pypi.org/user/shannonzhu)
 - [sinancepel](https://pypi.org/user/sinancepel)
 

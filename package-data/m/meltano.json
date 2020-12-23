@@ -85,6 +85,6 @@
     ]
   },
   "requires_extras": {},
-  "requires_python": ">=3.6,<4.0",
+  "requires_python": ">=3.6.1,<4.0",
   "yanked": []
 }

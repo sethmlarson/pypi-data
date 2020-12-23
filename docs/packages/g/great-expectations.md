@@ -2,7 +2,6 @@
 
 ## Dependencies
 - [altair (<5,>=4.0.0)](packages/a/altair.md)
-- [black (>=19.10b0)](packages/b/black.md)
 - [click (>=7.1.2)](packages/c/click.md)
 - [importlib-metadata (>=1.7.0)](packages/i/importlib-metadata.md)
 - [ipywidgets (>=7.5.1)](packages/i/ipywidgets.md)

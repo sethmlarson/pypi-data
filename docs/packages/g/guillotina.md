@@ -12,7 +12,7 @@
 - [mypy-extensions](packages/m/mypy-extensions.md)
 - [orjson (<4,>=3)](packages/o/orjson.md)
 - [pycryptodome](packages/p/pycryptodome.md)
-- [pyjwt](packages/p/pyjwt.md)
+- [pyjwt (<2.0.0)](packages/p/pyjwt.md)
 - [python-dateutil](packages/p/python-dateutil.md)
 - [pyyaml (>=5.1)](packages/p/pyyaml.md)
 - [setuptools](packages/s/setuptools.md)

@@ -3,7 +3,6 @@
 ## Dependencies
 - [aiohttp](packages/a/aiohttp.md)
 - [benbotasync](packages/b/benbotasync.md)
-- [colorama](packages/c/colorama.md)
 - [crayons](packages/c/crayons.md)
 - [fortniteapiasync](packages/f/fortniteapiasync.md)
 - [fortnitepy (==3.3.0)](packages/f/fortnitepy.md)

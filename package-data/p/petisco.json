@@ -28,7 +28,7 @@
       "deprecation",
       "meiga (>=1.2.12)",
       "py-healthcheck (==1.7.2)",
-      "pyjwt (>=1.7.1)",
+      "pyjwt (==2.0.0)",
       "python-dateutil (==2.8.1)",
       "pyyaml",
       "requests (==2.24.0)",

@@ -17,6 +17,11 @@
 - [traitlets (>=4.2.1)](packages/t/traitlets.md)
 
 
+## Extras
+
+### json-logging
+- [json-logging; extra=='json-logging'](packages/j/json-logging.md)
+
 
 ## Publishers
 - [bgranger](https://pypi.org/user/bgranger)
@@ -32,4 +37,5 @@
 - [minrk](https://pypi.org/user/minrk)
 - [mpacer](https://pypi.org/user/mpacer)
 - [takowl](https://pypi.org/user/takowl)
+- [zsailer](https://pypi.org/user/zsailer)
 

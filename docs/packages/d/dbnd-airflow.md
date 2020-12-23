@@ -1,7 +1,7 @@
 # [dbnd-airflow](https://pypi.org/project/dbnd-airflow)
 
 ## Dependencies
-- [dbnd (==0.32.1)](packages/d/dbnd.md)
+- [dbnd (==0.32.2)](packages/d/dbnd.md)
 - [packaging](packages/p/packaging.md)
 - [psycopg2 (<2.8,>=2.7.4)](packages/p/psycopg2.md)
 

@@ -4,4 +4,5 @@
 
 ## Publishers
 - [treyhunner](https://pypi.org/user/treyhunner)
+- [xuhdev](https://pypi.org/user/xuhdev)
 

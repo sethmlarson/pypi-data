@@ -12,7 +12,32 @@
       "typeguard (>=2.7)"
     ]
   },
-  "requires_extras": {},
+  "requires_extras": {
+    "tensorflow": {
+      "dists": [
+        "tensorflow"
+      ],
+      "specifiers": [
+        "tensorflow (<2.5.0,>=2.3.0); extra=='tensorflow'"
+      ]
+    },
+    "tensorflow-cpu": {
+      "dists": [
+        "tensorflow-cpu"
+      ],
+      "specifiers": [
+        "tensorflow-cpu (<2.5.0,>=2.3.0); extra=='tensorflow-cpu'"
+      ]
+    },
+    "tensorflow-gpu": {
+      "dists": [
+        "tensorflow-gpu"
+      ],
+      "specifiers": [
+        "tensorflow-gpu (<2.5.0,>=2.3.0); extra=='tensorflow-gpu'"
+      ]
+    }
+  },
   "requires_python": "",
   "yanked": []
 }

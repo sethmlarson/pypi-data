@@ -53,10 +53,10 @@
 
 
 ## Publishers
-- [atumanov](https://pypi.org/user/atumanov)
 - [barakmich](https://pypi.org/user/barakmich)
 - [ekl](https://pypi.org/user/ekl)
 - [eoakes](https://pypi.org/user/eoakes)
+- [mfitton](https://pypi.org/user/mfitton)
 - [pcmoritz](https://pypi.org/user/pcmoritz)
 - [richardliaw](https://pypi.org/user/richardliaw)
 - [rkn](https://pypi.org/user/rkn)

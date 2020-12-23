@@ -4,8 +4,16 @@
     "wackou"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "babelfish",
+      "python-dateutil",
+      "rebulk"
+    ],
+    "specifiers": [
+      "babelfish",
+      "python-dateutil",
+      "rebulk (>=3)"
+    ]
   },
   "requires_extras": {},
   "requires_python": "",

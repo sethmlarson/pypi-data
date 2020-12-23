@@ -1,6 +1,7 @@
 {
   "publishers": [
-    "treyhunner"
+    "treyhunner",
+    "xuhdev"
   ],
   "requires_dist": {
     "dists": [],

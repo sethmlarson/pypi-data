@@ -6,7 +6,16 @@
     "dists": [],
     "specifiers": []
   },
-  "requires_extras": {},
+  "requires_extras": {
+    "native": {
+      "dists": [
+        "regex"
+      ],
+      "specifiers": [
+        "regex; extra=='native'"
+      ]
+    }
+  },
   "requires_python": "",
   "yanked": []
 }

@@ -37,7 +37,7 @@
       "mypy-extensions",
       "orjson (<4,>=3)",
       "pycryptodome",
-      "pyjwt",
+      "pyjwt (<2.0.0)",
       "python-dateutil",
       "pyyaml (>=5.1)",
       "setuptools",
