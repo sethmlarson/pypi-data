@@ -12,8 +12,8 @@
     ],
     "specifiers": [
       "deprecated",
-      "pyjwt",
-      "requests (<2.25,>=2.14.0)"
+      "pyjwt (<2.0)",
+      "requests (>=2.14.0)"
     ]
   },
   "requires_extras": {
@@ -26,6 +26,6 @@
       ]
     }
   },
-  "requires_python": ">=3.5",
+  "requires_python": ">=3.6",
   "yanked": []
 }

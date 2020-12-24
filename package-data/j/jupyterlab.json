@@ -31,7 +31,7 @@
       "jinja2 (>=2.10)",
       "jupyter-core",
       "jupyter-server (~=1.1)",
-      "jupyterlab-server (~=2.0.0rc9)",
+      "jupyterlab-server (~=2.0)",
       "nbclassic (~=0.2)",
       "packaging",
       "tornado (>=6.1.0)"

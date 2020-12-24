@@ -23,10 +23,10 @@
     ],
     "specifiers": [
       "argcomplete (<2,>=1.9.5)",
-      "awscli (<2,>=1.17.14)",
+      "awscli (<2,>=1.18.203)",
       "babel (<3,>=2.4.0)",
-      "boto3 (<2,>=1.14.20)",
-      "chalice (<2,>=1.15.1)",
+      "boto3 (<2,>=1.16.43)",
+      "chalice (<2,>=1.21.7)",
       "enum34 (<2,>=1.1.6); python_version=='2.7'",
       "ipaddress (<2,>=1.0.19); python_version=='2.7'",
       "ipwhois (<2,>=1.1.0)",

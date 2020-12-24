@@ -21,7 +21,6 @@
       "colorama",
       "colorful",
       "filelock",
-      "google",
       "gpustat",
       "grpcio",
       "jsonschema",
@@ -43,7 +42,6 @@
       "colorama",
       "colorful",
       "filelock",
-      "google",
       "gpustat",
       "grpcio (>=1.28.1)",
       "jsonschema",
@@ -54,11 +52,19 @@
       "protobuf (>=3.8.0)",
       "py-spy (>=0.2.0)",
       "pyyaml",
-      "redis (<3.5.0,>=3.3.2)",
+      "redis (>=3.5.0)",
       "requests"
     ]
   },
   "requires_extras": {
+    "k8s": {
+      "dists": [
+        "kubernetes"
+      ],
+      "specifiers": [
+        "kubernetes; extra=='k8s'"
+      ]
+    },
     "rllib": {
       "dists": [
         "atari-py",

@@ -8,7 +8,6 @@
 - [colorama](packages/c/colorama.md)
 - [colorful](packages/c/colorful.md)
 - [filelock](packages/f/filelock.md)
-- [google](packages/g/google.md)
 - [gpustat](packages/g/gpustat.md)
 - [grpcio (>=1.28.1)](packages/g/grpcio.md)
 - [jsonschema](packages/j/jsonschema.md)
@@ -19,11 +18,14 @@
 - [protobuf (>=3.8.0)](packages/p/protobuf.md)
 - [py-spy (>=0.2.0)](packages/p/py-spy.md)
 - [pyyaml](packages/p/pyyaml.md)
-- [redis (<3.5.0,>=3.3.2)](packages/r/redis.md)
+- [redis (>=3.5.0)](packages/r/redis.md)
 - [requests](packages/r/requests.md)
 
 
 ## Extras
+
+### k8s
+- [kubernetes; extra=='k8s'](packages/k/kubernetes.md)
 
 ### rllib
 - [atari-py; extra=='rllib'](packages/a/atari-py.md)

@@ -10,12 +10,10 @@
   ],
   "requires_dist": {
     "dists": [
-      "pyelftools",
-      "wheel"
+      "pyelftools"
     ],
     "specifiers": [
-      "pyelftools (>=0.24)",
-      "wheel (==0.36.1)"
+      "pyelftools (>=0.24)"
     ]
   },
   "requires_extras": {},

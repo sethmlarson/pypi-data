@@ -2,8 +2,8 @@
 
 ## Dependencies
 - [deprecated](packages/d/deprecated.md)
-- [pyjwt](packages/p/pyjwt.md)
-- [requests (<2.25,>=2.14.0)](packages/r/requests.md)
+- [pyjwt (<2.0)](packages/p/pyjwt.md)
+- [requests (>=2.14.0)](packages/r/requests.md)
 
 
 ## Extras

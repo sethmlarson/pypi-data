@@ -2,10 +2,10 @@
 
 ## Dependencies
 - [argcomplete (<2,>=1.9.5)](packages/a/argcomplete.md)
-- [awscli (<2,>=1.17.14)](packages/a/awscli.md)
+- [awscli (<2,>=1.18.203)](packages/a/awscli.md)
 - [babel (<3,>=2.4.0)](packages/b/babel.md)
-- [boto3 (<2,>=1.14.20)](packages/b/boto3.md)
-- [chalice (<2,>=1.15.1)](packages/c/chalice.md)
+- [boto3 (<2,>=1.16.43)](packages/b/boto3.md)
+- [chalice (<2,>=1.21.7)](packages/c/chalice.md)
 - [enum34 (<2,>=1.1.6); python_version=='2.7'](packages/e/enum34.md)
 - [ipaddress (<2,>=1.0.19); python_version=='2.7'](packages/i/ipaddress.md)
 - [ipwhois (<2,>=1.1.0)](packages/i/ipwhois.md)
