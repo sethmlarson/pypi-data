@@ -4,17 +4,15 @@
   ],
   "requires_dist": {
     "dists": [
+      "console-bundle",
       "injecta",
-      "ipython",
-      "pandas",
-      "pyarrow",
+      "logger-bundle",
       "pyfony-bundles"
     ],
     "specifiers": [
-      "injecta (>=0.8.4,<0.9.0)",
-      "ipython (>=7.0.0,<8.0.0)",
-      "pandas (>=0.24.2)",
-      "pyarrow (>=0.16.0,<0.17.0)",
+      "console-bundle (>=0.2.6,<0.3.0)",
+      "injecta (==0.8.13b1)",
+      "logger-bundle (>=0.5.0,<0.6.0)",
       "pyfony-bundles (>=0.2.0,<0.3.0)"
     ]
   },

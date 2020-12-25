@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [alembic (<=1.4.1)](packages/a/alembic.md)
-- [azure-storage-blob](packages/a/azure-storage-blob.md)
+- [azure-storage-blob (>=12.0.0)](packages/a/azure-storage-blob.md)
 - [click (>=7.0)](packages/c/click.md)
 - [cloudpickle](packages/c/cloudpickle.md)
 - [databricks-cli (>=0.8.7)](packages/d/databricks-cli.md)
