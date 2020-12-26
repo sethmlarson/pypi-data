@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [honeybee-energy (==1.65.0)](packages/h/honeybee-energy.md)
-- [honeybee-energy-standards (==2.0.3)](packages/h/honeybee-energy-standards.md)
+- [honeybee-energy-standards (==2.1.0)](packages/h/honeybee-energy-standards.md)
 - [honeybee-radiance (==1.27.62)](packages/h/honeybee-radiance.md)
 - [lbt-ladybug (==0.25.42)](packages/l/lbt-ladybug.md)
 

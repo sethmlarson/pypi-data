@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [dragonfly-energy (==1.10.88)](packages/d/dragonfly-energy.md)
-- [lbt-honeybee (==0.2.275)](packages/l/lbt-honeybee.md)
+- [lbt-honeybee (==0.2.276)](packages/l/lbt-honeybee.md)
 
 
 ## Extras

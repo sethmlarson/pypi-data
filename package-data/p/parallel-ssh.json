@@ -10,7 +10,7 @@
     ],
     "specifiers": [
       "gevent (>=1.1)",
-      "ssh-python (>=0.8.0)",
+      "ssh-python (>=0.9.0)",
       "ssh2-python (>=0.22.0)"
     ]
   },
