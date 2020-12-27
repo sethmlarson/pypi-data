@@ -7,7 +7,8 @@
 ## Extras
 
 ### build
-- [param (>=1.7.0); extra=='build'](packages/p/param.md)
+- [jupyter-packaging (~=0.7.9); extra=='build'](packages/j/jupyter-packaging.md)
+- [jupyterlab (~=3.0); extra=='build'](packages/j/jupyterlab.md)
 - [setuptools; extra=='build'](packages/s/setuptools.md)
 
 

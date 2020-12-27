@@ -7,6 +7,7 @@
 - [apscheduler (==3.6.3)](packages/a/apscheduler.md)
 - [arrow (==0.15.8)](packages/a/arrow.md)
 - [asn1crypto (==1.4.0)](packages/a/asn1crypto.md)
+- [attrdict (==2.0.1)](packages/a/attrdict.md)
 - [attrs (==19.3.0)](packages/a/attrs.md)
 - [babelfish (==0.5.5)](packages/b/babelfish.md)
 - [beautifulsoup4 (==4.9.1)](packages/b/beautifulsoup4.md)

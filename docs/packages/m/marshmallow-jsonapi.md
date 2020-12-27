@@ -7,8 +7,8 @@
 ## Extras
 
 ### lint
-- [flake8 (==3.8.3); extra=='lint'](packages/f/flake8.md)
-- [flake8-bugbear (==20.1.4); extra=='lint'](packages/f/flake8-bugbear.md)
+- [flake8 (==3.8.4); extra=='lint'](packages/f/flake8.md)
+- [flake8-bugbear (==20.11.1); extra=='lint'](packages/f/flake8-bugbear.md)
 - [pre-commit (~=2.0); extra=='lint'](packages/p/pre-commit.md)
 
 

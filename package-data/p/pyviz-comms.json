@@ -14,11 +14,13 @@
   "requires_extras": {
     "build": {
       "dists": [
-        "param",
+        "jupyter-packaging",
+        "jupyterlab",
         "setuptools"
       ],
       "specifiers": [
-        "param (>=1.7.0); extra=='build'",
+        "jupyter-packaging (~=0.7.9); extra=='build'",
+        "jupyterlab (~=3.0); extra=='build'",
         "setuptools; extra=='build'"
       ]
     }

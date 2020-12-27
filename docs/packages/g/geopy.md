@@ -12,12 +12,13 @@
 ### dev-docs
 - [readme-renderer; extra=='dev-docs'](packages/r/readme-renderer.md)
 - [sphinx; extra=='dev-docs'](packages/s/sphinx.md)
-- [sphinx-rtd-theme (>=0.4.0); extra=='dev-docs'](packages/s/sphinx-rtd-theme.md)
+- [sphinx-issues; extra=='dev-docs'](packages/s/sphinx-issues.md)
+- [sphinx-rtd-theme (>=0.5.0); extra=='dev-docs'](packages/s/sphinx-rtd-theme.md)
 
 ### dev-lint
 - [async-generator; extra=='dev-lint'](packages/a/async-generator.md)
-- [flake8 (<3.7.0,>=3.6.0); extra=='dev-lint'](packages/f/flake8.md)
-- [isort (<4.4.0,>=4.3.4); extra=='dev-lint'](packages/i/isort.md)
+- [flake8 (<3.9.0,>=3.8.0); extra=='dev-lint'](packages/f/flake8.md)
+- [isort (<5.7.0,>=5.6.0); extra=='dev-lint'](packages/i/isort.md)
 
 ### dev-test
 - [async-generator; extra=='dev-test'](packages/a/async-generator.md)

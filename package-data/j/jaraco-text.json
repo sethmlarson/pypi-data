@@ -5,16 +5,14 @@
   "requires_dist": {
     "dists": [
       "importlib-resources",
-      "jaraco.functools",
-      "six"
+      "jaraco.functools"
     ],
     "specifiers": [
       "importlib-resources; python_version<'3.7'",
-      "jaraco.functools",
-      "six"
+      "jaraco.functools"
     ]
   },
   "requires_extras": {},
-  "requires_python": ">=2.7",
+  "requires_python": ">=3.6",
   "yanked": []
 }

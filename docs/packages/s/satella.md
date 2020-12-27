@@ -34,4 +34,6 @@
 - [2.11.32](https://pypi.org/project/satella/2.11.32)
 - [2.11.33](https://pypi.org/project/satella/2.11.33)
 - [2.12.4](https://pypi.org/project/satella/2.12.4)
+- [2.14.26](https://pypi.org/project/satella/2.14.26)
+- [2.14.27](https://pypi.org/project/satella/2.14.27)
  
