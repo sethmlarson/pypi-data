@@ -1,8 +1,8 @@
 # [lbt-dragonfly](https://pypi.org/project/lbt-dragonfly)
 
 ## Dependencies
-- [dragonfly-energy (==1.10.88)](packages/d/dragonfly-energy.md)
-- [lbt-honeybee (==0.2.276)](packages/l/lbt-honeybee.md)
+- [dragonfly-energy (==1.10.89)](packages/d/dragonfly-energy.md)
+- [lbt-honeybee (==0.2.277)](packages/l/lbt-honeybee.md)
 
 
 ## Extras

@@ -5,16 +5,14 @@
   "requires_dist": {
     "dists": [
       "jaraco.classes",
-      "jaraco.text",
-      "six"
+      "jaraco.text"
     ],
     "specifiers": [
       "jaraco.classes",
-      "jaraco.text",
-      "six"
+      "jaraco.text"
     ]
   },
   "requires_extras": {},
-  "requires_python": ">=2.7",
+  "requires_python": ">=3.6",
   "yanked": []
 }

@@ -22,7 +22,7 @@
       "specifiers": [
         "click (==7.1.2); extra=='cli'",
         "honeybee-core[cli] (==1.41.8); extra=='cli'",
-        "honeybee-energy-standards (==2.0.3); extra=='cli'"
+        "honeybee-energy-standards (==2.1.0); extra=='cli'"
       ]
     }
   },

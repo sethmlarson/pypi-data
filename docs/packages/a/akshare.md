@@ -18,7 +18,7 @@
 - [tabulate (>=0.8.6)](packages/t/tabulate.md)
 - [tqdm (>=4.43.0)](packages/t/tqdm.md)
 - [websocket-client (>=0.56.0)](packages/w/websocket-client.md)
-- [xlrd (>=1.2.0)](packages/x/xlrd.md)
+- [xlrd (==1.2.0)](packages/x/xlrd.md)
 
 
 

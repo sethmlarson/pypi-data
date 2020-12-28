@@ -10,7 +10,7 @@
 ### cli
 - [click (==7.1.2); extra=='cli'](packages/c/click.md)
 - [honeybee-core[cli] (==1.41.8); extra=='cli'](packages/h/honeybee-core.md)
-- [honeybee-energy-standards (==2.0.3); extra=='cli'](packages/h/honeybee-energy-standards.md)
+- [honeybee-energy-standards (==2.1.0); extra=='cli'](packages/h/honeybee-energy-standards.md)
 
 
 ## Publishers

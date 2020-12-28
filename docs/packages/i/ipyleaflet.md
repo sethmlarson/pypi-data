@@ -3,6 +3,7 @@
 ## Dependencies
 - [branca (<0.5,>=0.3.1)](packages/b/branca.md)
 - [ipywidgets (<8,>=7.5.0)](packages/i/ipywidgets.md)
+- [shapely](packages/s/shapely.md)
 - [traittypes (<3,>=0.2.1)](packages/t/traittypes.md)
 
 

@@ -2,6 +2,7 @@
 
 ## Dependencies
 - [configparser](packages/c/configparser.md)
+- [cssselect](packages/c/cssselect.md)
 - [future](packages/f/future.md)
 - [msedge-selenium-tools](packages/m/msedge-selenium-tools.md)
 - [pytest-html](packages/p/pytest-html.md)

@@ -41,7 +41,7 @@
       "tabulate (>=0.8.6)",
       "tqdm (>=4.43.0)",
       "websocket-client (>=0.56.0)",
-      "xlrd (>=1.2.0)"
+      "xlrd (==1.2.0)"
     ]
   },
   "requires_extras": {},

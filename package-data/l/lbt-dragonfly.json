@@ -8,8 +8,8 @@
       "lbt-honeybee"
     ],
     "specifiers": [
-      "dragonfly-energy (==1.10.88)",
-      "lbt-honeybee (==0.2.276)"
+      "dragonfly-energy (==1.10.89)",
+      "lbt-honeybee (==0.2.277)"
     ]
   },
   "requires_extras": {

@@ -2,7 +2,7 @@
 
 ## Dependencies
 - [aiohttp (==3.7.1)](packages/a/aiohttp.md)
-- [ais-dom-frontend (==20201111.7)](packages/a/ais-dom-frontend.md)
+- [ais-dom-frontend (==20201212.1)](packages/a/ais-dom-frontend.md)
 - [astral (==1.10.1)](packages/a/astral.md)
 - [async-timeout (==3.0.1)](packages/a/async-timeout.md)
 - [attrs (==19.3.0)](packages/a/attrs.md)

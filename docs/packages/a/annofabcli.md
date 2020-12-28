@@ -8,7 +8,7 @@
 - [isodate](packages/i/isodate.md)
 - [jmespath](packages/j/jmespath.md)
 - [more-itertools](packages/m/more-itertools.md)
-- [pandas (>=1.1,<2.0)](packages/p/pandas.md)
+- [pandas (>=1.2,<2.0)](packages/p/pandas.md)
 - [pillow](packages/p/pillow.md)
 - [pyquery](packages/p/pyquery.md)
 - [pyyaml](packages/p/pyyaml.md)

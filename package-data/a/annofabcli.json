@@ -27,7 +27,7 @@
       "isodate",
       "jmespath",
       "more-itertools",
-      "pandas (>=1.1,<2.0)",
+      "pandas (>=1.2,<2.0)",
       "pillow",
       "pyquery",
       "pyyaml",
@@ -35,6 +35,6 @@
     ]
   },
   "requires_extras": {},
-  "requires_python": ">=3.6.1,<4.0.0",
+  "requires_python": ">=3.7.1,<4.0.0",
   "yanked": []
 }

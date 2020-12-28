@@ -9,6 +9,7 @@
       "jstyleson",
       "lxml",
       "mf2py",
+      "pyrdfa3",
       "rdflib",
       "rdflib-jsonld",
       "six",
@@ -19,7 +20,8 @@
       "jstyleson",
       "lxml",
       "mf2py",
-      "rdflib (<5.0.0)",
+      "pyrdfa3",
+      "rdflib",
       "rdflib-jsonld",
       "six",
       "w3lib"
