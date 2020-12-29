@@ -3,7 +3,7 @@
 ## Dependencies
 - [adal (~=1.2.3)](packages/a/adal.md)
 - [argcomplete (~=1.8)](packages/a/argcomplete.md)
-- [azure-cli-telemetry (==1.0.6)](packages/a/azure-cli-telemetry.md)
+- [azure-cli-telemetry (==1.0.6.*)](packages/a/azure-cli-telemetry.md)
 - [azure-common (~=1.1)](packages/a/azure-common.md)
 - [azure-mgmt-core (==1.2.1)](packages/a/azure-mgmt-core.md)
 - [colorama (~=0.4.1)](packages/c/colorama.md)

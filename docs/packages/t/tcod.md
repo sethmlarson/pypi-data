@@ -3,6 +3,7 @@
 ## Dependencies
 - [cffi (~=1.13)](packages/c/cffi.md)
 - [numpy (~=1.10)](packages/n/numpy.md)
+- [typing-extensions](packages/t/typing-extensions.md)
 
 
 

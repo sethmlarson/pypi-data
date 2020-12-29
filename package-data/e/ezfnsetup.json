@@ -11,11 +11,11 @@
       "sanic"
     ],
     "specifiers": [
-      "aiofiles",
-      "fortnitepy (==3.3.1)",
-      "psutil",
-      "requests",
-      "sanic"
+      "aiofiles (==0.6.0)",
+      "fortnitepy (==3.3.5)",
+      "psutil (==5.8.0)",
+      "requests (==2.25.1)",
+      "sanic (==20.9.1)"
     ]
   },
   "requires_extras": {},

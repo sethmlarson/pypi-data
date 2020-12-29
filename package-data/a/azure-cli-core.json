@@ -28,7 +28,7 @@
     "specifiers": [
       "adal (~=1.2.3)",
       "argcomplete (~=1.8)",
-      "azure-cli-telemetry (==1.0.6)",
+      "azure-cli-telemetry (==1.0.6.*)",
       "azure-common (~=1.1)",
       "azure-mgmt-core (==1.2.1)",
       "colorama (~=0.4.1)",

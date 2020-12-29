@@ -5,11 +5,13 @@
   "requires_dist": {
     "dists": [
       "cffi",
-      "numpy"
+      "numpy",
+      "typing-extensions"
     ],
     "specifiers": [
       "cffi (~=1.13)",
-      "numpy (~=1.10)"
+      "numpy (~=1.10)",
+      "typing-extensions"
     ]
   },
   "requires_extras": {},

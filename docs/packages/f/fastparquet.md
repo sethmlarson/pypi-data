@@ -1,11 +1,9 @@
 # [fastparquet](https://pypi.org/project/fastparquet)
 
 ## Dependencies
-- [numba (>=0.28)](packages/n/numba.md)
+- [numba (>=0.49)](packages/n/numba.md)
 - [numpy (>=1.11)](packages/n/numpy.md)
-- [packaging](packages/p/packaging.md)
-- [pandas (>=1.0.0)](packages/p/pandas.md)
-- [six](packages/s/six.md)
+- [pandas (>=1.1.0)](packages/p/pandas.md)
 - [thrift (>=0.11.0)](packages/t/thrift.md)
 
 

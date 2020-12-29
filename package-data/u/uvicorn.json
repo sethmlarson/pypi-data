@@ -26,9 +26,9 @@
         "websockets"
       ],
       "specifiers": [
-        "colorama (>=0.4.*); (sys_platform=='win32') and extra=='standard'",
+        "colorama (>=0.4); (sys_platform=='win32') and extra=='standard'",
         "httptools (==0.1.*); (sys_platform !='win32' and sys_platform !='cygwin' and platform_python_implementation !='pypy') and extra=='standard'",
-        "python-dotenv (>=0.13.*); extra=='standard'",
+        "python-dotenv (>=0.13); extra=='standard'",
         "pyyaml (>=5.1); extra=='standard'",
         "uvloop (>=0.14.0); (sys_platform !='win32' and sys_platform !='cygwin' and platform_python_implementation !='pypy') and extra=='standard'",
         "watchgod (<0.7,>=0.6); extra=='standard'",

@@ -3,7 +3,7 @@
 ## Dependencies
 - [ansicolors (==1.1.8)](packages/a/ansicolors.md)
 - [fasteners (==0.15.0)](packages/f/fasteners.md)
-- [packaging (==20.7)](packages/p/packaging.md)
+- [packaging (==20.8)](packages/p/packaging.md)
 - [pex (==2.1.24)](packages/p/pex.md)
 - [psutil (==5.7.0)](packages/p/psutil.md)
 - [pyyaml (<5.4,>=5.3.1)](packages/p/pyyaml.md)

@@ -12,7 +12,7 @@
 - [ratelimit](packages/r/ratelimit.md)
 - [six (>=1.15.0)](packages/s/six.md)
 - [sshtunnel](packages/s/sshtunnel.md)
-- [tabulator[cchardet] (>=1.52.5)](packages/t/tabulator.md)
+- [tabulator[cchardet] (>=1.53.1)](packages/t/tabulator.md)
 - [typing; python_version<'3.5'](packages/t/typing.md)
 - [yamlloader](packages/y/yamlloader.md)
 

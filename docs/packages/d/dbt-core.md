@@ -5,7 +5,7 @@
 - [cffi (<1.15,>=1.9)](packages/c/cffi.md)
 - [colorama (<0.4.4,>=0.3.9)](packages/c/colorama.md)
 - [dataclasses (==0.6); python_version<'3.7'](packages/d/dataclasses.md)
-- [hologram (==0.0.10)](packages/h/hologram.md)
+- [hologram (==0.0.12)](packages/h/hologram.md)
 - [idna (<2.10)](packages/i/idna.md)
 - [isodate (<0.7,>=0.6)](packages/i/isodate.md)
 - [jinja2 (==2.11.2)](packages/j/jinja2.md)

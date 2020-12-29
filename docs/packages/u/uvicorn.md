@@ -9,9 +9,9 @@
 ## Extras
 
 ### standard
-- [colorama (>=0.4.*); (sys_platform=='win32') and extra=='standard'](packages/c/colorama.md)
+- [colorama (>=0.4); (sys_platform=='win32') and extra=='standard'](packages/c/colorama.md)
 - [httptools (==0.1.*); (sys_platform !='win32' and sys_platform !='cygwin' and platform_python_implementation !='pypy') and extra=='standard'](packages/h/httptools.md)
-- [python-dotenv (>=0.13.*); extra=='standard'](packages/p/python-dotenv.md)
+- [python-dotenv (>=0.13); extra=='standard'](packages/p/python-dotenv.md)
 - [pyyaml (>=5.1); extra=='standard'](packages/p/pyyaml.md)
 - [uvloop (>=0.14.0); (sys_platform !='win32' and sys_platform !='cygwin' and platform_python_implementation !='pypy') and extra=='standard'](packages/u/uvloop.md)
 - [watchgod (<0.7,>=0.6); extra=='standard'](packages/w/watchgod.md)

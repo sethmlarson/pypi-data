@@ -11,11 +11,11 @@
       "dbt-snowflake"
     ],
     "specifiers": [
-      "dbt-bigquery (==0.19.0b1)",
-      "dbt-core (==0.19.0b1)",
-      "dbt-postgres (==0.19.0b1)",
-      "dbt-redshift (==0.19.0b1)",
-      "dbt-snowflake (==0.19.0b1)"
+      "dbt-bigquery (==0.19.0rc1)",
+      "dbt-core (==0.19.0rc1)",
+      "dbt-postgres (==0.19.0rc1)",
+      "dbt-redshift (==0.19.0rc1)",
+      "dbt-snowflake (==0.19.0rc1)"
     ]
   },
   "requires_extras": {},

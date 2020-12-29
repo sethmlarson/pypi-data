@@ -27,7 +27,7 @@
       "cffi (<1.15,>=1.9)",
       "colorama (<0.4.4,>=0.3.9)",
       "dataclasses (==0.6); python_version<'3.7'",
-      "hologram (==0.0.10)",
+      "hologram (==0.0.12)",
       "idna (<2.10)",
       "isodate (<0.7,>=0.6)",
       "jinja2 (==2.11.2)",

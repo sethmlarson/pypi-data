@@ -3,10 +3,23 @@
     "indygreg"
   ],
   "requires_dist": {
-    "dists": [],
-    "specifiers": []
+    "dists": [
+      "cffi"
+    ],
+    "specifiers": [
+      "cffi (>=1.11); platform_python_implementation=='pypy'"
+    ]
   },
-  "requires_extras": {},
-  "requires_python": "",
+  "requires_extras": {
+    "cffi": {
+      "dists": [
+        "cffi"
+      ],
+      "specifiers": [
+        "cffi (>=1.11); extra=='cffi'"
+      ]
+    }
+  },
+  "requires_python": ">=3.5",
   "yanked": []
 }

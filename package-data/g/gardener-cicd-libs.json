@@ -66,7 +66,7 @@
       "ensure (<1.0.0)",
       "flake8 (==3.8.0a2)",
       "gardener-cicd-base",
-      "gardener-component-model (==0.0.23)",
+      "gardener-component-model (==v0.0.23)",
       "gardener-oci",
       "github3.py (<2.0.0)",
       "gitpython (<3.0.0)",
