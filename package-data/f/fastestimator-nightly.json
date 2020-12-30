@@ -6,6 +6,7 @@
   "requires_dist": {
     "dists": [
       "albumentations",
+      "dill",
       "dot2tex",
       "gdown",
       "graphviz",
@@ -38,6 +39,7 @@
     ],
     "specifiers": [
       "albumentations",
+      "dill (==0.3.3)",
       "dot2tex (==2.11.3)",
       "gdown (==3.12.0)",
       "graphviz (==0.15)",

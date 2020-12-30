@@ -11,7 +11,7 @@
     "specifiers": [
       "cryptography (>=1.7.2)",
       "hyper (>=0.7)",
-      "pyjwt (>=1.4.0)"
+      "pyjwt (<2.0.0,>=1.4.0)"
     ]
   },
   "requires_extras": {},

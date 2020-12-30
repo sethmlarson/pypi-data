@@ -11,6 +11,7 @@
 - [dataclasses-json](packages/d/dataclasses-json.md)
 - [deepmerge](packages/d/deepmerge.md)
 - [deprecated (<2.0.0)](packages/d/deprecated.md)
+- [dockerfile-parse](packages/d/dockerfile-parse.md)
 - [docutils (<0.16.0)](packages/d/docutils.md)
 - [ensure (<1.0.0)](packages/e/ensure.md)
 - [flake8 (==3.8.0a2)](packages/f/flake8.md)

@@ -1,5 +1,10 @@
 # [pytest-factoryboy](https://pypi.org/project/pytest-factoryboy)
 
+## Dependencies
+- [factory-boy (>=2.10.0)](packages/f/factory-boy.md)
+- [inflection](packages/i/inflection.md)
+- [pytest (>=4.6)](packages/p/pytest.md)
+
 
 
 ## Publishers

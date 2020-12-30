@@ -1,7 +1,7 @@
 # [mixer](https://pypi.org/project/mixer)
 
 ## Dependencies
-- [faker (==0.9.1)](packages/f/faker.md)
+- [faker (<=4.0.0)](packages/f/faker.md)
 
 
 

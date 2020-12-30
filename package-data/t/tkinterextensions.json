@@ -4,13 +4,15 @@
   ],
   "requires_dist": {
     "dists": [
+      "baseextensions",
       "pillow",
       "pythondebugtools",
       "tk-html-widgets"
     ],
     "specifiers": [
+      "baseextensions (>=1.1.0)",
       "pillow (>=8.0.1)",
-      "pythondebugtools (>=2.1.3)",
+      "pythondebugtools (>=2.2.0)",
       "tk-html-widgets (>=0.4.0)"
     ]
   },

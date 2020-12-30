@@ -19,9 +19,12 @@
 - [pep8 (>=1.3.3); extra=='quality'](packages/p/pep8.md)
 
 ### repl
-- [click (>=7.0); extra=='repl'](packages/c/click.md)
-- [prompt-toolkit (==2.0.4); extra=='repl'](packages/p/prompt-toolkit.md)
-- [pygments (==2.2.0); extra=='repl'](packages/p/pygments.md)
+- [click (>=7.0); (python_version<='2.7') and extra=='repl'](packages/c/click.md)
+- [click (>=7.0); (python_version>='3.6') and extra=='repl'](packages/c/click.md)
+- [prompt-toolkit (==2.0.4); (python_version<='2.7') and extra=='repl'](packages/p/prompt-toolkit.md)
+- [prompt-toolkit (>=3.0.8); (python_version>='3.6') and extra=='repl'](packages/p/prompt-toolkit.md)
+- [pygments (>=2.2.0); (python_version<='2.7') and extra=='repl'](packages/p/pygments.md)
+- [pygments (>=2.2.0); (python_version>='3.6') and extra=='repl'](packages/p/pygments.md)
 
 ### tornado
 - [tornado (==4.5.3); extra=='tornado'](packages/t/tornado.md)

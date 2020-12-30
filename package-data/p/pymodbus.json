@@ -47,9 +47,12 @@
         "pygments"
       ],
       "specifiers": [
-        "click (>=7.0); extra=='repl'",
-        "prompt-toolkit (==2.0.4); extra=='repl'",
-        "pygments (==2.2.0); extra=='repl'"
+        "click (>=7.0); (python_version<='2.7') and extra=='repl'",
+        "click (>=7.0); (python_version>='3.6') and extra=='repl'",
+        "prompt-toolkit (==2.0.4); (python_version<='2.7') and extra=='repl'",
+        "prompt-toolkit (>=3.0.8); (python_version>='3.6') and extra=='repl'",
+        "pygments (>=2.2.0); (python_version<='2.7') and extra=='repl'",
+        "pygments (>=2.2.0); (python_version>='3.6') and extra=='repl'"
       ]
     },
     "tornado": {

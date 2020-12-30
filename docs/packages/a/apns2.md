@@ -3,7 +3,7 @@
 ## Dependencies
 - [cryptography (>=1.7.2)](packages/c/cryptography.md)
 - [hyper (>=0.7)](packages/h/hyper.md)
-- [pyjwt (>=1.4.0)](packages/p/pyjwt.md)
+- [pyjwt (<2.0.0,>=1.4.0)](packages/p/pyjwt.md)
 
 
 

@@ -16,4 +16,5 @@
 - [7.0.1](https://pypi.org/project/tcod/7.0.1)
 - [8.0.0](https://pypi.org/project/tcod/8.0.0)
 - [11.16.0](https://pypi.org/project/tcod/11.16.0)
+- [11.19.1](https://pypi.org/project/tcod/11.19.1)
  

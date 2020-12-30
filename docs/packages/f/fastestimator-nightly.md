@@ -2,6 +2,7 @@
 
 ## Dependencies
 - [albumentations](packages/a/albumentations.md)
+- [dill (==0.3.3)](packages/d/dill.md)
 - [dot2tex (==2.11.3)](packages/d/dot2tex.md)
 - [gdown (==3.12.0)](packages/g/gdown.md)
 - [graphviz (==0.15)](packages/g/graphviz.md)

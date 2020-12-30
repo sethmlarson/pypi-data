@@ -19,7 +19,7 @@
 - [pyyaml (==5.3.1)](packages/p/pyyaml.md)
 - [requests (==2.25.0)](packages/r/requests.md)
 - [ruamel.yaml (==0.15.100)](packages/r/ruamel.yaml.md)
-- [voluptuous (==0.12.0)](packages/v/voluptuous.md)
+- [voluptuous (==0.12.1)](packages/v/voluptuous.md)
 - [voluptuous-serialize (==2.4.0)](packages/v/voluptuous-serialize.md)
 - [yarl (==1.4.2)](packages/y/yarl.md)
 

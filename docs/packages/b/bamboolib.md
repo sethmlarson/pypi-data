@@ -2,6 +2,7 @@
 
 ## Dependencies
 - [analytics-python (==1.2.9)](packages/a/analytics-python.md)
+- [attrs (>=20.3.0)](packages/a/attrs.md)
 - [cryptography (<3.0.0,>=2.6.1)](packages/c/cryptography.md)
 - [ipywidgets (<8.0.0,>=7.0.0)](packages/i/ipywidgets.md)
 - [jedi (<1.0.0)](packages/j/jedi.md)
@@ -15,6 +16,7 @@
 - [scikit-learn (<1.0.0,>=0.20.2)](packages/s/scikit-learn.md)
 - [seaborn (<0.11,>=0.10)](packages/s/seaborn.md)
 - [toml (>=0.10.0)](packages/t/toml.md)
+- [xlrd (>=1.0.0)](packages/x/xlrd.md)
 
 
 

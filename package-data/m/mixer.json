@@ -7,7 +7,7 @@
       "faker"
     ],
     "specifiers": [
-      "faker (==0.9.1)"
+      "faker (<=4.0.0)"
     ]
   },
   "requires_extras": {},
