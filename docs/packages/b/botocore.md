@@ -1,8 +1,0 @@
-# [botocore](https://pypi.org/project/botocore)
-
-
-
-## Publishers
-- [aws](https://pypi.org/user/aws)
-- [garnaat](https://pypi.org/user/garnaat)
-

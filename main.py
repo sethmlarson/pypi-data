@@ -1,36 +1,94 @@
-import datetime
-import os
+import itertools
 import json
+import os
 import re
+import sqlite3
 import subprocess
 import tempfile
-from tqdm import tqdm
-import urllib3
-from packaging.version import Version, InvalidVersion
-import jinja2
+from contextlib import closing
 
+import urllib3
+from packaging.version import InvalidVersion, Version
+from tqdm import tqdm
+from wheel_filename import InvalidFilenameError, parse_wheel_filename
 
 base_dir = os.path.dirname((os.path.abspath(__file__)))
-package_data_dir = os.path.join(base_dir, "package-data")
-docs_dir = os.path.join(base_dir, "docs")
 http = urllib3.PoolManager(
     headers=urllib3.util.make_headers(
         keep_alive=True,
         accept_encoding=True,
-        user_agent="sethmlarson/pypi-seismometer",
+        user_agent="sethmlarson/pypi-data",
     ),
-    retries=urllib3.util.Retry(status=10, backoff_factor=0.5),
+    retries=urllib3.util.Retry(status=10, backoff_factor=3),
 )
 wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
-jinja_env = jinja2.Environment(lstrip_blocks=True)
-jinja_env.loader = jinja2.FileSystemLoader(os.path.join(base_dir, "templates"))
 
 tmp_dir = tempfile.mkdtemp()
 os.system(f"virtualenv {tmp_dir}/venv > /dev/null")
 venv_python = os.path.join(tmp_dir, "venv/bin/python")
 
-with open("packages.txt") as f:
-    packages = [x for x in f.read().split() if x.strip()]
+pypi_deps_db = os.path.join(base_dir, "pypi.db")
+
+
+db = sqlite3.connect(os.path.join(base_dir, "pypi.db"))
+db.execute(
+    """
+  CREATE TABLE IF NOT EXISTS packages (
+    name STRING,
+    version STRING,
+    requires_python STRING,
+    yanked BOOLEAN DEFAULT FALSE,
+    has_binary_wheel BOOLEAN,
+    uploaded_at TIMESTAMP,
+    recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (name, version)
+  );
+"""
+)
+db.execute(
+    """
+  CREATE TABLE IF NOT EXISTS deps (
+    dependent_name STRING,
+    dependent_version STRING,
+    dependency_name STRING,
+    dependency_specifier STRING,
+    extra STRING DEFAULT NULL,
+    PRIMARY KEY (dependent_name, dependent_version, dependency_name, dependency_specifier)
+  );
+"""
+)
+db.execute(
+    """
+  CREATE TABLE IF NOT EXISTS wheels (
+    name STRING,
+    version STRING,
+    filename STRING,
+    python STRING,
+    abi STRING,
+    platform STRING
+  );
+"""
+)
+db.commit()
+
+
+def get_all_package_names():
+    resp = http.request("GET", "https://pypi.org/simple", preload_content=False)
+
+    packages = set()
+    old_data = b""
+    for new_data in resp.stream():
+        old_data += new_data
+        matches = re.findall(b'href="/simple/([^/]+)/', old_data)
+        packages.update([item.decode() for item in matches])
+        if matches:
+            old_data = old_data[old_data.rfind(matches[-1]) - 1 :]
+
+    resp.close()
+    return sorted(packages)
+
+
+packages = get_all_package_names()
 
 
 def get_extras(req):
@@ -41,12 +99,16 @@ def dist_from_requires_dist(req):
     return re.match(r"^([A-Za-z0-9_.\-]+)", req).group(1)
 
 
+def specifier_from_requires_dist(req):
+    return re.sub(r"\(([^)]+)\)", r"\1", req, 1)
+
+
 def normalize_requires_dist(req):
     return re.sub(
         r"\s*,\s*",
         ",",
         re.sub(
-            r"\s*([><=~]{1,2})\s*",
+            r"\s*([!><=~]{1,2})\s*",
             r"\1",
             re.sub(r"\s*;\s*", r"; ", req.replace('"', "'")),
         ),
@@ -59,10 +121,6 @@ def requires_dist_sort_key(req):
         re.match(r"^([a-zA-Z0-9_.\-\[\]]+)", req).group(1).lower(),
         req,
     )
-
-
-def bad_versions_from_dist(req):
-    return re.findall(r"!=([0-9][0-9.\-_a-zA-Z]*[0-9a-zA-Z])", req)
 
 
 def to_versions(items):
@@ -93,7 +151,7 @@ def sorted_versions(items):
 def get_metadata_by_install(package, resp):
     if (
         os.system(
-            f"{venv_python} -m pip install {package} importlib-metadata > /dev/null"
+            f"{venv_python} -m pip install --disable-pip-version-check {package} importlib-metadata > /dev/null"
         )
         != 0
     ):
@@ -116,80 +174,32 @@ def get_metadata_by_install(package, resp):
     return resp
 
 
-def update_github_pages():
-    package_data = {}
-    for package in packages:
-        with open(os.path.join(package_data_dir, package[0], f"{package}.json")) as f:
-            package_data[package] = json.loads(f.read())
-
-    with open(os.path.join(docs_dir, "index.md"), "w") as f:
-        f.truncate()
-        f.write(jinja_env.get_template("index.md").render(packages=packages))
-
-    for package, data in package_data.items():
-        package_md_path = os.path.join(
-            docs_dir, "packages", package[0], f"{package}.md"
-        )
-        os.makedirs(os.path.dirname(package_md_path), exist_ok=True)
-        with open(package_md_path, "w") as f:
-            f.truncate()
-            f.write(
-                jinja_env.get_template("package.md").render(
-                    package=package,
-                    package_data=data,
-                    dist_from_requires_dist=dist_from_requires_dist,
-                )
-            )
-
-
 def update_data_from_pypi():
-    with open(os.path.join(package_data_dir, "deleted.json")) as f:
-        deleted_data = json.loads(f.read())
-
-    publisher_data = {}
-    bad_versions_data = {}
-    yanked_data = {}
-
     for package in tqdm(packages, unit="packages"):
         resp = http.request("GET", f"https://pypi.org/pypi/{package}/json")
 
         if resp.status != 200:
-            # If a package is deleted it'll start 404-ing
-            if resp.status == 404:
-                deleted_data.setdefault(
-                    package, {"deleted_at": datetime.date.today().isoformat()}
-                )
-            else:
-                print("%r returned non-2XX status code: %d" % (package, resp.status))
             continue
-
-        resp = json.loads(resp.data.decode("utf-8"))
-        version = Version(resp["info"]["version"])
+        try:
+            resp = json.loads(resp.data.decode("utf-8"))
+        except Exception:
+            continue
+        try:
+            version = Version(resp["info"]["version"])
+        except InvalidVersion:  # The latest release has an invalid version, skip
+            continue
         latest_version = max(to_versions(resp["releases"].keys()))
 
         # Favor pre-releases over non-pre-releases
         if version < latest_version:
             version = latest_version
-            resp = http.request(
+            new_resp = http.request(
                 "GET", f"https://pypi.org/pypi/{package}/{latest_version}/json"
             )
-            resp = json.loads(resp.data.decode("utf-8"))
+            if new_resp.status == 200:
+                resp = json.loads(new_resp.data.decode("utf-8"))
 
-        # If the previous version had requires_dist info
-        # but the new version for some reason doesn't
-        # consider building a wheel locally.
-        if resp["info"]["requires_dist"] is None:
-            old_info_path = os.path.join(
-                package_data_dir, package[0], f"{package}.json"
-            )
-            if os.path.isfile(old_info_path):
-                with open(old_info_path) as f:
-                    old_info = json.loads(f.read())
-                if old_info["requires_dist"]["dists"] or old_info["requires_extras"]:
-                    new_resp = get_metadata_by_install(package, resp)
-                    if new_resp is not None:
-                        resp = new_resp
-
+        # Get the exact string for the version that we found
         for strv in resp["releases"]:
             try:
                 if Version(strv) == version:
@@ -200,6 +210,25 @@ def update_data_from_pypi():
         else:
             raise ValueError("???")
 
+        # Check to see if we already have this version or not
+        with closing(db.cursor()) as cur:
+            cur.execute(
+                """
+              SELECT name FROM packages WHERE name = ? AND version = ?;
+            """,
+                (package, str_version),
+            )
+            if cur.fetchone():
+                continue
+
+        # If we don't have 'requires_dist' information install
+        # locally and investigate the installed package
+        if False and resp["info"]["requires_dist"] is None:  # XXX: Disabled for now!
+            new_resp = get_metadata_by_install(package, resp)
+            if new_resp is not None:
+                resp = new_resp
+
+        requires_python = resp["info"]["requires_python"] or ""
         urequires_dist = [
             normalize_requires_dist(x) for x in resp["info"]["requires_dist"] or []
         ]
@@ -209,38 +238,86 @@ def update_data_from_pypi():
         requires_extras = {}
         yanked = []
 
+        releases = resp["releases"][str_version]
+        uploaded_at = min(x["uplaoded_at"] for x in releases)
+        wheel_filenames = [
+            x["filename"] for x in releases if x["filename"].endswith(".whl")
+        ]
+        has_binary_wheel = False
+
+        for filename in wheel_filenames:
+            try:
+                whl = parse_wheel_filename(filename)
+            except InvalidFilenameError:
+                continue
+            python_tags, abi_tags, platform_tags = (
+                whl.python_tags,
+                whl.abi_tags,
+                whl.platform_tags,
+            )
+
+            for wheel_data in itertools.product(python_tags, abi_tags, platform_tags):
+                py, abi, plat = wheel_data
+                db.execute(
+                    """
+                  INSERT INTO wheels (
+                    name, version, filename, python, abi, platform
+                  ) VALUES (?, ?, ?, ?, ?, ?);
+                """,
+                    (package, str_version, filename, py, abi, plat),
+                )
+
+            if abi_tags == ["none"] and platform_tags == ["any"]:
+                continue
+
+            has_binary_wheel = True
+
+        db.execute(
+            """
+          INSERT OR IGNORE INTO packages (
+            name, version, requires_python, has_binary_wheel, uploaded_at
+          ) VALUES (?, ?, ?, ?, ?);
+        """,
+            (package, str_version, requires_python, has_binary_wheel, uploaded_at),
+        )
+        db.commit()
+
         for req in urequires_dist:
             extras = get_extras(req)
             req_no_specifiers = dist_from_requires_dist(req)
+            specifier = specifier_from_requires_dist(req).replace(
+                req_no_specifiers + " ", "", 1
+            )
             if extras:
                 for extra in extras:
-                    if extra in (
-                        "test",
-                        "tests",
-                        "dev",
-                        "devel",
-                        "doc",
-                        "docs",
-                        "testing",
-                        "all",
-                    ):
-                        continue
-                    requires_extras.setdefault(extra, {"specifiers": [], "dists": []})
-                    requires_extras[extra]["specifiers"].append(req)
-                    requires_extras[extra]["dists"].append(req_no_specifiers)
+                    db.execute(
+                        """
+                        INSERT OR IGNORE INTO deps (
+                          dependent_name,
+                          dependent_version,
+                          dependency_name,
+                          dependency_specifier,
+                          extra
+                        ) VALUES (?, ?, ?, ?, ?);
+                    """,
+                        (package, str_version, req_no_specifiers, specifier, extra),
+                    )
             else:
-                requires_dist["specifiers"].append(req)
-                requires_dist["dists"].append(req_no_specifiers)
-
-            bad_versions = bad_versions_from_dist(req)
-            if bad_versions:
-                bad_versions_data.setdefault(req_no_specifiers, []).extend(bad_versions)
+                db.execute(
+                    """
+                    INSERT OR IGNORE INTO deps (
+                      dependent_name,
+                      dependent_version,
+                      dependency_name,
+                      dependency_specifier
+                    ) VALUES (?, ?, ?, ?);
+                """,
+                    (package, str_version, req_no_specifiers, specifier),
+                )
 
         requires_dist["dists"] = sorted(set(requires_dist["dists"]))
         for extra, extra_info in list(requires_extras.items()):
             requires_extras[extra]["dists"] = sorted(set(extra_info["dists"]))
-
-        requires_python = resp["info"]["requires_python"] or ""
 
         for relv, downloads in resp["releases"].items():
             for download in downloads:
@@ -250,88 +327,12 @@ def update_data_from_pypi():
 
         yanked = sorted_versions(set(yanked))
         if yanked:
-            yanked_data[package] = yanked
-
-        resp = http.request("GET", f"https://pypi.org/project/{package}")
-        publishers = sorted(
-            set(
-                re.findall(r"<a href=\"/user/([^/\"]+)[/\"]", resp.data.decode("utf-8"))
-            ),
-            key=str.lower,
-        )
-        for publisher in publishers:
-            publisher_data.setdefault(publisher, []).append(package)
-
-        os.makedirs(os.path.join(package_data_dir, package[0]), exist_ok=True)
-        with open(
-            os.path.join(package_data_dir, package[0], f"{package}.json"), "w"
-        ) as f:
-            f.truncate()
-            f.write(
-                json.dumps(
-                    {
-                        "requires_dist": requires_dist,
-                        "requires_extras": requires_extras,
-                        "requires_python": requires_python,
-                        "publishers": publishers,
-                        "yanked": yanked,
-                    },
-                    indent=2,
-                    sort_keys=True,
-                )
+            db.execute(
+                "UPDATE packages SET yanked=1 WHERE name=? AND version=?;",
+                (package, str_version),
             )
 
-    # Write publishers.json data
-    with open(os.path.join(package_data_dir, "publishers.json"), "w") as f:
-        f.truncate()
-        f.write(
-            json.dumps(
-                {k: sorted(v) for k, v in publisher_data.items()},
-                indent=2,
-                sort_keys=True,
-            )
-        )
-
-    # Write yanked-versions.json data
-    with open(os.path.join(package_data_dir, "yanked-versions.json"), "w") as f:
-        f.truncate()
-        f.write(
-            json.dumps(
-                yanked_data,
-                indent=2,
-                sort_keys=True,
-            )
-        )
-
-    # Remove entries from 'bad_version_data' if they are yanked
-    bad_versions_data = {
-        k: sorted_versions({x for x in v if x not in yanked_data.get(k, ())})
-        for k, v in bad_versions_data.items()
-    }
-    bad_versions_data = {k: v for k, v in bad_versions_data.items() if v}
-
-    # Write bad-versions.json data
-    with open(os.path.join(package_data_dir, "bad-versions.json"), "w") as f:
-        f.truncate()
-        f.write(
-            json.dumps(
-                bad_versions_data,
-                indent=2,
-                sort_keys=True,
-            )
-        )
-
-    # Write deleted.json data
-    with open(os.path.join(package_data_dir, "deleted.json"), "w") as f:
-        f.truncate()
-        f.write(
-            json.dumps(
-                deleted_data,
-                indent=2,
-                sort_keys=True,
-            )
-        )
+        db.commit()
 
 
 update_data_from_pypi()
-update_github_pages()

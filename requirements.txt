@@ -2,4 +2,4 @@ urllib3
 packaging
 tqdm
 virtualenv
-jinja2
+wheel-filename
