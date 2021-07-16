@@ -48,12 +48,12 @@ CREATE TABLE packages (
 
 -- Dependencies --
 CREATE TABLE deps (
-    dependent_name STRING,
-    dependent_version STRING,
-    dependency_name STRING,
-    dependency_specifier STRING,
+    name STRING,
+    version STRING,
     extra STRING DEFAULT NULL,
-    PRIMARY KEY (dependent_name, dependent_version, dependency_name, dependency_specifier)
+    dep_name STRING,
+    dep_specifier STRING,
+    PRIMARY KEY (name, version, dep_name, dep_specifier)
 );
 
 -- Wheel data --

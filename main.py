@@ -5,6 +5,7 @@ import re
 import sqlite3
 import subprocess
 import tempfile
+import time
 from contextlib import closing
 
 import urllib3
@@ -48,12 +49,12 @@ db.execute(
 db.execute(
     """
   CREATE TABLE IF NOT EXISTS deps (
-    dependent_name STRING,
-    dependent_version STRING,
-    dependency_name STRING,
-    dependency_specifier STRING,
+    name STRING,
+    version STRING,
+    dep_name STRING,
+    dep_specifier STRING,
     extra STRING DEFAULT NULL,
-    PRIMARY KEY (dependent_name, dependent_version, dependency_name, dependency_specifier)
+    PRIMARY KEY (name, version, dep_name, dep_specifier)
   );
 """
 )
@@ -156,21 +157,29 @@ def get_metadata_by_install(package, resp):
         != 0
     ):
         return None
-    package_str = f'"{package}"'
-    try:
-        package_metadata = json.loads(
-            subprocess.check_output(
-                f"{venv_python} -c 'import json; from importlib_metadata import requires, metadata; "
-                f'package={package_str}; print(json.dumps({{"requires_dist": requires(package), "requires_python": metadata(package).get("Requires-Python", "")}}))\'',
-                shell=True,
-            )
-        )
-    except subprocess.SubprocessError:
+
+    print(f"building {package!r} from source!")
+    popen = subprocess.Popen(
+        f"{venv_python} -c 'import json; from importlib_metadata import requires, metadata; "
+        f'package="{package}"; print(json.dumps({{"requires_dist": requires(package), "requires_python": metadata(package).get("Requires-Python", "")}}))\'',
+        shell=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.DEVNULL,
+    )
+
+    # Run the install for no more than 20 seconds
+    start_time = time.time()
+    while time.time() - start_time < 20 and popen.poll() is None:
+        time.sleep(0.5)
+
+    if popen.returncode != 0:
         return resp
+    package_metadata = json.loads(popen.stdout.read())
 
     resp = resp.copy()
     resp["info"]["requires_dist"] = package_metadata["requires_dist"]
     resp["info"]["requires_python"] = package_metadata["requires_python"]
+    print(package_metadata)
     return resp
 
 
@@ -213,9 +222,7 @@ def update_data_from_pypi():
         # Check to see if we already have this version or not
         with closing(db.cursor()) as cur:
             cur.execute(
-                """
-              SELECT name FROM packages WHERE name = ? AND version = ?;
-            """,
+                "SELECT name FROM packages WHERE name = ? AND version = ?;",
                 (package, str_version),
             )
             if cur.fetchone():
@@ -223,7 +230,7 @@ def update_data_from_pypi():
 
         # If we don't have 'requires_dist' information install
         # locally and investigate the installed package
-        if False and resp["info"]["requires_dist"] is None:  # XXX: Disabled for now!
+        if False and resp["info"]["requires_dist"] is None:
             new_resp = get_metadata_by_install(package, resp)
             if new_resp is not None:
                 resp = new_resp
@@ -239,7 +246,7 @@ def update_data_from_pypi():
         yanked = []
 
         releases = resp["releases"][str_version]
-        uploaded_at = min(x["uplaoded_at"] for x in releases)
+        uploaded_at = None if not releases else min(x["upload_time"] for x in releases)
         wheel_filenames = [
             x["filename"] for x in releases if x["filename"].endswith(".whl")
         ]
@@ -293,10 +300,10 @@ def update_data_from_pypi():
                     db.execute(
                         """
                         INSERT OR IGNORE INTO deps (
-                          dependent_name,
-                          dependent_version,
-                          dependency_name,
-                          dependency_specifier,
+                          name,
+                          version,
+                          dep_name,
+                          dep_specifier,
                           extra
                         ) VALUES (?, ?, ?, ?, ?);
                     """,
@@ -306,10 +313,10 @@ def update_data_from_pypi():
                 db.execute(
                     """
                     INSERT OR IGNORE INTO deps (
-                      dependent_name,
-                      dependent_version,
-                      dependency_name,
-                      dependency_specifier
+                      name,
+                      version,
+                      dep_name,
+                      dep_specifier
                     ) VALUES (?, ?, ?, ?);
                 """,
                     (package, str_version, req_no_specifiers, specifier),
