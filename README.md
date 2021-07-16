@@ -2,8 +2,7 @@
 
 Mostly up-to-date data about almost every package on PyPI
 
-Data is stored within `pypi.db` in Google Cloud Storage.
-Contact me if you'd like access to the database.
+Get access to the database via [GitHub releases](https://github.com/sethmlarson/pypi-data/releases).
 
 ```console
 $ git clone https://github.com/sethmlarson/pypi-data
