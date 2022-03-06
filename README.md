@@ -5,8 +5,7 @@ Mostly up-to-date data about almost every package on PyPI
 Get access to the database via [GitHub releases](https://github.com/sethmlarson/pypi-data/releases).
 
 ```console
-$ git clone https://github.com/sethmlarson/pypi-data
-$ cd pypi-data
+$ gunzip pypi.db.gz
 $ sqlite3 'pypi.db' 'SELECT * FROM packages LIMIT 10 OFFSET 1000;'
 
 acid-vault|1.3.2|>=3.6|1|0|2021-01-21 04:37:10
@@ -29,6 +28,7 @@ ackg|0.0.5||0|0|2021-01-21 04:37:10
 - Python requirements (`requires_python`)
 - Yanked versions (`yanked`)
 - Wheel data (`python_tags`, `abi_tags`, `platform_tags`)
+- Maintainers on PyPI
 
 ### Database Schemas
 
@@ -64,6 +64,19 @@ CREATE TABLE wheels (
     abi STRING,
     platform STRING
 );
+
+-- Maintainer data --
+CREATE TABLE wheels (
+    name STRING,
+    package_name STRING
+);
+```
+
+## Running locally
+
+```
+$ docker build -t pypi-data .
+$ docker run --rm pypi-data
 ```
 
 ## License

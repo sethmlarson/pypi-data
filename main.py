@@ -70,6 +70,12 @@ db.execute(
   );
 """
 )
+db.execute("""
+    CREATE TABLE IF NOT EXISTS maintainers (
+        name STRING,
+        package_name STRING
+    );
+""")
 db.commit()
 
 
@@ -179,8 +185,18 @@ def get_metadata_by_install(package, resp):
     resp = resp.copy()
     resp["info"]["requires_dist"] = package_metadata["requires_dist"]
     resp["info"]["requires_python"] = package_metadata["requires_python"]
-    print(package_metadata)
     return resp
+
+
+def get_maintainers_from_pypi(package: str):
+    for _ in range(5):
+        resp = http.request("GET", f"https://pypi.org/project/{package}")
+        if resp.status == 404:
+            return set()
+        elif resp.status != 200:
+            continue
+        return set(re.findall(r"<a href=\"/user/([^/]+)/\" aria-label=", resp.data.decode("utf-8")))
+    return set()
 
 
 def update_data_from_pypi():
@@ -289,6 +305,11 @@ def update_data_from_pypi():
         )
         db.commit()
 
+        for maintainer in get_maintainers_from_pypi(package):
+            db.execute("""
+                INSERT OR IGNORE INTO maintainers (name, package_name) VALUES (?, ?);
+            """, (maintainer, package))
+
         for req in urequires_dist:
             extras = get_extras(req)
             req_no_specifiers = dist_from_requires_dist(req)
@@ -340,6 +361,5 @@ def update_data_from_pypi():
             )
 
         db.commit()
-
 
 update_data_from_pypi()
