@@ -42,6 +42,7 @@ CREATE TABLE packages (
     has_binary_wheel BOOLEAN,
     uploaded_at TIMESTAMP,
     recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    downloads INTEGER,
     PRIMARY KEY (name, version)
 );
 
@@ -66,11 +67,29 @@ CREATE TABLE wheels (
 );
 
 -- Maintainer data --
-CREATE TABLE wheels (
+CREATE TABLE maintainers (
     name STRING,
     package_name STRING
 );
 ```
+
+### Download data
+
+Downloads are grabbed manually from BigQuery with this query:
+
+```sql
+SELECT file.project, COUNT(*) AS downloads
+FROM `bigquery-public-data.pypi.file_downloads`
+WHERE (
+  DATE(timestamp)
+  BETWEEN DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY)
+  AND CURRENT_DATE()
+)
+GROUP BY file.project
+ORDER BY downloads DESC;
+```
+
+The results are stored in `downloads.csv`.
 
 ## Running locally
 

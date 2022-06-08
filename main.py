@@ -6,14 +6,21 @@ import sqlite3
 import subprocess
 import tempfile
 import time
+import csv
 from contextlib import closing
-from typing import NamedTuple
-from concurrent.futures import ProcessPoolExecutor
+from concurrent.futures import ThreadPoolExecutor
 
 import urllib3
+import threading
 from packaging.version import InvalidVersion, Version
 from tqdm import tqdm
 from wheel_filename import InvalidFilenameError, parse_wheel_filename
+
+import logging
+
+# logger = logging.getLogger()
+# logger.setLevel(logging.DEBUG)
+# logger.addHandler(logging.StreamHandler())
 
 base_dir = os.path.dirname((os.path.abspath(__file__)))
 http = urllib3.PoolManager(
@@ -22,7 +29,7 @@ http = urllib3.PoolManager(
         accept_encoding=True,
         user_agent="sethmlarson/pypi-data",
     ),
-    retries=urllib3.util.Retry(status=10, backoff_factor=3),
+    retries=urllib3.util.Retry(status=10, backoff_factor=0.5),
 )
 wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
 
@@ -32,8 +39,12 @@ venv_python = os.path.join(tmp_dir, "venv/bin/python")
 
 pypi_deps_db = os.path.join(base_dir, "pypi.db")
 
+downloads = {}
+with open(os.path.join(base_dir, "downloads.csv")) as f:
+    for project, dls in csv.reader(f):
+        downloads[project] = int(dls)
 
-db = sqlite3.connect(os.path.join(base_dir, "pypi.db"))
+db = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False)
 db.execute(
     """
   CREATE TABLE IF NOT EXISTS packages (
@@ -44,6 +55,7 @@ db.execute(
     has_binary_wheel BOOLEAN,
     uploaded_at TIMESTAMP,
     recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    downloads INTEGER,
     PRIMARY KEY (name, version)
   );
 """
@@ -80,8 +92,19 @@ db.execute(
     );
 """
 )
+db.execute(
+    """
+    CREATE UNIQUE INDEX IF NOT EXISTS idx_packages_name_version ON packages (name, version);
+    """
+)
+db.execute(
+    """
+    CREATE INDEX IF NOT EXISTS idx_packages_name ON packages (name);
+    """
+)
 db.commit()
-pool = ProcessPoolExecutor()
+db_lock = threading.Lock()
+pool = ThreadPoolExecutor()
 
 
 def get_all_package_names():
@@ -209,6 +232,8 @@ def get_maintainers_from_pypi(package: str):
 
 
 def update_data_for_package(package: str) -> None:
+    global downloads, db_lock
+
     resp = http.request("GET", f"https://pypi.org/pypi/{package}/json")
 
     if resp.status != 200:
@@ -243,15 +268,6 @@ def update_data_for_package(package: str) -> None:
     else:
         raise ValueError("???")
 
-    # Check to see if we already have this version or not
-    with closing(db.cursor()) as cur:
-        cur.execute(
-            "SELECT name FROM packages WHERE name = ? AND version = ?;",
-            (package, str_version),
-        )
-        if cur.fetchone():
-            return
-
     maintainers = get_maintainers_from_pypi(package)
 
     requires_python = resp["info"]["requires_python"] or ""
@@ -271,108 +287,133 @@ def update_data_for_package(package: str) -> None:
     ]
     has_binary_wheel = False
 
-    for filename in wheel_filenames:
-        try:
-            whl = parse_wheel_filename(filename)
-        except InvalidFilenameError:
-            continue
-        python_tags, abi_tags, platform_tags = (
-            whl.python_tags,
-            whl.abi_tags,
-            whl.platform_tags,
-        )
-
-        for wheel_data in itertools.product(python_tags, abi_tags, platform_tags):
-            py, abi, plat = wheel_data
-            db.execute(
-                """
-                INSERT INTO wheels (
-                name, version, filename, python, abi, platform
-                ) VALUES (?, ?, ?, ?, ?, ?);
-            """,
-                (package, str_version, filename, py, abi, plat),
+    with db_lock:
+        for filename in wheel_filenames:
+            try:
+                whl = parse_wheel_filename(filename)
+            except InvalidFilenameError:
+                continue
+            python_tags, abi_tags, platform_tags = (
+                whl.python_tags,
+                whl.abi_tags,
+                whl.platform_tags,
             )
 
-        if abi_tags == ["none"] and platform_tags == ["any"]:
-            continue
+            for wheel_data in itertools.product(python_tags, abi_tags, platform_tags):
+                py, abi, plat = wheel_data
+                db.execute(
+                    """
+                    INSERT INTO wheels (
+                    name, version, filename, python, abi, platform
+                    ) VALUES (?, ?, ?, ?, ?, ?);
+                """,
+                    (package, str_version, filename, py, abi, plat),
+                )
 
-        has_binary_wheel = True
+            if abi_tags == ["none"] and platform_tags == ["any"]:
+                continue
 
-    db.execute(
-        """
-        INSERT OR IGNORE INTO packages (
-        name, version, requires_python, has_binary_wheel, uploaded_at
-        ) VALUES (?, ?, ?, ?, ?);
-    """,
-        (package, str_version, requires_python, has_binary_wheel, uploaded_at),
-    )
+            has_binary_wheel = True
 
-    for maintainer in maintainers:
+        package_downloads = downloads.get(package, 0)
         db.execute(
             """
-            INSERT OR IGNORE INTO maintainers (name, package_name) VALUES (?, ?);
+            INSERT OR IGNORE INTO packages (
+            name, version, requires_python, has_binary_wheel, uploaded_at, downloads
+            ) VALUES (?, ?, ?, ?, ?, ?);
         """,
-            (maintainer, package),
+            (
+                package,
+                str_version,
+                requires_python,
+                has_binary_wheel,
+                uploaded_at,
+                package_downloads,
+            ),
         )
 
-    for req in urequires_dist:
-        extras = get_extras(req)
-        req_no_specifiers = dist_from_requires_dist(req)
-        specifier = specifier_from_requires_dist(req).replace(
-            req_no_specifiers + " ", "", 1
-        )
-        if extras:
-            for extra in extras:
+        for maintainer in maintainers:
+            db.execute(
+                """
+                INSERT OR IGNORE INTO maintainers (name, package_name) VALUES (?, ?);
+            """,
+                (maintainer, package),
+            )
+
+        for req in urequires_dist:
+            extras = get_extras(req)
+            req_no_specifiers = dist_from_requires_dist(req)
+            specifier = specifier_from_requires_dist(req).replace(
+                req_no_specifiers + " ", "", 1
+            )
+            if extras:
+                for extra in extras:
+                    db.execute(
+                        """
+                        INSERT OR IGNORE INTO deps (
+                            name,
+                            version,
+                            dep_name,
+                            dep_specifier,
+                            extra
+                        ) VALUES (?, ?, ?, ?, ?);
+                    """,
+                        (package, str_version, req_no_specifiers, specifier, extra),
+                    )
+            else:
                 db.execute(
                     """
                     INSERT OR IGNORE INTO deps (
                         name,
                         version,
                         dep_name,
-                        dep_specifier,
-                        extra
-                    ) VALUES (?, ?, ?, ?, ?);
+                        dep_specifier
+                    ) VALUES (?, ?, ?, ?);
                 """,
-                    (package, str_version, req_no_specifiers, specifier, extra),
+                    (package, str_version, req_no_specifiers, specifier),
                 )
-        else:
+
+        requires_dist["dists"] = sorted(set(requires_dist["dists"]))
+        for extra, extra_info in list(requires_extras.items()):
+            requires_extras[extra]["dists"] = sorted(set(extra_info["dists"]))
+
+        for relv, dls in resp["releases"].items():
+            for download in dls:
+                if download["yanked"]:
+                    yanked.append(relv)
+                    break
+
+        yanked = sorted_versions(set(yanked))
+        if yanked:
             db.execute(
-                """
-                INSERT OR IGNORE INTO deps (
-                    name,
-                    version,
-                    dep_name,
-                    dep_specifier
-                ) VALUES (?, ?, ?, ?);
-            """,
-                (package, str_version, req_no_specifiers, specifier),
+                "UPDATE packages SET yanked=1 WHERE name=? AND version=?;",
+                (package, str_version),
             )
 
-    requires_dist["dists"] = sorted(set(requires_dist["dists"]))
-    for extra, extra_info in list(requires_extras.items()):
-        requires_extras[extra]["dists"] = sorted(set(extra_info["dists"]))
-
-    for relv, downloads in resp["releases"].items():
-        for download in downloads:
-            if download["yanked"]:
-                yanked.append(relv)
-                break
-
-    yanked = sorted_versions(set(yanked))
-    if yanked:
-        db.execute(
-            "UPDATE packages SET yanked=1 WHERE name=? AND version=?;",
-            (package, str_version),
-        )
-
-    db.commit()
+        db.commit()
 
     return package
 
 
+def filter_packages(pkgs):
+    # Check to see if we already have this package or not.
+    packages_to_process = []
+    with closing(db.cursor()) as cur:
+        for pkg in pkgs:
+            cur.execute(
+                "SELECT name FROM packages WHERE name = ? LIMIT 1;",
+                (pkg,),
+            )
+            if cur.fetchone():
+                continue
+            packages_to_process.append(pkg)
+    return packages_to_process
+
+
 def update_data_from_pypi():
-    results = pool.map(update_data_for_package, packages)
-    for _ in tqdm(results, total=len(packages), unit="packages"):
+    filtered = filter_packages(packages)
+    results = pool.map(update_data_for_package, filtered)
+    for _ in tqdm(results, total=len(filtered), unit="packages"):
         pass
 
 
