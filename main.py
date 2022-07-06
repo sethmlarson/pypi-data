@@ -11,10 +11,12 @@ from contextlib import closing
 from concurrent.futures import ThreadPoolExecutor
 
 import urllib3
+from urllib3.util import parse_url
 import threading
 from packaging.version import InvalidVersion, Version
 from tqdm import tqdm
 from wheel_filename import InvalidFilenameError, parse_wheel_filename
+import psl
 
 import logging
 
@@ -94,12 +96,27 @@ db.execute(
 )
 db.execute(
     """
+    CREATE TABLE IF NOT EXISTS package_urls (
+        package_name STRING,
+        url STRING,
+        public_suffix STRING
+    );
+    """
+)
+
+db.execute(
+    """
     CREATE UNIQUE INDEX IF NOT EXISTS idx_packages_name_version ON packages (name, version);
     """
 )
 db.execute(
     """
     CREATE INDEX IF NOT EXISTS idx_packages_name ON packages (name);
+    """
+)
+db.execute(
+    """
+    CREATE INDEX IF NOT EXISTS idx_packages_urls_public_suffix ON package_urls (public_suffix);
     """
 )
 db.commit()
@@ -332,6 +349,27 @@ def update_data_for_package(package: str) -> None:
             ),
         )
 
+        project_urls = [
+            resp["info"].get("bugtrack_url"),
+            resp["info"].get("docs_url"),
+            resp["info"].get("download_url"),
+            resp["info"].get("home_page"),
+            resp["info"].get("project_url"),
+        ]
+        for project_url in resp["info"].get("project_urls") or ():
+            project_urls.append(project_url)
+        for project_url in project_urls:
+            parsed = parse_project_url(project_url)
+            if not parsed:
+                continue
+            host = psl.domain_suffixes(parsed.host).private
+            db.execute(
+                """
+                INSERT OR IGNORE INTO package_urls (package_name, url, public_suffix) VALUES (?, ?, ?);
+            """,
+                (package, str(parsed), host),
+            )
+
         for maintainer in maintainers:
             db.execute(
                 """
@@ -408,6 +446,18 @@ def filter_packages(pkgs):
                 continue
             packages_to_process.append(pkg)
     return packages_to_process
+
+
+def parse_project_url(url):
+    try:
+        parsed = parse_url(url)
+        if not parsed.host or parsed.host == "pypi.org":
+            return None
+        if not str(parsed).startswith("http"):
+            return None
+        return parsed
+    except Exception:
+        return None
 
 
 def update_data_from_pypi():

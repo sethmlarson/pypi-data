@@ -3,3 +3,4 @@ packaging
 tqdm
 virtualenv
 wheel-filename
+psl

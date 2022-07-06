@@ -29,6 +29,7 @@ ackg|0.0.5||0|0|2021-01-21 04:37:10
 - Yanked versions (`yanked`)
 - Wheel data (`python_tags`, `abi_tags`, `platform_tags`)
 - Maintainers on PyPI
+- URLs used by packages
 
 ### Database Schemas
 
@@ -71,6 +72,13 @@ CREATE TABLE maintainers (
     name STRING,
     package_name STRING
 );
+
+-- Package URLs --
+CREATE TABLE package_urls (
+    package_name STRING,
+    url STRING,
+    public_suffix STRING
+)
 ```
 
 ### Download data
