@@ -35,6 +35,12 @@ http = urllib3.PoolManager(
 )
 wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
 
+# encountered formats:
+# Generator: hatchling 1.5.0
+# Generator: bdist_wheel (0.29.0)
+builder_re = re.compile(r"Generator:\s*([\w.-]+)\W+([\w.-]+)")
+unknown_builder = "UNKNOWN"
+
 tmp_dir = tempfile.mkdtemp()
 os.system(f"virtualenv {tmp_dir}/venv > /dev/null")
 venv_python = os.path.join(tmp_dir, "venv/bin/python")
@@ -83,6 +89,8 @@ db.execute(
     python STRING,
     abi STRING,
     platform STRING
+    builder_name STRING
+    builder_version STRING
   );
 """
 )
@@ -211,8 +219,8 @@ def get_metadata_by_install(package, resp):
 
     print(f"building {package!r} from source!")
     popen = subprocess.Popen(
-        f"{venv_python} -c 'import json; from importlib_metadata import requires, metadata; "
-        f'package="{package}"; print(json.dumps({{"requires_dist": requires(package), "requires_python": metadata(package).get("Requires-Python", "")}}))\'',
+        f"{venv_python} -c 'import json; from importlib_metadata import Distribution; "
+        f'd=Distribution.from_name("{package}"); print(json.dumps({{"requires_dist": d.requires(package), "requires_python": d.metadata.get("Requires-Python", ""), "wheel_data": dist.read_text("WHEEL") or ""}}))\'',
         shell=True,
         stdout=subprocess.PIPE,
         stderr=subprocess.DEVNULL,
@@ -246,6 +254,23 @@ def get_maintainers_from_pypi(package: str):
             )
         )
     return set()
+
+
+def get_builder_data_from_pypi_inspector(package, version, url):
+    wheel_metadata_url = url.replace(
+        "https://files.pythonhosted.org/",
+        f"https://inspector.pypi.io/project/{package}/{version}/",
+        1,
+    ) + f"/{package}-{version}.dist-info/WHEEL"
+
+    resp = http.request("GET", wheel_metadata_url)
+    if resp.status != 200:
+        return unknown_builder, unknown_builder
+
+    try:
+        return builder_re.search(resp.data.decode("utf-8")).groups()
+    except Exception:
+        return unknown_builder, unknown_builder
 
 
 def update_data_for_package(package: str) -> None:
@@ -299,13 +324,13 @@ def update_data_for_package(package: str) -> None:
 
     releases = resp["releases"][str_version]
     uploaded_at = None if not releases else min(x["upload_time"] for x in releases)
-    wheel_filenames = [
-        x["filename"] for x in releases if x["filename"].endswith(".whl")
+    wheel_data = [
+        (x["filename"], x["url"]) for x in releases if x["filename"].endswith(".whl")
     ]
     has_binary_wheel = False
 
     with db_lock:
-        for filename in wheel_filenames:
+        for filename, url in wheel_data:
             try:
                 whl = parse_wheel_filename(filename)
             except InvalidFilenameError:
@@ -315,16 +340,17 @@ def update_data_for_package(package: str) -> None:
                 whl.abi_tags,
                 whl.platform_tags,
             )
+            builder_name, builder_version = get_builder_data_from_wheel(package, str_version, url)
 
             for wheel_data in itertools.product(python_tags, abi_tags, platform_tags):
                 py, abi, plat = wheel_data
                 db.execute(
                     """
                     INSERT INTO wheels (
-                    name, version, filename, python, abi, platform
-                    ) VALUES (?, ?, ?, ?, ?, ?);
+                    name, version, filename, python, abi, platform, builder_name, builder_version
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
                 """,
-                    (package, str_version, filename, py, abi, plat),
+                    (package, str_version, filename, py, abi, plat, builder_name, builder_version),
                 )
 
             if abi_tags == ["none"] and platform_tags == ["any"]:
