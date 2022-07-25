@@ -330,6 +330,10 @@ def update_data_for_package(package: str) -> None:
     has_binary_wheel = False
 
     with db_lock:
+        # Assume that all wheels have been built by the same builder to avoid
+        # potentially many wheel inspection API requests per package
+        builder_name = builder_version = None
+
         for filename, url in wheel_data:
             try:
                 whl = parse_wheel_filename(filename)
@@ -340,7 +344,8 @@ def update_data_for_package(package: str) -> None:
                 whl.abi_tags,
                 whl.platform_tags,
             )
-            builder_name, builder_version = get_builder_data_from_wheel(package, str_version, url)
+            if builder_name is None:
+                builder_name, builder_version = get_builder_data_from_pypi_inspector(package, str_version, url)
 
             for wheel_data in itertools.product(python_tags, abi_tags, platform_tags):
                 py, abi, plat = wheel_data
