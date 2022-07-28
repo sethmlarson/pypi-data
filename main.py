@@ -1,24 +1,24 @@
+import contextlib
+import csv
 import itertools
 import json
+import logging
 import os
 import re
 import sqlite3
 import subprocess
 import tempfile
-import time
-import csv
-from contextlib import closing
-from concurrent.futures import ThreadPoolExecutor
-
-import urllib3
-from urllib3.util import parse_url
 import threading
+import time
+from concurrent.futures import ThreadPoolExecutor
+from contextlib import closing
+
+import psl
+import urllib3
 from packaging.version import InvalidVersion, Version
 from tqdm import tqdm
+from urllib3.util import parse_url
 from wheel_filename import InvalidFilenameError, parse_wheel_filename
-import psl
-
-import logging
 
 # logger = logging.getLogger()
 # logger.setLevel(logging.DEBUG)
@@ -35,12 +35,6 @@ http = urllib3.PoolManager(
 )
 wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
 
-# encountered formats:
-# Generator: hatchling 1.5.0
-# Generator: bdist_wheel (0.29.0)
-builder_re = re.compile(r"Generator:\s*([\w.-]+)\W+([\w.-]+)")
-unknown_builder = "UNKNOWN"
-
 tmp_dir = tempfile.mkdtemp()
 os.system(f"virtualenv {tmp_dir}/venv > /dev/null")
 venv_python = os.path.join(tmp_dir, "venv/bin/python")
@@ -52,8 +46,8 @@ with open(os.path.join(base_dir, "downloads.csv")) as f:
     for project, dls in csv.reader(f):
         downloads[project] = int(dls)
 
-db = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False)
-db.execute(
+_DB = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False)
+_DB.execute(
     """
   CREATE TABLE IF NOT EXISTS packages (
     name STRING,
@@ -68,7 +62,7 @@ db.execute(
   );
 """
 )
-db.execute(
+_DB.execute(
     """
   CREATE TABLE IF NOT EXISTS deps (
     name STRING,
@@ -80,7 +74,7 @@ db.execute(
   );
 """
 )
-db.execute(
+_DB.execute(
     """
   CREATE TABLE IF NOT EXISTS wheels (
     name STRING,
@@ -89,12 +83,10 @@ db.execute(
     python STRING,
     abi STRING,
     platform STRING
-    builder_name STRING
-    builder_version STRING
   );
 """
 )
-db.execute(
+_DB.execute(
     """
     CREATE TABLE IF NOT EXISTS maintainers (
         name STRING,
@@ -102,7 +94,7 @@ db.execute(
     );
 """
 )
-db.execute(
+_DB.execute(
     """
     CREATE TABLE IF NOT EXISTS package_urls (
         package_name STRING,
@@ -112,24 +104,31 @@ db.execute(
     """
 )
 
-db.execute(
+_DB.execute(
     """
     CREATE UNIQUE INDEX IF NOT EXISTS idx_packages_name_version ON packages (name, version);
     """
 )
-db.execute(
+_DB.execute(
     """
     CREATE INDEX IF NOT EXISTS idx_packages_name ON packages (name);
     """
 )
-db.execute(
+_DB.execute(
     """
     CREATE INDEX IF NOT EXISTS idx_packages_urls_public_suffix ON package_urls (public_suffix);
     """
 )
-db.commit()
+_DB.commit()
 db_lock = threading.Lock()
 pool = ThreadPoolExecutor()
+
+
+@contextlib.contextmanager
+def locked_db():
+    with db_lock:
+        yield _DB
+        _DB.commit()
 
 
 def get_all_package_names():
@@ -256,23 +255,6 @@ def get_maintainers_from_pypi(package: str):
     return set()
 
 
-def get_builder_data_from_pypi_inspector(package, version, url):
-    wheel_metadata_url = url.replace(
-        "https://files.pythonhosted.org/",
-        f"https://inspector.pypi.io/project/{package}/{version}/",
-        1,
-    ) + f"/{package}-{version}.dist-info/WHEEL"
-
-    resp = http.request("GET", wheel_metadata_url)
-    if resp.status != 200:
-        return unknown_builder, unknown_builder
-
-    try:
-        return builder_re.search(resp.data.decode("utf-8")).groups()
-    except Exception:
-        return unknown_builder, unknown_builder
-
-
 def update_data_for_package(package: str) -> None:
     global downloads, db_lock
 
@@ -300,7 +282,7 @@ def update_data_for_package(package: str) -> None:
             resp = json.loads(new_resp.data.decode("utf-8"))
 
     # Get the exact string for the version that we found
-    for strv in resp["releases"]:
+    for strv in resp.get("releases", ()):
         try:
             if Version(strv) == version:
                 str_version = strv
@@ -308,7 +290,8 @@ def update_data_for_package(package: str) -> None:
         except InvalidVersion:
             continue
     else:
-        raise ValueError("???")
+        # Skip this package
+        return
 
     maintainers = get_maintainers_from_pypi(package)
 
@@ -329,41 +312,35 @@ def update_data_for_package(package: str) -> None:
     ]
     has_binary_wheel = False
 
-    with db_lock:
-        # Assume that all wheels have been built by the same builder to avoid
-        # potentially many wheel inspection API requests per package
-        builder_name = builder_version = None
-
-        for filename, url in wheel_data:
-            try:
-                whl = parse_wheel_filename(filename)
-            except InvalidFilenameError:
-                continue
-            python_tags, abi_tags, platform_tags = (
-                whl.python_tags,
-                whl.abi_tags,
-                whl.platform_tags,
-            )
-            if builder_name is None:
-                builder_name, builder_version = get_builder_data_from_pypi_inspector(package, str_version, url)
-
-            for wheel_data in itertools.product(python_tags, abi_tags, platform_tags):
-                py, abi, plat = wheel_data
+    for filename, _ in wheel_data:
+        try:
+            whl = parse_wheel_filename(filename)
+        except InvalidFilenameError:
+            continue
+        python_tags, abi_tags, platform_tags = (
+            whl.python_tags,
+            whl.abi_tags,
+            whl.platform_tags,
+        )
+        for wheel_data in itertools.product(python_tags, abi_tags, platform_tags):
+            py, abi, plat = wheel_data
+            with locked_db() as db:
                 db.execute(
                     """
                     INSERT INTO wheels (
-                    name, version, filename, python, abi, platform, builder_name, builder_version
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+                    name, version, filename, python, abi, platform
+                    ) VALUES (?, ?, ?, ?, ?, ?);
                 """,
-                    (package, str_version, filename, py, abi, plat, builder_name, builder_version),
+                    (package, str_version, filename, py, abi, plat),
                 )
 
-            if abi_tags == ["none"] and platform_tags == ["any"]:
-                continue
+        if abi_tags == ["none"] and platform_tags == ["any"]:
+            continue
 
-            has_binary_wheel = True
+        has_binary_wheel = True
 
-        package_downloads = downloads.get(package, 0)
+    package_downloads = downloads.get(package, 0)
+    with locked_db() as db:
         db.execute(
             """
             INSERT OR IGNORE INTO packages (
@@ -389,11 +366,13 @@ def update_data_for_package(package: str) -> None:
         ]
         for project_url in resp["info"].get("project_urls") or ():
             project_urls.append(project_url)
+
         for project_url in project_urls:
             parsed = parse_project_url(project_url)
             if not parsed:
                 continue
             host = psl.domain_suffixes(parsed.host).private
+
             db.execute(
                 """
                 INSERT OR IGNORE INTO package_urls (package_name, url, public_suffix) VALUES (?, ?, ?);
@@ -459,23 +438,22 @@ def update_data_for_package(package: str) -> None:
                 (package, str_version),
             )
 
-        db.commit()
-
     return package
 
 
 def filter_packages(pkgs):
     # Check to see if we already have this package or not.
     packages_to_process = []
-    with closing(db.cursor()) as cur:
-        for pkg in pkgs:
-            cur.execute(
-                "SELECT name FROM packages WHERE name = ? LIMIT 1;",
-                (pkg,),
-            )
-            if cur.fetchone():
-                continue
-            packages_to_process.append(pkg)
+    with locked_db() as db:
+        with closing(db.cursor()) as cur:
+            for pkg in pkgs:
+                cur.execute(
+                    "SELECT name FROM packages WHERE name = ? LIMIT 1;",
+                    (pkg,),
+                )
+                if cur.fetchone():
+                    continue
+                packages_to_process.append(pkg)
     return packages_to_process
 
 
