@@ -30,6 +30,7 @@ ackg|0.0.5||0|0|2021-01-21 04:37:10
 - Wheel data (`python_tags`, `abi_tags`, `platform_tags`)
 - Maintainers on PyPI
 - URLs used by packages
+- OpenSSF scorecard data
 
 ### Database Schemas
 
@@ -44,6 +45,7 @@ CREATE TABLE packages (
     uploaded_at TIMESTAMP,
     recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     downloads INTEGER,
+    scorecard_overall FLOAT,
     PRIMARY KEY (name, version)
 );
 
@@ -78,6 +80,13 @@ CREATE TABLE package_urls (
     package_name STRING,
     url STRING,
     public_suffix STRING
+)
+
+-- OpenSSF Scorecard --
+CREATE TABLE scorecard_checks (
+    package_name STRING,
+    name STRING,
+    score INTEGER
 )
 ```
 

@@ -31,7 +31,9 @@ http = urllib3.PoolManager(
         accept_encoding=True,
         user_agent="sethmlarson/pypi-data",
     ),
-    retries=urllib3.util.Retry(status=10, backoff_factor=0.5),
+    retries=urllib3.util.Retry(
+        status=10, backoff_factor=0.5, status_forcelist=list(range(500, 600))
+    ),
 )
 wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
 
@@ -58,6 +60,7 @@ _DB.execute(
     uploaded_at TIMESTAMP,
     recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     downloads INTEGER,
+    scorecard_overall FLOAT,
     PRIMARY KEY (name, version)
   );
 """
@@ -100,6 +103,15 @@ _DB.execute(
         package_name STRING,
         url STRING,
         public_suffix STRING
+    );
+    """
+)
+_DB.execute(
+    """
+    CREATE TABLE IF NOT EXISTS scorecard_checks (
+        package_name STRING,
+        name STRING,
+        score INTEGER
     );
     """
 )
@@ -255,6 +267,38 @@ def get_maintainers_from_pypi(package: str):
     return set()
 
 
+def fetch_checks_for_package(package_name):
+    resp = http.request("GET", f"https://deps.dev/_/s/pypi/p/{package_name}/v/")
+    if resp.status != 200:
+        return {}
+    data = json.loads(resp.data)
+
+    checks = {}
+    try:
+        for project in data["version"]["projects"]:
+            if "scorecardV2" in project:
+                scorecard = project["scorecardV2"]
+                for check in scorecard["check"]:
+                    check_name = check["name"]
+                    check_score = check["score"]
+
+                    # This is how deps.dev denotes a missing score in the API.
+                    if check_score < 0:
+                        continue
+                    # The score is already set and larger than this project value.
+                    if (checks.get(check_name, 0.0) or 0.0) > check_score:
+                        continue
+
+                    checks[check_name] = check_score
+
+                checks["Overall"] = scorecard["score"]
+                break
+
+    except (KeyError, IndexError):
+        return {}
+    return checks
+
+
 def update_data_for_package(package: str) -> None:
     global downloads, db_lock
 
@@ -292,6 +336,9 @@ def update_data_for_package(package: str) -> None:
     else:
         # Skip this package
         return
+
+    scorecard_checks = fetch_checks_for_package(package)
+    scorecard_overall = scorecard_checks.pop("Overall", None)
 
     maintainers = get_maintainers_from_pypi(package)
 
@@ -344,8 +391,8 @@ def update_data_for_package(package: str) -> None:
         db.execute(
             """
             INSERT OR IGNORE INTO packages (
-            name, version, requires_python, has_binary_wheel, uploaded_at, downloads
-            ) VALUES (?, ?, ?, ?, ?, ?);
+            name, version, requires_python, has_binary_wheel, uploaded_at, downloads, scorecard_overall
+            ) VALUES (?, ?, ?, ?, ?, ?, ?);
         """,
             (
                 package,
@@ -354,6 +401,7 @@ def update_data_for_package(package: str) -> None:
                 has_binary_wheel,
                 uploaded_at,
                 package_downloads,
+                scorecard_overall,
             ),
         )
 
@@ -436,6 +484,18 @@ def update_data_for_package(package: str) -> None:
             db.execute(
                 "UPDATE packages SET yanked=1 WHERE name=? AND version=?;",
                 (package, str_version),
+            )
+
+        for check_name, check_score in scorecard_checks.items():
+            db.execute(
+                """
+                INSERT OR IGNORE INTO scorecard_checks (
+                    package_name,
+                    name,
+                    score
+                ) VALUES (?, ?, ?);
+            """,
+                (package, check_name, check_score),
             )
 
     return package
