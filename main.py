@@ -144,19 +144,10 @@ def locked_db():
 
 
 def get_all_package_names():
-    resp = http.request("GET", "https://pypi.org/simple", preload_content=False)
-
-    packages = set()
-    old_data = b""
-    for new_data in resp.stream():
-        old_data += new_data
-        matches = re.findall(b'href="/simple/([^/]+)/', old_data)
-        packages.update([item.decode() for item in matches])
-        if matches:
-            old_data = old_data[old_data.rfind(matches[-1]) - 1 :]
-
-    resp.close()
-    return sorted(packages)
+    resp = http.request("GET", "https://pypi.org/simple")
+    return sorted(
+        [item.decode() for item in re.findall(b'href="/simple/([^/]+)/', resp.data)]
+    )
 
 
 packages = get_all_package_names()
@@ -318,12 +309,11 @@ def update_data_for_package(package: str) -> None:
 
     # Favor pre-releases over non-pre-releases
     if version < latest_version:
-        version = latest_version
         new_resp = http.request(
             "GET", f"https://pypi.org/pypi/{package}/{latest_version}/json"
         )
-        if new_resp.status == 200:
-            resp = json.loads(new_resp.data.decode("utf-8"))
+        if new_resp.status != 200:
+            version = latest_version
 
     # Get the exact string for the version that we found
     for strv in resp.get("releases", ()):
