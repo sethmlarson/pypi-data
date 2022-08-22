@@ -52,10 +52,10 @@ _DB = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False
 _DB.execute(
     """
   CREATE TABLE IF NOT EXISTS packages (
-    name STRING,
-    version STRING,
-    requires_python STRING,
-    yanked BOOLEAN DEFAULT FALSE,
+    name TEXT,
+    version TEXT,
+    requires_python TEXT,
+    yanked BOOLEAN DEFAULT 0,
     has_binary_wheel BOOLEAN,
     uploaded_at TIMESTAMP,
     recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -68,11 +68,11 @@ _DB.execute(
 _DB.execute(
     """
   CREATE TABLE IF NOT EXISTS deps (
-    name STRING,
-    version STRING,
-    dep_name STRING,
-    dep_specifier STRING,
-    extra STRING DEFAULT NULL,
+    name TEXT,
+    version TEXT,
+    dep_name TEXT,
+    dep_specifier TEXT,
+    extra TEXT DEFAULT NULL,
     PRIMARY KEY (name, version, dep_name, dep_specifier)
   );
 """
@@ -80,37 +80,37 @@ _DB.execute(
 _DB.execute(
     """
   CREATE TABLE IF NOT EXISTS wheels (
-    name STRING,
-    version STRING,
-    filename STRING,
-    python STRING,
-    abi STRING,
-    platform STRING
+    name TEXT,
+    version TEXT,
+    filename TEXT,
+    python TEXT,
+    abi TEXT,
+    platform TEXT
   );
 """
 )
 _DB.execute(
     """
     CREATE TABLE IF NOT EXISTS maintainers (
-        name STRING,
-        package_name STRING
+        name TEXT,
+        package_name TEXT
     );
 """
 )
 _DB.execute(
     """
     CREATE TABLE IF NOT EXISTS package_urls (
-        package_name STRING,
-        url STRING,
-        public_suffix STRING
+        package_name TEXT,
+        url TEXT,
+        public_suffix TEXT
     );
     """
 )
 _DB.execute(
     """
     CREATE TABLE IF NOT EXISTS scorecard_checks (
-        package_name STRING,
-        name STRING,
+        package_name TEXT,
+        name TEXT,
         score INTEGER
     );
     """
