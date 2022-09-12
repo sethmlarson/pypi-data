@@ -51,22 +51,21 @@ CREATE TABLE packages (
 
 -- Dependencies --
 CREATE TABLE deps (
-    name STRING,
-    version STRING,
+    package_name STRING,
     extra STRING DEFAULT NULL,
     dep_name STRING,
     dep_specifier STRING,
-    PRIMARY KEY (name, version, dep_name, dep_specifier)
+    PRIMARY KEY (package_name, dep_name, dep_specifier)
 );
 
 -- Wheel data --
 CREATE TABLE wheels (
-    name STRING,
-    version STRING,
+    package_name STRING,
     filename STRING,
     python STRING,
     abi STRING,
-    platform STRING
+    platform STRING,
+    PRIMARY KEY (package_name, filename)
 );
 
 -- Maintainer data --

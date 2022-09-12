@@ -45,7 +45,9 @@ pypi_deps_db = os.path.join(base_dir, "pypi.db")
 
 downloads = {}
 with open(os.path.join(base_dir, "downloads.csv")) as f:
-    for project, dls in csv.reader(f):
+    csv = csv.reader(f)
+    next(csv)
+    for project, dls in csv:
         downloads[project] = int(dls)
 
 _DB = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False)
@@ -61,14 +63,14 @@ _DB.execute(
     recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     downloads INTEGER,
     scorecard_overall FLOAT,
-    PRIMARY KEY (name, version)
+    PRIMARY KEY (name)
   );
 """
 )
 _DB.execute(
     """
   CREATE TABLE IF NOT EXISTS deps (
-    name TEXT,
+    package_name TEXT,
     version TEXT,
     dep_name TEXT,
     dep_specifier TEXT,
@@ -80,7 +82,7 @@ _DB.execute(
 _DB.execute(
     """
   CREATE TABLE IF NOT EXISTS wheels (
-    name TEXT,
+    package_name TEXT,
     version TEXT,
     filename TEXT,
     python TEXT,
@@ -93,7 +95,8 @@ _DB.execute(
     """
     CREATE TABLE IF NOT EXISTS maintainers (
         name TEXT,
-        package_name TEXT
+        package_name TEXT,
+        PRIMARY KEY (name, package_name)
     );
 """
 )
@@ -102,7 +105,8 @@ _DB.execute(
     CREATE TABLE IF NOT EXISTS package_urls (
         package_name TEXT,
         url TEXT,
-        public_suffix TEXT
+        public_suffix TEXT,
+        PRIMARY KEY (package_name, url)
     );
     """
 )
@@ -111,14 +115,9 @@ _DB.execute(
     CREATE TABLE IF NOT EXISTS scorecard_checks (
         package_name TEXT,
         name TEXT,
-        score INTEGER
+        score INTEGER,
+        PRIMARY KEY (package_name, name)
     );
-    """
-)
-
-_DB.execute(
-    """
-    CREATE UNIQUE INDEX IF NOT EXISTS idx_packages_name_version ON packages (name, version);
     """
 )
 _DB.execute(
@@ -365,10 +364,10 @@ def update_data_for_package(package: str) -> None:
                 db.execute(
                     """
                     INSERT INTO wheels (
-                    name, version, filename, python, abi, platform
-                    ) VALUES (?, ?, ?, ?, ?, ?);
+                    package_name, filename, python, abi, platform
+                    ) VALUES (?, ?, ?, ?, ?);
                 """,
-                    (package, str_version, filename, py, abi, plat),
+                    (package, filename, py, abi, plat),
                 )
 
         if abi_tags == ["none"] and platform_tags == ["any"]:
@@ -437,26 +436,24 @@ def update_data_for_package(package: str) -> None:
                     db.execute(
                         """
                         INSERT OR IGNORE INTO deps (
-                            name,
-                            version,
+                            package_name,
                             dep_name,
                             dep_specifier,
                             extra
-                        ) VALUES (?, ?, ?, ?, ?);
+                        ) VALUES (?, ?, ?, ?);
                     """,
-                        (package, str_version, req_no_specifiers, specifier, extra),
+                        (package, req_no_specifiers, specifier, extra),
                     )
             else:
                 db.execute(
                     """
                     INSERT OR IGNORE INTO deps (
-                        name,
-                        version,
+                        package_name,
                         dep_name,
                         dep_specifier
-                    ) VALUES (?, ?, ?, ?);
+                    ) VALUES (?, ?, ?);
                 """,
-                    (package, str_version, req_no_specifiers, specifier),
+                    (package, req_no_specifiers, specifier),
                 )
 
         requires_dist["dists"] = sorted(set(requires_dist["dists"]))
