@@ -75,7 +75,7 @@ _DB.execute(
     dep_name TEXT,
     dep_specifier TEXT,
     extra TEXT DEFAULT NULL,
-    PRIMARY KEY (name, version, dep_name, dep_specifier)
+    PRIMARY KEY (package_name, version, dep_name, dep_specifier)
   );
 """
 )
