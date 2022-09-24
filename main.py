@@ -24,116 +24,6 @@ from wheel_filename import InvalidFilenameError, parse_wheel_filename
 # logger.setLevel(logging.DEBUG)
 # logger.addHandler(logging.StreamHandler())
 
-base_dir = os.path.dirname((os.path.abspath(__file__)))
-http = urllib3.PoolManager(
-    headers=urllib3.util.make_headers(
-        keep_alive=True,
-        accept_encoding=True,
-        user_agent="sethmlarson/pypi-data",
-    ),
-    retries=urllib3.util.Retry(
-        status=10, backoff_factor=0.5, status_forcelist=list(range(500, 600))
-    ),
-)
-wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
-
-tmp_dir = tempfile.mkdtemp()
-os.system(f"virtualenv {tmp_dir}/venv > /dev/null")
-venv_python = os.path.join(tmp_dir, "venv/bin/python")
-
-pypi_deps_db = os.path.join(base_dir, "pypi.db")
-
-downloads = {}
-with open(os.path.join(base_dir, "downloads.csv")) as f:
-    csv = csv.reader(f)
-    next(csv)
-    for project, dls in csv:
-        downloads[project] = int(dls)
-
-_DB = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False)
-_DB.execute(
-    """
-  CREATE TABLE IF NOT EXISTS packages (
-    name TEXT,
-    version TEXT,
-    requires_python TEXT,
-    yanked BOOLEAN DEFAULT 0,
-    has_binary_wheel BOOLEAN,
-    uploaded_at TIMESTAMP,
-    recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    downloads INTEGER,
-    scorecard_overall FLOAT,
-    PRIMARY KEY (name)
-  );
-"""
-)
-_DB.execute(
-    """
-  CREATE TABLE IF NOT EXISTS deps (
-    package_name TEXT,
-    version TEXT,
-    dep_name TEXT,
-    dep_specifier TEXT,
-    extra TEXT DEFAULT NULL,
-    PRIMARY KEY (package_name, version, dep_name, dep_specifier)
-  );
-"""
-)
-_DB.execute(
-    """
-  CREATE TABLE IF NOT EXISTS wheels (
-    package_name TEXT,
-    version TEXT,
-    filename TEXT,
-    python TEXT,
-    abi TEXT,
-    platform TEXT
-  );
-"""
-)
-_DB.execute(
-    """
-    CREATE TABLE IF NOT EXISTS maintainers (
-        name TEXT,
-        package_name TEXT,
-        PRIMARY KEY (name, package_name)
-    );
-"""
-)
-_DB.execute(
-    """
-    CREATE TABLE IF NOT EXISTS package_urls (
-        package_name TEXT,
-        url TEXT,
-        public_suffix TEXT,
-        PRIMARY KEY (package_name, url)
-    );
-    """
-)
-_DB.execute(
-    """
-    CREATE TABLE IF NOT EXISTS scorecard_checks (
-        package_name TEXT,
-        name TEXT,
-        score INTEGER,
-        PRIMARY KEY (package_name, name)
-    );
-    """
-)
-_DB.execute(
-    """
-    CREATE INDEX IF NOT EXISTS idx_packages_name ON packages (name);
-    """
-)
-_DB.execute(
-    """
-    CREATE INDEX IF NOT EXISTS idx_packages_urls_public_suffix ON package_urls (public_suffix);
-    """
-)
-_DB.commit()
-db_lock = threading.Lock()
-pool = ThreadPoolExecutor()
-
 
 @contextlib.contextmanager
 def locked_db():
@@ -147,9 +37,6 @@ def get_all_package_names():
     return sorted(
         [item.decode() for item in re.findall(b'href="/simple/([^/]+)/', resp.data)]
     )
-
-
-packages = get_all_package_names()
 
 
 def get_extras(req):
@@ -524,4 +411,116 @@ def update_data_from_pypi():
 
 
 if __name__ == "__main__":
+    base_dir = os.path.dirname((os.path.abspath(__file__)))
+    http = urllib3.PoolManager(
+        headers=urllib3.util.make_headers(
+            keep_alive=True,
+            accept_encoding=True,
+            user_agent="sethmlarson/pypi-data",
+        ),
+        retries=urllib3.util.Retry(
+            status=10, backoff_factor=0.5, status_forcelist=list(range(500, 600))
+        ),
+    )
+    wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
+
+    tmp_dir = tempfile.mkdtemp()
+    os.system(f"virtualenv {tmp_dir}/venv > /dev/null")
+    venv_python = os.path.join(tmp_dir, "venv/bin/python")
+
+    pypi_deps_db = os.path.join(base_dir, "pypi.db")
+
+    downloads = {}
+    with open(os.path.join(base_dir, "downloads.csv")) as f:
+        csv = csv.reader(f)
+        next(csv)
+        for project, dls in csv:
+            downloads[project] = int(dls)
+
+    _DB = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False)
+    _DB.execute(
+        """
+      CREATE TABLE IF NOT EXISTS packages (
+        name TEXT,
+        version TEXT,
+        requires_python TEXT,
+        yanked BOOLEAN DEFAULT 0,
+        has_binary_wheel BOOLEAN,
+        uploaded_at TIMESTAMP,
+        recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        downloads INTEGER,
+        scorecard_overall FLOAT,
+        PRIMARY KEY (name)
+      );
+    """
+    )
+    _DB.execute(
+        """
+      CREATE TABLE IF NOT EXISTS deps (
+        package_name TEXT,
+        version TEXT,
+        dep_name TEXT,
+        dep_specifier TEXT,
+        extra TEXT DEFAULT NULL,
+        PRIMARY KEY (package_name, version, dep_name, dep_specifier)
+      );
+    """
+    )
+    _DB.execute(
+        """
+      CREATE TABLE IF NOT EXISTS wheels (
+        package_name TEXT,
+        version TEXT,
+        filename TEXT,
+        python TEXT,
+        abi TEXT,
+        platform TEXT
+      );
+    """
+    )
+    _DB.execute(
+        """
+        CREATE TABLE IF NOT EXISTS maintainers (
+            name TEXT,
+            package_name TEXT,
+            PRIMARY KEY (name, package_name)
+        );
+    """
+    )
+    _DB.execute(
+        """
+        CREATE TABLE IF NOT EXISTS package_urls (
+            package_name TEXT,
+            url TEXT,
+            public_suffix TEXT,
+            PRIMARY KEY (package_name, url)
+        );
+        """
+    )
+    _DB.execute(
+        """
+        CREATE TABLE IF NOT EXISTS scorecard_checks (
+            package_name TEXT,
+            name TEXT,
+            score INTEGER,
+            PRIMARY KEY (package_name, name)
+        );
+        """
+    )
+    _DB.execute(
+        """
+        CREATE INDEX IF NOT EXISTS idx_packages_name ON packages (name);
+        """
+    )
+    _DB.execute(
+        """
+        CREATE INDEX IF NOT EXISTS idx_packages_urls_public_suffix ON package_urls (public_suffix);
+        """
+    )
+    _DB.commit()
+    db_lock = threading.Lock()
+    pool = ThreadPoolExecutor()
+
+    packages = get_all_package_names()
+
     update_data_from_pypi()
