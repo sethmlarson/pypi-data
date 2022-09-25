@@ -176,6 +176,30 @@ def fetch_checks_for_package(package_name):
     return checks
 
 
+def get_project_urls(info: dict) -> list[tuple[str, str, str]]:
+    names_urls = [
+        ("bugtrack_url", info.get("bugtrack_url")),
+        ("docs_url", info.get("docs_url")),
+        ("download_url", info.get("download_url")),
+        ("home_page", info.get("home_page")),
+        ("project_url", info.get("project_url")),
+    ]
+
+    if info.get("project_urls"):
+        for name, url in info.get("project_urls").items() or ():
+            names_urls.append((name, url))
+
+    names_urls_hosts = []
+    for project_name, project_url in names_urls:
+        parsed = parse_project_url(project_url)
+        if not parsed:
+            continue
+        host = psl.domain_suffixes(parsed.host).private
+        names_urls_hosts.append((project_name, str(parsed), host))
+
+    return names_urls_hosts
+
+
 def update_data_for_package(package: str) -> None:
     global downloads, db_lock
 
@@ -281,27 +305,14 @@ def update_data_for_package(package: str) -> None:
             ),
         )
 
-        project_urls = [
-            resp["info"].get("bugtrack_url"),
-            resp["info"].get("docs_url"),
-            resp["info"].get("download_url"),
-            resp["info"].get("home_page"),
-            resp["info"].get("project_url"),
-        ]
-        for project_url in resp["info"].get("project_urls") or ():
-            project_urls.append(project_url)
+        project_urls = get_project_urls(resp["info"])
 
-        for project_url in project_urls:
-            parsed = parse_project_url(project_url)
-            if not parsed:
-                continue
-            host = psl.domain_suffixes(parsed.host).private
-
+        for _, url, host in project_urls:
             db.execute(
                 """
                 INSERT OR IGNORE INTO package_urls (package_name, url, public_suffix) VALUES (?, ?, ?);
             """,
-                (package, str(parsed), host),
+                (package, url, host),
             )
 
         for maintainer in maintainers:
