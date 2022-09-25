@@ -307,12 +307,12 @@ def update_data_for_package(package: str) -> None:
 
         project_urls = get_project_urls(resp["info"])
 
-        for _, url, host in project_urls:
+        for name, url, host in project_urls:
             db.execute(
                 """
-                INSERT OR IGNORE INTO package_urls (package_name, url, public_suffix) VALUES (?, ?, ?);
+                INSERT OR IGNORE INTO package_urls (package_name, name, url, public_suffix) VALUES (?, ?, ?, ?);
             """,
-                (package, url, host),
+                (package, name, url, host),
             )
 
         for maintainer in maintainers:
@@ -502,6 +502,7 @@ if __name__ == "__main__":
         """
         CREATE TABLE IF NOT EXISTS package_urls (
             package_name TEXT,
+            name TEXT,
             url TEXT,
             public_suffix TEXT,
             PRIMARY KEY (package_name, url)

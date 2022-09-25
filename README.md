@@ -77,6 +77,7 @@ CREATE TABLE maintainers (
 -- Package URLs --
 CREATE TABLE package_urls (
     package_name STRING,
+    name STRING,
     url STRING,
     public_suffix STRING
 )
