@@ -3,4 +3,4 @@ packaging
 tqdm
 virtualenv
 wheel-filename
-psl
+psl>=2022
