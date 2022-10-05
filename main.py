@@ -179,8 +179,8 @@ def fetch_checks_for_package(package_name):
 def get_project_urls(info: dict) -> list[tuple[str, str, str]]:
     names_urls = [
         ("docs_url", info.get("docs_url")),
-        ("Downloads", info.get("download_url")),
-        ("Homepage", info.get("home_page")),
+        ("download_url", info.get("download_url")),
+        ("home_page", info.get("home_page")),
     ]
 
     if info.get("project_urls"):
