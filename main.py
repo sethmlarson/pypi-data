@@ -472,7 +472,9 @@ if __name__ == "__main__":
         dep_name TEXT,
         dep_specifier TEXT,
         extra TEXT DEFAULT NULL,
-        PRIMARY KEY (package_name, version, dep_name, dep_specifier)
+        PRIMARY KEY (package_name, version, dep_name, dep_specifier),
+        FOREIGN KEY (package_name) REFERENCES packages(name),
+        FOREIGN KEY (dep_name) REFERENCES packages(name)
       );
     """
     )
@@ -484,7 +486,8 @@ if __name__ == "__main__":
         filename TEXT,
         python TEXT,
         abi TEXT,
-        platform TEXT
+        platform TEXT,
+        FOREIGN KEY (package_name) REFERENCES packages(name)
       );
     """
     )
@@ -493,7 +496,8 @@ if __name__ == "__main__":
         CREATE TABLE IF NOT EXISTS maintainers (
             name TEXT,
             package_name TEXT,
-            PRIMARY KEY (name, package_name)
+            PRIMARY KEY (name, package_name),
+            FOREIGN KEY (package_name) REFERENCES packages(name)
         );
     """
     )
@@ -504,7 +508,8 @@ if __name__ == "__main__":
             name TEXT,
             url TEXT,
             public_suffix TEXT,
-            PRIMARY KEY (package_name, url)
+            PRIMARY KEY (package_name, url),
+            FOREIGN KEY (package_name) REFERENCES packages(name)
         );
         """
     )
@@ -514,7 +519,8 @@ if __name__ == "__main__":
             package_name TEXT,
             name TEXT,
             score INTEGER,
-            PRIMARY KEY (package_name, name)
+            PRIMARY KEY (package_name, name),
+            FOREIGN KEY (package_name) REFERENCES packages(name)
         );
         """
     )
