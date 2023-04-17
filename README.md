@@ -31,6 +31,7 @@ ackg|0.0.5||0|0|2021-01-21 04:37:10
 - Maintainers on PyPI
 - URLs used by packages
 - OpenSSF scorecard data
+- Google Assured OSS
 
 ### Database Schemas
 
@@ -46,7 +47,8 @@ CREATE TABLE packages (
     recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     downloads INTEGER,
     scorecard_overall FLOAT,
-    PRIMARY KEY (name, version)
+    in_google_assured_oss BOOLEAN,
+    PRIMARY KEY (name)
 );
 
 -- Dependencies --

@@ -25,6 +25,8 @@ from wheel_filename import InvalidFilenameError, parse_wheel_filename
 # logger.setLevel(logging.DEBUG)
 # logger.addHandler(logging.StreamHandler())
 
+MAX_WORKERS = 16
+GOOGLE_ASSURED_OSS_PACKAGES = set()
 
 @contextlib.contextmanager
 def locked_db():
@@ -132,7 +134,7 @@ def get_metadata_by_install(package, resp):
 
 def get_maintainers_from_pypi(package: str):
     for _ in range(5):
-        resp = http.request("GET", f"https://pypi.org/project/{package}")
+        resp = http.request("GET", f"https://pypi.org/project/{package}/")
         if resp.status == 404:
             return set()
         elif resp.status != 200:
@@ -200,7 +202,7 @@ def get_project_urls(info: dict) -> list[tuple[str, str, str]]:
 
 
 def update_data_for_package(package: str) -> None:
-    global downloads, db_lock
+    global downloads, db_lock, GOOGLE_ASSURED_OSS_PACKAGES
 
     resp = http.request("GET", f"https://pypi.org/pypi/{package}/json")
 
@@ -290,8 +292,8 @@ def update_data_for_package(package: str) -> None:
         db.execute(
             """
             INSERT OR IGNORE INTO packages (
-            name, version, requires_python, has_binary_wheel, uploaded_at, downloads, scorecard_overall
-            ) VALUES (?, ?, ?, ?, ?, ?, ?);
+            name, version, requires_python, has_binary_wheel, uploaded_at, downloads, scorecard_overall, in_google_assured_oss
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
         """,
             (
                 package,
@@ -301,6 +303,7 @@ def update_data_for_package(package: str) -> None:
                 uploaded_at,
                 package_downloads,
                 scorecard_overall,
+                package.lower() in GOOGLE_ASSURED_OSS_PACKAGES
             ),
         )
 
@@ -420,9 +423,23 @@ def update_data_from_pypi():
         pass
 
 
+def get_google_assured_oss_packages(http: urllib3.PoolManager) -> set[str]:
+    resp = http.request("GET", "https://cloud.google.com/assured-open-source-software/docs/supported-packages")
+    data = resp.data.decode("utf-8")
+
+    # Start after the Python heading, then look for first list.
+    data = data[data.find("<h2 id=\"python\""):]
+    start = data.find("<ul>")
+    end = data.find("</ul>")
+    return {x.lower() for x in re.findall(r"<li>([^<]+)</li>", data[start:end])}
+
+
 if __name__ == "__main__":
     base_dir = os.path.dirname((os.path.abspath(__file__)))
     http = urllib3.PoolManager(
+        block=True,
+        strict=True,
+        maxsize=MAX_WORKERS,
         headers=urllib3.util.make_headers(
             keep_alive=True,
             accept_encoding=True,
@@ -433,6 +450,8 @@ if __name__ == "__main__":
         ),
     )
     wheel_re = re.compile(r"-([^\-]+-[^\-]+-[^\-]+)\.whl$")
+
+    GOOGLE_ASSURED_OSS_PACKAGES = get_google_assured_oss_packages(http)
 
     tmp_dir = tempfile.mkdtemp()
     os.system(f"virtualenv {tmp_dir}/venv > /dev/null")
@@ -460,6 +479,7 @@ if __name__ == "__main__":
         recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         downloads INTEGER,
         scorecard_overall FLOAT,
+        in_google_assured_oss BOOLEAN,
         PRIMARY KEY (name)
       );
     """
@@ -536,7 +556,7 @@ if __name__ == "__main__":
     )
     _DB.commit()
     db_lock = threading.Lock()
-    pool = ThreadPoolExecutor()
+    pool = ThreadPoolExecutor(max_workers=MAX_WORKERS)
 
     packages = get_all_package_names()
 
