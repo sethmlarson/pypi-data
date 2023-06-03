@@ -276,10 +276,10 @@ def update_data_for_package(package: str) -> None:
                 db.execute(
                     """
                     INSERT INTO wheels (
-                    package_name, filename, python, abi, platform
-                    ) VALUES (?, ?, ?, ?, ?);
+                    package_name, filename, build, python, abi, platform
+                    ) VALUES (?, ?, ?, ?, ?, ?);
                 """,
-                    (package, filename, py, abi, plat),
+                    (package, filename, whl.build, py, abi, plat),
                 )
 
         if abi_tags == ["none"] and platform_tags == ["any"]:
@@ -504,6 +504,7 @@ if __name__ == "__main__":
         package_name TEXT,
         version TEXT,
         filename TEXT,
+        build TEXT,
         python TEXT,
         abi TEXT,
         platform TEXT,
