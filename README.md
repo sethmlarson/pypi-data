@@ -27,7 +27,7 @@ ackg|0.0.5||0|0|2021-01-21 04:37:10
 - Extra requirements (`requires_extras`)
 - Python requirements (`requires_python`)
 - Yanked versions (`yanked`)
-- Wheel data (`python_tags`, `abi_tags`, `platform_tags`)
+- Wheel data (`build_tag`, `python_tags`, `abi_tags`, `platform_tags`)
 - Maintainers on PyPI
 - URLs used by packages
 - OpenSSF scorecard data
@@ -64,6 +64,7 @@ CREATE TABLE deps (
 CREATE TABLE wheels (
     package_name STRING,
     filename STRING,
+    build STRING,
     python STRING,
     abi STRING,
     platform STRING,
