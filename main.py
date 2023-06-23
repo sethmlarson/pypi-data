@@ -1,9 +1,7 @@
 from __future__ import annotations
 import contextlib
-import csv
 import itertools
 import json
-import logging
 import os
 import re
 import sqlite3
@@ -27,6 +25,7 @@ from wheel_filename import InvalidFilenameError, parse_wheel_filename
 
 MAX_WORKERS = 16
 GOOGLE_ASSURED_OSS_PACKAGES = set()
+DOWNLOADS_URL = "https://raw.githubusercontent.com/hugovk/top-pypi-packages/main/top-pypi-packages-30-days.min.json"
 
 @contextlib.contextmanager
 def locked_db():
@@ -254,13 +253,14 @@ def update_data_for_package(package: str) -> None:
     yanked = []
 
     releases = resp["releases"][str_version]
-    uploaded_at = None if not releases else min(x["upload_time"] for x in releases)
+    first_uploaded_at = None if not releases else min(x["upload_time"] for x in releases)
+    last_uploaded_at = None if not releases else max(x["upload_time"] for x in releases)
     wheel_data = [
-        (x["filename"], x["url"]) for x in releases if x["filename"].endswith(".whl")
+        (x["filename"], x["url"], x["upload_time"]) for x in releases if x["filename"].endswith(".whl")
     ]
     has_binary_wheel = False
 
-    for filename, _ in wheel_data:
+    for filename, _, uploaded_at in wheel_data:
         try:
             whl = parse_wheel_filename(filename)
         except InvalidFilenameError:
@@ -276,10 +276,10 @@ def update_data_for_package(package: str) -> None:
                 db.execute(
                     """
                     INSERT INTO wheels (
-                    package_name, filename, build, python, abi, platform
-                    ) VALUES (?, ?, ?, ?, ?, ?);
+                    package_name, filename, build, python, abi, platform, uploaded_at
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?);
                 """,
-                    (package, filename, whl.build, py, abi, plat),
+                    (package, filename, whl.build, py, abi, plat, uploaded_at),
                 )
 
         if abi_tags == ["none"] and platform_tags == ["any"]:
@@ -287,20 +287,25 @@ def update_data_for_package(package: str) -> None:
 
         has_binary_wheel = True
 
+    # Check if the package has any known vulnerabilities.
+    has_vulnerabilities = bool(resp.get("vulnerabilities", []))
+
     package_downloads = downloads.get(package, 0)
     with locked_db() as db:
         db.execute(
             """
             INSERT OR IGNORE INTO packages (
-            name, version, requires_python, has_binary_wheel, uploaded_at, downloads, scorecard_overall, in_google_assured_oss
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+            name, version, requires_python, has_binary_wheel, has_vulnerabilities, first_uploaded_at, last_uploaded_at, downloads, scorecard_overall, in_google_assured_oss
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
         """,
             (
                 package,
                 str_version,
                 requires_python,
                 has_binary_wheel,
-                uploaded_at,
+                has_vulnerabilities,
+                first_uploaded_at,
+                last_uploaded_at,
                 package_downloads,
                 scorecard_overall,
                 package.lower() in GOOGLE_ASSURED_OSS_PACKAGES
@@ -460,11 +465,10 @@ if __name__ == "__main__":
     pypi_deps_db = os.path.join(base_dir, "pypi.db")
 
     downloads = {}
-    with open(os.path.join(base_dir, "downloads.csv")) as f:
-        csv = csv.reader(f)
-        next(csv)
-        for project, dls in csv:
-            downloads[project] = int(dls)
+    resp = http.request("GET", DOWNLOADS_URL)
+    assert resp.status == 200
+    for row in resp.json()["rows"]:
+        downloads[row["project"]] = row["download_count"]
 
     _DB = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False)
     _DB.execute(
@@ -475,7 +479,9 @@ if __name__ == "__main__":
         requires_python TEXT,
         yanked BOOLEAN DEFAULT 0,
         has_binary_wheel BOOLEAN,
-        uploaded_at TIMESTAMP,
+        has_vulnerabilities BOOLEAN,
+        first_uploaded_at TIMESTAMP,
+        last_uploaded_at TIMESTAMP,
         recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         downloads INTEGER,
         scorecard_overall FLOAT,
@@ -508,6 +514,7 @@ if __name__ == "__main__":
         python TEXT,
         abi TEXT,
         platform TEXT,
+        uploaded_at TIMESTAMP,
         FOREIGN KEY (package_name) REFERENCES packages(name)
       );
     """
