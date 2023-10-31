@@ -155,9 +155,8 @@ def fetch_checks_for_package(package_name):
     checks = {}
     try:
         for project in data["version"]["projects"]:
-            if "scorecardV2" in project:
-                scorecard = project["scorecardV2"]
-                for check in scorecard["check"]:
+            if scorecard := project.get("scorecardV2"):
+                for check in scorecard.get("check", None) or ():
                     check_name = check["name"]
                     check_score = check["score"]
 
