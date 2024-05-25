@@ -389,6 +389,18 @@ def update_data_for_package(package: str) -> None:
                 (package, check_name, check_score),
             )
 
+        classifiers = resp["info"].get("classifiers") or []
+        for classifier in classifiers:
+            db.execute(
+                """
+                INSERT OR IGNORE INTO classifiers (
+                    package_name,
+                    name
+                ) VALUES (?, ?);
+            """,
+                (package, classifier),
+            )
+
     return package
 
 
@@ -546,6 +558,16 @@ if __name__ == "__main__":
             package_name TEXT,
             name TEXT,
             score INTEGER,
+            PRIMARY KEY (package_name, name),
+            FOREIGN KEY (package_name) REFERENCES packages(name)
+        );
+        """
+    )
+    _DB.execute(
+        """
+        CREATE TABLE IF NOT EXISTS classifiers (
+            package_name TEXT,
+            name TEXT,
             PRIMARY KEY (package_name, name),
             FOREIGN KEY (package_name) REFERENCES packages(name)
         );
