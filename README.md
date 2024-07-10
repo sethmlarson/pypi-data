@@ -26,6 +26,7 @@ ackg|0.0.5||0|0|2021-01-21 04:37:10
 - Direct requirements (`requires_dist`)
 - Extra requirements (`requires_extras`)
 - Python requirements (`requires_python`)
+- Trove classifiers (`classifiers`)
 - Yanked versions (`yanked`)
 - Wheel data (`build_tag`, `python_tags`, `abi_tags`, `platform_tags`)
 - Maintainers on PyPI
@@ -93,6 +94,14 @@ CREATE TABLE scorecard_checks (
     package_name STRING,
     name STRING,
     score INTEGER
+)
+
+-- Trove Classifiers --
+CREATE TABLE classifiers (
+    package_name TEXT,
+    name TEXT,
+    PRIMARY KEY (package_name, name),
+    FOREIGN KEY (package_name) REFERENCES packages(name)
 )
 ```
 
