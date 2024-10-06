@@ -478,7 +478,7 @@ if __name__ == "__main__":
     downloads = {}
     resp = http.request("GET", DOWNLOADS_URL)
     assert resp.status == 200
-    for row in resp.json()["rows"]:
+    for row in json.loads(resp.data)["rows"]:
         downloads[row["project"]] = row["download_count"]
 
     _DB = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False)
