@@ -25,7 +25,7 @@ from wheel_filename import InvalidFilenameError, parse_wheel_filename
 
 MAX_WORKERS = 16
 GOOGLE_ASSURED_OSS_PACKAGES = set()
-DOWNLOADS_URL = "https://raw.githubusercontent.com/hugovk/top-pypi-packages/main/top-pypi-packages-30-days.min.json"
+DOWNLOADS_URL = "https://raw.githubusercontent.com/hugovk/top-pypi-packages/main/top-pypi-packages.min.json"
 
 @contextlib.contextmanager
 def locked_db():
