@@ -194,14 +194,14 @@ def update_data_for_package(package: str) -> None:
     if resp.status != 200:
         return
     try:
-        resp = json.loads(resp.data.decode("utf-8"))
+        pkg_data = json.loads(resp.data.decode("utf-8"))
     except Exception:
         return
     try:
-        version = Version(resp["info"]["version"])
+        version = Version(pkg_data["info"]["version"])
     except InvalidVersion:  # The latest release has an invalid version, skip
         return
-    latest_version = max(to_versions(resp["releases"].keys()))
+    latest_version = max(to_versions(pkg_data["releases"].keys()))
 
     # Favor pre-releases over non-pre-releases
     if version < latest_version:
@@ -212,7 +212,7 @@ def update_data_for_package(package: str) -> None:
             version = latest_version
 
     # Get the exact string for the version that we found
-    for strv in resp.get("releases", ()):
+    for strv in pkg_data.get("releases", ()):
         try:
             if Version(strv) == version:
                 str_version = strv
@@ -226,11 +226,11 @@ def update_data_for_package(package: str) -> None:
     scorecard_checks = fetch_checks_for_package(package)
     scorecard_overall = scorecard_checks.pop("Overall", None)
 
-    maintainers = {r["user"] for r in resp.get("ownership", {}).get("roles", [])}
+    maintainers = {r["user"] for r in pkg_data.get("ownership", {}).get("roles", [])}
 
-    requires_python = resp["info"]["requires_python"] or ""
+    requires_python = pkg_data["info"]["requires_python"] or ""
     urequires_dist = [
-        normalize_requires_dist(x) for x in resp["info"]["requires_dist"] or []
+        normalize_requires_dist(x) for x in pkg_data["info"]["requires_dist"] or []
     ]
     urequires_dist = sorted(urequires_dist, key=requires_dist_sort_key)
 
@@ -238,7 +238,7 @@ def update_data_for_package(package: str) -> None:
     requires_extras = {}
     yanked = []
 
-    releases = resp["releases"][str_version]
+    releases = pkg_data["releases"][str_version]
     first_uploaded_at = None if not releases else min(x["upload_time"] for x in releases)
     last_uploaded_at = None if not releases else max(x["upload_time"] for x in releases)
     wheel_data = [
@@ -274,7 +274,7 @@ def update_data_for_package(package: str) -> None:
         has_binary_wheel = True
 
     # Check if the package has any known vulnerabilities.
-    has_vulnerabilities = bool(resp.get("vulnerabilities", []))
+    has_vulnerabilities = bool(pkg_data.get("vulnerabilities", []))
 
     package_downloads = downloads.get(package, 0)
     with locked_db() as db:
@@ -298,7 +298,7 @@ def update_data_for_package(package: str) -> None:
             ),
         )
 
-        project_urls = get_project_urls(resp["info"])
+        project_urls = get_project_urls(pkg_data["info"])
 
         for name, url, host in project_urls:
             db.execute(
@@ -351,7 +351,7 @@ def update_data_for_package(package: str) -> None:
         for extra, extra_info in list(requires_extras.items()):
             requires_extras[extra]["dists"] = sorted(set(extra_info["dists"]))
 
-        for relv, dls in resp["releases"].items():
+        for relv, dls in pkg_data["releases"].items():
             for download in dls:
                 if download["yanked"]:
                     yanked.append(relv)
@@ -376,7 +376,7 @@ def update_data_for_package(package: str) -> None:
                 (package, check_name, check_score),
             )
 
-        classifiers = resp["info"].get("classifiers") or []
+        classifiers = pkg_data["info"].get("classifiers") or []
         for classifier in classifiers:
             db.execute(
                 """
