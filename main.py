@@ -132,20 +132,6 @@ def get_metadata_by_install(package, resp):
     return resp
 
 
-def get_maintainers_from_pypi(package: str):
-    for _ in range(5):
-        resp = http.request("GET", f"https://pypi.org/project/{package}/")
-        if resp.status == 404:
-            return set()
-        elif resp.status != 200:
-            continue
-        return set(
-            re.findall(
-                r"<a href=\"/user/([^/]+)/\" aria-label=", resp.data.decode("utf-8")
-            )
-        )
-    return set()
-
 
 def fetch_checks_for_package(package_name):
     resp = http.request("GET", f"https://deps.dev/_/s/pypi/p/{package_name}/v/")
@@ -240,7 +226,7 @@ def update_data_for_package(package: str) -> None:
     scorecard_checks = fetch_checks_for_package(package)
     scorecard_overall = scorecard_checks.pop("Overall", None)
 
-    maintainers = get_maintainers_from_pypi(package)
+    maintainers = {r["user"] for r in resp.get("ownership", {}).get("roles", [])}
 
     requires_python = resp["info"]["requires_python"] or ""
     urequires_dist = [
