@@ -35,10 +35,11 @@ def locked_db():
 
 
 def get_all_package_names():
-    resp = http.request("GET", "https://pypi.org/simple")
-    return sorted(
-        [item.decode() for item in re.findall(b'href="/simple/([^/]+)/', resp.data)]
+    resp = http.request(
+        "GET", "https://pypi.org/simple",
+        headers={"Accept": "application/vnd.pypi.simple.v1+json"}
     )
+    return sorted([item['name'] for item in json.loads(resp.data)['projects']])
 
 
 def get_extras(req):
