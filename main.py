@@ -51,7 +51,7 @@ def dist_from_requires_dist(req):
 
 
 def specifier_from_requires_dist(req):
-    return re.sub(r"\(([^)]+)\)", r"\1", req, 1)
+    return re.sub(r"\(([^)]+)\)", r"\1", req, count=1)
 
 
 def normalize_requires_dist(req):
@@ -438,7 +438,7 @@ def get_google_assured_oss_packages(http: urllib3.PoolManager) -> set[str]:
 
 
 if __name__ == "__main__":
-    base_dir = os.path.dirname((os.path.abspath(__file__)))
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     http = urllib3.PoolManager(
         block=True,
         strict=True,
@@ -457,7 +457,7 @@ if __name__ == "__main__":
     GOOGLE_ASSURED_OSS_PACKAGES = get_google_assured_oss_packages(http)
 
     tmp_dir = tempfile.mkdtemp()
-    os.system(f"virtualenv {tmp_dir}/venv > /dev/null")
+    os.system(f"python -m venv {tmp_dir}/venv > /dev/null")
     venv_python = os.path.join(tmp_dir, "venv/bin/python")
 
     pypi_deps_db = os.path.join(base_dir, "pypi.db")
