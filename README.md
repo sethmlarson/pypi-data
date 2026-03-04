@@ -107,7 +107,7 @@ CREATE TABLE classifiers (
 
 ### Download data
 
-Downloads are grabbed from <https://github.com/hugovk/top-pypi-packages> but only available for the top 5,000 packages.
+Downloads are grabbed from <https://github.com/hugovk/top-pypi-packages> but only available for the top 15,000 packages.
 
 ## Running locally
 
