@@ -1,5 +1,4 @@
 from __future__ import annotations
-import contextlib
 import itertools
 import json
 import os
@@ -7,10 +6,8 @@ import re
 import sqlite3
 import subprocess
 import tempfile
-import threading
 import time
-from concurrent.futures import ThreadPoolExecutor
-from contextlib import closing
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import psl
 import urllib3
@@ -23,22 +20,58 @@ from wheel_filename import InvalidFilenameError, parse_wheel_filename
 # logger.setLevel(logging.DEBUG)
 # logger.addHandler(logging.StreamHandler())
 
-MAX_WORKERS = 16
+MAX_WORKERS = 64
+WRITE_BATCH_SIZE = 100
 GOOGLE_ASSURED_OSS_PACKAGES = set()
 DOWNLOADS_URL = "https://raw.githubusercontent.com/hugovk/top-pypi-packages/main/top-pypi-packages.min.json"
 
-@contextlib.contextmanager
-def locked_db():
-    with db_lock:
-        yield _DB
-        _DB.commit()
+
+def flush_batch(batch):
+    """Write a batch of package results to the DB in a single transaction."""
+    _DB.execute("BEGIN")
+    for data in batch:
+        _DB.executemany(
+            "INSERT INTO wheels (package_name, filename, build, python, abi, platform, uploaded_at) VALUES (?, ?, ?, ?, ?, ?, ?);",
+            data["wheel_rows"],
+        )
+        _DB.execute(
+            "INSERT OR IGNORE INTO packages (name, version, requires_python, has_binary_wheel, has_vulnerabilities, first_uploaded_at, last_uploaded_at, downloads, scorecard_overall, in_google_assured_oss) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);",
+            data["package_row"],
+        )
+        _DB.executemany(
+            "INSERT OR IGNORE INTO package_urls (package_name, name, url, public_suffix) VALUES (?, ?, ?, ?);",
+            data["url_rows"],
+        )
+        _DB.executemany(
+            "INSERT OR IGNORE INTO maintainers (name, package_name) VALUES (?, ?);",
+            data["maintainer_rows"],
+        )
+        _DB.executemany(
+            "INSERT OR IGNORE INTO deps (package_name, dep_name, dep_specifier, extra) VALUES (?, ?, ?, ?);",
+            data["dep_rows"],
+        )
+        if data["yanked_update"]:
+            _DB.execute(
+                "UPDATE packages SET yanked=1 WHERE name=? AND version=?;",
+                data["yanked_update"],
+            )
+        _DB.executemany(
+            "INSERT OR IGNORE INTO scorecard_checks (package_name, name, score) VALUES (?, ?, ?);",
+            data["scorecard_rows"],
+        )
+        _DB.executemany(
+            "INSERT OR IGNORE INTO classifiers (package_name, name) VALUES (?, ?);",
+            data["classifier_rows"],
+        )
+    _DB.execute("COMMIT")
 
 
 def get_all_package_names():
-    resp = http.request("GET", "https://pypi.org/simple")
-    return sorted(
-        [item.decode() for item in re.findall(b'href="/simple/([^/]+)/', resp.data)]
+    resp = http.request(
+        "GET", "https://pypi.org/simple",
+        headers={"Accept": "application/vnd.pypi.simple.v1+json"}
     )
+    return sorted([item['name'] for item in json.loads(resp.data)['projects']])
 
 
 def get_extras(req):
@@ -50,7 +83,7 @@ def dist_from_requires_dist(req):
 
 
 def specifier_from_requires_dist(req):
-    return re.sub(r"\(([^)]+)\)", r"\1", req, 1)
+    return re.sub(r"\(([^)]+)\)", r"\1", req, count=1)
 
 
 def normalize_requires_dist(req):
@@ -131,20 +164,6 @@ def get_metadata_by_install(package, resp):
     return resp
 
 
-def get_maintainers_from_pypi(package: str):
-    for _ in range(5):
-        resp = http.request("GET", f"https://pypi.org/project/{package}/")
-        if resp.status == 404:
-            return set()
-        elif resp.status != 200:
-            continue
-        return set(
-            re.findall(
-                r"<a href=\"/user/([^/]+)/\" aria-label=", resp.data.decode("utf-8")
-            )
-        )
-    return set()
-
 
 def fetch_checks_for_package(package_name):
     resp = http.request("GET", f"https://deps.dev/_/s/pypi/p/{package_name}/v/")
@@ -199,22 +218,22 @@ def get_project_urls(info: dict) -> list[tuple[str, str, str]]:
     return names_urls_hosts
 
 
-def update_data_for_package(package: str) -> None:
-    global downloads, db_lock, GOOGLE_ASSURED_OSS_PACKAGES
+def update_data_for_package(package: str) -> dict | None:
+    global downloads, GOOGLE_ASSURED_OSS_PACKAGES
 
     resp = http.request("GET", f"https://pypi.org/pypi/{package}/json")
 
     if resp.status != 200:
         return
     try:
-        resp = json.loads(resp.data.decode("utf-8"))
+        pkg_data = json.loads(resp.data.decode("utf-8"))
     except Exception:
         return
     try:
-        version = Version(resp["info"]["version"])
+        version = Version(pkg_data["info"]["version"])
     except InvalidVersion:  # The latest release has an invalid version, skip
         return
-    latest_version = max(to_versions(resp["releases"].keys()))
+    latest_version = max(to_versions(pkg_data["releases"].keys()))
 
     # Favor pre-releases over non-pre-releases
     if version < latest_version:
@@ -225,7 +244,7 @@ def update_data_for_package(package: str) -> None:
             version = latest_version
 
     # Get the exact string for the version that we found
-    for strv in resp.get("releases", ()):
+    for strv in pkg_data.get("releases", ()):
         try:
             if Version(strv) == version:
                 str_version = strv
@@ -239,25 +258,24 @@ def update_data_for_package(package: str) -> None:
     scorecard_checks = fetch_checks_for_package(package)
     scorecard_overall = scorecard_checks.pop("Overall", None)
 
-    maintainers = get_maintainers_from_pypi(package)
+    maintainers = {r["user"] for r in pkg_data.get("ownership", {}).get("roles", [])}
 
-    requires_python = resp["info"]["requires_python"] or ""
+    requires_python = pkg_data["info"]["requires_python"] or ""
     urequires_dist = [
-        normalize_requires_dist(x) for x in resp["info"]["requires_dist"] or []
+        normalize_requires_dist(x) for x in pkg_data["info"]["requires_dist"] or []
     ]
     urequires_dist = sorted(urequires_dist, key=requires_dist_sort_key)
 
-    requires_dist = {"specifiers": [], "dists": []}
-    requires_extras = {}
     yanked = []
 
-    releases = resp["releases"][str_version]
+    releases = pkg_data["releases"][str_version]
     first_uploaded_at = None if not releases else min(x["upload_time"] for x in releases)
     last_uploaded_at = None if not releases else max(x["upload_time"] for x in releases)
     wheel_data = [
         (x["filename"], x["url"], x["upload_time"]) for x in releases if x["filename"].endswith(".whl")
     ]
     has_binary_wheel = False
+    wheel_rows = []
 
     for filename, _, uploaded_at in wheel_data:
         try:
@@ -269,17 +287,8 @@ def update_data_for_package(package: str) -> None:
             whl.abi_tags,
             whl.platform_tags,
         )
-        for wheel_data in itertools.product(python_tags, abi_tags, platform_tags):
-            py, abi, plat = wheel_data
-            with locked_db() as db:
-                db.execute(
-                    """
-                    INSERT INTO wheels (
-                    package_name, filename, build, python, abi, platform, uploaded_at
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?);
-                """,
-                    (package, filename, whl.build, py, abi, plat, uploaded_at),
-                )
+        for py, abi, plat in itertools.product(python_tags, abi_tags, platform_tags):
+            wheel_rows.append((package, filename, whl.build, py, abi, plat, uploaded_at))
 
         if abi_tags == ["none"] and platform_tags == ["any"]:
             continue
@@ -287,137 +296,61 @@ def update_data_for_package(package: str) -> None:
         has_binary_wheel = True
 
     # Check if the package has any known vulnerabilities.
-    has_vulnerabilities = bool(resp.get("vulnerabilities", []))
+    has_vulnerabilities = bool(pkg_data.get("vulnerabilities", []))
 
+    # Prepare all data outside the lock to minimize lock hold time
     package_downloads = downloads.get(package, 0)
-    with locked_db() as db:
-        db.execute(
-            """
-            INSERT OR IGNORE INTO packages (
-            name, version, requires_python, has_binary_wheel, has_vulnerabilities, first_uploaded_at, last_uploaded_at, downloads, scorecard_overall, in_google_assured_oss
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
-        """,
-            (
-                package,
-                str_version,
-                requires_python,
-                has_binary_wheel,
-                has_vulnerabilities,
-                first_uploaded_at,
-                last_uploaded_at,
-                package_downloads,
-                scorecard_overall,
-                package.lower() in GOOGLE_ASSURED_OSS_PACKAGES
-            ),
+    project_urls = get_project_urls(pkg_data["info"])
+
+    dep_rows = []
+    for req in urequires_dist:
+        extras = get_extras(req)
+        req_no_specifiers = dist_from_requires_dist(req)
+        specifier = specifier_from_requires_dist(req).replace(
+            req_no_specifiers + " ", "", 1
         )
+        if extras:
+            for extra in extras:
+                dep_rows.append((package, req_no_specifiers, specifier, extra))
+        else:
+            dep_rows.append((package, req_no_specifiers, specifier, None))
 
-        project_urls = get_project_urls(resp["info"])
+    for relv, dls in pkg_data["releases"].items():
+        for download in dls:
+            if download["yanked"]:
+                yanked.append(relv)
+                break
+    yanked = sorted_versions(set(yanked))
 
-        for name, url, host in project_urls:
-            db.execute(
-                """
-                INSERT OR IGNORE INTO package_urls (package_name, name, url, public_suffix) VALUES (?, ?, ?, ?);
-            """,
-                (package, name, url, host),
-            )
+    classifiers = pkg_data["info"].get("classifiers") or []
 
-        for maintainer in maintainers:
-            db.execute(
-                """
-                INSERT OR IGNORE INTO maintainers (name, package_name) VALUES (?, ?);
-            """,
-                (maintainer, package),
-            )
-
-        for req in urequires_dist:
-            extras = get_extras(req)
-            req_no_specifiers = dist_from_requires_dist(req)
-            specifier = specifier_from_requires_dist(req).replace(
-                req_no_specifiers + " ", "", 1
-            )
-            if extras:
-                for extra in extras:
-                    db.execute(
-                        """
-                        INSERT OR IGNORE INTO deps (
-                            package_name,
-                            dep_name,
-                            dep_specifier,
-                            extra
-                        ) VALUES (?, ?, ?, ?);
-                    """,
-                        (package, req_no_specifiers, specifier, extra),
-                    )
-            else:
-                db.execute(
-                    """
-                    INSERT OR IGNORE INTO deps (
-                        package_name,
-                        dep_name,
-                        dep_specifier
-                    ) VALUES (?, ?, ?);
-                """,
-                    (package, req_no_specifiers, specifier),
-                )
-
-        requires_dist["dists"] = sorted(set(requires_dist["dists"]))
-        for extra, extra_info in list(requires_extras.items()):
-            requires_extras[extra]["dists"] = sorted(set(extra_info["dists"]))
-
-        for relv, dls in resp["releases"].items():
-            for download in dls:
-                if download["yanked"]:
-                    yanked.append(relv)
-                    break
-
-        yanked = sorted_versions(set(yanked))
-        if yanked:
-            db.execute(
-                "UPDATE packages SET yanked=1 WHERE name=? AND version=?;",
-                (package, str_version),
-            )
-
-        for check_name, check_score in scorecard_checks.items():
-            db.execute(
-                """
-                INSERT OR IGNORE INTO scorecard_checks (
-                    package_name,
-                    name,
-                    score
-                ) VALUES (?, ?, ?);
-            """,
-                (package, check_name, check_score),
-            )
-
-        classifiers = resp["info"].get("classifiers") or []
-        for classifier in classifiers:
-            db.execute(
-                """
-                INSERT OR IGNORE INTO classifiers (
-                    package_name,
-                    name
-                ) VALUES (?, ?);
-            """,
-                (package, classifier),
-            )
-
-    return package
+    return {
+        "wheel_rows": wheel_rows,
+        "package_row": (
+            package,
+            str_version,
+            requires_python,
+            has_binary_wheel,
+            has_vulnerabilities,
+            first_uploaded_at,
+            last_uploaded_at,
+            package_downloads,
+            scorecard_overall,
+            package.lower() in GOOGLE_ASSURED_OSS_PACKAGES,
+        ),
+        "url_rows": [(package, name, url, host) for name, url, host in project_urls],
+        "maintainer_rows": [(m, package) for m in maintainers],
+        "dep_rows": dep_rows,
+        "yanked_update": (package, str_version) if yanked else None,
+        "scorecard_rows": [(package, cn, cs) for cn, cs in scorecard_checks.items()],
+        "classifier_rows": [(package, c) for c in classifiers],
+    }
 
 
 def filter_packages(pkgs):
     # Check to see if we already have this package or not.
-    packages_to_process = []
-    with locked_db() as db:
-        with closing(db.cursor()) as cur:
-            for pkg in pkgs:
-                cur.execute(
-                    "SELECT name FROM packages WHERE name = ? LIMIT 1;",
-                    (pkg,),
-                )
-                if cur.fetchone():
-                    continue
-                packages_to_process.append(pkg)
-    return packages_to_process
+    existing = {row[0] for row in _DB.execute("SELECT name FROM packages").fetchall()}
+    return [pkg for pkg in pkgs if pkg not in existing]
 
 
 def parse_project_url(url):
@@ -434,9 +367,18 @@ def parse_project_url(url):
 
 def update_data_from_pypi():
     filtered = filter_packages(packages)
-    results = pool.map(update_data_for_package, filtered)
-    for _ in tqdm(results, total=len(filtered), unit="packages"):
-        pass
+    futures = [pool.submit(update_data_for_package, pkg) for pkg in filtered]
+    batch = []
+    for future in tqdm(as_completed(futures), total=len(filtered), unit="packages"):
+        result = future.result()
+        if result is None:
+            continue
+        batch.append(result)
+        if len(batch) >= WRITE_BATCH_SIZE:
+            flush_batch(batch)
+            batch = []
+    if batch:
+        flush_batch(batch)
 
 
 def get_google_assured_oss_packages(http: urllib3.PoolManager) -> set[str]:
@@ -451,7 +393,7 @@ def get_google_assured_oss_packages(http: urllib3.PoolManager) -> set[str]:
 
 
 if __name__ == "__main__":
-    base_dir = os.path.dirname((os.path.abspath(__file__)))
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     http = urllib3.PoolManager(
         block=True,
         strict=True,
@@ -470,7 +412,7 @@ if __name__ == "__main__":
     GOOGLE_ASSURED_OSS_PACKAGES = get_google_assured_oss_packages(http)
 
     tmp_dir = tempfile.mkdtemp()
-    os.system(f"virtualenv {tmp_dir}/venv > /dev/null")
+    os.system(f"python -m venv {tmp_dir}/venv > /dev/null")
     venv_python = os.path.join(tmp_dir, "venv/bin/python")
 
     pypi_deps_db = os.path.join(base_dir, "pypi.db")
@@ -481,7 +423,7 @@ if __name__ == "__main__":
     for row in json.loads(resp.data)["rows"]:
         downloads[row["project"]] = row["download_count"]
 
-    _DB = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False)
+    _DB = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False, isolation_level=None)
     _DB.execute(
         """
       CREATE TABLE IF NOT EXISTS packages (
@@ -583,8 +525,8 @@ if __name__ == "__main__":
         CREATE INDEX IF NOT EXISTS idx_packages_urls_public_suffix ON package_urls (public_suffix);
         """
     )
+    _DB.execute("PRAGMA journal_mode = WAL")
     _DB.commit()
-    db_lock = threading.Lock()
     pool = ThreadPoolExecutor(max_workers=MAX_WORKERS)
 
     packages = get_all_package_names()
