@@ -1,5 +1,7 @@
 # Uncompressed sqlite3 database
 pypi.db
+pypi.db-shm
+pypi.db-wal
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
