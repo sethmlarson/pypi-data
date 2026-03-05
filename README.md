@@ -116,6 +116,20 @@ docker build -t pypi-data .
 docker run --rm pypi-data
 ```
 
+## Querying the data
+
+### Using SQLite
+
+```shell
+sqlite3 'pypi.db' 'SELECT * FROM packages LIMIT 10 OFFSET 1000;'
+```
+
+### Using DuckDB
+
+```shell
+duckdb 'pypi.db' 'SELECT * FROM packages LIMIT 10 OFFSET 1000;'
+```
+
 ## License
 
 Apache-2.0
