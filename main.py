@@ -1,4 +1,5 @@
 from __future__ import annotations
+import argparse
 import itertools
 import json
 import os
@@ -66,9 +67,9 @@ def flush_batch(batch):
     _DB.execute("COMMIT")
 
 
-def get_all_package_names():
+def get_all_package_names(index_url: str) -> list[str]:
     resp = http.request(
-        "GET", "https://pypi.org/simple",
+        "GET", f"{index_url}/simple",
         headers={"Accept": "application/vnd.pypi.simple.v1+json"}
     )
     return sorted([item['name'] for item in json.loads(resp.data)['projects']])
@@ -196,7 +197,7 @@ def fetch_checks_for_package(package_name):
     return checks
 
 
-def get_project_urls(info: dict) -> list[tuple[str, str, str]]:
+def get_project_urls(info: dict, exclude_host: str | None = None) -> list[tuple[str, str, str]]:
     names_urls = [
         ("docs_url", info.get("docs_url")),
         ("Downloads", info.get("download_url")),
@@ -209,7 +210,7 @@ def get_project_urls(info: dict) -> list[tuple[str, str, str]]:
 
     names_urls_hosts = []
     for project_name, project_url in names_urls:
-        parsed = parse_project_url(project_url)
+        parsed = parse_project_url(project_url, exclude_host=exclude_host)
         if not parsed:
             continue
         host = psl.domain_suffixes(parsed.host).private
@@ -218,10 +219,10 @@ def get_project_urls(info: dict) -> list[tuple[str, str, str]]:
     return names_urls_hosts
 
 
-def update_data_for_package(package: str) -> dict | None:
+def update_data_for_package(package: str, index_url: str, exclude_host: str | None = None) -> dict | None:
     global downloads, GOOGLE_ASSURED_OSS_PACKAGES
 
-    resp = http.request("GET", f"https://pypi.org/pypi/{package}/json")
+    resp = http.request("GET", f"{index_url}/pypi/{package}/json")
 
     if resp.status != 200:
         return
@@ -238,7 +239,7 @@ def update_data_for_package(package: str) -> dict | None:
     # Favor pre-releases over non-pre-releases
     if version < latest_version:
         new_resp = http.request(
-            "GET", f"https://pypi.org/pypi/{package}/{latest_version}/json"
+            "GET", f"{index_url}/pypi/{package}/{latest_version}/json"
         )
         if new_resp.status != 200:
             version = latest_version
@@ -300,7 +301,7 @@ def update_data_for_package(package: str) -> dict | None:
 
     # Prepare all data outside the lock to minimize lock hold time
     package_downloads = downloads.get(package, 0)
-    project_urls = get_project_urls(pkg_data["info"])
+    project_urls = get_project_urls(pkg_data["info"], exclude_host=exclude_host)
 
     dep_rows = []
     for req in urequires_dist:
@@ -353,10 +354,12 @@ def filter_packages(pkgs):
     return [pkg for pkg in pkgs if pkg not in existing]
 
 
-def parse_project_url(url):
+def parse_project_url(url: str | None, exclude_host: str | None = None):
     try:
         parsed = parse_url(url)
-        if not parsed.host or parsed.host == "pypi.org":
+        if not parsed.host:
+            return None
+        if exclude_host and parsed.host == exclude_host:
             return None
         if not str(parsed).startswith("http"):
             return None
@@ -365,9 +368,9 @@ def parse_project_url(url):
         return None
 
 
-def update_data_from_pypi():
+def update_data_from_pypi(index_url: str, exclude_host: str | None = None) -> None:
     filtered = filter_packages(packages)
-    futures = [pool.submit(update_data_for_package, pkg) for pkg in filtered]
+    futures = [pool.submit(update_data_for_package, pkg, index_url, exclude_host) for pkg in filtered]
     batch = []
     for future in tqdm(as_completed(futures), total=len(filtered), unit="packages"):
         result = future.result()
@@ -393,6 +396,33 @@ def get_google_assured_oss_packages(http: urllib3.PoolManager) -> set[str]:
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Fetch PyPI package metadata into a SQLite database.")
+    parser.add_argument(
+        "--index",
+        choices=["pypi", "testpypi"],
+        default="pypi",
+        help="Which PyPI index to use (default: pypi)",
+    )
+    args = parser.parse_args()
+
+    INDEX_URLS = {
+        "pypi": "https://pypi.org",
+        "testpypi": "https://test.pypi.org",
+    }
+    DB_NAMES = {
+        "pypi": "pypi.db",
+        "testpypi": "test.pypi.db",
+    }
+    # Exclude noise URLs from project_urls
+    EXCLUDE_HOSTS = {
+        "pypi": "test.pypi.org",
+        "testpypi": None,
+    }
+
+    index_url = INDEX_URLS[args.index]
+    db_name = DB_NAMES[args.index]
+    exclude_host = EXCLUDE_HOSTS[args.index]
+
     base_dir = os.path.dirname(os.path.abspath(__file__))
     http = urllib3.PoolManager(
         block=True,
@@ -415,7 +445,7 @@ if __name__ == "__main__":
     os.system(f"python -m venv {tmp_dir}/venv > /dev/null")
     venv_python = os.path.join(tmp_dir, "venv/bin/python")
 
-    pypi_deps_db = os.path.join(base_dir, "pypi.db")
+    pypi_deps_db = os.path.join(base_dir, db_name)
 
     downloads = {}
     resp = http.request("GET", DOWNLOADS_URL)
@@ -423,7 +453,7 @@ if __name__ == "__main__":
     for row in json.loads(resp.data)["rows"]:
         downloads[row["project"]] = row["download_count"]
 
-    _DB = sqlite3.connect(os.path.join(base_dir, "pypi.db"), check_same_thread=False, isolation_level=None)
+    _DB = sqlite3.connect(pypi_deps_db, check_same_thread=False, isolation_level=None)
     _DB.execute(
         """
       CREATE TABLE IF NOT EXISTS packages (
@@ -529,6 +559,6 @@ if __name__ == "__main__":
     _DB.commit()
     pool = ThreadPoolExecutor(max_workers=MAX_WORKERS)
 
-    packages = get_all_package_names()
+    packages = get_all_package_names(index_url)
 
-    update_data_from_pypi()
+    update_data_from_pypi(index_url, exclude_host=exclude_host)
